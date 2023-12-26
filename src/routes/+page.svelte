@@ -1,13 +1,11 @@
 <script>
-	import { dictionary } from '$lib/ntnu-now.json';
+	import { dictionary } from '$lib/ntnu-now-original.json';
 	// import { dictionary } from '$lib/test.json';
 	import { Flashcard } from '$lib';
   import { getRandomItemFromDictionary } from '$lib/utils.js';
 
 	let randomElement = $state(getRandomItemFromDictionary(dictionary))
 	let keys = $derived(Object.keys(randomElement))
-	// norsk = keys[0]
-	// english = randomElement[norsk]
 	let norsk = $state(keys[0])
 	let english = $state(randomElement[norsk])
 	let showCardBack = $state(false)	
@@ -23,7 +21,8 @@
 	}
 </script>
 
-<main class="flex flex-col items-center mt-15 h-screen">
+<div class="flex flex-col items-center mt-15">
+	<h1 class="text-3xl m-4">Nivå A1</h1>
 	<!-- FLASHCARD -->
 	<div class="bg-transparent w-96 h-40">
 		<div class="flip-box-inner" class:flip-it={showCardBack}>
@@ -37,32 +36,15 @@
 	<!-- BUTTONS -->
 	
 	<div id="btn-cont">
-		<button on:click={toggleShowBack}>
+		<button onclick={toggleShowBack}>
 			{showCardBack ? "Hide Answer" : "Show Answer"}
 		</button>
 		
-		<button class="arrow-btn" on:click={nextCard}>NEXT</button>
+		<button class="arrow-btn" onclick={nextCard}>NEXT</button>
 	</div>
-</main>	
+</div>	
 
 <style>
-	/* main { */
-		/* display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-top: 15%;
-		height: 100vh;
-	} */
-	
-	/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-	/* .flip-box {
-		background-color: transparent;
-		width: 400px;
-		height: 300px;
-/* 		border: 1px solid #ddd; */
-		/* perspective: 1000px; Remove this if you don't want the 3D effect */
-	/* }  */
-
 	/* This container is needed to position the front and back side */
 	.flip-box-inner {
 		position: relative;

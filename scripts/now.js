@@ -21,33 +21,9 @@ const getQuotes = async () => {
     ingressElements.forEach((pElement) => {
       const spans = Array.from(pElement.querySelectorAll("span[style*='font-family:']"));
       spans.forEach((span) => {
-        let particle = span.textContent.trim();
-
-        const anchorElement = span.nextElementSibling;
-  
-        if (anchorElement && anchorElement.tagName === 'A') {
-          let norskWord = anchorElement.textContent.trim().replace(/=/g, '').replace(/\)/g, '').trim();
-         
-          norskWord = `${particle} ${norskWord}`
-          
-          let englishWord = '';
-          
-          // Extract English word between ") =" and "<br />"
-          // const text = pElement.textContent;
-          // console.log('text', text)
-          // const startIndex = text.indexOf(') = ') + 4; // Adjusting to the end of the pattern
-          // const endIndex = text.indexOf('<br />', startIndex);
-
-          // if (startIndex !== -1 && endIndex !== -1) {
-          //   englishWord = text.slice(startIndex, endIndex).trim();
-          // }
-
-          // console.log('englishWord', englishWord)
-
-          if (norskWord) {
-            data.push({ norsk: norskWord  });
-          }
-        }
+        const text = pElement.textContent.trim();
+        data.push(text);
+        
       });
     });
   
@@ -55,13 +31,52 @@ const getQuotes = async () => {
   });
   
   try {
-    await fs.writeFile("src/lib/ntnu-now-v2.json", JSON.stringify(norskwords, null, 2));
-    console.log("Data saved to norskwords.json");
+    await fs.writeFile("scripts/norsk-eng.txt", norskwords.join('\n') + '\n', { flag: 'a' });
+    console.log('Text appended to file.');
   } catch (err) {
-    console.error("Error writing to file:", err);
+    console.error('Error appending to file:', err);
   }
 
   await browser.close();
 };
 
+
+
+const parseNorskEngFile = async () => {
+  try {
+    const data = await fs.readFile('scripts/norsk-eng.txt', 'utf-8');
+    // const sanitizedData = Buffer.from(data, 'utf-8').toString('utf-8');
+    const lines = data.split('\n');
+
+    const result = lines.map((line) => {
+      const bracketIndex = line.indexOf('(');
+      const equalIndex = line.indexOf('=');
+
+      if (bracketIndex !== -1 && equalIndex !== -1) {
+        const norsk = line.slice(0, bracketIndex).trim();
+        let english = line.slice(equalIndex + 1).trim();
+
+      if (english === 'proper name') {
+        english = norsk;
+      }
+        return {
+          norsk,
+          english,
+        };
+      } else {
+        return null; // Line doesn't match the pattern
+      }
+    }).filter(Boolean); // Remove null entries
+
+    const jsonOutput = JSON.stringify(result, null, 2);
+
+    await fs.writeFile('src/lib/ntnu-now.json', jsonOutput, 'utf-8');
+    console.log('Data written to norsk-eng.json file successfully.');
+  } catch (err) {
+    console.error('Error:', err);
+  }
+};
+
 getQuotes();
+// Call the function to parse and write to file
+parseNorskEngFile();
