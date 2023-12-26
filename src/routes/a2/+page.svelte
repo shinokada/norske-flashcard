@@ -48,7 +48,7 @@
 	
 	<div id="btn-cont">
 		<button onclick={toggleShowBack}>
-			{showCardBack ? "Hide Answer" : "Show Answer"}
+			{showCardBack ? "Vis norsk" : "Show Answer"}
 		</button>
 		
 		<button class="arrow-btn" onclick={nextCard}>NEXT</button>

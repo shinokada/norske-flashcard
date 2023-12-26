@@ -24,7 +24,7 @@
 <div class="flex flex-col items-center mt-15">
 	<h1 class="text-3xl m-4">Nivå A1</h1>
 	<!-- FLASHCARD -->
-	<div class="bg-transparent w-96 h-40">
+	<div class="bg-transparent w-full md:w-2/3 h-96">
 		<div class="flip-box-inner" class:flip-it={showCardBack}>
 			<Flashcard {norsk} 
 								 {english} 
@@ -37,7 +37,7 @@
 	
 	<div id="btn-cont">
 		<button onclick={toggleShowBack}>
-			{showCardBack ? "Hide Answer" : "Show Answer"}
+			{showCardBack ? "Vis norsk" : "Show Answer"}
 		</button>
 		
 		<button class="arrow-btn" onclick={nextCard}>NEXT</button>
