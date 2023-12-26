@@ -15,6 +15,7 @@
 	norsk = randomElement[key].norsk
 	english = randomElement[key].english
   norskexplanation = randomElement[key].norskexplanation;
+	english = `${english}, ${norskexplanation}`
 
 	let showCardBack = $state(false)	
 
@@ -27,13 +28,14 @@
 		norsk = randomElement[key].norsk
     english = randomElement[key].english
     norskexplanation = randomElement[key].norskexplanation;
+		english = `${english}, <br /> ------ <br />${norskexplanation}`
 	}
 </script>
 
 <div class="flex flex-col items-center mt-15">
 	<!-- FLASHCARD -->
 	<h1 class="text-3xl m-4">Nivå A2</h1>
-	<div class="bg-transparent w-96 h-40">
+	<div class="bg-transparent w-full md:w-2/3 h-96">
 		<div class="flip-box-inner" class:flip-it={showCardBack}>
 			<Flashcard {norsk} 
 								 {english} 
