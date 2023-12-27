@@ -1,4 +1,4 @@
-<footer class="bg-white dark:bg-gray-900 m-4 border-t">
+<footer class="bg-white dark:bg-gray-900 m-4 mt-16 border-t">
   <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
     <div class="sm:flex sm:items-center sm:justify-between">
         <a href="https://gjett-norsk.vercel.app/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse z-10">

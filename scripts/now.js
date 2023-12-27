@@ -15,23 +15,18 @@ const getQuotes = async () => {
 
   const norskwords = await page.evaluate(() => {
     const ingressElements = document.querySelectorAll("div.ingress p, div.innholdstekst p");
-
     const data = [];
 
-    ingressElements.forEach((pElement) => {
-      const spans = Array.from(pElement.querySelectorAll("span[style*='font-family:']"));
-      spans.forEach((span) => {
-        const text = pElement.textContent.trim();
-        data.push(text);
-        
-      });
+    ingressElements.forEach((element) => {
+      const text = element.innerText
+      data.push(text)
     });
   
     return data;
   });
   
   try {
-    await fs.writeFile("scripts/norsk-eng.txt", norskwords.join('\n') + '\n', { flag: 'a' });
+    await fs.writeFile("scripts/norsk-eng.txt", norskwords.join('\n') + '\n');
     console.log('Text appended to file.');
   } catch (err) {
     console.error('Error appending to file:', err);
