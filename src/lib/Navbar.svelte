@@ -41,6 +41,9 @@
           <a href="/a2" onclick={closeNav} aria-current={$page.url.pathname === '/a2'} class="{$page.url.pathname === '/a2' ? activeStyle : linkStyle}">Nivå A2</a>
         </li>
         <li>
+          <a href="/credits" onclick={closeNav} aria-current={$page.url.pathname === '/credits'} class="{$page.url.pathname === '/credits' ? activeStyle : linkStyle}">Credits</a>
+        </li>
+        <li>
           <a href="https://gjett-norsk.vercel.app" target="_blank" class="{linkStyle} text-red-500">Gjett Norsk</a>
         </li>
       </ul>

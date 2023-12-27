@@ -60,7 +60,7 @@
 		
 		<button class="w-20 bg-gray-300 p-4" onclick={()=>updateLang(langlang)}>NEXT</button>
 
-		<button class="w-48 bg-gray-300 p-4" onclick={toggleNorskexplanation}>Forklare på norsk</button>
+		<button class="w-48 bg-gray-300 p-4" onclick={toggleNorskexplanation}>Forklar på norsk</button>
 	</div>
 </div>	
 

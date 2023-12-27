@@ -6,13 +6,13 @@
         </a>
         <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 z-10">
           <li>
-              <a href="https://svelte-5-preview.vercel.app/docs/introduction" target="_blank" class="hover:underline me-4 md:me-6">Svelte 5</a>
+              <a href="/" class="hover:underline me-4 md:me-6">Nivå A1</a>
           </li>
           <li>
-              <a href="https://github.com/shinokada/norsk-flashcard" target="_blank" class="hover:underline me-4 md:me-6">Github repo</a>
+              <a href="/a2" class="hover:underline me-4 md:me-6">Nivå A2</a>
           </li>
           <li>
-              <a href="https://github.com/shinokada" target="_blank" class="hover:underline">Made by Shin</a>
+              <a href="https://gjett-norsk.vercel.app" target="_blank" class="hover:underline">Gjett Norsk</a>
           </li>
         </ul>
     </div>
