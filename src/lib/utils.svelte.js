@@ -34,6 +34,9 @@ export function getRandomPair(jsonData, langlang, isExplain = false) {
     } else if (langlang === 'engnor') {
       front = english;
       back = norsk;
+    } else if (langlang === 'nornor') {
+      front = norskexplanation;
+      back = norsk;
     }
 
     return { front, back, norskexplanation };

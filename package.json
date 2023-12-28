@@ -14,7 +14,8 @@
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
 		"createDic": "node ./scripts/now.js",
-		"createDic2": "node ./scripts/now2.js"
+		"createDic2": "node ./scripts/now2.js",
+		"createGrunnopp": "node ./scripts/grunnopp.js"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
