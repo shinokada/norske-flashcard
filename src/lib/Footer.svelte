@@ -17,8 +17,11 @@
               <a href="/a2" class="text-md hover:underline me-4 md:me-6">Nivå A2</a>
           </li>
           <li>
+            <a href="/verbs" class="text-md hover:underline me-4 md:me-6">Verbs</a>
+          </li>
+          <li>
             <a href="/education" class="text-md hover:underline me-4 md:me-6">Education</a>
-        </li>
+          </li>
           <li>
             <a href="/credits" class="text-md hover:underline me-4 md:me-6">Credits</a>
           </li>

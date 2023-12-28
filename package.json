@@ -15,7 +15,8 @@
 		"test:unit": "vitest",
 		"createDic": "node ./scripts/now.js",
 		"createDic2": "node ./scripts/now2.js",
-		"createGrunnopp": "node ./scripts/grunnopp.js"
+		"createGrunnopp": "node ./scripts/grunnopp.js",
+		"verbs": "node ./scripts/verbs.js"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",

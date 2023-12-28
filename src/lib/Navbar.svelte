@@ -41,6 +41,9 @@
           <a href="/a2" onclick={closeNav} aria-current={$page.url.pathname === '/a2'} class="{$page.url.pathname === '/a2' ? activeStyle : linkStyle}">Nivå A2</a>
         </li>
         <li>
+          <a href="/verbs" onclick={closeNav} aria-current={$page.url.pathname === '/verbs'} class="{$page.url.pathname === '/verbs' ? activeStyle : linkStyle}">Verbs</a>
+        </li>
+        <li>
           <a href="/education" onclick={closeNav} aria-current={$page.url.pathname === '/education'} class="{$page.url.pathname === '/education' ? activeStyle : linkStyle}">Education</a>
         </li>
         <li>
