@@ -6,9 +6,9 @@
 
 <div class="relative h-full">
 	<div class={frontClass}>
-			<p class="text-3xl p-8">{front}</p>
+			<p class="text-5xl p-4">{front}</p>
 	</div>
 	<div class="absolute inset-0 bg-custom-blue text-white flex justify-center items-center opacity-0 {showCardBack ? 'opacity-100 [transform:rotateY(180deg)]' : ''}">
-			<p class="text-3xl p-8">{@html back}</p>
+			<p class="text-5xl p-4">{@html back}</p>
 	</div>
 </div>

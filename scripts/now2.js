@@ -6,7 +6,7 @@ const getQuotes = async () => {
   // - a visible browser (`headless: false` - easier to debug because you'll see the browser in action)
   // - no default viewport (`defaultViewport: null` - website page will in full width and height)
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: "new",
     defaultViewport: null,
   });
 
@@ -28,9 +28,12 @@ const getQuotes = async () => {
     detailList.forEach((detail) => {
       const norsk = detail.querySelector("audio").nextElementSibling.textContent.trim();
       let english = detail.querySelector("a[href]").nextSibling.textContent.trim();
-      english = english.replace(/=/g, '').replace(/\)/g, '').trim();
+      // english = english.replace(/=/g, '').replace(/\)/g, '').trim();
+      english = english.replace(/=|\)|here: |her: |also: /g, '').trim();
 
-      const norskexplanation = detail.querySelector("font[color='blue']").textContent.trim();
+
+      let norskexplanation = detail.querySelector("font[color='blue']").textContent.trim();
+      norskexplanation = norskexplanation.replace('her: ', '')
   
       data.push({ norsk, english, norskexplanation });
     });

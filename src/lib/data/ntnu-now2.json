@@ -51,8 +51,8 @@
   },
   {
     "norsk": "aksjon",
-    "english": "here: action",
-    "norskexplanation": "her: i aksjon; har begynt med en spesiell jobb"
+    "english": "action",
+    "norskexplanation": "i aksjon; har begynt med en spesiell jobb"
   },
   {
     "norsk": "alder",
@@ -136,7 +136,7 @@
   },
   {
     "norsk": "antatt",
-    "english": "here: accepted",
+    "english": "accepted",
     "norskexplanation": "her / i vitenskap: som er akseptert, godkjent for publisering i et tidsskrift"
   },
   {
@@ -202,12 +202,12 @@
   {
     "norsk": "artikkel",
     "english": "an article",
-    "norskexplanation": "her: vitenskapelig tekst om et tema, også: tekst i avis"
+    "norskexplanation": "vitenskapelig tekst om et tema, også: tekst i avis"
   },
   {
     "norsk": "atmosfære",
     "english": "an atmosphere",
-    "norskexplanation": "her: ei stemning, hvordan noe føles"
+    "norskexplanation": "ei stemning, hvordan noe føles"
   },
   {
     "norsk": "attraktiv",
@@ -237,7 +237,7 @@
   {
     "norsk": "avhengig",
     "english": "dependent, addicted",
-    "norskexplanation": "som må ha, ufri, bundet, her: avhengig av; å trenge"
+    "norskexplanation": "som må ha, ufri, bundet, avhengig av; å trenge"
   },
   {
     "norsk": "avisartikkel",
@@ -322,7 +322,7 @@
   {
     "norsk": "bearbeide",
     "english": "to handle, to process",
-    "norskexplanation": "her: å arbeide seg gjennom, å håndtere"
+    "norskexplanation": "å arbeide seg gjennom, å håndtere"
   },
   {
     "norsk": "beboer",
@@ -402,7 +402,7 @@
   {
     "norsk": "beskyttet",
     "english": "protected",
-    "norskexplanation": "her: som man må ha en spesiell godkjennelse for å bruke"
+    "norskexplanation": "som man må ha en spesiell godkjennelse for å bruke"
   },
   {
     "norsk": "beslektet",
@@ -417,7 +417,7 @@
   {
     "norsk": "bestå",
     "english": "to consist",
-    "norskexplanation": "her: å være sammensatt av, hvilke deler som finnes i en helhet, også: å klare en eksamen med godt nok resultat"
+    "norskexplanation": "å være sammensatt av, hvilke deler som finnes i en helhet, også: å klare en eksamen med godt nok resultat"
   },
   {
     "norsk": "betydning",
@@ -687,12 +687,12 @@
   {
     "norsk": "definert",
     "english": "defined",
-    "norskexplanation": "her: spesielle, som har en klar grense"
+    "norskexplanation": "spesielle, som har en klar grense"
   },
   {
     "norsk": "definitivt",
-    "english": "here: definitely",
-    "norskexplanation": "her: ja, helt klart, helt sikkert"
+    "english": "definitely",
+    "norskexplanation": "ja, helt klart, helt sikkert"
   },
   {
     "norsk": "dekan",
@@ -701,8 +701,8 @@
   },
   {
     "norsk": "dekke",
-    "english": "here: to cover",
-    "norskexplanation": "her: å være stor nok til å betale, også: å være høy/stor nok til å skjule eller ha over noe"
+    "english": "to cover",
+    "norskexplanation": "å være stor nok til å betale, også: å være høy/stor nok til å skjule eller ha over noe"
   },
   {
     "norsk": "delta",
@@ -762,7 +762,7 @@
   {
     "norsk": "dreie (seg om)",
     "english": "to centre around, to be about",
-    "norskexplanation": "her: å handle om, å gjelde"
+    "norskexplanation": "å handle om, å gjelde"
   },
   {
     "norsk": "drøfte",
@@ -892,7 +892,7 @@
   {
     "norsk": "en",
     "english": "one",
-    "norskexplanation": "her: på den ene siden; ett synspunkt på saken"
+    "norskexplanation": "på den ene siden; ett synspunkt på saken"
   },
   {
     "norsk": "en",
@@ -1101,8 +1101,8 @@
   },
   {
     "norsk": "felle",
-    "english": "here: to shed tears",
-    "norskexplanation": "her: å felle en tåre; å gråte, det at tårene renner nedover kinnene"
+    "english": "to shed tears",
+    "norskexplanation": "å felle en tåre; å gråte, det at tårene renner nedover kinnene"
   },
   {
     "norsk": "felles",
@@ -1301,8 +1301,8 @@
   },
   {
     "norsk": "form",
-    "english": "here: shape",
-    "norskexplanation": "her: å være i god form; fysisk tilstand, også: en fasong"
+    "english": "shape",
+    "norskexplanation": "å være i god form; fysisk tilstand, også: en fasong"
   },
   {
     "norsk": "formell",
@@ -1437,7 +1437,7 @@
   {
     "norsk": "frihet",
     "english": "freedom, liberty",
-    "norskexplanation": "her: rett og mulighet til noe, uten tvang"
+    "norskexplanation": "rett og mulighet til noe, uten tvang"
   },
   {
     "norsk": "frihetskjemper",
@@ -1472,7 +1472,7 @@
   {
     "norsk": "front",
     "english": "a front",
-    "norskexplanation": "en forside, her: dørene på kjøkkenskapene"
+    "norskexplanation": "en forside, dørene på kjøkkenskapene"
   },
   {
     "norsk": "frosk",
@@ -1486,8 +1486,8 @@
   },
   {
     "norsk": "full",
-    "english": "here: full",
-    "norskexplanation": "her: maksimal, med maksimalt innhold"
+    "english": "full",
+    "norskexplanation": "maksimal, med maksimalt innhold"
   },
   {
     "norsk": "fullføre",
@@ -1521,7 +1521,7 @@
   },
   {
     "norsk": "fylle",
-    "english": "here: to turn",
+    "english": "to turn",
     "norskexplanation": "å fylle år; å ha bursdag"
   },
   {
@@ -1546,8 +1546,8 @@
   },
   {
     "norsk": "født",
-    "english": "here: \"born with skis on their feet/legs\", expression about Norwegians beeing natural born skiers",
-    "norskexplanation": "her: \"født med ski på beina\", uttrykk om at mange nordmenn er naturlig flinke til å gå på ski"
+    "english": "\"born with skis on their feet/legs\", expression about Norwegians beeing natural born skiers",
+    "norskexplanation": "\"født med ski på beina\", uttrykk om at mange nordmenn er naturlig flinke til å gå på ski"
   },
   {
     "norsk": "følelse",
@@ -1557,7 +1557,7 @@
   {
     "norsk": "følge",
     "english": "to follow",
-    "norskexplanation": "her: \"å følge med\"; å rette oppmerksomheten mot, å observere, å oppfatte"
+    "norskexplanation": "\"å følge med\"; å rette oppmerksomheten mot, å observere, å oppfatte"
   },
   {
     "norsk": "føre",
@@ -1576,8 +1576,8 @@
   },
   {
     "norsk": "gal",
-    "english": "her: wrong, also: crazy",
-    "norskexplanation": "her: feil, ikke riktig, også: sinnssyk, som har mistet evnen til å tenke normalt"
+    "english": "wrong, crazy",
+    "norskexplanation": "feil, ikke riktig, også: sinnssyk, som har mistet evnen til å tenke normalt"
   },
   {
     "norsk": "gammeldags",
@@ -1657,7 +1657,7 @@
   {
     "norsk": "grad",
     "english": "a grade",
-    "norskexplanation": "her: et akademisk utviklingstrinn; en bachelorgrad, en mastergrad og en doktorgrad"
+    "norskexplanation": "et akademisk utviklingstrinn; en bachelorgrad, en mastergrad og en doktorgrad"
   },
   {
     "norsk": "gradsstruktur",
@@ -1781,13 +1781,18 @@
   },
   {
     "norsk": "hard",
-    "english": "hard, firm, here: to take the offensive",
-    "norskexplanation": "kraftig, intens, som ikke er myk, her: å gå hardt ut; være god fra begynnelsen"
+    "english": "hard, firm, to take the offensive",
+    "norskexplanation": "kraftig, intens, som ikke er myk, å gå hardt ut; være god fra begynnelsen"
   },
   {
     "norsk": "hehe",
     "english": "haha, hehe",
     "norskexplanation": "latter, utrop"
+  },
+  {
+    "norsk": "heimr",
+    "english": "old Norse",
+    "norskexplanation": "norrønt: hjem"
   },
   {
     "norsk": "helgen",
@@ -1802,7 +1807,7 @@
   {
     "norsk": "helt",
     "english": "completely",
-    "norskexplanation": "her: 100 %"
+    "norskexplanation": "100 %"
   },
   {
     "norsk": "hende",
@@ -1811,8 +1816,8 @@
   },
   {
     "norsk": "hensyn",
-    "english": "here: consideration",
-    "norskexplanation": "her: noe man tar med i vurderingen"
+    "english": "consideration",
+    "norskexplanation": "noe man tar med i vurderingen"
   },
   {
     "norsk": "hinduisme",
@@ -1842,7 +1847,7 @@
   {
     "norsk": "hjerte",
     "english": "a heart",
-    "norskexplanation": "fysisk: muskel som pumper blod, her: overført betydning; følelser, det at du føler kjærlighet til noe"
+    "norskexplanation": "fysisk: muskel som pumper blod, overført betydning; følelser, det at du føler kjærlighet til noe"
   },
   {
     "norsk": "hjuldamper",
@@ -1972,7 +1977,7 @@
   {
     "norsk": "høyere",
     "english": "higher",
-    "norskexplanation": "komparativ av høy; her: utdanning på universitet eller høyskole"
+    "norskexplanation": "komparativ av høy; utdanning på universitet eller høyskole"
   },
   {
     "norsk": "høyskole",
@@ -2002,7 +2007,7 @@
   {
     "norsk": "håndtere",
     "english": "to handle, deal with, manage",
-    "norskexplanation": "her: å ta seg av; å gjøre, å utføre"
+    "norskexplanation": "å ta seg av; å gjøre, å utføre"
   },
   {
     "norsk": "idrettsfag",
@@ -2016,8 +2021,8 @@
   },
   {
     "norsk": "imot",
-    "english": "here: to welcome someone",
-    "norskexplanation": "her: å ta imot; å ønske velkommen"
+    "english": "to welcome someone",
+    "norskexplanation": "å ta imot; å ønske velkommen"
   },
   {
     "norsk": "imøtekommende",
@@ -2092,7 +2097,7 @@
   {
     "norsk": "inkludere",
     "english": "to include",
-    "norskexplanation": "her: inkludert; som inkluderer, som er med noe"
+    "norskexplanation": "inkludert; som inkluderer, som er med noe"
   },
   {
     "norsk": "innbetaling",
@@ -2176,8 +2181,8 @@
   },
   {
     "norsk": "inntil",
-    "english": "here: against, close to",
-    "norskexplanation": "her: ved siden av uten mellomrom, uten åpning mellom"
+    "english": "against, close to",
+    "norskexplanation": "ved siden av uten mellomrom, uten åpning mellom"
   },
   {
     "norsk": "inntrykk",
@@ -2252,7 +2257,7 @@
   {
     "norsk": "japansk",
     "english": "Japanese",
-    "norskexplanation": "som kommer fra Japan, her: språk fra Japan"
+    "norskexplanation": "som kommer fra Japan, språk fra Japan"
   },
   {
     "norsk": "jobb",
@@ -2436,8 +2441,8 @@
   },
   {
     "norsk": "klare",
-    "english": "here: to manage, to stand",
-    "norskexplanation": "her: å greie, å ha evnen til"
+    "english": "to manage, to stand",
+    "norskexplanation": "å greie, å ha evnen til"
   },
   {
     "norsk": "klargjøre",
@@ -2451,8 +2456,8 @@
   },
   {
     "norsk": "klassisk",
-    "english": "here: classical",
-    "norskexplanation": "her: tradisjonell"
+    "english": "classical",
+    "norskexplanation": "tradisjonell"
   },
   {
     "norsk": "klemme",
@@ -2481,8 +2486,8 @@
   },
   {
     "norsk": "kofte",
-    "english": "here: Sami national costume, also: knitted jacket",
-    "norskexplanation": "her: samisk folkedrakt, også: en strikket jakke med knapper foran"
+    "english": "Sami national costume, knitted jacket",
+    "norskexplanation": "samisk folkedrakt, også: en strikket jakke med knapper foran"
   },
   {
     "norsk": "kokt",
@@ -2571,8 +2576,8 @@
   },
   {
     "norsk": "kontroll",
-    "english": "here: control, power",
-    "norskexplanation": "her: makt; at en selv kan bestemme over noe"
+    "english": "control, power",
+    "norskexplanation": "makt; at en selv kan bestemme over noe"
   },
   {
     "norsk": "koordinatsystem",
@@ -2716,8 +2721,8 @@
   },
   {
     "norsk": "lede (frem til)",
-    "english": "here: to lead to",
-    "norskexplanation": "her: å føre til, å slutte med"
+    "english": "to lead to",
+    "norskexplanation": "å føre til, å slutte med"
   },
   {
     "norsk": "ledelse",
@@ -2731,8 +2736,8 @@
   },
   {
     "norsk": "lei",
-    "english": "here: upset, sad, sorry",
-    "norskexplanation": "her: å være lei seg; å være trist, også: at noe er kjedelig, at man har gjort noe for lenge"
+    "english": "upset, sad, sorry",
+    "norskexplanation": "å være lei seg; å være trist, også: at noe er kjedelig, at man har gjort noe for lenge"
   },
   {
     "norsk": "leie",
@@ -2852,7 +2857,7 @@
   {
     "norsk": "lov",
     "english": "a law",
-    "norskexplanation": "her: å få lov til; å kunne gjøre noe, noen andre gir deg tillatelse til å gjøre noe, også: et juridisk dokument som regulerer samfunnet"
+    "norskexplanation": "å få lov til; å kunne gjøre noe, noen andre gir deg tillatelse til å gjøre noe, også: et juridisk dokument som regulerer samfunnet"
   },
   {
     "norsk": "luthersk-protestantisk",
@@ -2921,8 +2926,8 @@
   },
   {
     "norsk": "mangle",
-    "english": "to lack, to be without, here/also: it's the least one could do",
-    "norskexplanation": "å ikke ha noe man trenger/ønsker, her: \"det skulle bare mangle\"; det var det minste jeg kunne gjøre, ingen årsak"
+    "english": "to lack, to be without, here/it's the least one could do",
+    "norskexplanation": "å ikke ha noe man trenger/ønsker, \"det skulle bare mangle\"; det var det minste jeg kunne gjøre, ingen årsak"
   },
   {
     "norsk": "marin",
@@ -3076,7 +3081,7 @@
   },
   {
     "norsk": "miste",
-    "english": "here: to lose, also expression: to miss the bus",
+    "english": "to lose, also expression: to miss the bus",
     "norskexplanation": "å ikke ha lenger, å gi slipp på, å ikke finne noe, også i uttrykk: å miste bussen; å ikke rekke bussen"
   },
   {
@@ -3187,7 +3192,7 @@
   {
     "norsk": "natur",
     "english": "a nature, a landscape",
-    "norskexplanation": "her: skog og mark, uteområder"
+    "norskexplanation": "skog og mark, uteområder"
   },
   {
     "norsk": "naturfag",
@@ -3237,7 +3242,7 @@
   {
     "norsk": "nest",
     "english": "second",
-    "norskexplanation": "her: nummer to"
+    "norskexplanation": "nummer to"
   },
   {
     "norsk": "nettbank",
@@ -3257,7 +3262,7 @@
   {
     "norsk": "nettverk",
     "english": "a network",
-    "norskexplanation": "her: overført betydning; sammenkobling av kontakter"
+    "norskexplanation": "overført betydning; sammenkobling av kontakter"
   },
   {
     "norsk": "nevne",
@@ -3268,6 +3273,11 @@
     "norsk": "nevral",
     "english": "neural",
     "norskexplanation": "som har med nervesystemet å gjøre"
+  },
+  {
+    "norsk": "nid",
+    "english": "old Norse",
+    "norskexplanation": "norrønt"
   },
   {
     "norsk": "niese",
@@ -3396,7 +3406,7 @@
   },
   {
     "norsk": "omgivelse",
-    "english": "here: neighbourhood, surrounding areas",
+    "english": "neighbourhood, surrounding areas",
     "norskexplanation": "stedene/områdene som ligger i nærheten"
   },
   {
@@ -3441,7 +3451,7 @@
   },
   {
     "norsk": "oppgjør",
-    "english": "here: settlement (of accounts",
+    "english": "settlement (of accounts",
     "norskexplanation": "det å avslutte et regnskap"
   },
   {
@@ -3476,8 +3486,8 @@
   },
   {
     "norsk": "opprykk",
-    "english": "here: advancement, promotion",
-    "norskexplanation": "her: det at man får en høyere stilling"
+    "english": "advancement, promotion",
+    "norskexplanation": "det at man får en høyere stilling"
   },
   {
     "norsk": "oppsummere",
@@ -3486,12 +3496,12 @@
   },
   {
     "norsk": "opptak",
-    "english": "here: admission",
-    "norskexplanation": "her: det å gi/få studieplass"
+    "english": "admission",
+    "norskexplanation": "det å gi/få studieplass"
   },
   {
     "norsk": "opptatt",
-    "english": "here: interested, also: occupied, busy,",
+    "english": "interested, occupied, busy,",
     "norskexplanation": "her opptatt av; interessert i, også:  travel, ikke ledig"
   },
   {
@@ -3777,7 +3787,7 @@
   {
     "norsk": "punkt",
     "english": "a point, a subsection",
-    "norskexplanation": "her: en del, en spesiell side av en sak"
+    "norskexplanation": "en del, en spesiell side av en sak"
   },
   {
     "norsk": "purring",
@@ -3816,8 +3826,8 @@
   },
   {
     "norsk": "ramme",
-    "english": "here: to hit, to strike",
-    "norskexplanation": "å ha alvorlig innvirkning på, her: å bli rammet; å bli utsatt for store konsekvenser"
+    "english": "to hit, to strike",
+    "norskexplanation": "å ha alvorlig innvirkning på, å bli rammet; å bli utsatt for store konsekvenser"
   },
   {
     "norsk": "rapport",
@@ -3856,8 +3866,8 @@
   },
   {
     "norsk": "referanse",
-    "english": "here: a reference person",
-    "norskexplanation": "her: en person som kan fortelle noe om arbeidssøkeren"
+    "english": "a reference person",
+    "norskexplanation": "en person som kan fortelle noe om arbeidssøkeren"
   },
   {
     "norsk": "Reformasjonen (def.)",
@@ -3871,8 +3881,8 @@
   },
   {
     "norsk": "regne (ut)",
-    "english": "here: to calculate, to do arithmetic",
-    "norskexplanation": "her: å gjøre en matematisk operasjon, å kalkulere"
+    "english": "to calculate, to do arithmetic",
+    "norskexplanation": "å gjøre en matematisk operasjon, å kalkulere"
   },
   {
     "norsk": "regnskap",
@@ -3921,8 +3931,8 @@
   },
   {
     "norsk": "rekke",
-    "english": "here: to raise one's hand, also: to have enough time",
-    "norskexplanation": "her: å strekke, å ta hånda opp over hodet, også: å få nok tid til"
+    "english": "to raise one's hand, to have enough time",
+    "norskexplanation": "å strekke, å ta hånda opp over hodet, også: å få nok tid til"
   },
   {
     "norsk": "rekkehus",
@@ -4021,8 +4031,8 @@
   },
   {
     "norsk": "ro",
-    "english": "here: take it easy, to keep quiet",
-    "norskexplanation": "her: å ta det med ro; å ikke bevege seg, å slappe av"
+    "english": "take it easy, to keep quiet",
+    "norskexplanation": "å ta det med ro; å ikke bevege seg, å slappe av"
   },
   {
     "norsk": "romantisk",
@@ -4216,8 +4226,8 @@
   },
   {
     "norsk": "sensor",
-    "english": "here: a device which detects or measures a physical property, also: censor",
-    "norskexplanation": "her:  et instrument som registrerer en viss påvirkning (for eksempel varme eller kulde) føler, også: ved eksamen; person som vurderer og gir karakter på eksamensprestasjoner"
+    "english": "a device which detects or measures a physical property, censor",
+    "norskexplanation": " et instrument som registrerer en viss påvirkning (for eksempel varme eller kulde) føler, også: ved eksamen; person som vurderer og gir karakter på eksamensprestasjoner"
   },
   {
     "norsk": "sentral",
@@ -4227,7 +4237,7 @@
   {
     "norsk": "separat",
     "english": "separate",
-    "norskexplanation": "adskilt, her: som har egne vegger"
+    "norskexplanation": "adskilt, som har egne vegger"
   },
   {
     "norsk": "september",
@@ -4286,8 +4296,8 @@
   },
   {
     "norsk": "sist",
-    "english": "here: recently, lately",
-    "norskexplanation": "som kommer til slutt, her: det siste; den siste tiden"
+    "english": "recently, lately",
+    "norskexplanation": "som kommer til slutt, det siste; den siste tiden"
   },
   {
     "norsk": "situasjon",
@@ -4331,12 +4341,12 @@
   },
   {
     "norsk": "skikkelig",
-    "english": "here: really, extremely",
+    "english": "really, extremely",
     "norskexplanation": "virkelig, veldig"
   },
   {
     "norsk": "skille",
-    "english": "here: to separate, also: to divorce",
+    "english": "to separate, to divorce",
     "norskexplanation": "hva som er forskjellig mellom to ting, også: å skille seg; å avslutte et ekteskap"
   },
   {
@@ -4432,7 +4442,7 @@
   {
     "norsk": "slik",
     "english": "such",
-    "norskexplanation": "her: på denne måten, sånn"
+    "norskexplanation": "på denne måten, sånn"
   },
   {
     "norsk": "slike",
@@ -4446,13 +4456,13 @@
   },
   {
     "norsk": "slå",
-    "english": "here: to unite, to merge, also: to hit, strike",
-    "norskexplanation": "her: å slå seg sammen; å gå fra to eller flere til én, også: å slå; å svinge hånda eller en gjenstand mot en annen person slik at de får vondt"
+    "english": "to unite, to merge, to hit, strike",
+    "norskexplanation": "å slå seg sammen; å gå fra to eller flere til én, også: å slå; å svinge hånda eller en gjenstand mot en annen person slik at de får vondt"
   },
   {
     "norsk": "smøre",
-    "english": "here: to butter",
-    "norskexplanation": "her: ta på pålegg eller smør på brød"
+    "english": "to butter",
+    "norskexplanation": "ta på pålegg eller smør på brød"
   },
   {
     "norsk": "småting",
@@ -4531,7 +4541,7 @@
   },
   {
     "norsk": "spørs",
-    "english": "here: depends",
+    "english": "depends",
     "norskexplanation": "i uttrykk: det spørs; det kommer an på, det er tvilsomt, det er ikke sannsynlig"
   },
   {
@@ -4602,7 +4612,7 @@
   {
     "norsk": "sterk",
     "english": "strong, firm",
-    "norskexplanation": "her: som har mye smak, for eksempel av pepper/chili, også: som tåler mye / som kan løfte mye"
+    "norskexplanation": "som har mye smak, for eksempel av pepper/chili, også: som tåler mye / som kan løfte mye"
   },
   {
     "norsk": "stiftelse",
@@ -4616,8 +4626,8 @@
   },
   {
     "norsk": "stille",
-    "english": "here: to make demands, also: to ask a question",
-    "norskexplanation": "her: å stille krav; å kreve noe spesielt, å si at man vil noe også: å stille spørsmål ved; å lure på noe"
+    "english": "to make demands, to ask a question",
+    "norskexplanation": "å stille krav; å kreve noe spesielt, å si at man vil noe også: å stille spørsmål ved; å lure på noe"
   },
   {
     "norsk": "stilling",
@@ -4880,6 +4890,16 @@
     "norskexplanation": "som ikke er åpen, som ikke har mellomrom eller hull"
   },
   {
+    "norsk": "þrndr",
+    "english": "old Norse",
+    "norskexplanation": "norrønt; trønder"
+  },
+  {
+    "norsk": "þróndheimr",
+    "english": "old Norse",
+    "norskexplanation": "norrønt: Trondheim"
+  },
+  {
     "norsk": "tidsbegrenset",
     "english": "temporary, of limited duration",
     "norskexplanation": "som har en starttid og en sluttid"
@@ -4921,8 +4941,8 @@
   },
   {
     "norsk": "tilhenger",
-    "english": "here: follower, supporter",
-    "norskexplanation": "her: en fan; en som støtter et lag"
+    "english": "follower, supporter",
+    "norskexplanation": "en fan; en som støtter et lag"
   },
   {
     "norsk": "tilhøre",
@@ -4966,8 +4986,8 @@
   },
   {
     "norsk": "tog",
-    "english": "here: a parade",
-    "norskexplanation": "her: en parade"
+    "english": "a parade",
+    "norskexplanation": "en parade"
   },
   {
     "norsk": "tolke",
@@ -5312,12 +5332,12 @@
   {
     "norsk": "utvikle",
     "english": "to develop",
-    "norskexplanation": "her: å lage"
+    "norskexplanation": "å lage"
   },
   {
     "norsk": "utvikle (seg)",
     "english": "to develop",
-    "norskexplanation": "her: å bli bedre"
+    "norskexplanation": "å bli bedre"
   },
   {
     "norsk": "vakker",
@@ -5331,7 +5351,7 @@
   },
   {
     "norsk": "valg",
-    "english": "a choice, also: election",
+    "english": "a choice, election",
     "norskexplanation": "noe man velger, hvilken beslutning man tar, også: politisk valg; mulighet for befolkningen til å si sin mening om politiske saker"
   },
   {
@@ -5451,13 +5471,13 @@
   },
   {
     "norsk": "vid",
-    "english": "here: further, also: wide",
-    "norskexplanation": "her: videre, som man fortsetter med"
+    "english": "further, wide",
+    "norskexplanation": "videre, som man fortsetter med"
   },
   {
     "norsk": "videregående",
-    "english": "high school, also: further, more advanced",
-    "norskexplanation": "her: frivillig skole for 11.-13. klassetrinn, gymnas, også: som går videre fra noe annet"
+    "english": "high school, further, more advanced",
+    "norskexplanation": "frivillig skole for 11.-13. klassetrinn, gymnas, også: som går videre fra noe annet"
   },
   {
     "norsk": "vielse",
@@ -5482,7 +5502,7 @@
   {
     "norsk": "vinne",
     "english": "to win",
-    "norskexplanation": "her: å få, å oppnå, å få som en pris, å bli best"
+    "norskexplanation": "å få, å oppnå, å få som en pris, å bli best"
   },
   {
     "norsk": "vinterhalvår",
@@ -5496,8 +5516,8 @@
   },
   {
     "norsk": "virke",
-    "english": "here: to function, also: to seem",
-    "norskexplanation": "her: fungere; også: se ut, å framstå som"
+    "english": "to function, to seem",
+    "norskexplanation": "fungere; også: se ut, å framstå som"
   },
   {
     "norsk": "visning",
@@ -5542,7 +5562,7 @@
   {
     "norsk": "wok",
     "english": "a wok",
-    "norskexplanation": "her: matrett laget i ei wokpanne, asiatisk matrett"
+    "norskexplanation": "matrett laget i ei wokpanne, asiatisk matrett"
   },
   {
     "norsk": "workshops (pl.)",
