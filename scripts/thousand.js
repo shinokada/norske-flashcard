@@ -13,18 +13,15 @@ async function scrapeVocabularyData() {
     const data = await page.evaluate(() => {
       const items = Array.from(document.querySelectorAll('#main-list li'));
 
-      return items.map(item => {
-        const norsk = item.querySelector('.vocab').textContent.trim();
-        const englishElement = item.querySelector('.definition');
-        let english = englishElement ? englishElement.textContent.replace(/^\(|\)$/g, '').replace(/\[|\]/g, '').trim() : "";
+      return items
+        .map(item => {
+          const norsk = item.querySelector('.vocab').textContent.trim();
+          const englishElement = item.querySelector('.definition');
+          const english = englishElement ? englishElement.textContent.replace(/^\(|\)$/g, '').replace(/\[|\]/g, '').trim() : "";
 
-        // Check if English translation appears to be missing
-        if (!english || english.trim().length === 0) {
-          english = "N/A";
-        }
-        
-        return { norsk, english };
-      });
+          return { norsk, english };
+        })
+        .filter(item => item.english !== ""); // Remove entries with missing English translation
     });
 
     const jsonContent = JSON.stringify(data, null, 2);

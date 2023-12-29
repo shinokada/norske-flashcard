@@ -556,10 +556,6 @@
     "english": "to know"
   },
   {
-    "norsk": "krone",
-    "english": "N/A"
-  },
-  {
     "norsk": "like",
     "english": "as, equally"
   },
@@ -602,10 +598,6 @@
   {
     "norsk": "gammel",
     "english": "old"
-  },
-  {
-    "norsk": "ned",
-    "english": "N/A"
   },
   {
     "norsk": "bil",
@@ -686,10 +678,6 @@
   {
     "norsk": "kveld",
     "english": "evening"
-  },
-  {
-    "norsk": "tilbake",
-    "english": "N/A"
   },
   {
     "norsk": "kanskje",
@@ -832,10 +820,6 @@
     "english": "a run"
   },
   {
-    "norsk": "neste",
-    "english": "N/A"
-  },
-  {
     "norsk": "menneske",
     "english": "a human being"
   },
@@ -948,10 +932,6 @@
     "english": "nevertheless"
   },
   {
-    "norsk": "time",
-    "english": "N/A"
-  },
-  {
     "norsk": "først",
     "english": "first"
   },
@@ -1028,20 +1008,8 @@
     "english": "to lead"
   },
   {
-    "norsk": "fjor",
-    "english": "N/A"
-  },
-  {
-    "norsk": "stille",
-    "english": "N/A"
-  },
-  {
     "norsk": "søndag",
     "english": "Sunday"
-  },
-  {
-    "norsk": "fram",
-    "english": "N/A"
   },
   {
     "norsk": "sen",
@@ -1208,10 +1176,6 @@
     "english": "requirement, a demand"
   },
   {
-    "norsk": "ute",
-    "english": "N/A"
-  },
-  {
     "norsk": "rekke",
     "english": "a line"
   },
@@ -1340,14 +1304,6 @@
     "english": "to hear"
   },
   {
-    "norsk": "samt",
-    "english": "N/A"
-  },
-  {
-    "norsk": "enda",
-    "english": "N/A"
-  },
-  {
     "norsk": "lav",
     "english": "low"
   },
@@ -1376,10 +1332,6 @@
     "english": "a plan"
   },
   {
-    "norsk": "hjem",
-    "english": "N/A"
-  },
-  {
     "norsk": "valg",
     "english": "election"
   },
@@ -1392,10 +1344,6 @@
     "english": "to fit"
   },
   {
-    "norsk": "parti",
-    "english": "N/A"
-  },
-  {
     "norsk": "sommer",
     "english": "summer"
   },
@@ -1404,20 +1352,12 @@
     "english": "right"
   },
   {
-    "norsk": "tips",
-    "english": "N/A"
-  },
-  {
     "norsk": "handle",
     "english": "to act"
   },
   {
     "norsk": "bo",
     "english": "to stay"
-  },
-  {
-    "norsk": "enkelt",
-    "english": "N/A"
   },
   {
     "norsk": "helg",
@@ -1456,10 +1396,6 @@
     "english": "a product"
   },
   {
-    "norsk": "hjemme",
-    "english": "N/A"
-  },
-  {
     "norsk": "redusere",
     "english": "to reduce"
   },
@@ -1494,10 +1430,6 @@
   {
     "norsk": "forskjellig",
     "english": "different"
-  },
-  {
-    "norsk": "trekke",
-    "english": "N/A"
   },
   {
     "norsk": "politisk",
@@ -1542,10 +1474,6 @@
   {
     "norsk": "tiltak",
     "english": "action"
-  },
-  {
-    "norsk": "drive",
-    "english": "N/A"
   },
   {
     "norsk": "erfaring",
@@ -1816,10 +1744,6 @@
     "english": "control"
   },
   {
-    "norsk": "Bergen",
-    "english": "N/A"
-  },
-  {
     "norsk": "tilfelle",
     "english": "an instance, a case"
   },
@@ -1946,10 +1870,6 @@
   {
     "norsk": "ferdig",
     "english": "finished"
-  },
-  {
-    "norsk": "virkelig",
-    "english": "N/A"
   },
   {
     "norsk": "regel",
@@ -2296,10 +2216,6 @@
     "english": "to lack"
   },
   {
-    "norsk": "sikte",
-    "english": "N/A"
-  },
-  {
     "norsk": "trener",
     "english": "a trainer"
   },
@@ -2314,10 +2230,6 @@
   {
     "norsk": "tilgang",
     "english": "access"
-  },
-  {
-    "norsk": "Tromsø",
-    "english": "N/A"
   },
   {
     "norsk": "naturlig",
@@ -2360,16 +2272,8 @@
     "english": "Sweden"
   },
   {
-    "norsk": "unna",
-    "english": "N/A"
-  },
-  {
     "norsk": "påvirke",
     "english": "to influence"
-  },
-  {
-    "norsk": "Stortinget",
-    "english": "N/A"
   },
   {
     "norsk": "pågripe",
@@ -2460,10 +2364,6 @@
     "english": "provisional, tentative"
   },
   {
-    "norsk": "Stavanger",
-    "english": "N/A"
-  },
-  {
     "norsk": "runde",
     "english": "a round"
   },
@@ -2522,10 +2422,6 @@
   {
     "norsk": "utvalg",
     "english": "a selection"
-  },
-  {
-    "norsk": "Trondheim",
-    "english": "N/A"
   },
   {
     "norsk": "død",
@@ -2660,20 +2556,12 @@
     "english": "in the middle"
   },
   {
-    "norsk": "per",
-    "english": "N/A"
-  },
-  {
     "norsk": "lærer",
     "english": "a teacher"
   },
   {
     "norsk": "foreslå",
     "english": "to suggest"
-  },
-  {
-    "norsk": "omgang",
-    "english": "N/A"
   },
   {
     "norsk": "omtale",
@@ -2778,10 +2666,6 @@
   {
     "norsk": "fordel",
     "english": "an advantage"
-  },
-  {
-    "norsk": "utover",
-    "english": "N/A"
   },
   {
     "norsk": "alene",
@@ -2912,14 +2796,6 @@
     "english": "an event"
   },
   {
-    "norsk": "slett",
-    "english": "N/A"
-  },
-  {
-    "norsk": "vedta",
-    "english": "N/A"
-  },
-  {
     "norsk": "enhet",
     "english": "a unit"
   },
@@ -2948,20 +2824,12 @@
     "english": "February"
   },
   {
-    "norsk": "ene",
-    "english": "N/A"
-  },
-  {
     "norsk": "fotball",
     "english": "soccer"
   },
   {
     "norsk": "tap",
     "english": "loss"
-  },
-  {
-    "norsk": "borte",
-    "english": "N/A"
   },
   {
     "norsk": "produsere",
@@ -3016,10 +2884,6 @@
     "english": "to grow"
   },
   {
-    "norsk": "innlegg",
-    "english": "N/A"
-  },
-  {
     "norsk": "liste",
     "english": "a list"
   },
@@ -3058,10 +2922,6 @@
   {
     "norsk": "gjest",
     "english": "a guest"
-  },
-  {
-    "norsk": "selvsagt",
-    "english": "N/A"
   },
   {
     "norsk": "november",
@@ -3120,10 +2980,6 @@
     "english": "to examine"
   },
   {
-    "norsk": "andre",
-    "english": "N/A"
-  },
-  {
     "norsk": "oppnå",
     "english": "to achieve"
   },
@@ -3144,20 +3000,12 @@
     "english": "to involve"
   },
   {
-    "norsk": "tilsvare",
-    "english": "N/A"
-  },
-  {
     "norsk": "sammenheng",
     "english": "context"
   },
   {
     "norsk": "søknad",
     "english": "an application"
-  },
-  {
-    "norsk": "uttale",
-    "english": "N/A"
   },
   {
     "norsk": "gratis",
@@ -3304,20 +3152,8 @@
     "english": "a mayor"
   },
   {
-    "norsk": "masse",
-    "english": "N/A"
-  },
-  {
-    "norsk": "selvfølgelig",
-    "english": "N/A"
-  },
-  {
     "norsk": "hvit",
     "english": "white"
-  },
-  {
-    "norsk": "kilometer",
-    "english": "N/A"
   },
   {
     "norsk": "kommentar",
@@ -3352,10 +3188,6 @@
     "english": "to discuss"
   },
   {
-    "norsk": "avgjøre",
-    "english": "N/A"
-  },
-  {
     "norsk": "bygg",
     "english": "building"
   },
@@ -3366,10 +3198,6 @@
   {
     "norsk": "skille",
     "english": "to separate"
-  },
-  {
-    "norsk": "slags",
-    "english": "N/A"
   },
   {
     "norsk": "innrømme",
@@ -3410,10 +3238,6 @@
   {
     "norsk": "samarbeide",
     "english": "collaborate, to cooperate"
-  },
-  {
-    "norsk": "Russland",
-    "english": "N/A"
   },
   {
     "norsk": "redde",
@@ -3512,10 +3336,6 @@
     "english": "nature"
   },
   {
-    "norsk": "enorm",
-    "english": "N/A"
-  },
-  {
     "norsk": "bank",
     "english": "a bank"
   },
@@ -3568,14 +3388,6 @@
     "english": "to vary"
   },
   {
-    "norsk": "fremover",
-    "english": "N/A"
-  },
-  {
-    "norsk": "bekymre",
-    "english": "N/A"
-  },
-  {
     "norsk": "kraft",
     "english": "power"
   },
@@ -3600,20 +3412,12 @@
     "english": "modern"
   },
   {
-    "norsk": "streng",
-    "english": "N/A"
-  },
-  {
     "norsk": "mengde",
     "english": "quantity"
   },
   {
     "norsk": "retning",
     "english": "direction"
-  },
-  {
-    "norsk": "Molde",
-    "english": "N/A"
   },
   {
     "norsk": "frivillig",
@@ -3628,16 +3432,8 @@
     "english": "unique"
   },
   {
-    "norsk": "våpen",
-    "english": "N/A"
-  },
-  {
     "norsk": "ordning",
     "english": "an arrangement"
-  },
-  {
-    "norsk": "imponere",
-    "english": "N/A"
   },
   {
     "norsk": "sammenligne",
@@ -3652,20 +3448,12 @@
     "english": "still"
   },
   {
-    "norsk": "dukke",
-    "english": "N/A"
-  },
-  {
     "norsk": "konkret",
     "english": "concrete"
   },
   {
     "norsk": "redd",
     "english": "afraid"
-  },
-  {
-    "norsk": "Kristiansand",
-    "english": "N/A"
   },
   {
     "norsk": "inntekt",
@@ -3690,10 +3478,6 @@
   {
     "norsk": "langs",
     "english": "along"
-  },
-  {
-    "norsk": "Østfold",
-    "english": "N/A"
   },
   {
     "norsk": "innbygger",
@@ -3726,10 +3510,6 @@
   {
     "norsk": "deltaker",
     "english": "a participant"
-  },
-  {
-    "norsk": "fremme",
-    "english": "N/A"
   },
   {
     "norsk": "forlate",
@@ -3770,10 +3550,6 @@
   {
     "norsk": "forfatter",
     "english": "an author"
-  },
-  {
-    "norsk": "nord",
-    "english": "N/A"
   },
   {
     "norsk": "eie",
@@ -3836,14 +3612,6 @@
     "english": "a standard"
   },
   {
-    "norsk": "absolutt",
-    "english": "N/A"
-  },
-  {
-    "norsk": "prege",
-    "english": "N/A"
-  },
-  {
     "norsk": "konflikt",
     "english": "conflict"
   },
@@ -3856,20 +3624,12 @@
     "english": "insight"
   },
   {
-    "norsk": "rykke",
-    "english": "N/A"
-  },
-  {
     "norsk": "materiale",
     "english": "material"
   },
   {
     "norsk": "tusen",
     "english": "a thousand"
-  },
-  {
-    "norsk": "leie",
-    "english": "N/A"
   },
   {
     "norsk": "oppdatere",
@@ -3918,10 +3678,6 @@
   {
     "norsk": "peke",
     "english": "to point"
-  },
-  {
-    "norsk": "tale",
-    "english": "N/A"
   },
   {
     "norsk": "videregående",
@@ -3976,10 +3732,6 @@
     "english": "extreme"
   },
   {
-    "norsk": "prioritere",
-    "english": "N/A"
-  },
-  {
     "norsk": "vegg",
     "english": "a wall"
   },
@@ -4006,14 +3758,6 @@
   {
     "norsk": "håndtere",
     "english": "to handle"
-  },
-  {
-    "norsk": "middel",
-    "english": "N/A"
-  },
-  {
-    "norsk": "snu",
-    "english": "N/A"
   },
   {
     "norsk": "møtes",
@@ -4076,10 +3820,6 @@
     "english": "state"
   },
   {
-    "norsk": "Drammen",
-    "english": "N/A"
-  },
-  {
     "norsk": "kontakte",
     "english": "to contact"
   },
@@ -4116,10 +3856,6 @@
     "english": "China"
   },
   {
-    "norsk": "an",
-    "english": "N/A"
-  },
-  {
     "norsk": "olje",
     "english": "oil"
   },
@@ -4130,10 +3866,6 @@
   {
     "norsk": "utenlandsk",
     "english": "foreign"
-  },
-  {
-    "norsk": "Bodø",
-    "english": "N/A"
   },
   {
     "norsk": "ettersom",
@@ -4276,10 +4008,6 @@
     "english": "favorite"
   },
   {
-    "norsk": "eksistere",
-    "english": "N/A"
-  },
-  {
     "norsk": "omfatte",
     "english": "to include"
   },
@@ -4322,10 +4050,6 @@
   {
     "norsk": "beholde",
     "english": "to keep"
-  },
-  {
-    "norsk": "Telemark",
-    "english": "N/A"
   },
   {
     "norsk": "opplæring",
