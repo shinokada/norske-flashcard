@@ -1,9 +1,9 @@
 <script>
 	// import dictionary from '$lib/data/verbs.json';
 
-	import { Flashcard } from '$lib';
+	import { Flashcard, ArrowLeft, ArrowRight } from '$lib';
   import { getRandomPair } from '$lib/utils.svelte.js';
-  let { dictionary, title="Flashcard" } = $props()
+  let { dictionary, title="Flashcard", pFront, pBack } = $props()
 	let langlang = $state('noreng')
   let front = $state()
 	let back = $state()
@@ -29,7 +29,24 @@
   };
 
 	updateLang(langlang);
+
+	function handleKeyDown(event) {
 	
+    if (event.key === 'ArrowLeft') {
+      toggleShowBack();
+			console.log('arrowleft pressed')
+    } else if (event.key === 'ArrowRight') {
+      updateLang(langlang);
+			console.log('arrowright is pressed')
+    }
+  }
+	
+	function preventDefault(fn) {
+		return function (event) {
+			event.preventDefault();
+			fn.call(this, event);
+		};
+	}
 </script>
 
 <div class="flex flex-col items-center mt-15">
@@ -41,21 +58,35 @@
 	<!-- FLASHCARD -->
 	<div class="bg-transparent w-full md:w-2/3 h-96">
 		<div class="flip-box-inner" class:flip-it={showCardBack}>
-			<Flashcard {front} {back} {showCardBack} />
+			<Flashcard {front} {back} {showCardBack} {pFront} {pBack}/>
 		</div>
 	</div>
 
 	<!-- BUTTONS -->
 	
-	<div id="flex justify-between">
-		<button onclick={toggleShowBack} class="w-40 bg-gray-300 p-4 mt-4">
+	<div class="flex space-x-4 pt-4">
+		<button 
+			onclick={toggleShowBack} 
+			class="inline-flex items-center min-w-44 bg-gray-300 p-4"
+		>
+		<ArrowLeft class="mr-4"/>
 			{showCardBack ? showFront : showBack}
 		</button>
 		
-		<button class="w-20 bg-gray-300 p-4" onclick={()=>updateLang(langlang)}>NEXT</button>
+		<button 
+			class="inline-flex text-right bg-gray-300 p-4" 
+			onclick={()=>updateLang(langlang)}
+		>
+			NEXT
+			<ArrowRight class="ml-4"/>
+		</button>
 	</div>
+	<span class="mt-4 right-full bg-gray-900 text-white px-2 py-1 rounded text-xs">
+		Use ← and → arrows to navigate
+	</span>
 </div>	
 
+<svelte:window onkeydown={preventDefault(handleKeyDown)} />
 
 <style>
 	/* This container is needed to position the front and back side */

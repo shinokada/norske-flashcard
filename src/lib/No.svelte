@@ -11,7 +11,7 @@
 
   import { getContext } from 'svelte';
   const ctx: CtxType = getContext('iconCtx') ?? {};
-  let {size = ctx.size || "24", role = ctx.role || 'img', ariaLabel = 'flag of no', ...attributes}: Props = $props();
+  let {size = ctx.size || "24", role = ctx.role || 'img', ariaLabel = 'flag of no', ...attributes} = $props<Props>();
 </script>
 
 <svg

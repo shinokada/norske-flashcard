@@ -5,3 +5,6 @@ export { default as Navbar } from './Navbar.svelte'
 export { default as Footer } from './Footer.svelte'
 export { default as No } from './No.svelte';
 export { default as RadioButton } from './RadioButton.svelte'
+
+export { default as ArrowLeft } from './ArrowLeft.svelte'
+export { default as ArrowRight } from './ArrowRight.svelte'
