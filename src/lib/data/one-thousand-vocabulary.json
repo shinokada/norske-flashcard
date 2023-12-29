@@ -1,0 +1,4374 @@
+[
+  {
+    "norsk": "i",
+    "english": "in"
+  },
+  {
+    "norsk": "og",
+    "english": "and"
+  },
+  {
+    "norsk": "være",
+    "english": "to be"
+  },
+  {
+    "norsk": "en",
+    "english": "a, an"
+  },
+  {
+    "norsk": "det",
+    "english": "that"
+  },
+  {
+    "norsk": "på",
+    "english": "on"
+  },
+  {
+    "norsk": "ha",
+    "english": "to have"
+  },
+  {
+    "norsk": "å",
+    "english": "to"
+  },
+  {
+    "norsk": "til",
+    "english": "to"
+  },
+  {
+    "norsk": "som",
+    "english": "which"
+  },
+  {
+    "norsk": "for",
+    "english": "for"
+  },
+  {
+    "norsk": "av",
+    "english": "by"
+  },
+  {
+    "norsk": "med",
+    "english": "with"
+  },
+  {
+    "norsk": "at",
+    "english": "that"
+  },
+  {
+    "norsk": "de",
+    "english": "they, those"
+  },
+  {
+    "norsk": "ikke",
+    "english": "not"
+  },
+  {
+    "norsk": "bli",
+    "english": "to become, to stay"
+  },
+  {
+    "norsk": "vi",
+    "english": "we"
+  },
+  {
+    "norsk": "om",
+    "english": "around, about"
+  },
+  {
+    "norsk": "jeg",
+    "english": "I"
+  },
+  {
+    "norsk": "kunne",
+    "english": "could"
+  },
+  {
+    "norsk": "den",
+    "english": "the, it"
+  },
+  {
+    "norsk": "du",
+    "english": "you"
+  },
+  {
+    "norsk": "få",
+    "english": "to get, to receive, to be allowed to"
+  },
+  {
+    "norsk": "fra",
+    "english": "from"
+  },
+  {
+    "norsk": "han",
+    "english": "he"
+  },
+  {
+    "norsk": "men",
+    "english": "but"
+  },
+  {
+    "norsk": "skulle",
+    "english": "should, would"
+  },
+  {
+    "norsk": "si",
+    "english": "to say"
+  },
+  {
+    "norsk": "ville",
+    "english": "will, would"
+  },
+  {
+    "norsk": "seg",
+    "english": "oneself, itself"
+  },
+  {
+    "norsk": "mye",
+    "english": "a lot, much"
+  },
+  {
+    "norsk": "mange",
+    "english": "many"
+  },
+  {
+    "norsk": "god",
+    "english": "good"
+  },
+  {
+    "norsk": "så",
+    "english": "so"
+  },
+  {
+    "norsk": "også",
+    "english": "also"
+  },
+  {
+    "norsk": "etter",
+    "english": "after"
+  },
+  {
+    "norsk": "dette",
+    "english": "this"
+  },
+  {
+    "norsk": "år",
+    "english": "a year"
+  },
+  {
+    "norsk": "ta",
+    "english": "to take"
+  },
+  {
+    "norsk": "annen",
+    "english": "other"
+  },
+  {
+    "norsk": "eller",
+    "english": "or"
+  },
+  {
+    "norsk": "komme",
+    "english": "to come"
+  },
+  {
+    "norsk": "gjøre",
+    "english": "to do"
+  },
+  {
+    "norsk": "ut",
+    "english": "outside"
+  },
+  {
+    "norsk": "se",
+    "english": "to see"
+  },
+  {
+    "norsk": "nå",
+    "english": "now"
+  },
+  {
+    "norsk": "måtte",
+    "english": "must"
+  },
+  {
+    "norsk": "stor",
+    "english": "great"
+  },
+  {
+    "norsk": "sin",
+    "english": "his, her"
+  },
+  {
+    "norsk": "ny",
+    "english": "new"
+  },
+  {
+    "norsk": "noen",
+    "english": "somebody, someone"
+  },
+  {
+    "norsk": "gå",
+    "english": "to go"
+  },
+  {
+    "norsk": "ved",
+    "english": "by"
+  },
+  {
+    "norsk": "da",
+    "english": "then"
+  },
+  {
+    "norsk": "dag",
+    "english": "a day"
+  },
+  {
+    "norsk": "hun",
+    "english": "she"
+  },
+  {
+    "norsk": "hel",
+    "english": "whole"
+  },
+  {
+    "norsk": "over",
+    "english": "above"
+  },
+  {
+    "norsk": "opp",
+    "english": "upwards"
+  },
+  {
+    "norsk": "når",
+    "english": "when"
+  },
+  {
+    "norsk": "man",
+    "english": "people, one, they"
+  },
+  {
+    "norsk": "gi",
+    "english": "to give"
+  },
+  {
+    "norsk": "mot",
+    "english": "against"
+  },
+  {
+    "norsk": "denne",
+    "english": "this"
+  },
+  {
+    "norsk": "all",
+    "english": "all"
+  },
+  {
+    "norsk": "inn",
+    "english": "inside"
+  },
+  {
+    "norsk": "her",
+    "english": "here"
+  },
+  {
+    "norsk": "to",
+    "english": "two"
+  },
+  {
+    "norsk": "før",
+    "english": "before"
+  },
+  {
+    "norsk": "selv",
+    "english": "oneself"
+  },
+  {
+    "norsk": "bruke",
+    "english": "to use"
+  },
+  {
+    "norsk": "enn",
+    "english": "than"
+  },
+  {
+    "norsk": "vår",
+    "english": "our"
+  },
+  {
+    "norsk": "slik",
+    "english": "like this, in this way"
+  },
+  {
+    "norsk": "Norge",
+    "english": "Norway"
+  },
+  {
+    "norsk": "foto",
+    "english": "photo"
+  },
+  {
+    "norsk": "bare",
+    "english": "only"
+  },
+  {
+    "norsk": "der",
+    "english": "there"
+  },
+  {
+    "norsk": "hva",
+    "english": "what"
+  },
+  {
+    "norsk": "liten",
+    "english": "small"
+  },
+  {
+    "norsk": "tid",
+    "english": "time"
+  },
+  {
+    "norsk": "mene",
+    "english": "to mean"
+  },
+  {
+    "norsk": "gang",
+    "english": "entrance"
+  },
+  {
+    "norsk": "finne",
+    "english": "to find"
+  },
+  {
+    "norsk": "sist",
+    "english": "last"
+  },
+  {
+    "norsk": "politi",
+    "english": "police"
+  },
+  {
+    "norsk": "hvor",
+    "english": "where"
+  },
+  {
+    "norsk": "noe",
+    "english": "something"
+  },
+  {
+    "norsk": "litt",
+    "english": "a little"
+  },
+  {
+    "norsk": "legge",
+    "english": "to lay"
+  },
+  {
+    "norsk": "norsk",
+    "english": "Norwegian"
+  },
+  {
+    "norsk": "under",
+    "english": "under"
+  },
+  {
+    "norsk": "både",
+    "english": "both"
+  },
+  {
+    "norsk": "vise",
+    "english": "to show"
+  },
+  {
+    "norsk": "ønske",
+    "english": "to wish"
+  },
+  {
+    "norsk": "barn",
+    "english": "child"
+  },
+  {
+    "norsk": "stå",
+    "english": "to stand"
+  },
+  {
+    "norsk": "viktig",
+    "english": "important"
+  },
+  {
+    "norsk": "tidlig",
+    "english": "early"
+  },
+  {
+    "norsk": "din",
+    "english": "your"
+  },
+  {
+    "norsk": "lang",
+    "english": "long"
+  },
+  {
+    "norsk": "første",
+    "english": "first"
+  },
+  {
+    "norsk": "mann",
+    "english": "a man"
+  },
+  {
+    "norsk": "sette",
+    "english": "to set"
+  },
+  {
+    "norsk": "tro",
+    "english": "to believe"
+  },
+  {
+    "norsk": "mellom",
+    "english": "between"
+  },
+  {
+    "norsk": "tre",
+    "english": "three"
+  },
+  {
+    "norsk": "siden",
+    "english": "since"
+  },
+  {
+    "norsk": "sak",
+    "english": "a case"
+  },
+  {
+    "norsk": "skrive",
+    "english": "to write"
+  },
+  {
+    "norsk": "hvordan",
+    "english": "how"
+  },
+  {
+    "norsk": "del",
+    "english": "share"
+  },
+  {
+    "norsk": "egen",
+    "english": "own"
+  },
+  {
+    "norsk": "blant",
+    "english": "among"
+  },
+  {
+    "norsk": "rett",
+    "english": "right"
+  },
+  {
+    "norsk": "kommune",
+    "english": "municipality"
+  },
+  {
+    "norsk": "disse",
+    "english": "these"
+  },
+  {
+    "norsk": "land",
+    "english": "country"
+  },
+  {
+    "norsk": "hver",
+    "english": "each"
+  },
+  {
+    "norsk": "igjen",
+    "english": "again"
+  },
+  {
+    "norsk": "uten",
+    "english": "without"
+  },
+  {
+    "norsk": "veldig",
+    "english": "very, really"
+  },
+  {
+    "norsk": "fortelle",
+    "english": "to tell"
+  },
+  {
+    "norsk": "hvis",
+    "english": "if"
+  },
+  {
+    "norsk": "kamp",
+    "english": "a battle"
+  },
+  {
+    "norsk": "ingen",
+    "english": "nobody, no one"
+  },
+  {
+    "norsk": "rundt",
+    "english": "around"
+  },
+  {
+    "norsk": "sammen",
+    "english": "together"
+  },
+  {
+    "norsk": "uke",
+    "english": "a week"
+  },
+  {
+    "norsk": "gjennom",
+    "english": "through"
+  },
+  {
+    "norsk": "nok",
+    "english": "enough"
+  },
+  {
+    "norsk": "burde",
+    "english": "to should"
+  },
+  {
+    "norsk": "holde",
+    "english": "to hold"
+  },
+  {
+    "norsk": "Oslo",
+    "english": "Oslo"
+  },
+  {
+    "norsk": "møte",
+    "english": "to meet"
+  },
+  {
+    "norsk": "ligge",
+    "english": "to lie down, to be situated"
+  },
+  {
+    "norsk": "min",
+    "english": "my, mine"
+  },
+  {
+    "norsk": "vite",
+    "english": "to know"
+  },
+  {
+    "norsk": "krone",
+    "english": "N/A"
+  },
+  {
+    "norsk": "like",
+    "english": "as, equally"
+  },
+  {
+    "norsk": "skje",
+    "english": "to happen"
+  },
+  {
+    "norsk": "sted",
+    "english": "a place"
+  },
+  {
+    "norsk": "samme",
+    "english": "same"
+  },
+  {
+    "norsk": "følge",
+    "english": "to follow"
+  },
+  {
+    "norsk": "derfor",
+    "english": "therefore"
+  },
+  {
+    "norsk": "høy",
+    "english": "high"
+  },
+  {
+    "norsk": "jobbe",
+    "english": "to work"
+  },
+  {
+    "norsk": "person",
+    "english": "a person"
+  },
+  {
+    "norsk": "lese",
+    "english": "to read"
+  },
+  {
+    "norsk": "gammel",
+    "english": "old"
+  },
+  {
+    "norsk": "ned",
+    "english": "N/A"
+  },
+  {
+    "norsk": "bil",
+    "english": "a car"
+  },
+  {
+    "norsk": "klar",
+    "english": "clear"
+  },
+  {
+    "norsk": "vei",
+    "english": "road"
+  },
+  {
+    "norsk": "alt",
+    "english": "everything"
+  },
+  {
+    "norsk": "folk",
+    "english": "a people"
+  },
+  {
+    "norsk": "ifølge",
+    "english": "according to"
+  },
+  {
+    "norsk": "øke",
+    "english": "to increase"
+  },
+  {
+    "norsk": "én",
+    "english": "one"
+  },
+  {
+    "norsk": "bilde",
+    "english": "picture"
+  },
+  {
+    "norsk": "hos",
+    "english": "at"
+  },
+  {
+    "norsk": "mulig",
+    "english": "possible"
+  },
+  {
+    "norsk": "spille",
+    "english": "to play"
+  },
+  {
+    "norsk": "mål",
+    "english": "target, measurement"
+  },
+  {
+    "norsk": "mens",
+    "english": "while"
+  },
+  {
+    "norsk": "velge",
+    "english": "to choose"
+  },
+  {
+    "norsk": "grunn",
+    "english": "reason"
+  },
+  {
+    "norsk": "prosent",
+    "english": "percent"
+  },
+  {
+    "norsk": "måte",
+    "english": "way"
+  },
+  {
+    "norsk": "tillegg",
+    "english": "an addition"
+  },
+  {
+    "norsk": "kveld",
+    "english": "evening"
+  },
+  {
+    "norsk": "tilbake",
+    "english": "N/A"
+  },
+  {
+    "norsk": "kanskje",
+    "english": "maybe"
+  },
+  {
+    "norsk": "sende",
+    "english": "to send"
+  },
+  {
+    "norsk": "lenge",
+    "english": "for a long time"
+  },
+  {
+    "norsk": "vid",
+    "english": "wide"
+  },
+  {
+    "norsk": "jo",
+    "english": "yes"
+  },
+  {
+    "norsk": "kvinne",
+    "english": "a woman"
+  },
+  {
+    "norsk": "lag",
+    "english": "a layer"
+  },
+  {
+    "norsk": "million",
+    "english": "a million"
+  },
+  {
+    "norsk": "lage",
+    "english": "to make"
+  },
+  {
+    "norsk": "trenge",
+    "english": "to need"
+  },
+  {
+    "norsk": "fordi",
+    "english": "because"
+  },
+  {
+    "norsk": "mulighet",
+    "english": "a possibility, an opportunity"
+  },
+  {
+    "norsk": "plass",
+    "english": "a place"
+  },
+  {
+    "norsk": "kjøre",
+    "english": "to drive"
+  },
+  {
+    "norsk": "alle",
+    "english": "everyone"
+  },
+  {
+    "norsk": "starte",
+    "english": "to start"
+  },
+  {
+    "norsk": "skole",
+    "english": "a school"
+  },
+  {
+    "norsk": "tenke",
+    "english": "to think"
+  },
+  {
+    "norsk": "vinne",
+    "english": "to win"
+  },
+  {
+    "norsk": "bruk",
+    "english": "use"
+  },
+  {
+    "norsk": "enkel",
+    "english": "simple"
+  },
+  {
+    "norsk": "dersom",
+    "english": "if"
+  },
+  {
+    "norsk": "fortsatt",
+    "english": "still"
+  },
+  {
+    "norsk": "svær",
+    "english": "heavy"
+  },
+  {
+    "norsk": "område",
+    "english": "an area"
+  },
+  {
+    "norsk": "dere",
+    "english": "you"
+  },
+  {
+    "norsk": "skade",
+    "english": "damage"
+  },
+  {
+    "norsk": "bra",
+    "english": "good"
+  },
+  {
+    "norsk": "frem",
+    "english": "forward, forth"
+  },
+  {
+    "norsk": "ulik",
+    "english": "different"
+  },
+  {
+    "norsk": "liv",
+    "english": "life"
+  },
+  {
+    "norsk": "gjelde",
+    "english": "to apply"
+  },
+  {
+    "norsk": "fire",
+    "english": "four"
+  },
+  {
+    "norsk": "verden",
+    "english": "world"
+  },
+  {
+    "norsk": "løp",
+    "english": "a run"
+  },
+  {
+    "norsk": "neste",
+    "english": "N/A"
+  },
+  {
+    "norsk": "menneske",
+    "english": "a human being"
+  },
+  {
+    "norsk": "sterk",
+    "english": "strong"
+  },
+  {
+    "norsk": "samtidig",
+    "english": "simultaneous"
+  },
+  {
+    "norsk": "spesiell",
+    "english": "special"
+  },
+  {
+    "norsk": "nær",
+    "english": "near"
+  },
+  {
+    "norsk": "forhold",
+    "english": "relationship"
+  },
+  {
+    "norsk": "synes",
+    "english": "to think, to consider, to seem"
+  },
+  {
+    "norsk": "arbeid",
+    "english": "work"
+  },
+  {
+    "norsk": "jobb",
+    "english": "job"
+  },
+  {
+    "norsk": "side",
+    "english": "a page"
+  },
+  {
+    "norsk": "hvilken",
+    "english": "which"
+  },
+  {
+    "norsk": "sitte",
+    "english": "to sit"
+  },
+  {
+    "norsk": "ofte",
+    "english": "often"
+  },
+  {
+    "norsk": "slå",
+    "english": "to beat"
+  },
+  {
+    "norsk": "allerede",
+    "english": "already"
+  },
+  {
+    "norsk": "klare",
+    "english": "to clear"
+  },
+  {
+    "norsk": "melde",
+    "english": "to report"
+  },
+  {
+    "norsk": "spørsmål",
+    "english": "a question"
+  },
+  {
+    "norsk": "lett",
+    "english": "easy"
+  },
+  {
+    "norsk": "leder",
+    "english": "a leader"
+  },
+  {
+    "norsk": "vanskelig",
+    "english": "difficult"
+  },
+  {
+    "norsk": "fin",
+    "english": "fine"
+  },
+  {
+    "norsk": "problem",
+    "english": "problem"
+  },
+  {
+    "norsk": "begynne",
+    "english": "to begin"
+  },
+  {
+    "norsk": "ting",
+    "english": "a thing"
+  },
+  {
+    "norsk": "heller",
+    "english": "rather"
+  },
+  {
+    "norsk": "kun",
+    "english": "only"
+  },
+  {
+    "norsk": "likevel",
+    "english": "nevertheless"
+  },
+  {
+    "norsk": "time",
+    "english": "N/A"
+  },
+  {
+    "norsk": "først",
+    "english": "first"
+  },
+  {
+    "norsk": "by",
+    "english": "city"
+  },
+  {
+    "norsk": "hans",
+    "english": "his"
+  },
+  {
+    "norsk": "skape",
+    "english": "to create"
+  },
+  {
+    "norsk": "dermed",
+    "english": "thus"
+  },
+  {
+    "norsk": "snakke",
+    "english": "to talk"
+  },
+  {
+    "norsk": "eksempel",
+    "english": "an example"
+  },
+  {
+    "norsk": "kjøpe",
+    "english": "to buy"
+  },
+  {
+    "norsk": "informasjon",
+    "english": "information"
+  },
+  {
+    "norsk": "minutt",
+    "english": "a minute"
+  },
+  {
+    "norsk": "pris",
+    "english": "price"
+  },
+  {
+    "norsk": "be",
+    "english": "to pray"
+  },
+  {
+    "norsk": "aldri",
+    "english": "never"
+  },
+  {
+    "norsk": "bak",
+    "english": "behind"
+  },
+  {
+    "norsk": "finnes",
+    "english": "to occur, to be found"
+  },
+  {
+    "norsk": "full",
+    "english": "full"
+  },
+  {
+    "norsk": "prøve",
+    "english": "to try, to test"
+  },
+  {
+    "norsk": "bidra",
+    "english": "to contribute"
+  },
+  {
+    "norsk": "føre",
+    "english": "to lead"
+  },
+  {
+    "norsk": "fjor",
+    "english": "N/A"
+  },
+  {
+    "norsk": "stille",
+    "english": "N/A"
+  },
+  {
+    "norsk": "søndag",
+    "english": "Sunday"
+  },
+  {
+    "norsk": "fram",
+    "english": "N/A"
+  },
+  {
+    "norsk": "sen",
+    "english": "late"
+  },
+  {
+    "norsk": "alltid",
+    "english": "always"
+  },
+  {
+    "norsk": "måned",
+    "english": "month"
+  },
+  {
+    "norsk": "bygge",
+    "english": "to build"
+  },
+  {
+    "norsk": "hjelpe",
+    "english": "to help"
+  },
+  {
+    "norsk": "lite",
+    "english": "small"
+  },
+  {
+    "norsk": "håpe",
+    "english": "to hope"
+  },
+  {
+    "norsk": "støtte",
+    "english": "support"
+  },
+  {
+    "norsk": "fredag",
+    "english": "Friday"
+  },
+  {
+    "norsk": "kreve",
+    "english": "to demand"
+  },
+  {
+    "norsk": "dårlig",
+    "english": "bad"
+  },
+  {
+    "norsk": "kort",
+    "english": "short"
+  },
+  {
+    "norsk": "ung",
+    "english": "young"
+  },
+  {
+    "norsk": "rask",
+    "english": "fast"
+  },
+  {
+    "norsk": "prosjekt",
+    "english": "a project"
+  },
+  {
+    "norsk": "tur",
+    "english": "a trip"
+  },
+  {
+    "norsk": "selskap",
+    "english": "company"
+  },
+  {
+    "norsk": "sesong",
+    "english": "a season"
+  },
+  {
+    "norsk": "behov",
+    "english": "a need"
+  },
+  {
+    "norsk": "fortsette",
+    "english": "to continue"
+  },
+  {
+    "norsk": "kjenne",
+    "english": "to feel"
+  },
+  {
+    "norsk": "lørdag",
+    "english": "Saturday"
+  },
+  {
+    "norsk": "ansette",
+    "english": "to employ"
+  },
+  {
+    "norsk": "bety",
+    "english": "to mean"
+  },
+  {
+    "norsk": "klubb",
+    "english": "a club"
+  },
+  {
+    "norsk": "sikre",
+    "english": "to ensure"
+  },
+  {
+    "norsk": "slutt",
+    "english": "end"
+  },
+  {
+    "norsk": "mandag",
+    "english": "Monday"
+  },
+  {
+    "norsk": "fem",
+    "english": "five"
+  },
+  {
+    "norsk": "kontakt",
+    "english": "a contact"
+  },
+  {
+    "norsk": "oppleve",
+    "english": "to experience"
+  },
+  {
+    "norsk": "gjerne",
+    "english": "gladly"
+  },
+  {
+    "norsk": "torsdag",
+    "english": "Thursday"
+  },
+  {
+    "norsk": "reise",
+    "english": "to travel"
+  },
+  {
+    "norsk": "innen",
+    "english": "within"
+  },
+  {
+    "norsk": "klokke",
+    "english": "clock"
+  },
+  {
+    "norsk": "betale",
+    "english": "to pay"
+  },
+  {
+    "norsk": "bok",
+    "english": "a book"
+  },
+  {
+    "norsk": "resultat",
+    "english": "result"
+  },
+  {
+    "norsk": "familie",
+    "english": "a family"
+  },
+  {
+    "norsk": "krav",
+    "english": "requirement, a demand"
+  },
+  {
+    "norsk": "ute",
+    "english": "N/A"
+  },
+  {
+    "norsk": "rekke",
+    "english": "a line"
+  },
+  {
+    "norsk": "situasjon",
+    "english": "a situation"
+  },
+  {
+    "norsk": "nesten",
+    "english": "almost"
+  },
+  {
+    "norsk": "vente",
+    "english": "to wait"
+  },
+  {
+    "norsk": "natt",
+    "english": "night"
+  },
+  {
+    "norsk": "seier",
+    "english": "a victory"
+  },
+  {
+    "norsk": "deres",
+    "english": "their"
+  },
+  {
+    "norsk": "føle",
+    "english": "to feel"
+  },
+  {
+    "norsk": "onsdag",
+    "english": "Wednesday"
+  },
+  {
+    "norsk": "vurdere",
+    "english": "to consider, to evaluate"
+  },
+  {
+    "norsk": "tirsdag",
+    "english": "Tuesday"
+  },
+  {
+    "norsk": "vanlig",
+    "english": "usual"
+  },
+  {
+    "norsk": "levere",
+    "english": "to deliver"
+  },
+  {
+    "norsk": "hjelp",
+    "english": "help"
+  },
+  {
+    "norsk": "løsning",
+    "english": "a solution"
+  },
+  {
+    "norsk": "imidlertid",
+    "english": "however"
+  },
+  {
+    "norsk": "sykehus",
+    "english": "a hospital"
+  },
+  {
+    "norsk": "gjennomføre",
+    "english": "to implement"
+  },
+  {
+    "norsk": "begge",
+    "english": "both"
+  },
+  {
+    "norsk": "elev",
+    "english": "pupil"
+  },
+  {
+    "norsk": "kjent",
+    "english": "familiar"
+  },
+  {
+    "norsk": "spiller",
+    "english": "a player"
+  },
+  {
+    "norsk": "regjering",
+    "english": "a government"
+  },
+  {
+    "norsk": "sikker",
+    "english": "safe"
+  },
+  {
+    "norsk": "poeng",
+    "english": "a point"
+  },
+  {
+    "norsk": "vel",
+    "english": "well"
+  },
+  {
+    "norsk": "la",
+    "english": "to let"
+  },
+  {
+    "norsk": "utenfor",
+    "english": "outside"
+  },
+  {
+    "norsk": "selge",
+    "english": "to sell"
+  },
+  {
+    "norsk": "utvikle",
+    "english": "to develop"
+  },
+  {
+    "norsk": "åpne",
+    "english": "to open"
+  },
+  {
+    "norsk": "høre",
+    "english": "to hear"
+  },
+  {
+    "norsk": "samt",
+    "english": "N/A"
+  },
+  {
+    "norsk": "enda",
+    "english": "N/A"
+  },
+  {
+    "norsk": "lav",
+    "english": "low"
+  },
+  {
+    "norsk": "tilby",
+    "english": "to offer"
+  },
+  {
+    "norsk": "behandling",
+    "english": "treatment"
+  },
+  {
+    "norsk": "utvikling",
+    "english": "development"
+  },
+  {
+    "norsk": "søke",
+    "english": "to seek"
+  },
+  {
+    "norsk": "samle",
+    "english": "to collect"
+  },
+  {
+    "norsk": "plan",
+    "english": "a plan"
+  },
+  {
+    "norsk": "hjem",
+    "english": "N/A"
+  },
+  {
+    "norsk": "valg",
+    "english": "election"
+  },
+  {
+    "norsk": "grad",
+    "english": "degree"
+  },
+  {
+    "norsk": "passe",
+    "english": "to fit"
+  },
+  {
+    "norsk": "parti",
+    "english": "N/A"
+  },
+  {
+    "norsk": "sommer",
+    "english": "summer"
+  },
+  {
+    "norsk": "riktig",
+    "english": "right"
+  },
+  {
+    "norsk": "tips",
+    "english": "N/A"
+  },
+  {
+    "norsk": "handle",
+    "english": "to act"
+  },
+  {
+    "norsk": "bo",
+    "english": "to stay"
+  },
+  {
+    "norsk": "enkelt",
+    "english": "N/A"
+  },
+  {
+    "norsk": "helg",
+    "english": "a weekend"
+  },
+  {
+    "norsk": "dele",
+    "english": "to divide"
+  },
+  {
+    "norsk": "feil",
+    "english": "error"
+  },
+  {
+    "norsk": "lære",
+    "english": "to learn"
+  },
+  {
+    "norsk": "form",
+    "english": "shape"
+  },
+  {
+    "norsk": "faktisk",
+    "english": "actual"
+  },
+  {
+    "norsk": "lokal",
+    "english": "local"
+  },
+  {
+    "norsk": "pasient",
+    "english": "a patient"
+  },
+  {
+    "norsk": "produkt",
+    "english": "a product"
+  },
+  {
+    "norsk": "hjemme",
+    "english": "N/A"
+  },
+  {
+    "norsk": "redusere",
+    "english": "to reduce"
+  },
+  {
+    "norsk": "lov",
+    "english": "law"
+  },
+  {
+    "norsk": "offentlig",
+    "english": "public"
+  },
+  {
+    "norsk": "delta",
+    "english": "to participate"
+  },
+  {
+    "norsk": "altså",
+    "english": "therefore"
+  },
+  {
+    "norsk": "samarbeid",
+    "english": "collaboration, cooperation"
+  },
+  {
+    "norsk": "jente",
+    "english": "a girl"
+  },
+  {
+    "norsk": "avtale",
+    "english": "agreement"
+  },
+  {
+    "norsk": "forskjellig",
+    "english": "different"
+  },
+  {
+    "norsk": "trekke",
+    "english": "N/A"
+  },
+  {
+    "norsk": "politisk",
+    "english": "political"
+  },
+  {
+    "norsk": "ekstra",
+    "english": "extra"
+  },
+  {
+    "norsk": "kunde",
+    "english": "a customer"
+  },
+  {
+    "norsk": "fast",
+    "english": "solid"
+  },
+  {
+    "norsk": "opplyse",
+    "english": "to inform"
+  },
+  {
+    "norsk": "mat",
+    "english": "food"
+  },
+  {
+    "norsk": "gruppe",
+    "english": "a group"
+  },
+  {
+    "norsk": "hus",
+    "english": "a house"
+  },
+  {
+    "norsk": "hvem",
+    "english": "who"
+  },
+  {
+    "norsk": "ansvar",
+    "english": "responsibility"
+  },
+  {
+    "norsk": "tiltak",
+    "english": "action"
+  },
+  {
+    "norsk": "drive",
+    "english": "N/A"
+  },
+  {
+    "norsk": "erfaring",
+    "english": "experience"
+  },
+  {
+    "norsk": "bedrift",
+    "english": "a company, a business"
+  },
+  {
+    "norsk": "akkurat",
+    "english": "exactly"
+  },
+  {
+    "norsk": "vann",
+    "english": "water"
+  },
+  {
+    "norsk": "dra",
+    "english": "to drag"
+  },
+  {
+    "norsk": "type",
+    "english": "a type"
+  },
+  {
+    "norsk": "internasjonal",
+    "english": "international"
+  },
+  {
+    "norsk": "morgen",
+    "english": "morning"
+  },
+  {
+    "norsk": "forslag",
+    "english": "a suggestion, a proposal"
+  },
+  {
+    "norsk": "ti",
+    "english": "ten"
+  },
+  {
+    "norsk": "vare",
+    "english": "goods, merchandise"
+  },
+  {
+    "norsk": "endre",
+    "english": "to change"
+  },
+  {
+    "norsk": "åpen",
+    "english": "open"
+  },
+  {
+    "norsk": "antall",
+    "english": "number"
+  },
+  {
+    "norsk": "periode",
+    "english": "a period"
+  },
+  {
+    "norsk": "benytte",
+    "english": "to use"
+  },
+  {
+    "norsk": "myndighet",
+    "english": "authority"
+  },
+  {
+    "norsk": "forelder",
+    "english": "a parent"
+  },
+  {
+    "norsk": "hvorfor",
+    "english": "why"
+  },
+  {
+    "norsk": "film",
+    "english": "a film"
+  },
+  {
+    "norsk": "medium",
+    "english": "a medium"
+  },
+  {
+    "norsk": "seks",
+    "english": "six"
+  },
+  {
+    "norsk": "fungere",
+    "english": "to function"
+  },
+  {
+    "norsk": "endring",
+    "english": "a change"
+  },
+  {
+    "norsk": "miste",
+    "english": "to lose something, to miss something"
+  },
+  {
+    "norsk": "ende",
+    "english": "to end"
+  },
+  {
+    "norsk": "alvorlig",
+    "english": "serious"
+  },
+  {
+    "norsk": "glede",
+    "english": "joy, gladness, happiness"
+  },
+  {
+    "norsk": "utfordring",
+    "english": "a challenge"
+  },
+  {
+    "norsk": "styre",
+    "english": "a board of directors"
+  },
+  {
+    "norsk": "uansett",
+    "english": "regardless of, anyway"
+  },
+  {
+    "norsk": "hente",
+    "english": "to get"
+  },
+  {
+    "norsk": "forklare",
+    "english": "to explain"
+  },
+  {
+    "norsk": "positiv",
+    "english": "positive"
+  },
+  {
+    "norsk": "ganske",
+    "english": "quite"
+  },
+  {
+    "norsk": "slippe",
+    "english": "to escape"
+  },
+  {
+    "norsk": "sosial",
+    "english": "social"
+  },
+  {
+    "norsk": "stemme",
+    "english": "to vote"
+  },
+  {
+    "norsk": "eneste",
+    "english": "single, sole"
+  },
+  {
+    "norsk": "særlig",
+    "english": "particular, special"
+  },
+  {
+    "norsk": "medlem",
+    "english": "a member"
+  },
+  {
+    "norsk": "historie",
+    "english": "history"
+  },
+  {
+    "norsk": "tilbud",
+    "english": "an offer"
+  },
+  {
+    "norsk": "kalle",
+    "english": "to call"
+  },
+  {
+    "norsk": "egentlig",
+    "english": "actual"
+  },
+  {
+    "norsk": "lede",
+    "english": "to lead"
+  },
+  {
+    "norsk": "flott",
+    "english": "splendid, excellent"
+  },
+  {
+    "norsk": "virke",
+    "english": "to function, to work, to have an effect"
+  },
+  {
+    "norsk": "par",
+    "english": "a couple"
+  },
+  {
+    "norsk": "meter",
+    "english": "meter"
+  },
+  {
+    "norsk": "inne",
+    "english": "inside"
+  },
+  {
+    "norsk": "svar",
+    "english": "an answer"
+  },
+  {
+    "norsk": "bestemme",
+    "english": "to decide"
+  },
+  {
+    "norsk": "nødvendig",
+    "english": "necessary"
+  },
+  {
+    "norsk": "svare",
+    "english": "to reply"
+  },
+  {
+    "norsk": "høst",
+    "english": "autumn"
+  },
+  {
+    "norsk": "melding",
+    "english": "message"
+  },
+  {
+    "norsk": "forrige",
+    "english": "previous"
+  },
+  {
+    "norsk": "foran",
+    "english": "in front of"
+  },
+  {
+    "norsk": "rapport",
+    "english": "a report"
+  },
+  {
+    "norsk": "dyr",
+    "english": "an animal"
+  },
+  {
+    "norsk": "tanke",
+    "english": "thought"
+  },
+  {
+    "norsk": "forstå",
+    "english": "to understand"
+  },
+  {
+    "norsk": "fall",
+    "english": "a fall"
+  },
+  {
+    "norsk": "start",
+    "english": "a start"
+  },
+  {
+    "norsk": "merke",
+    "english": "to mark"
+  },
+  {
+    "norsk": "kontroll",
+    "english": "control"
+  },
+  {
+    "norsk": "Bergen",
+    "english": "N/A"
+  },
+  {
+    "norsk": "tilfelle",
+    "english": "an instance, a case"
+  },
+  {
+    "norsk": "aktivitet",
+    "english": "activity"
+  },
+  {
+    "norsk": "tjeneste",
+    "english": "service"
+  },
+  {
+    "norsk": "gutt",
+    "english": "a boy"
+  },
+  {
+    "norsk": "spennende",
+    "english": "exciting"
+  },
+  {
+    "norsk": "fornøyd",
+    "english": "satisfied"
+  },
+  {
+    "norsk": "ja",
+    "english": "yes"
+  },
+  {
+    "norsk": "kvalitet",
+    "english": "quality"
+  },
+  {
+    "norsk": "flytte",
+    "english": "to move"
+  },
+  {
+    "norsk": "går",
+    "english": "yesterday"
+  },
+  {
+    "norsk": "knytte",
+    "english": "to tie"
+  },
+  {
+    "norsk": "økonomisk",
+    "english": "economic"
+  },
+  {
+    "norsk": "spørre",
+    "english": "to ask"
+  },
+  {
+    "norsk": "forbindelse",
+    "english": "a connection"
+  },
+  {
+    "norsk": "bekrefte",
+    "english": "to confirm"
+  },
+  {
+    "norsk": "trygg",
+    "english": "safe"
+  },
+  {
+    "norsk": "total",
+    "english": "total"
+  },
+  {
+    "norsk": "samfunn",
+    "english": "society"
+  },
+  {
+    "norsk": "direkte",
+    "english": "direct"
+  },
+  {
+    "norsk": "stenge",
+    "english": "to close"
+  },
+  {
+    "norsk": "stadig",
+    "english": "constant, unceasing"
+  },
+  {
+    "norsk": "bort",
+    "english": "away"
+  },
+  {
+    "norsk": "kurs",
+    "english": "a course"
+  },
+  {
+    "norsk": "amerikansk",
+    "english": "American"
+  },
+  {
+    "norsk": "leve",
+    "english": "to live"
+  },
+  {
+    "norsk": "hard",
+    "english": "hard"
+  },
+  {
+    "norsk": "kunnskap",
+    "english": "knowledge"
+  },
+  {
+    "norsk": "president",
+    "english": "a president"
+  },
+  {
+    "norsk": "tall",
+    "english": "number"
+  },
+  {
+    "norsk": "avis",
+    "english": "a newspaper"
+  },
+  {
+    "norsk": "student",
+    "english": "a student"
+  },
+  {
+    "norsk": "ferdig",
+    "english": "finished"
+  },
+  {
+    "norsk": "virkelig",
+    "english": "N/A"
+  },
+  {
+    "norsk": "regel",
+    "english": "a rule"
+  },
+  {
+    "norsk": "rom",
+    "english": "room"
+  },
+  {
+    "norsk": "tape",
+    "english": "to lose"
+  },
+  {
+    "norsk": "trening",
+    "english": "training"
+  },
+  {
+    "norsk": "ord",
+    "english": "a word"
+  },
+  {
+    "norsk": "falle",
+    "english": "to fall"
+  },
+  {
+    "norsk": "bolig",
+    "english": "housing, residence"
+  },
+  {
+    "norsk": "styrke",
+    "english": "to strengthen"
+  },
+  {
+    "norsk": "huske",
+    "english": "to remember"
+  },
+  {
+    "norsk": "topp",
+    "english": "a top"
+  },
+  {
+    "norsk": "anbefale",
+    "english": "to recommend"
+  },
+  {
+    "norsk": "behandle",
+    "english": "to treat, to process"
+  },
+  {
+    "norsk": "oppgave",
+    "english": "a task"
+  },
+  {
+    "norsk": "tross",
+    "english": "despite"
+  },
+  {
+    "norsk": "venn",
+    "english": "a friend"
+  },
+  {
+    "norsk": "kropp",
+    "english": "a body"
+  },
+  {
+    "norsk": "forsøke",
+    "english": "to attempt"
+  },
+  {
+    "norsk": "nordmann",
+    "english": "a Norwegian"
+  },
+  {
+    "norsk": "system",
+    "english": "a system"
+  },
+  {
+    "norsk": "oppdatert",
+    "english": "updated"
+  },
+  {
+    "norsk": "daglig",
+    "english": "daily"
+  },
+  {
+    "norsk": "sånn",
+    "english": "like that"
+  },
+  {
+    "norsk": "navn",
+    "english": "name"
+  },
+  {
+    "norsk": "ramme",
+    "english": "a frame"
+  },
+  {
+    "norsk": "vond",
+    "english": "bad"
+  },
+  {
+    "norsk": "årsak",
+    "english": "a cause"
+  },
+  {
+    "norsk": "nemlig",
+    "english": "namely"
+  },
+  {
+    "norsk": "video",
+    "english": "a video"
+  },
+  {
+    "norsk": "aller",
+    "english": "at all, ever"
+  },
+  {
+    "norsk": "eventuell",
+    "english": "possible"
+  },
+  {
+    "norsk": "arbeide",
+    "english": "to work"
+  },
+  {
+    "norsk": "glad",
+    "english": "happy"
+  },
+  {
+    "norsk": "alternativ",
+    "english": "alternative"
+  },
+  {
+    "norsk": "avslutte",
+    "english": "to finish, to complete"
+  },
+  {
+    "norsk": "milliard",
+    "english": "a billion"
+  },
+  {
+    "norsk": "trolig",
+    "english": "probable"
+  },
+  {
+    "norsk": "spise",
+    "english": "to eat"
+  },
+  {
+    "norsk": "mars",
+    "english": "March"
+  },
+  {
+    "norsk": "slite",
+    "english": "to toil, to work really hard"
+  },
+  {
+    "norsk": "brann",
+    "english": "fire"
+  },
+  {
+    "norsk": "sentral",
+    "english": "central"
+  },
+  {
+    "norsk": "utføre",
+    "english": "to perform"
+  },
+  {
+    "norsk": "mai",
+    "english": "May"
+  },
+  {
+    "norsk": "fort",
+    "english": "fast"
+  },
+  {
+    "norsk": "spill",
+    "english": "a game"
+  },
+  {
+    "norsk": "aktuell",
+    "english": "current"
+  },
+  {
+    "norsk": "hevde",
+    "english": "to assert, to claim"
+  },
+  {
+    "norsk": "hverandre",
+    "english": "each other"
+  },
+  {
+    "norsk": "barnehage",
+    "english": "kindergarten"
+  },
+  {
+    "norsk": "kraftig",
+    "english": "powerful"
+  },
+  {
+    "norsk": "lure",
+    "english": "to wonder, to deceive"
+  },
+  {
+    "norsk": "via",
+    "english": "via"
+  },
+  {
+    "norsk": "fri",
+    "english": "free"
+  },
+  {
+    "norsk": "ungdom",
+    "english": "youth"
+  },
+  {
+    "norsk": "snar",
+    "english": "quick"
+  },
+  {
+    "norsk": "innenfor",
+    "english": "inside"
+  },
+  {
+    "norsk": "privat",
+    "english": "private"
+  },
+  {
+    "norsk": "fjerne",
+    "english": "to remove"
+  },
+  {
+    "norsk": "sjanse",
+    "english": "a chance"
+  },
+  {
+    "norsk": "planlegge",
+    "english": "to plan"
+  },
+  {
+    "norsk": "ettermiddag",
+    "english": "afternoon"
+  },
+  {
+    "norsk": "fokus",
+    "english": "focus"
+  },
+  {
+    "norsk": "dø",
+    "english": "to die"
+  },
+  {
+    "norsk": "enig",
+    "english": "agreed"
+  },
+  {
+    "norsk": "butikk",
+    "english": "a shop"
+  },
+  {
+    "norsk": "tilgjengelig",
+    "english": "available"
+  },
+  {
+    "norsk": "utsette",
+    "english": "to postpone, to expose"
+  },
+  {
+    "norsk": "hennes",
+    "english": "hers"
+  },
+  {
+    "norsk": "organisasjon",
+    "english": "an organization"
+  },
+  {
+    "norsk": "fly",
+    "english": "airplane, aircraft"
+  },
+  {
+    "norsk": "sørge",
+    "english": "to care for, to mourn"
+  },
+  {
+    "norsk": "program",
+    "english": "program"
+  },
+  {
+    "norsk": "nett",
+    "english": "a net"
+  },
+  {
+    "norsk": "stoppe",
+    "english": "to stop"
+  },
+  {
+    "norsk": "motta",
+    "english": "to receive"
+  },
+  {
+    "norsk": "regne",
+    "english": "to rain"
+  },
+  {
+    "norsk": "virksomhet",
+    "english": "a business"
+  },
+  {
+    "norsk": "fantastisk",
+    "english": "fantastic"
+  },
+  {
+    "norsk": "fengsel",
+    "english": "a prison"
+  },
+  {
+    "norsk": "tak",
+    "english": "roof"
+  },
+  {
+    "norsk": "mor",
+    "english": "a mother"
+  },
+  {
+    "norsk": "nivå",
+    "english": "a level"
+  },
+  {
+    "norsk": "ball",
+    "english": "ball"
+  },
+  {
+    "norsk": "deretter",
+    "english": "thereafter"
+  },
+  {
+    "norsk": "ledelse",
+    "english": "leadership"
+  },
+  {
+    "norsk": "mangle",
+    "english": "to lack"
+  },
+  {
+    "norsk": "sikte",
+    "english": "N/A"
+  },
+  {
+    "norsk": "trener",
+    "english": "a trainer"
+  },
+  {
+    "norsk": "fylle",
+    "english": "to fill"
+  },
+  {
+    "norsk": "normal",
+    "english": "normal"
+  },
+  {
+    "norsk": "tilgang",
+    "english": "access"
+  },
+  {
+    "norsk": "Tromsø",
+    "english": "N/A"
+  },
+  {
+    "norsk": "naturlig",
+    "english": "natural"
+  },
+  {
+    "norsk": "utgangspunkt",
+    "english": "a starting point"
+  },
+  {
+    "norsk": "debatt",
+    "english": "a debate"
+  },
+  {
+    "norsk": "undersøkelse",
+    "english": "an examination"
+  },
+  {
+    "norsk": "hånd",
+    "english": "a hand"
+  },
+  {
+    "norsk": "aktiv",
+    "english": "active"
+  },
+  {
+    "norsk": "nettopp",
+    "english": "just"
+  },
+  {
+    "norsk": "lege",
+    "english": "a doctor"
+  },
+  {
+    "norsk": "dømme",
+    "english": "to judge"
+  },
+  {
+    "norsk": "Sverige",
+    "english": "Sweden"
+  },
+  {
+    "norsk": "unna",
+    "english": "N/A"
+  },
+  {
+    "norsk": "påvirke",
+    "english": "to influence"
+  },
+  {
+    "norsk": "Stortinget",
+    "english": "N/A"
+  },
+  {
+    "norsk": "pågripe",
+    "english": "to apprehend"
+  },
+  {
+    "norsk": "miljø",
+    "english": "an environment"
+  },
+  {
+    "norsk": "marked",
+    "english": "a market"
+  },
+  {
+    "norsk": "januar",
+    "english": "January"
+  },
+  {
+    "norsk": "råd",
+    "english": "advice"
+  },
+  {
+    "norsk": "rolle",
+    "english": "a role"
+  },
+  {
+    "norsk": "endelig",
+    "english": "final"
+  },
+  {
+    "norsk": "inneholde",
+    "english": "to contain"
+  },
+  {
+    "norsk": "meget",
+    "english": "very"
+  },
+  {
+    "norsk": "trene",
+    "english": "to practice, to train"
+  },
+  {
+    "norsk": "ulykke",
+    "english": "accident"
+  },
+  {
+    "norsk": "juni",
+    "english": "June"
+  },
+  {
+    "norsk": "registrere",
+    "english": "to register"
+  },
+  {
+    "norsk": "enten",
+    "english": "either"
+  },
+  {
+    "norsk": "sjekke",
+    "english": "to check"
+  },
+  {
+    "norsk": "hotell",
+    "english": "a hotel"
+  },
+  {
+    "norsk": "båt",
+    "english": "a boat"
+  },
+  {
+    "norsk": "utrolig",
+    "english": "incredible"
+  },
+  {
+    "norsk": "forvente",
+    "english": "to expect"
+  },
+  {
+    "norsk": "nasjonal",
+    "english": "national"
+  },
+  {
+    "norsk": "stat",
+    "english": "a state"
+  },
+  {
+    "norsk": "foreløpig",
+    "english": "provisional, tentative"
+  },
+  {
+    "norsk": "Stavanger",
+    "english": "N/A"
+  },
+  {
+    "norsk": "runde",
+    "english": "a round"
+  },
+  {
+    "norsk": "tema",
+    "english": "a theme"
+  },
+  {
+    "norsk": "svensk",
+    "english": "Swedish"
+  },
+  {
+    "norsk": "dekke",
+    "english": "to cover"
+  },
+  {
+    "norsk": "lys",
+    "english": "light"
+  },
+  {
+    "norsk": "prosess",
+    "english": "process"
+  },
+  {
+    "norsk": "kompetanse",
+    "english": "competence"
+  },
+  {
+    "norsk": "verdi",
+    "english": "value"
+  },
+  {
+    "norsk": "inkludere",
+    "english": "to include"
+  },
+  {
+    "norsk": "interesse",
+    "english": "interest"
+  },
+  {
+    "norsk": "politiker",
+    "english": "politician"
+  },
+  {
+    "norsk": "nei",
+    "english": "no"
+  },
+  {
+    "norsk": "basere",
+    "english": "to base"
+  },
+  {
+    "norsk": "desember",
+    "english": "December"
+  },
+  {
+    "norsk": "utvalg",
+    "english": "a selection"
+  },
+  {
+    "norsk": "Trondheim",
+    "english": "N/A"
+  },
+  {
+    "norsk": "død",
+    "english": "death"
+  },
+  {
+    "norsk": "voksen",
+    "english": "adult"
+  },
+  {
+    "norsk": "arrangere",
+    "english": "to arrange"
+  },
+  {
+    "norsk": "tydelig",
+    "english": "evident"
+  },
+  {
+    "norsk": "sentrum",
+    "english": "center"
+  },
+  {
+    "norsk": "score",
+    "english": "to score"
+  },
+  {
+    "norsk": "ellers",
+    "english": "otherwise"
+  },
+  {
+    "norsk": "åtte",
+    "english": "eight"
+  },
+  {
+    "norsk": "varsle",
+    "english": "to warn"
+  },
+  {
+    "norsk": "far",
+    "english": "a father"
+  },
+  {
+    "norsk": "unngå",
+    "english": "to avoid"
+  },
+  {
+    "norsk": "koste",
+    "english": "to cost"
+  },
+  {
+    "norsk": "nevne",
+    "english": "to mention"
+  },
+  {
+    "norsk": "besøke",
+    "english": "to visit"
+  },
+  {
+    "norsk": "felles",
+    "english": "common"
+  },
+  {
+    "norsk": "opptatt",
+    "english": "busy"
+  },
+  {
+    "norsk": "grei",
+    "english": "nice, good"
+  },
+  {
+    "norsk": "opplevelse",
+    "english": "an experience"
+  },
+  {
+    "norsk": "bestå",
+    "english": "to consist"
+  },
+  {
+    "norsk": "vurdering",
+    "english": "assessment"
+  },
+  {
+    "norsk": "Europa",
+    "english": "Europe"
+  },
+  {
+    "norsk": "rest",
+    "english": "rest"
+  },
+  {
+    "norsk": "personlig",
+    "english": "personal"
+  },
+  {
+    "norsk": "følelse",
+    "english": "feeling"
+  },
+  {
+    "norsk": "august",
+    "english": "August"
+  },
+  {
+    "norsk": "beskrive",
+    "english": "to describe"
+  },
+  {
+    "norsk": "forskjell",
+    "english": "difference"
+  },
+  {
+    "norsk": "forsker",
+    "english": "a researcher"
+  },
+  {
+    "norsk": "effekt",
+    "english": "an effect"
+  },
+  {
+    "norsk": "effektiv",
+    "english": "efficient"
+  },
+  {
+    "norsk": "hund",
+    "english": "dog"
+  },
+  {
+    "norsk": "kjempe",
+    "english": "to fight"
+  },
+  {
+    "norsk": "midt",
+    "english": "in the middle"
+  },
+  {
+    "norsk": "per",
+    "english": "N/A"
+  },
+  {
+    "norsk": "lærer",
+    "english": "a teacher"
+  },
+  {
+    "norsk": "foreslå",
+    "english": "to suggest"
+  },
+  {
+    "norsk": "omgang",
+    "english": "N/A"
+  },
+  {
+    "norsk": "omtale",
+    "english": "to mention"
+  },
+  {
+    "norsk": "september",
+    "english": "September"
+  },
+  {
+    "norsk": "bryte",
+    "english": "to break"
+  },
+  {
+    "norsk": "bakgrunn",
+    "english": "background"
+  },
+  {
+    "norsk": "innhold",
+    "english": "content"
+  },
+  {
+    "norsk": "tett",
+    "english": "dense"
+  },
+  {
+    "norsk": "april",
+    "english": "April"
+  },
+  {
+    "norsk": "konsekvens",
+    "english": "a consequence"
+  },
+  {
+    "norsk": "forskning",
+    "english": "research"
+  },
+  {
+    "norsk": "juli",
+    "english": "July"
+  },
+  {
+    "norsk": "overfor",
+    "english": "opposite"
+  },
+  {
+    "norsk": "salg",
+    "english": "sale"
+  },
+  {
+    "norsk": "treffe",
+    "english": "to hit"
+  },
+  {
+    "norsk": "dessuten",
+    "english": "furthermore"
+  },
+  {
+    "norsk": "telefon",
+    "english": "telephone"
+  },
+  {
+    "norsk": "grunnlag",
+    "english": "basis"
+  },
+  {
+    "norsk": "tredje",
+    "english": "third"
+  },
+  {
+    "norsk": "stilling",
+    "english": "position"
+  },
+  {
+    "norsk": "presentere",
+    "english": "to present"
+  },
+  {
+    "norsk": "digital",
+    "english": "digital"
+  },
+  {
+    "norsk": "helse",
+    "english": "health"
+  },
+  {
+    "norsk": "perfekt",
+    "english": "perfect"
+  },
+  {
+    "norsk": "tøff",
+    "english": "tough"
+  },
+  {
+    "norsk": "praksis",
+    "english": "practice"
+  },
+  {
+    "norsk": "fremtid",
+    "english": "future"
+  },
+  {
+    "norsk": "fordel",
+    "english": "an advantage"
+  },
+  {
+    "norsk": "utover",
+    "english": "N/A"
+  },
+  {
+    "norsk": "alene",
+    "english": "alone"
+  },
+  {
+    "norsk": "sikkerhet",
+    "english": "security"
+  },
+  {
+    "norsk": "helst",
+    "english": "preferably"
+  },
+  {
+    "norsk": "farge",
+    "english": "color"
+  },
+  {
+    "norsk": "buss",
+    "english": "bus"
+  },
+  {
+    "norsk": "henge",
+    "english": "to hang"
+  },
+  {
+    "norsk": "nettside",
+    "english": "a website"
+  },
+  {
+    "norsk": "opplysning",
+    "english": "information"
+  },
+  {
+    "norsk": "utstyr",
+    "english": "equipment"
+  },
+  {
+    "norsk": "fysisk",
+    "english": "physical"
+  },
+  {
+    "norsk": "etablere",
+    "english": "to establish"
+  },
+  {
+    "norsk": "tilpasse",
+    "english": "to adapt"
+  },
+  {
+    "norsk": "bane",
+    "english": "a track, a trajectory"
+  },
+  {
+    "norsk": "overraske",
+    "english": "surprise"
+  },
+  {
+    "norsk": "frykte",
+    "english": "to fear"
+  },
+  {
+    "norsk": "tung",
+    "english": "heavy"
+  },
+  {
+    "norsk": "vekt",
+    "english": "weight"
+  },
+  {
+    "norsk": "ren",
+    "english": "clean"
+  },
+  {
+    "norsk": "grense",
+    "english": "a border"
+  },
+  {
+    "norsk": "oversikt",
+    "english": "an overview"
+  },
+  {
+    "norsk": "bytte",
+    "english": "to change"
+  },
+  {
+    "norsk": "takke",
+    "english": "to thank"
+  },
+  {
+    "norsk": "risiko",
+    "english": "a risk"
+  },
+  {
+    "norsk": "halv",
+    "english": "half"
+  },
+  {
+    "norsk": "kaste",
+    "english": "to throw"
+  },
+  {
+    "norsk": "generell",
+    "english": "general"
+  },
+  {
+    "norsk": "besøk",
+    "english": "a visit"
+  },
+  {
+    "norsk": "havne",
+    "english": "to end up"
+  },
+  {
+    "norsk": "vær",
+    "english": "weather"
+  },
+  {
+    "norsk": "innebære",
+    "english": "to imply"
+  },
+  {
+    "norsk": "imot",
+    "english": "against"
+  },
+  {
+    "norsk": "hendelse",
+    "english": "an event"
+  },
+  {
+    "norsk": "slett",
+    "english": "N/A"
+  },
+  {
+    "norsk": "vedta",
+    "english": "N/A"
+  },
+  {
+    "norsk": "enhet",
+    "english": "a unit"
+  },
+  {
+    "norsk": "musikk",
+    "english": "music"
+  },
+  {
+    "norsk": "lyst",
+    "english": "desire"
+  },
+  {
+    "norsk": "hode",
+    "english": "head"
+  },
+  {
+    "norsk": "oktober",
+    "english": "October"
+  },
+  {
+    "norsk": "konkurranse",
+    "english": "competition"
+  },
+  {
+    "norsk": "februar",
+    "english": "February"
+  },
+  {
+    "norsk": "ene",
+    "english": "N/A"
+  },
+  {
+    "norsk": "fotball",
+    "english": "soccer"
+  },
+  {
+    "norsk": "tap",
+    "english": "loss"
+  },
+  {
+    "norsk": "borte",
+    "english": "N/A"
+  },
+  {
+    "norsk": "produsere",
+    "english": "to produce"
+  },
+  {
+    "norsk": "rette",
+    "english": "to correct"
+  },
+  {
+    "norsk": "teknisk",
+    "english": "technical"
+  },
+  {
+    "norsk": "journalist",
+    "english": "a journalist"
+  },
+  {
+    "norsk": "invitere",
+    "english": "to invite"
+  },
+  {
+    "norsk": "skikkelig",
+    "english": "decent"
+  },
+  {
+    "norsk": "understreke",
+    "english": "to stress"
+  },
+  {
+    "norsk": "publikum",
+    "english": "audience"
+  },
+  {
+    "norsk": "politikk",
+    "english": "politics"
+  },
+  {
+    "norsk": "løse",
+    "english": "to solve"
+  },
+  {
+    "norsk": "hete",
+    "english": "to heat"
+  },
+  {
+    "norsk": "leilighet",
+    "english": "an apartment"
+  },
+  {
+    "norsk": "vokse",
+    "english": "to grow"
+  },
+  {
+    "norsk": "innlegg",
+    "english": "N/A"
+  },
+  {
+    "norsk": "liste",
+    "english": "a list"
+  },
+  {
+    "norsk": "forsvinne",
+    "english": "to disappear"
+  },
+  {
+    "norsk": "bruker",
+    "english": "user"
+  },
+  {
+    "norsk": "trykk",
+    "english": "pressure"
+  },
+  {
+    "norsk": "bord",
+    "english": "a table"
+  },
+  {
+    "norsk": "hensyn",
+    "english": "consideration"
+  },
+  {
+    "norsk": "modell",
+    "english": "a model"
+  },
+  {
+    "norsk": "betydelig",
+    "english": "significant"
+  },
+  {
+    "norsk": "felt",
+    "english": "field"
+  },
+  {
+    "norsk": "gjest",
+    "english": "a guest"
+  },
+  {
+    "norsk": "selvsagt",
+    "english": "N/A"
+  },
+  {
+    "norsk": "november",
+    "english": "November"
+  },
+  {
+    "norsk": "statsminister",
+    "english": "a prime minister"
+  },
+  {
+    "norsk": "anledning",
+    "english": "opportunity"
+  },
+  {
+    "norsk": "såkalt",
+    "english": "so called"
+  },
+  {
+    "norsk": "presse",
+    "english": "to press"
+  },
+  {
+    "norsk": "innsats",
+    "english": "an effort"
+  },
+  {
+    "norsk": "mening",
+    "english": "an opinion"
+  },
+  {
+    "norsk": "vinter",
+    "english": "winter"
+  },
+  {
+    "norsk": "løpe",
+    "english": "to run"
+  },
+  {
+    "norsk": "økonomi",
+    "english": "economy"
+  },
+  {
+    "norsk": "serie",
+    "english": "a series"
+  },
+  {
+    "norsk": "teste",
+    "english": "to test"
+  },
+  {
+    "norsk": "ennå",
+    "english": "yet"
+  },
+  {
+    "norsk": "undersøke",
+    "english": "to examine"
+  },
+  {
+    "norsk": "andre",
+    "english": "N/A"
+  },
+  {
+    "norsk": "oppnå",
+    "english": "to achieve"
+  },
+  {
+    "norsk": "avhengig",
+    "english": "dependent"
+  },
+  {
+    "norsk": "dør",
+    "english": "a door"
+  },
+  {
+    "norsk": "hverdag",
+    "english": "weekday"
+  },
+  {
+    "norsk": "involvere",
+    "english": "to involve"
+  },
+  {
+    "norsk": "tilsvare",
+    "english": "N/A"
+  },
+  {
+    "norsk": "sammenheng",
+    "english": "context"
+  },
+  {
+    "norsk": "søknad",
+    "english": "an application"
+  },
+  {
+    "norsk": "uttale",
+    "english": "N/A"
+  },
+  {
+    "norsk": "gratis",
+    "english": "free"
+  },
+  {
+    "norsk": "dessverre",
+    "english": "unfortunately"
+  },
+  {
+    "norsk": "praktisk",
+    "english": "practical"
+  },
+  {
+    "norsk": "tvil",
+    "english": "a doubt"
+  },
+  {
+    "norsk": "lik",
+    "english": "equal"
+  },
+  {
+    "norsk": "skjønne",
+    "english": "to understand"
+  },
+  {
+    "norsk": "selve",
+    "english": "itself"
+  },
+  {
+    "norsk": "øye",
+    "english": "an eye"
+  },
+  {
+    "norsk": "drift",
+    "english": "operation"
+  },
+  {
+    "norsk": "usikker",
+    "english": "uncertain"
+  },
+  {
+    "norsk": "artikkel",
+    "english": "an article"
+  },
+  {
+    "norsk": "syk",
+    "english": "sick"
+  },
+  {
+    "norsk": "love",
+    "english": "to promise"
+  },
+  {
+    "norsk": "varm",
+    "english": "warm"
+  },
+  {
+    "norsk": "psykisk",
+    "english": "psychic"
+  },
+  {
+    "norsk": "nummer",
+    "english": "a number"
+  },
+  {
+    "norsk": "pause",
+    "english": "a pause"
+  },
+  {
+    "norsk": "teknologi",
+    "english": "technology"
+  },
+  {
+    "norsk": "reagere",
+    "english": "to react"
+  },
+  {
+    "norsk": "ressurs",
+    "english": "a resource"
+  },
+  {
+    "norsk": "omfattende",
+    "english": "comprehensive"
+  },
+  {
+    "norsk": "anlegg",
+    "english": "a facility"
+  },
+  {
+    "norsk": "inntil",
+    "english": "up to"
+  },
+  {
+    "norsk": "innføre",
+    "english": "to introduce"
+  },
+  {
+    "norsk": "nettsted",
+    "english": "a website"
+  },
+  {
+    "norsk": "økning",
+    "english": "an increase"
+  },
+  {
+    "norsk": "kritikk",
+    "english": "criticism"
+  },
+  {
+    "norsk": "derimot",
+    "english": "however"
+  },
+  {
+    "norsk": "produksjon",
+    "english": "production"
+  },
+  {
+    "norsk": "utdanning",
+    "english": "education"
+  },
+  {
+    "norsk": "advokat",
+    "english": "a lawyer"
+  },
+  {
+    "norsk": "oppdage",
+    "english": "to discover"
+  },
+  {
+    "norsk": "direktør",
+    "english": "a director"
+  },
+  {
+    "norsk": "samtale",
+    "english": "conversation"
+  },
+  {
+    "norsk": "ødelegge",
+    "english": "to destroy"
+  },
+  {
+    "norsk": "ordfører",
+    "english": "a mayor"
+  },
+  {
+    "norsk": "masse",
+    "english": "N/A"
+  },
+  {
+    "norsk": "selvfølgelig",
+    "english": "N/A"
+  },
+  {
+    "norsk": "hvit",
+    "english": "white"
+  },
+  {
+    "norsk": "kilometer",
+    "english": "N/A"
+  },
+  {
+    "norsk": "kommentar",
+    "english": "a comment"
+  },
+  {
+    "norsk": "nekte",
+    "english": "to deny"
+  },
+  {
+    "norsk": "kultur",
+    "english": "culture"
+  },
+  {
+    "norsk": "kritisk",
+    "english": "critical"
+  },
+  {
+    "norsk": "ringe",
+    "english": "to ring"
+  },
+  {
+    "norsk": "arrangement",
+    "english": "arrangement"
+  },
+  {
+    "norsk": "vedtak",
+    "english": "a decision"
+  },
+  {
+    "norsk": "diskutere",
+    "english": "to discuss"
+  },
+  {
+    "norsk": "avgjøre",
+    "english": "N/A"
+  },
+  {
+    "norsk": "bygg",
+    "english": "building"
+  },
+  {
+    "norsk": "vold",
+    "english": "violence"
+  },
+  {
+    "norsk": "skille",
+    "english": "to separate"
+  },
+  {
+    "norsk": "slags",
+    "english": "N/A"
+  },
+  {
+    "norsk": "innrømme",
+    "english": "to admit"
+  },
+  {
+    "norsk": "vekst",
+    "english": "growth"
+  },
+  {
+    "norsk": "viss",
+    "english": "certain"
+  },
+  {
+    "norsk": "oppstå",
+    "english": "to arise"
+  },
+  {
+    "norsk": "negativ",
+    "english": "negative"
+  },
+  {
+    "norsk": "bred",
+    "english": "wide"
+  },
+  {
+    "norsk": "takk",
+    "english": "an acknowledgement, a thank-you"
+  },
+  {
+    "norsk": "betydning",
+    "english": "a meaning"
+  },
+  {
+    "norsk": "ingenting",
+    "english": "nothing"
+  },
+  {
+    "norsk": "samarbeide",
+    "english": "collaborate, to cooperate"
+  },
+  {
+    "norsk": "Russland",
+    "english": "N/A"
+  },
+  {
+    "norsk": "redde",
+    "english": "to rescue"
+  },
+  {
+    "norsk": "data",
+    "english": "data"
+  },
+  {
+    "norsk": "slutte",
+    "english": "to conclude"
+  },
+  {
+    "norsk": "trafikk",
+    "english": "traffic"
+  },
+  {
+    "norsk": "populær",
+    "english": "popular"
+  },
+  {
+    "norsk": "tjene",
+    "english": "to serve"
+  },
+  {
+    "norsk": "forsøk",
+    "english": "attempt"
+  },
+  {
+    "norsk": "varme",
+    "english": "heat"
+  },
+  {
+    "norsk": "farlig",
+    "english": "dangerous"
+  },
+  {
+    "norsk": "billig",
+    "english": "cheap"
+  },
+  {
+    "norsk": "plassere",
+    "english": "to place"
+  },
+  {
+    "norsk": "aktør",
+    "english": "actor"
+  },
+  {
+    "norsk": "påpeke",
+    "english": "to point out"
+  },
+  {
+    "norsk": "sekund",
+    "english": "a second"
+  },
+  {
+    "norsk": "fisk",
+    "english": "a fish"
+  },
+  {
+    "norsk": "nylig",
+    "english": "recently"
+  },
+  {
+    "norsk": "avdeling",
+    "english": "a department"
+  },
+  {
+    "norsk": "minne",
+    "english": "to remind"
+  },
+  {
+    "norsk": "beskjed",
+    "english": "message"
+  },
+  {
+    "norsk": "øvrig",
+    "english": "other"
+  },
+  {
+    "norsk": "inngå",
+    "english": "to enter into"
+  },
+  {
+    "norsk": "oppfordre",
+    "english": "to encourage"
+  },
+  {
+    "norsk": "nyhet",
+    "english": "news"
+  },
+  {
+    "norsk": "natur",
+    "english": "nature"
+  },
+  {
+    "norsk": "enorm",
+    "english": "N/A"
+  },
+  {
+    "norsk": "bank",
+    "english": "a bank"
+  },
+  {
+    "norsk": "kostnad",
+    "english": "cost"
+  },
+  {
+    "norsk": "hytte",
+    "english": "cottage"
+  },
+  {
+    "norsk": "alder",
+    "english": "age"
+  },
+  {
+    "norsk": "kontrakt",
+    "english": "a contract"
+  },
+  {
+    "norsk": "oppdrag",
+    "english": "mission"
+  },
+  {
+    "norsk": "kilde",
+    "english": "source"
+  },
+  {
+    "norsk": "drikke",
+    "english": "to drink"
+  },
+  {
+    "norsk": "gate",
+    "english": "a street"
+  },
+  {
+    "norsk": "ytterligere",
+    "english": "additional"
+  },
+  {
+    "norsk": "tekst",
+    "english": "a text"
+  },
+  {
+    "norsk": "frisk",
+    "english": "fresh"
+  },
+  {
+    "norsk": "variere",
+    "english": "to vary"
+  },
+  {
+    "norsk": "fremover",
+    "english": "N/A"
+  },
+  {
+    "norsk": "bekymre",
+    "english": "N/A"
+  },
+  {
+    "norsk": "kraft",
+    "english": "power"
+  },
+  {
+    "norsk": "dom",
+    "english": "judgement"
+  },
+  {
+    "norsk": "utgjøre",
+    "english": "to constitute"
+  },
+  {
+    "norsk": "ni",
+    "english": "nine"
+  },
+  {
+    "norsk": "bestille",
+    "english": "to order"
+  },
+  {
+    "norsk": "moderne",
+    "english": "modern"
+  },
+  {
+    "norsk": "streng",
+    "english": "N/A"
+  },
+  {
+    "norsk": "mengde",
+    "english": "quantity"
+  },
+  {
+    "norsk": "retning",
+    "english": "direction"
+  },
+  {
+    "norsk": "Molde",
+    "english": "N/A"
+  },
+  {
+    "norsk": "frivillig",
+    "english": "voluntary"
+  },
+  {
+    "norsk": "foregå",
+    "english": "to take place"
+  },
+  {
+    "norsk": "unik",
+    "english": "unique"
+  },
+  {
+    "norsk": "våpen",
+    "english": "N/A"
+  },
+  {
+    "norsk": "ordning",
+    "english": "an arrangement"
+  },
+  {
+    "norsk": "imponere",
+    "english": "N/A"
+  },
+  {
+    "norsk": "sammenligne",
+    "english": "to compare"
+  },
+  {
+    "norsk": "godkjenne",
+    "english": "to approve"
+  },
+  {
+    "norsk": "fremdeles",
+    "english": "still"
+  },
+  {
+    "norsk": "dukke",
+    "english": "N/A"
+  },
+  {
+    "norsk": "konkret",
+    "english": "concrete"
+  },
+  {
+    "norsk": "redd",
+    "english": "afraid"
+  },
+  {
+    "norsk": "Kristiansand",
+    "english": "N/A"
+  },
+  {
+    "norsk": "inntekt",
+    "english": "an income"
+  },
+  {
+    "norsk": "faglig",
+    "english": "professional"
+  },
+  {
+    "norsk": "funksjon",
+    "english": "function"
+  },
+  {
+    "norsk": "spare",
+    "english": "to save"
+  },
+  {
+    "norsk": "interessant",
+    "english": "interesting"
+  },
+  {
+    "norsk": "langs",
+    "english": "along"
+  },
+  {
+    "norsk": "Østfold",
+    "english": "N/A"
+  },
+  {
+    "norsk": "innbygger",
+    "english": "an inhabitant"
+  },
+  {
+    "norsk": "fare",
+    "english": "danger"
+  },
+  {
+    "norsk": "befolkning",
+    "english": "population"
+  },
+  {
+    "norsk": "nærhet",
+    "english": "proximity"
+  },
+  {
+    "norsk": "rød",
+    "english": "red"
+  },
+  {
+    "norsk": "spor",
+    "english": "a trace"
+  },
+  {
+    "norsk": "svak",
+    "english": "weak"
+  },
+  {
+    "norsk": "deltaker",
+    "english": "a participant"
+  },
+  {
+    "norsk": "fremme",
+    "english": "N/A"
+  },
+  {
+    "norsk": "forlate",
+    "english": "to leave"
+  },
+  {
+    "norsk": "snakk",
+    "english": "talk"
+  },
+  {
+    "norsk": "størrelse",
+    "english": "size"
+  },
+  {
+    "norsk": "avgjørende",
+    "english": "decisive"
+  },
+  {
+    "norsk": "publisere",
+    "english": "to publish"
+  },
+  {
+    "norsk": "hud",
+    "english": "skin"
+  },
+  {
+    "norsk": "intervju",
+    "english": "an interview"
+  },
+  {
+    "norsk": "brev",
+    "english": "a letter"
+  },
+  {
+    "norsk": "plutselig",
+    "english": "sudden"
+  },
+  {
+    "norsk": "forfatter",
+    "english": "an author"
+  },
+  {
+    "norsk": "nord",
+    "english": "N/A"
+  },
+  {
+    "norsk": "eie",
+    "english": "to own"
+  },
+  {
+    "norsk": "dommer",
+    "english": "a judge"
+  },
+  {
+    "norsk": "fart",
+    "english": "speed"
+  },
+  {
+    "norsk": "ferd",
+    "english": "journey"
+  },
+  {
+    "norsk": "energi",
+    "english": "energy"
+  },
+  {
+    "norsk": "flertall",
+    "english": "a majority"
+  },
+  {
+    "norsk": "klasse",
+    "english": "a class"
+  },
+  {
+    "norsk": "oppmerksomhet",
+    "english": "attention"
+  },
+  {
+    "norsk": "snø",
+    "english": "snow"
+  },
+  {
+    "norsk": "opprette",
+    "english": "to create"
+  },
+  {
+    "norsk": "eier",
+    "english": "an owner"
+  },
+  {
+    "norsk": "vakker",
+    "english": "beautiful"
+  },
+  {
+    "norsk": "kommentere",
+    "english": "to comment"
+  },
+  {
+    "norsk": "formiddag",
+    "english": "morning"
+  },
+  {
+    "norsk": "standard",
+    "english": "a standard"
+  },
+  {
+    "norsk": "absolutt",
+    "english": "N/A"
+  },
+  {
+    "norsk": "prege",
+    "english": "N/A"
+  },
+  {
+    "norsk": "konflikt",
+    "english": "conflict"
+  },
+  {
+    "norsk": "test",
+    "english": "a test"
+  },
+  {
+    "norsk": "innsyn",
+    "english": "insight"
+  },
+  {
+    "norsk": "rykke",
+    "english": "N/A"
+  },
+  {
+    "norsk": "materiale",
+    "english": "material"
+  },
+  {
+    "norsk": "tusen",
+    "english": "a thousand"
+  },
+  {
+    "norsk": "leie",
+    "english": "N/A"
+  },
+  {
+    "norsk": "oppdatere",
+    "english": "to update"
+  },
+  {
+    "norsk": "true",
+    "english": "to threaten"
+  },
+  {
+    "norsk": "stand",
+    "english": "condition"
+  },
+  {
+    "norsk": "glemme",
+    "english": "to forget"
+  },
+  {
+    "norsk": "budsjett",
+    "english": "a budget"
+  },
+  {
+    "norsk": "ansvarlig",
+    "english": "responsible"
+  },
+  {
+    "norsk": "kald",
+    "english": "cold"
+  },
+  {
+    "norsk": "relativ",
+    "english": "relative"
+  },
+  {
+    "norsk": "verktøy",
+    "english": "a tool"
+  },
+  {
+    "norsk": "vitne",
+    "english": "a witness"
+  },
+  {
+    "norsk": "hyggelig",
+    "english": "nice"
+  },
+  {
+    "norsk": "peke",
+    "english": "to point"
+  },
+  {
+    "norsk": "tale",
+    "english": "N/A"
+  },
+  {
+    "norsk": "videregående",
+    "english": "pertaining to high school"
+  },
+  {
+    "norsk": "velkommen",
+    "english": "welcome"
+  },
+  {
+    "norsk": "klage",
+    "english": "complaint"
+  },
+  {
+    "norsk": "sju",
+    "english": "seven"
+  },
+  {
+    "norsk": "formål",
+    "english": "a purpose"
+  },
+  {
+    "norsk": "strøm",
+    "english": "electricity"
+  },
+  {
+    "norsk": "evne",
+    "english": "ability"
+  },
+  {
+    "norsk": "konsert",
+    "english": "a concert"
+  },
+  {
+    "norsk": "utvide",
+    "english": "to expand"
+  },
+  {
+    "norsk": "språk",
+    "english": "language"
+  },
+  {
+    "norsk": "jevn",
+    "english": "even"
+  },
+  {
+    "norsk": "enhver",
+    "english": "anyone"
+  },
+  {
+    "norsk": "ekstrem",
+    "english": "extreme"
+  },
+  {
+    "norsk": "prioritere",
+    "english": "N/A"
+  },
+  {
+    "norsk": "vegg",
+    "english": "a wall"
+  },
+  {
+    "norsk": "kirke",
+    "english": "church"
+  },
+  {
+    "norsk": "stund",
+    "english": "a while"
+  },
+  {
+    "norsk": "punkt",
+    "english": "point"
+  },
+  {
+    "norsk": "hest",
+    "english": "a horse"
+  },
+  {
+    "norsk": "press",
+    "english": "pressure"
+  },
+  {
+    "norsk": "håndtere",
+    "english": "to handle"
+  },
+  {
+    "norsk": "middel",
+    "english": "N/A"
+  },
+  {
+    "norsk": "snu",
+    "english": "N/A"
+  },
+  {
+    "norsk": "møtes",
+    "english": "to meet"
+  },
+  {
+    "norsk": "årlig",
+    "english": "annual"
+  },
+  {
+    "norsk": "hindre",
+    "english": "to hinder"
+  },
+  {
+    "norsk": "foreta",
+    "english": "to undertake"
+  },
+  {
+    "norsk": "søk",
+    "english": "a search"
+  },
+  {
+    "norsk": "utland",
+    "english": "a foreign country"
+  },
+  {
+    "norsk": "andel",
+    "english": "a share"
+  },
+  {
+    "norsk": "bakke",
+    "english": "a hill"
+  },
+  {
+    "norsk": "kontor",
+    "english": "an office"
+  },
+  {
+    "norsk": "ferie",
+    "english": "vacation"
+  },
+  {
+    "norsk": "fjell",
+    "english": "a mountain"
+  },
+  {
+    "norsk": "tysk",
+    "english": "German"
+  },
+  {
+    "norsk": "tillate",
+    "english": "to allow"
+  },
+  {
+    "norsk": "hundre",
+    "english": "hundred"
+  },
+  {
+    "norsk": "tilstand",
+    "english": "state"
+  },
+  {
+    "norsk": "Drammen",
+    "english": "N/A"
+  },
+  {
+    "norsk": "kontakte",
+    "english": "to contact"
+  },
+  {
+    "norsk": "arbeidsplass",
+    "english": "a workplace"
+  },
+  {
+    "norsk": "tidspunkt",
+    "english": "point"
+  },
+  {
+    "norsk": "sønn",
+    "english": "a son"
+  },
+  {
+    "norsk": "grønn",
+    "english": "green"
+  },
+  {
+    "norsk": "tradisjonell",
+    "english": "traditional"
+  },
+  {
+    "norsk": "rettighet",
+    "english": "a right"
+  },
+  {
+    "norsk": "savne",
+    "english": "to miss"
+  },
+  {
+    "norsk": "Kina",
+    "english": "China"
+  },
+  {
+    "norsk": "an",
+    "english": "N/A"
+  },
+  {
+    "norsk": "olje",
+    "english": "oil"
+  },
+  {
+    "norsk": "gal",
+    "english": "crazy"
+  },
+  {
+    "norsk": "utenlandsk",
+    "english": "foreign"
+  },
+  {
+    "norsk": "Bodø",
+    "english": "N/A"
+  },
+  {
+    "norsk": "ettersom",
+    "english": "as"
+  },
+  {
+    "norsk": "forståelse",
+    "english": "understanding"
+  },
+  {
+    "norsk": "idé",
+    "english": "idea"
+  },
+  {
+    "norsk": "stoff",
+    "english": "fabric"
+  },
+  {
+    "norsk": "annerledes",
+    "english": "different"
+  },
+  {
+    "norsk": "dreie",
+    "english": "to turn"
+  },
+  {
+    "norsk": "mistenke",
+    "english": "to suspect"
+  },
+  {
+    "norsk": "kontrollere",
+    "english": "to control"
+  },
+  {
+    "norsk": "dokument",
+    "english": "a document"
+  },
+  {
+    "norsk": "datter",
+    "english": "a daughter"
+  },
+  {
+    "norsk": "morsom",
+    "english": "funny"
+  },
+  {
+    "norsk": "Finnmark",
+    "english": "Finnmark"
+  },
+  {
+    "norsk": "verdt",
+    "english": "worth"
+  },
+  {
+    "norsk": "engasjere",
+    "english": "to engage"
+  },
+  {
+    "norsk": "dyp",
+    "english": "deep"
+  },
+  {
+    "norsk": "jord",
+    "english": "earth"
+  },
+  {
+    "norsk": "representere",
+    "english": "to represent"
+  },
+  {
+    "norsk": "næringsliv",
+    "english": "the business world"
+  },
+  {
+    "norsk": "stolt",
+    "english": "proud"
+  },
+  {
+    "norsk": "kutte",
+    "english": "to cut"
+  },
+  {
+    "norsk": "fange",
+    "english": "to catch"
+  },
+  {
+    "norsk": "design",
+    "english": "design"
+  },
+  {
+    "norsk": "flink",
+    "english": "good"
+  },
+  {
+    "norsk": "klær",
+    "english": "clothes"
+  },
+  {
+    "norsk": "skyldes",
+    "english": "to be caused by, to result from"
+  },
+  {
+    "norsk": "omtrent",
+    "english": "approximately"
+  },
+  {
+    "norsk": "fransk",
+    "english": "French"
+  },
+  {
+    "norsk": "løfte",
+    "english": "to lift"
+  },
+  {
+    "norsk": "luft",
+    "english": "air"
+  },
+  {
+    "norsk": "elske",
+    "english": "to love"
+  },
+  {
+    "norsk": "tog",
+    "english": "a train"
+  },
+  {
+    "norsk": "Danmark",
+    "english": "Denmark"
+  },
+  {
+    "norsk": "maskin",
+    "english": "a machine"
+  },
+  {
+    "norsk": "håp",
+    "english": "hope"
+  },
+  {
+    "norsk": "favoritt",
+    "english": "favorite"
+  },
+  {
+    "norsk": "eksistere",
+    "english": "N/A"
+  },
+  {
+    "norsk": "omfatte",
+    "english": "to include"
+  },
+  {
+    "norsk": "vekk",
+    "english": "away"
+  },
+  {
+    "norsk": "koble",
+    "english": "to connect"
+  },
+  {
+    "norsk": "krig",
+    "english": "war"
+  },
+  {
+    "norsk": "ivareta",
+    "english": "to take care of"
+  },
+  {
+    "norsk": "samisk",
+    "english": "Sami"
+  },
+  {
+    "norsk": "reaksjon",
+    "english": "a reaction"
+  },
+  {
+    "norsk": "skuffe",
+    "english": "to disappoint"
+  },
+  {
+    "norsk": "måle",
+    "english": "to measure"
+  },
+  {
+    "norsk": "tyde",
+    "english": "to decipher"
+  },
+  {
+    "norsk": "beholde",
+    "english": "to keep"
+  },
+  {
+    "norsk": "Telemark",
+    "english": "N/A"
+  },
+  {
+    "norsk": "opplæring",
+    "english": "training"
+  },
+  {
+    "norsk": "uttrykk",
+    "english": "an expression"
+  },
+  {
+    "norsk": "bære",
+    "english": "to wear"
+  },
+  {
+    "norsk": "kombinere",
+    "english": "to combine"
+  },
+  {
+    "norsk": "fag",
+    "english": "subject"
+  },
+  {
+    "norsk": "aksjon",
+    "english": "action"
+  },
+  {
+    "norsk": "sjelden",
+    "english": "rarely"
+  },
+  {
+    "norsk": "gøy",
+    "english": "fun"
+  },
+  {
+    "norsk": "idrett",
+    "english": "sport"
+  },
+  {
+    "norsk": "engelsk",
+    "english": "English"
+  },
+  {
+    "norsk": "forbedre",
+    "english": "to improve"
+  }
+]
