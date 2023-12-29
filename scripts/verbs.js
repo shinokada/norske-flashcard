@@ -42,7 +42,7 @@ async function scrapeDictionaryData() {
 
 
     const jsonContent = JSON.stringify(data, null, 2);
-    await fs.writeFile('src/lib/verbs.json', jsonContent);
+    await fs.writeFile('src/lib/data/verbs.json', jsonContent);
 
     console.log('All data extracted and saved to verbs.json');
   } catch (error) {

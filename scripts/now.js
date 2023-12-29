@@ -65,7 +65,7 @@ const parseNorskEngFile = async () => {
 
     const jsonOutput = JSON.stringify(result, null, 2);
 
-    await fs.writeFile('src/lib/ntnu-now.json', jsonOutput, 'utf-8');
+    await fs.writeFile('src/lib/data/ntnu-now.json', jsonOutput, 'utf-8');
     console.log('Data written to norsk-eng.json file successfully.');
   } catch (err) {
     console.error('Error:', err);

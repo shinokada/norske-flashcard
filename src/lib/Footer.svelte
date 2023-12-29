@@ -20,6 +20,9 @@
             <a href="/verbs" class="text-md hover:underline me-4 md:me-6">Verbs</a>
           </li>
           <li>
+            <a href="/adjectives" class="text-md hover:underline me-4 md:me-6">Adjectives</a>
+          </li>
+          <li>
             <a href="/education" class="text-md hover:underline me-4 md:me-6">Education</a>
           </li>
           <li>

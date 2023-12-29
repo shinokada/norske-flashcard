@@ -39,7 +39,7 @@ const getQuotes = async () => {
   });
   
   try {
-    await fs.writeFile("src/lib/ntnu-now2.json", JSON.stringify(norskwords, null, 2));
+    await fs.writeFile("src/lib/data/ntnu-now2.json", JSON.stringify(norskwords, null, 2));
     console.log("Data saved to norskwords.json");
   } catch (err) {
     console.error("Error writing to file:", err);

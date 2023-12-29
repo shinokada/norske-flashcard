@@ -1,0 +1,698 @@
+[
+  {
+    "norsk": "stor",
+    "english": "big"
+  },
+  {
+    "norsk": "liten",
+    "english": "small"
+  },
+  {
+    "norsk": "lang",
+    "english": "long"
+  },
+  {
+    "norsk": "kort",
+    "english": "short"
+  },
+  {
+    "norsk": "høy",
+    "english": "tall, high"
+  },
+  {
+    "norsk": "lav",
+    "english": "low, short"
+  },
+  {
+    "norsk": "gammel",
+    "english": "old"
+  },
+  {
+    "norsk": "ung",
+    "english": "young"
+  },
+  {
+    "norsk": "god",
+    "english": "good"
+  },
+  {
+    "norsk": "dårlig",
+    "english": "bad"
+  },
+  {
+    "norsk": "sterk",
+    "english": "strong"
+  },
+  {
+    "norsk": "svak",
+    "english": "weak"
+  },
+  {
+    "norsk": "rask",
+    "english": "fast"
+  },
+  {
+    "norsk": "langsom",
+    "english": "slow"
+  },
+  {
+    "norsk": "varm",
+    "english": "warm"
+  },
+  {
+    "norsk": "kald",
+    "english": "cold"
+  },
+  {
+    "norsk": "ny",
+    "english": "new"
+  },
+  {
+    "norsk": "fersk",
+    "english": "fresh"
+  },
+  {
+    "norsk": "tørr",
+    "english": "dry"
+  },
+  {
+    "norsk": "våt",
+    "english": "wet"
+  },
+  {
+    "norsk": "tom",
+    "english": "empty"
+  },
+  {
+    "norsk": "full",
+    "english": "full"
+  },
+  {
+    "norsk": "ren",
+    "english": "clean"
+  },
+  {
+    "norsk": "skitten",
+    "english": "dirty"
+  },
+  {
+    "norsk": "lett",
+    "english": "light (weight)"
+  },
+  {
+    "norsk": "tung",
+    "english": "heavy"
+  },
+  {
+    "norsk": "hard",
+    "english": "hard"
+  },
+  {
+    "norsk": "myk",
+    "english": "soft"
+  },
+  {
+    "norsk": "lys",
+    "english": "light (color)"
+  },
+  {
+    "norsk": "mørk",
+    "english": "dark"
+  },
+  {
+    "norsk": "dyr",
+    "english": "expensive"
+  },
+  {
+    "norsk": "billig",
+    "english": "cheap"
+  },
+  {
+    "norsk": "bred",
+    "english": "wide"
+  },
+  {
+    "norsk": "smal",
+    "english": "narrow"
+  },
+  {
+    "norsk": "rik",
+    "english": "rich"
+  },
+  {
+    "norsk": "fattig",
+    "english": "poor"
+  },
+  {
+    "norsk": "syk",
+    "english": "sick"
+  },
+  {
+    "norsk": "frisk",
+    "english": "healthy"
+  },
+  {
+    "norsk": "pen",
+    "english": "pretty"
+  },
+  {
+    "norsk": "stygg",
+    "english": "ugly"
+  },
+  {
+    "norsk": "sulten",
+    "english": "hungry"
+  },
+  {
+    "norsk": "mett",
+    "english": "full (satiated)"
+  },
+  {
+    "norsk": "tørst",
+    "english": "thirsty"
+  },
+  {
+    "norsk": "trøtt",
+    "english": "tired"
+  },
+  {
+    "norsk": "våken",
+    "english": "awake"
+  },
+  {
+    "norsk": "glad",
+    "english": "happy"
+  },
+  {
+    "norsk": "trist",
+    "english": "sad"
+  },
+  {
+    "norsk": "sint",
+    "english": "angry"
+  },
+  {
+    "norsk": "redd",
+    "english": "scared"
+  },
+  {
+    "norsk": "modig",
+    "english": "brave"
+  },
+  {
+    "norsk": "feig",
+    "english": "cowardly"
+  },
+  {
+    "norsk": "sikker",
+    "english": "sure"
+  },
+  {
+    "norsk": "usikker",
+    "english": "unsure"
+  },
+  {
+    "norsk": "enkel",
+    "english": "simple"
+  },
+  {
+    "norsk": "komplisert",
+    "english": "complicated"
+  },
+  {
+    "norsk": "kjent",
+    "english": "famous"
+  },
+  {
+    "norsk": "ukjent",
+    "english": "unknown"
+  },
+  {
+    "norsk": "alene",
+    "english": "alone"
+  },
+  {
+    "norsk": "sammen",
+    "english": "together"
+  },
+  {
+    "norsk": "interessant",
+    "english": "interesting"
+  },
+  {
+    "norsk": "kjedelig",
+    "english": "boring"
+  },
+  {
+    "norsk": "viktig",
+    "english": "important"
+  },
+  {
+    "norsk": "uviktig",
+    "english": "unimportant"
+  },
+  {
+    "norsk": "riktig",
+    "english": "correct"
+  },
+  {
+    "norsk": "galt",
+    "english": "wrong"
+  },
+  {
+    "norsk": "klar",
+    "english": "ready, clear"
+  },
+  {
+    "norsk": "uklar",
+    "english": "unclear"
+  },
+  {
+    "norsk": "åpen",
+    "english": "open"
+  },
+  {
+    "norsk": "lukket",
+    "english": "closed"
+  },
+  {
+    "norsk": "tidlig",
+    "english": "early"
+  },
+  {
+    "norsk": "sen",
+    "english": "late"
+  },
+  {
+    "norsk": "lokal",
+    "english": "local"
+  },
+  {
+    "norsk": "global",
+    "english": "global"
+  },
+  {
+    "norsk": "nasjonal",
+    "english": "national"
+  },
+  {
+    "norsk": "internasjonal",
+    "english": "international"
+  },
+  {
+    "norsk": "privat",
+    "english": "private"
+  },
+  {
+    "norsk": "offentlig",
+    "english": "public"
+  },
+  {
+    "norsk": "mulig",
+    "english": "possible"
+  },
+  {
+    "norsk": "umulig",
+    "english": "impossible"
+  },
+  {
+    "norsk": "sann",
+    "english": "true"
+  },
+  {
+    "norsk": "falsk",
+    "english": "false"
+  },
+  {
+    "norsk": "fullstendig",
+    "english": "complete"
+  },
+  {
+    "norsk": "delvis",
+    "english": "partial"
+  },
+  {
+    "norsk": "gratis",
+    "english": "free (no cost)"
+  },
+  {
+    "norsk": "opptatt",
+    "english": "busy"
+  },
+  {
+    "norsk": "ledig",
+    "english": "available"
+  },
+  {
+    "norsk": "lik",
+    "english": "equal, similar"
+  },
+  {
+    "norsk": "ulik",
+    "english": "different"
+  },
+  {
+    "norsk": "firkantet",
+    "english": "square"
+  },
+  {
+    "norsk": "rund",
+    "english": "round"
+  },
+  {
+    "norsk": "flat",
+    "english": "flat"
+  },
+  {
+    "norsk": "morsom",
+    "english": "funny"
+  },
+  {
+    "norsk": "seriøs",
+    "english": "serious"
+  },
+  {
+    "norsk": "stille",
+    "english": "quiet"
+  },
+  {
+    "norsk": "sprø",
+    "english": "crazy"
+  },
+  {
+    "norsk": "vakker",
+    "english": "beautiful"
+  },
+  {
+    "norsk": "raus",
+    "english": "generous"
+  },
+  {
+    "norsk": "sjarmerende",
+    "english": "charming"
+  },
+  {
+    "norsk": "mye",
+    "english": "a lot"
+  },
+  {
+    "norsk": "korrekt",
+    "english": "accurate"
+  },
+  {
+    "norsk": "gått i stykker",
+    "english": "broken"
+  },
+  {
+    "norsk": "klønete",
+    "english": "clumsy"
+  },
+  {
+    "norsk": "fargerik",
+    "english": "colorful"
+  },
+  {
+    "norsk": "komfortabel",
+    "english": "comfortable"
+  },
+  {
+    "norsk": "gal",
+    "english": "crazy"
+  },
+  {
+    "norsk": "nysgjerrig",
+    "english": "curious"
+  },
+  {
+    "norsk": "søt",
+    "english": "cute"
+  },
+  {
+    "norsk": "farlig",
+    "english": "dangerous"
+  },
+  {
+    "norsk": "død",
+    "english": "dead"
+  },
+  {
+    "norsk": "dyp",
+    "english": "deep"
+  },
+  {
+    "norsk": "nydelig",
+    "english": "delicious"
+  },
+  {
+    "norsk": "forskjellig",
+    "english": "different"
+  },
+  {
+    "norsk": "motbydelig",
+    "english": "disgusting"
+  },
+  {
+    "norsk": "tørke",
+    "english": "dry"
+  },
+  {
+    "norsk": "spiselig",
+    "english": "edible"
+  },
+  {
+    "norsk": "effektive",
+    "english": "effective"
+  },
+  {
+    "norsk": "elegant",
+    "english": "elegant"
+  },
+  {
+    "norsk": "tømme",
+    "english": "empty"
+  },
+  {
+    "norsk": "utmerket",
+    "english": "excellent"
+  },
+  {
+    "norsk": "spent",
+    "english": "excited"
+  },
+  {
+    "norsk": "spennende",
+    "english": "exciting"
+  },
+  {
+    "norsk": "berømt",
+    "english": "famous"
+  },
+  {
+    "norsk": "langt",
+    "english": "far"
+  },
+  {
+    "norsk": "først",
+    "english": "first"
+  },
+  {
+    "norsk": "forbudt",
+    "english": "forbidden"
+  },
+  {
+    "norsk": "vennlig",
+    "english": "friendly"
+  },
+  {
+    "norsk": "moro",
+    "english": "fun"
+  },
+  {
+    "norsk": "flott",
+    "english": "great"
+  },
+  {
+    "norsk": "ærlig",
+    "english": "honest"
+  },
+  {
+    "norsk": "enorm",
+    "english": "huge"
+  },
+  {
+    "norsk": "umiddelbar",
+    "english": "immediate"
+  },
+  {
+    "norsk": "utrolig",
+    "english": "incredible"
+  },
+  {
+    "norsk": "uskyldig",
+    "english": "innocent"
+  },
+  {
+    "norsk": "intelligent",
+    "english": "intelligent"
+  },
+  {
+    "norsk": "sjalu",
+    "english": "jealous"
+  },
+  {
+    "norsk": "lat",
+    "english": "lazy"
+  },
+  {
+    "norsk": "lovlig",
+    "english": "legal"
+  },
+  {
+    "norsk": "mange",
+    "english": "many"
+  },
+  {
+    "norsk": "mystisk",
+    "english": "mysterious"
+  },
+  {
+    "norsk": "nødvendig",
+    "english": "necessary"
+  },
+  {
+    "norsk": "hyggelig",
+    "english": "nice"
+  },
+  {
+    "norsk": "støyende",
+    "english": "noisy"
+  },
+  {
+    "norsk": "offisielt",
+    "english": "official"
+  },
+  {
+    "norsk": "vanlig",
+    "english": "ordinary"
+  },
+  {
+    "norsk": "lidenskapelig",
+    "english": "passionate"
+  },
+  {
+    "norsk": "tålmodig",
+    "english": "patient"
+  },
+  {
+    "norsk": "perfekt",
+    "english": "perfect"
+  },
+  {
+    "norsk": "forurenset",
+    "english": "polluted"
+  },
+  {
+    "norsk": "fattige",
+    "english": "poor"
+  },
+  {
+    "norsk": "populær",
+    "english": "popular"
+  },
+  {
+    "norsk": "kraftig",
+    "english": "powerful"
+  },
+  {
+    "norsk": "dyrebar",
+    "english": "precious"
+  },
+  {
+    "norsk": "sjelden",
+    "english": "rare"
+  },
+  {
+    "norsk": "romantisk",
+    "english": "romantic"
+  },
+  {
+    "norsk": "råtten",
+    "english": "rotten"
+  },
+  {
+    "norsk": "lei seg",
+    "english": "sad"
+  },
+  {
+    "norsk": "skummelt",
+    "english": "scary"
+  },
+  {
+    "norsk": "sett",
+    "english": "set"
+  },
+  {
+    "norsk": "sjenert",
+    "english": "shy"
+  },
+  {
+    "norsk": "lignende",
+    "english": "similar"
+  },
+  {
+    "norsk": "fast",
+    "english": "solid"
+  },
+  {
+    "norsk": "spesiell",
+    "english": "special"
+  },
+  {
+    "norsk": "rar",
+    "english": "strange"
+  },
+  {
+    "norsk": "sta",
+    "english": "stubborn"
+  },
+  {
+    "norsk": "medfølende",
+    "english": "sympathetic"
+  },
+  {
+    "norsk": "langtekkelig",
+    "english": "tedious"
+  },
+  {
+    "norsk": "tykk",
+    "english": "thick"
+  },
+  {
+    "norsk": "tynn",
+    "english": "thin"
+  },
+  {
+    "norsk": "bittesmå",
+    "english": "tiny"
+  },
+  {
+    "norsk": "trett",
+    "english": "tired"
+  },
+  {
+    "norsk": "tradisjonell",
+    "english": "traditional"
+  },
+  {
+    "norsk": "unik",
+    "english": "unique"
+  },
+  {
+    "norsk": "merkelig",
+    "english": "weird"
+  },
+  {
+    "norsk": "verst",
+    "english": "worst"
+  }
+]

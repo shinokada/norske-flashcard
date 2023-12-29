@@ -55,7 +55,7 @@ async function scrapeDictionaryData() {
     }
 
     const jsonContent = JSON.stringify(allData, null, 2);
-    await fs.writeFile('src/lib/grunnopp_data.json', jsonContent);
+    await fs.writeFile('src/lib/data/grunnopp_data.json', jsonContent);
 
     console.log('All data extracted and saved to extracted_data.json');
 
