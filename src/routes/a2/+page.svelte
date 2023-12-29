@@ -4,4 +4,4 @@
   
 </script>
 
-<FlashcardPageExtended {dictionary} title="Nivå A2" pFront="text-4xl text-left" pBack="text-4xl"/>
+<FlashcardPageExtended {dictionary} title="Nivå A2" pFront="text-2xl md:text-4xl text-left" pBack="text-2xl md:text-4xl "/>
