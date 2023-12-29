@@ -88,7 +88,7 @@
 			<ArrowRight class="ml-4"/>
 		</button>
 	</div>
-	<span class="mt-4 right-full bg-gray-900 text-white px-2 py-1 rounded text-xs">
+	<span class="mt-4 right-full bg-gray-900 text-white px-2 py-1 rounded">
 		Use ← and → arrows to navigate
 	</span>
 </div>	
