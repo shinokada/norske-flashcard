@@ -87,7 +87,7 @@
 			<ArrowRight class="ml-4"/>
 		</button>
 	</div>
-	<span class="hidden md:inline-block mt-4 right-full bg-gray-900 text-white px-2 py-1 rounded">
+	<span class="hidden lg:inline-block mt-4 right-full bg-gray-900 text-white px-2 py-1 rounded">
     Use ← to flip and → to next
 	</span>
 </div>	
