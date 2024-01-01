@@ -7,11 +7,14 @@
 	let frontPCls = twMerge(pClass, pFront)
 	let backPCls = twMerge(pClass, pBack)
 	
+	function limitCharacters(content, limit) {
+    return content.length > limit ? content.slice(0, limit) + '...' : content;
+  }
 </script>
 
 <div class="relative h-full">
 	<div class={frontDivCls}>
-			<p class="{frontPCls}">{front}</p>
+			<p class="{frontPCls}">{@html limitCharacters(front, 200)}</p>
 	</div>
 	<div class="absolute inset-0 bg-custom-blue text-white flex justify-center items-center opacity-0 {showCardBack ? 'opacity-100 [transform:rotateY(180deg)]' : ''}">
 			<p class="{backPCls}">{@html back}</p>
