@@ -33,10 +33,6 @@ let shuffledIndices = [];
 let usedIndices = new Set();
 
 export function getRandomPair(jsonData, langlang, isExplain = false) {
-  if (!Array.isArray(jsonData) || jsonData.length === 0) {
-    throw new Error('Invalid or empty JSON data');
-    // Handle the error case by throwing an error or returning a default response
-  }
 
   if (shuffledIndices.length === 0) {
     // All indices have been used, reshuffle
