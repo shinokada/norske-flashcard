@@ -18,6 +18,7 @@ export function getRandomItemFromDictionary (dictionary) {
 //   return { norsk, english };
 // }
 
+
 // Shuffle function
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -32,6 +33,11 @@ let shuffledIndices = [];
 let usedIndices = new Set();
 
 export function getRandomPair(jsonData, langlang, isExplain = false) {
+  if (!Array.isArray(jsonData) || jsonData.length === 0) {
+    throw new Error('Invalid or empty JSON data');
+    // Handle the error case by throwing an error or returning a default response
+  }
+
   if (shuffledIndices.length === 0) {
     // All indices have been used, reshuffle
     shuffledIndices = shuffleArray(Array.from(Array(jsonData.length).keys()));
@@ -48,48 +54,51 @@ export function getRandomPair(jsonData, langlang, isExplain = false) {
 
   const randomPair = jsonData[randomIndex];
 
-  let front;
-  let back;
-  let norskexplanation;
+  let front, back, norskexplanation;
 
-  if ('norsk' in randomPair && 'english' in randomPair) {
-    if (isExplain) {
-      if ('norskexplanation' in randomPair) {
-        norskexplanation = randomPair.norskexplanation;
-      }
+  if (isExplain) {
+    if (
+      randomPair &&
+      ('norsk' in randomPair) &&
+      ('english' in randomPair) &&
+      ('norskexplanation' in randomPair)
+    ) {
+      const { norsk, english, norskexplanation } = randomPair;
 
       if (langlang === 'noreng') {
-        front = randomPair.norsk;
-        back = randomPair.english;
+        front = norsk;
+        back = english;
       } else if (langlang === 'engnor') {
-        front = randomPair.english;
-        back = randomPair.norsk;
+        front = english;
+        back = norsk;
       } else if (langlang === 'nornor') {
         front = norskexplanation;
-        back = randomPair.norsk;
+        back = norsk;
       }
-
-      return { front, back, norskexplanation };
     } else {
-      if (langlang === 'noreng') {
-        front = randomPair.norsk;
-        back = randomPair.english;
-      } else if (langlang === 'engnor') {
-        front = randomPair.english;
-        back = randomPair.norsk;
-      }
-
-      return { front, back };
+      throw new Error('Invalid data structure for explanation in JSON');
+      // Handle the error case by throwing an error or returning a default response
     }
   } else {
-    // Handle cases where norsk and english properties are not available in the JSON
-    // Return an appropriate response or throw an error
-    // For example:
-    throw new Error('Invalid data structure in JSON');
-    // or
-    return { error: 'Invalid data structure in JSON' };
+    if (randomPair && ('norsk' in randomPair) && ('english' in randomPair)) {
+      const { norsk, english } = randomPair;
+
+      if (langlang === 'noreng') {
+        front = norsk;
+        back = english;
+      } else if (langlang === 'engnor') {
+        front = english;
+        back = norsk;
+      }
+    } else {
+      throw new Error('Invalid data structure in JSON');
+      // Handle the error case by throwing an error or returning a default response
+    }
   }
+
+  return isExplain ? { front, back, norskexplanation } : { front, back };
 }
+
 
 
 
