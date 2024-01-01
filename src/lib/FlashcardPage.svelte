@@ -29,7 +29,7 @@
 			lang2lang1 = twMerge(lang2lang1, 'opacity-100')
 		}
 		showCardBack = false
-    const { front: newFront, back: newBack } = getRandomPair(dictionary, lang);
+    const { front: newFront, back: newBack } = getRandomPair(dictionary, lang, false);
     front = newFront
     back = newBack
   };
