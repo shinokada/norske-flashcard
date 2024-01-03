@@ -1,3 +1,5 @@
+// there is also https://github.com/benbarbersmith/grokily/blob/master/data/norsk_verbs.csv is a good resource
+
 import { promises as fs } from 'fs';
 import puppeteer from 'puppeteer';
 
