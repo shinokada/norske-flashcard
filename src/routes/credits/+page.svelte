@@ -20,7 +20,7 @@
     <a href="https://pptr.dev/" target="_blank" class="hover:underline me-4 md:me-6">Puppeteer for scraping</a>
   </li>
   <li class="hover:text-red-700 hover:underline">
-    <a href="https://github.com/shinokada/norsk-flashcard" target="_blank" class="hover:underline me-4 md:me-6">Github repo</a>
+    <a href="https://github.com/shinokada/norske-flashcard" target="_blank" class="hover:underline me-4 md:me-6">Github repo</a>
   </li>
   <li class="hover:text-red-700 hover:underline">
     <a href="https://github.com/shinokada" target="_blank" class="hover:underline">Made by Shin</a>
