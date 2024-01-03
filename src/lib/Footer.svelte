@@ -11,7 +11,7 @@
         </a>
         <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 z-10">
           <li>
-              <a href="https://norsk-flashcard.vercel.app/" target="_blank" class="text-md hover:underline me-4 md:me-6">Norsk flashcard</a>
+              <a href="https://norske-flashcard.vercel.app/" target="_blank" class="text-md hover:underline me-4 md:me-6">Norske flashcard</a>
           </li>
           <li>
             <a href="https://nihongo-flashcard.vercel.app/" target="_blank" class="text-md hover:underline me-4 md:me-6">Japanese flashcard</a>

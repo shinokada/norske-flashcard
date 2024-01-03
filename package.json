@@ -18,7 +18,8 @@
 		"createGrunnopp": "node ./scripts/grunnopp.js",
 		"verbs": "node ./scripts/verbs.js",
 		"adjectives": "node ./scripts/adjectives.js",
-		"thousand": "node ./scripts/thousand.js"
+		"thousand": "node ./scripts/thousand.js",
+		"dic": "node ./scripts/norsk-dic.js"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
