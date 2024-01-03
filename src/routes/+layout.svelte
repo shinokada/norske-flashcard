@@ -12,4 +12,4 @@
   </div>
 </section>
 
-<Footer />
+<Footer siteName="LexiLearn Hub"/>
