@@ -17,7 +17,7 @@
             <a href="https://nihongo-flashcard.vercel.app/" target="_blank" class="text-md hover:underline me-4 md:me-6">Japanese flashcard</a>
           </li>
           <li>
-            <a href="https://flexilexi.vercel.app/" target="_blank" class="text-md hover:underline me-4 md:me-6">FlexiLexi</a>
+            <a href="https://flexilexi.vercel.app/" target="_blank" class="text-md hover:underline me-4 md:me-6">FlexiLexi dictionary</a>
           </li>
           <li>
             <a href="https://gjett-norsk.vercel.app/" target="_blank" class="text-md hover:underline me-4 md:me-6">Gjett norsk</a>
