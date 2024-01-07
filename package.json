@@ -22,7 +22,7 @@
 		"dic": "node ./scripts/norsk-dic.js"
 	},
 	"devDependencies": {
-		"@playwright/test": "^1.28.1",
+		"@playwright/test": "^1.40.1",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.6",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
@@ -39,7 +39,7 @@
 		"prettier-plugin-tailwindcss": "^0.5.9",
 		"puppeteer": "^21.6.1",
 		"random-int": "^3.0.0",
-		"svelte": "5.0.0-next.27",
+		"svelte": "5.0.0-next.29",
 		"svelte-check": "^3.6.0",
 		"tailwind-merge": "^2.2.0",
 		"tailwindcss": "^3.3.6",
