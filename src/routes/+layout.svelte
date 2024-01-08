@@ -1,15 +1,16 @@
 <script>
 	import '../app.pcss';
 	let { children } = $props();
-  import { Navbar, Footer } from '$lib'
+  import Nav from './components/Nav.svelte'
+  import Footer from './components/Footer.svelte'
 </script>
 
-<Navbar />
+<Nav />
 
-<section class="bg-white dark:bg-gray-900">
+<section class="dark:bg-gray-900 mb-8">
   <div class="pt-8 px-4 mx-auto max-w-screen-xl text-center">
     {@render children()}
   </div>
 </section>
 
-<Footer siteName="LexiLearn Hub"/>
+<Footer/>

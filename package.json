@@ -40,6 +40,7 @@
 		"puppeteer": "^21.6.1",
 		"random-int": "^3.0.0",
 		"svelte": "5.0.0-next.29",
+		"svelte-5-ui-lib": "^0.1.10",
 		"svelte-check": "^3.6.0",
 		"tailwind-merge": "^2.2.0",
 		"tailwindcss": "^3.3.6",
