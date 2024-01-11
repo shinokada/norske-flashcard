@@ -1,8 +1,8 @@
 <script>
-	import { Navbar, NavLi, NavBrand, NavUl, navHelper } from 'svelte-5-ui-lib';
+	import { Navbar, NavLi, NavBrand, NavUl, uiHelpers } from 'svelte-5-ui-lib';
 	import No from '$lib/No.svelte'
 
-	let nav = navHelper();
+	let nav = uiHelpers();
 
 	let navStatus = $state();
 	let toggleNav = nav.toggleNav;
