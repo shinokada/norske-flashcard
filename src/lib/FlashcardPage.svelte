@@ -62,7 +62,7 @@
 		<button class="{lang2lang1}" on:click={() => updateLang('engnor')}>English-Norsk</button>
 	</div>
 	<!-- FLASHCARD -->
-	<div class="bg-transparent w-full md:w-2/3 h-96">
+	<div class="flip-box bg-transparent w-full md:w-2/3 h-96">
 		<div class="flip-box-inner" class:flip-it={showCardBack}>
 			<Flashcard {front} {back} {showCardBack} {pFront} {pBack}/>
 		</div>
@@ -95,13 +95,20 @@
 <svelte:window onkeydown={preventDefault(handleKeyDown)} />
 
 <style>
+	.flip-box {
+		background-color: transparent;
+		/* width: 400px;
+		height: 300px; */
+/* 		border: 1px solid #ddd; */
+		perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	}
 	/* This container is needed to position the front and back side */
 	.flip-box-inner {
 		position: relative;
 		width: 100%;
 		height: 100%;
 		text-align: center;
-		transition: transform 0.4s;
+		transition: transform 0.8s;
 		transform-style: preserve-3d;
 	}
 
