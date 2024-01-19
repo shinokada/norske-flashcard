@@ -21,7 +21,7 @@ export function getRandomItemFromDictionary (dictionary) {
 // }
 
 const randomNumberGenerator = (min, max, maxConsecutiveRepeats) => {
-  let previousNumbers = $state([]);
+  let previousNumbers = [];
 
   return () => {
     let randomNumber;
