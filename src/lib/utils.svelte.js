@@ -20,8 +20,33 @@ export function getRandomItemFromDictionary (dictionary) {
 //   return { norsk, english };
 // }
 
-export function getRandomPair(jsonData, langlang, isExplain = false) {
-  const randomIndex = randomInteger(0, jsonData.length - 1); // Generate a random index
+const randomNumberGenerator = (min, max, maxConsecutiveRepeats) => {
+  let previousNumbers = $state([]);
+
+  return () => {
+    let randomNumber;
+
+    do {
+      randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+    } while (previousNumbers.includes(randomNumber));
+
+    if (previousNumbers.length >= maxConsecutiveRepeats) {
+      previousNumbers.shift();
+    }
+
+    previousNumbers.push(randomNumber);
+
+    return randomNumber;
+  };
+};
+
+
+export function getRandomPair(jsonData, langlang, isExplain = false, maxConsecutiveRepeats = 50) {
+  // const randomIndex = randomInteger(0, jsonData.length - 1); // Generate a random index
+  const randomIndexFn = randomNumberGenerator(0, jsonData.length - 1, maxConsecutiveRepeats)
+  
+  const randomIndex = randomIndexFn();
+  // console.log(randomIndex)
   const randomPair = jsonData[randomIndex];
   // console.log('randomPair', randomPair)
   let front
