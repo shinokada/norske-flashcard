@@ -13,13 +13,6 @@ export function getRandomItemFromDictionary (dictionary) {
   };
 }
 
-// export function oldGetRandomPair(jsonData) {
-//   const randomIndex = Math.floor(Math.random() * jsonData.length);
-//   const randomPair = jsonData[randomIndex];
-//   const { norsk, english } = randomPair;
-//   return { norsk, english };
-// }
-
 const randomNumberGenerator = (min, max, maxConsecutiveRepeats) => {
   let previousNumbers = [];
 
