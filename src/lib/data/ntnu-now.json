@@ -1,4454 +1,4454 @@
 [
-  {
-    "norsk": "ei adresse",
-    "english": "an address"
-  },
-  {
-    "norsk": "Akershus",
-    "english": "Akershus"
-  },
-  {
-    "norsk": "akkurat",
-    "english": "exactly, precisely"
-  },
-  {
-    "norsk": "et album",
-    "english": "an album"
-  },
-  {
-    "norsk": "aldri",
-    "english": "never"
-  },
-  {
-    "norsk": "alene",
-    "english": "alone"
-  },
-  {
-    "norsk": "alle",
-    "english": "all"
-  },
-  {
-    "norsk": "allerede",
-    "english": "already"
-  },
-  {
-    "norsk": "alt",
-    "english": "all, everything"
-  },
-  {
-    "norsk": "alt mulig",
-    "english": "everything"
-  },
-  {
-    "norsk": "alvorlig",
-    "english": "serious"
-  },
-  {
-    "norsk": "amerikansk",
-    "english": "American"
-  },
-  {
-    "norsk": "å anbefale",
-    "english": "to recommend"
-  },
-  {
-    "norsk": "andre",
-    "english": "second, other"
-  },
-  {
-    "norsk": "annen",
-    "english": "other"
-  },
-  {
-    "norsk": "annet",
-    "english": "other"
-  },
-  {
-    "norsk": "et ansikt",
-    "english": "face"
-  },
-  {
-    "norsk": "en antropologi",
-    "english": "an anthropology"
-  },
-  {
-    "norsk": "en appelsin",
-    "english": "an orange"
-  },
-  {
-    "norsk": "en arkitektstudent",
-    "english": "architecture student"
-  },
-  {
-    "norsk": "en arkitektur",
-    "english": "an architecture"
-  },
-  {
-    "norsk": "Arne",
-    "english": "Arne"
-  },
-  {
-    "norsk": "et arrangement",
-    "english": "an arrangement"
-  },
-  {
-    "norsk": "å arrangere",
-    "english": "to arrange, organise"
-  },
-  {
-    "norsk": "at",
-    "english": "that"
-  },
-  {
-    "norsk": "et auditorium",
-    "english": "an auditorium"
-  },
-  {
-    "norsk": "av",
-    "english": "off, of, by, from"
-  },
-  {
-    "norsk": "av og til",
-    "english": "sometimes"
-  },
-  {
-    "norsk": "en avgift",
-    "english": "a fee"
-  },
-  {
-    "norsk": "ei avis",
-    "english": "a newspaper"
-  },
-  {
-    "norsk": "et bad",
-    "english": "a bath"
-  },
-  {
-    "norsk": "en bagasje",
-    "english": "luggage (uncount. noun)"
-  },
-  {
-    "norsk": "en bagett",
-    "english": "a baguette"
-  },
-  {
-    "norsk": "å bake",
-    "english": "to bake"
-  },
-  {
-    "norsk": "et bakeri",
-    "english": "a bakery"
-  },
-  {
-    "norsk": "en ballett",
-    "english": "a ballet"
-  },
-  {
-    "norsk": "et ballspill",
-    "english": "a ball game"
-  },
-  {
-    "norsk": "en banan",
-    "english": "a banana"
-  },
-  {
-    "norsk": "å banke",
-    "english": "to knock"
-  },
-  {
-    "norsk": "å barbere seg",
-    "english": "to shave"
-  },
-  {
-    "norsk": "Barcelona",
-    "english": "Barcelona"
-  },
-  {
-    "norsk": "bare",
-    "english": "just, only"
-  },
-  {
-    "norsk": "bare bra!",
-    "english": "just fine!"
-  },
-  {
-    "norsk": "bare hyggelig!",
-    "english": "you're welcome!"
-  },
-  {
-    "norsk": "et barn",
-    "english": "a child"
-  },
-  {
-    "norsk": "en barnehage",
-    "english": "a kindergarten"
-  },
-  {
-    "norsk": "bedre",
-    "english": "better"
-  },
-  {
-    "norsk": "en bedring",
-    "english": "a recovery"
-  },
-  {
-    "norsk": "begge",
-    "english": "both"
-  },
-  {
-    "norsk": "å begynne",
-    "english": "to begin"
-  },
-  {
-    "norsk": "et begynnerkurs",
-    "english": "a beginner course"
-  },
-  {
-    "norsk": "Beijing",
-    "english": "Beijing"
-  },
-  {
-    "norsk": "en bekreftelse",
-    "english": "a confirmation"
-  },
-  {
-    "norsk": "bekymret",
-    "english": "worried, anxious"
-  },
-  {
-    "norsk": "en bensinstasjon",
-    "english": "a petrol station"
-  },
-  {
-    "norsk": "berømt",
-    "english": "famous"
-  },
-  {
-    "norsk": "en beskjed",
-    "english": "a message"
-  },
-  {
-    "norsk": "best",
-    "english": "best, biest (oldfashioned)"
-  },
-  {
-    "norsk": "en bestefar",
-    "english": "a grandfather"
-  },
-  {
-    "norsk": "besteforeldre",
-    "english": "grandparents"
-  },
-  {
-    "norsk": "å bestemme",
-    "english": "to determine"
-  },
-  {
-    "norsk": "ei bestemor",
-    "english": "a grandmother"
-  },
-  {
-    "norsk": "å bestille",
-    "english": "to order"
-  },
-  {
-    "norsk": "et besøk",
-    "english": "a visit"
-  },
-  {
-    "norsk": "å besøke",
-    "english": "to visit"
-  },
-  {
-    "norsk": "å betale",
-    "english": "to pay"
-  },
-  {
-    "norsk": "å bety",
-    "english": "to mean"
-  },
-  {
-    "norsk": "et bibliotek",
-    "english": "a library"
-  },
-  {
-    "norsk": "en bil",
-    "english": "a car"
-  },
-  {
-    "norsk": "et bilde",
-    "english": "a picture"
-  },
-  {
-    "norsk": "en billett",
-    "english": "a ticket"
-  },
-  {
-    "norsk": "billig",
-    "english": "inexpensive, cheap"
-  },
-  {
-    "norsk": "ble",
-    "english": "became"
-  },
-  {
-    "norsk": "å bli",
-    "english": "to become, will be, turn out"
-  },
-  {
-    "norsk": "ei bløtkake",
-    "english": "a layer cake"
-  },
-  {
-    "norsk": "blå",
-    "english": "blue"
-  },
-  {
-    "norsk": "å blåse",
-    "english": "to blow, be windy"
-  },
-  {
-    "norsk": "å bo",
-    "english": "to live"
-  },
-  {
-    "norsk": "ei bok",
-    "english": "a book"
-  },
-  {
-    "norsk": "en bokhandel",
-    "english": "a bookstore"
-  },
-  {
-    "norsk": "ei bokhylle",
-    "english": "a book shelf"
-  },
-  {
-    "norsk": "ei bolle",
-    "english": "a bun"
-  },
-  {
-    "norsk": "et bord",
-    "english": "a table"
-  },
-  {
-    "norsk": "bordtennis",
-    "english": "table tennis (uncount. noun)"
-  },
-  {
-    "norsk": "bort",
-    "english": "away, off, over"
-  },
-  {
-    "norsk": "borte",
-    "english": "away, off, over"
-  },
-  {
-    "norsk": "bra",
-    "english": "fine, good, well"
-  },
-  {
-    "norsk": "brant",
-    "english": "burnt (to burn)"
-  },
-  {
-    "norsk": "å brenne",
-    "english": "to burn"
-  },
-  {
-    "norsk": "et brev",
-    "english": "a letter"
-  },
-  {
-    "norsk": "en bror",
-    "english": "a brother"
-  },
-  {
-    "norsk": "en brosjyre",
-    "english": "a folder, brochure"
-  },
-  {
-    "norsk": "å bruke",
-    "english": "to use"
-  },
-  {
-    "norsk": "et brukernavn",
-    "english": "a username"
-  },
-  {
-    "norsk": "brun",
-    "english": "brown"
-  },
-  {
-    "norsk": "en brus",
-    "english": "a (bottle of) soda pop"
-  },
-  {
-    "norsk": "et brød",
-    "english": "a loaf of bread"
-  },
-  {
-    "norsk": "ei brødhylle",
-    "english": "a bread rack"
-  },
-  {
-    "norsk": "brødre",
-    "english": "brothers"
-  },
-  {
-    "norsk": "ei brødskive",
-    "english": "a slice of bread"
-  },
-  {
-    "norsk": "burde",
-    "english": "should"
-  },
-  {
-    "norsk": "en bursdag",
-    "english": "a birthday"
-  },
-  {
-    "norsk": "en buss",
-    "english": "a bus"
-  },
-  {
-    "norsk": "en bussjåfør",
-    "english": "a bus driver"
-  },
-  {
-    "norsk": "ei bussrute",
-    "english": "a bus route"
-  },
-  {
-    "norsk": "en busstur",
-    "english": "a bus trip"
-  },
-  {
-    "norsk": "en butikk",
-    "english": "a shop"
-  },
-  {
-    "norsk": "en by",
-    "english": "a city"
-  },
-  {
-    "norsk": "bygde",
-    "english": "built (to build)"
-  },
-  {
-    "norsk": "et bygg",
-    "english": "a building"
-  },
-  {
-    "norsk": "å bygge",
-    "english": "to build"
-  },
-  {
-    "norsk": "en bygning",
-    "english": "a building"
-  },
-  {
-    "norsk": "å bytte",
-    "english": "to change, exchange"
-  },
-  {
-    "norsk": "en bytur",
-    "english": "a trip to town"
-  },
-  {
-    "norsk": "bærbar",
-    "english": "portable"
-  },
-  {
-    "norsk": "en bærbar PC",
-    "english": "a laptop"
-  },
-  {
-    "norsk": "å bære",
-    "english": "to carry"
-  },
-  {
-    "norsk": "bøker",
-    "english": "books"
-  },
-  {
-    "norsk": "både - og",
-    "english": "both - and"
-  },
-  {
-    "norsk": "et bål",
-    "english": "a fire"
-  },
-  {
-    "norsk": "en båt",
-    "english": "a boat"
-  },
-  {
-    "norsk": "ca",
-    "english": "ca"
-  },
-  {
-    "norsk": "en campus",
-    "english": "a campus"
-  },
-  {
-    "norsk": "en CD",
-    "english": "a CD"
-  },
-  {
-    "norsk": "en colaboks",
-    "english": "a can of Coke"
-  },
-  {
-    "norsk": "cricket",
-    "english": "cricket (uncount. noun)"
-  },
-  {
-    "norsk": "da",
-    "english": "then"
-  },
-  {
-    "norsk": "da",
-    "english": "when"
-  },
-  {
-    "norsk": "en dag",
-    "english": "a day"
-  },
-  {
-    "norsk": "en dagsbillett",
-    "english": "a single-day ticket"
-  },
-  {
-    "norsk": "ei dame",
-    "english": "a lady"
-  },
-  {
-    "norsk": "å danse",
-    "english": "to dance"
-  },
-  {
-    "norsk": "ei datter",
-    "english": "a daughter"
-  },
-  {
-    "norsk": "de",
-    "english": "they"
-  },
-  {
-    "norsk": "deg",
-    "english": "you (singular)"
-  },
-  {
-    "norsk": "en del",
-    "english": "a part"
-  },
-  {
-    "norsk": "å dele",
-    "english": "to share"
-  },
-  {
-    "norsk": "å dele ut",
-    "english": "to distribute, award, deal (cards)"
-  },
-  {
-    "norsk": "dem",
-    "english": "them"
-  },
-  {
-    "norsk": "den",
-    "english": "it"
-  },
-  {
-    "norsk": "denne",
-    "english": "this"
-  },
-  {
-    "norsk": "der",
-    "english": "there"
-  },
-  {
-    "norsk": "der borte",
-    "english": "over there"
-  },
-  {
-    "norsk": "dere",
-    "english": "you (plural)"
-  },
-  {
-    "norsk": "deres",
-    "english": "your (plural), yours, their, theirs"
-  },
-  {
-    "norsk": "derfor",
-    "english": "therefore"
-  },
-  {
-    "norsk": "desember",
-    "english": "December"
-  },
-  {
-    "norsk": "en dessert",
-    "english": "a dessert"
-  },
-  {
-    "norsk": "dessuten",
-    "english": "moreover, besides"
-  },
-  {
-    "norsk": "dessverre",
-    "english": "unfortunately"
-  },
-  {
-    "norsk": "det",
-    "english": "it, that, the"
-  },
-  {
-    "norsk": "det går bra!",
-    "english": "I'm fine!"
-  },
-  {
-    "norsk": "dette",
-    "english": "this"
-  },
-  {
-    "norsk": "di",
-    "english": "your, yours (singular)"
-  },
-  {
-    "norsk": "din",
-    "english": "your, yours (singular)"
-  },
-  {
-    "norsk": "å diskutere",
-    "english": "to discuss"
-  },
-  {
-    "norsk": "disse",
-    "english": "these"
-  },
-  {
-    "norsk": "dit",
-    "english": "there, yonder"
-  },
-  {
-    "norsk": "ditt",
-    "english": "your, yours"
-  },
-  {
-    "norsk": "et dokument",
-    "english": "a document"
-  },
-  {
-    "norsk": "å dra",
-    "english": "to go/leave"
-  },
-  {
-    "norsk": "drakk",
-    "english": "drank"
-  },
-  {
-    "norsk": "å drikke",
-    "english": "to drink"
-  },
-  {
-    "norsk": "drikke",
-    "english": "a drink (uncount. noun)"
-  },
-  {
-    "norsk": "å drive med noe",
-    "english": "to do something"
-  },
-  {
-    "norsk": "dro",
-    "english": "went/left (to go/leave)"
-  },
-  {
-    "norsk": "en dronning",
-    "english": "a queen"
-  },
-  {
-    "norsk": "du",
-    "english": "you"
-  },
-  {
-    "norsk": "en dusj",
-    "english": "a shower"
-  },
-  {
-    "norsk": "å dusje",
-    "english": "to take a shower"
-  },
-  {
-    "norsk": "ei dyne",
-    "english": "a quilt"
-  },
-  {
-    "norsk": "dyp",
-    "english": "deep"
-  },
-  {
-    "norsk": "dyr",
-    "english": "expensive"
-  },
-  {
-    "norsk": "å dø",
-    "english": "to die"
-  },
-  {
-    "norsk": "døde",
-    "english": "died"
-  },
-  {
-    "norsk": "ei dør",
-    "english": "a door"
-  },
-  {
-    "norsk": "dårlig",
-    "english": "bad, unwell, ill"
-  },
-  {
-    "norsk": "Edvard",
-    "english": "Edvard"
-  },
-  {
-    "norsk": "egentlig",
-    "english": "really"
-  },
-  {
-    "norsk": "ei",
-    "english": "a, an, one"
-  },
-  {
-    "norsk": "en ekspeditør",
-    "english": "a shop assistent"
-  },
-  {
-    "norsk": "ekstra",
-    "english": "extra, additional"
-  },
-  {
-    "norsk": "eldste",
-    "english": "oldest, eldest"
-  },
-  {
-    "norsk": "elektrisitet",
-    "english": "electricity (uncount. noun)"
-  },
-  {
-    "norsk": "elendig",
-    "english": "miserable"
-  },
-  {
-    "norsk": "eller",
-    "english": "or"
-  },
-  {
-    "norsk": "en",
-    "english": "a, an, one"
-  },
-  {
-    "norsk": "én",
-    "english": "one"
-  },
-  {
-    "norsk": "en gang til",
-    "english": "once more, one more time"
-  },
-  {
-    "norsk": "en ende",
-    "english": "an end"
-  },
-  {
-    "norsk": "endelig",
-    "english": "finally"
-  },
-  {
-    "norsk": "ene",
-    "english": "one"
-  },
-  {
-    "norsk": "et enebarn",
-    "english": "an only child"
-  },
-  {
-    "norsk": "engelsk",
-    "english": "English"
-  },
-  {
-    "norsk": "enkel",
-    "english": "simple, easy"
-  },
-  {
-    "norsk": "enn",
-    "english": "than"
-  },
-  {
-    "norsk": "ennå",
-    "english": "yet, still"
-  },
-  {
-    "norsk": "ensom",
-    "english": "lonely"
-  },
-  {
-    "norsk": "et eple",
-    "english": "an apple"
-  },
-  {
-    "norsk": "en e-post",
-    "english": "an e-mail"
-  },
-  {
-    "norsk": "er",
-    "english": "am, are, is"
-  },
-  {
-    "norsk": "et essay",
-    "english": "an essay"
-  },
-  {
-    "norsk": "et",
-    "english": "a, an"
-  },
-  {
-    "norsk": "en etasje",
-    "english": "a storey, floor"
-  },
-  {
-    "norsk": "ett",
-    "english": "one"
-  },
-  {
-    "norsk": "etter",
-    "english": "after"
-  },
-  {
-    "norsk": "en ettermiddag",
-    "english": "an afternoon"
-  },
-  {
-    "norsk": "et etternavn",
-    "english": "a surname"
-  },
-  {
-    "norsk": "etterpå",
-    "english": "afterwards"
-  },
-  {
-    "norsk": "Eva",
-    "english": "Eva"
-  },
-  {
-    "norsk": "et EØS-land",
-    "english": "an EEA country"
-  },
-  {
-    "norsk": "faktisk",
-    "english": "actually"
-  },
-  {
-    "norsk": "en familie",
-    "english": "a family"
-  },
-  {
-    "norsk": "fant",
-    "english": "found"
-  },
-  {
-    "norsk": "fantastisk",
-    "english": "fantastic"
-  },
-  {
-    "norsk": "en far",
-    "english": "a father"
-  },
-  {
-    "norsk": "en farfar",
-    "english": "a (paternal) grandfather"
-  },
-  {
-    "norsk": "en farge",
-    "english": "a colour"
-  },
-  {
-    "norsk": "ei farmor",
-    "english": "a (paternal) grandmother"
-  },
-  {
-    "norsk": "en fastlege",
-    "english": "a family doctor"
-  },
-  {
-    "norsk": "fattig",
-    "english": "poor"
-  },
-  {
-    "norsk": "en feber",
-    "english": "a fever"
-  },
-  {
-    "norsk": "febernedsettende",
-    "english": "febrifugal, antipyretic"
-  },
-  {
-    "norsk": "å feire",
-    "english": "to celebrate"
-  },
-  {
-    "norsk": "fem",
-    "english": "five"
-  },
-  {
-    "norsk": "ferdig",
-    "english": "finished, ready, also slang; exhausted"
-  },
-  {
-    "norsk": "en fest",
-    "english": "a party, fiest"
-  },
-  {
-    "norsk": "en festival",
-    "english": "a festival"
-  },
-  {
-    "norsk": "en festning",
-    "english": "a fortress"
-  },
-  {
-    "norsk": "å fikse",
-    "english": "to fix, mend, organise"
-  },
-  {
-    "norsk": "fin",
-    "english": "fine"
-  },
-  {
-    "norsk": "finere",
-    "english": "nicer, finer"
-  },
-  {
-    "norsk": "å finne",
-    "english": "to find"
-  },
-  {
-    "norsk": "å finne fram",
-    "english": "to find one's way"
-  },
-  {
-    "norsk": "fire",
-    "english": "four"
-  },
-  {
-    "norsk": "et fiskemarked",
-    "english": "a fish market"
-  },
-  {
-    "norsk": "fjor",
-    "english": "last year"
-  },
-  {
-    "norsk": "et flagg",
-    "english": "a flag"
-  },
-  {
-    "norsk": "flest",
-    "english": "most"
-  },
-  {
-    "norsk": "flink",
-    "english": "good, clever"
-  },
-  {
-    "norsk": "flott",
-    "english": "great, good"
-  },
-  {
-    "norsk": "et fly",
-    "english": "a plane"
-  },
-  {
-    "norsk": "en flybillett",
-    "english": "an airline ticket"
-  },
-  {
-    "norsk": "en flybuss",
-    "english": "an airport express coach"
-  },
-  {
-    "norsk": "å flytte",
-    "english": "to move"
-  },
-  {
-    "norsk": "for",
-    "english": "for, because"
-  },
-  {
-    "norsk": "for dyr",
-    "english": "too expensive"
-  },
-  {
-    "norsk": "for mye",
-    "english": "too much"
-  },
-  {
-    "norsk": "for å",
-    "english": "in order to ..."
-  },
-  {
-    "norsk": "foran",
-    "english": "in front of"
-  },
-  {
-    "norsk": "forbi",
-    "english": "past, by"
-  },
-  {
-    "norsk": "fordi",
-    "english": "because"
-  },
-  {
-    "norsk": "en forelder",
-    "english": "a parent"
-  },
-  {
-    "norsk": "foreldre",
-    "english": "parents"
-  },
-  {
-    "norsk": "en foreleser",
-    "english": "a lecturer"
-  },
-  {
-    "norsk": "en forelesning",
-    "english": "a lecture"
-  },
-  {
-    "norsk": "forhånd",
-    "english": "beforehand"
-  },
-  {
-    "norsk": "fornøyd",
-    "english": "satisfied, pleased"
-  },
-  {
-    "norsk": "forresten",
-    "english": "by the way"
-  },
-  {
-    "norsk": "forrige",
-    "english": "previous"
-  },
-  {
-    "norsk": "forskjellig",
-    "english": "different, various"
-  },
-  {
-    "norsk": "å forstå",
-    "english": "to understand"
-  },
-  {
-    "norsk": "fort",
-    "english": "fast"
-  },
-  {
-    "norsk": "fortalte",
-    "english": "told"
-  },
-  {
-    "norsk": "å fortelle",
-    "english": "to tell"
-  },
-  {
-    "norsk": "en fotball",
-    "english": "a football"
-  },
-  {
-    "norsk": "en fotoautomat",
-    "english": "a photo machine"
-  },
-  {
-    "norsk": "fra",
-    "english": "from"
-  },
-  {
-    "norsk": "fram",
-    "english": "ahead, on"
-  },
-  {
-    "norsk": "en fredag",
-    "english": "a friday"
-  },
-  {
-    "norsk": "en fredspris",
-    "english": "a peace prize"
-  },
-  {
-    "norsk": "fri",
-    "english": "free"
-  },
-  {
-    "norsk": "et frimerke",
-    "english": "a stamp"
-  },
-  {
-    "norsk": "frisk",
-    "english": "well, healthy, sound"
-  },
-  {
-    "norsk": "fritid",
-    "english": "a spare time, leisure (uncount. noun)"
-  },
-  {
-    "norsk": "en fritidsaktivitet",
-    "english": "a leisure activity"
-  },
-  {
-    "norsk": "en frokost",
-    "english": "a breakfast"
-  },
-  {
-    "norsk": "en fruktdisk",
-    "english": "a fruit counter"
-  },
-  {
-    "norsk": "å fryse",
-    "english": "to be cold, freeze"
-  },
-  {
-    "norsk": "å fylle ut",
-    "english": "to fill in"
-  },
-  {
-    "norsk": "å fyre",
-    "english": "to kindle a fire, keep a fire going"
-  },
-  {
-    "norsk": "fæl",
-    "english": "awful"
-  },
-  {
-    "norsk": "en fødselsdato",
-    "english": "a date of birth"
-  },
-  {
-    "norsk": "å føle",
-    "english": "to feel"
-  },
-  {
-    "norsk": "før",
-    "english": "before"
-  },
-  {
-    "norsk": "først",
-    "english": "first"
-  },
-  {
-    "norsk": "første",
-    "english": "first"
-  },
-  {
-    "norsk": "å få",
-    "english": "to get, receive"
-  },
-  {
-    "norsk": "få",
-    "english": "few"
-  },
-  {
-    "norsk": "fått",
-    "english": "got (past part.)"
-  },
-  {
-    "norsk": "ga",
-    "english": "gave, offered"
-  },
-  {
-    "norsk": "Gamle bybro",
-    "english": "Old Town Bridge"
-  },
-  {
-    "norsk": "gammel",
-    "english": "old"
-  },
-  {
-    "norsk": "en gang",
-    "english": "a time"
-  },
-  {
-    "norsk": "ganske",
-    "english": "quite"
-  },
-  {
-    "norsk": "et gardin",
-    "english": "a curtain"
-  },
-  {
-    "norsk": "ei gate",
-    "english": "a street"
-  },
-  {
-    "norsk": "en gave",
-    "english": "a gift, present"
-  },
-  {
-    "norsk": "et gebyr",
-    "english": "a fee, charge"
-  },
-  {
-    "norsk": "en genser",
-    "english": "a sweater"
-  },
-  {
-    "norsk": "Ghana",
-    "english": "Ghana"
-  },
-  {
-    "norsk": "å gi",
-    "english": "to give"
-  },
-  {
-    "norsk": "gift",
-    "english": "married"
-  },
-  {
-    "norsk": "å gifte seg",
-    "english": "to get married, to marry"
-  },
-  {
-    "norsk": "gikk",
-    "english": "walked, went"
-  },
-  {
-    "norsk": "gir",
-    "english": "gives, offers"
-  },
-  {
-    "norsk": "en gitar",
-    "english": "a guitar"
-  },
-  {
-    "norsk": "å gjelde",
-    "english": "to be valid, to concern"
-  },
-  {
-    "norsk": "gjennom",
-    "english": "through"
-  },
-  {
-    "norsk": "gjerne",
-    "english": "rather, would like"
-  },
-  {
-    "norsk": "en gjest",
-    "english": "a guest"
-  },
-  {
-    "norsk": "gjort",
-    "english": "done (past part.)"
-  },
-  {
-    "norsk": "gjør",
-    "english": "does, also barks"
-  },
-  {
-    "norsk": "å gjøre",
-    "english": "to do"
-  },
-  {
-    "norsk": "glad",
-    "english": "happy, glad"
-  },
-  {
-    "norsk": "å glede seg",
-    "english": "to look forward (to)"
-  },
-  {
-    "norsk": "gleder meg til",
-    "english": "am looking forward to"
-  },
-  {
-    "norsk": "å glemme",
-    "english": "to forget"
-  },
-  {
-    "norsk": "glitter",
-    "english": "tinsel (uncount. noun)"
-  },
-  {
-    "norsk": "god",
-    "english": "good"
-  },
-  {
-    "norsk": "god tur!",
-    "english": "have a nice trip!"
-  },
-  {
-    "norsk": "en grammatikk",
-    "english": "a grammar"
-  },
-  {
-    "norsk": "gratis",
-    "english": "free (of charge), gratis"
-  },
-  {
-    "norsk": "en grav",
-    "english": "a grave"
-  },
-  {
-    "norsk": "greide",
-    "english": "managed (to manage)"
-  },
-  {
-    "norsk": "å greie",
-    "english": "to manage"
-  },
-  {
-    "norsk": "greit",
-    "english": "all right"
-  },
-  {
-    "norsk": "å grille",
-    "english": "to grill"
-  },
-  {
-    "norsk": "ei gruppe",
-    "english": "a group"
-  },
-  {
-    "norsk": "en gryterett",
-    "english": "a casserole"
-  },
-  {
-    "norsk": "grønn",
-    "english": "green"
-  },
-  {
-    "norsk": "en grøt",
-    "english": "a porridge"
-  },
-  {
-    "norsk": "grå",
-    "english": "grey"
-  },
-  {
-    "norsk": "en gudstjeneste",
-    "english": "a church service"
-  },
-  {
-    "norsk": "en guide",
-    "english": "a guide"
-  },
-  {
-    "norsk": "et gulv",
-    "english": "a floor"
-  },
-  {
-    "norsk": "en gutt",
-    "english": "a boy"
-  },
-  {
-    "norsk": "gøy",
-    "english": "fun"
-  },
-  {
-    "norsk": "å gå",
-    "english": "to walk, go"
-  },
-  {
-    "norsk": "å gå på tur",
-    "english": "to go for a hike"
-  },
-  {
-    "norsk": "ei gågate",
-    "english": "a pedestrian area"
-  },
-  {
-    "norsk": "gått",
-    "english": "gone (past part.)"
-  },
-  {
-    "norsk": "å ha",
-    "english": "to have"
-  },
-  {
-    "norsk": "ha det bra!",
-    "english": "goodbye!"
-  },
-  {
-    "norsk": "ha det!",
-    "english": "bye!"
-  },
-  {
-    "norsk": "å ha lyst på",
-    "english": "to want"
-  },
-  {
-    "norsk": "å ha lyst til å …",
-    "english": "want to, would like to"
-  },
-  {
-    "norsk": "hadde",
-    "english": "had"
-  },
-  {
-    "norsk": "hallo",
-    "english": "hello"
-  },
-  {
-    "norsk": "en hals",
-    "english": "a throat, neck"
-  },
-  {
-    "norsk": "en halstablett",
-    "english": "a lozenge, throat pastille"
-  },
-  {
-    "norsk": "halv",
-    "english": "half"
-  },
-  {
-    "norsk": "ham",
-    "english": "him"
-  },
-  {
-    "norsk": "han",
-    "english": "he, him"
-  },
-  {
-    "norsk": "å handle",
-    "english": "to shop"
-  },
-  {
-    "norsk": "en handlekurv",
-    "english": "a shopping basket"
-  },
-  {
-    "norsk": "ei handlevogn",
-    "english": "a shopping cart"
-  },
-  {
-    "norsk": "hans",
-    "english": "his"
-  },
-  {
-    "norsk": "hei",
-    "english": "hi"
-  },
-  {
-    "norsk": "hel",
-    "english": "whole"
-  },
-  {
-    "norsk": "heldigvis",
-    "english": "fortunately"
-  },
-  {
-    "norsk": "hele",
-    "english": "whole"
-  },
-  {
-    "norsk": "ei helg",
-    "english": "a weekend"
-  },
-  {
-    "norsk": "heller",
-    "english": "rather"
-  },
-  {
-    "norsk": "en helseforsikring",
-    "english": "a health insurance"
-  },
-  {
-    "norsk": "et helårskort",
-    "english": "a year round ticket"
-  },
-  {
-    "norsk": "hemmelig",
-    "english": "secret"
-  },
-  {
-    "norsk": "henne",
-    "english": "her"
-  },
-  {
-    "norsk": "hennes",
-    "english": "her, hers"
-  },
-  {
-    "norsk": "Henrik",
-    "english": "Henrik"
-  },
-  {
-    "norsk": "å hente",
-    "english": "to fetch, pick up"
-  },
-  {
-    "norsk": "her",
-    "english": "here"
-  },
-  {
-    "norsk": "å hete",
-    "english": "to be called"
-  },
-  {
-    "norsk": "å hilse",
-    "english": "to greet"
-  },
-  {
-    "norsk": "hilsen Maria",
-    "english": "love from Maria, regards Maria"
-  },
-  {
-    "norsk": "en historie",
-    "english": "a history, story"
-  },
-  {
-    "norsk": "hit",
-    "english": "here"
-  },
-  {
-    "norsk": "hjalp",
-    "english": "helped"
-  },
-  {
-    "norsk": "en hjelp",
-    "english": "a help"
-  },
-  {
-    "norsk": "å hjelpe",
-    "english": "to help"
-  },
-  {
-    "norsk": "hjem",
-    "english": "home"
-  },
-  {
-    "norsk": "et hjem",
-    "english": "a home"
-  },
-  {
-    "norsk": "et hjemland",
-    "english": "a native country"
-  },
-  {
-    "norsk": "hjemme",
-    "english": "at home"
-  },
-  {
-    "norsk": "en hobby",
-    "english": "a hobby, pastime"
-  },
-  {
-    "norsk": "å holde",
-    "english": "to hold, keep"
-  },
-  {
-    "norsk": "et hotell",
-    "english": "a hotel"
-  },
-  {
-    "norsk": "et hotellrom",
-    "english": "a hotel room"
-  },
-  {
-    "norsk": "ei hovedgate",
-    "english": "a main street"
-  },
-  {
-    "norsk": "et hovedpunkt",
-    "english": "a main point"
-  },
-  {
-    "norsk": "en hovedstad",
-    "english": "a capital"
-  },
-  {
-    "norsk": "huff",
-    "english": "exclamation: Oh! Ugh!"
-  },
-  {
-    "norsk": "et humør",
-    "english": "a mood"
-  },
-  {
-    "norsk": "hun",
-    "english": "she"
-  },
-  {
-    "norsk": "et hus",
-    "english": "a house, building"
-  },
-  {
-    "norsk": "å huske",
-    "english": "to remember"
-  },
-  {
-    "norsk": "å huske på",
-    "english": "to remember"
-  },
-  {
-    "norsk": "hva",
-    "english": "what"
-  },
-  {
-    "norsk": "hver",
-    "english": "every, each"
-  },
-  {
-    "norsk": "hverandre",
-    "english": "each other"
-  },
-  {
-    "norsk": "hvilken",
-    "english": "which, what"
-  },
-  {
-    "norsk": "hvilket",
-    "english": "which"
-  },
-  {
-    "norsk": "hvis",
-    "english": "if"
-  },
-  {
-    "norsk": "hvit",
-    "english": "white"
-  },
-  {
-    "norsk": "hvor",
-    "english": "where"
-  },
-  {
-    "norsk": "hvor langt",
-    "english": "how far"
-  },
-  {
-    "norsk": "hvor lenge",
-    "english": "how long"
-  },
-  {
-    "norsk": "hvordan",
-    "english": "how"
-  },
-  {
-    "norsk": "en hybel",
-    "english": "a bed-sitter, lodgings"
-  },
-  {
-    "norsk": "hyggelig",
-    "english": "nice, pleasant"
-  },
-  {
-    "norsk": "hyggelig å hilse på deg!",
-    "english": "nice to meet you!"
-  },
-  {
-    "norsk": "hyggeligere",
-    "english": "nicer, kinder"
-  },
-  {
-    "norsk": "ei hytte",
-    "english": "a cabin"
-  },
-  {
-    "norsk": "en hyttetur",
-    "english": "a trip to a cottage"
-  },
-  {
-    "norsk": "å høre",
-    "english": "to hear"
-  },
-  {
-    "norsk": "hørte",
-    "english": "heard"
-  },
-  {
-    "norsk": "en høst",
-    "english": "an autumn"
-  },
-  {
-    "norsk": "en høstferie",
-    "english": "an autumn vacation"
-  },
-  {
-    "norsk": "høy",
-    "english": "tall"
-  },
-  {
-    "norsk": "høy",
-    "english": "loud, high, tall"
-  },
-  {
-    "norsk": "høyre",
-    "english": "right"
-  },
-  {
-    "norsk": "høyt",
-    "english": "loud, high, tall"
-  },
-  {
-    "norsk": "å håpe",
-    "english": "to hope"
-  },
-  {
-    "norsk": "i",
-    "english": "in, at, on"
-  },
-  {
-    "norsk": "i alle fall",
-    "english": "at any rate"
-  },
-  {
-    "norsk": "i dag",
-    "english": "today"
-  },
-  {
-    "norsk": "i fjor",
-    "english": "last year"
-  },
-  {
-    "norsk": "i gamle dager",
-    "english": "in the old days"
-  },
-  {
-    "norsk": "i går",
-    "english": "yesterday"
-  },
-  {
-    "norsk": "i går kveld",
-    "english": "yesterday evening, last night"
-  },
-  {
-    "norsk": "i morgen",
-    "english": "tomorrow"
-  },
-  {
-    "norsk": "i nærheten av",
-    "english": "near, close to"
-  },
-  {
-    "norsk": "i stedet",
-    "english": "instead"
-  },
-  {
-    "norsk": "iblant",
-    "english": "sometimes"
-  },
-  {
-    "norsk": "Ibsen",
-    "english": "Ibsen"
-  },
-  {
-    "norsk": "et ID-kort",
-    "english": "an ID card"
-  },
-  {
-    "norsk": "et idrettssenter",
-    "english": "a sports centre"
-  },
-  {
-    "norsk": "igjen",
-    "english": "again"
-  },
-  {
-    "norsk": "ikke",
-    "english": "not"
-  },
-  {
-    "norsk": "ikke sant?",
-    "english": "right?"
-  },
-  {
-    "norsk": "India",
-    "english": "India"
-  },
-  {
-    "norsk": "en influensa",
-    "english": "an influenza, flu"
-  },
-  {
-    "norsk": "en ingeniør",
-    "english": "an engineer"
-  },
-  {
-    "norsk": "inn",
-    "english": "in, inside, into"
-  },
-  {
-    "norsk": "inne",
-    "english": "in, inside"
-  },
-  {
-    "norsk": "en inngang",
-    "english": "an entrance"
-  },
-  {
-    "norsk": "inni",
-    "english": "inside, in"
-  },
-  {
-    "norsk": "et innlegg",
-    "english": "a presentation, address"
-  },
-  {
-    "norsk": "å insistere",
-    "english": "to insist"
-  },
-  {
-    "norsk": "et institutt",
-    "english": "a department"
-  },
-  {
-    "norsk": "en instituttleder",
-    "english": "a head of department"
-  },
-  {
-    "norsk": "et instrument",
-    "english": "an instrument"
-  },
-  {
-    "norsk": "interessant",
-    "english": "interesting"
-  },
-  {
-    "norsk": "en interiørbutikk",
-    "english": "interior design shop"
-  },
-  {
-    "norsk": "Internett",
-    "english": "Internet"
-  },
-  {
-    "norsk": "internettilgang",
-    "english": "Internet access"
-  },
-  {
-    "norsk": "ei inventarliste",
-    "english": "a list of furniture, inventory"
-  },
-  {
-    "norsk": "å invitere",
-    "english": "to invite"
-  },
-  {
-    "norsk": "Italia",
-    "english": "Italia"
-  },
-  {
-    "norsk": "en italiener",
-    "english": "Italian"
-  },
-  {
-    "norsk": "italiensk",
-    "english": "Italian"
-  },
-  {
-    "norsk": "et IT-firma",
-    "english": "an IT-firm"
-  },
-  {
-    "norsk": "ja",
-    "english": "yes"
-  },
-  {
-    "norsk": "ja da",
-    "english": "\"Sure\", \"Not to worry\""
-  },
-  {
-    "norsk": "ja visst",
-    "english": "surely, certainly"
-  },
-  {
-    "norsk": "ei jakke",
-    "english": "a jacket"
-  },
-  {
-    "norsk": "jeg",
-    "english": "I"
-  },
-  {
-    "norsk": "ei jente",
-    "english": "a girl"
-  },
-  {
-    "norsk": "en jernbanestasjon",
-    "english": "a railway station"
-  },
-  {
-    "norsk": "jo",
-    "english": "yes"
-  },
-  {
-    "norsk": "å jobbe",
-    "english": "to work"
-  },
-  {
-    "norsk": "ei jul",
-    "english": "a Christmas"
-  },
-  {
-    "norsk": "en julaften",
-    "english": "a Christmas Eve"
-  },
-  {
-    "norsk": "et julebord",
-    "english": "a Christmas dinner, Christmas party"
-  },
-  {
-    "norsk": "en julegave",
-    "english": "a Christmas gift"
-  },
-  {
-    "norsk": "ei julekule",
-    "english": "a Christmas ball"
-  },
-  {
-    "norsk": "en julekveld",
-    "english": "a Christmas Eve"
-  },
-  {
-    "norsk": "en julemiddag",
-    "english": "a Christmas dinner"
-  },
-  {
-    "norsk": "en julestemning",
-    "english": "a Christmas spirit"
-  },
-  {
-    "norsk": "en juletradisjon",
-    "english": "a Christmas tradition"
-  },
-  {
-    "norsk": "et juletre",
-    "english": "a Christmas tree"
-  },
-  {
-    "norsk": "en jus",
-    "english": "a juice"
-  },
-  {
-    "norsk": "en kafé",
-    "english": "a café"
-  },
-  {
-    "norsk": "en kaffe",
-    "english": "a coffee"
-  },
-  {
-    "norsk": "kakao",
-    "english": "cocoa (uncount. noun)"
-  },
-  {
-    "norsk": "ei kake",
-    "english": "a cake"
-  },
-  {
-    "norsk": "et kakestykke",
-    "english": "a piece of cake"
-  },
-  {
-    "norsk": "kald",
-    "english": "cold"
-  },
-  {
-    "norsk": "kaldere",
-    "english": "colder"
-  },
-  {
-    "norsk": "kaldt",
-    "english": "cold"
-  },
-  {
-    "norsk": "kan",
-    "english": "can, be able to"
-  },
-  {
-    "norsk": "kanskje",
-    "english": "perhaps, maybe"
-  },
-  {
-    "norsk": "ei kantine",
-    "english": "a canteen"
-  },
-  {
-    "norsk": "Karl Johans gate",
-    "english": "Karl Johan's street (in Oslo)"
-  },
-  {
-    "norsk": "et kart",
-    "english": "a map"
-  },
-  {
-    "norsk": "en kasse",
-    "english": "a cash register"
-  },
-  {
-    "norsk": "å kaste opp",
-    "english": "to throw up, vomit"
-  },
-  {
-    "norsk": "en katedral",
-    "english": "a cathedral"
-  },
-  {
-    "norsk": "en kilometer",
-    "english": "a kilometre"
-  },
-  {
-    "norsk": "Kina",
-    "english": "China"
-  },
-  {
-    "norsk": "en kino",
-    "english": "a cinema"
-  },
-  {
-    "norsk": "ei kirke",
-    "english": "a church"
-  },
-  {
-    "norsk": "en kjeks",
-    "english": "a cracker, cookie"
-  },
-  {
-    "norsk": "kjemisk",
-    "english": "chemical"
-  },
-  {
-    "norsk": "kjempebra",
-    "english": "awesome"
-  },
-  {
-    "norsk": "kjempeflink",
-    "english": "very good, clever"
-  },
-  {
-    "norsk": "kjempegod",
-    "english": "very good"
-  },
-  {
-    "norsk": "kjempemorsom",
-    "english": "hilarious"
-  },
-  {
-    "norsk": "kjempesulten",
-    "english": "very hungry"
-  },
-  {
-    "norsk": "kjempesøt",
-    "english": "very cute, very sweet"
-  },
-  {
-    "norsk": "å kjenne",
-    "english": "to feel, know"
-  },
-  {
-    "norsk": "å kjenne igjen",
-    "english": "to recognize"
-  },
-  {
-    "norsk": "kjent",
-    "english": "well-known, famous"
-  },
-  {
-    "norsk": "kjær",
-    "english": "dear"
-  },
-  {
-    "norsk": "et kjøkken",
-    "english": "a kitchen"
-  },
-  {
-    "norsk": "en kjøkkenbenk",
-    "english": "a workbench"
-  },
-  {
-    "norsk": "en kjøledisk",
-    "english": "a refrigerating counter"
-  },
-  {
-    "norsk": "et kjøleskap",
-    "english": "a refrigerator"
-  },
-  {
-    "norsk": "å kjøpe",
-    "english": "to buy"
-  },
-  {
-    "norsk": "et kjøpesenter",
-    "english": "a shopping centre"
-  },
-  {
-    "norsk": "å kjøre",
-    "english": "to drive"
-  },
-  {
-    "norsk": "en klasse",
-    "english": "a class"
-  },
-  {
-    "norsk": "ei klasseliste",
-    "english": "a class list"
-  },
-  {
-    "norsk": "å klatre",
-    "english": "to climb"
-  },
-  {
-    "norsk": "ei klatregruppe",
-    "english": "a climbing group"
-  },
-  {
-    "norsk": "å kle på seg",
-    "english": "to dress"
-  },
-  {
-    "norsk": "en klem",
-    "english": "a hug"
-  },
-  {
-    "norsk": "en klesbutikk",
-    "english": "a clothing store"
-  },
-  {
-    "norsk": "klokka er…",
-    "english": "the time is…"
-  },
-  {
-    "norsk": "ei klokke",
-    "english": "a clock, watch"
-  },
-  {
-    "norsk": "klær",
-    "english": "clothes"
-  },
-  {
-    "norsk": "en koffert",
-    "english": "a suitcase"
-  },
-  {
-    "norsk": "å koke",
-    "english": "to boil"
-  },
-  {
-    "norsk": "en kollega",
-    "english": "a colleague"
-  },
-  {
-    "norsk": "kom",
-    "english": "came"
-  },
-  {
-    "norsk": "å komme",
-    "english": "to come"
-  },
-  {
-    "norsk": "kommet",
-    "english": "come (past part.)"
-  },
-  {
-    "norsk": "et kompendium",
-    "english": "a compendium"
-  },
-  {
-    "norsk": "ei kone",
-    "english": "a wife"
-  },
-  {
-    "norsk": "en konferanse",
-    "english": "a conference"
-  },
-  {
-    "norsk": "Kong",
-    "english": "King (as title)"
-  },
-  {
-    "norsk": "en konge",
-    "english": "a king"
-  },
-  {
-    "norsk": "en konsert",
-    "english": "a concert"
-  },
-  {
-    "norsk": "en konsulent",
-    "english": "an executive officer, consultant, adviser"
-  },
-  {
-    "norsk": "en kontakt",
-    "english": "a contact"
-  },
-  {
-    "norsk": "et kontor",
-    "english": "an office"
-  },
-  {
-    "norsk": "en kontrakt",
-    "english": "a contract"
-  },
-  {
-    "norsk": "en kopp",
-    "english": "a cup"
-  },
-  {
-    "norsk": "en korrektur",
-    "english": "a proof, correction"
-  },
-  {
-    "norsk": "et kort",
-    "english": "a card"
-  },
-  {
-    "norsk": "å kose seg",
-    "english": "to have a good time, snuggle up"
-  },
-  {
-    "norsk": "koselig",
-    "english": "cosy, nice"
-  },
-  {
-    "norsk": "å koste",
-    "english": "to cost"
-  },
-  {
-    "norsk": "ei krone",
-    "english": "a crown"
-  },
-  {
-    "norsk": "å kunne",
-    "english": "(the infinitive of) can, be able to"
-  },
-  {
-    "norsk": "et kurs",
-    "english": "a course"
-  },
-  {
-    "norsk": "kvalm",
-    "english": "queasy"
-  },
-  {
-    "norsk": "kvart",
-    "english": "quarter"
-  },
-  {
-    "norsk": "en kveld",
-    "english": "an evening, night"
-  },
-  {
-    "norsk": "Kvikklunsj",
-    "english": "proper name (chocolate brand)"
-  },
-  {
-    "norsk": "en kø",
-    "english": "a queue, line"
-  },
-  {
-    "norsk": "en kølapp",
-    "english": "a queue number"
-  },
-  {
-    "norsk": "ei kåpe",
-    "english": "a coat"
-  },
-  {
-    "norsk": "lagd",
-    "english": "made"
-  },
-  {
-    "norsk": "å lage",
-    "english": "to make"
-  },
-  {
-    "norsk": "en laks",
-    "english": "a salmon"
-  },
-  {
-    "norsk": "å lande",
-    "english": "to land"
-  },
-  {
-    "norsk": "lang",
-    "english": "long"
-  },
-  {
-    "norsk": "langt",
-    "english": "far"
-  },
-  {
-    "norsk": "ledig",
-    "english": "vacant"
-  },
-  {
-    "norsk": "en lege",
-    "english": "a doctor, GP"
-  },
-  {
-    "norsk": "en legevakt",
-    "english": "a casualty clinic"
-  },
-  {
-    "norsk": "en legevaktsentral",
-    "english": "telephone central for emergency clinic"
-  },
-  {
-    "norsk": "å legge",
-    "english": "to lay, put"
-  },
-  {
-    "norsk": "å legge seg",
-    "english": "to go to bed, lie down"
-  },
-  {
-    "norsk": "å legge ved",
-    "english": "to attach"
-  },
-  {
-    "norsk": "ei lekse",
-    "english": "a lesson, homework"
-  },
-  {
-    "norsk": "lenge",
-    "english": "long"
-  },
-  {
-    "norsk": "lenge siden",
-    "english": "long ago"
-  },
-  {
-    "norsk": "å lese",
-    "english": "to read"
-  },
-  {
-    "norsk": "å ligge",
-    "english": "to stand, lie"
-  },
-  {
-    "norsk": "å like",
-    "english": "to like"
-  },
-  {
-    "norsk": "en lillebror",
-    "english": "a little/baby brother"
-  },
-  {
-    "norsk": "ei liste",
-    "english": "a list"
-  },
-  {
-    "norsk": "lita",
-    "english": "small (f)"
-  },
-  {
-    "norsk": "lita",
-    "english": "little, small"
-  },
-  {
-    "norsk": "lite",
-    "english": "small (n)"
-  },
-  {
-    "norsk": "liten",
-    "english": "small (m)"
-  },
-  {
-    "norsk": "litt",
-    "english": "a little"
-  },
-  {
-    "norsk": "ei lommebok",
-    "english": "a wallet"
-  },
-  {
-    "norsk": "en lunsj",
-    "english": "a lunch"
-  },
-  {
-    "norsk": "å lure",
-    "english": "to wonder"
-  },
-  {
-    "norsk": "lutefisk",
-    "english": "«lie fish» (lut = lie/sodium hydroxide)"
-  },
-  {
-    "norsk": "lykke til!",
-    "english": "good luck!"
-  },
-  {
-    "norsk": "et lys",
-    "english": "a candle"
-  },
-  {
-    "norsk": "lys",
-    "english": "bright, light, blond"
-  },
-  {
-    "norsk": "lysegrå",
-    "english": "light grey"
-  },
-  {
-    "norsk": "en lysestake",
-    "english": "a candlestick"
-  },
-  {
-    "norsk": "en lyst",
-    "english": "a wish, desire, inclination"
-  },
-  {
-    "norsk": "lyst på",
-    "english": "wanting something"
-  },
-  {
-    "norsk": "lyst til",
-    "english": "wanting to do something"
-  },
-  {
-    "norsk": "å lære",
-    "english": "to learn"
-  },
-  {
-    "norsk": "en lærer",
-    "english": "a teacher"
-  },
-  {
-    "norsk": "å løpe",
-    "english": "to run"
-  },
-  {
-    "norsk": "en lørdag",
-    "english": "a Saturday"
-  },
-  {
-    "norsk": "et lån",
-    "english": "a loan"
-  },
-  {
-    "norsk": "å låne",
-    "english": "to borrow"
-  },
-  {
-    "norsk": "en lås",
-    "english": "a lock"
-  },
-  {
-    "norsk": "å låse",
-    "english": "to lock"
-  },
-  {
-    "norsk": "makaroni",
-    "english": "macaroni (uncount. noun)"
-  },
-  {
-    "norsk": "å male",
-    "english": "to paint"
-  },
-  {
-    "norsk": "en maler",
-    "english": "a painter"
-  },
-  {
-    "norsk": "en mamma",
-    "english": "a mummy"
-  },
-  {
-    "norsk": "man",
-    "english": "one, you"
-  },
-  {
-    "norsk": "en mandag",
-    "english": "a Monday"
-  },
-  {
-    "norsk": "mange",
-    "english": "many"
-  },
-  {
-    "norsk": "en mann",
-    "english": "a man"
-  },
-  {
-    "norsk": "en mastergradsstudent",
-    "english": "a master student"
-  },
-  {
-    "norsk": "mat",
-    "english": "food"
-  },
-  {
-    "norsk": "med",
-    "english": "with"
-  },
-  {
-    "norsk": "en medisin",
-    "english": "a medicine"
-  },
-  {
-    "norsk": "meg",
-    "english": "me"
-  },
-  {
-    "norsk": "melk",
-    "english": "milk"
-  },
-  {
-    "norsk": "mellom",
-    "english": "between"
-  },
-  {
-    "norsk": "men",
-    "english": "but"
-  },
-  {
-    "norsk": "et menneske",
-    "english": "a person, human being"
-  },
-  {
-    "norsk": "mens",
-    "english": "while"
-  },
-  {
-    "norsk": "mer",
-    "english": "more"
-  },
-  {
-    "norsk": "mer",
-    "english": "more"
-  },
-  {
-    "norsk": "merkelig",
-    "english": "strange, odd"
-  },
-  {
-    "norsk": "mett",
-    "english": "full"
-  },
-  {
-    "norsk": "mi",
-    "english": "my, mine"
-  },
-  {
-    "norsk": "en middag",
-    "english": "a dinner"
-  },
-  {
-    "norsk": "midnatt",
-    "english": "midnight"
-  },
-  {
-    "norsk": "midt i",
-    "english": "in the middle of"
-  },
-  {
-    "norsk": "min",
-    "english": "my, mine"
-  },
-  {
-    "norsk": "mine",
-    "english": "my, mine"
-  },
-  {
-    "norsk": "en minibank",
-    "english": "a cash dispenser"
-  },
-  {
-    "norsk": "en minibar",
-    "english": "a mini-bar"
-  },
-  {
-    "norsk": "en minusgrad",
-    "english": "one degree below zero, minus -- degrees"
-  },
-  {
-    "norsk": "et minutt",
-    "english": "a minute"
-  },
-  {
-    "norsk": "mitt",
-    "english": "my, mine"
-  },
-  {
-    "norsk": "en mobil",
-    "english": "a cell phone"
-  },
-  {
-    "norsk": "et mobilnummer",
-    "english": "a cell phone number"
-  },
-  {
-    "norsk": "en mobiltelefon",
-    "english": "a cellular phone"
-  },
-  {
-    "norsk": "moderne",
-    "english": "modern"
-  },
-  {
-    "norsk": "ei mor",
-    "english": "a mother"
-  },
-  {
-    "norsk": "en morfar",
-    "english": "a (maternal) grandfather"
-  },
-  {
-    "norsk": "en morgen",
-    "english": "a morning"
-  },
-  {
-    "norsk": "ei mormor",
-    "english": "a (maternal) grandmother"
-  },
-  {
-    "norsk": "mot",
-    "english": "towards, against"
-  },
-  {
-    "norsk": "en muffins",
-    "english": "a muffin"
-  },
-  {
-    "norsk": "mulig",
-    "english": "possible"
-  },
-  {
-    "norsk": "Munch",
-    "english": "Munch"
-  },
-  {
-    "norsk": "Munch-museet",
-    "english": "the Munch Museum"
-  },
-  {
-    "norsk": "muntlig",
-    "english": "verbal, oral"
-  },
-  {
-    "norsk": "museer",
-    "english": "museums"
-  },
-  {
-    "norsk": "et museum",
-    "english": "a museum"
-  },
-  {
-    "norsk": "musikk",
-    "english": "music"
-  },
-  {
-    "norsk": "mye",
-    "english": "much, a lot, plenty"
-  },
-  {
-    "norsk": "myk",
-    "english": "soft"
-  },
-  {
-    "norsk": "et møbel",
-    "english": "a piece of furniture"
-  },
-  {
-    "norsk": "mørk",
-    "english": "dark"
-  },
-  {
-    "norsk": "å møte",
-    "english": "to meet"
-  },
-  {
-    "norsk": "et møte",
-    "english": "a meeting"
-  },
-  {
-    "norsk": "møtt",
-    "english": "met (past part.)"
-  },
-  {
-    "norsk": "møtte",
-    "english": "met"
-  },
-  {
-    "norsk": "må",
-    "english": "have to, must"
-  },
-  {
-    "norsk": "en nabo",
-    "english": "a neighbour"
-  },
-  {
-    "norsk": "naiv",
-    "english": "naive"
-  },
-  {
-    "norsk": "en nasjonalforsamling",
-    "english": "a national assembly"
-  },
-  {
-    "norsk": "en nasjonalitet",
-    "english": "a nationality"
-  },
-  {
-    "norsk": "ei natt",
-    "english": "a night"
-  },
-  {
-    "norsk": "et navn",
-    "english": "a name"
-  },
-  {
-    "norsk": "nei",
-    "english": "no"
-  },
-  {
-    "norsk": "nei da",
-    "english": "Oh no."
-  },
-  {
-    "norsk": "nervøs",
-    "english": "nervous"
-  },
-  {
-    "norsk": "neste",
-    "english": "next"
-  },
-  {
-    "norsk": "nesten",
-    "english": "almost, nearly"
-  },
-  {
-    "norsk": "et nett",
-    "english": "a web"
-  },
-  {
-    "norsk": "nettopp",
-    "english": "just"
-  },
-  {
-    "norsk": "en nevø",
-    "english": "a nephew"
-  },
-  {
-    "norsk": "ni",
-    "english": "nine"
-  },
-  {
-    "norsk": "Nidarosdomen",
-    "english": "the Nidaros Cathedral"
-  },
-  {
-    "norsk": "Nobel",
-    "english": "Nobel"
-  },
-  {
-    "norsk": "Nobels Fredssenter",
-    "english": "Nobel Peace Center"
-  },
-  {
-    "norsk": "noe",
-    "english": "something"
-  },
-  {
-    "norsk": "noen",
-    "english": "some, somebody, any, anybody"
-  },
-  {
-    "norsk": "nok",
-    "english": "enough"
-  },
-  {
-    "norsk": "nok",
-    "english": "probably, I gather"
-  },
-  {
-    "norsk": "en nordmann",
-    "english": "a Norwegian"
-  },
-  {
-    "norsk": "Norge",
-    "english": "Norway"
-  },
-  {
-    "norsk": "norsk",
-    "english": "Norwegian"
-  },
-  {
-    "norsk": "et norskkurs",
-    "english": "a Norwegian course"
-  },
-  {
-    "norsk": "ei notatbok",
-    "english": "a notebook"
-  },
-  {
-    "norsk": "nr",
-    "english": "no."
-  },
-  {
-    "norsk": "et nummer",
-    "english": "a number"
-  },
-  {
-    "norsk": "ny",
-    "english": "new"
-  },
-  {
-    "norsk": "en nyhet",
-    "english": "a piece of news"
-  },
-  {
-    "norsk": "nær",
-    "english": "near"
-  },
-  {
-    "norsk": "en nøkkel",
-    "english": "a key"
-  },
-  {
-    "norsk": "nå",
-    "english": "now"
-  },
-  {
-    "norsk": "når",
-    "english": "when"
-  },
-  {
-    "norsk": "ofte",
-    "english": "often"
-  },
-  {
-    "norsk": "og",
-    "english": "and"
-  },
-  {
-    "norsk": "også",
-    "english": "too, also"
-  },
-  {
-    "norsk": "OK",
-    "english": "okay, all right"
-  },
-  {
-    "norsk": "oktober",
-    "english": "October"
-  },
-  {
-    "norsk": "ei oldemor",
-    "english": "a great grandmother"
-  },
-  {
-    "norsk": "om",
-    "english": "about"
-  },
-  {
-    "norsk": "en omgangssyke",
-    "english": "a gastric flu"
-  },
-  {
-    "norsk": "et område",
-    "english": "an area"
-  },
-  {
-    "norsk": "en onkel",
-    "english": "an uncle"
-  },
-  {
-    "norsk": "onkler",
-    "english": "uncles"
-  },
-  {
-    "norsk": "en onsdag",
-    "english": "a Wednesday"
-  },
-  {
-    "norsk": "Operahuset",
-    "english": "the Opera House"
-  },
-  {
-    "norsk": "opp",
-    "english": "up"
-  },
-  {
-    "norsk": "Oppdal",
-    "english": "Oppdal"
-  },
-  {
-    "norsk": "en oppholdstillatelse",
-    "english": "a residence permit"
-  },
-  {
-    "norsk": "å oppleve",
-    "english": "to experience, enjoy"
-  },
-  {
-    "norsk": "ei oppskrift",
-    "english": "a recipe"
-  },
-  {
-    "norsk": "et ord",
-    "english": "a word"
-  },
-  {
-    "norsk": "ei ordbok",
-    "english": "a dictionary"
-  },
-  {
-    "norsk": "å ordne",
-    "english": "to fix, organize"
-  },
-  {
-    "norsk": "en organisasjon",
-    "english": "an organisation"
-  },
-  {
-    "norsk": "Oslofjorden",
-    "english": "the Oslo fjord"
-  },
-  {
-    "norsk": "oss",
-    "english": "us"
-  },
-  {
-    "norsk": "en ost",
-    "english": "a cheese"
-  },
-  {
-    "norsk": "over",
-    "english": "of, over"
-  },
-  {
-    "norsk": "en overgang",
-    "english": "a transition"
-  },
-  {
-    "norsk": "en ovn",
-    "english": "an oven"
-  },
-  {
-    "norsk": "en pakke",
-    "english": "a package"
-  },
-  {
-    "norsk": "en pappa",
-    "english": "a daddy"
-  },
-  {
-    "norsk": "en park",
-    "english": "a park"
-  },
-  {
-    "norsk": "å parkere",
-    "english": "to park"
-  },
-  {
-    "norsk": "en parkeringsplass",
-    "english": "a parking lot"
-  },
-  {
-    "norsk": "et parlament",
-    "english": "a parliament"
-  },
-  {
-    "norsk": "et pass",
-    "english": "a passport"
-  },
-  {
-    "norsk": "å passe",
-    "english": "to fit"
-  },
-  {
-    "norsk": "å passe på",
-    "english": "to take care of, look after"
-  },
-  {
-    "norsk": "et passord",
-    "english": "a password"
-  },
-  {
-    "norsk": "en pause",
-    "english": "a break, interval"
-  },
-  {
-    "norsk": "en PC",
-    "english": "a PC"
-  },
-  {
-    "norsk": "penger",
-    "english": "money"
-  },
-  {
-    "norsk": "en penn",
-    "english": "a pen"
-  },
-  {
-    "norsk": "en pensjonist",
-    "english": "a pensioner"
-  },
-  {
-    "norsk": "en ph.d.-student",
-    "english": "a Ph.D. student, doctoral research fellow"
-  },
-  {
-    "norsk": "et piano",
-    "english": "a piano"
-  },
-  {
-    "norsk": "pinnekjøtt",
-    "english": "mutton ribs (uncount. noun)"
-  },
-  {
-    "norsk": "plutselig",
-    "english": "suddenly"
-  },
-  {
-    "norsk": "en pose",
-    "english": "a bag"
-  },
-  {
-    "norsk": "et postkontor",
-    "english": "a post office"
-  },
-  {
-    "norsk": "et postkort",
-    "english": "a postcard"
-  },
-  {
-    "norsk": "praktisk",
-    "english": "practical"
-  },
-  {
-    "norsk": "å prate",
-    "english": "to talk"
-  },
-  {
-    "norsk": "en presentasjon",
-    "english": "a presentation"
-  },
-  {
-    "norsk": "å presentere",
-    "english": "to present, introduce"
-  },
-  {
-    "norsk": "en prest",
-    "english": "a vicar, clergyman"
-  },
-  {
-    "norsk": "en pris",
-    "english": "a price"
-  },
-  {
-    "norsk": "et problem",
-    "english": "a problem"
-  },
-  {
-    "norsk": "en professor",
-    "english": "a professor"
-  },
-  {
-    "norsk": "en prosent",
-    "english": "a percentage"
-  },
-  {
-    "norsk": "prosessteknologi",
-    "english": "engineering (uncount. noun)"
-  },
-  {
-    "norsk": "et prosjekt",
-    "english": "a project"
-  },
-  {
-    "norsk": "å prøve",
-    "english": "to try"
-  },
-  {
-    "norsk": "et prøverom",
-    "english": "a fitting room"
-  },
-  {
-    "norsk": "en psykologi",
-    "english": "a psycology"
-  },
-  {
-    "norsk": "psykologisk",
-    "english": "psycological"
-  },
-  {
-    "norsk": "å pusse",
-    "english": "to brush"
-  },
-  {
-    "norsk": "pust",
-    "english": "a breath (uncount. noun)"
-  },
-  {
-    "norsk": "ei pute",
-    "english": "a pillow, cushion"
-  },
-  {
-    "norsk": "pyntet",
-    "english": "decorated"
-  },
-  {
-    "norsk": "ei pære",
-    "english": "a pear"
-  },
-  {
-    "norsk": "ei pølse",
-    "english": "a sausage"
-  },
-  {
-    "norsk": "på",
-    "english": "on, at"
-  },
-  {
-    "norsk": "på forhånd",
-    "english": "in advance"
-  },
-  {
-    "norsk": "på salg",
-    "english": "on sale"
-  },
-  {
-    "norsk": "på vei",
-    "english": "on the way"
-  },
-  {
-    "norsk": "rar",
-    "english": "strange, odd"
-  },
-  {
-    "norsk": "å registrere",
-    "english": "to register"
-  },
-  {
-    "norsk": "et registreringsbevis",
-    "english": "a certificate of registration"
-  },
-  {
-    "norsk": "regn",
-    "english": "rain (uncount. noun)"
-  },
-  {
-    "norsk": "å regne",
-    "english": "to rain"
-  },
-  {
-    "norsk": "å reise",
-    "english": "to travel"
-  },
-  {
-    "norsk": "en reisebekreftelse",
-    "english": "confirmation of reservation"
-  },
-  {
-    "norsk": "en resepsjon",
-    "english": "a reception"
-  },
-  {
-    "norsk": "en resepsjonist",
-    "english": "a receptionist"
-  },
-  {
-    "norsk": "en resept",
-    "english": "a prescription"
-  },
-  {
-    "norsk": "en respons",
-    "english": "response"
-  },
-  {
-    "norsk": "en rest",
-    "english": "a remainder, remnant, rest"
-  },
-  {
-    "norsk": "en restaurant",
-    "english": "a restaurant"
-  },
-  {
-    "norsk": "rett",
-    "english": "straight, directly"
-  },
-  {
-    "norsk": "en rett",
-    "english": "a dish"
-  },
-  {
-    "norsk": "rett ved siden av",
-    "english": "right next to"
-  },
-  {
-    "norsk": "ei ribbe",
-    "english": "a rib (pork ribs)"
-  },
-  {
-    "norsk": "riktig",
-    "english": "correct, right"
-  },
-  {
-    "norsk": "å ringe",
-    "english": "to ring, call"
-  },
-  {
-    "norsk": "ris",
-    "english": "rice (uncount. noun)"
-  },
-  {
-    "norsk": "riskrem",
-    "english": "creamed rice pudding (uncount. noun)"
-  },
-  {
-    "norsk": "et rom",
-    "english": "a room"
-  },
-  {
-    "norsk": "Roma",
-    "english": "Rome"
-  },
-  {
-    "norsk": "en roman",
-    "english": "a novel"
-  },
-  {
-    "norsk": "Romania",
-    "english": "Romania"
-  },
-  {
-    "norsk": "å rope",
-    "english": "to call, cry, shout"
-  },
-  {
-    "norsk": "rund",
-    "english": "round"
-  },
-  {
-    "norsk": "et rundstykke",
-    "english": "a roll"
-  },
-  {
-    "norsk": "rundt",
-    "english": "round, about"
-  },
-  {
-    "norsk": "å rydde",
-    "english": "to tidy"
-  },
-  {
-    "norsk": "rød",
-    "english": "red"
-  },
-  {
-    "norsk": "et rådhus",
-    "english": "a city hall"
-  },
-  {
-    "norsk": "sa",
-    "english": "said"
-  },
-  {
-    "norsk": "sagt",
-    "english": "said (past part.)"
-  },
-  {
-    "norsk": "salami",
-    "english": "a salami (uncount. noun)"
-  },
-  {
-    "norsk": "et salg",
-    "english": "a sale"
-  },
-  {
-    "norsk": "et salsakurs",
-    "english": "a salsa course"
-  },
-  {
-    "norsk": "samme",
-    "english": "same"
-  },
-  {
-    "norsk": "sammen",
-    "english": "together"
-  },
-  {
-    "norsk": "en sang",
-    "english": "a song"
-  },
-  {
-    "norsk": "sann",
-    "english": "true"
-  },
-  {
-    "norsk": "sant",
-    "english": "true"
-  },
-  {
-    "norsk": "satt",
-    "english": "sat"
-  },
-  {
-    "norsk": "en saus",
-    "english": "a sauce, gravy"
-  },
-  {
-    "norsk": "å se",
-    "english": "to see"
-  },
-  {
-    "norsk": "å se ut",
-    "english": "to look, appear"
-  },
-  {
-    "norsk": "seg",
-    "english": "himself, herself, itself, oneself, themselves"
-  },
-  {
-    "norsk": "seg selv",
-    "english": "oneself"
-  },
-  {
-    "norsk": "seinere",
-    "english": "later"
-  },
-  {
-    "norsk": "en sekk",
-    "english": "a sack"
-  },
-  {
-    "norsk": "seks",
-    "english": "six"
-  },
-  {
-    "norsk": "å selge",
-    "english": "to sell"
-  },
-  {
-    "norsk": "selv",
-    "english": "self"
-  },
-  {
-    "norsk": "selvfølgelig",
-    "english": "of course"
-  },
-  {
-    "norsk": "et semester",
-    "english": "a semester"
-  },
-  {
-    "norsk": "en semesteravgift",
-    "english": "a university fee"
-  },
-  {
-    "norsk": "et semesterkort",
-    "english": "semester card"
-  },
-  {
-    "norsk": "et seminar",
-    "english": "a seminar"
-  },
-  {
-    "norsk": "å sende",
-    "english": "to send"
-  },
-  {
-    "norsk": "ei seng",
-    "english": "a bed"
-  },
-  {
-    "norsk": "et senter",
-    "english": "a centre"
-  },
-  {
-    "norsk": "en sentralstasjon",
-    "english": "a central station"
-  },
-  {
-    "norsk": "et sentrum",
-    "english": "a (town) centre"
-  },
-  {
-    "norsk": "en servitør",
-    "english": "a waiter"
-  },
-  {
-    "norsk": "å ses",
-    "english": "to see one another"
-  },
-  {
-    "norsk": "sett",
-    "english": "seen (past part.)"
-  },
-  {
-    "norsk": "å sette",
-    "english": "to put, place, set"
-  },
-  {
-    "norsk": "å sette seg",
-    "english": "to sit down"
-  },
-  {
-    "norsk": "shopping",
-    "english": "shopping (uncount. noun)"
-  },
-  {
-    "norsk": "å si",
-    "english": "to say"
-  },
-  {
-    "norsk": "en side",
-    "english": "a side"
-  },
-  {
-    "norsk": "siden",
-    "english": "since"
-  },
-  {
-    "norsk": "siden",
-    "english": "(years) ago"
-  },
-  {
-    "norsk": "sikkert",
-    "english": "here: probably. Also: certainly"
-  },
-  {
-    "norsk": "sin",
-    "english": "his, hers, its, theirs"
-  },
-  {
-    "norsk": "sine",
-    "english": "his, hers, its, theirs"
-  },
-  {
-    "norsk": "sitt",
-    "english": "his, hers, its, theirs"
-  },
-  {
-    "norsk": "å sitte",
-    "english": "to sit"
-  },
-  {
-    "norsk": "å sjekke",
-    "english": "to check"
-  },
-  {
-    "norsk": "å sjekke inn",
-    "english": "to check in"
-  },
-  {
-    "norsk": "sjelden",
-    "english": "seldom"
-  },
-  {
-    "norsk": "en sjokolade",
-    "english": "a chocolate"
-  },
-  {
-    "norsk": "ei sjokoladekake",
-    "english": "a chocolate cake"
-  },
-  {
-    "norsk": "sju",
-    "english": "seven"
-  },
-  {
-    "norsk": "skal",
-    "english": "will, shall, is going to"
-  },
-  {
-    "norsk": "et skap",
-    "english": "a cupboard"
-  },
-  {
-    "norsk": "et skilt",
-    "english": "a sign, signpost"
-  },
-  {
-    "norsk": "ei skinke",
-    "english": "a ham"
-  },
-  {
-    "norsk": "å skinne",
-    "english": "to shine"
-  },
-  {
-    "norsk": "ei skive",
-    "english": "a slice"
-  },
-  {
-    "norsk": "et skjema",
-    "english": "a form"
-  },
-  {
-    "norsk": "et skjerf",
-    "english": "a scarf"
-  },
-  {
-    "norsk": "skrevet",
-    "english": "written (past part.)"
-  },
-  {
-    "norsk": "et skrik",
-    "english": "a scream"
-  },
-  {
-    "norsk": "å skrive",
-    "english": "to write"
-  },
-  {
-    "norsk": "å skrive under",
-    "english": "to sign"
-  },
-  {
-    "norsk": "et skrivebord",
-    "english": "a desk"
-  },
-  {
-    "norsk": "å skulle",
-    "english": "will, shall"
-  },
-  {
-    "norsk": "skulle",
-    "english": "would"
-  },
-  {
-    "norsk": "en skulptur",
-    "english": "a sculpture"
-  },
-  {
-    "norsk": "å skynde seg",
-    "english": "to hurry (up)"
-  },
-  {
-    "norsk": "å slappe av",
-    "english": "to relax"
-  },
-  {
-    "norsk": "sliten",
-    "english": "tired"
-  },
-  {
-    "norsk": "et slott",
-    "english": "a castle, palace"
-  },
-  {
-    "norsk": "en slutt",
-    "english": "an end"
-  },
-  {
-    "norsk": "å smake",
-    "english": "to taste"
-  },
-  {
-    "norsk": "smertestillende",
-    "english": "painkilling"
-  },
-  {
-    "norsk": "å smile",
-    "english": "to smile"
-  },
-  {
-    "norsk": "smittsom",
-    "english": "infectious"
-  },
-  {
-    "norsk": "en SMS",
-    "english": "an SMS (Short Message Service)"
-  },
-  {
-    "norsk": "smør",
-    "english": "butter"
-  },
-  {
-    "norsk": "små",
-    "english": "small"
-  },
-  {
-    "norsk": "en småkake",
-    "english": "a cookie"
-  },
-  {
-    "norsk": "å snakke",
-    "english": "to speak"
-  },
-  {
-    "norsk": "å snakkes",
-    "english": "to talk (to each other)"
-  },
-  {
-    "norsk": "snakket",
-    "english": "spoke"
-  },
-  {
-    "norsk": "snart",
-    "english": "soon"
-  },
-  {
-    "norsk": "snill",
-    "english": "kind"
-  },
-  {
-    "norsk": "å snu",
-    "english": "to turn"
-  },
-  {
-    "norsk": "å snø",
-    "english": "to snow"
-  },
-  {
-    "norsk": "snø",
-    "english": "snow (uncount. noun)"
-  },
-  {
-    "norsk": "en sofa",
-    "english": "a sofa, couch"
-  },
-  {
-    "norsk": "ei sol",
-    "english": "a sun"
-  },
-  {
-    "norsk": "som",
-    "english": "who, which, that, what"
-  },
-  {
-    "norsk": "en sort",
-    "english": "a sort, kind"
-  },
-  {
-    "norsk": "Spania",
-    "english": "Spania"
-  },
-  {
-    "norsk": "spansk",
-    "english": "Spanish"
-  },
-  {
-    "norsk": "spennende",
-    "english": "exciting"
-  },
-  {
-    "norsk": "spesiell",
-    "english": "special"
-  },
-  {
-    "norsk": "å spille",
-    "english": "to play"
-  },
-  {
-    "norsk": "å spise",
-    "english": "to eat"
-  },
-  {
-    "norsk": "spiste",
-    "english": "ate"
-  },
-  {
-    "norsk": "en sport",
-    "english": "a sport"
-  },
-  {
-    "norsk": "et språk",
-    "english": "a language"
-  },
-  {
-    "norsk": "spurte",
-    "english": "asked"
-  },
-  {
-    "norsk": "spør",
-    "english": "ask(s)"
-  },
-  {
-    "norsk": "å spørre",
-    "english": "to ask"
-  },
-  {
-    "norsk": "Sri Lanka",
-    "english": "Sri Lanka"
-  },
-  {
-    "norsk": "å stave",
-    "english": "to spell"
-  },
-  {
-    "norsk": "et stearinlys",
-    "english": "a candle"
-  },
-  {
-    "norsk": "en stefar",
-    "english": "a stepfather"
-  },
-  {
-    "norsk": "en stemning",
-    "english": "an atmosphere, mood"
-  },
-  {
-    "norsk": "å stenge",
-    "english": "to close"
-  },
-  {
-    "norsk": "stille",
-    "english": "quiet"
-  },
-  {
-    "norsk": "sto",
-    "english": "stood"
-  },
-  {
-    "norsk": "en stol",
-    "english": "a chair"
-  },
-  {
-    "norsk": "å stoppe",
-    "english": "to stop"
-  },
-  {
-    "norsk": "stor",
-    "english": "big"
-  },
-  {
-    "norsk": "Stortinget",
-    "english": "Stortinget, Norwegian National Assembly"
-  },
-  {
-    "norsk": "stresset",
-    "english": "stressed"
-  },
-  {
-    "norsk": "en student",
-    "english": "a student"
-  },
-  {
-    "norsk": "en studentby",
-    "english": "a student village"
-  },
-  {
-    "norsk": "å studere",
-    "english": "to study"
-  },
-  {
-    "norsk": "en studieplan",
-    "english": "a curriculum"
-  },
-  {
-    "norsk": "studiet",
-    "english": "the programme, study"
-  },
-  {
-    "norsk": "et studium",
-    "english": "a course of study"
-  },
-  {
-    "norsk": "ei stue",
-    "english": "a living room"
-  },
-  {
-    "norsk": "en stund",
-    "english": "a moment, while"
-  },
-  {
-    "norsk": "et stykke",
-    "english": "a piece"
-  },
-  {
-    "norsk": "en størrelse",
-    "english": "a size"
-  },
-  {
-    "norsk": "å stå",
-    "english": "to stand"
-  },
-  {
-    "norsk": "å stå opp",
-    "english": "to get up"
-  },
-  {
-    "norsk": "sukker",
-    "english": "sugar"
-  },
-  {
-    "norsk": "sulten",
-    "english": "hungry"
-  },
-  {
-    "norsk": "super",
-    "english": "super"
-  },
-  {
-    "norsk": "å svare",
-    "english": "to answer"
-  },
-  {
-    "norsk": "svart",
-    "english": "black"
-  },
-  {
-    "norsk": "ei svineribbe",
-    "english": "a breast of pork, ribs"
-  },
-  {
-    "norsk": "syk",
-    "english": "ill"
-  },
-  {
-    "norsk": "en sykkel",
-    "english": "a bicycle"
-  },
-  {
-    "norsk": "å sykle",
-    "english": "to cycle"
-  },
-  {
-    "norsk": "å synes",
-    "english": "to think"
-  },
-  {
-    "norsk": "å søke om",
-    "english": "to apply for"
-  },
-  {
-    "norsk": "en søndag",
-    "english": "a Sunday"
-  },
-  {
-    "norsk": "en sønn",
-    "english": "a son"
-  },
-  {
-    "norsk": "et søsken",
-    "english": "a brother or sister, sibling"
-  },
-  {
-    "norsk": "et søskenbarn",
-    "english": "a cousin"
-  },
-  {
-    "norsk": "ei søster",
-    "english": "a sister"
-  },
-  {
-    "norsk": "søt",
-    "english": "sweet"
-  },
-  {
-    "norsk": "så",
-    "english": "so"
-  },
-  {
-    "norsk": "så",
-    "english": "so, then"
-  },
-  {
-    "norsk": "så",
-    "english": "saw"
-  },
-  {
-    "norsk": "så fint",
-    "english": "what a nice (...)!"
-  },
-  {
-    "norsk": "å ta",
-    "english": "to take"
-  },
-  {
-    "norsk": "å ta ut penger",
-    "english": "to withdraw money"
-  },
-  {
-    "norsk": "en tablett",
-    "english": "a tablet"
-  },
-  {
-    "norsk": "takk",
-    "english": "thank you"
-  },
-  {
-    "norsk": "takk skal du ha",
-    "english": "thank you"
-  },
-  {
-    "norsk": "å takke",
-    "english": "to thank"
-  },
-  {
-    "norsk": "et tall",
-    "english": "a figure, number"
-  },
-  {
-    "norsk": "en tango",
-    "english": "a tango"
-  },
-  {
-    "norsk": "et tangokurs",
-    "english": "a tango dance course"
-  },
-  {
-    "norsk": "ei tann",
-    "english": "a tooth"
-  },
-  {
-    "norsk": "ei tante",
-    "english": "an aunt"
-  },
-  {
-    "norsk": "ei tavle",
-    "english": "a blackboard"
-  },
-  {
-    "norsk": "en taxi",
-    "english": "a taxi"
-  },
-  {
-    "norsk": "en taxisjåfør",
-    "english": "a taxi driver"
-  },
-  {
-    "norsk": "te",
-    "english": "tea"
-  },
-  {
-    "norsk": "et teater",
-    "english": "a theatre"
-  },
-  {
-    "norsk": "en tekopp",
-    "english": "a teacup"
-  },
-  {
-    "norsk": "en tekstmelding",
-    "english": "a text message (SMS)"
-  },
-  {
-    "norsk": "en telefon",
-    "english": "a telephone"
-  },
-  {
-    "norsk": "et telefonnummer",
-    "english": "a phone number"
-  },
-  {
-    "norsk": "en telefonsamtale",
-    "english": "a telephone conversation"
-  },
-  {
-    "norsk": "å telle",
-    "english": "to count"
-  },
-  {
-    "norsk": "et tema",
-    "english": "a subject, topic, theme"
-  },
-  {
-    "norsk": "å tenke",
-    "english": "to think"
-  },
-  {
-    "norsk": "å tenne",
-    "english": "to light, kindle"
-  },
-  {
-    "norsk": "tenner",
-    "english": "teeth"
-  },
-  {
-    "norsk": "tennis",
-    "english": "tennis (uncount. noun)"
-  },
-  {
-    "norsk": "et termometer",
-    "english": "a thermometer"
-  },
-  {
-    "norsk": "ti",
-    "english": "ten"
-  },
-  {
-    "norsk": "en tid",
-    "english": "a time"
-  },
-  {
-    "norsk": "tidlig",
-    "english": "early"
-  },
-  {
-    "norsk": "en tikroning",
-    "english": "ten-kroner-coin"
-  },
-  {
-    "norsk": "til",
-    "english": "to"
-  },
-  {
-    "norsk": "til sammen",
-    "english": "together, in all"
-  },
-  {
-    "norsk": "til slutt",
-    "english": "finally, in the end, eventually"
-  },
-  {
-    "norsk": "tilbake",
-    "english": "back"
-  },
-  {
-    "norsk": "en time",
-    "english": "an hour, appointment, lesson"
-  },
-  {
-    "norsk": "en time",
-    "english": "a lesson, class, session, also: hour"
-  },
-  {
-    "norsk": "en ting",
-    "english": "a thing"
-  },
-  {
-    "norsk": "en tirsdag",
-    "english": "a Tuesday"
-  },
-  {
-    "norsk": "to",
-    "english": "two"
-  },
-  {
-    "norsk": "et tog",
-    "english": "a train"
-  },
-  {
-    "norsk": "tok",
-    "english": "took"
-  },
-  {
-    "norsk": "et torg",
-    "english": "a square"
-  },
-  {
-    "norsk": "en torsdag",
-    "english": "a Thursday"
-  },
-  {
-    "norsk": "en torsk",
-    "english": "a cod"
-  },
-  {
-    "norsk": "traff",
-    "english": "met, hit"
-  },
-  {
-    "norsk": "ei trapp",
-    "english": "a staircase, stairs"
-  },
-  {
-    "norsk": "travel",
-    "english": "busy"
-  },
-  {
-    "norsk": "tre",
-    "english": "three"
-  },
-  {
-    "norsk": "et tre",
-    "english": "a tree"
-  },
-  {
-    "norsk": "å treffe",
-    "english": "to meet"
-  },
-  {
-    "norsk": "et trehus",
-    "english": "a wooden house"
-  },
-  {
-    "norsk": "å trekke",
-    "english": "to draw, pull"
-  },
-  {
-    "norsk": "å trene",
-    "english": "to exercise, train"
-  },
-  {
-    "norsk": "å trenge",
-    "english": "to need"
-  },
-  {
-    "norsk": "ei trening",
-    "english": "a training session, practice session, exercise"
-  },
-  {
-    "norsk": "et treningskort",
-    "english": "gym membership card"
-  },
-  {
-    "norsk": "trist",
-    "english": "sad"
-  },
-  {
-    "norsk": "å trives",
-    "english": "to thrive, enjoy oneself"
-  },
-  {
-    "norsk": "Trondheim",
-    "english": "Trondheim"
-  },
-  {
-    "norsk": "tror",
-    "english": "believe"
-  },
-  {
-    "norsk": "truffet",
-    "english": "met, hit (past part.)"
-  },
-  {
-    "norsk": "trygg",
-    "english": "safe, secure"
-  },
-  {
-    "norsk": "trøtt",
-    "english": "tired"
-  },
-  {
-    "norsk": "en tur",
-    "english": "a trip"
-  },
-  {
-    "norsk": "en turist",
-    "english": "a tourist"
-  },
-  {
-    "norsk": "tusen",
-    "english": "thousand"
-  },
-  {
-    "norsk": "en TV",
-    "english": "a TV"
-  },
-  {
-    "norsk": "en TV-serie",
-    "english": "a TV series"
-  },
-  {
-    "norsk": "tydelig",
-    "english": "clear, explicit"
-  },
-  {
-    "norsk": "tykk",
-    "english": "thick"
-  },
-  {
-    "norsk": "typisk",
-    "english": "typical"
-  },
-  {
-    "norsk": "tysk",
-    "english": "German"
-  },
-  {
-    "norsk": "en tysker",
-    "english": "a German"
-  },
-  {
-    "norsk": "Tyskland",
-    "english": "Germany"
-  },
-  {
-    "norsk": "å tørke",
-    "english": "to dry"
-  },
-  {
-    "norsk": "å tørke seg",
-    "english": "to dry oneself"
-  },
-  {
-    "norsk": "uhøflig",
-    "english": "impolite, rude"
-  },
-  {
-    "norsk": "ei uke",
-    "english": "a week"
-  },
-  {
-    "norsk": "under",
-    "english": "under, below"
-  },
-  {
-    "norsk": "å undervise",
-    "english": "to teach"
-  },
-  {
-    "norsk": "et universitet",
-    "english": "a university"
-  },
-  {
-    "norsk": "unnskyld",
-    "english": "excuse me"
-  },
-  {
-    "norsk": "USA",
-    "english": "USA"
-  },
-  {
-    "norsk": "ut",
-    "english": "out"
-  },
-  {
-    "norsk": "ute",
-    "english": "out, outside"
-  },
-  {
-    "norsk": "uten",
-    "english": "without"
-  },
-  {
-    "norsk": "utenfor",
-    "english": "outside"
-  },
-  {
-    "norsk": "å utsette",
-    "english": "to postpone"
-  },
-  {
-    "norsk": "en utsikt",
-    "english": "a view"
-  },
-  {
-    "norsk": "en utstilling",
-    "english": "an exhibition"
-  },
-  {
-    "norsk": "et utstyr",
-    "english": "equipment"
-  },
-  {
-    "norsk": "vanlig",
-    "english": "usual, customary"
-  },
-  {
-    "norsk": "vanligvis",
-    "english": "usually"
-  },
-  {
-    "norsk": "vann",
-    "english": "water"
-  },
-  {
-    "norsk": "en vannkoker",
-    "english": "a kettle"
-  },
-  {
-    "norsk": "vanskelig",
-    "english": "difficult"
-  },
-  {
-    "norsk": "vant til",
-    "english": "used to"
-  },
-  {
-    "norsk": "var",
-    "english": "was, were"
-  },
-  {
-    "norsk": "varm",
-    "english": "warm, hot"
-  },
-  {
-    "norsk": "å varme",
-    "english": "to warm"
-  },
-  {
-    "norsk": "en varmegrad",
-    "english": "one degree above zero"
-  },
-  {
-    "norsk": "varmere",
-    "english": "warmer"
-  },
-  {
-    "norsk": "å vaske",
-    "english": "to wash, clean"
-  },
-  {
-    "norsk": "ved",
-    "english": "at, by, near, on, to"
-  },
-  {
-    "norsk": "ved siden av",
-    "english": "beside"
-  },
-  {
-    "norsk": "et vedlegg",
-    "english": "an attachment"
-  },
-  {
-    "norsk": "en vei",
-    "english": "a road"
-  },
-  {
-    "norsk": "en veileder",
-    "english": "a supervisor, guide"
-  },
-  {
-    "norsk": "veldig",
-    "english": "very"
-  },
-  {
-    "norsk": "velkommen",
-    "english": "welcome"
-  },
-  {
-    "norsk": "en venn",
-    "english": "a friend"
-  },
-  {
-    "norsk": "ei venninne",
-    "english": "a (female) friend"
-  },
-  {
-    "norsk": "vennlig",
-    "english": "friendly, kind"
-  },
-  {
-    "norsk": "venstre",
-    "english": "left"
-  },
-  {
-    "norsk": "å vente",
-    "english": "to wait"
-  },
-  {
-    "norsk": "verken - eller",
-    "english": "neither - nor"
-  },
-  {
-    "norsk": "ei veske",
-    "english": "a handbag"
-  },
-  {
-    "norsk": "vet",
-    "english": "know (present tense)"
-  },
-  {
-    "norsk": "vi",
-    "english": "we"
-  },
-  {
-    "norsk": "Vigelandsparken",
-    "english": "the Vigeland Park"
-  },
-  {
-    "norsk": "en vikingkonge",
-    "english": "a viking king"
-  },
-  {
-    "norsk": "et vikingskip",
-    "english": "a Viking ship"
-  },
-  {
-    "norsk": "Vikingskipshuset",
-    "english": "the Viking Ship Museum"
-  },
-  {
-    "norsk": "viktig",
-    "english": "important"
-  },
-  {
-    "norsk": "vil",
-    "english": "wants to, will"
-  },
-  {
-    "norsk": "å ville",
-    "english": "to want to, will"
-  },
-  {
-    "norsk": "et vindu",
-    "english": "a window"
-  },
-  {
-    "norsk": "en vinter",
-    "english": "a winter"
-  },
-  {
-    "norsk": "virkelig",
-    "english": "really"
-  },
-  {
-    "norsk": "å vise",
-    "english": "to show"
-  },
-  {
-    "norsk": "å vise fram",
-    "english": "to show"
-  },
-  {
-    "norsk": "et viskelær",
-    "english": "an eraser"
-  },
-  {
-    "norsk": "visste",
-    "english": "knew"
-  },
-  {
-    "norsk": "å vite",
-    "english": "to know"
-  },
-  {
-    "norsk": "en volleyball",
-    "english": "a volleyball"
-  },
-  {
-    "norsk": "vond",
-    "english": "painful, sore"
-  },
-  {
-    "norsk": "vondt i halsen",
-    "english": "a sore throat"
-  },
-  {
-    "norsk": "vær",
-    "english": "weather (uncount. noun)"
-  },
-  {
-    "norsk": "vær så god!",
-    "english": "you're welcome! please! here you are!"
-  },
-  {
-    "norsk": "å være",
-    "english": "to be, exist"
-  },
-  {
-    "norsk": "vært",
-    "english": "been (past part.)"
-  },
-  {
-    "norsk": "å våkne",
-    "english": "to wake up"
-  },
-  {
-    "norsk": "øst",
-    "english": "east"
-  },
-  {
-    "norsk": "Østlandet",
-    "english": "Eastern Norway"
-  },
-  {
-    "norsk": "et øyeblikk",
-    "english": "a moment"
-  },
-  {
-    "norsk": "å",
-    "english": "to (infinitive marker)"
-  },
-  {
-    "norsk": "åpen",
-    "english": "open"
-  },
-  {
-    "norsk": "å åpne",
-    "english": "to open"
-  },
-  {
-    "norsk": "et år",
-    "english": "a year"
-  },
-  {
-    "norsk": "åtte",
-    "english": "eight"
-  }
+	{
+		"norsk": "ei adresse",
+		"english": "an address"
+	},
+	{
+		"norsk": "Akershus",
+		"english": "Akershus"
+	},
+	{
+		"norsk": "akkurat",
+		"english": "exactly, precisely"
+	},
+	{
+		"norsk": "et album",
+		"english": "an album"
+	},
+	{
+		"norsk": "aldri",
+		"english": "never"
+	},
+	{
+		"norsk": "alene",
+		"english": "alone"
+	},
+	{
+		"norsk": "alle",
+		"english": "all"
+	},
+	{
+		"norsk": "allerede",
+		"english": "already"
+	},
+	{
+		"norsk": "alt",
+		"english": "all, everything"
+	},
+	{
+		"norsk": "alt mulig",
+		"english": "everything"
+	},
+	{
+		"norsk": "alvorlig",
+		"english": "serious"
+	},
+	{
+		"norsk": "amerikansk",
+		"english": "American"
+	},
+	{
+		"norsk": "å anbefale",
+		"english": "to recommend"
+	},
+	{
+		"norsk": "andre",
+		"english": "second, other"
+	},
+	{
+		"norsk": "annen",
+		"english": "other"
+	},
+	{
+		"norsk": "annet",
+		"english": "other"
+	},
+	{
+		"norsk": "et ansikt",
+		"english": "face"
+	},
+	{
+		"norsk": "en antropologi",
+		"english": "an anthropology"
+	},
+	{
+		"norsk": "en appelsin",
+		"english": "an orange"
+	},
+	{
+		"norsk": "en arkitektstudent",
+		"english": "architecture student"
+	},
+	{
+		"norsk": "en arkitektur",
+		"english": "an architecture"
+	},
+	{
+		"norsk": "Arne",
+		"english": "Arne"
+	},
+	{
+		"norsk": "et arrangement",
+		"english": "an arrangement"
+	},
+	{
+		"norsk": "å arrangere",
+		"english": "to arrange, organise"
+	},
+	{
+		"norsk": "at",
+		"english": "that"
+	},
+	{
+		"norsk": "et auditorium",
+		"english": "an auditorium"
+	},
+	{
+		"norsk": "av",
+		"english": "off, of, by, from"
+	},
+	{
+		"norsk": "av og til",
+		"english": "sometimes"
+	},
+	{
+		"norsk": "en avgift",
+		"english": "a fee"
+	},
+	{
+		"norsk": "ei avis",
+		"english": "a newspaper"
+	},
+	{
+		"norsk": "et bad",
+		"english": "a bath"
+	},
+	{
+		"norsk": "en bagasje",
+		"english": "luggage (uncount. noun)"
+	},
+	{
+		"norsk": "en bagett",
+		"english": "a baguette"
+	},
+	{
+		"norsk": "å bake",
+		"english": "to bake"
+	},
+	{
+		"norsk": "et bakeri",
+		"english": "a bakery"
+	},
+	{
+		"norsk": "en ballett",
+		"english": "a ballet"
+	},
+	{
+		"norsk": "et ballspill",
+		"english": "a ball game"
+	},
+	{
+		"norsk": "en banan",
+		"english": "a banana"
+	},
+	{
+		"norsk": "å banke",
+		"english": "to knock"
+	},
+	{
+		"norsk": "å barbere seg",
+		"english": "to shave"
+	},
+	{
+		"norsk": "Barcelona",
+		"english": "Barcelona"
+	},
+	{
+		"norsk": "bare",
+		"english": "just, only"
+	},
+	{
+		"norsk": "bare bra!",
+		"english": "just fine!"
+	},
+	{
+		"norsk": "bare hyggelig!",
+		"english": "you're welcome!"
+	},
+	{
+		"norsk": "et barn",
+		"english": "a child"
+	},
+	{
+		"norsk": "en barnehage",
+		"english": "a kindergarten"
+	},
+	{
+		"norsk": "bedre",
+		"english": "better"
+	},
+	{
+		"norsk": "en bedring",
+		"english": "a recovery"
+	},
+	{
+		"norsk": "begge",
+		"english": "both"
+	},
+	{
+		"norsk": "å begynne",
+		"english": "to begin"
+	},
+	{
+		"norsk": "et begynnerkurs",
+		"english": "a beginner course"
+	},
+	{
+		"norsk": "Beijing",
+		"english": "Beijing"
+	},
+	{
+		"norsk": "en bekreftelse",
+		"english": "a confirmation"
+	},
+	{
+		"norsk": "bekymret",
+		"english": "worried, anxious"
+	},
+	{
+		"norsk": "en bensinstasjon",
+		"english": "a petrol station"
+	},
+	{
+		"norsk": "berømt",
+		"english": "famous"
+	},
+	{
+		"norsk": "en beskjed",
+		"english": "a message"
+	},
+	{
+		"norsk": "best",
+		"english": "best, biest (oldfashioned)"
+	},
+	{
+		"norsk": "en bestefar",
+		"english": "a grandfather"
+	},
+	{
+		"norsk": "besteforeldre",
+		"english": "grandparents"
+	},
+	{
+		"norsk": "å bestemme",
+		"english": "to determine"
+	},
+	{
+		"norsk": "ei bestemor",
+		"english": "a grandmother"
+	},
+	{
+		"norsk": "å bestille",
+		"english": "to order"
+	},
+	{
+		"norsk": "et besøk",
+		"english": "a visit"
+	},
+	{
+		"norsk": "å besøke",
+		"english": "to visit"
+	},
+	{
+		"norsk": "å betale",
+		"english": "to pay"
+	},
+	{
+		"norsk": "å bety",
+		"english": "to mean"
+	},
+	{
+		"norsk": "et bibliotek",
+		"english": "a library"
+	},
+	{
+		"norsk": "en bil",
+		"english": "a car"
+	},
+	{
+		"norsk": "et bilde",
+		"english": "a picture"
+	},
+	{
+		"norsk": "en billett",
+		"english": "a ticket"
+	},
+	{
+		"norsk": "billig",
+		"english": "inexpensive, cheap"
+	},
+	{
+		"norsk": "ble",
+		"english": "became"
+	},
+	{
+		"norsk": "å bli",
+		"english": "to become, will be, turn out"
+	},
+	{
+		"norsk": "ei bløtkake",
+		"english": "a layer cake"
+	},
+	{
+		"norsk": "blå",
+		"english": "blue"
+	},
+	{
+		"norsk": "å blåse",
+		"english": "to blow, be windy"
+	},
+	{
+		"norsk": "å bo",
+		"english": "to live"
+	},
+	{
+		"norsk": "ei bok",
+		"english": "a book"
+	},
+	{
+		"norsk": "en bokhandel",
+		"english": "a bookstore"
+	},
+	{
+		"norsk": "ei bokhylle",
+		"english": "a book shelf"
+	},
+	{
+		"norsk": "ei bolle",
+		"english": "a bun"
+	},
+	{
+		"norsk": "et bord",
+		"english": "a table"
+	},
+	{
+		"norsk": "bordtennis",
+		"english": "table tennis (uncount. noun)"
+	},
+	{
+		"norsk": "bort",
+		"english": "away, off, over"
+	},
+	{
+		"norsk": "borte",
+		"english": "away, off, over"
+	},
+	{
+		"norsk": "bra",
+		"english": "fine, good, well"
+	},
+	{
+		"norsk": "brant",
+		"english": "burnt (to burn)"
+	},
+	{
+		"norsk": "å brenne",
+		"english": "to burn"
+	},
+	{
+		"norsk": "et brev",
+		"english": "a letter"
+	},
+	{
+		"norsk": "en bror",
+		"english": "a brother"
+	},
+	{
+		"norsk": "en brosjyre",
+		"english": "a folder, brochure"
+	},
+	{
+		"norsk": "å bruke",
+		"english": "to use"
+	},
+	{
+		"norsk": "et brukernavn",
+		"english": "a username"
+	},
+	{
+		"norsk": "brun",
+		"english": "brown"
+	},
+	{
+		"norsk": "en brus",
+		"english": "a (bottle of) soda pop"
+	},
+	{
+		"norsk": "et brød",
+		"english": "a loaf of bread"
+	},
+	{
+		"norsk": "ei brødhylle",
+		"english": "a bread rack"
+	},
+	{
+		"norsk": "brødre",
+		"english": "brothers"
+	},
+	{
+		"norsk": "ei brødskive",
+		"english": "a slice of bread"
+	},
+	{
+		"norsk": "burde",
+		"english": "should"
+	},
+	{
+		"norsk": "en bursdag",
+		"english": "a birthday"
+	},
+	{
+		"norsk": "en buss",
+		"english": "a bus"
+	},
+	{
+		"norsk": "en bussjåfør",
+		"english": "a bus driver"
+	},
+	{
+		"norsk": "ei bussrute",
+		"english": "a bus route"
+	},
+	{
+		"norsk": "en busstur",
+		"english": "a bus trip"
+	},
+	{
+		"norsk": "en butikk",
+		"english": "a shop"
+	},
+	{
+		"norsk": "en by",
+		"english": "a city"
+	},
+	{
+		"norsk": "bygde",
+		"english": "built (to build)"
+	},
+	{
+		"norsk": "et bygg",
+		"english": "a building"
+	},
+	{
+		"norsk": "å bygge",
+		"english": "to build"
+	},
+	{
+		"norsk": "en bygning",
+		"english": "a building"
+	},
+	{
+		"norsk": "å bytte",
+		"english": "to change, exchange"
+	},
+	{
+		"norsk": "en bytur",
+		"english": "a trip to town"
+	},
+	{
+		"norsk": "bærbar",
+		"english": "portable"
+	},
+	{
+		"norsk": "en bærbar PC",
+		"english": "a laptop"
+	},
+	{
+		"norsk": "å bære",
+		"english": "to carry"
+	},
+	{
+		"norsk": "bøker",
+		"english": "books"
+	},
+	{
+		"norsk": "både - og",
+		"english": "both - and"
+	},
+	{
+		"norsk": "et bål",
+		"english": "a fire"
+	},
+	{
+		"norsk": "en båt",
+		"english": "a boat"
+	},
+	{
+		"norsk": "ca",
+		"english": "ca"
+	},
+	{
+		"norsk": "en campus",
+		"english": "a campus"
+	},
+	{
+		"norsk": "en CD",
+		"english": "a CD"
+	},
+	{
+		"norsk": "en colaboks",
+		"english": "a can of Coke"
+	},
+	{
+		"norsk": "cricket",
+		"english": "cricket (uncount. noun)"
+	},
+	{
+		"norsk": "da",
+		"english": "then"
+	},
+	{
+		"norsk": "da",
+		"english": "when"
+	},
+	{
+		"norsk": "en dag",
+		"english": "a day"
+	},
+	{
+		"norsk": "en dagsbillett",
+		"english": "a single-day ticket"
+	},
+	{
+		"norsk": "ei dame",
+		"english": "a lady"
+	},
+	{
+		"norsk": "å danse",
+		"english": "to dance"
+	},
+	{
+		"norsk": "ei datter",
+		"english": "a daughter"
+	},
+	{
+		"norsk": "de",
+		"english": "they"
+	},
+	{
+		"norsk": "deg",
+		"english": "you (singular)"
+	},
+	{
+		"norsk": "en del",
+		"english": "a part"
+	},
+	{
+		"norsk": "å dele",
+		"english": "to share"
+	},
+	{
+		"norsk": "å dele ut",
+		"english": "to distribute, award, deal (cards)"
+	},
+	{
+		"norsk": "dem",
+		"english": "them"
+	},
+	{
+		"norsk": "den",
+		"english": "it"
+	},
+	{
+		"norsk": "denne",
+		"english": "this"
+	},
+	{
+		"norsk": "der",
+		"english": "there"
+	},
+	{
+		"norsk": "der borte",
+		"english": "over there"
+	},
+	{
+		"norsk": "dere",
+		"english": "you (plural)"
+	},
+	{
+		"norsk": "deres",
+		"english": "your (plural), yours, their, theirs"
+	},
+	{
+		"norsk": "derfor",
+		"english": "therefore"
+	},
+	{
+		"norsk": "desember",
+		"english": "December"
+	},
+	{
+		"norsk": "en dessert",
+		"english": "a dessert"
+	},
+	{
+		"norsk": "dessuten",
+		"english": "moreover, besides"
+	},
+	{
+		"norsk": "dessverre",
+		"english": "unfortunately"
+	},
+	{
+		"norsk": "det",
+		"english": "it, that, the"
+	},
+	{
+		"norsk": "det går bra!",
+		"english": "I'm fine!"
+	},
+	{
+		"norsk": "dette",
+		"english": "this"
+	},
+	{
+		"norsk": "di",
+		"english": "your, yours (singular)"
+	},
+	{
+		"norsk": "din",
+		"english": "your, yours (singular)"
+	},
+	{
+		"norsk": "å diskutere",
+		"english": "to discuss"
+	},
+	{
+		"norsk": "disse",
+		"english": "these"
+	},
+	{
+		"norsk": "dit",
+		"english": "there, yonder"
+	},
+	{
+		"norsk": "ditt",
+		"english": "your, yours"
+	},
+	{
+		"norsk": "et dokument",
+		"english": "a document"
+	},
+	{
+		"norsk": "å dra",
+		"english": "to go/leave"
+	},
+	{
+		"norsk": "drakk",
+		"english": "drank"
+	},
+	{
+		"norsk": "å drikke",
+		"english": "to drink"
+	},
+	{
+		"norsk": "drikke",
+		"english": "a drink (uncount. noun)"
+	},
+	{
+		"norsk": "å drive med noe",
+		"english": "to do something"
+	},
+	{
+		"norsk": "dro",
+		"english": "went/left (to go/leave)"
+	},
+	{
+		"norsk": "en dronning",
+		"english": "a queen"
+	},
+	{
+		"norsk": "du",
+		"english": "you"
+	},
+	{
+		"norsk": "en dusj",
+		"english": "a shower"
+	},
+	{
+		"norsk": "å dusje",
+		"english": "to take a shower"
+	},
+	{
+		"norsk": "ei dyne",
+		"english": "a quilt"
+	},
+	{
+		"norsk": "dyp",
+		"english": "deep"
+	},
+	{
+		"norsk": "dyr",
+		"english": "expensive"
+	},
+	{
+		"norsk": "å dø",
+		"english": "to die"
+	},
+	{
+		"norsk": "døde",
+		"english": "died"
+	},
+	{
+		"norsk": "ei dør",
+		"english": "a door"
+	},
+	{
+		"norsk": "dårlig",
+		"english": "bad, unwell, ill"
+	},
+	{
+		"norsk": "Edvard",
+		"english": "Edvard"
+	},
+	{
+		"norsk": "egentlig",
+		"english": "really"
+	},
+	{
+		"norsk": "ei",
+		"english": "a, an, one"
+	},
+	{
+		"norsk": "en ekspeditør",
+		"english": "a shop assistent"
+	},
+	{
+		"norsk": "ekstra",
+		"english": "extra, additional"
+	},
+	{
+		"norsk": "eldste",
+		"english": "oldest, eldest"
+	},
+	{
+		"norsk": "elektrisitet",
+		"english": "electricity (uncount. noun)"
+	},
+	{
+		"norsk": "elendig",
+		"english": "miserable"
+	},
+	{
+		"norsk": "eller",
+		"english": "or"
+	},
+	{
+		"norsk": "en",
+		"english": "a, an, one"
+	},
+	{
+		"norsk": "én",
+		"english": "one"
+	},
+	{
+		"norsk": "en gang til",
+		"english": "once more, one more time"
+	},
+	{
+		"norsk": "en ende",
+		"english": "an end"
+	},
+	{
+		"norsk": "endelig",
+		"english": "finally"
+	},
+	{
+		"norsk": "ene",
+		"english": "one"
+	},
+	{
+		"norsk": "et enebarn",
+		"english": "an only child"
+	},
+	{
+		"norsk": "engelsk",
+		"english": "English"
+	},
+	{
+		"norsk": "enkel",
+		"english": "simple, easy"
+	},
+	{
+		"norsk": "enn",
+		"english": "than"
+	},
+	{
+		"norsk": "ennå",
+		"english": "yet, still"
+	},
+	{
+		"norsk": "ensom",
+		"english": "lonely"
+	},
+	{
+		"norsk": "et eple",
+		"english": "an apple"
+	},
+	{
+		"norsk": "en e-post",
+		"english": "an e-mail"
+	},
+	{
+		"norsk": "er",
+		"english": "am, are, is"
+	},
+	{
+		"norsk": "et essay",
+		"english": "an essay"
+	},
+	{
+		"norsk": "et",
+		"english": "a, an"
+	},
+	{
+		"norsk": "en etasje",
+		"english": "a storey, floor"
+	},
+	{
+		"norsk": "ett",
+		"english": "one"
+	},
+	{
+		"norsk": "etter",
+		"english": "after"
+	},
+	{
+		"norsk": "en ettermiddag",
+		"english": "an afternoon"
+	},
+	{
+		"norsk": "et etternavn",
+		"english": "a surname"
+	},
+	{
+		"norsk": "etterpå",
+		"english": "afterwards"
+	},
+	{
+		"norsk": "Eva",
+		"english": "Eva"
+	},
+	{
+		"norsk": "et EØS-land",
+		"english": "an EEA country"
+	},
+	{
+		"norsk": "faktisk",
+		"english": "actually"
+	},
+	{
+		"norsk": "en familie",
+		"english": "a family"
+	},
+	{
+		"norsk": "fant",
+		"english": "found"
+	},
+	{
+		"norsk": "fantastisk",
+		"english": "fantastic"
+	},
+	{
+		"norsk": "en far",
+		"english": "a father"
+	},
+	{
+		"norsk": "en farfar",
+		"english": "a (paternal) grandfather"
+	},
+	{
+		"norsk": "en farge",
+		"english": "a colour"
+	},
+	{
+		"norsk": "ei farmor",
+		"english": "a (paternal) grandmother"
+	},
+	{
+		"norsk": "en fastlege",
+		"english": "a family doctor"
+	},
+	{
+		"norsk": "fattig",
+		"english": "poor"
+	},
+	{
+		"norsk": "en feber",
+		"english": "a fever"
+	},
+	{
+		"norsk": "febernedsettende",
+		"english": "febrifugal, antipyretic"
+	},
+	{
+		"norsk": "å feire",
+		"english": "to celebrate"
+	},
+	{
+		"norsk": "fem",
+		"english": "five"
+	},
+	{
+		"norsk": "ferdig",
+		"english": "finished, ready, also slang; exhausted"
+	},
+	{
+		"norsk": "en fest",
+		"english": "a party, fiest"
+	},
+	{
+		"norsk": "en festival",
+		"english": "a festival"
+	},
+	{
+		"norsk": "en festning",
+		"english": "a fortress"
+	},
+	{
+		"norsk": "å fikse",
+		"english": "to fix, mend, organise"
+	},
+	{
+		"norsk": "fin",
+		"english": "fine"
+	},
+	{
+		"norsk": "finere",
+		"english": "nicer, finer"
+	},
+	{
+		"norsk": "å finne",
+		"english": "to find"
+	},
+	{
+		"norsk": "å finne fram",
+		"english": "to find one's way"
+	},
+	{
+		"norsk": "fire",
+		"english": "four"
+	},
+	{
+		"norsk": "et fiskemarked",
+		"english": "a fish market"
+	},
+	{
+		"norsk": "fjor",
+		"english": "last year"
+	},
+	{
+		"norsk": "et flagg",
+		"english": "a flag"
+	},
+	{
+		"norsk": "flest",
+		"english": "most"
+	},
+	{
+		"norsk": "flink",
+		"english": "good, clever"
+	},
+	{
+		"norsk": "flott",
+		"english": "great, good"
+	},
+	{
+		"norsk": "et fly",
+		"english": "a plane"
+	},
+	{
+		"norsk": "en flybillett",
+		"english": "an airline ticket"
+	},
+	{
+		"norsk": "en flybuss",
+		"english": "an airport express coach"
+	},
+	{
+		"norsk": "å flytte",
+		"english": "to move"
+	},
+	{
+		"norsk": "for",
+		"english": "for, because"
+	},
+	{
+		"norsk": "for dyr",
+		"english": "too expensive"
+	},
+	{
+		"norsk": "for mye",
+		"english": "too much"
+	},
+	{
+		"norsk": "for å",
+		"english": "in order to ..."
+	},
+	{
+		"norsk": "foran",
+		"english": "in front of"
+	},
+	{
+		"norsk": "forbi",
+		"english": "past, by"
+	},
+	{
+		"norsk": "fordi",
+		"english": "because"
+	},
+	{
+		"norsk": "en forelder",
+		"english": "a parent"
+	},
+	{
+		"norsk": "foreldre",
+		"english": "parents"
+	},
+	{
+		"norsk": "en foreleser",
+		"english": "a lecturer"
+	},
+	{
+		"norsk": "en forelesning",
+		"english": "a lecture"
+	},
+	{
+		"norsk": "forhånd",
+		"english": "beforehand"
+	},
+	{
+		"norsk": "fornøyd",
+		"english": "satisfied, pleased"
+	},
+	{
+		"norsk": "forresten",
+		"english": "by the way"
+	},
+	{
+		"norsk": "forrige",
+		"english": "previous"
+	},
+	{
+		"norsk": "forskjellig",
+		"english": "different, various"
+	},
+	{
+		"norsk": "å forstå",
+		"english": "to understand"
+	},
+	{
+		"norsk": "fort",
+		"english": "fast"
+	},
+	{
+		"norsk": "fortalte",
+		"english": "told"
+	},
+	{
+		"norsk": "å fortelle",
+		"english": "to tell"
+	},
+	{
+		"norsk": "en fotball",
+		"english": "a football"
+	},
+	{
+		"norsk": "en fotoautomat",
+		"english": "a photo machine"
+	},
+	{
+		"norsk": "fra",
+		"english": "from"
+	},
+	{
+		"norsk": "fram",
+		"english": "ahead, on"
+	},
+	{
+		"norsk": "en fredag",
+		"english": "a friday"
+	},
+	{
+		"norsk": "en fredspris",
+		"english": "a peace prize"
+	},
+	{
+		"norsk": "fri",
+		"english": "free"
+	},
+	{
+		"norsk": "et frimerke",
+		"english": "a stamp"
+	},
+	{
+		"norsk": "frisk",
+		"english": "well, healthy, sound"
+	},
+	{
+		"norsk": "fritid",
+		"english": "a spare time, leisure (uncount. noun)"
+	},
+	{
+		"norsk": "en fritidsaktivitet",
+		"english": "a leisure activity"
+	},
+	{
+		"norsk": "en frokost",
+		"english": "a breakfast"
+	},
+	{
+		"norsk": "en fruktdisk",
+		"english": "a fruit counter"
+	},
+	{
+		"norsk": "å fryse",
+		"english": "to be cold, freeze"
+	},
+	{
+		"norsk": "å fylle ut",
+		"english": "to fill in"
+	},
+	{
+		"norsk": "å fyre",
+		"english": "to kindle a fire, keep a fire going"
+	},
+	{
+		"norsk": "fæl",
+		"english": "awful"
+	},
+	{
+		"norsk": "en fødselsdato",
+		"english": "a date of birth"
+	},
+	{
+		"norsk": "å føle",
+		"english": "to feel"
+	},
+	{
+		"norsk": "før",
+		"english": "before"
+	},
+	{
+		"norsk": "først",
+		"english": "first"
+	},
+	{
+		"norsk": "første",
+		"english": "first"
+	},
+	{
+		"norsk": "å få",
+		"english": "to get, receive"
+	},
+	{
+		"norsk": "få",
+		"english": "few"
+	},
+	{
+		"norsk": "fått",
+		"english": "got (past part.)"
+	},
+	{
+		"norsk": "ga",
+		"english": "gave, offered"
+	},
+	{
+		"norsk": "Gamle bybro",
+		"english": "Old Town Bridge"
+	},
+	{
+		"norsk": "gammel",
+		"english": "old"
+	},
+	{
+		"norsk": "en gang",
+		"english": "a time"
+	},
+	{
+		"norsk": "ganske",
+		"english": "quite"
+	},
+	{
+		"norsk": "et gardin",
+		"english": "a curtain"
+	},
+	{
+		"norsk": "ei gate",
+		"english": "a street"
+	},
+	{
+		"norsk": "en gave",
+		"english": "a gift, present"
+	},
+	{
+		"norsk": "et gebyr",
+		"english": "a fee, charge"
+	},
+	{
+		"norsk": "en genser",
+		"english": "a sweater"
+	},
+	{
+		"norsk": "Ghana",
+		"english": "Ghana"
+	},
+	{
+		"norsk": "å gi",
+		"english": "to give"
+	},
+	{
+		"norsk": "gift",
+		"english": "married"
+	},
+	{
+		"norsk": "å gifte seg",
+		"english": "to get married, to marry"
+	},
+	{
+		"norsk": "gikk",
+		"english": "walked, went"
+	},
+	{
+		"norsk": "gir",
+		"english": "gives, offers"
+	},
+	{
+		"norsk": "en gitar",
+		"english": "a guitar"
+	},
+	{
+		"norsk": "å gjelde",
+		"english": "to be valid, to concern"
+	},
+	{
+		"norsk": "gjennom",
+		"english": "through"
+	},
+	{
+		"norsk": "gjerne",
+		"english": "rather, would like"
+	},
+	{
+		"norsk": "en gjest",
+		"english": "a guest"
+	},
+	{
+		"norsk": "gjort",
+		"english": "done (past part.)"
+	},
+	{
+		"norsk": "gjør",
+		"english": "does, also barks"
+	},
+	{
+		"norsk": "å gjøre",
+		"english": "to do"
+	},
+	{
+		"norsk": "glad",
+		"english": "happy, glad"
+	},
+	{
+		"norsk": "å glede seg",
+		"english": "to look forward (to)"
+	},
+	{
+		"norsk": "gleder meg til",
+		"english": "am looking forward to"
+	},
+	{
+		"norsk": "å glemme",
+		"english": "to forget"
+	},
+	{
+		"norsk": "glitter",
+		"english": "tinsel (uncount. noun)"
+	},
+	{
+		"norsk": "god",
+		"english": "good"
+	},
+	{
+		"norsk": "god tur!",
+		"english": "have a nice trip!"
+	},
+	{
+		"norsk": "en grammatikk",
+		"english": "a grammar"
+	},
+	{
+		"norsk": "gratis",
+		"english": "free (of charge), gratis"
+	},
+	{
+		"norsk": "en grav",
+		"english": "a grave"
+	},
+	{
+		"norsk": "greide",
+		"english": "managed (to manage)"
+	},
+	{
+		"norsk": "å greie",
+		"english": "to manage"
+	},
+	{
+		"norsk": "greit",
+		"english": "all right"
+	},
+	{
+		"norsk": "å grille",
+		"english": "to grill"
+	},
+	{
+		"norsk": "ei gruppe",
+		"english": "a group"
+	},
+	{
+		"norsk": "en gryterett",
+		"english": "a casserole"
+	},
+	{
+		"norsk": "grønn",
+		"english": "green"
+	},
+	{
+		"norsk": "en grøt",
+		"english": "a porridge"
+	},
+	{
+		"norsk": "grå",
+		"english": "grey"
+	},
+	{
+		"norsk": "en gudstjeneste",
+		"english": "a church service"
+	},
+	{
+		"norsk": "en guide",
+		"english": "a guide"
+	},
+	{
+		"norsk": "et gulv",
+		"english": "a floor"
+	},
+	{
+		"norsk": "en gutt",
+		"english": "a boy"
+	},
+	{
+		"norsk": "gøy",
+		"english": "fun"
+	},
+	{
+		"norsk": "å gå",
+		"english": "to walk, go"
+	},
+	{
+		"norsk": "å gå på tur",
+		"english": "to go for a hike"
+	},
+	{
+		"norsk": "ei gågate",
+		"english": "a pedestrian area"
+	},
+	{
+		"norsk": "gått",
+		"english": "gone (past part.)"
+	},
+	{
+		"norsk": "å ha",
+		"english": "to have"
+	},
+	{
+		"norsk": "ha det bra!",
+		"english": "goodbye!"
+	},
+	{
+		"norsk": "ha det!",
+		"english": "bye!"
+	},
+	{
+		"norsk": "å ha lyst på",
+		"english": "to want"
+	},
+	{
+		"norsk": "å ha lyst til å …",
+		"english": "want to, would like to"
+	},
+	{
+		"norsk": "hadde",
+		"english": "had"
+	},
+	{
+		"norsk": "hallo",
+		"english": "hello"
+	},
+	{
+		"norsk": "en hals",
+		"english": "a throat, neck"
+	},
+	{
+		"norsk": "en halstablett",
+		"english": "a lozenge, throat pastille"
+	},
+	{
+		"norsk": "halv",
+		"english": "half"
+	},
+	{
+		"norsk": "ham",
+		"english": "him"
+	},
+	{
+		"norsk": "han",
+		"english": "he, him"
+	},
+	{
+		"norsk": "å handle",
+		"english": "to shop"
+	},
+	{
+		"norsk": "en handlekurv",
+		"english": "a shopping basket"
+	},
+	{
+		"norsk": "ei handlevogn",
+		"english": "a shopping cart"
+	},
+	{
+		"norsk": "hans",
+		"english": "his"
+	},
+	{
+		"norsk": "hei",
+		"english": "hi"
+	},
+	{
+		"norsk": "hel",
+		"english": "whole"
+	},
+	{
+		"norsk": "heldigvis",
+		"english": "fortunately"
+	},
+	{
+		"norsk": "hele",
+		"english": "whole"
+	},
+	{
+		"norsk": "ei helg",
+		"english": "a weekend"
+	},
+	{
+		"norsk": "heller",
+		"english": "rather"
+	},
+	{
+		"norsk": "en helseforsikring",
+		"english": "a health insurance"
+	},
+	{
+		"norsk": "et helårskort",
+		"english": "a year round ticket"
+	},
+	{
+		"norsk": "hemmelig",
+		"english": "secret"
+	},
+	{
+		"norsk": "henne",
+		"english": "her"
+	},
+	{
+		"norsk": "hennes",
+		"english": "her, hers"
+	},
+	{
+		"norsk": "Henrik",
+		"english": "Henrik"
+	},
+	{
+		"norsk": "å hente",
+		"english": "to fetch, pick up"
+	},
+	{
+		"norsk": "her",
+		"english": "here"
+	},
+	{
+		"norsk": "å hete",
+		"english": "to be called"
+	},
+	{
+		"norsk": "å hilse",
+		"english": "to greet"
+	},
+	{
+		"norsk": "hilsen Maria",
+		"english": "love from Maria, regards Maria"
+	},
+	{
+		"norsk": "en historie",
+		"english": "a history, story"
+	},
+	{
+		"norsk": "hit",
+		"english": "here"
+	},
+	{
+		"norsk": "hjalp",
+		"english": "helped"
+	},
+	{
+		"norsk": "en hjelp",
+		"english": "a help"
+	},
+	{
+		"norsk": "å hjelpe",
+		"english": "to help"
+	},
+	{
+		"norsk": "hjem",
+		"english": "home"
+	},
+	{
+		"norsk": "et hjem",
+		"english": "a home"
+	},
+	{
+		"norsk": "et hjemland",
+		"english": "a native country"
+	},
+	{
+		"norsk": "hjemme",
+		"english": "at home"
+	},
+	{
+		"norsk": "en hobby",
+		"english": "a hobby, pastime"
+	},
+	{
+		"norsk": "å holde",
+		"english": "to hold, keep"
+	},
+	{
+		"norsk": "et hotell",
+		"english": "a hotel"
+	},
+	{
+		"norsk": "et hotellrom",
+		"english": "a hotel room"
+	},
+	{
+		"norsk": "ei hovedgate",
+		"english": "a main street"
+	},
+	{
+		"norsk": "et hovedpunkt",
+		"english": "a main point"
+	},
+	{
+		"norsk": "en hovedstad",
+		"english": "a capital"
+	},
+	{
+		"norsk": "huff",
+		"english": "exclamation: Oh! Ugh!"
+	},
+	{
+		"norsk": "et humør",
+		"english": "a mood"
+	},
+	{
+		"norsk": "hun",
+		"english": "she"
+	},
+	{
+		"norsk": "et hus",
+		"english": "a house, building"
+	},
+	{
+		"norsk": "å huske",
+		"english": "to remember"
+	},
+	{
+		"norsk": "å huske på",
+		"english": "to remember"
+	},
+	{
+		"norsk": "hva",
+		"english": "what"
+	},
+	{
+		"norsk": "hver",
+		"english": "every, each"
+	},
+	{
+		"norsk": "hverandre",
+		"english": "each other"
+	},
+	{
+		"norsk": "hvilken",
+		"english": "which, what"
+	},
+	{
+		"norsk": "hvilket",
+		"english": "which"
+	},
+	{
+		"norsk": "hvis",
+		"english": "if"
+	},
+	{
+		"norsk": "hvit",
+		"english": "white"
+	},
+	{
+		"norsk": "hvor",
+		"english": "where"
+	},
+	{
+		"norsk": "hvor langt",
+		"english": "how far"
+	},
+	{
+		"norsk": "hvor lenge",
+		"english": "how long"
+	},
+	{
+		"norsk": "hvordan",
+		"english": "how"
+	},
+	{
+		"norsk": "en hybel",
+		"english": "a bed-sitter, lodgings"
+	},
+	{
+		"norsk": "hyggelig",
+		"english": "nice, pleasant"
+	},
+	{
+		"norsk": "hyggelig å hilse på deg!",
+		"english": "nice to meet you!"
+	},
+	{
+		"norsk": "hyggeligere",
+		"english": "nicer, kinder"
+	},
+	{
+		"norsk": "ei hytte",
+		"english": "a cabin"
+	},
+	{
+		"norsk": "en hyttetur",
+		"english": "a trip to a cottage"
+	},
+	{
+		"norsk": "å høre",
+		"english": "to hear"
+	},
+	{
+		"norsk": "hørte",
+		"english": "heard"
+	},
+	{
+		"norsk": "en høst",
+		"english": "an autumn"
+	},
+	{
+		"norsk": "en høstferie",
+		"english": "an autumn vacation"
+	},
+	{
+		"norsk": "høy",
+		"english": "tall"
+	},
+	{
+		"norsk": "høy",
+		"english": "loud, high, tall"
+	},
+	{
+		"norsk": "høyre",
+		"english": "right"
+	},
+	{
+		"norsk": "høyt",
+		"english": "loud, high, tall"
+	},
+	{
+		"norsk": "å håpe",
+		"english": "to hope"
+	},
+	{
+		"norsk": "i",
+		"english": "in, at, on"
+	},
+	{
+		"norsk": "i alle fall",
+		"english": "at any rate"
+	},
+	{
+		"norsk": "i dag",
+		"english": "today"
+	},
+	{
+		"norsk": "i fjor",
+		"english": "last year"
+	},
+	{
+		"norsk": "i gamle dager",
+		"english": "in the old days"
+	},
+	{
+		"norsk": "i går",
+		"english": "yesterday"
+	},
+	{
+		"norsk": "i går kveld",
+		"english": "yesterday evening, last night"
+	},
+	{
+		"norsk": "i morgen",
+		"english": "tomorrow"
+	},
+	{
+		"norsk": "i nærheten av",
+		"english": "near, close to"
+	},
+	{
+		"norsk": "i stedet",
+		"english": "instead"
+	},
+	{
+		"norsk": "iblant",
+		"english": "sometimes"
+	},
+	{
+		"norsk": "Ibsen",
+		"english": "Ibsen"
+	},
+	{
+		"norsk": "et ID-kort",
+		"english": "an ID card"
+	},
+	{
+		"norsk": "et idrettssenter",
+		"english": "a sports centre"
+	},
+	{
+		"norsk": "igjen",
+		"english": "again"
+	},
+	{
+		"norsk": "ikke",
+		"english": "not"
+	},
+	{
+		"norsk": "ikke sant?",
+		"english": "right?"
+	},
+	{
+		"norsk": "India",
+		"english": "India"
+	},
+	{
+		"norsk": "en influensa",
+		"english": "an influenza, flu"
+	},
+	{
+		"norsk": "en ingeniør",
+		"english": "an engineer"
+	},
+	{
+		"norsk": "inn",
+		"english": "in, inside, into"
+	},
+	{
+		"norsk": "inne",
+		"english": "in, inside"
+	},
+	{
+		"norsk": "en inngang",
+		"english": "an entrance"
+	},
+	{
+		"norsk": "inni",
+		"english": "inside, in"
+	},
+	{
+		"norsk": "et innlegg",
+		"english": "a presentation, address"
+	},
+	{
+		"norsk": "å insistere",
+		"english": "to insist"
+	},
+	{
+		"norsk": "et institutt",
+		"english": "a department"
+	},
+	{
+		"norsk": "en instituttleder",
+		"english": "a head of department"
+	},
+	{
+		"norsk": "et instrument",
+		"english": "an instrument"
+	},
+	{
+		"norsk": "interessant",
+		"english": "interesting"
+	},
+	{
+		"norsk": "en interiørbutikk",
+		"english": "interior design shop"
+	},
+	{
+		"norsk": "Internett",
+		"english": "Internet"
+	},
+	{
+		"norsk": "internettilgang",
+		"english": "Internet access"
+	},
+	{
+		"norsk": "ei inventarliste",
+		"english": "a list of furniture, inventory"
+	},
+	{
+		"norsk": "å invitere",
+		"english": "to invite"
+	},
+	{
+		"norsk": "Italia",
+		"english": "Italia"
+	},
+	{
+		"norsk": "en italiener",
+		"english": "Italian"
+	},
+	{
+		"norsk": "italiensk",
+		"english": "Italian"
+	},
+	{
+		"norsk": "et IT-firma",
+		"english": "an IT-firm"
+	},
+	{
+		"norsk": "ja",
+		"english": "yes"
+	},
+	{
+		"norsk": "ja da",
+		"english": "\"Sure\", \"Not to worry\""
+	},
+	{
+		"norsk": "ja visst",
+		"english": "surely, certainly"
+	},
+	{
+		"norsk": "ei jakke",
+		"english": "a jacket"
+	},
+	{
+		"norsk": "jeg",
+		"english": "I"
+	},
+	{
+		"norsk": "ei jente",
+		"english": "a girl"
+	},
+	{
+		"norsk": "en jernbanestasjon",
+		"english": "a railway station"
+	},
+	{
+		"norsk": "jo",
+		"english": "yes"
+	},
+	{
+		"norsk": "å jobbe",
+		"english": "to work"
+	},
+	{
+		"norsk": "ei jul",
+		"english": "a Christmas"
+	},
+	{
+		"norsk": "en julaften",
+		"english": "a Christmas Eve"
+	},
+	{
+		"norsk": "et julebord",
+		"english": "a Christmas dinner, Christmas party"
+	},
+	{
+		"norsk": "en julegave",
+		"english": "a Christmas gift"
+	},
+	{
+		"norsk": "ei julekule",
+		"english": "a Christmas ball"
+	},
+	{
+		"norsk": "en julekveld",
+		"english": "a Christmas Eve"
+	},
+	{
+		"norsk": "en julemiddag",
+		"english": "a Christmas dinner"
+	},
+	{
+		"norsk": "en julestemning",
+		"english": "a Christmas spirit"
+	},
+	{
+		"norsk": "en juletradisjon",
+		"english": "a Christmas tradition"
+	},
+	{
+		"norsk": "et juletre",
+		"english": "a Christmas tree"
+	},
+	{
+		"norsk": "en jus",
+		"english": "a juice"
+	},
+	{
+		"norsk": "en kafé",
+		"english": "a café"
+	},
+	{
+		"norsk": "en kaffe",
+		"english": "a coffee"
+	},
+	{
+		"norsk": "kakao",
+		"english": "cocoa (uncount. noun)"
+	},
+	{
+		"norsk": "ei kake",
+		"english": "a cake"
+	},
+	{
+		"norsk": "et kakestykke",
+		"english": "a piece of cake"
+	},
+	{
+		"norsk": "kald",
+		"english": "cold"
+	},
+	{
+		"norsk": "kaldere",
+		"english": "colder"
+	},
+	{
+		"norsk": "kaldt",
+		"english": "cold"
+	},
+	{
+		"norsk": "kan",
+		"english": "can, be able to"
+	},
+	{
+		"norsk": "kanskje",
+		"english": "perhaps, maybe"
+	},
+	{
+		"norsk": "ei kantine",
+		"english": "a canteen"
+	},
+	{
+		"norsk": "Karl Johans gate",
+		"english": "Karl Johan's street (in Oslo)"
+	},
+	{
+		"norsk": "et kart",
+		"english": "a map"
+	},
+	{
+		"norsk": "en kasse",
+		"english": "a cash register"
+	},
+	{
+		"norsk": "å kaste opp",
+		"english": "to throw up, vomit"
+	},
+	{
+		"norsk": "en katedral",
+		"english": "a cathedral"
+	},
+	{
+		"norsk": "en kilometer",
+		"english": "a kilometre"
+	},
+	{
+		"norsk": "Kina",
+		"english": "China"
+	},
+	{
+		"norsk": "en kino",
+		"english": "a cinema"
+	},
+	{
+		"norsk": "ei kirke",
+		"english": "a church"
+	},
+	{
+		"norsk": "en kjeks",
+		"english": "a cracker, cookie"
+	},
+	{
+		"norsk": "kjemisk",
+		"english": "chemical"
+	},
+	{
+		"norsk": "kjempebra",
+		"english": "awesome"
+	},
+	{
+		"norsk": "kjempeflink",
+		"english": "very good, clever"
+	},
+	{
+		"norsk": "kjempegod",
+		"english": "very good"
+	},
+	{
+		"norsk": "kjempemorsom",
+		"english": "hilarious"
+	},
+	{
+		"norsk": "kjempesulten",
+		"english": "very hungry"
+	},
+	{
+		"norsk": "kjempesøt",
+		"english": "very cute, very sweet"
+	},
+	{
+		"norsk": "å kjenne",
+		"english": "to feel, know"
+	},
+	{
+		"norsk": "å kjenne igjen",
+		"english": "to recognize"
+	},
+	{
+		"norsk": "kjent",
+		"english": "well-known, famous"
+	},
+	{
+		"norsk": "kjær",
+		"english": "dear"
+	},
+	{
+		"norsk": "et kjøkken",
+		"english": "a kitchen"
+	},
+	{
+		"norsk": "en kjøkkenbenk",
+		"english": "a workbench"
+	},
+	{
+		"norsk": "en kjøledisk",
+		"english": "a refrigerating counter"
+	},
+	{
+		"norsk": "et kjøleskap",
+		"english": "a refrigerator"
+	},
+	{
+		"norsk": "å kjøpe",
+		"english": "to buy"
+	},
+	{
+		"norsk": "et kjøpesenter",
+		"english": "a shopping centre"
+	},
+	{
+		"norsk": "å kjøre",
+		"english": "to drive"
+	},
+	{
+		"norsk": "en klasse",
+		"english": "a class"
+	},
+	{
+		"norsk": "ei klasseliste",
+		"english": "a class list"
+	},
+	{
+		"norsk": "å klatre",
+		"english": "to climb"
+	},
+	{
+		"norsk": "ei klatregruppe",
+		"english": "a climbing group"
+	},
+	{
+		"norsk": "å kle på seg",
+		"english": "to dress"
+	},
+	{
+		"norsk": "en klem",
+		"english": "a hug"
+	},
+	{
+		"norsk": "en klesbutikk",
+		"english": "a clothing store"
+	},
+	{
+		"norsk": "klokka er…",
+		"english": "the time is…"
+	},
+	{
+		"norsk": "ei klokke",
+		"english": "a clock, watch"
+	},
+	{
+		"norsk": "klær",
+		"english": "clothes"
+	},
+	{
+		"norsk": "en koffert",
+		"english": "a suitcase"
+	},
+	{
+		"norsk": "å koke",
+		"english": "to boil"
+	},
+	{
+		"norsk": "en kollega",
+		"english": "a colleague"
+	},
+	{
+		"norsk": "kom",
+		"english": "came"
+	},
+	{
+		"norsk": "å komme",
+		"english": "to come"
+	},
+	{
+		"norsk": "kommet",
+		"english": "come (past part.)"
+	},
+	{
+		"norsk": "et kompendium",
+		"english": "a compendium"
+	},
+	{
+		"norsk": "ei kone",
+		"english": "a wife"
+	},
+	{
+		"norsk": "en konferanse",
+		"english": "a conference"
+	},
+	{
+		"norsk": "Kong",
+		"english": "King (as title)"
+	},
+	{
+		"norsk": "en konge",
+		"english": "a king"
+	},
+	{
+		"norsk": "en konsert",
+		"english": "a concert"
+	},
+	{
+		"norsk": "en konsulent",
+		"english": "an executive officer, consultant, adviser"
+	},
+	{
+		"norsk": "en kontakt",
+		"english": "a contact"
+	},
+	{
+		"norsk": "et kontor",
+		"english": "an office"
+	},
+	{
+		"norsk": "en kontrakt",
+		"english": "a contract"
+	},
+	{
+		"norsk": "en kopp",
+		"english": "a cup"
+	},
+	{
+		"norsk": "en korrektur",
+		"english": "a proof, correction"
+	},
+	{
+		"norsk": "et kort",
+		"english": "a card"
+	},
+	{
+		"norsk": "å kose seg",
+		"english": "to have a good time, snuggle up"
+	},
+	{
+		"norsk": "koselig",
+		"english": "cosy, nice"
+	},
+	{
+		"norsk": "å koste",
+		"english": "to cost"
+	},
+	{
+		"norsk": "ei krone",
+		"english": "a crown"
+	},
+	{
+		"norsk": "å kunne",
+		"english": "(the infinitive of) can, be able to"
+	},
+	{
+		"norsk": "et kurs",
+		"english": "a course"
+	},
+	{
+		"norsk": "kvalm",
+		"english": "queasy"
+	},
+	{
+		"norsk": "kvart",
+		"english": "quarter"
+	},
+	{
+		"norsk": "en kveld",
+		"english": "an evening, night"
+	},
+	{
+		"norsk": "Kvikklunsj",
+		"english": "proper name (chocolate brand)"
+	},
+	{
+		"norsk": "en kø",
+		"english": "a queue, line"
+	},
+	{
+		"norsk": "en kølapp",
+		"english": "a queue number"
+	},
+	{
+		"norsk": "ei kåpe",
+		"english": "a coat"
+	},
+	{
+		"norsk": "lagd",
+		"english": "made"
+	},
+	{
+		"norsk": "å lage",
+		"english": "to make"
+	},
+	{
+		"norsk": "en laks",
+		"english": "a salmon"
+	},
+	{
+		"norsk": "å lande",
+		"english": "to land"
+	},
+	{
+		"norsk": "lang",
+		"english": "long"
+	},
+	{
+		"norsk": "langt",
+		"english": "far"
+	},
+	{
+		"norsk": "ledig",
+		"english": "vacant"
+	},
+	{
+		"norsk": "en lege",
+		"english": "a doctor, GP"
+	},
+	{
+		"norsk": "en legevakt",
+		"english": "a casualty clinic"
+	},
+	{
+		"norsk": "en legevaktsentral",
+		"english": "telephone central for emergency clinic"
+	},
+	{
+		"norsk": "å legge",
+		"english": "to lay, put"
+	},
+	{
+		"norsk": "å legge seg",
+		"english": "to go to bed, lie down"
+	},
+	{
+		"norsk": "å legge ved",
+		"english": "to attach"
+	},
+	{
+		"norsk": "ei lekse",
+		"english": "a lesson, homework"
+	},
+	{
+		"norsk": "lenge",
+		"english": "long"
+	},
+	{
+		"norsk": "lenge siden",
+		"english": "long ago"
+	},
+	{
+		"norsk": "å lese",
+		"english": "to read"
+	},
+	{
+		"norsk": "å ligge",
+		"english": "to stand, lie"
+	},
+	{
+		"norsk": "å like",
+		"english": "to like"
+	},
+	{
+		"norsk": "en lillebror",
+		"english": "a little/baby brother"
+	},
+	{
+		"norsk": "ei liste",
+		"english": "a list"
+	},
+	{
+		"norsk": "lita",
+		"english": "small (f)"
+	},
+	{
+		"norsk": "lita",
+		"english": "little, small"
+	},
+	{
+		"norsk": "lite",
+		"english": "small (n)"
+	},
+	{
+		"norsk": "liten",
+		"english": "small (m)"
+	},
+	{
+		"norsk": "litt",
+		"english": "a little"
+	},
+	{
+		"norsk": "ei lommebok",
+		"english": "a wallet"
+	},
+	{
+		"norsk": "en lunsj",
+		"english": "a lunch"
+	},
+	{
+		"norsk": "å lure",
+		"english": "to wonder"
+	},
+	{
+		"norsk": "lutefisk",
+		"english": "«lie fish» (lut = lie/sodium hydroxide)"
+	},
+	{
+		"norsk": "lykke til!",
+		"english": "good luck!"
+	},
+	{
+		"norsk": "et lys",
+		"english": "a candle"
+	},
+	{
+		"norsk": "lys",
+		"english": "bright, light, blond"
+	},
+	{
+		"norsk": "lysegrå",
+		"english": "light grey"
+	},
+	{
+		"norsk": "en lysestake",
+		"english": "a candlestick"
+	},
+	{
+		"norsk": "en lyst",
+		"english": "a wish, desire, inclination"
+	},
+	{
+		"norsk": "lyst på",
+		"english": "wanting something"
+	},
+	{
+		"norsk": "lyst til",
+		"english": "wanting to do something"
+	},
+	{
+		"norsk": "å lære",
+		"english": "to learn"
+	},
+	{
+		"norsk": "en lærer",
+		"english": "a teacher"
+	},
+	{
+		"norsk": "å løpe",
+		"english": "to run"
+	},
+	{
+		"norsk": "en lørdag",
+		"english": "a Saturday"
+	},
+	{
+		"norsk": "et lån",
+		"english": "a loan"
+	},
+	{
+		"norsk": "å låne",
+		"english": "to borrow"
+	},
+	{
+		"norsk": "en lås",
+		"english": "a lock"
+	},
+	{
+		"norsk": "å låse",
+		"english": "to lock"
+	},
+	{
+		"norsk": "makaroni",
+		"english": "macaroni (uncount. noun)"
+	},
+	{
+		"norsk": "å male",
+		"english": "to paint"
+	},
+	{
+		"norsk": "en maler",
+		"english": "a painter"
+	},
+	{
+		"norsk": "en mamma",
+		"english": "a mummy"
+	},
+	{
+		"norsk": "man",
+		"english": "one, you"
+	},
+	{
+		"norsk": "en mandag",
+		"english": "a Monday"
+	},
+	{
+		"norsk": "mange",
+		"english": "many"
+	},
+	{
+		"norsk": "en mann",
+		"english": "a man"
+	},
+	{
+		"norsk": "en mastergradsstudent",
+		"english": "a master student"
+	},
+	{
+		"norsk": "mat",
+		"english": "food"
+	},
+	{
+		"norsk": "med",
+		"english": "with"
+	},
+	{
+		"norsk": "en medisin",
+		"english": "a medicine"
+	},
+	{
+		"norsk": "meg",
+		"english": "me"
+	},
+	{
+		"norsk": "melk",
+		"english": "milk"
+	},
+	{
+		"norsk": "mellom",
+		"english": "between"
+	},
+	{
+		"norsk": "men",
+		"english": "but"
+	},
+	{
+		"norsk": "et menneske",
+		"english": "a person, human being"
+	},
+	{
+		"norsk": "mens",
+		"english": "while"
+	},
+	{
+		"norsk": "mer",
+		"english": "more"
+	},
+	{
+		"norsk": "mer",
+		"english": "more"
+	},
+	{
+		"norsk": "merkelig",
+		"english": "strange, odd"
+	},
+	{
+		"norsk": "mett",
+		"english": "full"
+	},
+	{
+		"norsk": "mi",
+		"english": "my, mine"
+	},
+	{
+		"norsk": "en middag",
+		"english": "a dinner"
+	},
+	{
+		"norsk": "midnatt",
+		"english": "midnight"
+	},
+	{
+		"norsk": "midt i",
+		"english": "in the middle of"
+	},
+	{
+		"norsk": "min",
+		"english": "my, mine"
+	},
+	{
+		"norsk": "mine",
+		"english": "my, mine"
+	},
+	{
+		"norsk": "en minibank",
+		"english": "a cash dispenser"
+	},
+	{
+		"norsk": "en minibar",
+		"english": "a mini-bar"
+	},
+	{
+		"norsk": "en minusgrad",
+		"english": "one degree below zero, minus -- degrees"
+	},
+	{
+		"norsk": "et minutt",
+		"english": "a minute"
+	},
+	{
+		"norsk": "mitt",
+		"english": "my, mine"
+	},
+	{
+		"norsk": "en mobil",
+		"english": "a cell phone"
+	},
+	{
+		"norsk": "et mobilnummer",
+		"english": "a cell phone number"
+	},
+	{
+		"norsk": "en mobiltelefon",
+		"english": "a cellular phone"
+	},
+	{
+		"norsk": "moderne",
+		"english": "modern"
+	},
+	{
+		"norsk": "ei mor",
+		"english": "a mother"
+	},
+	{
+		"norsk": "en morfar",
+		"english": "a (maternal) grandfather"
+	},
+	{
+		"norsk": "en morgen",
+		"english": "a morning"
+	},
+	{
+		"norsk": "ei mormor",
+		"english": "a (maternal) grandmother"
+	},
+	{
+		"norsk": "mot",
+		"english": "towards, against"
+	},
+	{
+		"norsk": "en muffins",
+		"english": "a muffin"
+	},
+	{
+		"norsk": "mulig",
+		"english": "possible"
+	},
+	{
+		"norsk": "Munch",
+		"english": "Munch"
+	},
+	{
+		"norsk": "Munch-museet",
+		"english": "the Munch Museum"
+	},
+	{
+		"norsk": "muntlig",
+		"english": "verbal, oral"
+	},
+	{
+		"norsk": "museer",
+		"english": "museums"
+	},
+	{
+		"norsk": "et museum",
+		"english": "a museum"
+	},
+	{
+		"norsk": "musikk",
+		"english": "music"
+	},
+	{
+		"norsk": "mye",
+		"english": "much, a lot, plenty"
+	},
+	{
+		"norsk": "myk",
+		"english": "soft"
+	},
+	{
+		"norsk": "et møbel",
+		"english": "a piece of furniture"
+	},
+	{
+		"norsk": "mørk",
+		"english": "dark"
+	},
+	{
+		"norsk": "å møte",
+		"english": "to meet"
+	},
+	{
+		"norsk": "et møte",
+		"english": "a meeting"
+	},
+	{
+		"norsk": "møtt",
+		"english": "met (past part.)"
+	},
+	{
+		"norsk": "møtte",
+		"english": "met"
+	},
+	{
+		"norsk": "må",
+		"english": "have to, must"
+	},
+	{
+		"norsk": "en nabo",
+		"english": "a neighbour"
+	},
+	{
+		"norsk": "naiv",
+		"english": "naive"
+	},
+	{
+		"norsk": "en nasjonalforsamling",
+		"english": "a national assembly"
+	},
+	{
+		"norsk": "en nasjonalitet",
+		"english": "a nationality"
+	},
+	{
+		"norsk": "ei natt",
+		"english": "a night"
+	},
+	{
+		"norsk": "et navn",
+		"english": "a name"
+	},
+	{
+		"norsk": "nei",
+		"english": "no"
+	},
+	{
+		"norsk": "nei da",
+		"english": "Oh no."
+	},
+	{
+		"norsk": "nervøs",
+		"english": "nervous"
+	},
+	{
+		"norsk": "neste",
+		"english": "next"
+	},
+	{
+		"norsk": "nesten",
+		"english": "almost, nearly"
+	},
+	{
+		"norsk": "et nett",
+		"english": "a web"
+	},
+	{
+		"norsk": "nettopp",
+		"english": "just"
+	},
+	{
+		"norsk": "en nevø",
+		"english": "a nephew"
+	},
+	{
+		"norsk": "ni",
+		"english": "nine"
+	},
+	{
+		"norsk": "Nidarosdomen",
+		"english": "the Nidaros Cathedral"
+	},
+	{
+		"norsk": "Nobel",
+		"english": "Nobel"
+	},
+	{
+		"norsk": "Nobels Fredssenter",
+		"english": "Nobel Peace Center"
+	},
+	{
+		"norsk": "noe",
+		"english": "something"
+	},
+	{
+		"norsk": "noen",
+		"english": "some, somebody, any, anybody"
+	},
+	{
+		"norsk": "nok",
+		"english": "enough"
+	},
+	{
+		"norsk": "nok",
+		"english": "probably, I gather"
+	},
+	{
+		"norsk": "en nordmann",
+		"english": "a Norwegian"
+	},
+	{
+		"norsk": "Norge",
+		"english": "Norway"
+	},
+	{
+		"norsk": "norsk",
+		"english": "Norwegian"
+	},
+	{
+		"norsk": "et norskkurs",
+		"english": "a Norwegian course"
+	},
+	{
+		"norsk": "ei notatbok",
+		"english": "a notebook"
+	},
+	{
+		"norsk": "nr",
+		"english": "no."
+	},
+	{
+		"norsk": "et nummer",
+		"english": "a number"
+	},
+	{
+		"norsk": "ny",
+		"english": "new"
+	},
+	{
+		"norsk": "en nyhet",
+		"english": "a piece of news"
+	},
+	{
+		"norsk": "nær",
+		"english": "near"
+	},
+	{
+		"norsk": "en nøkkel",
+		"english": "a key"
+	},
+	{
+		"norsk": "nå",
+		"english": "now"
+	},
+	{
+		"norsk": "når",
+		"english": "when"
+	},
+	{
+		"norsk": "ofte",
+		"english": "often"
+	},
+	{
+		"norsk": "og",
+		"english": "and"
+	},
+	{
+		"norsk": "også",
+		"english": "too, also"
+	},
+	{
+		"norsk": "OK",
+		"english": "okay, all right"
+	},
+	{
+		"norsk": "oktober",
+		"english": "October"
+	},
+	{
+		"norsk": "ei oldemor",
+		"english": "a great grandmother"
+	},
+	{
+		"norsk": "om",
+		"english": "about"
+	},
+	{
+		"norsk": "en omgangssyke",
+		"english": "a gastric flu"
+	},
+	{
+		"norsk": "et område",
+		"english": "an area"
+	},
+	{
+		"norsk": "en onkel",
+		"english": "an uncle"
+	},
+	{
+		"norsk": "onkler",
+		"english": "uncles"
+	},
+	{
+		"norsk": "en onsdag",
+		"english": "a Wednesday"
+	},
+	{
+		"norsk": "Operahuset",
+		"english": "the Opera House"
+	},
+	{
+		"norsk": "opp",
+		"english": "up"
+	},
+	{
+		"norsk": "Oppdal",
+		"english": "Oppdal"
+	},
+	{
+		"norsk": "en oppholdstillatelse",
+		"english": "a residence permit"
+	},
+	{
+		"norsk": "å oppleve",
+		"english": "to experience, enjoy"
+	},
+	{
+		"norsk": "ei oppskrift",
+		"english": "a recipe"
+	},
+	{
+		"norsk": "et ord",
+		"english": "a word"
+	},
+	{
+		"norsk": "ei ordbok",
+		"english": "a dictionary"
+	},
+	{
+		"norsk": "å ordne",
+		"english": "to fix, organize"
+	},
+	{
+		"norsk": "en organisasjon",
+		"english": "an organisation"
+	},
+	{
+		"norsk": "Oslofjorden",
+		"english": "the Oslo fjord"
+	},
+	{
+		"norsk": "oss",
+		"english": "us"
+	},
+	{
+		"norsk": "en ost",
+		"english": "a cheese"
+	},
+	{
+		"norsk": "over",
+		"english": "of, over"
+	},
+	{
+		"norsk": "en overgang",
+		"english": "a transition"
+	},
+	{
+		"norsk": "en ovn",
+		"english": "an oven"
+	},
+	{
+		"norsk": "en pakke",
+		"english": "a package"
+	},
+	{
+		"norsk": "en pappa",
+		"english": "a daddy"
+	},
+	{
+		"norsk": "en park",
+		"english": "a park"
+	},
+	{
+		"norsk": "å parkere",
+		"english": "to park"
+	},
+	{
+		"norsk": "en parkeringsplass",
+		"english": "a parking lot"
+	},
+	{
+		"norsk": "et parlament",
+		"english": "a parliament"
+	},
+	{
+		"norsk": "et pass",
+		"english": "a passport"
+	},
+	{
+		"norsk": "å passe",
+		"english": "to fit"
+	},
+	{
+		"norsk": "å passe på",
+		"english": "to take care of, look after"
+	},
+	{
+		"norsk": "et passord",
+		"english": "a password"
+	},
+	{
+		"norsk": "en pause",
+		"english": "a break, interval"
+	},
+	{
+		"norsk": "en PC",
+		"english": "a PC"
+	},
+	{
+		"norsk": "penger",
+		"english": "money"
+	},
+	{
+		"norsk": "en penn",
+		"english": "a pen"
+	},
+	{
+		"norsk": "en pensjonist",
+		"english": "a pensioner"
+	},
+	{
+		"norsk": "en ph.d.-student",
+		"english": "a Ph.D. student, doctoral research fellow"
+	},
+	{
+		"norsk": "et piano",
+		"english": "a piano"
+	},
+	{
+		"norsk": "pinnekjøtt",
+		"english": "mutton ribs (uncount. noun)"
+	},
+	{
+		"norsk": "plutselig",
+		"english": "suddenly"
+	},
+	{
+		"norsk": "en pose",
+		"english": "a bag"
+	},
+	{
+		"norsk": "et postkontor",
+		"english": "a post office"
+	},
+	{
+		"norsk": "et postkort",
+		"english": "a postcard"
+	},
+	{
+		"norsk": "praktisk",
+		"english": "practical"
+	},
+	{
+		"norsk": "å prate",
+		"english": "to talk"
+	},
+	{
+		"norsk": "en presentasjon",
+		"english": "a presentation"
+	},
+	{
+		"norsk": "å presentere",
+		"english": "to present, introduce"
+	},
+	{
+		"norsk": "en prest",
+		"english": "a vicar, clergyman"
+	},
+	{
+		"norsk": "en pris",
+		"english": "a price"
+	},
+	{
+		"norsk": "et problem",
+		"english": "a problem"
+	},
+	{
+		"norsk": "en professor",
+		"english": "a professor"
+	},
+	{
+		"norsk": "en prosent",
+		"english": "a percentage"
+	},
+	{
+		"norsk": "prosessteknologi",
+		"english": "engineering (uncount. noun)"
+	},
+	{
+		"norsk": "et prosjekt",
+		"english": "a project"
+	},
+	{
+		"norsk": "å prøve",
+		"english": "to try"
+	},
+	{
+		"norsk": "et prøverom",
+		"english": "a fitting room"
+	},
+	{
+		"norsk": "en psykologi",
+		"english": "a psycology"
+	},
+	{
+		"norsk": "psykologisk",
+		"english": "psycological"
+	},
+	{
+		"norsk": "å pusse",
+		"english": "to brush"
+	},
+	{
+		"norsk": "pust",
+		"english": "a breath (uncount. noun)"
+	},
+	{
+		"norsk": "ei pute",
+		"english": "a pillow, cushion"
+	},
+	{
+		"norsk": "pyntet",
+		"english": "decorated"
+	},
+	{
+		"norsk": "ei pære",
+		"english": "a pear"
+	},
+	{
+		"norsk": "ei pølse",
+		"english": "a sausage"
+	},
+	{
+		"norsk": "på",
+		"english": "on, at"
+	},
+	{
+		"norsk": "på forhånd",
+		"english": "in advance"
+	},
+	{
+		"norsk": "på salg",
+		"english": "on sale"
+	},
+	{
+		"norsk": "på vei",
+		"english": "on the way"
+	},
+	{
+		"norsk": "rar",
+		"english": "strange, odd"
+	},
+	{
+		"norsk": "å registrere",
+		"english": "to register"
+	},
+	{
+		"norsk": "et registreringsbevis",
+		"english": "a certificate of registration"
+	},
+	{
+		"norsk": "regn",
+		"english": "rain (uncount. noun)"
+	},
+	{
+		"norsk": "å regne",
+		"english": "to rain"
+	},
+	{
+		"norsk": "å reise",
+		"english": "to travel"
+	},
+	{
+		"norsk": "en reisebekreftelse",
+		"english": "confirmation of reservation"
+	},
+	{
+		"norsk": "en resepsjon",
+		"english": "a reception"
+	},
+	{
+		"norsk": "en resepsjonist",
+		"english": "a receptionist"
+	},
+	{
+		"norsk": "en resept",
+		"english": "a prescription"
+	},
+	{
+		"norsk": "en respons",
+		"english": "response"
+	},
+	{
+		"norsk": "en rest",
+		"english": "a remainder, remnant, rest"
+	},
+	{
+		"norsk": "en restaurant",
+		"english": "a restaurant"
+	},
+	{
+		"norsk": "rett",
+		"english": "straight, directly"
+	},
+	{
+		"norsk": "en rett",
+		"english": "a dish"
+	},
+	{
+		"norsk": "rett ved siden av",
+		"english": "right next to"
+	},
+	{
+		"norsk": "ei ribbe",
+		"english": "a rib (pork ribs)"
+	},
+	{
+		"norsk": "riktig",
+		"english": "correct, right"
+	},
+	{
+		"norsk": "å ringe",
+		"english": "to ring, call"
+	},
+	{
+		"norsk": "ris",
+		"english": "rice (uncount. noun)"
+	},
+	{
+		"norsk": "riskrem",
+		"english": "creamed rice pudding (uncount. noun)"
+	},
+	{
+		"norsk": "et rom",
+		"english": "a room"
+	},
+	{
+		"norsk": "Roma",
+		"english": "Rome"
+	},
+	{
+		"norsk": "en roman",
+		"english": "a novel"
+	},
+	{
+		"norsk": "Romania",
+		"english": "Romania"
+	},
+	{
+		"norsk": "å rope",
+		"english": "to call, cry, shout"
+	},
+	{
+		"norsk": "rund",
+		"english": "round"
+	},
+	{
+		"norsk": "et rundstykke",
+		"english": "a roll"
+	},
+	{
+		"norsk": "rundt",
+		"english": "round, about"
+	},
+	{
+		"norsk": "å rydde",
+		"english": "to tidy"
+	},
+	{
+		"norsk": "rød",
+		"english": "red"
+	},
+	{
+		"norsk": "et rådhus",
+		"english": "a city hall"
+	},
+	{
+		"norsk": "sa",
+		"english": "said"
+	},
+	{
+		"norsk": "sagt",
+		"english": "said (past part.)"
+	},
+	{
+		"norsk": "salami",
+		"english": "a salami (uncount. noun)"
+	},
+	{
+		"norsk": "et salg",
+		"english": "a sale"
+	},
+	{
+		"norsk": "et salsakurs",
+		"english": "a salsa course"
+	},
+	{
+		"norsk": "samme",
+		"english": "same"
+	},
+	{
+		"norsk": "sammen",
+		"english": "together"
+	},
+	{
+		"norsk": "en sang",
+		"english": "a song"
+	},
+	{
+		"norsk": "sann",
+		"english": "true"
+	},
+	{
+		"norsk": "sant",
+		"english": "true"
+	},
+	{
+		"norsk": "satt",
+		"english": "sat"
+	},
+	{
+		"norsk": "en saus",
+		"english": "a sauce, gravy"
+	},
+	{
+		"norsk": "å se",
+		"english": "to see"
+	},
+	{
+		"norsk": "å se ut",
+		"english": "to look, appear"
+	},
+	{
+		"norsk": "seg",
+		"english": "himself, herself, itself, oneself, themselves"
+	},
+	{
+		"norsk": "seg selv",
+		"english": "oneself"
+	},
+	{
+		"norsk": "seinere",
+		"english": "later"
+	},
+	{
+		"norsk": "en sekk",
+		"english": "a sack"
+	},
+	{
+		"norsk": "seks",
+		"english": "six"
+	},
+	{
+		"norsk": "å selge",
+		"english": "to sell"
+	},
+	{
+		"norsk": "selv",
+		"english": "self"
+	},
+	{
+		"norsk": "selvfølgelig",
+		"english": "of course"
+	},
+	{
+		"norsk": "et semester",
+		"english": "a semester"
+	},
+	{
+		"norsk": "en semesteravgift",
+		"english": "a university fee"
+	},
+	{
+		"norsk": "et semesterkort",
+		"english": "semester card"
+	},
+	{
+		"norsk": "et seminar",
+		"english": "a seminar"
+	},
+	{
+		"norsk": "å sende",
+		"english": "to send"
+	},
+	{
+		"norsk": "ei seng",
+		"english": "a bed"
+	},
+	{
+		"norsk": "et senter",
+		"english": "a centre"
+	},
+	{
+		"norsk": "en sentralstasjon",
+		"english": "a central station"
+	},
+	{
+		"norsk": "et sentrum",
+		"english": "a (town) centre"
+	},
+	{
+		"norsk": "en servitør",
+		"english": "a waiter"
+	},
+	{
+		"norsk": "å ses",
+		"english": "to see one another"
+	},
+	{
+		"norsk": "sett",
+		"english": "seen (past part.)"
+	},
+	{
+		"norsk": "å sette",
+		"english": "to put, place, set"
+	},
+	{
+		"norsk": "å sette seg",
+		"english": "to sit down"
+	},
+	{
+		"norsk": "shopping",
+		"english": "shopping (uncount. noun)"
+	},
+	{
+		"norsk": "å si",
+		"english": "to say"
+	},
+	{
+		"norsk": "en side",
+		"english": "a side"
+	},
+	{
+		"norsk": "siden",
+		"english": "since"
+	},
+	{
+		"norsk": "siden",
+		"english": "(years) ago"
+	},
+	{
+		"norsk": "sikkert",
+		"english": "here: probably. Also: certainly"
+	},
+	{
+		"norsk": "sin",
+		"english": "his, hers, its, theirs"
+	},
+	{
+		"norsk": "sine",
+		"english": "his, hers, its, theirs"
+	},
+	{
+		"norsk": "sitt",
+		"english": "his, hers, its, theirs"
+	},
+	{
+		"norsk": "å sitte",
+		"english": "to sit"
+	},
+	{
+		"norsk": "å sjekke",
+		"english": "to check"
+	},
+	{
+		"norsk": "å sjekke inn",
+		"english": "to check in"
+	},
+	{
+		"norsk": "sjelden",
+		"english": "seldom"
+	},
+	{
+		"norsk": "en sjokolade",
+		"english": "a chocolate"
+	},
+	{
+		"norsk": "ei sjokoladekake",
+		"english": "a chocolate cake"
+	},
+	{
+		"norsk": "sju",
+		"english": "seven"
+	},
+	{
+		"norsk": "skal",
+		"english": "will, shall, is going to"
+	},
+	{
+		"norsk": "et skap",
+		"english": "a cupboard"
+	},
+	{
+		"norsk": "et skilt",
+		"english": "a sign, signpost"
+	},
+	{
+		"norsk": "ei skinke",
+		"english": "a ham"
+	},
+	{
+		"norsk": "å skinne",
+		"english": "to shine"
+	},
+	{
+		"norsk": "ei skive",
+		"english": "a slice"
+	},
+	{
+		"norsk": "et skjema",
+		"english": "a form"
+	},
+	{
+		"norsk": "et skjerf",
+		"english": "a scarf"
+	},
+	{
+		"norsk": "skrevet",
+		"english": "written (past part.)"
+	},
+	{
+		"norsk": "et skrik",
+		"english": "a scream"
+	},
+	{
+		"norsk": "å skrive",
+		"english": "to write"
+	},
+	{
+		"norsk": "å skrive under",
+		"english": "to sign"
+	},
+	{
+		"norsk": "et skrivebord",
+		"english": "a desk"
+	},
+	{
+		"norsk": "å skulle",
+		"english": "will, shall"
+	},
+	{
+		"norsk": "skulle",
+		"english": "would"
+	},
+	{
+		"norsk": "en skulptur",
+		"english": "a sculpture"
+	},
+	{
+		"norsk": "å skynde seg",
+		"english": "to hurry (up)"
+	},
+	{
+		"norsk": "å slappe av",
+		"english": "to relax"
+	},
+	{
+		"norsk": "sliten",
+		"english": "tired"
+	},
+	{
+		"norsk": "et slott",
+		"english": "a castle, palace"
+	},
+	{
+		"norsk": "en slutt",
+		"english": "an end"
+	},
+	{
+		"norsk": "å smake",
+		"english": "to taste"
+	},
+	{
+		"norsk": "smertestillende",
+		"english": "painkilling"
+	},
+	{
+		"norsk": "å smile",
+		"english": "to smile"
+	},
+	{
+		"norsk": "smittsom",
+		"english": "infectious"
+	},
+	{
+		"norsk": "en SMS",
+		"english": "an SMS (Short Message Service)"
+	},
+	{
+		"norsk": "smør",
+		"english": "butter"
+	},
+	{
+		"norsk": "små",
+		"english": "small"
+	},
+	{
+		"norsk": "en småkake",
+		"english": "a cookie"
+	},
+	{
+		"norsk": "å snakke",
+		"english": "to speak"
+	},
+	{
+		"norsk": "å snakkes",
+		"english": "to talk (to each other)"
+	},
+	{
+		"norsk": "snakket",
+		"english": "spoke"
+	},
+	{
+		"norsk": "snart",
+		"english": "soon"
+	},
+	{
+		"norsk": "snill",
+		"english": "kind"
+	},
+	{
+		"norsk": "å snu",
+		"english": "to turn"
+	},
+	{
+		"norsk": "å snø",
+		"english": "to snow"
+	},
+	{
+		"norsk": "snø",
+		"english": "snow (uncount. noun)"
+	},
+	{
+		"norsk": "en sofa",
+		"english": "a sofa, couch"
+	},
+	{
+		"norsk": "ei sol",
+		"english": "a sun"
+	},
+	{
+		"norsk": "som",
+		"english": "who, which, that, what"
+	},
+	{
+		"norsk": "en sort",
+		"english": "a sort, kind"
+	},
+	{
+		"norsk": "Spania",
+		"english": "Spania"
+	},
+	{
+		"norsk": "spansk",
+		"english": "Spanish"
+	},
+	{
+		"norsk": "spennende",
+		"english": "exciting"
+	},
+	{
+		"norsk": "spesiell",
+		"english": "special"
+	},
+	{
+		"norsk": "å spille",
+		"english": "to play"
+	},
+	{
+		"norsk": "å spise",
+		"english": "to eat"
+	},
+	{
+		"norsk": "spiste",
+		"english": "ate"
+	},
+	{
+		"norsk": "en sport",
+		"english": "a sport"
+	},
+	{
+		"norsk": "et språk",
+		"english": "a language"
+	},
+	{
+		"norsk": "spurte",
+		"english": "asked"
+	},
+	{
+		"norsk": "spør",
+		"english": "ask(s)"
+	},
+	{
+		"norsk": "å spørre",
+		"english": "to ask"
+	},
+	{
+		"norsk": "Sri Lanka",
+		"english": "Sri Lanka"
+	},
+	{
+		"norsk": "å stave",
+		"english": "to spell"
+	},
+	{
+		"norsk": "et stearinlys",
+		"english": "a candle"
+	},
+	{
+		"norsk": "en stefar",
+		"english": "a stepfather"
+	},
+	{
+		"norsk": "en stemning",
+		"english": "an atmosphere, mood"
+	},
+	{
+		"norsk": "å stenge",
+		"english": "to close"
+	},
+	{
+		"norsk": "stille",
+		"english": "quiet"
+	},
+	{
+		"norsk": "sto",
+		"english": "stood"
+	},
+	{
+		"norsk": "en stol",
+		"english": "a chair"
+	},
+	{
+		"norsk": "å stoppe",
+		"english": "to stop"
+	},
+	{
+		"norsk": "stor",
+		"english": "big"
+	},
+	{
+		"norsk": "Stortinget",
+		"english": "Stortinget, Norwegian National Assembly"
+	},
+	{
+		"norsk": "stresset",
+		"english": "stressed"
+	},
+	{
+		"norsk": "en student",
+		"english": "a student"
+	},
+	{
+		"norsk": "en studentby",
+		"english": "a student village"
+	},
+	{
+		"norsk": "å studere",
+		"english": "to study"
+	},
+	{
+		"norsk": "en studieplan",
+		"english": "a curriculum"
+	},
+	{
+		"norsk": "studiet",
+		"english": "the programme, study"
+	},
+	{
+		"norsk": "et studium",
+		"english": "a course of study"
+	},
+	{
+		"norsk": "ei stue",
+		"english": "a living room"
+	},
+	{
+		"norsk": "en stund",
+		"english": "a moment, while"
+	},
+	{
+		"norsk": "et stykke",
+		"english": "a piece"
+	},
+	{
+		"norsk": "en størrelse",
+		"english": "a size"
+	},
+	{
+		"norsk": "å stå",
+		"english": "to stand"
+	},
+	{
+		"norsk": "å stå opp",
+		"english": "to get up"
+	},
+	{
+		"norsk": "sukker",
+		"english": "sugar"
+	},
+	{
+		"norsk": "sulten",
+		"english": "hungry"
+	},
+	{
+		"norsk": "super",
+		"english": "super"
+	},
+	{
+		"norsk": "å svare",
+		"english": "to answer"
+	},
+	{
+		"norsk": "svart",
+		"english": "black"
+	},
+	{
+		"norsk": "ei svineribbe",
+		"english": "a breast of pork, ribs"
+	},
+	{
+		"norsk": "syk",
+		"english": "ill"
+	},
+	{
+		"norsk": "en sykkel",
+		"english": "a bicycle"
+	},
+	{
+		"norsk": "å sykle",
+		"english": "to cycle"
+	},
+	{
+		"norsk": "å synes",
+		"english": "to think"
+	},
+	{
+		"norsk": "å søke om",
+		"english": "to apply for"
+	},
+	{
+		"norsk": "en søndag",
+		"english": "a Sunday"
+	},
+	{
+		"norsk": "en sønn",
+		"english": "a son"
+	},
+	{
+		"norsk": "et søsken",
+		"english": "a brother or sister, sibling"
+	},
+	{
+		"norsk": "et søskenbarn",
+		"english": "a cousin"
+	},
+	{
+		"norsk": "ei søster",
+		"english": "a sister"
+	},
+	{
+		"norsk": "søt",
+		"english": "sweet"
+	},
+	{
+		"norsk": "så",
+		"english": "so"
+	},
+	{
+		"norsk": "så",
+		"english": "so, then"
+	},
+	{
+		"norsk": "så",
+		"english": "saw"
+	},
+	{
+		"norsk": "så fint",
+		"english": "what a nice (...)!"
+	},
+	{
+		"norsk": "å ta",
+		"english": "to take"
+	},
+	{
+		"norsk": "å ta ut penger",
+		"english": "to withdraw money"
+	},
+	{
+		"norsk": "en tablett",
+		"english": "a tablet"
+	},
+	{
+		"norsk": "takk",
+		"english": "thank you"
+	},
+	{
+		"norsk": "takk skal du ha",
+		"english": "thank you"
+	},
+	{
+		"norsk": "å takke",
+		"english": "to thank"
+	},
+	{
+		"norsk": "et tall",
+		"english": "a figure, number"
+	},
+	{
+		"norsk": "en tango",
+		"english": "a tango"
+	},
+	{
+		"norsk": "et tangokurs",
+		"english": "a tango dance course"
+	},
+	{
+		"norsk": "ei tann",
+		"english": "a tooth"
+	},
+	{
+		"norsk": "ei tante",
+		"english": "an aunt"
+	},
+	{
+		"norsk": "ei tavle",
+		"english": "a blackboard"
+	},
+	{
+		"norsk": "en taxi",
+		"english": "a taxi"
+	},
+	{
+		"norsk": "en taxisjåfør",
+		"english": "a taxi driver"
+	},
+	{
+		"norsk": "te",
+		"english": "tea"
+	},
+	{
+		"norsk": "et teater",
+		"english": "a theatre"
+	},
+	{
+		"norsk": "en tekopp",
+		"english": "a teacup"
+	},
+	{
+		"norsk": "en tekstmelding",
+		"english": "a text message (SMS)"
+	},
+	{
+		"norsk": "en telefon",
+		"english": "a telephone"
+	},
+	{
+		"norsk": "et telefonnummer",
+		"english": "a phone number"
+	},
+	{
+		"norsk": "en telefonsamtale",
+		"english": "a telephone conversation"
+	},
+	{
+		"norsk": "å telle",
+		"english": "to count"
+	},
+	{
+		"norsk": "et tema",
+		"english": "a subject, topic, theme"
+	},
+	{
+		"norsk": "å tenke",
+		"english": "to think"
+	},
+	{
+		"norsk": "å tenne",
+		"english": "to light, kindle"
+	},
+	{
+		"norsk": "tenner",
+		"english": "teeth"
+	},
+	{
+		"norsk": "tennis",
+		"english": "tennis (uncount. noun)"
+	},
+	{
+		"norsk": "et termometer",
+		"english": "a thermometer"
+	},
+	{
+		"norsk": "ti",
+		"english": "ten"
+	},
+	{
+		"norsk": "en tid",
+		"english": "a time"
+	},
+	{
+		"norsk": "tidlig",
+		"english": "early"
+	},
+	{
+		"norsk": "en tikroning",
+		"english": "ten-kroner-coin"
+	},
+	{
+		"norsk": "til",
+		"english": "to"
+	},
+	{
+		"norsk": "til sammen",
+		"english": "together, in all"
+	},
+	{
+		"norsk": "til slutt",
+		"english": "finally, in the end, eventually"
+	},
+	{
+		"norsk": "tilbake",
+		"english": "back"
+	},
+	{
+		"norsk": "en time",
+		"english": "an hour, appointment, lesson"
+	},
+	{
+		"norsk": "en time",
+		"english": "a lesson, class, session, also: hour"
+	},
+	{
+		"norsk": "en ting",
+		"english": "a thing"
+	},
+	{
+		"norsk": "en tirsdag",
+		"english": "a Tuesday"
+	},
+	{
+		"norsk": "to",
+		"english": "two"
+	},
+	{
+		"norsk": "et tog",
+		"english": "a train"
+	},
+	{
+		"norsk": "tok",
+		"english": "took"
+	},
+	{
+		"norsk": "et torg",
+		"english": "a square"
+	},
+	{
+		"norsk": "en torsdag",
+		"english": "a Thursday"
+	},
+	{
+		"norsk": "en torsk",
+		"english": "a cod"
+	},
+	{
+		"norsk": "traff",
+		"english": "met, hit"
+	},
+	{
+		"norsk": "ei trapp",
+		"english": "a staircase, stairs"
+	},
+	{
+		"norsk": "travel",
+		"english": "busy"
+	},
+	{
+		"norsk": "tre",
+		"english": "three"
+	},
+	{
+		"norsk": "et tre",
+		"english": "a tree"
+	},
+	{
+		"norsk": "å treffe",
+		"english": "to meet"
+	},
+	{
+		"norsk": "et trehus",
+		"english": "a wooden house"
+	},
+	{
+		"norsk": "å trekke",
+		"english": "to draw, pull"
+	},
+	{
+		"norsk": "å trene",
+		"english": "to exercise, train"
+	},
+	{
+		"norsk": "å trenge",
+		"english": "to need"
+	},
+	{
+		"norsk": "ei trening",
+		"english": "a training session, practice session, exercise"
+	},
+	{
+		"norsk": "et treningskort",
+		"english": "gym membership card"
+	},
+	{
+		"norsk": "trist",
+		"english": "sad"
+	},
+	{
+		"norsk": "å trives",
+		"english": "to thrive, enjoy oneself"
+	},
+	{
+		"norsk": "Trondheim",
+		"english": "Trondheim"
+	},
+	{
+		"norsk": "tror",
+		"english": "believe"
+	},
+	{
+		"norsk": "truffet",
+		"english": "met, hit (past part.)"
+	},
+	{
+		"norsk": "trygg",
+		"english": "safe, secure"
+	},
+	{
+		"norsk": "trøtt",
+		"english": "tired"
+	},
+	{
+		"norsk": "en tur",
+		"english": "a trip"
+	},
+	{
+		"norsk": "en turist",
+		"english": "a tourist"
+	},
+	{
+		"norsk": "tusen",
+		"english": "thousand"
+	},
+	{
+		"norsk": "en TV",
+		"english": "a TV"
+	},
+	{
+		"norsk": "en TV-serie",
+		"english": "a TV series"
+	},
+	{
+		"norsk": "tydelig",
+		"english": "clear, explicit"
+	},
+	{
+		"norsk": "tykk",
+		"english": "thick"
+	},
+	{
+		"norsk": "typisk",
+		"english": "typical"
+	},
+	{
+		"norsk": "tysk",
+		"english": "German"
+	},
+	{
+		"norsk": "en tysker",
+		"english": "a German"
+	},
+	{
+		"norsk": "Tyskland",
+		"english": "Germany"
+	},
+	{
+		"norsk": "å tørke",
+		"english": "to dry"
+	},
+	{
+		"norsk": "å tørke seg",
+		"english": "to dry oneself"
+	},
+	{
+		"norsk": "uhøflig",
+		"english": "impolite, rude"
+	},
+	{
+		"norsk": "ei uke",
+		"english": "a week"
+	},
+	{
+		"norsk": "under",
+		"english": "under, below"
+	},
+	{
+		"norsk": "å undervise",
+		"english": "to teach"
+	},
+	{
+		"norsk": "et universitet",
+		"english": "a university"
+	},
+	{
+		"norsk": "unnskyld",
+		"english": "excuse me"
+	},
+	{
+		"norsk": "USA",
+		"english": "USA"
+	},
+	{
+		"norsk": "ut",
+		"english": "out"
+	},
+	{
+		"norsk": "ute",
+		"english": "out, outside"
+	},
+	{
+		"norsk": "uten",
+		"english": "without"
+	},
+	{
+		"norsk": "utenfor",
+		"english": "outside"
+	},
+	{
+		"norsk": "å utsette",
+		"english": "to postpone"
+	},
+	{
+		"norsk": "en utsikt",
+		"english": "a view"
+	},
+	{
+		"norsk": "en utstilling",
+		"english": "an exhibition"
+	},
+	{
+		"norsk": "et utstyr",
+		"english": "equipment"
+	},
+	{
+		"norsk": "vanlig",
+		"english": "usual, customary"
+	},
+	{
+		"norsk": "vanligvis",
+		"english": "usually"
+	},
+	{
+		"norsk": "vann",
+		"english": "water"
+	},
+	{
+		"norsk": "en vannkoker",
+		"english": "a kettle"
+	},
+	{
+		"norsk": "vanskelig",
+		"english": "difficult"
+	},
+	{
+		"norsk": "vant til",
+		"english": "used to"
+	},
+	{
+		"norsk": "var",
+		"english": "was, were"
+	},
+	{
+		"norsk": "varm",
+		"english": "warm, hot"
+	},
+	{
+		"norsk": "å varme",
+		"english": "to warm"
+	},
+	{
+		"norsk": "en varmegrad",
+		"english": "one degree above zero"
+	},
+	{
+		"norsk": "varmere",
+		"english": "warmer"
+	},
+	{
+		"norsk": "å vaske",
+		"english": "to wash, clean"
+	},
+	{
+		"norsk": "ved",
+		"english": "at, by, near, on, to"
+	},
+	{
+		"norsk": "ved siden av",
+		"english": "beside"
+	},
+	{
+		"norsk": "et vedlegg",
+		"english": "an attachment"
+	},
+	{
+		"norsk": "en vei",
+		"english": "a road"
+	},
+	{
+		"norsk": "en veileder",
+		"english": "a supervisor, guide"
+	},
+	{
+		"norsk": "veldig",
+		"english": "very"
+	},
+	{
+		"norsk": "velkommen",
+		"english": "welcome"
+	},
+	{
+		"norsk": "en venn",
+		"english": "a friend"
+	},
+	{
+		"norsk": "ei venninne",
+		"english": "a (female) friend"
+	},
+	{
+		"norsk": "vennlig",
+		"english": "friendly, kind"
+	},
+	{
+		"norsk": "venstre",
+		"english": "left"
+	},
+	{
+		"norsk": "å vente",
+		"english": "to wait"
+	},
+	{
+		"norsk": "verken - eller",
+		"english": "neither - nor"
+	},
+	{
+		"norsk": "ei veske",
+		"english": "a handbag"
+	},
+	{
+		"norsk": "vet",
+		"english": "know (present tense)"
+	},
+	{
+		"norsk": "vi",
+		"english": "we"
+	},
+	{
+		"norsk": "Vigelandsparken",
+		"english": "the Vigeland Park"
+	},
+	{
+		"norsk": "en vikingkonge",
+		"english": "a viking king"
+	},
+	{
+		"norsk": "et vikingskip",
+		"english": "a Viking ship"
+	},
+	{
+		"norsk": "Vikingskipshuset",
+		"english": "the Viking Ship Museum"
+	},
+	{
+		"norsk": "viktig",
+		"english": "important"
+	},
+	{
+		"norsk": "vil",
+		"english": "wants to, will"
+	},
+	{
+		"norsk": "å ville",
+		"english": "to want to, will"
+	},
+	{
+		"norsk": "et vindu",
+		"english": "a window"
+	},
+	{
+		"norsk": "en vinter",
+		"english": "a winter"
+	},
+	{
+		"norsk": "virkelig",
+		"english": "really"
+	},
+	{
+		"norsk": "å vise",
+		"english": "to show"
+	},
+	{
+		"norsk": "å vise fram",
+		"english": "to show"
+	},
+	{
+		"norsk": "et viskelær",
+		"english": "an eraser"
+	},
+	{
+		"norsk": "visste",
+		"english": "knew"
+	},
+	{
+		"norsk": "å vite",
+		"english": "to know"
+	},
+	{
+		"norsk": "en volleyball",
+		"english": "a volleyball"
+	},
+	{
+		"norsk": "vond",
+		"english": "painful, sore"
+	},
+	{
+		"norsk": "vondt i halsen",
+		"english": "a sore throat"
+	},
+	{
+		"norsk": "vær",
+		"english": "weather (uncount. noun)"
+	},
+	{
+		"norsk": "vær så god!",
+		"english": "you're welcome! please! here you are!"
+	},
+	{
+		"norsk": "å være",
+		"english": "to be, exist"
+	},
+	{
+		"norsk": "vært",
+		"english": "been (past part.)"
+	},
+	{
+		"norsk": "å våkne",
+		"english": "to wake up"
+	},
+	{
+		"norsk": "øst",
+		"english": "east"
+	},
+	{
+		"norsk": "Østlandet",
+		"english": "Eastern Norway"
+	},
+	{
+		"norsk": "et øyeblikk",
+		"english": "a moment"
+	},
+	{
+		"norsk": "å",
+		"english": "to (infinitive marker)"
+	},
+	{
+		"norsk": "åpen",
+		"english": "open"
+	},
+	{
+		"norsk": "å åpne",
+		"english": "to open"
+	},
+	{
+		"norsk": "et år",
+		"english": "a year"
+	},
+	{
+		"norsk": "åtte",
+		"english": "eight"
+	}
 ]

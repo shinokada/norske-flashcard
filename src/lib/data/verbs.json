@@ -1,1514 +1,1514 @@
 [
-  {
-    "norsk": "å adlyde, adlyder, adlød, adlydt",
-    "english": "to obey"
-  },
-  {
-    "norsk": "å anbefale, anbefaler, anbefalte, anbefalt",
-    "english": "to recommend"
-  },
-  {
-    "norsk": "å ansette, ansetter, ansatte, ansatt",
-    "english": "to employ"
-  },
-  {
-    "norsk": "å arbeide, arbeider, arbeidet, arbeidet",
-    "english": "to work"
-  },
-  {
-    "norsk": "å avslå, avslår, avslo, avslått",
-    "english": "to repulse"
-  },
-  {
-    "norsk": "å avstå, avstår, avstod, avstatt",
-    "english": "to cede"
-  },
-  {
-    "norsk": "å bade, bader, badet, badet",
-    "english": "to bath"
-  },
-  {
-    "norsk": "å banke, banker, banket, banket",
-    "english": "to beat, hit"
-  },
-  {
-    "norsk": "å barbere, barberer, barberte, barbert",
-    "english": "to shave"
-  },
-  {
-    "norsk": "å be, ber, ba(d), bedt",
-    "english": "to ask"
-  },
-  {
-    "norsk": "å bearbeide, bearbeider, bearbeidet, bearbeidet",
-    "english": "to adapt"
-  },
-  {
-    "norsk": "å bedra, bedrar, bedro, bedratt",
-    "english": "to cheat"
-  },
-  {
-    "norsk": "å bedøve, bedøver, bedøvet, bedøvet",
-    "english": "to drug"
-  },
-  {
-    "norsk": "å bedøve, bedøver, bedøvde, bedøvd",
-    "english": "to anaesthetise"
-  },
-  {
-    "norsk": "å begynne, begynner, begynte, begynt",
-    "english": "to begin"
-  },
-  {
-    "norsk": "å behandle, behandler, behandlet, behandlet",
-    "english": "to handle"
-  },
-  {
-    "norsk": "å beite, beiter, beitet, beitet",
-    "english": "to graze"
-  },
-  {
-    "norsk": "å beskrive, beskriver, beskrev, beskrevet",
-    "english": "to describe"
-  },
-  {
-    "norsk": "å bestemme, bestemmer, bestemte, bestemt",
-    "english": "to decide"
-  },
-  {
-    "norsk": "å beslå, beslår, beslo, beslått",
-    "english": "to mount"
-  },
-  {
-    "norsk": "å bestille, bestiller, bestilte, bestilt",
-    "english": "to do, order"
-  },
-  {
-    "norsk": "å bestå, består, besto(d), bestått",
-    "english": "to pass (as in exam)"
-  },
-  {
-    "norsk": "å besøke, besøker, besøkte, besøkt",
-    "english": "to visit"
-  },
-  {
-    "norsk": "å betale, betaler, betalte, betalt",
-    "english": "to pay"
-  },
-  {
-    "norsk": "å bety, betyr, betydde, betydd",
-    "english": "to mean, signify"
-  },
-  {
-    "norsk": "å binde, binder, bandt, bundet",
-    "english": "to bind"
-  },
-  {
-    "norsk": "å bite, biter, betalte, bit",
-    "english": "to bite"
-  },
-  {
-    "norsk": "å bjeffe, bjeffer, bjeffet, bjeffet",
-    "english": "to bark, yap"
-  },
-  {
-    "norsk": "å blande, blander, blandet, blandet",
-    "english": "to blend, mix"
-  },
-  {
-    "norsk": "å bli, blir, ble, blitt",
-    "english": "to be"
-  },
-  {
-    "norsk": "å blø, blør, blødde, blødd",
-    "english": "to bleed"
-  },
-  {
-    "norsk": "å blåse, blåser, blåste, blåst",
-    "english": "to blow"
-  },
-  {
-    "norsk": "å bo, bor, bordde, bordd",
-    "english": "to live, reside"
-  },
-  {
-    "norsk": "å brekke, brekker, brakk, brukket",
-    "english": "to break"
-  },
-  {
-    "norsk": "å brenne, brenner, brente, brent",
-    "english": "to burn"
-  },
-  {
-    "norsk": "å bringe, bringer, brakte, brakt",
-    "english": "to bring"
-  },
-  {
-    "norsk": "å briste, brister, brast, bristet",
-    "english": "to burst"
-  },
-  {
-    "norsk": "å bruke, bruker, brukte, brukt",
-    "english": "to use"
-  },
-  {
-    "norsk": "å bry, bryr, brydde, brydd",
-    "english": "to bother"
-  },
-  {
-    "norsk": "å bryte, bryter, brøt, brutt",
-    "english": "to violate, break"
-  },
-  {
-    "norsk": "å burde, bør, burde, burdet",
-    "english": "to ought to"
-  },
-  {
-    "norsk": "å by, byr, bød, budt",
-    "english": "to offer, bid"
-  },
-  {
-    "norsk": "å bygge, bygger, bygde, bygd",
-    "english": "to build"
-  },
-  {
-    "norsk": "å bytte, bytter, byttet, byttet",
-    "english": "to change, exchange"
-  },
-  {
-    "norsk": "å bære, bærer, bar, båret",
-    "english": "to bear, endure"
-  },
-  {
-    "norsk": "å danse, danser, danset, danset",
-    "english": "to dance"
-  },
-  {
-    "norsk": "å dele, deler, delte, delt",
-    "english": "to divide"
-  },
-  {
-    "norsk": "å demokratisere, demokratiserer, demokratiserte, demokratisert",
-    "english": "to democratize"
-  },
-  {
-    "norsk": "å diskutere, diskuterer, diskuterte, diskutert",
-    "english": "to discuss"
-  },
-  {
-    "norsk": "å dra, drar, drog, dradd/dratt",
-    "english": "to go / drag"
-  },
-  {
-    "norsk": "å drikke, drikker, drakk, drukket",
-    "english": "to drink"
-  },
-  {
-    "norsk": "å drive, driver, drev, drevet",
-    "english": "to drive, operate"
-  },
-  {
-    "norsk": "å drømme, drømmer, drømte, drømt",
-    "english": "to dream"
-  },
-  {
-    "norsk": "å dusje, dusjer, dusjet, dusjet",
-    "english": "to shower"
-  },
-  {
-    "norsk": "å dyrke, dyrker, dyrket, dyrket",
-    "english": "to cultivate"
-  },
-  {
-    "norsk": "å dytte, dytter, dyttet, dyttet",
-    "english": "to push"
-  },
-  {
-    "norsk": "å eie, eier, eide, eid",
-    "english": "to possess"
-  },
-  {
-    "norsk": "å ese, eser, este, est",
-    "english": "to rise"
-  },
-  {
-    "norsk": "å ete, eter, åt, ett",
-    "english": "to eat greedily"
-  },
-  {
-    "norsk": "å evangelisere, evangeliserer, evangeliserte, evangelisert",
-    "english": "to evangelize"
-  },
-  {
-    "norsk": "å falle, faller, falt, falt",
-    "english": "to fall"
-  },
-  {
-    "norsk": "å feire, feirer, feiret, feiret",
-    "english": "to celebrate"
-  },
-  {
-    "norsk": "å finne, finner, fant, funnet",
-    "english": "to find"
-  },
-  {
-    "norsk": "å fiske, fisker, fisket, fisket",
-    "english": "to fish"
-  },
-  {
-    "norsk": "å fleipe, fleiper, fleipte, fleipt",
-    "english": "to joke"
-  },
-  {
-    "norsk": "å fly, flyr, fløy, fløyet",
-    "english": "to fly"
-  },
-  {
-    "norsk": "å flykte, flykter, flyktet, flyktet",
-    "english": "to flee"
-  },
-  {
-    "norsk": "å flyte, flyter, fløt, flytt",
-    "english": "to float"
-  },
-  {
-    "norsk": "flytte, flytter, flyttet, flyttet",
-    "english": "to move"
-  },
-  {
-    "norsk": "å forene, forener, forente, forent",
-    "english": "to unite"
-  },
-  {
-    "norsk": "å foreslå, foreslår, foreslo, foreslått",
-    "english": "to suggest"
-  },
-  {
-    "norsk": "å foreta, foretar, foretok, foretatt",
-    "english": "to undertake"
-  },
-  {
-    "norsk": "å forkjøle seg, forkjøler seg, forkjølet seg, forkjølt seg",
-    "english": "to catch a cold"
-  },
-  {
-    "norsk": "å forklare, forklarer, forklarte, forklart",
-    "english": "to explain"
-  },
-  {
-    "norsk": "å forlate, forlater, forlot, forlatt",
-    "english": "to forgive"
-  },
-  {
-    "norsk": "å fornye, fornyer, fornyet, fornyet",
-    "english": "to renew"
-  },
-  {
-    "norsk": "å forstå, forstår, forstod, forstått",
-    "english": "to understand"
-  },
-  {
-    "norsk": "å forsvinne, forsvinner, forsvant, forsvunnet",
-    "english": "to disappear"
-  },
-  {
-    "norsk": "å fortelle, forteller, fortalte, fortalt",
-    "english": "to tell"
-  },
-  {
-    "norsk": "å fortsette, fortsetter, fortsatte, fortsatt",
-    "english": "to continue"
-  },
-  {
-    "norsk": "å fosse, fosser, fosset, fosset",
-    "english": "to gush"
-  },
-  {
-    "norsk": "å fotografere, fotograferer, fotograferte, fotografert",
-    "english": "to photograph"
-  },
-  {
-    "norsk": "å fryse, fryser, frøs, frosset",
-    "english": "to freeze"
-  },
-  {
-    "norsk": "å fylle, fyller, fylte, fylt",
-    "english": "to fill"
-  },
-  {
-    "norsk": "å føde, føder, fødte, født",
-    "english": "to bear, give birth to"
-  },
-  {
-    "norsk": "å føle seg, føler seg, følte seg, følt seg",
-    "english": "to be, feel"
-  },
-  {
-    "norsk": "å følge, følger, fulgte, fulgt",
-    "english": "to follow"
-  },
-  {
-    "norsk": "å føne, føner, fønte, fønt",
-    "english": "to blow dry"
-  },
-  {
-    "norsk": "å få, får, fikk, fått",
-    "english": "to get"
-  },
-  {
-    "norsk": "å gale, galer, gol, galt",
-    "english": "to crow"
-  },
-  {
-    "norsk": "å gape, gaper, gapte, gapt",
-    "english": "to gape"
-  },
-  {
-    "norsk": "å gi, gir, gav, gitt",
-    "english": "to give"
-  },
-  {
-    "norsk": "å gidde, gidder, gadd, giddet",
-    "english": "to take the trouble"
-  },
-  {
-    "norsk": "å gifte, gifter, giftet, giftet",
-    "english": "to marry"
-  },
-  {
-    "norsk": "å gjelde, gjelder, gjaldt, gjeldt",
-    "english": "to to be worth"
-  },
-  {
-    "norsk": "å gjenta, gjentar, gjentok, gjentatt",
-    "english": "to repeat"
-  },
-  {
-    "norsk": "å gjette, gjetter, gjettet, gjettet",
-    "english": "to guess"
-  },
-  {
-    "norsk": "å gjøre, gjør, gjorde, gjort",
-    "english": "to do"
-  },
-  {
-    "norsk": "å glede seg, gleder seg, gledet seg, gledet seg",
-    "english": "to look forward"
-  },
-  {
-    "norsk": "å glemme, glemmer, glemte, glemt",
-    "english": "to forget"
-  },
-  {
-    "norsk": "å gli, glir, glei/gled, glidd",
-    "english": "to slide, glide"
-  },
-  {
-    "norsk": "å gnage, gnager, gnog, gnaget",
-    "english": "to gnaw"
-  },
-  {
-    "norsk": "å gni, gnir, gned, gnidd",
-    "english": "to rub"
-  },
-  {
-    "norsk": "å gratulere, gratulerer, gratulerte, gratulert",
-    "english": "to congratulate"
-  },
-  {
-    "norsk": "å grave, graver, grov, gravd",
-    "english": "to dig"
-  },
-  {
-    "norsk": "å gre, grer, gredde, gredd",
-    "english": "to comb"
-  },
-  {
-    "norsk": "å greie, greier, greide, greid",
-    "english": "to manage, cope with"
-  },
-  {
-    "norsk": "å grense, grenser, grenset, grenset",
-    "english": "to border"
-  },
-  {
-    "norsk": "å grille, griller, grillet, grillet",
-    "english": "to grill"
-  },
-  {
-    "norsk": "å grine, griner, grein, grint",
-    "english": "to fret"
-  },
-  {
-    "norsk": "å gripe, griper, grep, grepet",
-    "english": "to grip"
-  },
-  {
-    "norsk": "å grue seg, gruer seg, grudde seg, gruet",
-    "english": "to dread"
-  },
-  {
-    "norsk": "å gråte, gråter, gråt, grått",
-    "english": "to cry"
-  },
-  {
-    "norsk": "å gyse, gyser, gjøs, gyst",
-    "english": "to shudder"
-  },
-  {
-    "norsk": "å gyte, gyter, gjøt, gytt",
-    "english": "to spawn"
-  },
-  {
-    "norsk": "å gyve, gyver, gjøv, gjøvet",
-    "english": "to fly"
-  },
-  {
-    "norsk": "å gå, går, gikk, gått",
-    "english": "to go, walk"
-  },
-  {
-    "norsk": "å ha, har, hadde, hatt",
-    "english": "to have"
-  },
-  {
-    "norsk": "å handle, handler, handlet, handlet",
-    "english": "to deal, act"
-  },
-  {
-    "norsk": "å hende, hender, hendte, hendt",
-    "english": "to occur"
-  },
-  {
-    "norsk": "å henge, henger, hang/hengte, hengt",
-    "english": "to hang"
-  },
-  {
-    "norsk": "å hente, henter, hentet, hentet",
-    "english": "to get"
-  },
-  {
-    "norsk": "å hete, heter, het, hett",
-    "english": "to name"
-  },
-  {
-    "norsk": "å hilse, hilser, hilste, hilst",
-    "english": "to greet"
-  },
-  {
-    "norsk": "å hindre, hindrer, hindret, hindret",
-    "english": "to prevent"
-  },
-  {
-    "norsk": "å hive, hiver, hev, hevet",
-    "english": "to heave"
-  },
-  {
-    "norsk": "å hjelpe, hjelper, hjalp, hjulpet",
-    "english": "to help"
-  },
-  {
-    "norsk": "å holde, holder, holdt, holdt",
-    "english": "to hold"
-  },
-  {
-    "norsk": "å hogge, hogger, hogg, hogd",
-    "english": "to cut, chop"
-  },
-  {
-    "norsk": "å hoppe, hopper, hoppet, hoppet",
-    "english": "to jump"
-  },
-  {
-    "norsk": "å hoste, hoster, hostet, hostet",
-    "english": "to cough"
-  },
-  {
-    "norsk": "å huske, husker, husket, husket",
-    "english": "to remember"
-  },
-  {
-    "norsk": "å hvile, hviler, hvilte, hvilt",
-    "english": "to rest"
-  },
-  {
-    "norsk": "å hygge, hygger, hygget, hygget",
-    "english": "to comfort"
-  },
-  {
-    "norsk": "å høre, hører, hørte, hørt",
-    "english": "to hear"
-  },
-  {
-    "norsk": "å høste, høster, høstet, høstet",
-    "english": "to harvest"
-  },
-  {
-    "norsk": "å håpe, håper, håpet, håpet",
-    "english": "to hope"
-  },
-  {
-    "norsk": "å invitere, inviterer, inviterte, invitert",
-    "english": "to invite"
-  },
-  {
-    "norsk": "å jobbe, jobber, jobbet, jobbet",
-    "english": "to work"
-  },
-  {
-    "norsk": "å kalkulere, kalkulerer, kalkulerte, kalkulert",
-    "english": "to calculate"
-  },
-  {
-    "norsk": "å kaste, kaster, kastet, kastet",
-    "english": "to cast"
-  },
-  {
-    "norsk": "å kjenne, kjenner, kjente, kjent",
-    "english": "to feel"
-  },
-  {
-    "norsk": "å kjøpe, kjøper, kjøpte, kjøpt",
-    "english": "to buy"
-  },
-  {
-    "norsk": "å kjøre, kjører, kjørte, kjørt",
-    "english": "to drive"
-  },
-  {
-    "norsk": "å klappe, klapper, klappet, klappet",
-    "english": "to clap"
-  },
-  {
-    "norsk": "å klare, klarer, klarte, klart",
-    "english": "to manage"
-  },
-  {
-    "norsk": "å kle, kler, kledde, kledd",
-    "english": "to dress, clothe"
-  },
-  {
-    "norsk": "å klinge, klinger, klingte, klingt",
-    "english": "to sound"
-  },
-  {
-    "norsk": "å klippe, klipper, klipte, klipt",
-    "english": "to cut, clip"
-  },
-  {
-    "norsk": "å klype, klyper, kløp, kløpet",
-    "english": "to pinch"
-  },
-  {
-    "norsk": "å klyve, klyver, kløv, kløvet",
-    "english": "to climb"
-  },
-  {
-    "norsk": "å knekke, knekker, knakk, knekt",
-    "english": "to crack"
-  },
-  {
-    "norsk": "å knipe, kniper, knep, knepet",
-    "english": "to pinch"
-  },
-  {
-    "norsk": "å knyte, knyter, knytet/knøt, knytet/knytt",
-    "english": "to tie"
-  },
-  {
-    "norsk": "å koke, koker, kokte, kokt",
-    "english": "to cook"
-  },
-  {
-    "norsk": "å komme, kommer, kom, kommet",
-    "english": "to come"
-  },
-  {
-    "norsk": "å kontaktere, kontakterer, kontakterte, kontaktert",
-    "english": "to contact"
-  },
-  {
-    "norsk": "å kontrollere, kontrollerer, kontrollerte, kontrollert",
-    "english": "to control"
-  },
-  {
-    "norsk": "å kopiere, kopierer, kopierte, kopiert",
-    "english": "to copy"
-  },
-  {
-    "norsk": "å korrigere, korrigerer, korrigerte, korrigert",
-    "english": "to correct"
-  },
-  {
-    "norsk": "å kose seg, koser seg, koste seg, kost seg",
-    "english": "to enjoy yourself"
-  },
-  {
-    "norsk": "å koste, koster, kostet, kostet",
-    "english": "to cost"
-  },
-  {
-    "norsk": "å kunne, kan, kunne, kunnet",
-    "english": "to could"
-  },
-  {
-    "norsk": "å krype, kryper, krøp, krøpet",
-    "english": "to creep"
-  },
-  {
-    "norsk": "å kvele, kveler, kvalte, kvalt",
-    "english": "to choke, strangle"
-  },
-  {
-    "norsk": "å la, lar, lot, latt",
-    "english": "to let, allow"
-  },
-  {
-    "norsk": "å lage, lager, laget, laget",
-    "english": "to prepare"
-  },
-  {
-    "norsk": "å le, ler, lot, ledd",
-    "english": "to laugh"
-  },
-  {
-    "norsk": "å legge, legger, la, lagt",
-    "english": "to lay"
-  },
-  {
-    "norsk": "å leie, leier, leide, leid",
-    "english": "to hire"
-  },
-  {
-    "norsk": "å leke, leker, lekte, lekt",
-    "english": "to play"
-  },
-  {
-    "norsk": "å lese, leser, leste, lest",
-    "english": "to read"
-  },
-  {
-    "norsk": "å lete, leter, lette, lett",
-    "english": "to search"
-  },
-  {
-    "norsk": "å leve, lever, levde, levd",
-    "english": "to live, be alive"
-  },
-  {
-    "norsk": "å levere, leverer, leverte, levert",
-    "english": "to give up"
-  },
-  {
-    "norsk": "å lide, lider, led, lidd",
-    "english": "to suffer"
-  },
-  {
-    "norsk": "å ligge, ligger, lå, ligget",
-    "english": "to lie"
-  },
-  {
-    "norsk": "å like, liker, likte, likt",
-    "english": "to like"
-  },
-  {
-    "norsk": "å love, lover, lovet, lovet",
-    "english": "to promise"
-  },
-  {
-    "norsk": "å lufte, lufter, luftet, luftet",
-    "english": "to air"
-  },
-  {
-    "norsk": "å lukte, lukter, luktet, luktet",
-    "english": "to smell"
-  },
-  {
-    "norsk": "å lyde, lyder, lød, lydt",
-    "english": "to sound"
-  },
-  {
-    "norsk": "å lyge, lyger, løy, løyet",
-    "english": "to tell a lie"
-  },
-  {
-    "norsk": "å lytte, lytter, lyttet, lyttet",
-    "english": "to listen"
-  },
-  {
-    "norsk": "å lyve, lyver, løy, løyet",
-    "english": "to tell a lie"
-  },
-  {
-    "norsk": "å lære, lærer, lærte, lært",
-    "english": "to teach, learn"
-  },
-  {
-    "norsk": "å løfte, løfter, løftet, løftet",
-    "english": "to lift"
-  },
-  {
-    "norsk": "å løpe, løper, løp, løpt",
-    "english": "to run"
-  },
-  {
-    "norsk": "å løse, løser, løste, løst",
-    "english": "to loosen"
-  },
-  {
-    "norsk": "å låne, låner, lånte, lånt",
-    "english": "to loan"
-  },
-  {
-    "norsk": "å låse, låser, låste, låst",
-    "english": "to lock"
-  },
-  {
-    "norsk": "å mase, maser, maste, mast",
-    "english": "to bother"
-  },
-  {
-    "norsk": "å merke, merker, merket, merket",
-    "english": "to mark"
-  },
-  {
-    "norsk": "å minke, minker, minket, minket",
-    "english": "to decrease"
-  },
-  {
-    "norsk": "å miste, mister, mistet, mistet",
-    "english": "to lose"
-  },
-  {
-    "norsk": "å møte, møter, møtte, møtt",
-    "english": "to meet"
-  },
-  {
-    "norsk": "å måle, måler, målte, målt",
-    "english": "to measure"
-  },
-  {
-    "norsk": "å måtte, må, måtte, måttet",
-    "english": "to have to"
-  },
-  {
-    "norsk": "å neke, neker, nekte, nekt",
-    "english": "to "
-  },
-  {
-    "norsk": "å nekte, nekter, nektet, nektet",
-    "english": "to deny"
-  },
-  {
-    "norsk": "å nyse, nyser, nøs, nyst",
-    "english": "to sneeze"
-  },
-  {
-    "norsk": "å nyte, nyter, nøt, nytt",
-    "english": "to "
-  },
-  {
-    "norsk": "å omarbeide, omarbeider, omarbeidet, omarbeidet",
-    "english": "to revise"
-  },
-  {
-    "norsk": "å oppsøke, oppsøker, oppsøkte, oppsøkt",
-    "english": "to look up"
-  },
-  {
-    "norsk": "å overdrive, overdriver, overdrev, overdrevet",
-    "english": "to exaggerate"
-  },
-  {
-    "norsk": "å overnatte, overnatter, overnattet, overnattet",
-    "english": "to spend the night"
-  },
-  {
-    "norsk": "å overskrive, overskriver, overskrev, overskrevet",
-    "english": "to sign"
-  },
-  {
-    "norsk": "å overta, overtar, overtok, overtatt",
-    "english": "to take over"
-  },
-  {
-    "norsk": "å overtale, overtaler, overtalte, overtalt",
-    "english": "to persuade"
-  },
-  {
-    "norsk": "å pakke, pakker, pakket, pakket",
-    "english": "to pack"
-  },
-  {
-    "norsk": "å parkere, parkerer, parkerte, parkert",
-    "english": "to park"
-  },
-  {
-    "norsk": "å passe, passer, passet, passet",
-    "english": "to fit"
-  },
-  {
-    "norsk": "å peke, peker, pekte, pekt",
-    "english": "to point"
-  },
-  {
-    "norsk": "å pipe, piper, pe(i)p, pepet",
-    "english": "to wheeze"
-  },
-  {
-    "norsk": "å pleie, pleier, pleide, pleid",
-    "english": "to look after"
-  },
-  {
-    "norsk": "å plombere, plomberer, plomberte, plombert",
-    "english": "to stop, seal"
-  },
-  {
-    "norsk": "å plystre, plystrer, plystret, plystret",
-    "english": "to whistle"
-  },
-  {
-    "norsk": "å preke, preker, prekte, prekt",
-    "english": "to preach"
-  },
-  {
-    "norsk": "å prøve, prøver, prøvde, prøvd",
-    "english": "to try, test"
-  },
-  {
-    "norsk": "å pusse, pusser, pusset, pusset",
-    "english": "to clean, polish"
-  },
-  {
-    "norsk": "å putte, putter, puttet, puttet",
-    "english": "to put"
-  },
-  {
-    "norsk": "å pynte, pynter, pyntet, pyntet",
-    "english": "to decorate, trim"
-  },
-  {
-    "norsk": "å pågripe, pågriper, pågripet, pågripet",
-    "english": "to arrest"
-  },
-  {
-    "norsk": "å regne, regner, regnet, renget",
-    "english": "to rain"
-  },
-  {
-    "norsk": "å reise, reiser, reiste, reist",
-    "english": "to travel"
-  },
-  {
-    "norsk": "å rekke, rekker, rakk, rukket",
-    "english": "to reach"
-  },
-  {
-    "norsk": "å rekommandere, rekommanderer, rekommanderte, rekommandert",
-    "english": "to register"
-  },
-  {
-    "norsk": "å rense, renser, renset, renset",
-    "english": "to clean"
-  },
-  {
-    "norsk": "å reparere, reparerer, reparerte, reparert",
-    "english": "to repair"
-  },
-  {
-    "norsk": "å repetere, repeterer, repeterte, repetert",
-    "english": "to repeat, revise"
-  },
-  {
-    "norsk": "å representere, representerer, representerte, representert",
-    "english": "to represent"
-  },
-  {
-    "norsk": "å rette, retter, rettet, rettet",
-    "english": "to straighten, align"
-  },
-  {
-    "norsk": "å ri, rir, red, ridd",
-    "english": "to ride"
-  },
-  {
-    "norsk": "å ringe, ringer, ringte, ringt",
-    "english": "to ring"
-  },
-  {
-    "norsk": "å rive, river, rev, revet",
-    "english": "to grate"
-  },
-  {
-    "norsk": "å ro, ror, rodde, rodd",
-    "english": "to row"
-  },
-  {
-    "norsk": "å rope, roper, ropte, ropt",
-    "english": "to call, shout"
-  },
-  {
-    "norsk": "å ruske, rusker, rusket, rusket",
-    "english": "to pull"
-  },
-  {
-    "norsk": "å rydde, rydder, ryddet, ryddet",
-    "english": "to tidy"
-  },
-  {
-    "norsk": "å rydde av, rydder av, ryddet av, ryddet av",
-    "english": "to clear away, remove"
-  },
-  {
-    "norsk": "å ryke, ryker, røk, røket",
-    "english": "to smoke"
-  },
-  {
-    "norsk": "å røre, rører, rørte, rørt",
-    "english": "to stir"
-  },
-  {
-    "norsk": "å røyke, røyker, røykte, røykt",
-    "english": "to smoke"
-  },
-  {
-    "norsk": "å råde, råder, rådet, rådet",
-    "english": "to recommend"
-  },
-  {
-    "norsk": "å sage, sager, saget, saget",
-    "english": "to saw"
-  },
-  {
-    "norsk": "å samarbeide, samarbeider, samarbeidet, samarbeidet",
-    "english": "to work together"
-  },
-  {
-    "norsk": "å sammenlikne, sammenlikner, sammenliknet, sammenliknet",
-    "english": "to compare"
-  },
-  {
-    "norsk": "å savne, savner, savnet, savnet",
-    "english": "to lack"
-  },
-  {
-    "norsk": "å se, ser, så, sett",
-    "english": "to see, look"
-  },
-  {
-    "norsk": "å selge, selger, solgte, solgt",
-    "english": "to sell"
-  },
-  {
-    "norsk": "å sende, sender, sendte, sendt",
-    "english": "to send"
-  },
-  {
-    "norsk": "å servere, serverer, serverte, servert",
-    "english": "to serve"
-  },
-  {
-    "norsk": "å sette, setter, satte, satt",
-    "english": "to set"
-  },
-  {
-    "norsk": "å si, sier, sa, sagt",
-    "english": "to say"
-  },
-  {
-    "norsk": "å sige, siger, seg, seget",
-    "english": "to ooze, seep"
-  },
-  {
-    "norsk": "å sikte, sikter, siktet, siktet",
-    "english": "to aim"
-  },
-  {
-    "norsk": "å sitte, sitter, satt, sittet",
-    "english": "to sit"
-  },
-  {
-    "norsk": "å skifte, skifter, skiftet, skiftet",
-    "english": "to change, switch"
-  },
-  {
-    "norsk": "å skje, skjer, skjedde, skjedd",
-    "english": "to happen"
-  },
-  {
-    "norsk": "å skjelve, skjelver, skalv, skjelvet",
-    "english": "to tremble"
-  },
-  {
-    "norsk": "å skjære, skjærer, skar, skåret",
-    "english": "to cut"
-  },
-  {
-    "norsk": "å skjønne, skjønner, skjønte, skjønt",
-    "english": "to understand"
-  },
-  {
-    "norsk": "å skride, skrider, skred, skredet",
-    "english": "to proceed"
-  },
-  {
-    "norsk": "å skrive, skriver, skrev, skrevet",
-    "english": "to write"
-  },
-  {
-    "norsk": "å skru, skrur, skrudde, skrudd",
-    "english": "to screw"
-  },
-  {
-    "norsk": "å skryte, skryter, skrøt, skrytt",
-    "english": "to boast"
-  },
-  {
-    "norsk": "å skulle, skal, skulle, skullet",
-    "english": "to shall, have to"
-  },
-  {
-    "norsk": "å skvette, skvetter, skvettet, skvettet",
-    "english": "to splash"
-  },
-  {
-    "norsk": "å skylle, skyller, skylte, skylt",
-    "english": "to wash"
-  },
-  {
-    "norsk": "å skynde, skynder, skyndte, skyndet",
-    "english": "to hasten"
-  },
-  {
-    "norsk": "å skyte, skyter, skjøt, skutt",
-    "english": "to shoot"
-  },
-  {
-    "norsk": "å skyve, skyver, skøv, skutt",
-    "english": "to push, shove"
-  },
-  {
-    "norsk": "å slenge, slenger, slengte, slengt",
-    "english": "to throw"
-  },
-  {
-    "norsk": "å slippe, slipper, slapp, sluppet",
-    "english": "to drop"
-  },
-  {
-    "norsk": "å slite, sliter, slet, slitt",
-    "english": "to toil"
-  },
-  {
-    "norsk": "å slutte, slutter, sluttet, sluttet",
-    "english": "to end, close"
-  },
-  {
-    "norsk": "å slå, slår, slo, slått",
-    "english": "to hit"
-  },
-  {
-    "norsk": "å slåss, slåss, sloss, slåss",
-    "english": "to fight"
-  },
-  {
-    "norsk": "å smake, smaker, smaket, smaket",
-    "english": "to taste"
-  },
-  {
-    "norsk": "å smelle, smeller, smelte, smelt",
-    "english": "to bang, smack"
-  },
-  {
-    "norsk": "å smile, smiler, smilte, smilt",
-    "english": "to smile"
-  },
-  {
-    "norsk": "å smitte, smitter, smittet, smittet",
-    "english": "to infect"
-  },
-  {
-    "norsk": "å sminke, sminker, sminket, sminket",
-    "english": "to apply make up"
-  },
-  {
-    "norsk": "å smøre, smører, smurte, smurt",
-    "english": "to oil, lubricate"
-  },
-  {
-    "norsk": "å snakke, snakker, snakket, snakket",
-    "english": "to speak, talk"
-  },
-  {
-    "norsk": "å snegle, snegler, sneglet, sneglet",
-    "english": "to move slowly"
-  },
-  {
-    "norsk": "å snike, sniker, snek, sneket",
-    "english": "to sneak"
-  },
-  {
-    "norsk": "å snyte, snyter, snøt, snytt",
-    "english": "to cheat"
-  },
-  {
-    "norsk": "å snø, snør, snødde, snødd",
-    "english": "to snow"
-  },
-  {
-    "norsk": "å sove, sover, sov, sovet",
-    "english": "to sleep"
-  },
-  {
-    "norsk": "å sovne, sovner, sovnet, sovnet",
-    "english": "to fall asleep"
-  },
-  {
-    "norsk": "å spandere, spanderer, spanderte, spandert",
-    "english": "to spend"
-  },
-  {
-    "norsk": "å spare, sparer, sparte, spart",
-    "english": "to save, be economical"
-  },
-  {
-    "norsk": "å sparke, sparker, sparket, sparket",
-    "english": "to kick"
-  },
-  {
-    "norsk": "å spikre, spikrer, spikret, spikret",
-    "english": "to nail"
-  },
-  {
-    "norsk": "å spille, spiller, spilte, spilt",
-    "english": "to play"
-  },
-  {
-    "norsk": "å spinne, spinner, spant, spunnet",
-    "english": "to spin"
-  },
-  {
-    "norsk": "å spise, spiser, spiste, spist",
-    "english": "to eat"
-  },
-  {
-    "norsk": "å sprekke, sprekker, sprakk, sprukket",
-    "english": "to crack, burst"
-  },
-  {
-    "norsk": "å sprette, spretter, spratt, sprettet",
-    "english": "to bounce"
-  },
-  {
-    "norsk": "å springe, springer, sprang, sprunget",
-    "english": "to spring, leap"
-  },
-  {
-    "norsk": "å spørre, spør, spurte, spurt",
-    "english": "to ask"
-  },
-  {
-    "norsk": "å starte, starter, startet, startet",
-    "english": "to start"
-  },
-  {
-    "norsk": "å steke, steker, stekte, stekt",
-    "english": "to roast, fry, bake"
-  },
-  {
-    "norsk": "å stelle, steller, stelte, stelt",
-    "english": "to manage"
-  },
-  {
-    "norsk": "å stemme, stemmer, stemte, stemt",
-    "english": "to vote, agree"
-  },
-  {
-    "norsk": "å stevne, stevner, stevnet, stevnet",
-    "english": "to summon"
-  },
-  {
-    "norsk": "å stige, stiger, steg, steget",
-    "english": "to climb"
-  },
-  {
-    "norsk": "å stikke, stikker, stakk, stukket",
-    "english": "to stick"
-  },
-  {
-    "norsk": "å stille, stiller, stilte, stilt",
-    "english": "to put, place"
-  },
-  {
-    "norsk": "å stjele, stjeler, stjal, stjålet",
-    "english": "to steal"
-  },
-  {
-    "norsk": "å stoppe, stopper, stoppet, stoppet",
-    "english": "to stop"
-  },
-  {
-    "norsk": "å strekke, strekker, strakk, strukket",
-    "english": "to stretch"
-  },
-  {
-    "norsk": "å stri, strir, stred, stridd",
-    "english": "to struggle"
-  },
-  {
-    "norsk": "å strikke, strikker, strikket, strikket",
-    "english": "to knit"
-  },
-  {
-    "norsk": "å stryke, stryker, strøk, strøket",
-    "english": "to stroke"
-  },
-  {
-    "norsk": "å studere, studerer, studerte, studert",
-    "english": "to study"
-  },
-  {
-    "norsk": "å stå, står, stod, stått",
-    "english": "to stand"
-  },
-  {
-    "norsk": "å svare, svarer, svarte, svart",
-    "english": "to answer, reply"
-  },
-  {
-    "norsk": "å sverge, sverger, sverget, sverget",
-    "english": "to swear"
-  },
-  {
-    "norsk": "å svi, svir, sved, svidd",
-    "english": "to burn"
-  },
-  {
-    "norsk": "å svike, sviker, svek, sveket",
-    "english": "to defraud, deceive"
-  },
-  {
-    "norsk": "å svinge, svinger, svingte, svingt",
-    "english": "to swing, brandish"
-  },
-  {
-    "norsk": "å svømme, svømmer, svømte, svømt",
-    "english": "to swim"
-  },
-  {
-    "norsk": "å sy, syr, sydde, sydd",
-    "english": "to sew, make"
-  },
-  {
-    "norsk": "å sykle, sykler, syklet, syklet",
-    "english": "to cycle,"
-  },
-  {
-    "norsk": "å synes, syn(e)s, syntes, syn(e)s",
-    "english": "to think"
-  },
-  {
-    "norsk": "å synge, synger, sang, sunget",
-    "english": "to sing"
-  },
-  {
-    "norsk": "å synke, synker, sank, sunket",
-    "english": "to sink"
-  },
-  {
-    "norsk": "å søke, søker, søkte, søkt",
-    "english": "to apply, seek"
-  },
-  {
-    "norsk": "å ta, tar, tok, tatt",
-    "english": "to take"
-  },
-  {
-    "norsk": "å takke, takker, takket, takket",
-    "english": "to thank"
-  },
-  {
-    "norsk": "å tape, taper, tapte, tapt",
-    "english": "to lose"
-  },
-  {
-    "norsk": "å tappe, tapper, tappet, tappet",
-    "english": "to tap, draw"
-  },
-  {
-    "norsk": "å telle, teller, talte, talt",
-    "english": "to count"
-  },
-  {
-    "norsk": "å tenke, tenker, tenkte, tenkt",
-    "english": "to think"
-  },
-  {
-    "norsk": "å tenne, tenner, tente, tent",
-    "english": "to light, ignite"
-  },
-  {
-    "norsk": "å tigge, tigger, tagg, tigget",
-    "english": "to beg"
-  },
-  {
-    "norsk": "å tilby, tilbyr, tilbød, tilbudt",
-    "english": "to offer"
-  },
-  {
-    "norsk": "å tjene, tjener, tjente, tjent",
-    "english": "to earn"
-  },
-  {
-    "norsk": "å tore, tør, torde, tort",
-    "english": "to dare"
-  },
-  {
-    "norsk": "å torturere, torturerer, torturerte, torturert",
-    "english": "to torture"
-  },
-  {
-    "norsk": "å tre, trer, trådte, trådt",
-    "english": "to tread, step"
-  },
-  {
-    "norsk": "å treffe, treffer, traff, truffet",
-    "english": "to meet"
-  },
-  {
-    "norsk": "å trene, trener, trente, trent",
-    "english": "to train, work out"
-  },
-  {
-    "norsk": "å trenge, trenger, trengte, trengt",
-    "english": "to need"
-  },
-  {
-    "norsk": "å trive, triver, treiv, trevet",
-    "english": "to catch up, grab"
-  },
-  {
-    "norsk": "å trives, triv(e)s, trivdes, triv(e)s",
-    "english": "to thrive, happy"
-  },
-  {
-    "norsk": "å tro, tror, trodde, trodd",
-    "english": "to think"
-  },
-  {
-    "norsk": "å tvinge, tvinger, tvang, tvunget",
-    "english": "to force, compel"
-  },
-  {
-    "norsk": "å tørke, tørker, tørket, tørket",
-    "english": "to dry"
-  },
-  {
-    "norsk": "underskrive, underskriver, underskrev, underskrevet",
-    "english": "to sign"
-  },
-  {
-    "norsk": "å undersøke, undersøker, undersøkte, undersøkt",
-    "english": "to examine"
-  },
-  {
-    "norsk": "å unnskylde, unnskylder, unnskyldte, unnskyldt",
-    "english": "to excuse"
-  },
-  {
-    "norsk": "å utarbeide, utarbeider, utarbeidet, utarbeidet",
-    "english": "to prepare, work out"
-  },
-  {
-    "norsk": "å utføre, utfører, utførte, utført",
-    "english": "to export, perform"
-  },
-  {
-    "norsk": "å utslå, utslår, utslo, utslått",
-    "english": "to hanging down, down"
-  },
-  {
-    "norsk": "å varme, varmer, varmet, varmet",
-    "english": "to warm"
-  },
-  {
-    "norsk": "å vaske, vasker, vasket, vasket",
-    "english": "to wash"
-  },
-  {
-    "norsk": "å veie, veier, veide, veid",
-    "english": "to weigh"
-  },
-  {
-    "norsk": "å vekke, vekker, vekket, vekket",
-    "english": "to wake"
-  },
-  {
-    "norsk": "å velge, velger, valgte, valgt",
-    "english": "to select"
-  },
-  {
-    "norsk": "å vente, venter, ventet, ventet",
-    "english": "to wait"
-  },
-  {
-    "norsk": "å verne, verner, vernet, vernet",
-    "english": "to preserve, defend"
-  },
-  {
-    "norsk": "å vike, viker, vekket, veket",
-    "english": "to yield"
-  },
-  {
-    "norsk": "å ville, vil, ville, villet",
-    "english": "to want to, will"
-  },
-  {
-    "norsk": "å vinke, vinker, vinket, vinket",
-    "english": "to wave"
-  },
-  {
-    "norsk": "å vinne, vinner, vant, vunnet",
-    "english": "to win"
-  },
-  {
-    "norsk": "å vise, viser, viste, vist",
-    "english": "to indicate, point out"
-  },
-  {
-    "norsk": "å vite, vet, visste, visst",
-    "english": "to know"
-  },
-  {
-    "norsk": "å vokse, vokser, vokste, vokst",
-    "english": "to grow, increase"
-  },
-  {
-    "norsk": "å voldta, voldtar, voldtok, voldtatt",
-    "english": "to rape"
-  },
-  {
-    "norsk": "å vri, vrir, vred, vridd",
-    "english": "to twist"
-  },
-  {
-    "norsk": "å være, er, varmet, vært",
-    "english": "to be, exist"
-  },
-  {
-    "norsk": "å våkne, våkner, våknet, våknet",
-    "english": "to wake, awaken"
-  },
-  {
-    "norsk": "å øke, øker, økte, økt",
-    "english": "to increase"
-  },
-  {
-    "norsk": "å ønske, ønsker, ønsket, ønsket",
-    "english": "to wish"
-  },
-  {
-    "norsk": "å øve, øver, øvde, øvd",
-    "english": "to practise"
-  }
+	{
+		"norsk": "å adlyde, adlyder, adlød, adlydt",
+		"english": "to obey"
+	},
+	{
+		"norsk": "å anbefale, anbefaler, anbefalte, anbefalt",
+		"english": "to recommend"
+	},
+	{
+		"norsk": "å ansette, ansetter, ansatte, ansatt",
+		"english": "to employ"
+	},
+	{
+		"norsk": "å arbeide, arbeider, arbeidet, arbeidet",
+		"english": "to work"
+	},
+	{
+		"norsk": "å avslå, avslår, avslo, avslått",
+		"english": "to repulse"
+	},
+	{
+		"norsk": "å avstå, avstår, avstod, avstatt",
+		"english": "to cede"
+	},
+	{
+		"norsk": "å bade, bader, badet, badet",
+		"english": "to bath"
+	},
+	{
+		"norsk": "å banke, banker, banket, banket",
+		"english": "to beat, hit"
+	},
+	{
+		"norsk": "å barbere, barberer, barberte, barbert",
+		"english": "to shave"
+	},
+	{
+		"norsk": "å be, ber, ba(d), bedt",
+		"english": "to ask"
+	},
+	{
+		"norsk": "å bearbeide, bearbeider, bearbeidet, bearbeidet",
+		"english": "to adapt"
+	},
+	{
+		"norsk": "å bedra, bedrar, bedro, bedratt",
+		"english": "to cheat"
+	},
+	{
+		"norsk": "å bedøve, bedøver, bedøvet, bedøvet",
+		"english": "to drug"
+	},
+	{
+		"norsk": "å bedøve, bedøver, bedøvde, bedøvd",
+		"english": "to anaesthetise"
+	},
+	{
+		"norsk": "å begynne, begynner, begynte, begynt",
+		"english": "to begin"
+	},
+	{
+		"norsk": "å behandle, behandler, behandlet, behandlet",
+		"english": "to handle"
+	},
+	{
+		"norsk": "å beite, beiter, beitet, beitet",
+		"english": "to graze"
+	},
+	{
+		"norsk": "å beskrive, beskriver, beskrev, beskrevet",
+		"english": "to describe"
+	},
+	{
+		"norsk": "å bestemme, bestemmer, bestemte, bestemt",
+		"english": "to decide"
+	},
+	{
+		"norsk": "å beslå, beslår, beslo, beslått",
+		"english": "to mount"
+	},
+	{
+		"norsk": "å bestille, bestiller, bestilte, bestilt",
+		"english": "to do, order"
+	},
+	{
+		"norsk": "å bestå, består, besto(d), bestått",
+		"english": "to pass (as in exam)"
+	},
+	{
+		"norsk": "å besøke, besøker, besøkte, besøkt",
+		"english": "to visit"
+	},
+	{
+		"norsk": "å betale, betaler, betalte, betalt",
+		"english": "to pay"
+	},
+	{
+		"norsk": "å bety, betyr, betydde, betydd",
+		"english": "to mean, signify"
+	},
+	{
+		"norsk": "å binde, binder, bandt, bundet",
+		"english": "to bind"
+	},
+	{
+		"norsk": "å bite, biter, betalte, bit",
+		"english": "to bite"
+	},
+	{
+		"norsk": "å bjeffe, bjeffer, bjeffet, bjeffet",
+		"english": "to bark, yap"
+	},
+	{
+		"norsk": "å blande, blander, blandet, blandet",
+		"english": "to blend, mix"
+	},
+	{
+		"norsk": "å bli, blir, ble, blitt",
+		"english": "to be"
+	},
+	{
+		"norsk": "å blø, blør, blødde, blødd",
+		"english": "to bleed"
+	},
+	{
+		"norsk": "å blåse, blåser, blåste, blåst",
+		"english": "to blow"
+	},
+	{
+		"norsk": "å bo, bor, bordde, bordd",
+		"english": "to live, reside"
+	},
+	{
+		"norsk": "å brekke, brekker, brakk, brukket",
+		"english": "to break"
+	},
+	{
+		"norsk": "å brenne, brenner, brente, brent",
+		"english": "to burn"
+	},
+	{
+		"norsk": "å bringe, bringer, brakte, brakt",
+		"english": "to bring"
+	},
+	{
+		"norsk": "å briste, brister, brast, bristet",
+		"english": "to burst"
+	},
+	{
+		"norsk": "å bruke, bruker, brukte, brukt",
+		"english": "to use"
+	},
+	{
+		"norsk": "å bry, bryr, brydde, brydd",
+		"english": "to bother"
+	},
+	{
+		"norsk": "å bryte, bryter, brøt, brutt",
+		"english": "to violate, break"
+	},
+	{
+		"norsk": "å burde, bør, burde, burdet",
+		"english": "to ought to"
+	},
+	{
+		"norsk": "å by, byr, bød, budt",
+		"english": "to offer, bid"
+	},
+	{
+		"norsk": "å bygge, bygger, bygde, bygd",
+		"english": "to build"
+	},
+	{
+		"norsk": "å bytte, bytter, byttet, byttet",
+		"english": "to change, exchange"
+	},
+	{
+		"norsk": "å bære, bærer, bar, båret",
+		"english": "to bear, endure"
+	},
+	{
+		"norsk": "å danse, danser, danset, danset",
+		"english": "to dance"
+	},
+	{
+		"norsk": "å dele, deler, delte, delt",
+		"english": "to divide"
+	},
+	{
+		"norsk": "å demokratisere, demokratiserer, demokratiserte, demokratisert",
+		"english": "to democratize"
+	},
+	{
+		"norsk": "å diskutere, diskuterer, diskuterte, diskutert",
+		"english": "to discuss"
+	},
+	{
+		"norsk": "å dra, drar, drog, dradd/dratt",
+		"english": "to go / drag"
+	},
+	{
+		"norsk": "å drikke, drikker, drakk, drukket",
+		"english": "to drink"
+	},
+	{
+		"norsk": "å drive, driver, drev, drevet",
+		"english": "to drive, operate"
+	},
+	{
+		"norsk": "å drømme, drømmer, drømte, drømt",
+		"english": "to dream"
+	},
+	{
+		"norsk": "å dusje, dusjer, dusjet, dusjet",
+		"english": "to shower"
+	},
+	{
+		"norsk": "å dyrke, dyrker, dyrket, dyrket",
+		"english": "to cultivate"
+	},
+	{
+		"norsk": "å dytte, dytter, dyttet, dyttet",
+		"english": "to push"
+	},
+	{
+		"norsk": "å eie, eier, eide, eid",
+		"english": "to possess"
+	},
+	{
+		"norsk": "å ese, eser, este, est",
+		"english": "to rise"
+	},
+	{
+		"norsk": "å ete, eter, åt, ett",
+		"english": "to eat greedily"
+	},
+	{
+		"norsk": "å evangelisere, evangeliserer, evangeliserte, evangelisert",
+		"english": "to evangelize"
+	},
+	{
+		"norsk": "å falle, faller, falt, falt",
+		"english": "to fall"
+	},
+	{
+		"norsk": "å feire, feirer, feiret, feiret",
+		"english": "to celebrate"
+	},
+	{
+		"norsk": "å finne, finner, fant, funnet",
+		"english": "to find"
+	},
+	{
+		"norsk": "å fiske, fisker, fisket, fisket",
+		"english": "to fish"
+	},
+	{
+		"norsk": "å fleipe, fleiper, fleipte, fleipt",
+		"english": "to joke"
+	},
+	{
+		"norsk": "å fly, flyr, fløy, fløyet",
+		"english": "to fly"
+	},
+	{
+		"norsk": "å flykte, flykter, flyktet, flyktet",
+		"english": "to flee"
+	},
+	{
+		"norsk": "å flyte, flyter, fløt, flytt",
+		"english": "to float"
+	},
+	{
+		"norsk": "flytte, flytter, flyttet, flyttet",
+		"english": "to move"
+	},
+	{
+		"norsk": "å forene, forener, forente, forent",
+		"english": "to unite"
+	},
+	{
+		"norsk": "å foreslå, foreslår, foreslo, foreslått",
+		"english": "to suggest"
+	},
+	{
+		"norsk": "å foreta, foretar, foretok, foretatt",
+		"english": "to undertake"
+	},
+	{
+		"norsk": "å forkjøle seg, forkjøler seg, forkjølet seg, forkjølt seg",
+		"english": "to catch a cold"
+	},
+	{
+		"norsk": "å forklare, forklarer, forklarte, forklart",
+		"english": "to explain"
+	},
+	{
+		"norsk": "å forlate, forlater, forlot, forlatt",
+		"english": "to forgive"
+	},
+	{
+		"norsk": "å fornye, fornyer, fornyet, fornyet",
+		"english": "to renew"
+	},
+	{
+		"norsk": "å forstå, forstår, forstod, forstått",
+		"english": "to understand"
+	},
+	{
+		"norsk": "å forsvinne, forsvinner, forsvant, forsvunnet",
+		"english": "to disappear"
+	},
+	{
+		"norsk": "å fortelle, forteller, fortalte, fortalt",
+		"english": "to tell"
+	},
+	{
+		"norsk": "å fortsette, fortsetter, fortsatte, fortsatt",
+		"english": "to continue"
+	},
+	{
+		"norsk": "å fosse, fosser, fosset, fosset",
+		"english": "to gush"
+	},
+	{
+		"norsk": "å fotografere, fotograferer, fotograferte, fotografert",
+		"english": "to photograph"
+	},
+	{
+		"norsk": "å fryse, fryser, frøs, frosset",
+		"english": "to freeze"
+	},
+	{
+		"norsk": "å fylle, fyller, fylte, fylt",
+		"english": "to fill"
+	},
+	{
+		"norsk": "å føde, føder, fødte, født",
+		"english": "to bear, give birth to"
+	},
+	{
+		"norsk": "å føle seg, føler seg, følte seg, følt seg",
+		"english": "to be, feel"
+	},
+	{
+		"norsk": "å følge, følger, fulgte, fulgt",
+		"english": "to follow"
+	},
+	{
+		"norsk": "å føne, føner, fønte, fønt",
+		"english": "to blow dry"
+	},
+	{
+		"norsk": "å få, får, fikk, fått",
+		"english": "to get"
+	},
+	{
+		"norsk": "å gale, galer, gol, galt",
+		"english": "to crow"
+	},
+	{
+		"norsk": "å gape, gaper, gapte, gapt",
+		"english": "to gape"
+	},
+	{
+		"norsk": "å gi, gir, gav, gitt",
+		"english": "to give"
+	},
+	{
+		"norsk": "å gidde, gidder, gadd, giddet",
+		"english": "to take the trouble"
+	},
+	{
+		"norsk": "å gifte, gifter, giftet, giftet",
+		"english": "to marry"
+	},
+	{
+		"norsk": "å gjelde, gjelder, gjaldt, gjeldt",
+		"english": "to to be worth"
+	},
+	{
+		"norsk": "å gjenta, gjentar, gjentok, gjentatt",
+		"english": "to repeat"
+	},
+	{
+		"norsk": "å gjette, gjetter, gjettet, gjettet",
+		"english": "to guess"
+	},
+	{
+		"norsk": "å gjøre, gjør, gjorde, gjort",
+		"english": "to do"
+	},
+	{
+		"norsk": "å glede seg, gleder seg, gledet seg, gledet seg",
+		"english": "to look forward"
+	},
+	{
+		"norsk": "å glemme, glemmer, glemte, glemt",
+		"english": "to forget"
+	},
+	{
+		"norsk": "å gli, glir, glei/gled, glidd",
+		"english": "to slide, glide"
+	},
+	{
+		"norsk": "å gnage, gnager, gnog, gnaget",
+		"english": "to gnaw"
+	},
+	{
+		"norsk": "å gni, gnir, gned, gnidd",
+		"english": "to rub"
+	},
+	{
+		"norsk": "å gratulere, gratulerer, gratulerte, gratulert",
+		"english": "to congratulate"
+	},
+	{
+		"norsk": "å grave, graver, grov, gravd",
+		"english": "to dig"
+	},
+	{
+		"norsk": "å gre, grer, gredde, gredd",
+		"english": "to comb"
+	},
+	{
+		"norsk": "å greie, greier, greide, greid",
+		"english": "to manage, cope with"
+	},
+	{
+		"norsk": "å grense, grenser, grenset, grenset",
+		"english": "to border"
+	},
+	{
+		"norsk": "å grille, griller, grillet, grillet",
+		"english": "to grill"
+	},
+	{
+		"norsk": "å grine, griner, grein, grint",
+		"english": "to fret"
+	},
+	{
+		"norsk": "å gripe, griper, grep, grepet",
+		"english": "to grip"
+	},
+	{
+		"norsk": "å grue seg, gruer seg, grudde seg, gruet",
+		"english": "to dread"
+	},
+	{
+		"norsk": "å gråte, gråter, gråt, grått",
+		"english": "to cry"
+	},
+	{
+		"norsk": "å gyse, gyser, gjøs, gyst",
+		"english": "to shudder"
+	},
+	{
+		"norsk": "å gyte, gyter, gjøt, gytt",
+		"english": "to spawn"
+	},
+	{
+		"norsk": "å gyve, gyver, gjøv, gjøvet",
+		"english": "to fly"
+	},
+	{
+		"norsk": "å gå, går, gikk, gått",
+		"english": "to go, walk"
+	},
+	{
+		"norsk": "å ha, har, hadde, hatt",
+		"english": "to have"
+	},
+	{
+		"norsk": "å handle, handler, handlet, handlet",
+		"english": "to deal, act"
+	},
+	{
+		"norsk": "å hende, hender, hendte, hendt",
+		"english": "to occur"
+	},
+	{
+		"norsk": "å henge, henger, hang/hengte, hengt",
+		"english": "to hang"
+	},
+	{
+		"norsk": "å hente, henter, hentet, hentet",
+		"english": "to get"
+	},
+	{
+		"norsk": "å hete, heter, het, hett",
+		"english": "to name"
+	},
+	{
+		"norsk": "å hilse, hilser, hilste, hilst",
+		"english": "to greet"
+	},
+	{
+		"norsk": "å hindre, hindrer, hindret, hindret",
+		"english": "to prevent"
+	},
+	{
+		"norsk": "å hive, hiver, hev, hevet",
+		"english": "to heave"
+	},
+	{
+		"norsk": "å hjelpe, hjelper, hjalp, hjulpet",
+		"english": "to help"
+	},
+	{
+		"norsk": "å holde, holder, holdt, holdt",
+		"english": "to hold"
+	},
+	{
+		"norsk": "å hogge, hogger, hogg, hogd",
+		"english": "to cut, chop"
+	},
+	{
+		"norsk": "å hoppe, hopper, hoppet, hoppet",
+		"english": "to jump"
+	},
+	{
+		"norsk": "å hoste, hoster, hostet, hostet",
+		"english": "to cough"
+	},
+	{
+		"norsk": "å huske, husker, husket, husket",
+		"english": "to remember"
+	},
+	{
+		"norsk": "å hvile, hviler, hvilte, hvilt",
+		"english": "to rest"
+	},
+	{
+		"norsk": "å hygge, hygger, hygget, hygget",
+		"english": "to comfort"
+	},
+	{
+		"norsk": "å høre, hører, hørte, hørt",
+		"english": "to hear"
+	},
+	{
+		"norsk": "å høste, høster, høstet, høstet",
+		"english": "to harvest"
+	},
+	{
+		"norsk": "å håpe, håper, håpet, håpet",
+		"english": "to hope"
+	},
+	{
+		"norsk": "å invitere, inviterer, inviterte, invitert",
+		"english": "to invite"
+	},
+	{
+		"norsk": "å jobbe, jobber, jobbet, jobbet",
+		"english": "to work"
+	},
+	{
+		"norsk": "å kalkulere, kalkulerer, kalkulerte, kalkulert",
+		"english": "to calculate"
+	},
+	{
+		"norsk": "å kaste, kaster, kastet, kastet",
+		"english": "to cast"
+	},
+	{
+		"norsk": "å kjenne, kjenner, kjente, kjent",
+		"english": "to feel"
+	},
+	{
+		"norsk": "å kjøpe, kjøper, kjøpte, kjøpt",
+		"english": "to buy"
+	},
+	{
+		"norsk": "å kjøre, kjører, kjørte, kjørt",
+		"english": "to drive"
+	},
+	{
+		"norsk": "å klappe, klapper, klappet, klappet",
+		"english": "to clap"
+	},
+	{
+		"norsk": "å klare, klarer, klarte, klart",
+		"english": "to manage"
+	},
+	{
+		"norsk": "å kle, kler, kledde, kledd",
+		"english": "to dress, clothe"
+	},
+	{
+		"norsk": "å klinge, klinger, klingte, klingt",
+		"english": "to sound"
+	},
+	{
+		"norsk": "å klippe, klipper, klipte, klipt",
+		"english": "to cut, clip"
+	},
+	{
+		"norsk": "å klype, klyper, kløp, kløpet",
+		"english": "to pinch"
+	},
+	{
+		"norsk": "å klyve, klyver, kløv, kløvet",
+		"english": "to climb"
+	},
+	{
+		"norsk": "å knekke, knekker, knakk, knekt",
+		"english": "to crack"
+	},
+	{
+		"norsk": "å knipe, kniper, knep, knepet",
+		"english": "to pinch"
+	},
+	{
+		"norsk": "å knyte, knyter, knytet/knøt, knytet/knytt",
+		"english": "to tie"
+	},
+	{
+		"norsk": "å koke, koker, kokte, kokt",
+		"english": "to cook"
+	},
+	{
+		"norsk": "å komme, kommer, kom, kommet",
+		"english": "to come"
+	},
+	{
+		"norsk": "å kontaktere, kontakterer, kontakterte, kontaktert",
+		"english": "to contact"
+	},
+	{
+		"norsk": "å kontrollere, kontrollerer, kontrollerte, kontrollert",
+		"english": "to control"
+	},
+	{
+		"norsk": "å kopiere, kopierer, kopierte, kopiert",
+		"english": "to copy"
+	},
+	{
+		"norsk": "å korrigere, korrigerer, korrigerte, korrigert",
+		"english": "to correct"
+	},
+	{
+		"norsk": "å kose seg, koser seg, koste seg, kost seg",
+		"english": "to enjoy yourself"
+	},
+	{
+		"norsk": "å koste, koster, kostet, kostet",
+		"english": "to cost"
+	},
+	{
+		"norsk": "å kunne, kan, kunne, kunnet",
+		"english": "to could"
+	},
+	{
+		"norsk": "å krype, kryper, krøp, krøpet",
+		"english": "to creep"
+	},
+	{
+		"norsk": "å kvele, kveler, kvalte, kvalt",
+		"english": "to choke, strangle"
+	},
+	{
+		"norsk": "å la, lar, lot, latt",
+		"english": "to let, allow"
+	},
+	{
+		"norsk": "å lage, lager, laget, laget",
+		"english": "to prepare"
+	},
+	{
+		"norsk": "å le, ler, lot, ledd",
+		"english": "to laugh"
+	},
+	{
+		"norsk": "å legge, legger, la, lagt",
+		"english": "to lay"
+	},
+	{
+		"norsk": "å leie, leier, leide, leid",
+		"english": "to hire"
+	},
+	{
+		"norsk": "å leke, leker, lekte, lekt",
+		"english": "to play"
+	},
+	{
+		"norsk": "å lese, leser, leste, lest",
+		"english": "to read"
+	},
+	{
+		"norsk": "å lete, leter, lette, lett",
+		"english": "to search"
+	},
+	{
+		"norsk": "å leve, lever, levde, levd",
+		"english": "to live, be alive"
+	},
+	{
+		"norsk": "å levere, leverer, leverte, levert",
+		"english": "to give up"
+	},
+	{
+		"norsk": "å lide, lider, led, lidd",
+		"english": "to suffer"
+	},
+	{
+		"norsk": "å ligge, ligger, lå, ligget",
+		"english": "to lie"
+	},
+	{
+		"norsk": "å like, liker, likte, likt",
+		"english": "to like"
+	},
+	{
+		"norsk": "å love, lover, lovet, lovet",
+		"english": "to promise"
+	},
+	{
+		"norsk": "å lufte, lufter, luftet, luftet",
+		"english": "to air"
+	},
+	{
+		"norsk": "å lukte, lukter, luktet, luktet",
+		"english": "to smell"
+	},
+	{
+		"norsk": "å lyde, lyder, lød, lydt",
+		"english": "to sound"
+	},
+	{
+		"norsk": "å lyge, lyger, løy, løyet",
+		"english": "to tell a lie"
+	},
+	{
+		"norsk": "å lytte, lytter, lyttet, lyttet",
+		"english": "to listen"
+	},
+	{
+		"norsk": "å lyve, lyver, løy, løyet",
+		"english": "to tell a lie"
+	},
+	{
+		"norsk": "å lære, lærer, lærte, lært",
+		"english": "to teach, learn"
+	},
+	{
+		"norsk": "å løfte, løfter, løftet, løftet",
+		"english": "to lift"
+	},
+	{
+		"norsk": "å løpe, løper, løp, løpt",
+		"english": "to run"
+	},
+	{
+		"norsk": "å løse, løser, løste, løst",
+		"english": "to loosen"
+	},
+	{
+		"norsk": "å låne, låner, lånte, lånt",
+		"english": "to loan"
+	},
+	{
+		"norsk": "å låse, låser, låste, låst",
+		"english": "to lock"
+	},
+	{
+		"norsk": "å mase, maser, maste, mast",
+		"english": "to bother"
+	},
+	{
+		"norsk": "å merke, merker, merket, merket",
+		"english": "to mark"
+	},
+	{
+		"norsk": "å minke, minker, minket, minket",
+		"english": "to decrease"
+	},
+	{
+		"norsk": "å miste, mister, mistet, mistet",
+		"english": "to lose"
+	},
+	{
+		"norsk": "å møte, møter, møtte, møtt",
+		"english": "to meet"
+	},
+	{
+		"norsk": "å måle, måler, målte, målt",
+		"english": "to measure"
+	},
+	{
+		"norsk": "å måtte, må, måtte, måttet",
+		"english": "to have to"
+	},
+	{
+		"norsk": "å neke, neker, nekte, nekt",
+		"english": "to "
+	},
+	{
+		"norsk": "å nekte, nekter, nektet, nektet",
+		"english": "to deny"
+	},
+	{
+		"norsk": "å nyse, nyser, nøs, nyst",
+		"english": "to sneeze"
+	},
+	{
+		"norsk": "å nyte, nyter, nøt, nytt",
+		"english": "to "
+	},
+	{
+		"norsk": "å omarbeide, omarbeider, omarbeidet, omarbeidet",
+		"english": "to revise"
+	},
+	{
+		"norsk": "å oppsøke, oppsøker, oppsøkte, oppsøkt",
+		"english": "to look up"
+	},
+	{
+		"norsk": "å overdrive, overdriver, overdrev, overdrevet",
+		"english": "to exaggerate"
+	},
+	{
+		"norsk": "å overnatte, overnatter, overnattet, overnattet",
+		"english": "to spend the night"
+	},
+	{
+		"norsk": "å overskrive, overskriver, overskrev, overskrevet",
+		"english": "to sign"
+	},
+	{
+		"norsk": "å overta, overtar, overtok, overtatt",
+		"english": "to take over"
+	},
+	{
+		"norsk": "å overtale, overtaler, overtalte, overtalt",
+		"english": "to persuade"
+	},
+	{
+		"norsk": "å pakke, pakker, pakket, pakket",
+		"english": "to pack"
+	},
+	{
+		"norsk": "å parkere, parkerer, parkerte, parkert",
+		"english": "to park"
+	},
+	{
+		"norsk": "å passe, passer, passet, passet",
+		"english": "to fit"
+	},
+	{
+		"norsk": "å peke, peker, pekte, pekt",
+		"english": "to point"
+	},
+	{
+		"norsk": "å pipe, piper, pe(i)p, pepet",
+		"english": "to wheeze"
+	},
+	{
+		"norsk": "å pleie, pleier, pleide, pleid",
+		"english": "to look after"
+	},
+	{
+		"norsk": "å plombere, plomberer, plomberte, plombert",
+		"english": "to stop, seal"
+	},
+	{
+		"norsk": "å plystre, plystrer, plystret, plystret",
+		"english": "to whistle"
+	},
+	{
+		"norsk": "å preke, preker, prekte, prekt",
+		"english": "to preach"
+	},
+	{
+		"norsk": "å prøve, prøver, prøvde, prøvd",
+		"english": "to try, test"
+	},
+	{
+		"norsk": "å pusse, pusser, pusset, pusset",
+		"english": "to clean, polish"
+	},
+	{
+		"norsk": "å putte, putter, puttet, puttet",
+		"english": "to put"
+	},
+	{
+		"norsk": "å pynte, pynter, pyntet, pyntet",
+		"english": "to decorate, trim"
+	},
+	{
+		"norsk": "å pågripe, pågriper, pågripet, pågripet",
+		"english": "to arrest"
+	},
+	{
+		"norsk": "å regne, regner, regnet, renget",
+		"english": "to rain"
+	},
+	{
+		"norsk": "å reise, reiser, reiste, reist",
+		"english": "to travel"
+	},
+	{
+		"norsk": "å rekke, rekker, rakk, rukket",
+		"english": "to reach"
+	},
+	{
+		"norsk": "å rekommandere, rekommanderer, rekommanderte, rekommandert",
+		"english": "to register"
+	},
+	{
+		"norsk": "å rense, renser, renset, renset",
+		"english": "to clean"
+	},
+	{
+		"norsk": "å reparere, reparerer, reparerte, reparert",
+		"english": "to repair"
+	},
+	{
+		"norsk": "å repetere, repeterer, repeterte, repetert",
+		"english": "to repeat, revise"
+	},
+	{
+		"norsk": "å representere, representerer, representerte, representert",
+		"english": "to represent"
+	},
+	{
+		"norsk": "å rette, retter, rettet, rettet",
+		"english": "to straighten, align"
+	},
+	{
+		"norsk": "å ri, rir, red, ridd",
+		"english": "to ride"
+	},
+	{
+		"norsk": "å ringe, ringer, ringte, ringt",
+		"english": "to ring"
+	},
+	{
+		"norsk": "å rive, river, rev, revet",
+		"english": "to grate"
+	},
+	{
+		"norsk": "å ro, ror, rodde, rodd",
+		"english": "to row"
+	},
+	{
+		"norsk": "å rope, roper, ropte, ropt",
+		"english": "to call, shout"
+	},
+	{
+		"norsk": "å ruske, rusker, rusket, rusket",
+		"english": "to pull"
+	},
+	{
+		"norsk": "å rydde, rydder, ryddet, ryddet",
+		"english": "to tidy"
+	},
+	{
+		"norsk": "å rydde av, rydder av, ryddet av, ryddet av",
+		"english": "to clear away, remove"
+	},
+	{
+		"norsk": "å ryke, ryker, røk, røket",
+		"english": "to smoke"
+	},
+	{
+		"norsk": "å røre, rører, rørte, rørt",
+		"english": "to stir"
+	},
+	{
+		"norsk": "å røyke, røyker, røykte, røykt",
+		"english": "to smoke"
+	},
+	{
+		"norsk": "å råde, råder, rådet, rådet",
+		"english": "to recommend"
+	},
+	{
+		"norsk": "å sage, sager, saget, saget",
+		"english": "to saw"
+	},
+	{
+		"norsk": "å samarbeide, samarbeider, samarbeidet, samarbeidet",
+		"english": "to work together"
+	},
+	{
+		"norsk": "å sammenlikne, sammenlikner, sammenliknet, sammenliknet",
+		"english": "to compare"
+	},
+	{
+		"norsk": "å savne, savner, savnet, savnet",
+		"english": "to lack"
+	},
+	{
+		"norsk": "å se, ser, så, sett",
+		"english": "to see, look"
+	},
+	{
+		"norsk": "å selge, selger, solgte, solgt",
+		"english": "to sell"
+	},
+	{
+		"norsk": "å sende, sender, sendte, sendt",
+		"english": "to send"
+	},
+	{
+		"norsk": "å servere, serverer, serverte, servert",
+		"english": "to serve"
+	},
+	{
+		"norsk": "å sette, setter, satte, satt",
+		"english": "to set"
+	},
+	{
+		"norsk": "å si, sier, sa, sagt",
+		"english": "to say"
+	},
+	{
+		"norsk": "å sige, siger, seg, seget",
+		"english": "to ooze, seep"
+	},
+	{
+		"norsk": "å sikte, sikter, siktet, siktet",
+		"english": "to aim"
+	},
+	{
+		"norsk": "å sitte, sitter, satt, sittet",
+		"english": "to sit"
+	},
+	{
+		"norsk": "å skifte, skifter, skiftet, skiftet",
+		"english": "to change, switch"
+	},
+	{
+		"norsk": "å skje, skjer, skjedde, skjedd",
+		"english": "to happen"
+	},
+	{
+		"norsk": "å skjelve, skjelver, skalv, skjelvet",
+		"english": "to tremble"
+	},
+	{
+		"norsk": "å skjære, skjærer, skar, skåret",
+		"english": "to cut"
+	},
+	{
+		"norsk": "å skjønne, skjønner, skjønte, skjønt",
+		"english": "to understand"
+	},
+	{
+		"norsk": "å skride, skrider, skred, skredet",
+		"english": "to proceed"
+	},
+	{
+		"norsk": "å skrive, skriver, skrev, skrevet",
+		"english": "to write"
+	},
+	{
+		"norsk": "å skru, skrur, skrudde, skrudd",
+		"english": "to screw"
+	},
+	{
+		"norsk": "å skryte, skryter, skrøt, skrytt",
+		"english": "to boast"
+	},
+	{
+		"norsk": "å skulle, skal, skulle, skullet",
+		"english": "to shall, have to"
+	},
+	{
+		"norsk": "å skvette, skvetter, skvettet, skvettet",
+		"english": "to splash"
+	},
+	{
+		"norsk": "å skylle, skyller, skylte, skylt",
+		"english": "to wash"
+	},
+	{
+		"norsk": "å skynde, skynder, skyndte, skyndet",
+		"english": "to hasten"
+	},
+	{
+		"norsk": "å skyte, skyter, skjøt, skutt",
+		"english": "to shoot"
+	},
+	{
+		"norsk": "å skyve, skyver, skøv, skutt",
+		"english": "to push, shove"
+	},
+	{
+		"norsk": "å slenge, slenger, slengte, slengt",
+		"english": "to throw"
+	},
+	{
+		"norsk": "å slippe, slipper, slapp, sluppet",
+		"english": "to drop"
+	},
+	{
+		"norsk": "å slite, sliter, slet, slitt",
+		"english": "to toil"
+	},
+	{
+		"norsk": "å slutte, slutter, sluttet, sluttet",
+		"english": "to end, close"
+	},
+	{
+		"norsk": "å slå, slår, slo, slått",
+		"english": "to hit"
+	},
+	{
+		"norsk": "å slåss, slåss, sloss, slåss",
+		"english": "to fight"
+	},
+	{
+		"norsk": "å smake, smaker, smaket, smaket",
+		"english": "to taste"
+	},
+	{
+		"norsk": "å smelle, smeller, smelte, smelt",
+		"english": "to bang, smack"
+	},
+	{
+		"norsk": "å smile, smiler, smilte, smilt",
+		"english": "to smile"
+	},
+	{
+		"norsk": "å smitte, smitter, smittet, smittet",
+		"english": "to infect"
+	},
+	{
+		"norsk": "å sminke, sminker, sminket, sminket",
+		"english": "to apply make up"
+	},
+	{
+		"norsk": "å smøre, smører, smurte, smurt",
+		"english": "to oil, lubricate"
+	},
+	{
+		"norsk": "å snakke, snakker, snakket, snakket",
+		"english": "to speak, talk"
+	},
+	{
+		"norsk": "å snegle, snegler, sneglet, sneglet",
+		"english": "to move slowly"
+	},
+	{
+		"norsk": "å snike, sniker, snek, sneket",
+		"english": "to sneak"
+	},
+	{
+		"norsk": "å snyte, snyter, snøt, snytt",
+		"english": "to cheat"
+	},
+	{
+		"norsk": "å snø, snør, snødde, snødd",
+		"english": "to snow"
+	},
+	{
+		"norsk": "å sove, sover, sov, sovet",
+		"english": "to sleep"
+	},
+	{
+		"norsk": "å sovne, sovner, sovnet, sovnet",
+		"english": "to fall asleep"
+	},
+	{
+		"norsk": "å spandere, spanderer, spanderte, spandert",
+		"english": "to spend"
+	},
+	{
+		"norsk": "å spare, sparer, sparte, spart",
+		"english": "to save, be economical"
+	},
+	{
+		"norsk": "å sparke, sparker, sparket, sparket",
+		"english": "to kick"
+	},
+	{
+		"norsk": "å spikre, spikrer, spikret, spikret",
+		"english": "to nail"
+	},
+	{
+		"norsk": "å spille, spiller, spilte, spilt",
+		"english": "to play"
+	},
+	{
+		"norsk": "å spinne, spinner, spant, spunnet",
+		"english": "to spin"
+	},
+	{
+		"norsk": "å spise, spiser, spiste, spist",
+		"english": "to eat"
+	},
+	{
+		"norsk": "å sprekke, sprekker, sprakk, sprukket",
+		"english": "to crack, burst"
+	},
+	{
+		"norsk": "å sprette, spretter, spratt, sprettet",
+		"english": "to bounce"
+	},
+	{
+		"norsk": "å springe, springer, sprang, sprunget",
+		"english": "to spring, leap"
+	},
+	{
+		"norsk": "å spørre, spør, spurte, spurt",
+		"english": "to ask"
+	},
+	{
+		"norsk": "å starte, starter, startet, startet",
+		"english": "to start"
+	},
+	{
+		"norsk": "å steke, steker, stekte, stekt",
+		"english": "to roast, fry, bake"
+	},
+	{
+		"norsk": "å stelle, steller, stelte, stelt",
+		"english": "to manage"
+	},
+	{
+		"norsk": "å stemme, stemmer, stemte, stemt",
+		"english": "to vote, agree"
+	},
+	{
+		"norsk": "å stevne, stevner, stevnet, stevnet",
+		"english": "to summon"
+	},
+	{
+		"norsk": "å stige, stiger, steg, steget",
+		"english": "to climb"
+	},
+	{
+		"norsk": "å stikke, stikker, stakk, stukket",
+		"english": "to stick"
+	},
+	{
+		"norsk": "å stille, stiller, stilte, stilt",
+		"english": "to put, place"
+	},
+	{
+		"norsk": "å stjele, stjeler, stjal, stjålet",
+		"english": "to steal"
+	},
+	{
+		"norsk": "å stoppe, stopper, stoppet, stoppet",
+		"english": "to stop"
+	},
+	{
+		"norsk": "å strekke, strekker, strakk, strukket",
+		"english": "to stretch"
+	},
+	{
+		"norsk": "å stri, strir, stred, stridd",
+		"english": "to struggle"
+	},
+	{
+		"norsk": "å strikke, strikker, strikket, strikket",
+		"english": "to knit"
+	},
+	{
+		"norsk": "å stryke, stryker, strøk, strøket",
+		"english": "to stroke"
+	},
+	{
+		"norsk": "å studere, studerer, studerte, studert",
+		"english": "to study"
+	},
+	{
+		"norsk": "å stå, står, stod, stått",
+		"english": "to stand"
+	},
+	{
+		"norsk": "å svare, svarer, svarte, svart",
+		"english": "to answer, reply"
+	},
+	{
+		"norsk": "å sverge, sverger, sverget, sverget",
+		"english": "to swear"
+	},
+	{
+		"norsk": "å svi, svir, sved, svidd",
+		"english": "to burn"
+	},
+	{
+		"norsk": "å svike, sviker, svek, sveket",
+		"english": "to defraud, deceive"
+	},
+	{
+		"norsk": "å svinge, svinger, svingte, svingt",
+		"english": "to swing, brandish"
+	},
+	{
+		"norsk": "å svømme, svømmer, svømte, svømt",
+		"english": "to swim"
+	},
+	{
+		"norsk": "å sy, syr, sydde, sydd",
+		"english": "to sew, make"
+	},
+	{
+		"norsk": "å sykle, sykler, syklet, syklet",
+		"english": "to cycle,"
+	},
+	{
+		"norsk": "å synes, syn(e)s, syntes, syn(e)s",
+		"english": "to think"
+	},
+	{
+		"norsk": "å synge, synger, sang, sunget",
+		"english": "to sing"
+	},
+	{
+		"norsk": "å synke, synker, sank, sunket",
+		"english": "to sink"
+	},
+	{
+		"norsk": "å søke, søker, søkte, søkt",
+		"english": "to apply, seek"
+	},
+	{
+		"norsk": "å ta, tar, tok, tatt",
+		"english": "to take"
+	},
+	{
+		"norsk": "å takke, takker, takket, takket",
+		"english": "to thank"
+	},
+	{
+		"norsk": "å tape, taper, tapte, tapt",
+		"english": "to lose"
+	},
+	{
+		"norsk": "å tappe, tapper, tappet, tappet",
+		"english": "to tap, draw"
+	},
+	{
+		"norsk": "å telle, teller, talte, talt",
+		"english": "to count"
+	},
+	{
+		"norsk": "å tenke, tenker, tenkte, tenkt",
+		"english": "to think"
+	},
+	{
+		"norsk": "å tenne, tenner, tente, tent",
+		"english": "to light, ignite"
+	},
+	{
+		"norsk": "å tigge, tigger, tagg, tigget",
+		"english": "to beg"
+	},
+	{
+		"norsk": "å tilby, tilbyr, tilbød, tilbudt",
+		"english": "to offer"
+	},
+	{
+		"norsk": "å tjene, tjener, tjente, tjent",
+		"english": "to earn"
+	},
+	{
+		"norsk": "å tore, tør, torde, tort",
+		"english": "to dare"
+	},
+	{
+		"norsk": "å torturere, torturerer, torturerte, torturert",
+		"english": "to torture"
+	},
+	{
+		"norsk": "å tre, trer, trådte, trådt",
+		"english": "to tread, step"
+	},
+	{
+		"norsk": "å treffe, treffer, traff, truffet",
+		"english": "to meet"
+	},
+	{
+		"norsk": "å trene, trener, trente, trent",
+		"english": "to train, work out"
+	},
+	{
+		"norsk": "å trenge, trenger, trengte, trengt",
+		"english": "to need"
+	},
+	{
+		"norsk": "å trive, triver, treiv, trevet",
+		"english": "to catch up, grab"
+	},
+	{
+		"norsk": "å trives, triv(e)s, trivdes, triv(e)s",
+		"english": "to thrive, happy"
+	},
+	{
+		"norsk": "å tro, tror, trodde, trodd",
+		"english": "to think"
+	},
+	{
+		"norsk": "å tvinge, tvinger, tvang, tvunget",
+		"english": "to force, compel"
+	},
+	{
+		"norsk": "å tørke, tørker, tørket, tørket",
+		"english": "to dry"
+	},
+	{
+		"norsk": "underskrive, underskriver, underskrev, underskrevet",
+		"english": "to sign"
+	},
+	{
+		"norsk": "å undersøke, undersøker, undersøkte, undersøkt",
+		"english": "to examine"
+	},
+	{
+		"norsk": "å unnskylde, unnskylder, unnskyldte, unnskyldt",
+		"english": "to excuse"
+	},
+	{
+		"norsk": "å utarbeide, utarbeider, utarbeidet, utarbeidet",
+		"english": "to prepare, work out"
+	},
+	{
+		"norsk": "å utføre, utfører, utførte, utført",
+		"english": "to export, perform"
+	},
+	{
+		"norsk": "å utslå, utslår, utslo, utslått",
+		"english": "to hanging down, down"
+	},
+	{
+		"norsk": "å varme, varmer, varmet, varmet",
+		"english": "to warm"
+	},
+	{
+		"norsk": "å vaske, vasker, vasket, vasket",
+		"english": "to wash"
+	},
+	{
+		"norsk": "å veie, veier, veide, veid",
+		"english": "to weigh"
+	},
+	{
+		"norsk": "å vekke, vekker, vekket, vekket",
+		"english": "to wake"
+	},
+	{
+		"norsk": "å velge, velger, valgte, valgt",
+		"english": "to select"
+	},
+	{
+		"norsk": "å vente, venter, ventet, ventet",
+		"english": "to wait"
+	},
+	{
+		"norsk": "å verne, verner, vernet, vernet",
+		"english": "to preserve, defend"
+	},
+	{
+		"norsk": "å vike, viker, vekket, veket",
+		"english": "to yield"
+	},
+	{
+		"norsk": "å ville, vil, ville, villet",
+		"english": "to want to, will"
+	},
+	{
+		"norsk": "å vinke, vinker, vinket, vinket",
+		"english": "to wave"
+	},
+	{
+		"norsk": "å vinne, vinner, vant, vunnet",
+		"english": "to win"
+	},
+	{
+		"norsk": "å vise, viser, viste, vist",
+		"english": "to indicate, point out"
+	},
+	{
+		"norsk": "å vite, vet, visste, visst",
+		"english": "to know"
+	},
+	{
+		"norsk": "å vokse, vokser, vokste, vokst",
+		"english": "to grow, increase"
+	},
+	{
+		"norsk": "å voldta, voldtar, voldtok, voldtatt",
+		"english": "to rape"
+	},
+	{
+		"norsk": "å vri, vrir, vred, vridd",
+		"english": "to twist"
+	},
+	{
+		"norsk": "å være, er, varmet, vært",
+		"english": "to be, exist"
+	},
+	{
+		"norsk": "å våkne, våkner, våknet, våknet",
+		"english": "to wake, awaken"
+	},
+	{
+		"norsk": "å øke, øker, økte, økt",
+		"english": "to increase"
+	},
+	{
+		"norsk": "å ønske, ønsker, ønsket, ønsket",
+		"english": "to wish"
+	},
+	{
+		"norsk": "å øve, øver, øvde, øvd",
+		"english": "to practise"
+	}
 ]

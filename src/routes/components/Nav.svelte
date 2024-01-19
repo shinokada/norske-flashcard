@@ -1,6 +1,6 @@
 <script>
 	import { Navbar, NavLi, NavBrand, NavUl, uiHelpers } from 'svelte-5-ui-lib';
-	import No from '$lib/No.svelte'
+	import No from '$lib/No.svelte';
 
 	let nav = uiHelpers();
 
@@ -18,8 +18,8 @@
 <Navbar {toggleNav} {closeNav} {navStatus} breakPoint="lg">
 	{#snippet brand()}
 		<NavBrand siteName="Norske flashcard" {closeNav}>
-			<No size={50} class="inline"/> 
-			</NavBrand>
+			<No size={50} class="inline" />
+		</NavBrand>
 	{/snippet}
 	<NavUl>
 		<NavLi href="/" {closeNav}>Nivå A1</NavLi>

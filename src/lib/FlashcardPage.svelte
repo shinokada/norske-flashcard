@@ -4,7 +4,7 @@
 	import { Flashcard, ArrowLeft, ArrowRight } from '$lib';
 	import { getRandomPair } from '$lib/utils.svelte.js';
 	let { dictionary, title = 'Flashcard', pFront, pBack } = $props();
-	
+
 	let front = $state();
 	let back = $state();
 	let showCardBack = $state(false);

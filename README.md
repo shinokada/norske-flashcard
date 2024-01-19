@@ -12,6 +12,5 @@
 
 ```
 pnpm now2
-pnpm 
+pnpm
 ```
-
