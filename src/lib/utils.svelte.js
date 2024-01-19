@@ -1,5 +1,3 @@
-import randomInteger from 'random-int';
-
 export function randomword(wordList) {
 	return wordList[Math.floor(Math.random() * wordList.length)];
 }
@@ -34,7 +32,6 @@ const randomNumberGenerator = (min, max, maxConsecutiveRepeats) => {
 };
 
 export function getRandomPair(jsonData, langlang, isExplain = false, maxConsecutiveRepeats = 50) {
-	// const randomIndex = randomInteger(0, jsonData.length - 1); // Generate a random index
 	const randomIndexFn = randomNumberGenerator(0, jsonData.length - 1, maxConsecutiveRepeats);
 
 	const randomIndex = randomIndexFn();
