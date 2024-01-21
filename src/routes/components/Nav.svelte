@@ -24,7 +24,7 @@
   <Navbar {navClass} {toggleNav} {closeNav} {navStatus} breakPoint="lg" fluid divChildrenClass={divClass}>
 	{#snippet brand()}
 		<NavBrand siteName="Norske flashcard" {closeNav}>
-			<No size={50} class="inline" />
+			<No size={40} class="inline" />
 		</NavBrand>
 		<div class="flex items-center ml-auto lg:order-1">
             <Darkmode class="inline-block dark:hover:text-white hover:text-gray-900" />
