@@ -2,7 +2,7 @@
 	import { Footer, FooterBrand, FooterLi, FooterUl } from 'svelte-5-ui-lib';
 </script>
 
-<Footer class="shadow-none dark:bg-gray-900" footerType="logo">
+<Footer class="shadow-none dark:bg-blue-950" footerType="logo">
 	<div class="sm:flex sm:items-center sm:justify-between">
 		<FooterBrand href="/" name="LexiLearn Hub" />
 		<FooterUl
