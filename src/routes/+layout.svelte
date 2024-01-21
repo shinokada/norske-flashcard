@@ -7,7 +7,7 @@
 
 <Nav />
 
-<section class="mb-8 dark:bg-gray-900">
+<section class="pb-8 border-b border-gray-800">
 	<div class="mx-auto max-w-screen-xl px-4 pt-8 text-center">
 		{@render children()}
 	</div>
