@@ -8,6 +8,9 @@
 		<FooterUl
 			ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0"
 		>
+			<FooterLi href="https://multilanguage-flashcard.vercel.app/" target="_blank"
+				>Multilanguage flashcard</FooterLi
+			>
 			<FooterLi href="https://norske-flashcard.vercel.app/" target="_blank"
 				>Norske flashcard</FooterLi
 			>
