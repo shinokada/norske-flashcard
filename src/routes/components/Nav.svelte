@@ -9,7 +9,7 @@
 	let closeNav = nav.close;
 	let divClass = "ml-auto w-full"
     let ulClass =
-    'flex flex-col py-3 lg:flex-row lg:my-0 order-1 font-medium gap-4 lg:gap-2 dark:lg:bg-transparent lg:bg-white border-0';
+    'flex flex-col py-3 lg:flex-row lg:my-0 order-1 font-medium xl:gap-4 dark:lg:bg-transparent lg:bg-white border-0';
     let navClass = 'w-full divide-gray-200 border-gray-200 bg-white text-gray-500 dark:divide-gray-700 dark:border-gray-700 dark:bg-blue-950 dark:text-gray-400 sm:px-4'
 
 	$effect(() => {
