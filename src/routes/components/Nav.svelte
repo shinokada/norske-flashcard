@@ -25,7 +25,7 @@
 >
 	<Navbar {navclass} {toggleNav} {closeNav} {navStatus} breakPoint="lg" fluid div2class={divClass}>
 		{#snippet brand()}
-			<NavBrand siteName="Norske flashcard" {closeNav}>
+			<NavBrand siteName="Norske flashcard">
 				<No size="40" class="inline" />
 			</NavBrand>
 			<div class="ml-auto flex items-center lg:order-1">
@@ -33,13 +33,13 @@
 			</div>
 		{/snippet}
 		<NavUl {ulclass}>
-			<NavLi href="/" {closeNav}>Nivå A1</NavLi>
-			<NavLi href="/a2" {closeNav}>Nivå A2</NavLi>
-			<NavLi href="/verbs" {closeNav}>Verbs</NavLi>
-			<NavLi href="/adjectives" {closeNav}>Adjectives</NavLi>
-			<NavLi href="/vocab" {closeNav}>Vocab</NavLi>
-			<NavLi href="/education" {closeNav}>Education</NavLi>
-			<NavLi href="/about" {closeNav}>About</NavLi>
+			<NavLi href="/">Nivå A1</NavLi>
+			<NavLi href="/a2">Nivå A2</NavLi>
+			<NavLi href="/verbs">Verbs</NavLi>
+			<NavLi href="/adjectives">Adjectives</NavLi>
+			<NavLi href="/vocab">Vocab</NavLi>
+			<NavLi href="/education">Education</NavLi>
+			<NavLi href="/about">About</NavLi>
 		</NavUl>
 	</Navbar>
 </header>
