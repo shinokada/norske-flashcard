@@ -1,6 +1,12 @@
 {
 	"name": "norske-flashcard",
 	"version": "1.0.1",
+	"description": "Norwegian(Bokmål) - English flashcard",
+	"homepage": "https://norske-flashcard.vercel.app/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shinokada/norske-flashcard"
+	},
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",

@@ -15,6 +15,7 @@ export default defineConfig({
 	define: {
     __NAME__: `"${pkg.name}"`,
     __VERSION__: `"${pkg.version}"`,
+    __GITHUBURL__: `"${pkg.repository.url}"`,
     __SVELTE5UILIBVERSION__: `"${svelte5uilib.version}"`,
     __SVELTEVERSION__: `"${sveltePackage.version}"`,
     __SVELTEKITVERSION__: `"${svelteKitPackage.version}"`,

@@ -2,6 +2,7 @@
 import { removeHyphensAndCapitalize } from '$lib/utils.svelte';
 const name = __NAME__;
 const version = __VERSION__;
+const githuburl = __GITHUBURL__;
 const svelte5uilibVersion = __SVELTE5UILIBVERSION__;
 const svelteVersion = __SVELTEVERSION__;
 const svelteKitVersion = __SVELTEKITVERSION__;
@@ -75,7 +76,7 @@ const viteVersion = __VITEVERSION__;
   <ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
     <li class="hover:text-red-700 hover:underline">
       <a
-        href="https://github.com/shinokada/norske-flashcard"
+        href="{githuburl}"
         class="me-4 hover:underline md:me-6">Github repo</a
       >
     </li>
