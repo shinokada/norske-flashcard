@@ -15,33 +15,33 @@ const viteVersion = __VITEVERSION__;
 	Norsk-Flashcard is for Norwegian learners who want to learn Norwegian vocabulary. There are different levels of flashcards: A1, A2, Verbs, Adjectives, Vocab, and Education. 
 </p>
 
-<h2>Another LexiLearn Hub apps</h2>
+<h2>LexiLearn Hub Apps</h2>
 
-  <ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
-    <li class="hover:text-red-700 hover:underline">
-      <a href="https://gjett-norsk.vercel.app/" class="me-4 hover:underline md:me-6">Gjett Norsk</a>
-    </li>
-    <li class="hover:text-red-700 hover:underline">
-      <a href="https://multilanguage-flashcard.vercel.app/" class="me-4 hover:underline md:me-6"
-        >Multilanguage flashcard</a
-      >
-    </li>
-    <li class="hover:text-red-700 hover:underline">
-      <a href="https://norske-flashcard.vercel.app/" class="me-4 hover:underline md:me-6"
-        >Norske flashcard</a
-      >
-    </li>
-    <li class="hover:text-red-700 hover:underline">
-      <a href="https://nihongo-flashcard.vercel.app/" class="me-4 hover:underline md:me-6"
-        >Japanese flashcard</a
-      >
-    </li>
-    <li class="hover:text-red-700 hover:underline">
+<ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
+  <li class="hover:text-red-700 hover:underline">
+    <a href="https://gjett-norsk.vercel.app/" class="me-4 hover:underline md:me-6">Gjett Norsk</a>
+  </li>
+  <li class="hover:text-red-700 hover:underline">
+    <a href="https://multilanguage-flashcard.vercel.app/" class="me-4 hover:underline md:me-6"
+      >Multilanguage flashcard</a
+    >
+  </li>
+  <li class="hover:text-red-700 hover:underline">
+    <a href="https://norske-flashcard.vercel.app/" class="me-4 hover:underline md:me-6"
+      >Norske flashcard</a
+    >
+  </li>
+  <li class="hover:text-red-700 hover:underline">
+    <a href="https://nihongo-flashcard.vercel.app/" class="me-4 hover:underline md:me-6"
+      >Japanese flashcard</a
+    >
+  </li>
+  <li class="hover:text-red-700 hover:underline">
       <a href="https://flexilexi-dictionary.vercel.app/" class="me-4 hover:underline md:me-6"
-        >Fexilexi dictionary</a
+        >Fexilexi dictionary (English/Norwegian/Japanese)</a
       >
-    </li>
-  </ul>
+  </li>
+</ul>
 
   <h2>Technical info</h2>
   <ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
