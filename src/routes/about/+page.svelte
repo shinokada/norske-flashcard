@@ -19,25 +19,25 @@ const viteVersion = __VITEVERSION__;
 
 <ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
   <li class="hover:text-red-700 hover:underline">
-    <a href="https://gjett-norsk.vercel.app/" class="me-4 hover:underline md:me-6">Gjett Norsk</a>
+    <a href="https://gjett-norsk.codewithshin.com/" class="me-4 hover:underline md:me-6">Gjett Norsk</a>
   </li>
   <li class="hover:text-red-700 hover:underline">
-    <a href="https://multilanguage-flashcard.vercel.app/" class="me-4 hover:underline md:me-6"
+    <a href="https://multilanguage-flashcard.codewithshin.com/" class="me-4 hover:underline md:me-6"
       >Multilanguage flashcard</a
     >
   </li>
   <li class="hover:text-red-700 hover:underline">
-    <a href="https://norske-flashcard.vercel.app/" class="me-4 hover:underline md:me-6"
+    <a href="https://norske-flashcard.codewithshin.com/" class="me-4 hover:underline md:me-6"
       >Norske flashcard</a
     >
   </li>
   <li class="hover:text-red-700 hover:underline">
-    <a href="https://nihongo-flashcard.vercel.app/" class="me-4 hover:underline md:me-6"
+    <a href="https://nihongo-flashcard.codewithshin.com/" class="me-4 hover:underline md:me-6"
       >Japanese flashcard</a
     >
   </li>
   <li class="hover:text-red-700 hover:underline">
-      <a href="https://flexilexi-dictionary.vercel.app/" class="me-4 hover:underline md:me-6"
+      <a href="https://flexilexi-dictionary.codewithshin.com/" class="me-4 hover:underline md:me-6"
         >Fexilexi dictionary (English/Norwegian/Japanese)</a
       >
   </li>
@@ -47,18 +47,18 @@ const viteVersion = __VITEVERSION__;
   <ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
     <li class="hover:text-red-700 hover:underline">
       <a
-        href="https://svelte-5-preview.vercel.app/docs/introduction"
+        href="https://svelte-5-preview.codewithshin.com/docs/introduction"
         class="me-4 hover:underline md:me-6">{removeHyphensAndCapitalize(name)} : {version}</a
       >
     </li>
     <li class="hover:text-red-700 hover:underline">
       <a
-        href="https://svelte-5-preview.vercel.app/docs/introduction"
+        href="https://svelte-5-preview.codewithshin.com/docs/introduction"
         class="me-4 hover:underline md:me-6">Svelte 5: {svelteVersion}</a
       >
     </li>
     <li>
-      <a href="https://svelte-5-ui-lib.vercel.app/" class="me-4 hover:underline md:me-6"
+      <a href="https://svelte-5-ui-lib.codewithshin.com/" class="me-4 hover:underline md:me-6"
         >Svelte 5 UI Lib: {svelte5uilibVersion}</a
       >
     </li>
