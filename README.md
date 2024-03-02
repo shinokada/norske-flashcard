@@ -1,16 +1,15 @@
 # Norsk Flashcard
 
-## Stack details
+## Learn Norwegian wih flashcard
 
-- Svelte 5.0.0-next.27
-- SvelteKit ^2.0.6
-- Vite ^5.0.3
+[Website](https://norske-flashcard.codewithshin.com/)
 
-## For developer
+### Commands for creating dictionaries
 
-### Creating dictionaries
-
-```
-pnpm now2
-pnpm
-```
+- `pnpm now` will run: "node ./scripts/now.js",
+- `pnpm now2` will run: "node ./scripts/now2.js",
+- `pnpm createGrunnopp` will run: "node ./scripts/grunnopp.js",
+- `pnpm verbs` will run: "node ./scripts/verbs.js",
+- `pnpm adjectives` will run: "node ./scripts/adjectives.js",
+- `pnpm thousand` will run: "node ./scripts/thousand.js",
+- `pnpm dic` will run: "node ./scripts/norsk-dic.js"
