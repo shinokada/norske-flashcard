@@ -81,7 +81,7 @@ const viteVersion = __VITEVERSION__;
       >
     </li>
     <li class="hover:text-red-700 hover:underline">
-      <a href="https://github.com/shinokada" class="me-4 hover:underline md:me-6">Author: Shin</a>
+      <a href="https://codewithshin.com" class="me-4 hover:underline md:me-6">Author: codewithshin.com</a>
     </li>
   </ul>
 </div>

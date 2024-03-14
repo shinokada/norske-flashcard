@@ -4,7 +4,7 @@
 
 <Footer footerclass="shadow-none dark:bg-blue-950" footerType="logo">
 	<div class="sm:flex sm:items-center sm:justify-between">
-		<FooterBrand href="/" name="codewithshin.com" />
+		<FooterBrand href="https://codewithshin.com" name="codewithshin.com" />
 		<FooterUl
 			ulclass="flex flex-wrap items-center mt-3 sm:pl-4 text-sm text-gray-500 dark:text-gray-400 gap-2 sm:mt-0"
 		>
