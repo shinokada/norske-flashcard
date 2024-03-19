@@ -9,6 +9,7 @@
 		viewBox?: string;
 		strokeWidth?: string;
 		ariaLabel?: string;
+		class?: string;
 	}
 
 	const ctx: CtxType = getContext('iconCtx') ?? {};
@@ -20,8 +21,9 @@
 		viewBox = '0 0 24 24',
 		strokeWidth = '0 0 24 24',
 		ariaLabel = 'arrow left',
+		class: classname = '',
 		...attributes
-	} = $props<CtxType>();
+	}: CtxType = $props();
 
 	if (variation === 'mini') {
 		size = size || '20';
@@ -42,6 +44,7 @@
 	{viewBox}
 	stroke-width={strokeWidth}
 	{...attributes}
+	class={classname}
 >
 	{#if variation === 'outline'}
 		<path
