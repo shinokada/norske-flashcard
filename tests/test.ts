@@ -6,7 +6,7 @@ test('index page has expected h1', async ({ page }) => {
 });
 
 test('a2 page has expected h1', async ({ page }) => {
-	await page.goto('/a2');
+	await page.goto('/level-a2');
 	expect(await page.textContent('h1')).toBe('Nivå A2');
 });
 

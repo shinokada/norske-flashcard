@@ -34,7 +34,7 @@
 		{/snippet}
 		<NavUl {ulclass}>
 			<NavLi href="/">Nivå A1</NavLi>
-			<NavLi href="/a2">Nivå A2</NavLi>
+			<NavLi href="/level-a2">Nivå A2</NavLi>
 			<NavLi href="/verbs">Verbs</NavLi>
 			<NavLi href="/adjectives">Adjectives</NavLi>
 			<NavLi href="/vocab">Vocab</NavLi>
