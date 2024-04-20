@@ -16,7 +16,7 @@
 		role = ctx.role || 'img',
 		ariaLabel = 'flag of no',
 		...attributes
-	} = $props<Props>();
+	}: Props = $props();
 </script>
 
 <svg
