@@ -1,4 +1,4 @@
-import { ANALYTICS_ID } from '$env/static/private';
+import { ANALYTICS_ID_LANGUAGE_APP } from '$env/static/private';
 import type { MetaProps } from 'runes-meta-tags';
 import { metaTitle, metaDescription, metaImg } from 'runes-meta-tags';
 
@@ -36,6 +36,6 @@ export const load = ({ url }) => {
   };
   return {
 		layoutMetaTags,
-		ANALYTICS_ID
+		ANALYTICS_ID_LANGUAGE_APP
   };
 };
