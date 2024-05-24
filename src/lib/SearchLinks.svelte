@@ -27,7 +27,7 @@
 
 <div class='flex flex-col w-1/3 mx-auto gap-2 mt-4 justify-center'>
 	{#if showDictionaryLink}
-	<Button target="_blank" href={ordbokene}{searchWord}>Ordbokene: {searchWord}</Button>
-	<Button target="_blank" href={naob}{searchWord}>Naob: {searchWord}</Button>
+	<Button target="_blank" href={ordbokene} searchWord={searchWord}>Ordbokene: {searchWord}</Button>
+	<Button target="_blank" href={naob} searchWord={searchWord}>Naob: {searchWord}</Button>
 	{/if}
 </div>
