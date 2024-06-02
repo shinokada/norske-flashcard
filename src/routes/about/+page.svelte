@@ -3,10 +3,10 @@ import { removeHyphensAndCapitalize } from '$lib/utils.svelte';
 const name = __NAME__;
 const version = __VERSION__;
 const githuburl = __GITHUBURL__;
-const svelte5uilibVersion = __SVELTE5UILIBVERSION__;
-const svelteVersion = __SVELTEVERSION__;
-const svelteKitVersion = __SVELTEKITVERSION__;
-const viteVersion = __VITEVERSION__;
+const svelte5uilibVersion = __SVELTE_5_UI_LIB_VERSION__;
+const svelteVersion = __SVELTE_VERSION__;
+const svelteKitVersion = __SVELTEKIT_VERSION__;
+const viteVersion = __VITE_VERSION__;
 </script>
 
 <div class="mx-auto max-w-4xl p-8 text-left">
