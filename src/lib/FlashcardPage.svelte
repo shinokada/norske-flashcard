@@ -2,7 +2,7 @@
 	import { twMerge } from 'tailwind-merge';
 	import { Flashcard, ArrowLeft, ArrowRight } from '$lib';
 	import SearchLinks from './SearchLinks.svelte';
-	import { getRandomPair } from '$lib/utils.svelte.js';
+	import { getRandomPair } from '$lib/utils.js';
 	interface Props{
 		dictionary: any,
 		title?: string,
@@ -40,8 +40,14 @@
 		}
 		showCardBack = false;
 		const { front: newFront, back: newBack } = getRandomPair(dictionary, lang, false);
-		front = newFront;
-		back = newBack;
+		if (newFront !== undefined) {
+			front = newFront;
+		}
+
+		if (newBack !== undefined) {
+			back = newBack;
+		}
+
 	};
 
 	let langlang = $state('noreng');

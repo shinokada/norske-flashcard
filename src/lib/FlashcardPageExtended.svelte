@@ -1,13 +1,19 @@
 <script lang="ts">
+	interface Props {
+		dictionary: any;
+		title?: string;
+		pFront?: string;
+		pBack?: string;
+	}
 	import { twMerge } from 'tailwind-merge';
 	import { Flashcard, ArrowLeft, ArrowRight } from '$lib';
-	import { getRandomPair } from '$lib/utils.svelte.js';
+	import { getRandomPair } from '$lib/utils.js';
 	import SearchLinks from './SearchLinks.svelte';
 
-	let { dictionary, title = 'Flashcard', pFront, pBack } = $props();
-	let front: string = $state('');
-	let back: string = $state('');
-	let explanation: string = $state('');
+	let { dictionary, title = 'Flashcard', pFront, pBack }: Props = $props();
+	let front: string | undefined = $state('');
+	let back: string | undefined = $state('');
+	let explanation: string | undefined = $state('');
 	let showCardBack: boolean = $state(false);
 	let showFront: string = $state('Vis norsk');
 	let showBack: string = $state('Show English');
@@ -50,7 +56,6 @@
 			back: newBack,
 			norskexplanation
 		} = getRandomPair(dictionary, lang, true);
-		// console.log('norskexplanation inside: ', norskexplanation)
 
 		front = newFront;
 		back = newBack;

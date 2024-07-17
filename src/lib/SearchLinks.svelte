@@ -1,9 +1,9 @@
 <script lang="ts">
   import { Button } from 'svelte-5-ui-lib';
   interface Props {
-    langlang: string;
-    front: string;
-    back: string;
+    langlang: string | undefined;
+    front: string | undefined;
+    back: string | undefined;
   }
 
   let { langlang, front, back }: Props = $props();
@@ -11,7 +11,9 @@
   const ordbokene = 'https://ordbokene.no/bm,nn/search?q='
 	const naob= 'https://naob.no/s%C3%B8k/'
 
-  let searchWord = $derived(langlang === 'noreng' ? dictionaryWord(front) : dictionaryWord(back))
+  let searchWord = $derived(
+		langlang === 'noreng' && front ? dictionaryWord(front) : (back ? dictionaryWord(back) : '')
+	)
 	let showDictionaryLink: boolean = $derived(langlang==='noreng'?true:false);
 
   function dictionaryWord(norwegianWord: string){
@@ -27,7 +29,7 @@
 
 <div class='flex flex-col w-1/3 mx-auto gap-2 mt-4 justify-center'>
 	{#if showDictionaryLink}
-	<Button target="_blank" href={ordbokene} searchWord={searchWord}>Ordbokene: {searchWord}</Button>
-	<Button target="_blank" href={naob} searchWord={searchWord}>Naob: {searchWord}</Button>
+	<Button target="_blank" href={ordbokene} >Ordbokene: {searchWord}</Button>
+	<Button target="_blank" href={naob} >Naob: {searchWord}</Button>
 	{/if}
 </div>
