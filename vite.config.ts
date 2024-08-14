@@ -1,10 +1,10 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vitest/config';
-import pkg from './package.json' assert { type: 'json' };
-import svelte5uilib from './node_modules/svelte-5-ui-lib/package.json' assert { type: 'json' };
-import sveltePackage from './node_modules/svelte/package.json' assert { type: 'json' };
-import svelteKitPackage from './node_modules/@sveltejs/kit/package.json' assert { type: 'json' };
-import vitePackage from './node_modules/vite/package.json' assert { type: 'json' };
+import pkg from './package.json' with { type: 'json' };
+import svelte5uilib from './node_modules/svelte-5-ui-lib/package.json' with { type: 'json' };
+import sveltePackage from './node_modules/svelte/package.json' with { type: 'json' };
+import svelteKitPackage from './node_modules/@sveltejs/kit/package.json' with { type: 'json' };
+import vitePackage from './node_modules/vite/package.json' with { type: 'json' };
 
 
 export default defineConfig({
