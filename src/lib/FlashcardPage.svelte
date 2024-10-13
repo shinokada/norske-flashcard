@@ -3,11 +3,11 @@
 	import { Flashcard, ArrowLeft, ArrowRight } from '$lib';
 	import SearchLinks from './SearchLinks.svelte';
 	import { getRandomPair } from '$lib/utils.js';
-	interface Props{
-		dictionary: any,
-		title?: string,
-		pFront?: string,
-		pBack?: string
+	interface Props {
+		dictionary: any;
+		title?: string;
+		pFront?: string;
+		pBack?: string;
 	}
 	let { dictionary, title = 'Flashcard', pFront, pBack }: Props = $props();
 
@@ -22,7 +22,7 @@
 	let lang2lang1 = $state(
 		'focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-lg px-5 py-2.5 me-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 opacity-50'
 	);
-	
+
 	const toggleShowBack = () => (showCardBack = !showCardBack);
 
 	const updateLang = (lang: string) => {
@@ -47,14 +47,13 @@
 		if (newBack !== undefined) {
 			back = newBack;
 		}
-
 	};
 
 	let langlang = $state('noreng');
 	updateLang('noreng');
 
 	$effect(() => {
-		updateLang(langlang)
+		updateLang(langlang);
 	});
 
 	function handleKeyDown(event: KeyboardEvent) {
@@ -73,7 +72,6 @@
 			fn.call(this, event);
 		};
 	}
-
 </script>
 
 <div class="mt-15 flex flex-col items-center">
@@ -94,12 +92,18 @@
 	<!-- BUTTONS -->
 
 	<div class="flex space-x-4 pt-4">
-		<button onclick={toggleShowBack} class="inline-flex min-w-44 items-center bg-gray-300 dark:bg-gray-700 p-4">
+		<button
+			onclick={toggleShowBack}
+			class="inline-flex min-w-44 items-center bg-gray-300 p-4 dark:bg-gray-700"
+		>
 			<ArrowLeft class="mr-4" />
 			{showCardBack ? showFront : showBack}
 		</button>
 
-		<button class="inline-flex bg-gray-300 dark:bg-gray-700 p-4 text-right" onclick={() => updateLang(langlang)}>
+		<button
+			class="inline-flex bg-gray-300 p-4 text-right dark:bg-gray-700"
+			onclick={() => updateLang(langlang)}
+		>
 			NEXT
 			<ArrowRight class="ml-4" />
 		</button>

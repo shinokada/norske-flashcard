@@ -66,7 +66,7 @@
 	updateLang('noreng');
 
 	$effect(() => {
-		updateLang(langlang)
+		updateLang(langlang);
 	});
 
 	function handleKeyDown(event: KeyboardEvent) {
@@ -80,14 +80,14 @@
 	}
 
 	function preventDefault(fn: (event: KeyboardEvent) => void) {
-		return function (this: HTMLElement,event: KeyboardEvent) {
+		return function (this: HTMLElement, event: KeyboardEvent) {
 			event.preventDefault();
 			fn.call(this, event);
 		};
 	}
 
 	// function dictionaryWord(){
-		// remove 
+	// remove
 	// }
 </script>
 
@@ -111,12 +111,18 @@
 	<!-- BUTTONS -->
 
 	<div class="flex space-x-4 pt-4">
-		<button onclick={toggleShowBack} class="inline-flex min-w-44 items-center bg-gray-300 dark:bg-gray-700 p-4">
+		<button
+			onclick={toggleShowBack}
+			class="inline-flex min-w-44 items-center bg-gray-300 p-4 dark:bg-gray-700"
+		>
 			<ArrowLeft class="mr-4" />
 			{showCardBack ? showFront : showBack}
 		</button>
 
-		<button class="inline-flex bg-gray-300 dark:bg-gray-700 p-4 text-right" onclick={() => updateLang(langlang)}>
+		<button
+			class="inline-flex bg-gray-300 p-4 text-right dark:bg-gray-700"
+			onclick={() => updateLang(langlang)}
+		>
 			NEXT
 			<ArrowRight class="ml-4" />
 		</button>

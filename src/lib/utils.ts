@@ -1,21 +1,23 @@
 export function removeHyphensAndCapitalize(str: string) {
-  // Handle empty string or strings without '-'
-  if (!str || !str.includes('-')) {
-    return str;
-  }
+	// Handle empty string or strings without '-'
+	if (!str || !str.includes('-')) {
+		return str;
+	}
 
-  // Capitalize the first letter (including after hyphens)
-  const capitalized = str.replace(/(^|\s|-)\w/g, (match) => match.toUpperCase());
+	// Capitalize the first letter (including after hyphens)
+	const capitalized = str.replace(/(^|\s|-)\w/g, (match) => match.toUpperCase());
 
-  // Remove hyphens and ensure spaces after words
-  return capitalized.replace(/-|\s{2,}/g, ' ');
+	// Remove hyphens and ensure spaces after words
+	return capitalized.replace(/-|\s{2,}/g, ' ');
 }
 
-export function randomword (wordList: string[]) {
+export function randomword(wordList: string[]) {
 	return wordList[Math.floor(Math.random() * wordList.length)];
 }
 
-export function getRandomItemFromDictionary<T>(dictionary: { [key: string]: T }): { [key: string]: T } {
+export function getRandomItemFromDictionary<T>(dictionary: { [key: string]: T }): {
+	[key: string]: T;
+} {
 	const keys = Object.keys(dictionary);
 	const randomKey = keys[Math.floor(Math.random() * keys.length)];
 
@@ -24,8 +26,12 @@ export function getRandomItemFromDictionary<T>(dictionary: { [key: string]: T })
 	};
 }
 
-export const randomNumberGenerator = (min: number, max: number, maxConsecutiveRepeats: number): () => number => {
-	let previousNumbers: number[] = [];
+export const randomNumberGenerator = (
+	min: number,
+	max: number,
+	maxConsecutiveRepeats: number
+): (() => number) => {
+	const previousNumbers: number[] = [];
 
 	return () => {
 		let randomNumber;
@@ -45,12 +51,17 @@ export const randomNumberGenerator = (min: number, max: number, maxConsecutiveRe
 };
 
 interface Word {
-  norsk: string;
-  english: string;
-  norskexplanation?: string; // Optional property for verbs
+	norsk: string;
+	english: string;
+	norskexplanation?: string; // Optional property for verbs
 }
 
-export function getRandomPair(jsonData: Word[], langlang: string, isExplain = false, maxConsecutiveRepeats = 50) {
+export function getRandomPair(
+	jsonData: Word[],
+	langlang: string,
+	isExplain = false,
+	maxConsecutiveRepeats = 50
+) {
 	const randomIndexFn = randomNumberGenerator(0, jsonData.length - 1, maxConsecutiveRepeats);
 
 	const randomIndex = randomIndexFn();
@@ -61,7 +72,7 @@ export function getRandomPair(jsonData: Word[], langlang: string, isExplain = fa
 	let back;
 
 	if (isExplain) {
-		let { norsk, english, norskexplanation } = randomPair;
+		const { norsk, english, norskexplanation } = randomPair;
 
 		if (langlang === 'noreng') {
 			front = norsk;
@@ -76,7 +87,7 @@ export function getRandomPair(jsonData: Word[], langlang: string, isExplain = fa
 
 		return { front, back, norskexplanation };
 	} else {
-		let { norsk, english } = randomPair;
+		const { norsk, english } = randomPair;
 
 		if (langlang === 'noreng') {
 			front = norsk;
@@ -104,13 +115,13 @@ export function openTab(word: string, website: string) {
 
 export function cleanWord(word: string) {
 	// Remove characters after '/'
-	let withoutSlash = word.replace(/\/.*$/, '');
+	const withoutSlash = word.replace(/\/.*$/, '');
 
 	// Remove characters after ','
-	let withoutComma = withoutSlash.replace(/,.*/, '');
+	const withoutComma = withoutSlash.replace(/,.*/, '');
 
 	// Remove characters after ' -'
-	let withoutHyphen = withoutComma.replace(/ -.*/, '');
+	const withoutHyphen = withoutComma.replace(/ -.*/, '');
 
 	return withoutHyphen.trim(); // Trim to remove leading/trailing spaces
 }

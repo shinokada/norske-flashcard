@@ -1,11 +1,11 @@
 <script lang="ts">
-  import type { SVGAttributes } from 'svelte/elements';
-	
+	import type { SVGAttributes } from 'svelte/elements';
+
 	interface CtxType {
 		size: string;
 		role?: string;
 	}
-	interface Props extends SVGAttributes<SVGSVGElement>{
+	interface Props extends SVGAttributes<SVGSVGElement> {
 		size?: string;
 		role?: string;
 		ariaLabel?: string;
