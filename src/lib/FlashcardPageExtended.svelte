@@ -1,4 +1,5 @@
 <script lang="ts">
+	/* eslint-disable  @typescript-eslint/no-explicit-any */
 	interface Props {
 		dictionary: any;
 		title?: string;

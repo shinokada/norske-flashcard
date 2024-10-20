@@ -3,6 +3,7 @@
 	import { Flashcard, ArrowLeft, ArrowRight } from '$lib';
 	import SearchLinks from './SearchLinks.svelte';
 	import { getRandomPair } from '$lib/utils.js';
+	/* eslint-disable  @typescript-eslint/no-explicit-any */
 	interface Props {
 		dictionary: any;
 		title?: string;
