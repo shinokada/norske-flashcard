@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { getContext } from 'svelte';
-
 	interface CtxType {
 		size?: string;
 		role?: string;
@@ -12,7 +10,6 @@
 		class?: string;
 	}
 
-	const ctx: CtxType = getContext('iconCtx') ?? {};
 	let {
 		size = '24',
 		role = 'img',

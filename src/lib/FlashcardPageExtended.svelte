@@ -14,6 +14,7 @@
 	let { dictionary, title = 'Flashcard', pFront, pBack }: Props = $props();
 	let front: string | undefined = $state('');
 	let back: string | undefined = $state('');
+	/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 	let explanation: string | undefined = $state('');
 	let showCardBack: boolean = $state(false);
 	let showFront: string = $state('Vis norsk');
