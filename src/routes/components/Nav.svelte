@@ -1,6 +1,12 @@
 <script>
 	import { Navbar, NavLi, NavBrand, NavUl, uiHelpers, Darkmode } from 'svelte-5-ui-lib';
 	import No from '$lib/No.svelte';
+	import { page } from '$app/stores';
+
+	let activeUrl = $state($page.url.pathname);
+  $effect(() => {
+    activeUrl = $page.url.pathname;
+  });
 
 	let nav = uiHelpers();
 
@@ -32,7 +38,7 @@
 				<Darkmode class="inline-block hover:text-gray-900 dark:hover:text-white" />
 			</div>
 		{/snippet}
-		<NavUl class={ulclass}>
+		<NavUl {activeUrl} class={ulclass}>
 			<NavLi href="/">Nivå A1</NavLi>
 			<NavLi href="/level-a2">Nivå A2</NavLi>
 			<NavLi href="/verbs">Verbs</NavLi>
