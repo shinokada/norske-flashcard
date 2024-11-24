@@ -4,9 +4,9 @@
 	import { page } from '$app/stores';
 
 	let activeUrl = $state($page.url.pathname);
-  $effect(() => {
-    activeUrl = $page.url.pathname;
-  });
+	$effect(() => {
+		activeUrl = $page.url.pathname;
+	});
 
 	let nav = uiHelpers();
 
