@@ -7,3 +7,5 @@ export { default as RadioButton } from './RadioButton.svelte';
 
 export { default as ArrowLeft } from './ArrowLeft.svelte';
 export { default as ArrowRight } from './ArrowRight.svelte';
+export { default as ArrowUp } from './ArrowSmallUp.svelte';
+export { default as ArrowDown } from './ArrowSmallDown.svelte';

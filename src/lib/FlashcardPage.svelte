@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { twMerge } from 'tailwind-merge';
-	import { Flashcard, ArrowLeft, ArrowRight } from '$lib';
+	import { Flashcard, ArrowLeft, ArrowRight, ArrowUp, ArrowDown } from '$lib';
 	import SearchLinks from './SearchLinks.svelte';
 	import { getRandomPair } from '$lib/utils.js';
 	/* eslint-disable  @typescript-eslint/no-explicit-any */
@@ -24,9 +24,21 @@
 		'focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-lg px-5 py-2.5 me-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 opacity-50'
 	);
 
+	// Add word history
+	let wordHistory = $state<Array<{ front: string; back: string }>>([]);
+	let currentIndex = $state(-1);
+
 	const toggleShowBack = () => (showCardBack = !showCardBack);
 
-	const updateLang = (lang: string) => {
+	const getNewWord = (lang: string) => {
+		const result = getRandomPair(dictionary, lang, false);
+		return {
+			front: result.front || '',
+			back: result.back || ''
+		};
+	};
+
+	const updateLang = (lang: string, addToHistory = true) => {
 		langlang = lang;
 		if (lang === 'noreng') {
 			showFront = 'Vis norsk';
@@ -40,30 +52,62 @@
 			lang2lang1 = twMerge(lang2lang1, 'opacity-100');
 		}
 		showCardBack = false;
-		const { front: newFront, back: newBack } = getRandomPair(dictionary, lang, false);
-		if (newFront !== undefined) {
-			front = newFront;
+
+		const newWord = getNewWord(lang);
+		
+		if (addToHistory) {
+			// Remove any forward history if we're not at the end
+			if (currentIndex < wordHistory.length - 1) {
+				wordHistory = wordHistory.slice(0, currentIndex + 1);
+			}
+			wordHistory = [...wordHistory, newWord];
+			currentIndex = wordHistory.length - 1;
 		}
 
-		if (newBack !== undefined) {
-			back = newBack;
+		front = newWord.front;
+		back = newWord.back;
+	};
+
+	const showPreviousWord = () => {
+		if (currentIndex > 0) {
+			currentIndex--;
+			const prevWord = wordHistory[currentIndex];
+			front = prevWord.front;
+			back = prevWord.back;
+			showCardBack = false;
+		}
+	};
+
+	const showNextWord = () => {
+		if (currentIndex < wordHistory.length - 1) {
+			currentIndex++;
+			const nextWord = wordHistory[currentIndex];
+			front = nextWord.front;
+			back = nextWord.back;
+			showCardBack = false;
 		}
 	};
 
 	let langlang = $state('noreng');
-	updateLang('noreng');
-
+	
+	// Initialize with first word
 	$effect(() => {
-		updateLang(langlang);
+		const initialWord = getNewWord(langlang);
+		front = initialWord.front;
+		back = initialWord.back;
+		wordHistory = [initialWord];
+		currentIndex = 0;
 	});
 
 	function handleKeyDown(event: KeyboardEvent) {
 		if (event.key === 'ArrowLeft') {
 			toggleShowBack();
-			// console.log('arrowleft pressed')
 		} else if (event.key === 'ArrowRight') {
 			updateLang(langlang);
-			// console.log('arrowright is pressed')
+		} else if (event.key === 'ArrowUp') {
+			showPreviousWord();
+		} else if (event.key === 'ArrowDown') {
+			showNextWord();
 		}
 	}
 
@@ -91,7 +135,6 @@
 	</div>
 
 	<!-- BUTTONS -->
-
 	<div class="flex space-x-4 pt-4">
 		<button
 			onclick={toggleShowBack}
@@ -99,6 +142,24 @@
 		>
 			<ArrowLeft class="mr-4" />
 			{showCardBack ? showFront : showBack}
+		</button>
+
+		<button
+			onclick={showPreviousWord}
+			class="inline-flex items-center bg-gray-300 p-4 dark:bg-gray-700"
+			disabled={currentIndex <= 0}
+		>
+			<ArrowUp class="mr-4" />
+			Previous
+		</button>
+
+		<button
+			onclick={showNextWord}
+			class="inline-flex items-center bg-gray-300 p-4 dark:bg-gray-700"
+			disabled={currentIndex >= wordHistory.length - 1}
+		>
+			<ArrowDown class="mr-4" />
+			Forward
 		</button>
 
 		<button
@@ -110,7 +171,7 @@
 		</button>
 	</div>
 	<span class="right-full mt-4 hidden rounded bg-gray-900 px-2 py-1 text-white lg:inline-block">
-		Use the left arrow key (←) to flip and the right arrow key (→) to navigate to the next word.
+		Use the left arrow key (←) to flip, right arrow key (→) for next word, up arrow key (↑) for previous word, and down arrow key (↓) to go forward.
 	</span>
 </div>
 
@@ -121,12 +182,8 @@
 <style>
 	.flip-box {
 		background-color: transparent;
-		/* width: 400px;
-		height: 300px; */
-		/* 		border: 1px solid #ddd; */
-		perspective: 1000px; /* Remove this if you don't want the 3D effect */
+		perspective: 1000px;
 	}
-	/* This container is needed to position the front and back side */
 	.flip-box-inner {
 		position: relative;
 		width: 100%;
@@ -136,7 +193,6 @@
 		transform-style: preserve-3d;
 	}
 
-	/* Do an horizontal flip on button click */
 	.flip-it {
 		transform: rotateY(180deg);
 	}
