@@ -17,8 +17,8 @@
 	/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 	let explanation: string | undefined = $state('');
 	let showCardBack: boolean = $state(false);
-	let showFront: string = $state('Vis norsk');
-	let showBack: string = $state('Show English');
+	let showFront: string = $state('Norsk');
+	let showBack: string = $state('English');
 	let lang1lang2: string = $state(
 		'text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-lg px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800 opacity-100'
 	);
@@ -47,20 +47,20 @@
 	const updateLang = (lang: string, addToHistory = true) => {
 		langlang = lang;
 		if (lang === 'noreng') {
-			showFront = 'Vis norsk';
-			showBack = 'Show English';
+			showFront = 'Norsk';
+			showBack = 'English';
 			lang1lang2 = twMerge(lang1lang2, 'opacity-100');
 			lang2lang1 = twMerge(lang2lang1, 'opacity-50');
 			lang1lang1 = twMerge(lang1lang1, 'opacity-50');
 		} else if (lang === 'engnor') {
-			showFront = 'Show English';
-			showBack = 'Vis norsk';
+			showFront = 'English';
+			showBack = 'Norsk';
 			lang1lang2 = twMerge(lang1lang2, 'opacity-50');
 			lang2lang1 = twMerge(lang2lang1, 'opacity-100');
 			lang1lang1 = twMerge(lang1lang1, 'opacity-50');
 		} else if (lang === 'nornor') {
 			showFront = 'Forklaring';
-			showBack = 'Vis norsk';
+			showBack = 'Norsk';
 			lang1lang2 = twMerge(lang1lang2, 'opacity-50');
 			lang2lang1 = twMerge(lang2lang1, 'opacity-50');
 			lang1lang1 = twMerge(lang1lang1, 'opacity-100');
