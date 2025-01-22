@@ -8,9 +8,6 @@
 
 	let { langlang, front, back }: Props = $props();
 
-	const ordbokene = 'https://ordbokene.no/bm,nn/search?q=';
-	const naob = 'https://naob.no/s%C3%B8k/';
-
 	let searchWord = $derived(
 		langlang === 'noreng' && front ? dictionaryWord(front) : back ? dictionaryWord(back) : ''
 	);
@@ -24,6 +21,8 @@
 		// return the word
 		return firstWord;
 	}
+	let ordbokene = $derived(`https://ordbokene.no/eng/bm,nn/${searchWord}`);
+	let naob = $derived(`https://naob.no/ordbok/${searchWord}`);
 </script>
 
 <div class="mx-auto mt-4 flex w-1/3 flex-col justify-center gap-2">
