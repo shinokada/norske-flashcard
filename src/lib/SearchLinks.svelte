@@ -9,9 +9,20 @@
 	let { langlang, front, back }: Props = $props();
 
 	let searchWord = $derived(
-		langlang === 'noreng' && front ? dictionaryWord(front) : back ? dictionaryWord(back) : ''
+		front ? dictionaryWord(front) : ''
 	);
-	let showDictionaryLink: boolean = $derived(langlang === 'noreng' ? true : false);
+
+	let norskord = $derived(
+		langlang === 'noreng' && front 
+        ? dictionaryWord(front)
+        : langlang === 'engnor' && back
+        ? dictionaryWord(back)
+        : ''
+	);
+	// $effect(() => {
+	// 	$inspect('norskord: ',norskord, front, back);
+	// });
+	let showDictionaryLink: boolean = $derived(langlang === 'noreng' || langlang === 'engnor');
 
 	function dictionaryWord(norwegianWord: string) {
 		// remove å, ei, en, et from the beginning of the norwegian word
@@ -21,8 +32,8 @@
 		// return the word
 		return firstWord;
 	}
-	let ordbokene = $derived(`https://ordbokene.no/eng/bm,nn/${searchWord}`);
-	let naob = $derived(`https://naob.no/ordbok/${searchWord}`);
+	let ordbokene = $derived(`https://ordbokene.no/eng/bm,nn/${norskord}`);
+	let naob = $derived(`https://naob.no/ordbok/${norskord}`);
 </script>
 
 <div class="mx-auto mt-4 flex w-1/3 flex-col justify-center gap-2">
