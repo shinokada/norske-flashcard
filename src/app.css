@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@source "../node_modules/flowbite-svelte/dist";
+
+@theme {
+  --z-index-100: 100;
+
+  --color-primary-50: #f7fee7;
+  --color-primary-100: #ecfccb;
+  --color-primary-200: #d9f99d;
+  --color-primary-300: #bef264;
+  --color-primary-400: #a3e635;
+  --color-primary-500: #84cc16;
+  --color-primary-600: #65a30d;
+  --color-primary-700: #4d7c0f;
+  --color-primary-800: #3f6212;
+  --color-primary-900: #365314;
+
+	--color-custom-red: #BA0C2F;
+	--color-custom-blue: #00205B;
+}
+
+@layer base {
+	h1 {
+		@apply my-6 text-3xl dark:text-white;
+	}
+	h2 {
+		@apply my-4 text-2xl dark:text-white;
+	}
+	h3 {
+		@apply my-2 text-xl dark:text-white;
+	}
+}

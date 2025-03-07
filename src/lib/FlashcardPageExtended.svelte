@@ -6,6 +6,14 @@
 		pFront?: string;
 		pBack?: string;
 	}
+
+	// Define an interface for word history items
+	interface WordHistoryItem {
+		wordFront: string | undefined;
+		wordBack: string | undefined;
+		wordExplanation: string | undefined;
+	}
+
 	import { twMerge } from 'tailwind-merge';
 	import { Flashcard, ArrowLeft, ArrowRight, ArrowUp, ArrowDown } from '$lib';
 	import { getRandomPair } from '$lib/utils.js';
@@ -29,8 +37,8 @@
 		'focus:outline-none text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-lg px-5 py-2.5 me-2 mb-2 dark:bg-orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-900 opacity-50'
 	);
 
-	// Add word history
-	let wordHistory = $state<Array<{ front: string | undefined; back: string | undefined; explanation: string | undefined }>>([]);
+	// Add word history with the new interface
+	let wordHistory = $state<Array<WordHistoryItem>>([]);
 	let currentIndex = $state(-1);
 
 	const toggleShowBack = () => (showCardBack = !showCardBack);
@@ -38,9 +46,9 @@
 	const getNewWord = (lang: string) => {
 		const result = getRandomPair(dictionary, lang, true);
 		return {
-			front: result.front,
-			back: result.back,
-			explanation: result.norskexplanation
+			wordFront: result.front,
+			wordBack: result.back,
+			wordExplanation: result.norskexplanation
 		};
 	};
 
@@ -78,18 +86,18 @@
 			currentIndex = wordHistory.length - 1;
 		}
 
-		front = newWord.front;
-		back = newWord.back;
-		explanation = newWord.explanation;
+		front = newWord.wordFront;
+		back = newWord.wordBack;
+		explanation = newWord.wordExplanation;
 	};
 
 	const showPreviousWord = () => {
 		if (currentIndex > 0) {
 			currentIndex--;
 			const prevWord = wordHistory[currentIndex];
-			front = prevWord.front;
-			back = prevWord.back;
-			explanation = prevWord.explanation;
+			front = prevWord.wordFront;
+			back = prevWord.wordBack;
+			explanation = prevWord.wordExplanation;
 			showCardBack = false;
 		}
 	};
@@ -98,9 +106,9 @@
 		if (currentIndex < wordHistory.length - 1) {
 			currentIndex++;
 			const nextWord = wordHistory[currentIndex];
-			front = nextWord.front;
-			back = nextWord.back;
-			explanation = nextWord.explanation;
+			front = nextWord.wordFront;
+			back = nextWord.wordBack;
+			explanation = nextWord.wordExplanation;
 			showCardBack = false;
 		}
 	};
@@ -110,9 +118,9 @@
 	// Initialize with first word
 	$effect(() => {
 		const initialWord = getNewWord(langlang);
-		front = initialWord.front;
-		back = initialWord.back;
-		explanation = initialWord.explanation;
+		front = initialWord.wordFront;
+		back = initialWord.wordBack;
+		explanation = initialWord.wordExplanation;
 		wordHistory = [initialWord];
 		currentIndex = 0;
 	});
