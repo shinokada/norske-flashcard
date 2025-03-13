@@ -54,7 +54,7 @@
 
 <!--
 @component
-[Go to docs](https://flowbite-svelte-icons.codewithshin.com/)
+[Go to docs](https://svelte-5-ui-lib-icons.codewithshin.com/)
 ## Props
 @prop size = ctx.size || 'md'
 @prop color = ctx.color || 'currentColor'

@@ -4,7 +4,7 @@
 	const name = __NAME__;
 	const version = __VERSION__;
 	const githuburl = __GITHUBURL__;
-	const flowbiteSvelteVersion = __FLOWBITE_SVELTE_VERSION__;
+	const svelte5uilibVersion = __SVELTE_5_UI_LIB_VERSION__;
 	const svelteVersion = __SVELTE_VERSION__;
 	const svelteKitVersion = __SVELTEKIT_VERSION__;
 	const viteVersion = __VITE_VERSION__;
@@ -52,19 +52,19 @@
 	<ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
 		<li class="hover:text-red-700 hover:underline">
 			<a
-				href="https://svelte-5-preview.codewithshin.com/docs/introduction"
+				href="https://norske-flashcard.codewithshin.com/"
 				class="me-4 hover:underline md:me-6">{removeHyphensAndCapitalize(name)} : {version}</a
 			>
 		</li>
 		<li class="hover:text-red-700 hover:underline">
 			<a
-				href="https://svelte-5-preview.codewithshin.com/docs/introduction"
-				class="me-4 hover:underline md:me-6">Svelte 5: {svelteVersion}</a
+				href="https://svelte.dev"
+				class="me-4 hover:underline md:me-6">Svelte: {svelteVersion}</a
 			>
 		</li>
 		<li>
-			<a href="https://preview.flowbite-svelte.com/" class="me-4 hover:underline md:me-6"
-				>Flowbite Svelte: {flowbiteSvelteVersion}</a
+			<a href="https://svelte-5-ui-lib.codewithshin.com/" class="me-4 hover:underline md:me-6"
+				>Svelte 5 UI Lib: {svelte5uilibVersion}</a
 			>
 		</li>
 		<li>

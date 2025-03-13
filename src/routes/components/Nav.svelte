@@ -1,5 +1,5 @@
 <script>
-	import { Navbar, NavLi, NavBrand, NavUl, uiHelpers, Darkmode } from 'flowbite-svelte';
+	import { Navbar, NavLi, NavBrand, NavUl, uiHelpers, Darkmode } from 'svelte-5-ui-lib';
 	import No from '$lib/No.svelte';
 	import { page } from '$app/stores';
 
