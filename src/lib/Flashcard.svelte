@@ -11,7 +11,7 @@
 	let { front, back, showCardBack, pFront, pBack }: Props = $props();
 
 	const frontDivCls = 'absolute inset-0 bg-custom-red text-white flex justify-center items-center';
-	const pClass = 'text-5xl p-8';
+	const pClass = 'text-5xl p-4';
 	let frontPCls = twMerge(pClass, pFront);
 	let backPCls = twMerge(pClass, pBack);
 

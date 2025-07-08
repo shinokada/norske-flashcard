@@ -140,13 +140,21 @@
 	</div>
 
 	<!-- BUTTONS -->
-	<div class="flex flex-col sm:flex-row gap-2 pt-4">
+	<div class="grid grid-cols-2 sm:grid-cols-4 sm:flex-row gap-2 pt-4">
 		<button
 			onclick={toggleShowBack}
 			class="inline-flex items-center bg-gray-300 p-4 dark:bg-gray-700"
 		>
 			<ArrowLeft class="mr-4" />
 			{showCardBack ? showFront : showBack}
+		</button>
+
+		<button
+			class="inline-flex bg-gray-300 p-4 text-right dark:bg-gray-700"
+			onclick={() => updateLang(langlang)}
+		>
+			Next
+			<ArrowRight class="ml-4" />
 		</button>
 
 		<button
@@ -165,14 +173,6 @@
 		>
 			<ArrowDown class="mr-4" />
 			Forward
-		</button>
-
-		<button
-			class="inline-flex bg-gray-300 p-4 text-right dark:bg-gray-700"
-			onclick={() => updateLang(langlang)}
-		>
-			Next
-			<ArrowRight class="ml-4" />
 		</button>
 	</div>
 	<span class="right-full mt-4 hidden rounded bg-gray-900 px-2 py-1 text-white lg:inline-block">
