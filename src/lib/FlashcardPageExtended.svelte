@@ -201,7 +201,7 @@
 
 		
 	</div>
-	<span class="right-full mt-4 hidden rounded bg-gray-900 px-2 py-1 text-white lg:inline-block">
+	<span class="right-full mt-4 rounded bg-gray-900 px-2 py-1 text-white">
 		Click the card or press ← / Space / Enter to flip. → for next, ↑ for previous, ↓ to go forward.
 	</span>
 </div>
