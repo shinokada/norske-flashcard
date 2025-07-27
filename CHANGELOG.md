@@ -1,5 +1,16 @@
 # norske-flashcard
 
+## 1.1.1
+
+### Patch Changes
+
+- feat(FlashcardPage/FlashcardPageExtended): improve UX by making flashcard clickable to flip
+- Removed "flip" button (←) for flipping card
+- Made the flashcard clickable to flip using mouse or keyboard (Enter/Space)
+- Added keyboard accessibility with role="button" and tabindex="0"
+- Updated instructions to reflect new interaction pattern
+- Preserved support for arrow key shortcuts: ← (flip), → (next), ↑ (previous), ↓ (forward)
+
 ## 1.0.1
 
 ### Patch Changes
