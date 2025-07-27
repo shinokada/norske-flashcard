@@ -36,9 +36,9 @@
 	let naob = $derived(`https://naob.no/ordbok/${norskord}`);
 </script>
 
-<div class="mx-auto mt-4 flex w-1/3 flex-col justify-center gap-2">
+<div class="mx-auto mt-4 flex w-1/3 justify-center gap-2">
 	{#if showDictionaryLink}
-		<Button target="_blank" href={ordbokene}>Ordbokene: {searchWord}</Button>
-		<Button target="_blank" href={naob}>Naob: {searchWord}</Button>
+		<Button class="p-2 sm:p-4" target="_blank" href={ordbokene}>Ordbok: {searchWord}</Button>
+		<Button class="p-2 sm:p-4" target="_blank" href={naob}>Naob: {searchWord}</Button>
 	{/if}
 </div>

@@ -23,10 +23,10 @@
 	let showFront: string = $state('Norsk');
 	let showBack: string = $state('English');
 	let lang1lang2: string = $state(
-		'text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-lg px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800 opacity-100'
+		'text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-lg px-3 sm:px-5 py-1 sm:py-2.5 me-1 sm:me-2 mb-1 sm:mb-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800 opacity-100'
 	);
 	let lang2lang1 = $state(
-		'focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-lg px-5 py-2.5 me-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 opacity-50'
+		'focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-lg px-3 sm:px-5 py-1 sm:py-2.5 me-1 sm:me-2 mb-1 sm:mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 opacity-50'
 	);
 
 	// Add word history
@@ -113,8 +113,11 @@
 			showPreviousWord();
 		} else if (event.key === 'ArrowDown') {
 			showNextWord();
+		} else if (event.key === 'Enter' || event.key === ' ') {
+			toggleShowBack();
 		}
 	}
+
 
 	function preventDefault(fn: (event: KeyboardEvent) => void) {
 		return function (this: HTMLElement, event: KeyboardEvent) {
@@ -134,49 +137,49 @@
 	</div>
 	<!-- FLASHCARD -->
 	<div class="flip-box h-96 w-full bg-transparent md:w-1/2">
-		<div class="flip-box-inner" class:flip-it={showCardBack}>
+		<div
+			class="flip-box-inner"
+			class:flip-it={showCardBack}
+			onclick={toggleShowBack}
+			onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleShowBack()}
+			tabindex="0"
+			role="button"
+			aria-pressed={showCardBack}
+		>
 			<Flashcard {front} {back} {showCardBack} {pFront} {pBack} />
 		</div>
 	</div>
 
 	<!-- BUTTONS -->
-	<div class="grid grid-cols-2 sm:grid-cols-4 sm:flex-row gap-2 pt-4">
+	<div class="grid grid-cols-3 sm:flex-row gap-2 pt-4">
 		<button
-			onclick={toggleShowBack}
-			class="inline-flex items-center bg-gray-300 p-4 dark:bg-gray-700"
-		>
-			<ArrowLeft class="mr-4" />
-			{showCardBack ? showFront : showBack}
-		</button>
-
-		<button
-			class="inline-flex bg-gray-300 p-4 text-right dark:bg-gray-700"
+			class="inline-flex bg-gray-300 p-2 sm:p-4 text-right dark:bg-gray-700"
 			onclick={() => updateLang(langlang)}
 		>
 			Next
-			<ArrowRight class="ml-4" />
+			<ArrowRight class="ml-2 sm:ml-4" />
 		</button>
 
 		<button
 			onclick={showPreviousWord}
-			class="inline-flex items-center bg-gray-300 p-4 dark:bg-gray-700"
+			class="inline-flex items-center bg-gray-300 p-2 sm:p-4 dark:bg-gray-700"
 			disabled={currentIndex <= 0}
 		>
-			<ArrowUp class="mr-4" />
+			<ArrowUp class="mr-2 sm:mr-4" />
 			Previous
 		</button>
 
 		<button
 			onclick={showNextWord}
-			class="inline-flex items-center bg-gray-300 p-4 dark:bg-gray-700"
+			class="inline-flex items-center bg-gray-300 p-2 sm:p-4 dark:bg-gray-700"
 			disabled={currentIndex >= wordHistory.length - 1}
 		>
-			<ArrowDown class="mr-4" />
+			<ArrowDown class="mr-2 sm:mr-4" />
 			Forward
 		</button>
 	</div>
 	<span class="right-full mt-4 hidden rounded bg-gray-900 px-2 py-1 text-white lg:inline-block">
-		Use the left arrow key (←) to flip, right arrow key (→) for next word, up arrow key (↑) for previous word, and down arrow key (↓) to go forward.
+		Click the card or press ← to flip. → for next, ↑ for previous, ↓ to go forward.
 	</span>
 </div>
 
@@ -196,6 +199,8 @@
 		text-align: center;
 		transition: transform 0.8s;
 		transform-style: preserve-3d;
+		cursor: pointer;
+		user-select: none;
 	}
 
 	.flip-it {
