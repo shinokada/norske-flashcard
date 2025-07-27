@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { twMerge } from 'tailwind-merge';
 	import { Flashcard, ArrowLeft, ArrowRight, ArrowUp, ArrowDown } from '$lib';
 	import SearchLinks from './SearchLinks.svelte';
@@ -28,6 +29,50 @@
 	let lang2lang1 = $state(
 		'focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-lg px-3 sm:px-5 py-1 sm:py-2.5 me-1 sm:me-2 mb-1 sm:mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 opacity-50'
 	);
+
+	// swipe
+	let isTouch = $state(false);
+	onMount(() => {
+		isTouch = window.matchMedia('(pointer: coarse)').matches;
+	});
+	// touch screen
+	let touchStartX = 0;
+	let touchStartY = 0;
+	let touchEndX = 0;
+	let touchEndY = 0;
+
+	function handleTouchStart(event: TouchEvent) {
+		touchStartX = event.changedTouches[0].screenX;
+		touchStartY = event.changedTouches[0].screenY;
+	}
+
+	function handleTouchEnd(event: TouchEvent) {
+		touchEndX = event.changedTouches[0].screenX;
+		touchEndY = event.changedTouches[0].screenY;
+
+		const deltaX = touchEndX - touchStartX;
+		const deltaY = touchEndY - touchStartY;
+
+		if (Math.abs(deltaX) > Math.abs(deltaY)) {
+			// Horizontal swipe
+			if (deltaX < -30) {
+				// Swipe left - navigate forward or generate new card
+				if (currentIndex < wordHistory.length - 1) {
+					showNextWord();
+				} else {
+					updateLang(langlang);
+				}
+			} else if (deltaX > 30) {
+				// Swipe right - show previous word
+				showPreviousWord();
+			}
+		} else {
+			// Vertical swipe
+			if (deltaY < -30 || deltaY > 30) {
+				toggleShowBack();
+			}
+		}
+	}
 
 	// Add word history
 	let wordHistory = $state<Array<WordPair>>([]);
@@ -61,10 +106,7 @@
 		const newWord = getNewWord(lang);
 		
 		if (addToHistory) {
-			// Remove any forward history if we're not at the end
-			if (currentIndex < wordHistory.length - 1) {
-				wordHistory = wordHistory.slice(0, currentIndex + 1);
-			}
+			// Always append new cards to the end (no truncation)
 			wordHistory = [...wordHistory, newWord];
 			currentIndex = wordHistory.length - 1;
 		}
@@ -105,19 +147,21 @@
 	});
 
 	function handleKeyDown(event: KeyboardEvent) {
-		if (event.key === 'ArrowLeft') {
-			toggleShowBack();
-		} else if (event.key === 'ArrowRight') {
-			updateLang(langlang);
-		} else if (event.key === 'ArrowUp') {
+		if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
 			showPreviousWord();
-		} else if (event.key === 'ArrowDown') {
-			showNextWord();
+		} else if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
+			// Navigate forward or generate new card if at the end
+			if (currentIndex < wordHistory.length - 1) {
+				showNextWord();
+			} else {
+				updateLang(langlang);
+			}
 		} else if (event.key === 'Enter' || event.key === ' ') {
 			toggleShowBack();
+		} else if (event.key === 'n' || event.key === 'N') {
+			updateLang(langlang);
 		}
 	}
-
 
 	function preventDefault(fn: (event: KeyboardEvent) => void) {
 		return function (this: HTMLElement, event: KeyboardEvent) {
@@ -135,6 +179,12 @@
 		>
 		<button class={lang2lang1} onclick={() => updateLang('engnor')}>English-Norsk</button>
 	</div>
+	
+	<!-- CARD COUNTER -->
+	<div class="mt-4 mb-2 text-lg font-medium text-gray-700 dark:text-gray-300">
+		{currentIndex + 1}/{wordHistory.length}
+	</div>
+
 	<!-- FLASHCARD -->
 	<div class="flip-box h-96 w-full bg-transparent md:w-1/2">
 		<div
@@ -142,6 +192,8 @@
 			class:flip-it={showCardBack}
 			onclick={toggleShowBack}
 			onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleShowBack()}
+			ontouchstart={handleTouchStart}
+			ontouchend={handleTouchEnd}
 			tabindex="0"
 			role="button"
 			aria-pressed={showCardBack}
@@ -150,37 +202,43 @@
 		</div>
 	</div>
 
-	<!-- BUTTONS -->
-	<div class="grid grid-cols-3 sm:flex-row gap-2 pt-4">
-		<button
-			class="inline-flex bg-gray-300 p-2 sm:p-4 text-right dark:bg-gray-700"
-			onclick={() => updateLang(langlang)}
-		>
-			Next
-			<ArrowRight class="ml-2 sm:ml-4" />
-		</button>
+	<p class="right-full mt-4 rounded bg-gray-900 px-2 py-1 text-white">
+		{#if isTouch}
+			Swipe left or right to switch cards. Tap to flip. Or use buttons below.
+		{:else}
+			Click the card / press space / enter to flip.<br />
+			Use ← → ↑ ↓ to navigate cards. Press N for new card. Or use buttons below.
+		{/if}
+	</p>
 
+	<!-- BUTTONS -->
+	<div class="grid grid-cols-3 gap-2 pt-4 sm:flex-row sm:justify-between">
 		<button
 			onclick={showPreviousWord}
-			class="inline-flex items-center bg-gray-300 p-2 sm:p-4 dark:bg-gray-700"
+			class="w-full inline-flex items-center bg-gray-300 p-2 sm:p-4 dark:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
 			disabled={currentIndex <= 0}
 		>
-			<ArrowUp class="mr-2 sm:mr-4" />
+			<ArrowUp class="mr-4" />
 			Previous
 		</button>
 
 		<button
 			onclick={showNextWord}
-			class="inline-flex items-center bg-gray-300 p-2 sm:p-4 dark:bg-gray-700"
+			class="w-full inline-flex items-center bg-gray-300 p-2 sm:p-4 dark:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
 			disabled={currentIndex >= wordHistory.length - 1}
 		>
-			<ArrowDown class="mr-2 sm:mr-4" />
+			<ArrowDown class="mr-4" />
 			Forward
 		</button>
+
+		<button
+			class="w-full inline-flex bg-gray-300 p-2 text-right sm:p-4 dark:bg-gray-700"
+			onclick={() => updateLang(langlang)}
+		>
+			NEW CARD
+			<ArrowRight class="ml-4" />
+		</button>
 	</div>
-	<span class="right-full mt-4 rounded bg-gray-900 px-2 py-1 text-white">
-		Click the card or press ← / Space / Enter to flip. → for next, ↑ for previous, ↓ to go forward.
-	</span>
 </div>
 
 <SearchLinks {langlang} {front} {back} />
