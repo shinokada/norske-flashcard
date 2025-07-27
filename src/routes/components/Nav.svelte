@@ -1,11 +1,11 @@
 <script>
 	import { Navbar, NavLi, NavBrand, NavUl, uiHelpers, Darkmode } from 'svelte-5-ui-lib';
 	import No from '$lib/No.svelte';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 
-	let activeUrl = $state($page.url.pathname);
+	let activeUrl = $state(page.url.pathname);
 	$effect(() => {
-		activeUrl = $page.url.pathname;
+		activeUrl = page.url.pathname;
 	});
 
 	let nav = uiHelpers();
@@ -31,7 +31,7 @@
 >
 	<Navbar {navClass} {toggleNav} {closeNav} {navStatus} breakPoint="lg" fluid div2Class={divClass}>
 		{#snippet brand()}
-			<NavBrand siteName="Norske flashcard">
+			<NavBrand spanClass="text-xl sm:text-3xl" siteName="Norske flashcard">
 				<No size="40" class="inline" />
 			</NavBrand>
 			<div class="ml-auto flex items-center lg:order-1">
