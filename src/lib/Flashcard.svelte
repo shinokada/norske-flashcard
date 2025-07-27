@@ -23,7 +23,7 @@
 	}
 </script>
 
-<div class="relative h-full">
+<div class="relative h-96">
 	<div class={frontDivCls}>
 		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 		<p class={frontPCls}>{@html limitCharacters(front, 200)}</p>
