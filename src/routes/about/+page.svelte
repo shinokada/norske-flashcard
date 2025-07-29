@@ -4,7 +4,6 @@
 	const name = __NAME__;
 	const version = __VERSION__;
 	const githuburl = __GITHUBURL__;
-	const svelte5uilibVersion = __SVELTE_5_UI_LIB_VERSION__;
 	const svelteVersion = __SVELTE_VERSION__;
 	const svelteKitVersion = __SVELTEKIT_VERSION__;
 	const viteVersion = __VITE_VERSION__;
@@ -60,11 +59,6 @@
 			<a
 				href="https://svelte.dev"
 				class="me-4 hover:underline md:me-6">Svelte: {svelteVersion}</a
-			>
-		</li>
-		<li>
-			<a href="https://svelte-5-ui-lib.codewithshin.com/" class="me-4 hover:underline md:me-6"
-				>Svelte 5 UI Lib: {svelte5uilibVersion}</a
 			>
 		</li>
 		<li>

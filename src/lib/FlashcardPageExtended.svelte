@@ -19,8 +19,13 @@
 	import { Flashcard, ArrowLeft, ArrowRight, ArrowUp, ArrowDown } from '$lib';
 	import { getRandomPair } from '$lib/utils.js';
 	import SearchLinks from './SearchLinks.svelte';
+	import { Modal, Button } from 'flowbite-svelte';
 
 	let { dictionary, title = 'Flashcard', pFront, pBack }: Props = $props();
+
+	// modal
+	let flashcardModal = $state(false);
+
 	let front: string | undefined = $state('');
 	let back: string | undefined = $state('');
 	/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
@@ -190,6 +195,14 @@
 			fn.call(this, event);
 		};
 	}
+
+	let modalContent: HTMLDivElement | undefined;
+
+	$effect(() => {
+		if (flashcardModal) {
+			setTimeout(() => modalContent?.focus(), 0);
+		}
+	});
 </script>
 
 <div class="flex flex-col items-center">
@@ -203,25 +216,41 @@
 	</div>
 
 	<!-- CARD COUNTER -->
-	<div class="mt-4 mb-2 text-lg font-medium text-gray-700 dark:text-gray-300">
-		{currentIndex + 1}/{wordHistory.length}
+	<div
+		class="mt-4 mb-2 flex justify-center gap-4 text-lg font-medium text-gray-700 dark:text-gray-300"
+	>
+		<Button color="gray">{currentIndex + 1}/{wordHistory.length}</Button>
+		<Button onclick={() => (flashcardModal = true)}>Full-screen</Button>
 	</div>
 
+	{#snippet flashcard()}
+<div
+		class="flip-box-inner"
+		class:flip-it={showCardBack}
+		onclick={toggleShowBack}
+		onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleShowBack()}
+		ontouchstart={handleTouchStart}
+		ontouchend={handleTouchEnd}
+		tabindex="0"
+		role="button"
+		aria-pressed={showCardBack}
+	>
+		<Flashcard {front} {back} {showCardBack} {pFront} {pBack} />
+	</div>
+	{/snippet}
+  <Modal bind:open={flashcardModal} fullscreen size="none" classes={{body:"p-0 m-0", close:"top-12 end-12 text-white"}} >
+		<div class="flex h-screen items-center justify-center"
+		role="button"
+		tabindex="0"
+    onkeydown={preventDefault(handleKeyDown)}
+		bind:this={modalContent}
+		>
+			{@render flashcard()}
+		</div>
+	</Modal>
 	<!-- FLASHCARD -->
 	<div class="flip-box h-96 w-full bg-transparent md:w-1/2">
-		<div
-			class="flip-box-inner"
-			class:flip-it={showCardBack}
-			onclick={toggleShowBack}
-			onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleShowBack()}
-			ontouchstart={handleTouchStart}
-			ontouchend={handleTouchEnd}
-			tabindex="0"
-			role="button"
-			aria-pressed={showCardBack}
-		>
-			<Flashcard {front} {back} {showCardBack} {pFront} {pBack} />
-		</div>
+		{@render flashcard()}
 	</div>
 
 	<p class="right-full mt-4 rounded bg-gray-900 px-2 py-1 text-white">
