@@ -57,7 +57,7 @@
 		"puppeteer": "^24.15.0",
 		"runatics": "^0.1.4",
 		"runes-meta-tags": "^0.4.4",
-		"runes-webkit": "^0.9.59",
+		"runes-webkit": "^0.10.3",
 		"svelte": "^5.37.1",
 		"svelte-check": "^4.3.0",
 		"tailwind-merge": "^3.3.1",
