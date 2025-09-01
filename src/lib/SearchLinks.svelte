@@ -32,12 +32,14 @@
 		// return the word
 		return firstWord;
 	}
+	let translate = $derived(`https://translate.google.com/?sl=no&tl=en&text=${searchWord}&op=translate`);
 	let ordbokene = $derived(`https://ordbokene.no/eng/bm,nn/${norskord}`);
 	let naob = $derived(`https://naob.no/ordbok/${norskord}`);
 </script>
 
 <div class="mx-auto mt-4 flex w-1/3 justify-center gap-2">
 	{#if showDictionaryLink}
+		<Button class="p-2 sm:p-4" target="_blank" href={translate}>Tranlate: {searchWord}</Button>
 		<Button class="p-2 sm:p-4" target="_blank" href={ordbokene}>Ordbok: {searchWord}</Button>
 		<Button class="p-2 sm:p-4" target="_blank" href={naob}>Naob: {searchWord}</Button>
 	{/if}
