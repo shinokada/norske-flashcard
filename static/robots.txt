@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://norske-flashcard.codewithshin.com/sitemap.xml
