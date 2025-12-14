@@ -8,16 +8,14 @@
 
 	let { langlang, front, back }: Props = $props();
 
-	let searchWord = $derived(
-		front ? dictionaryWord(front) : ''
-	);
+	let searchWord = $derived(front ? dictionaryWord(front) : '');
 
 	let norskord = $derived(
-		langlang === 'noreng' && front 
-        ? dictionaryWord(front)
-        : langlang === 'engnor' && back
-        ? dictionaryWord(back)
-        : ''
+		langlang === 'noreng' && front
+			? dictionaryWord(front)
+			: langlang === 'engnor' && back
+				? dictionaryWord(back)
+				: ''
 	);
 	// $effect(() => {
 	// 	$inspect('norskord: ',norskord, front, back);
@@ -32,7 +30,9 @@
 		// return the word
 		return firstWord;
 	}
-	let translate = $derived(`https://translate.google.com/?sl=no&tl=en&text=${searchWord}&op=translate`);
+	let translate = $derived(
+		`https://translate.google.com/?sl=no&tl=en&text=${searchWord}&op=translate`
+	);
 	let ordbokene = $derived(`https://ordbokene.no/eng/bm,nn/${norskord}`);
 	let naob = $derived(`https://naob.no/ordbok/${norskord}`);
 </script>

@@ -13,7 +13,8 @@
 			>
 			<FooterLink href="https://norske-flashcard.codewithshin.com/">Norske flashcard</FooterLink>
 			<FooterLink href="https://nihongo-flashcard.codewithshin.com/">Japanese flashcard</FooterLink>
-			<FooterLink href="https://flexilexi-dictionary.codewithshin.com/">FlexiLexi dictionary</FooterLink
+			<FooterLink href="https://flexilexi-dictionary.codewithshin.com/"
+				>FlexiLexi dictionary</FooterLink
 			>
 			<FooterLink href="https://gjett-norsk.codewithshin.com/">Gjett norsk</FooterLink>
 		</FooterLinkGroup>

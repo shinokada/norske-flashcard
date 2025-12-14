@@ -19,7 +19,12 @@ export default ts.config(
 		languageOptions: {
 			globals: {
 				...globals.browser,
-				...globals.node
+				...globals.node,
+				__NAME__: 'readonly',
+				__VERSION__: 'readonly',
+				__SVELTE_VERSION__: 'readonly',
+				__SVELTEKIT_VERSION__: 'readonly',
+				__VITE_VERSION__: 'readonly'
 			}
 		}
 	},

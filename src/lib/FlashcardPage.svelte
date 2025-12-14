@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { twMerge } from 'tailwind-merge';
-	import { Flashcard, ArrowLeft, ArrowRight, ArrowUp, ArrowDown } from '$lib';
+	import { Flashcard, ArrowRight, ArrowUp, ArrowDown } from '$lib';
 	import { Modal, Button } from 'flowbite-svelte';
 	import SearchLinks from './SearchLinks.svelte';
 	import { getRandomPair } from '$lib/utils.js';
@@ -26,7 +26,9 @@
 	let front: string = $state('');
 	let back: string = $state('');
 	let showCardBack: boolean = $state(false);
+	/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 	let showFront: string = $state('Norsk');
+	/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 	let showBack: string = $state('English');
 	let lang1lang2: string = $state(
 		'text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-lg px-3 sm:px-5 py-1 sm:py-2.5 me-1 sm:me-2 mb-1 sm:mb-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800 opacity-100'
@@ -109,7 +111,7 @@
 		showCardBack = false;
 
 		const newWord = getNewWord(lang);
-		
+
 		if (addToHistory) {
 			// Always append new cards to the end (no truncation)
 			wordHistory = [...wordHistory, newWord];
@@ -141,7 +143,7 @@
 	};
 
 	let langlang = $state('noreng');
-	
+
 	// Initialize with first word
 	$effect(() => {
 		const initialWord = getNewWord(langlang);
@@ -192,7 +194,7 @@
 		>
 		<button class={lang2lang1} onclick={() => updateLang('engnor')}>English-Norsk</button>
 	</div>
-	
+
 	<!-- CARD COUNTER -->
 	<div
 		class="mt-4 mb-2 flex justify-center gap-4 text-lg font-medium text-gray-700 dark:text-gray-300"
@@ -202,26 +204,32 @@
 	</div>
 
 	{#snippet flashcard()}
-	<div
-		class="flip-box-inner"
-		class:flip-it={showCardBack}
-		onclick={toggleShowBack}
-		onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleShowBack()}
-		ontouchstart={handleTouchStart}
-		ontouchend={handleTouchEnd}
-		tabindex="0"
-		role="button"
-		aria-pressed={showCardBack}
-	>
-		<Flashcard {front} {back} {showCardBack} {pFront} {pBack} />
-	</div>
+		<div
+			class="flip-box-inner"
+			class:flip-it={showCardBack}
+			onclick={toggleShowBack}
+			onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleShowBack()}
+			ontouchstart={handleTouchStart}
+			ontouchend={handleTouchEnd}
+			tabindex="0"
+			role="button"
+			aria-pressed={showCardBack}
+		>
+			<Flashcard {front} {back} {showCardBack} {pFront} {pBack} />
+		</div>
 	{/snippet}
-	<Modal bind:open={flashcardModal} fullscreen size="none" classes={{body:"p-0 m-0", close:"top-12 end-12 text-white"}} >
-		<div class="flex h-screen items-center justify-center"
-		role="button"
-		tabindex="0"
-    onkeydown={preventDefault(handleKeyDown)}
-		bind:this={modalContent}
+	<Modal
+		bind:open={flashcardModal}
+		fullscreen
+		size="none"
+		classes={{ body: 'p-0 m-0', close: 'top-12 end-12 text-white' }}
+	>
+		<div
+			class="flex h-screen items-center justify-center"
+			role="button"
+			tabindex="0"
+			onkeydown={preventDefault(handleKeyDown)}
+			bind:this={modalContent}
 		>
 			{@render flashcard()}
 		</div>
@@ -244,7 +252,7 @@
 	<div class="grid grid-cols-3 gap-2 pt-4 sm:flex-row sm:justify-between">
 		<button
 			onclick={showPreviousWord}
-			class="w-full inline-flex items-center bg-gray-300 p-2 sm:p-4 dark:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+			class="inline-flex w-full items-center bg-gray-300 p-2 disabled:cursor-not-allowed disabled:opacity-50 sm:p-4 dark:bg-gray-700"
 			disabled={currentIndex <= 0}
 		>
 			<ArrowUp class="mr-4" />
@@ -253,7 +261,7 @@
 
 		<button
 			onclick={showNextWord}
-			class="w-full inline-flex items-center bg-gray-300 p-2 sm:p-4 dark:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed"
+			class="inline-flex w-full items-center bg-gray-300 p-2 disabled:cursor-not-allowed disabled:opacity-50 sm:p-4 dark:bg-gray-700"
 			disabled={currentIndex >= wordHistory.length - 1}
 		>
 			<ArrowDown class="mr-4" />
@@ -261,7 +269,7 @@
 		</button>
 
 		<button
-			class="w-full inline-flex bg-gray-300 p-2 text-right sm:p-4 dark:bg-gray-700"
+			class="inline-flex w-full bg-gray-300 p-2 text-right sm:p-4 dark:bg-gray-700"
 			onclick={() => updateLang(langlang)}
 		>
 			NEW CARD

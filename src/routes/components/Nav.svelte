@@ -3,10 +3,7 @@
 	import No from '$lib/No.svelte';
 	import { page } from '$app/state';
 
-	let activeUrl = $state(page.url.pathname);
-	$effect(() => {
-		activeUrl = page.url.pathname;
-	});
+	let activeUrl = $derived(page.url.pathname);
 	let activeClass = 'p-2 text-base hover:text-gray-500';
 	let nonActiveClass = 'p-2 text-base hover:text-gray-500';
 </script>
@@ -19,7 +16,9 @@
 >
 	<NavBrand href="/">
 		<No size="40" class="inline" />
-		<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white ml-2">Norske flashcard</span>
+		<span class="ml-2 self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+			>Norske flashcard</span
+		>
 	</NavBrand>
 	<div class="flex items-center lg:order-2">
 		<DarkMode class="inline-block hover:text-gray-900 dark:hover:text-white" />

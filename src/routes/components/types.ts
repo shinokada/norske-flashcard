@@ -1,34 +1,36 @@
 import type { SVGAttributes } from 'svelte/elements';
-export type TitleType = {
-  id?: string;
-  title?: string;
-};
 
-export type DescType = {
-  id?: string;
-  desc?: string;
-};
+export type Size = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+
+export type TitleType =
+	| {
+			id: string;
+			title?: string;
+	  }
+	| undefined;
+
+export type DescType =
+	| {
+			id: string;
+			desc?: string;
+	  }
+	| undefined;
 
 export interface BaseProps extends SVGAttributes<SVGElement> {
-  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
-  color?: string | undefined | null;
-  class?: string | undefined | null;
+	size?: Size;
+	color?: string | null;
 }
 
 export interface OutlineBaseProps extends BaseProps {
-  strokeWidth?: string | undefined | null;
+	strokeWidth?: number | `${number}`;
 }
 
-export interface Props extends BaseProps {
-  title?: TitleType;
-  desc?: DescType;
-  ariaLabel?: string;
-  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+export interface AccessibleProps {
+	title?: TitleType;
+	desc?: DescType;
+	ariaLabel?: string;
 }
 
-export interface OutlineProps extends OutlineBaseProps {
-  title?: TitleType;
-  desc?: DescType;
-  ariaLabel?: string;
-  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
-}
+export interface Props extends BaseProps, AccessibleProps {}
+
+export interface OutlineProps extends OutlineBaseProps, AccessibleProps {}

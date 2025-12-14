@@ -22,23 +22,20 @@
 		...attributes
 	}: CtxType = $props();
 
-	if (variation === 'mini') {
-		size = size || '20';
-		viewBox = viewBox || '0 0 20 20';
-	} else {
-		size = size || '24';
-		viewBox = viewBox || '0 0 24 24';
-	}
+	let finalSize = $derived(variation === 'mini' ? size || '20' : size || '24');
+	let finalViewBox = $derived(
+		variation === 'mini' ? viewBox || '0 0 20 20' : viewBox || '0 0 24 24'
+	);
 </script>
 
 <svg
 	xmlns="http://www.w3.org/2000/svg"
-	width={size}
-	height={size}
+	width={finalSize}
+	height={finalSize}
 	{role}
 	aria-label={ariaLabel}
 	fill="none"
-	{viewBox}
+	viewBox={finalViewBox}
 	stroke-width={strokeWidth}
 	class={classname}
 	{...attributes}

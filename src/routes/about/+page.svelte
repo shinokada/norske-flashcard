@@ -1,9 +1,8 @@
 <script>
 	import { removeHyphensAndCapitalize } from '$lib/utils';
-	/*eslint no-undef: "off"*/
+
 	const name = __NAME__;
 	const version = __VERSION__;
-	const githuburl = __GITHUBURL__;
 	const svelteVersion = __SVELTE_VERSION__;
 	const svelteKitVersion = __SVELTEKIT_VERSION__;
 	const viteVersion = __VITE_VERSION__;
@@ -50,16 +49,12 @@
 	<h2>Technical info</h2>
 	<ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
 		<li class="hover:text-red-700 hover:underline">
-			<a
-				href="https://norske-flashcard.codewithshin.com/"
-				class="me-4 hover:underline md:me-6">{removeHyphensAndCapitalize(name)} : {version}</a
+			<a href="https://norske-flashcard.codewithshin.com/" class="me-4 hover:underline md:me-6"
+				>{removeHyphensAndCapitalize(name)} : {version}</a
 			>
 		</li>
 		<li class="hover:text-red-700 hover:underline">
-			<a
-				href="https://svelte.dev"
-				class="me-4 hover:underline md:me-6">Svelte: {svelteVersion}</a
-			>
+			<a href="https://svelte.dev" class="me-4 hover:underline md:me-6">Svelte: {svelteVersion}</a>
 		</li>
 		<li>
 			<a href="https://kit.svelte.dev/docs/introduction" class="me-4 hover:underline md:me-6"
@@ -74,7 +69,9 @@
 	<h2 class="m-4 text-left text-2xl font-bold dark:text-white">Repo</h2>
 	<ul class="m-4 list-disc p-4 text-left text-lg dark:text-gray-400">
 		<li class="hover:text-red-700 hover:underline">
-			<a href={githuburl} class="me-4 hover:underline md:me-6">Github repo</a>
+			<a href="https://github.com/shinokada/norske-flashcard" class="me-4 hover:underline md:me-6"
+				>Github repo</a
+			>
 		</li>
 		<li class="hover:text-red-700 hover:underline">
 			<a href="https://codewithshin.com" class="me-4 hover:underline md:me-6"

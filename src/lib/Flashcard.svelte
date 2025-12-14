@@ -12,8 +12,8 @@
 
 	const frontDivCls = 'absolute inset-0 bg-custom-red text-white flex justify-center items-center';
 	const pClass = 'text-5xl p-4';
-	let frontPCls = twMerge(pClass, pFront);
-	let backPCls = twMerge(pClass, pBack);
+	let frontPCls = $derived(twMerge(pClass, pFront));
+	let backPCls = $derived(twMerge(pClass, pBack));
 
 	function limitCharacters(content: string | undefined, limit: number) {
 		if (content === undefined) {
@@ -29,8 +29,8 @@
 		<p class={frontPCls}>{@html limitCharacters(front, 200)}</p>
 	</div>
 	<div
-		class="absolute inset-0 flex items-center justify-center bg-custom-blue text-white opacity-0 {showCardBack
-			? 'opacity-100 [transform:rotateY(180deg)]'
+		class="bg-custom-blue absolute inset-0 flex items-center justify-center text-white opacity-0 {showCardBack
+			? '[transform:rotateY(180deg)] opacity-100'
 			: ''}"
 	>
 		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
