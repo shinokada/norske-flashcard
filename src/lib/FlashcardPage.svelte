@@ -154,7 +154,42 @@
 	});
 
 	function handleKeyDown(event: KeyboardEvent) {
+		// Skip if modal is open - let modal handle its own events
+		if (flashcardModal) return;
+
+		// Skip if user is typing in an input or textarea
+		const target = event.target as HTMLElement;
+		if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable) {
+			return;
+		}
+
+		// Only handle keys we care about, and prevent default for them
 		if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
+			event.preventDefault();
+			showPreviousWord();
+		} else if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
+			event.preventDefault();
+			// Navigate forward or generate new card if at the end
+			if (currentIndex < wordHistory.length - 1) {
+				showNextWord();
+			} else {
+				updateLang(langlang);
+			}
+		} else if (event.key === 'Enter' || event.key === ' ') {
+			event.preventDefault();
+			toggleShowBack();
+		} else if (event.key === 'n' || event.key === 'N') {
+			event.preventDefault();
+			updateLang(langlang);
+		}
+	}
+
+	function handleModalKeyDown(event: KeyboardEvent) {
+		event.preventDefault();
+
+		if (event.key === 'Escape') {
+			flashcardModal = false;
+		} else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
 			showPreviousWord();
 		} else if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
 			// Navigate forward or generate new card if at the end
@@ -168,13 +203,6 @@
 		} else if (event.key === 'n' || event.key === 'N') {
 			updateLang(langlang);
 		}
-	}
-
-	function preventDefault(fn: (event: KeyboardEvent) => void) {
-		return function (this: HTMLElement, event: KeyboardEvent) {
-			event.preventDefault();
-			fn.call(this, event);
-		};
 	}
 
 	let modalContent: HTMLDivElement | undefined;
@@ -208,7 +236,13 @@
 			class="flip-box-inner"
 			class:flip-it={showCardBack}
 			onclick={toggleShowBack}
-			onkeydown={(e) => (e.key === 'Enter' || e.key === ' ') && toggleShowBack()}
+			onkeydown={(e) => {
+				if (e.key === 'Enter' || e.key === ' ') {
+					e.preventDefault();
+					e.stopPropagation();
+					toggleShowBack();
+				}
+			}}
 			ontouchstart={handleTouchStart}
 			ontouchend={handleTouchEnd}
 			tabindex="0"
@@ -228,7 +262,11 @@
 			class="flex h-screen items-center justify-center"
 			role="button"
 			tabindex="0"
-			onkeydown={preventDefault(handleKeyDown)}
+			onkeydown={handleModalKeyDown}
+			onclick={() => {
+				// Refocus the container after any click to ensure keyboard events work
+				modalContent?.focus();
+			}}
 			bind:this={modalContent}
 		>
 			{@render flashcard()}
@@ -280,7 +318,7 @@
 
 <SearchLinks {langlang} {front} {back} />
 
-<svelte:window onkeydown={preventDefault(handleKeyDown)} />
+<svelte:window onkeydown={handleKeyDown} />
 
 <style>
 	.flip-box {
