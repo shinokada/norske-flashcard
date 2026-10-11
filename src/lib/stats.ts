@@ -23,17 +23,7 @@ import { GRAMMAR_RULES } from '$lib/grammar/rules';
 import { resolveGrammarQuestion } from '$lib/grammar/id-index';
 import { orderedTopics, placementOf } from '$lib/grammar/taxonomy';
 import grammarTopicIndex from '$lib/data/grammar-topic-index.json';
-
-import vocabA1 from '$lib/data/vocab-a1.json';
-import vocabA2 from '$lib/data/vocab-a2.json';
-import vocabB1 from '$lib/data/vocab-b1.json';
-import vocabB2 from '$lib/data/vocab-b2.json';
-import vocabC from '$lib/data/vocab-c.json';
-
-import uttrykkA1 from '$lib/data/uttrykk-a1.json';
-import uttrykkA2 from '$lib/data/uttrykk-a2.json';
-import uttrykkB1 from '$lib/data/uttrykk-b1.json';
-import uttrykkB2 from '$lib/data/uttrykk-b2.json';
+import { categoryCount, categoryCountsFor } from '$lib/content-index';
 
 /**
  * Shared row shape for the per-level Vocab / Uttrykk / Grammar breakdowns.
@@ -198,11 +188,7 @@ export function uttrykkOthersKeysForLevel(
     }));
     return new Set(partitionUttrykkThemes(categoryList).minor.map((t) => t.theme));
   }
-  const entries = uttrykkByLevel[level] ?? [];
-  const themeCounts = new Map<string, number>();
-  for (const e of entries) {
-    if (e.category) themeCounts.set(e.category, (themeCounts.get(e.category) ?? 0) + 1);
-  }
+  const themeCounts = categoryCountsFor(level, 'uttrykk');
   const themeList: ThemeCount[] = [...themeCounts.entries()].map(([theme, count]) => ({
     theme,
     count
@@ -233,13 +219,9 @@ function buildStatRow(
 
 // ── Vocabulary — category rows for one level ────────────────────────────────
 
-const vocabByLevel: Record<CEFRLevel, { category: string }[]> = {
-  A1: vocabA1 as { category: string }[],
-  A2: vocabA2 as { category: string }[],
-  B1: vocabB1 as { category: string }[],
-  B2: vocabB2 as { category: string }[],
-  C: vocabC as { category: string }[]
-};
+// Totals come from the slim content index (content-index.ts), not the content
+// files: only per-category counts are needed, and importing the files put every
+// entry in the client bundle (ai-docs/implementation/stats-content-gating.md).
 
 /**
  * Category breakdown for one CEFR level. 'uttrykk' is excluded — it belongs
@@ -277,7 +259,7 @@ export function vocabCategoryStatsForLevel(
     .filter((category) => category !== 'uttrykk')
     .map((category) => {
       const catCards = levelCards.filter((lc) => lc.category === category).map((lc) => lc.c);
-      const total = vocabByLevel[level].filter((v) => v.category === category).length;
+      const total = categoryCount(level, 'vocab', category);
       return buildStatRow(
         category,
         categoryLabel(level, category),
@@ -290,15 +272,6 @@ export function vocabCategoryStatsForLevel(
 }
 
 // ── Uttrykk — theme rows for one level ──────────────────────────────────────
-
-type UttrykkEntry = { id?: string; norsk: string; category: string };
-
-const uttrykkByLevel: Partial<Record<CEFRLevel, UttrykkEntry[]>> = {
-  A1: uttrykkA1 as UttrykkEntry[],
-  A2: uttrykkA2 as UttrykkEntry[],
-  B1: uttrykkB1 as UttrykkEntry[],
-  B2: uttrykkB2 as UttrykkEntry[]
-};
 
 /**
  * Theme breakdown for one CEFR level. As of the theme/category unification
@@ -376,12 +349,8 @@ export function uttrykkThemeStatsForLevel(
   }
 
   const lvl = level.toLowerCase();
-  const entries = uttrykkByLevel[level] ?? [];
 
-  const themeCounts = new Map<string, number>();
-  for (const e of entries) {
-    if (e.category) themeCounts.set(e.category, (themeCounts.get(e.category) ?? 0) + 1);
-  }
+  const themeCounts = categoryCountsFor(level, 'uttrykk');
 
   // Resolved live via content-lookup.ts (Phase 2, permanent-structural-fix.md)
   // instead of trusting the stored CardProgress.level/.category — a card

@@ -14,9 +14,10 @@
   },
   "packageManager": "pnpm@11.25.0",
   "scripts": {
-    "dev": "pnpm stats && vite dev",
-    "build": "pnpm stats && pnpm grammar:split && vite build",
+    "dev": "pnpm stats && pnpm content:index && vite dev",
+    "build": "pnpm stats && pnpm grammar:split && pnpm content:index && vite build",
     "grammar:split": "node scripts/build-grammar-level-index.mjs",
+    "content:index": "node scripts/build-content-index.mjs",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
