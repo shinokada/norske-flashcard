@@ -1,5 +1,13 @@
 # norske-flashcard
 
+## 2.99.1
+
+### Patch Changes
+
+- - **Improvements**
+    - Vocabulary and expression category totals are based on a consolidated content index, keeping displayed counts aligned with available content.
+    - The content index refreshes when starting the development server or creating a production build.
+
 ## 2.99.0
 
 ### Minor Changes
