@@ -4,7 +4,6 @@
   import { loadGrammarProgressMap, loadGrammarProgressFromSupabase } from '$lib/progress';
   import { buildGrammarProgress } from '$lib/grammar/progress';
   import { chapterBySlug } from '$lib/grammar/taxonomy';
-  import { loadGrammarLevels } from '$lib/grammar/level-loader';
   import {
     chapterEntryBySlug,
     chapterPlayable,
@@ -56,7 +55,9 @@
     }
   });
 
-  // ── Practise this chapter: questions are loaded only when asked for ──────────
+  // ── Practise this chapter: questions are fetched only when asked for ────────
+  // They come from POST /api/grammar-questions, which applies the plan gate on the
+  // server (grammar-server-gating.md, Phase 3). The browser never loads level files.
   let practising = $state(false);
   let loadingPractice = $state(false);
   let practiceQuestions = $state<GrammarQuestion[]>([]);
@@ -65,13 +66,20 @@
     if (!entry || loadingPractice) return;
     loadingPractice = true;
     try {
-      const all = await loadGrammarLevels(entry.levels);
-      practiceQuestions = chapterPlayable(
-        all,
-        entry.topics.map((t) => t.topic),
-        { isPlus }
-      );
+      const topics = entry.topics.map((t) => t.topic);
+      const res = await fetch('/api/grammar-questions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ topics, levels: entry.levels })
+      });
+      if (!res.ok) throw new Error(`grammar-questions ${res.status}`);
+      const { questions } = (await res.json()) as { questions: GrammarQuestion[] };
+      // Already gated by the server; chapterPlayable stays as a second layer.
+      practiceQuestions = chapterPlayable(questions, topics, { isPlus });
       practising = true;
+    } catch (err) {
+      // Stay on the chapter overview; the button works again.
+      console.error('Could not load chapter questions', err);
     } finally {
       loadingPractice = false;
     }

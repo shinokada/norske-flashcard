@@ -184,6 +184,60 @@ export function lockedBreakdown(
   return { total: locked.length, levels: countByLevel(locked) };
 }
 
+/**
+ * Per-level question totals for a topic, and how many of them a free learner can
+ * play. Computed on the server from the full topic set and sent to the page, so
+ * the teaser works even though a free user is never sent the locked questions
+ * (ai-docs/implementation/grammar-server-gating.md, Phase 2). Counts only: no
+ * question content. In level order (A1 to C), skipping empty levels.
+ */
+export interface LevelCountEntry {
+  level: CEFRLevel;
+  total: number;
+  free: number;
+}
+
+export function levelCountsFor(
+  questions: readonly { id: string; cefr: CEFRLevel }[],
+  freeIds: ReadonlySet<string>
+): LevelCountEntry[] {
+  const totals = new Map<CEFRLevel, { total: number; free: number }>();
+  for (const q of questions) {
+    const entry = totals.get(q.cefr) ?? { total: 0, free: 0 };
+    entry.total += 1;
+    if (freeIds.has(q.id)) entry.free += 1;
+    totals.set(q.cefr, entry);
+  }
+  return CEFR_ORDER.filter((level) => totals.has(level)).map((level) => ({
+    level,
+    ...totals.get(level)!
+  }));
+}
+
+/** `counts` limited to one level when `level` is set (the `?level=` scope). */
+function scopeCounts(counts: readonly LevelCountEntry[], level: CEFRLevel | null) {
+  return level ? counts.filter((c) => c.level === level) : counts;
+}
+
+/** Questions per level in scope (the level chips on a locked topic). Same shape as `countByLevel`. */
+export function teaserLevelsFrom(
+  counts: readonly LevelCountEntry[],
+  level: CEFRLevel | null
+): LevelCount[] {
+  return scopeCounts(counts, level).map((c) => ({ level: c.level, count: c.total }));
+}
+
+/** Questions in scope a free learner cannot play, as a total and per level. Same shape as `lockedBreakdown`. */
+export function lockedFromCounts(
+  counts: readonly LevelCountEntry[],
+  level: CEFRLevel | null
+): { total: number; levels: LevelCount[] } {
+  const levels = scopeCounts(counts, level)
+    .map((c) => ({ level: c.level, count: c.total - c.free }))
+    .filter((c) => c.count > 0);
+  return { total: levels.reduce((sum, c) => sum + c.count, 0), levels };
+}
+
 /** Plain-text preview of a rule (its opening paragraph), or '' when there is no rule. */
 export function teaserText(rule: GrammarRule | undefined): string {
   return rule ? plainSummary(rule.explanationNb, TEASER_MAX) : '';
