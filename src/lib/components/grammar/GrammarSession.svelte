@@ -90,6 +90,24 @@
     sessionState = questions.length > 0 ? 'questioning' : 'summary';
   }
 
+  // Option question types have no input to focus themselves, so without this focus
+  // would be left on <body> after the previous view (reveal or summary) goes away.
+  // Typed question types focus their own input.
+  function focusOptionQuestion() {
+    if (current && ['minimal-pair', 'multiple-choice', 'punctuation'].includes(current.type)) {
+      questionBox?.focus();
+    }
+  }
+
+  // Restart from the summary (button or R). Unlike the first start on mount, this
+  // follows a keyboard action that removed the focused element, so focus is moved
+  // to the first question. The mount path must not take focus on page load.
+  async function restart() {
+    start();
+    await tick();
+    focusOptionQuestion();
+  }
+
   async function submit(answer: string) {
     if (!current || sessionState !== 'questioning') return;
     const { correct, rating } = gradeGrammarAnswer(answer, current);
@@ -108,11 +126,7 @@
       userAnswer = '';
       sessionState = 'questioning';
       await tick();
-      // Typed question types focus their own input; option types have nothing to
-      // focus, so without this focus would be left on <body> after the reveal.
-      if (current && ['minimal-pair', 'multiple-choice', 'punctuation'].includes(current.type)) {
-        questionBox?.focus();
-      }
+      focusOptionQuestion();
     } else {
       sessionState = 'summary';
       await tick();
@@ -150,7 +164,7 @@
       summaryBox?.contains(target)
     ) {
       e.preventDefault();
-      start();
+      restart();
     }
   }
 </script>
@@ -175,7 +189,7 @@
         total={questions.length}
         {correctCount}
         {dueSoon}
-        onrestart={start}
+        onrestart={restart}
       />
     </div>
   {/if}
