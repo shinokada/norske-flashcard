@@ -1,5 +1,18 @@
 # norske-flashcard
 
+## 2.98.0
+
+### Minor Changes
+
+- - **New Features**
+    - Grammar topics and chapter practice show questions according to access level: free and guest visitors can play free questions, while Plus visitors can access all questions.
+    - Topic overviews display question counts and locked-question breakdowns for the selected level.
+    - Chapter practice offers a retry option when questions can’t be loaded.
+
+  - **Accessibility & Usability**
+    - Improved screen-reader labels and announcements across grammar questions and session summaries.
+    - Keyboard focus moves to relevant questions, answers, or summaries as sessions progress, with clearer focus indicators and improved text contrast.
+
 ## 2.97.1
 
 ### Patch Changes
