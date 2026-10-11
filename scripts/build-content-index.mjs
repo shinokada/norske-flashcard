@@ -51,7 +51,17 @@ for (const level of LEVELS) {
   index[level] = {};
   for (const type of TYPES) {
     const file = `${type}-${level.toLowerCase()}.json`;
-    const entries = JSON.parse(readFileSync(resolve(DATA_DIR, file), 'utf-8'));
+    let entries;
+    try {
+      entries = JSON.parse(readFileSync(resolve(DATA_DIR, file), 'utf-8'));
+    } catch (err) {
+      errors.push(
+        `${file}: cannot read or parse (${err.message}). ` +
+          'Is the src/lib/data submodule checked out? (git submodule update --init)'
+      );
+      index[level][type] = {};
+      continue;
+    }
 
     if (!Array.isArray(entries)) {
       errors.push(`${file} did not parse to an array (got ${typeof entries})`);
@@ -61,8 +71,8 @@ for (const level of LEVELS) {
 
     const byCategory = {};
     for (const e of entries) {
-      if (typeof e.id !== 'string' || e.id === '') {
-        errors.push(`${file}: an entry has no id (norsk: ${JSON.stringify(e.norsk)})`);
+      if (typeof e?.id !== 'string' || e.id === '') {
+        errors.push(`${file}: an entry has no id (norsk: ${JSON.stringify(e?.norsk)})`);
         continue;
       }
       if (typeof e.category !== 'string' || e.category === '') {
