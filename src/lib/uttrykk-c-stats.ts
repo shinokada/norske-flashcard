@@ -12,22 +12,20 @@
 // The only way to tell them apart afterwards is by the progress map's key
 // (vocab_id = the entry id, see vocabKey() in progress.ts): if that
 // key matches an uttrykk-c.json entry, the card is uttrykk-sourced.
-import uttrykkC from '$lib/data/uttrykk-c.json';
-
-interface UttrykkCEntry {
-  id: string;
-  norsk: string;
-  category: string;
-}
-
-const entries = uttrykkC as UttrykkCEntry[];
+//
+// Reads the slim content index (content-index.ts, ids only) instead of importing
+// uttrykk-c.json, so no C-level text reaches the client bundle
+// (ai-docs/implementation/stats-content-gating.md).
+import { CONTENT_INDEX, categoryCountsFor } from '$lib/content-index';
 
 /**
  * id → true for every uttrykk-c.json entry.
  * Used to decide whether a studied C-level card came from uttrykk-c.json
  * (belongs in the Uttrykk section) or vocab-c.json (belongs in Vocabulary).
  */
-export const UTTRYKK_C_KEYS: ReadonlySet<string> = new Set(entries.map((e) => e.id));
+export const UTTRYKK_C_KEYS: ReadonlySet<string> = new Set(
+  Object.values(CONTENT_INDEX.C.uttrykk).flat()
+);
 
 /**
  * Per-category entry counts across uttrykk-c.json. C has no separate `theme`
@@ -36,9 +34,5 @@ export const UTTRYKK_C_KEYS: ReadonlySet<string> = new Set(entries.map((e) => e.
  * per-theme breakdown.
  */
 export function uttrykkCCategoryCounts(): Map<string, number> {
-  const counts = new Map<string, number>();
-  for (const e of entries) {
-    counts.set(e.category, (counts.get(e.category) ?? 0) + 1);
-  }
-  return counts;
+  return categoryCountsFor('C', 'uttrykk');
 }
