@@ -6,9 +6,9 @@
   import TopicNav from '$lib/components/grammar/TopicNav.svelte';
   import { chapterHref } from '$lib/grammar/overview';
   import {
-    countByLevel,
-    lockedBreakdown,
+    lockedFromCounts,
     parseTabParam,
+    teaserLevelsFrom,
     teaserText,
     topicNavModel
   } from '$lib/grammar/topic-page';
@@ -50,14 +50,14 @@
   );
   let locked = $derived(!isPlus && playable.length === 0);
 
-  // Plus teaser (Phase 6c): the questions in scope (all levels, or just
-  // ?level=), how they split by level, and how many a free learner cannot play.
-  let scoped = $derived(
-    levelParam() ? data.questions.filter((q) => q.cefr === levelParam()) : data.questions
-  );
+  // Plus teaser (Phase 6c): how the questions in scope (all levels, or just
+  // ?level=) split by level, and how many a free learner cannot play. The counts
+  // come from the server (`data.levelCounts`, computed from the full topic), not
+  // from `data.questions`, because a free user is never sent the locked questions
+  // (ai-docs/implementation/grammar-server-gating.md).
   let teaser = $derived(teaserText(rule));
-  let teaserLevels = $derived(countByLevel(scoped));
-  let lockedInfo = $derived(lockedBreakdown(scoped, freeSet));
+  let teaserLevels = $derived(teaserLevelsFrom(data.levelCounts, levelParam()));
+  let lockedInfo = $derived(lockedFromCounts(data.levelCounts, levelParam()));
 
   // Breadcrumb, prev/next and related topics, all from the taxonomy (Phase 6a).
   let nav = $derived(topicNavModel(data.topic));
@@ -86,7 +86,7 @@
   }
 </script>
 
-<!-- <title> and meta come from `pageMetaTags` in +page.ts (merged in +layout.svelte). -->
+<!-- <title> and meta come from `pageMetaTags` in +page.server.ts (merged in +layout.svelte). -->
 
 <div class="mx-auto max-w-2xl px-4 py-10 text-left">
   <div class="mb-4 flex items-center justify-between">

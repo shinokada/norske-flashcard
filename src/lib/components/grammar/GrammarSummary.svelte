@@ -48,7 +48,7 @@
 </script>
 
 <div class="text-center">
-  <p class="mb-1 text-5xl">{scoreEmoji(correctCount, total)}</p>
+  <p aria-hidden="true" class="mb-1 text-5xl">{scoreEmoji(correctCount, total)}</p>
   <h2 class="mt-3 text-2xl font-bold dark:text-white">{m.grammar_summary_done()}</h2>
   <p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
     {m.grammar_summary_score({ correct: correctCount, total })}
@@ -68,9 +68,13 @@
           ? 'border-green-200 bg-green-50 dark:border-green-800 dark:bg-green-900/10'
           : 'border-red-200 bg-red-50 dark:border-red-800 dark:bg-red-900/10'}"
       >
-        <span class="mt-0.5 text-base {result.correct ? 'text-green-500' : 'text-red-500'}">
+        <span
+          aria-hidden="true"
+          class="mt-0.5 text-base {result.correct ? 'text-green-500' : 'text-red-500'}"
+        >
           {result.correct ? '✓' : '✗'}
         </span>
+        <span class="sr-only">{result.correct ? 'Riktig' : 'Feil'}</span>
         <div class="min-w-0 flex-1">
           <p class="text-gray-600 dark:text-gray-300">{stimulus(result.question)}</p>
           <p class="mt-0.5 font-medium text-gray-800 dark:text-gray-100">
@@ -99,7 +103,7 @@
   <p class="mt-4 text-xs text-gray-700 dark:text-gray-300">{m.grammar_summary_restart_hint()}</p>
   <a
     href="/my-progress"
-    class="mt-3 inline-block text-sm text-indigo-500 underline hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300"
+    class="mt-3 inline-block text-sm text-indigo-600 underline hover:text-indigo-700 dark:text-indigo-400 dark:hover:text-indigo-300"
   >
     {m.flashcard_view_stats()}
   </a>

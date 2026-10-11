@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { expect, test, type Page } from '@playwright/test';
 import { injectPlusPlan } from './helpers.js';
 
@@ -423,6 +425,33 @@ test('free user can practise a chapter and gets a mixed-topic session', async ({
   await expect(page.getByTestId('chapter-section').first()).toBeVisible();
 });
 
+test('chapter practice shows an error when the questions fail to load, and retrying works', async ({
+  page
+}) => {
+  // First request fails (network or server error), the next one goes through.
+  let calls = 0;
+  await page.route('**/api/grammar-questions', (route) => {
+    calls += 1;
+    return calls === 1 ? route.fulfill({ status: 500, body: 'boom' }) : route.continue();
+  });
+
+  await page.goto('/grammar/chapter/helsetninger');
+  const button = page.getByTestId('practise-chapter');
+  await button.click({ timeout: 8000 });
+
+  // The failure is visible, the chapter overview stays, and the button works again.
+  await expect(page.getByTestId('practise-chapter-error')).toBeVisible({ timeout: 8000 });
+  await expect(button).toBeEnabled();
+  await expect(page.getByText(/question \d+ of|spørsmål \d+ av/i)).toHaveCount(0);
+
+  // Retrying clears the message and starts the session.
+  await button.click();
+  await expect(page.getByText(/question \d+ of|spørsmål \d+ av/i)).toBeVisible({
+    timeout: 8000
+  });
+  expect(calls).toBe(2);
+});
+
 test('unknown grammar chapter shows a 404 error', async ({ page }) => {
   await page.goto('/grammar/chapter/this-chapter-does-not-exist');
   await expect(page.getByRole('heading', { name: '404', level: 1 })).toBeVisible({ timeout: 8000 });
@@ -459,6 +488,74 @@ test('free user hitting the same topic without ?level= still sees its free A1 co
   await openPractice(page);
   await expect(page.getByText(/question \d+ of|spørsmål \d+ av/i)).toBeVisible({ timeout: 8000 });
   await expect(page.getByText(/of 8|av 8/i)).toBeVisible({ timeout: 5000 });
+});
+
+// ===========================================================================
+// Server-side gating (ai-docs/implementation/grammar-server-gating.md, Phase 2).
+// The `request` fixture has no session cookie, so the server treats it as a
+// guest. A guest must never be sent a locked question, neither in the HTML
+// (server-rendered data) nor in the __data.json a client navigation fetches.
+// injectPlusPlan cannot test the Plus side: it only patches what the browser
+// sees, the server still thinks the visitor is a guest.
+// ===========================================================================
+
+type RawGrammarQuestion = { id: string; topic: string; cefr: string; plusOnly?: boolean };
+
+function grammarQuestions(): RawGrammarQuestion[] {
+  return JSON.parse(readFileSync(join(process.cwd(), 'src/lib/data/grammar.json'), 'utf-8'));
+}
+
+// Policy (free-policy.test.ts): only A1 is free, and never a plusOnly question.
+const isFreeForGuest = (q: RawGrammarQuestion) => q.cefr === 'A1' && !q.plusOnly;
+
+test('a guest is not sent the locked questions of a mixed-level topic', async ({ request }) => {
+  // noun-plurals: free at A1, Plus at A2, B1 and B2.
+  const questions = grammarQuestions().filter((q) => q.topic === 'noun-plurals');
+  const free = questions.filter(isFreeForGuest);
+  const locked = questions.filter((q) => !isFreeForGuest(q));
+  expect(free.length).toBeGreaterThan(0);
+  expect(locked.length).toBeGreaterThan(0);
+
+  for (const path of ['/grammar/noun-plurals', '/grammar/noun-plurals/__data.json']) {
+    const res = await request.get(path);
+    expect(res.status(), path).toBe(200);
+    const body = await res.text();
+    // The free questions are still delivered ...
+    expect(body, `${path} is missing a free question`).toContain(free[0].id);
+    // ... and no locked one is.
+    const leaked = locked.filter((q) => body.includes(q.id)).map((q) => q.id);
+    expect(leaked, `${path} leaks locked questions`).toEqual([]);
+  }
+});
+
+test('a guest is not sent any question of a fully locked topic', async ({ request }) => {
+  const questions = grammarQuestions().filter((q) => q.topic === 'uttrykk');
+  expect(questions.length).toBeGreaterThan(0);
+  expect(questions.every((q) => !isFreeForGuest(q))).toBe(true);
+
+  for (const path of ['/grammar/uttrykk', '/grammar/uttrykk/__data.json']) {
+    const res = await request.get(path);
+    expect(res.status(), path).toBe(200);
+    const body = await res.text();
+    const leaked = questions.filter((q) => body.includes(q.id)).map((q) => q.id);
+    expect(leaked, `${path} leaks locked questions`).toEqual([]);
+  }
+});
+
+test('the topic page is never shared from a cache', async ({ request }) => {
+  // The payload differs by plan, so no shared cache may keep one for the other.
+  const res = await request.get('/grammar/noun-plurals');
+  expect(res.headers()['cache-control']).toBe('private, no-store');
+});
+
+test('free user on a mixed-level topic with ?level=B1 still sees the paywall and its level count', async ({
+  page
+}) => {
+  // The server sends no B1 questions to a free user, so the teaser must come from
+  // the server-computed counts, not from the (absent) questions.
+  await page.goto('/grammar/noun-plurals?level=B1');
+  await expect(page.getByTestId('topic-teaser-levels')).toContainText(/B1/, { timeout: 8000 });
+  await expect(page.getByText(/question \d+ of|spørsmål \d+ av/i)).toHaveCount(0);
 });
 
 test('unknown grammar topic shows a 404 error', async ({ page }) => {

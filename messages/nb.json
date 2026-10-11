@@ -958,5 +958,6 @@
   "grammar_start_status_done": "Fullført",
   "grammar_start_status_next": "Neste",
   "grammar_progress_empty_title": "Ingen grammatikk øvd ennå",
-  "grammar_progress_empty_body": "Øv på et tema, så vises fremgangen din her."
+  "grammar_progress_empty_body": "Øv på et tema, så vises fremgangen din her.",
+  "grammar_practice_load_error": "Kunne ikke laste øvingsspørsmålene. Prøv igjen."
 }
