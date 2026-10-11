@@ -1,5 +1,15 @@
 # norske-flashcard
 
+## 2.99.0
+
+### Minor Changes
+
+- - **New Features**
+    - Added a quiz picker that shows available categories and question counts, with access based on your plan.
+    - Quiz questions now load when you start a quiz, and loading errors are shown in your language.
+  - **Bug Fixes**
+    - Pressing Enter to submit an answer no longer advances the question twice.
+
 ## 2.98.0
 
 ### Minor Changes
