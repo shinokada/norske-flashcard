@@ -19,16 +19,26 @@
   });
 </script>
 
-<p class="mb-3 text-xs font-semibold tracking-wide text-gray-400 uppercase dark:text-gray-300">
+<p
+  id="order-{question.id}-instr"
+  class="mb-3 text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-300"
+>
   Skriv setningen i riktig rekkefølge
 </p>
 
 {#if question.prompt}
-  <p class="mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">{question.prompt}</p>
+  <p
+    id="order-{question.id}-prompt"
+    class="mb-2 text-sm font-medium text-gray-700 dark:text-gray-300"
+  >
+    {question.prompt}
+  </p>
 {/if}
 
-<p class="mb-2 text-xs text-gray-600 dark:text-gray-300">Ord du skal bruke</p>
-<div class="mb-4 flex flex-wrap gap-2">
+<p id="order-{question.id}-words-label" class="mb-2 text-xs text-gray-600 dark:text-gray-300">
+  Ord du skal bruke
+</p>
+<div id="order-{question.id}-words" class="mb-4 flex flex-wrap gap-2">
   {#each chips as token, i (i)}
     <span
       class="rounded-lg border border-indigo-200 bg-indigo-50 px-3 py-1.5 text-sm font-medium text-indigo-700 dark:border-indigo-800 dark:bg-indigo-900/30 dark:text-indigo-300"
@@ -42,6 +52,7 @@
   <input
     bind:this={inputRef}
     type="text"
+    aria-labelledby="order-{question.id}-instr order-{question.id}-prompt order-{question.id}-words-label order-{question.id}-words"
     bind:value
     placeholder="Skriv svaret ditt…"
     onkeydown={(e) => {
@@ -50,7 +61,7 @@
         onsubmit(value);
       }
     }}
-    class="flex-1 rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-800 placeholder-gray-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 focus:outline-none dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100 dark:placeholder-gray-500"
+    class="flex-1 rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-800 placeholder-gray-500 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500 focus:outline-none dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100 dark:placeholder-gray-400 dark:focus:ring-indigo-400"
   />
   <button
     type="button"
@@ -64,7 +75,7 @@
   <button
     type="button"
     onclick={() => onsubmit('')}
-    class="text-xs text-gray-400 hover:text-gray-600 hover:underline dark:hover:text-gray-300"
+    class="rounded text-xs text-gray-600 hover:text-gray-900 hover:underline focus-visible:ring-2 focus-visible:ring-indigo-600 focus-visible:outline-none dark:text-gray-300 dark:hover:text-white dark:focus-visible:ring-indigo-400"
   >
     Hopp over
   </button>

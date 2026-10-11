@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import type { GrammarQuestion, GrammarRule } from '$lib/types';
   import ExplanationText from './ExplanationText.svelte';
 
@@ -17,6 +18,11 @@
     isLast: boolean;
     onnext: () => void;
   } = $props();
+
+  // Move focus to the result heading so keyboard and screen-reader users land on
+  // the verdict after answering (the clicked option button is gone by now).
+  let heading = $state<HTMLElement | null>(null);
+  onMount(() => heading?.focus());
 
   // Grammar questions are Norwegian-only at every level (see
   // ai-docs/implementation/grammar-with-only-norsk.md).
@@ -81,22 +87,22 @@
     ? 'border-green-300 bg-green-50 dark:border-green-700 dark:bg-green-900/20'
     : 'border-red-300 bg-red-50 dark:border-red-700 dark:bg-red-900/20'}"
 >
-  <div class="mb-4 flex items-center gap-2">
+  <h2 bind:this={heading} tabindex="-1" class="mb-4 flex items-center gap-2 focus:outline-none">
     {#if isCorrect}
-      <span class="text-2xl">✓</span>
+      <span aria-hidden="true" class="text-2xl">✓</span>
       <span class="font-semibold text-green-700 dark:text-green-300">Riktig!</span>
     {:else}
-      <span class="text-2xl">✗</span>
+      <span aria-hidden="true" class="text-2xl">✗</span>
       <span class="font-semibold text-red-700 dark:text-red-300">Ikke helt.</span>
     {/if}
-  </div>
+  </h2>
 
   <!-- The question, so the answer can be read against what was asked. -->
   <div
     class="mb-4 rounded-lg bg-white/60 px-4 py-3 dark:bg-indigo-950/60"
     data-testid="reveal-question"
   >
-    <p class="mb-1 text-xs font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400">
+    <p class="mb-1 text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">
       Spørsmålet
     </p>
     {#if question.prompt}
@@ -158,7 +164,7 @@
           data-testid="reveal-user-answer"
         >
           <p
-            class="mb-1 text-xs font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400"
+            class="mb-1 text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400"
           >
             Du skrev
           </p>
@@ -170,7 +176,7 @@
         data-testid="reveal-correct-answer"
       >
         <p
-          class="mb-1 text-xs font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400"
+          class="mb-1 text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400"
         >
           Riktig svar
         </p>
@@ -195,7 +201,7 @@
   {#if rule}
     <div class="rounded-lg bg-white/60 px-4 py-3 dark:bg-indigo-950/60">
       <p
-        class="mb-1 text-xs font-semibold tracking-wide text-gray-500 uppercase dark:text-gray-400"
+        class="mb-1 text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400"
       >
         Hvorfor · {ruleTitle}
       </p>
@@ -203,7 +209,7 @@
       {#if rule.blogSlug}
         <a
           href={`/blog/${rule.blogSlug}`}
-          class="mt-2 inline-block text-xs font-medium text-indigo-500 hover:text-indigo-700 hover:underline dark:text-indigo-400 dark:hover:text-indigo-300"
+          class="mt-2 inline-block text-xs font-medium text-indigo-600 hover:text-indigo-800 hover:underline dark:text-indigo-400 dark:hover:text-indigo-300"
         >
           Les mer →
         </a>
