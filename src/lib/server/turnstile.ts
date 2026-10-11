@@ -10,7 +10,14 @@
  *
  * In development / testing, pass the always-pass test secret:
  *   TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+ *
+ * The secret is read through `$env/dynamic/private`, not `process.env`: SvelteKit loads
+ * `.env` / `.env.local` into it under `vite dev` and `vite preview`, while a bare
+ * `process.env` read is empty there (so preview, which runs with NODE_ENV=production,
+ * rejected every login with "Bot check failed"). On Vercel both read the same variables.
  */
+
+import { env } from '$env/dynamic/private';
 
 const TURNSTILE_VERIFY_URL = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
 
@@ -22,7 +29,7 @@ const TURNSTILE_VERIFY_URL = 'https://challenges.cloudflare.com/turnstile/v0/sit
  * @returns true if the token is valid, false otherwise.
  */
 export async function verifyTurnstileToken(token: string, remoteIp?: string): Promise<boolean> {
-  const secret = process.env.TURNSTILE_SECRET_KEY;
+  const secret = env.TURNSTILE_SECRET_KEY;
 
   if (!secret) {
     // Missing key — fail open only in development so the app stays usable without config.
