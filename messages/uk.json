@@ -958,5 +958,6 @@
   "grammar_start_status_done": "Готово",
   "grammar_start_status_next": "Далі",
   "grammar_progress_empty_title": "Граматику ще не практиковано",
-  "grammar_progress_empty_body": "Попрактикуйте тему, і ваш прогрес з’явиться тут."
+  "grammar_progress_empty_body": "Попрактикуйте тему, і ваш прогрес з’явиться тут.",
+  "grammar_practice_load_error": "Не вдалося завантажити запитання для практики. Спробуйте ще раз."
 }

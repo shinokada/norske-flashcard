@@ -87,7 +87,11 @@
     ? 'border-green-300 bg-green-50 dark:border-green-700 dark:bg-green-900/20'
     : 'border-red-300 bg-red-50 dark:border-red-700 dark:bg-red-900/20'}"
 >
-  <h2 bind:this={heading} tabindex="-1" class="mb-4 flex items-center gap-2 focus:outline-none">
+  <h2
+    bind:this={heading}
+    tabindex="-1"
+    class="mb-4 flex items-center gap-2 rounded focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-indigo-600 dark:focus-visible:outline-indigo-400"
+  >
     {#if isCorrect}
       <span aria-hidden="true" class="text-2xl">✓</span>
       <span class="font-semibold text-green-700 dark:text-green-300">Riktig!</span>

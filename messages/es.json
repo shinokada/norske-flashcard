@@ -958,5 +958,6 @@
   "grammar_start_status_done": "Hecho",
   "grammar_start_status_next": "Siguiente",
   "grammar_progress_empty_title": "Aún no has practicado gramática",
-  "grammar_progress_empty_body": "Practica un tema y tu progreso aparecerá aquí."
+  "grammar_progress_empty_body": "Practica un tema y tu progreso aparecerá aquí.",
+  "grammar_practice_load_error": "No se pudieron cargar las preguntas de práctica. Inténtalo de nuevo."
 }

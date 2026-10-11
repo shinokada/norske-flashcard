@@ -958,5 +958,6 @@
   "grammar_start_status_done": "Erledigt",
   "grammar_start_status_next": "Als Nächstes",
   "grammar_progress_empty_title": "Noch keine Grammatik geübt",
-  "grammar_progress_empty_body": "Übe ein Thema, dann erscheint dein Fortschritt hier."
+  "grammar_progress_empty_body": "Übe ein Thema, dann erscheint dein Fortschritt hier.",
+  "grammar_practice_load_error": "Die Übungsfragen konnten nicht geladen werden. Bitte versuche es erneut."
 }

@@ -60,11 +60,14 @@
   // server (grammar-server-gating.md, Phase 3). The browser never loads level files.
   let practising = $state(false);
   let loadingPractice = $state(false);
+  // Shown under the button when the fetch fails; cleared on every new attempt.
+  let practiceError = $state(false);
   let practiceQuestions = $state<GrammarQuestion[]>([]);
 
   async function startPractice() {
     if (!entry || loadingPractice) return;
     loadingPractice = true;
+    practiceError = false;
     try {
       const topics = entry.topics.map((t) => t.topic);
       const res = await fetch('/api/grammar-questions', {
@@ -80,6 +83,7 @@
     } catch (err) {
       // Stay on the chapter overview; the button works again.
       console.error('Could not load chapter questions', err);
+      practiceError = true;
     } finally {
       loadingPractice = false;
     }
@@ -148,6 +152,15 @@
       >
         {loadingPractice ? m.stats_loading() : m.grammar_map_practise_chapter()}
       </button>
+      {#if practiceError}
+        <p
+          role="alert"
+          data-testid="practise-chapter-error"
+          class="-mt-5 mb-8 text-sm text-red-700 dark:text-red-400"
+        >
+          {m.grammar_practice_load_error()}
+        </p>
+      {/if}
     {/if}
 
     <!-- One upsell banner, only when the chapter has locked topics (decision #20) -->

@@ -168,7 +168,7 @@
       role="region"
       tabindex="-1"
       aria-label={m.grammar_summary_done()}
-      class="focus:outline-none"
+      class="rounded-2xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:focus-visible:outline-indigo-400"
     >
       <GrammarSummary
         {results}
@@ -204,7 +204,7 @@
       role="group"
       tabindex="-1"
       aria-label={m.grammar_question_count({ current: currentIndex + 1, total: questions.length })}
-      class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm focus:outline-none dark:border-gray-700 dark:bg-indigo-950/60"
+      class="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:border-gray-700 dark:bg-indigo-950/60 dark:focus-visible:outline-indigo-400"
     >
       {#if current.cefr}
         <span

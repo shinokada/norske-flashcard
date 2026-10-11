@@ -425,6 +425,33 @@ test('free user can practise a chapter and gets a mixed-topic session', async ({
   await expect(page.getByTestId('chapter-section').first()).toBeVisible();
 });
 
+test('chapter practice shows an error when the questions fail to load, and retrying works', async ({
+  page
+}) => {
+  // First request fails (network or server error), the next one goes through.
+  let calls = 0;
+  await page.route('**/api/grammar-questions', (route) => {
+    calls += 1;
+    return calls === 1 ? route.fulfill({ status: 500, body: 'boom' }) : route.continue();
+  });
+
+  await page.goto('/grammar/chapter/helsetninger');
+  const button = page.getByTestId('practise-chapter');
+  await button.click({ timeout: 8000 });
+
+  // The failure is visible, the chapter overview stays, and the button works again.
+  await expect(page.getByTestId('practise-chapter-error')).toBeVisible({ timeout: 8000 });
+  await expect(button).toBeEnabled();
+  await expect(page.getByText(/question \d+ of|spørsmål \d+ av/i)).toHaveCount(0);
+
+  // Retrying clears the message and starts the session.
+  await button.click();
+  await expect(page.getByText(/question \d+ of|spørsmål \d+ av/i)).toBeVisible({
+    timeout: 8000
+  });
+  expect(calls).toBe(2);
+});
+
 test('unknown grammar chapter shows a 404 error', async ({ page }) => {
   await page.goto('/grammar/chapter/this-chapter-does-not-exist');
   await expect(page.getByRole('heading', { name: '404', level: 1 })).toBeVisible({ timeout: 8000 });
