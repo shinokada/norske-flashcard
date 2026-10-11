@@ -162,7 +162,9 @@ describe('isQuizEntryFree', () => {
     const sample = UTTRYKK.find(
       (e) => e.level === 'A2' && FREE_VOCAB_CATEGORIES.A2.includes(e.category)
     );
-    // The old page-only check (isFreeQuizCategory) let this entry through.
+    // The old page-only check (isFreeQuizCategory) let this entry through. The sample
+    // must exist, or this regression would pass without checking anything.
+    expect(sample).toBeDefined();
     if (!sample) return;
     expect(isFreeQuizCategory(sample.level, sample.category)).toBe(true);
     expect(isQuizEntryFree(sample, 'uttrykk')).toBe(false);
