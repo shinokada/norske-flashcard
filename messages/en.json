@@ -959,5 +959,6 @@
   "grammar_start_status_next": "Next",
   "grammar_progress_empty_title": "No grammar practised yet",
   "grammar_progress_empty_body": "Practise a topic and your progress will show up here.",
-  "grammar_practice_load_error": "Couldn't load the practice questions. Please try again."
+  "grammar_practice_load_error": "Couldn't load the practice questions. Please try again.",
+  "quiz_start_load_error": "Couldn't load the quiz questions. Please try again."
 }

@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { expect, test } from '@playwright/test';
 import { injectPlusPlan } from './helpers.js';
 
@@ -179,6 +181,9 @@ test('keyboard shortcut A selects first MC option', async ({ page }) => {
   await page.goto('/quiz');
   await page.getByRole('button', { name: /start quiz/i }).click();
 
+  // Start now fetches the entries first, so wait for the first question to appear.
+  await expect(page.getByText(/question 1 of|spørsmål 1 av/i)).toBeVisible({ timeout: 10000 });
+
   // The first question (index 0, mod 4 === 0) is always MC
   const optionA = page.getByRole('button', { name: /^A\b/ });
   if (await optionA.isVisible({ timeout: 3000 }).catch(() => false)) {
@@ -195,6 +200,9 @@ test('Space advances from reveal to next question', async ({ page }) => {
   await injectPlusPlan(page);
   await page.goto('/quiz');
   await page.getByRole('button', { name: /start quiz/i }).click();
+
+  // Start now fetches the entries first, so wait for the first question to appear.
+  await expect(page.getByText(/question 1 of|spørsmål 1 av/i)).toBeVisible({ timeout: 10000 });
 
   // Answer the first question to reach reveal state
   const optionA = page.getByRole('button', { name: /^A\b/ });
@@ -295,4 +303,163 @@ test('/plus page includes quiz mode in the feature table', async ({ page }) => {
 test('/plus page includes quiz feature card', async ({ page }) => {
   await page.goto('/plus');
   await expect(page.getByText(/quiz yourself, not just flip/i)).toBeVisible();
+});
+
+// ===========================================================================
+// Server-side gating (ai-docs/implementation/quiz-server-gating.md, Phases 2 and 3).
+// The `request` fixture has no session cookie, so the server treats it as a guest.
+// injectPlusPlan cannot test the Plus side: it only patches what the browser sees,
+// the server still thinks the visitor is a guest. Check Plus by hand.
+// ===========================================================================
+
+type RawEntry = { id: string; level: string; category: string };
+type QuizPayload = { entries: RawEntry[]; distractors: RawEntry[] };
+
+function readEntries(file: string): RawEntry[] {
+  return JSON.parse(readFileSync(join(process.cwd(), 'src/lib/data', file), 'utf-8'));
+}
+
+const categoriesOf = (entries: RawEntry[]) => new Set(entries.map((e) => e.category));
+
+test('the quiz page data carries counts, not entries', async ({ request }) => {
+  const res = await request.get('/quiz/__data.json');
+  expect(res.status()).toBe(200);
+  const body = await res.text();
+  // A vocab-c entry id and its example sentence must not be anywhere in the data.
+  const sample = readEntries('vocab-c.json')[0] as RawEntry & { example: string };
+  expect(body).not.toContain(sample.id);
+  expect(body).not.toContain(sample.example);
+  // A few hundred category rows, not megabytes of entries.
+  expect(body.length).toBeLessThan(100_000);
+});
+
+test('a guest gets only free entries from /api/quiz-entries', async ({ request }) => {
+  // B2 is free in three categories only; the file has many more.
+  const inFile = categoriesOf(readEntries('vocab-b2.json'));
+  expect(inFile.size).toBeGreaterThan(3);
+
+  const res = await request.post('/api/quiz-entries', { data: { level: 'B2' } });
+  expect(res.status()).toBe(200);
+  expect(res.headers()['cache-control']).toBe('private, no-store');
+  const payload = (await res.json()) as QuizPayload;
+
+  expect(payload.entries.length).toBeGreaterThan(0);
+  expect(payload.entries.every((e) => e.level === 'B2')).toBe(true);
+  expect(categoriesOf(payload.entries).size).toBeLessThanOrEqual(3);
+  // Without a category the pool is the whole free set, so there are no extra options.
+  expect(payload.distractors).toEqual([]);
+});
+
+test('a guest asking for a Plus-only category gets nothing, not even answer options', async ({
+  request
+}) => {
+  const free = categoriesOf(
+    (
+      (await (
+        await request.post('/api/quiz-entries', { data: { level: 'B2' } })
+      ).json()) as QuizPayload
+    ).entries
+  );
+  const locked = [...categoriesOf(readEntries('vocab-b2.json'))].find((c) => !free.has(c));
+  expect(locked).toBeDefined();
+
+  const res = await request.post('/api/quiz-entries', {
+    data: { level: 'B2', category: locked }
+  });
+  expect(res.status()).toBe(200);
+  expect(await res.json()).toEqual({ entries: [], distractors: [] });
+});
+
+test('a free category narrows the pool and its answer options stay free', async ({ request }) => {
+  const all = (await (
+    await request.post('/api/quiz-entries', { data: { level: 'B2' } })
+  ).json()) as QuizPayload;
+  const freeCategories = categoriesOf(all.entries);
+  const category = [...freeCategories][0];
+
+  const res = await request.post('/api/quiz-entries', { data: { level: 'B2', category } });
+  const payload = (await res.json()) as QuizPayload;
+  expect(payload.entries.every((e) => e.category === category)).toBe(true);
+  expect(payload.distractors.length).toBeGreaterThan(0);
+  // Every option comes from another free category.
+  expect(payload.distractors.every((e) => freeCategories.has(e.category))).toBe(true);
+  expect(payload.distractors.every((e) => e.category !== category)).toBe(true);
+});
+
+test('/api/quiz-entries rejects a bad request', async ({ request }) => {
+  for (const data of [{}, { level: 'D9' }, { level: 'A1', category: 42 }]) {
+    const res = await request.post('/api/quiz-entries', { data });
+    expect(res.status(), JSON.stringify(data)).toBe(400);
+  }
+});
+
+test('free user can start a quiz on a free category', async ({ page }) => {
+  await page.goto('/quiz');
+  await page.getByRole('button', { name: /greetings/i }).click();
+  await page.getByRole('button', { name: /start quiz/i }).click();
+  await expect(page.getByText(/question 1 of|spørsmål 1 av/i)).toBeVisible({ timeout: 10000 });
+});
+
+test('quiz shows an error when the entries fail to load, and retrying works', async ({ page }) => {
+  // First request fails, the next one goes through.
+  let calls = 0;
+  await page.route('**/api/quiz-entries', (route) => {
+    calls += 1;
+    return calls === 1 ? route.fulfill({ status: 500, body: 'boom' }) : route.continue();
+  });
+
+  await page.goto('/quiz');
+  await page.getByRole('button', { name: /greetings/i }).click();
+  const start = page.getByRole('button', { name: /start quiz/i });
+  await start.click();
+
+  await expect(page.getByTestId('quiz-start-error')).toBeVisible({ timeout: 8000 });
+  await expect(start).toBeEnabled();
+  await expect(page.getByText(/question 1 of|spørsmål 1 av/i)).toHaveCount(0);
+
+  await start.click();
+  await expect(page.getByText(/question 1 of|spørsmål 1 av/i)).toBeVisible({ timeout: 10000 });
+  expect(calls).toBe(2);
+});
+
+// ===========================================================================
+// Regression: Enter in a typed answer must show the feedback, not skip it
+// ===========================================================================
+
+test('Enter in a typed answer shows the feedback instead of skipping to the next question', async ({
+  page
+}) => {
+  test.setTimeout(30000);
+  // Free user: progress goes to localStorage, which resolves within the same key event
+  // (the case that used to skip the feedback).
+  await page.goto('/quiz');
+  await page.getByRole('button', { name: /greetings/i }).click();
+  await page.getByRole('button', { name: /start quiz/i }).click();
+  await expect(page.getByText(/question 1 of|spørsmål 1 av/i)).toBeVisible({ timeout: 10000 });
+
+  const input = page.getByRole('textbox');
+  const nextButton = page.locator('button.bg-indigo-600').filter({
+    hasText: /next|see results|neste|se resultater/i
+  });
+
+  // Multiple-choice questions come first; answer them by clicking until a typed one shows.
+  for (let i = 0; i < 6 && !(await input.isVisible().catch(() => false)); i++) {
+    await page.getByRole('button', { name: /^A\b/ }).click();
+    await nextButton.click();
+    await expect(
+      page.getByText(new RegExp(`(question|spørsmål) ${i + 2} (of|av)`, 'i'))
+    ).toBeVisible();
+  }
+  await expect(input).toBeVisible();
+
+  const counter = (await page
+    .getByText(/(question|spørsmål) \d+ (of|av) \d+/i)
+    .first()
+    .textContent())!;
+  await input.fill('test');
+  await input.press('Enter');
+
+  // The feedback for this question is on screen: the Next button, and the same counter.
+  await expect(nextButton).toBeVisible();
+  await expect(page.getByText(counter.trim())).toBeVisible();
 });

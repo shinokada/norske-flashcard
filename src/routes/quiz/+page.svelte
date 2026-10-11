@@ -7,7 +7,6 @@
     buildQuizSession,
     levenshtein,
     bareLemma,
-    isQuizable,
     isMonolingualLevel,
     isB1MonolingualEligible,
     type QuizQuestion,
@@ -16,8 +15,9 @@
     type TypeAnswerQuestion
   } from '$lib/quiz';
   import { loadProgressMap, loadProgressMapFromSupabase, saveProgress } from '$lib/progress';
-  import type { FSRSRating, CardProgress, FlashcardLanguage } from '$lib/types';
+  import type { FSRSRating, CardProgress, FlashcardLanguage, VocabEntry } from '$lib/types';
   import { isFreeQuizCategory } from '$lib/access';
+  import { quizPoolSize, type QuizCategoryCount, type QuizPayload } from '$lib/quiz-gate';
   import { languageStore } from '$lib/stores/language.svelte';
   import { getTranslation, getExampleTranslation, categoryLabel } from '$lib/vocab-helpers';
   import * as m from '$lib/paraglide/messages';
@@ -63,34 +63,30 @@
   let isPlus = $derived(page.data.plan === 'plus');
   let userId = $derived(isPlus ? (page.data.user?.id ?? null) : null);
 
-  // Unique levels for the picker — sourced from allEntries, ordered A1–C2.
+  // The picker is built from per-level, per-category counts (no entry content). The
+  // entries of a session come from POST /api/quiz-entries when the user clicks Start
+  // (ai-docs/implementation/quiz-server-gating.md).
   const ALL_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C'];
-  let availableLevels = $derived.by(() => {
-    const fromData = new Set(data.allEntries.map((e: { level: string }) => e.level.toUpperCase()));
-    return ALL_LEVELS.filter((l) => fromData.has(l));
-  });
+  let counts = $derived(data.categories as QuizCategoryCount[]);
+  let availableLevels = $derived(ALL_LEVELS.filter((l) => counts.some((c) => c.level === l)));
+  // Categories of the selected level that have at least one quizable entry.
   let availableCategories = $derived.by(() => {
-    const src = selectedLevel
-      ? data.allEntries.filter((e: { level: string }) => e.level === selectedLevel)
-      : data.allEntries;
-
-    // (No uttrykk-preview filter needed here — quiz's data pool never loads
-    // the preview files to begin with, see quiz/+page.ts's vocabLoaders,
-    // and the preview deck itself was retired in Phase 3 of
-    // ai-docs/implementation/uttrykk-gate.md.)
-    return [...new Set(src.map((e: { category: string }) => e.category))].sort() as string[];
+    const slugs = counts
+      .filter((c) => c.level === selectedLevel && c.vocab + c.uttrykk > 0)
+      .map((c) => c.category as string);
+    return [...new Set(slugs)].sort();
   });
 
-  // Free users: categories visible in the picker for the selected level
-  let freeCategories = $derived.by(() => {
-    if (!selectedLevel) return [] as string[];
-    return availableCategories.filter((cat) => isFreeQuizCategory(selectedLevel, cat));
-  });
+  // Free users: categories where their plan has at least one entry to quiz on.
+  let freeCategories = $derived(
+    availableCategories.filter((cat) => quizPoolSize(counts, selectedLevel, cat, false) > 0)
+  );
 
   // Count of Plus-only categories for the upsell badge
-  let plusOnlyCount = $derived(
-    availableCategories.filter((cat) => !isFreeQuizCategory(selectedLevel, cat)).length
-  );
+  let plusOnlyCount = $derived(availableCategories.length - freeCategories.length);
+
+  // How many entries the current picker selection can quiz on for this plan.
+  let quizPoolCount = $derived(quizPoolSize(counts, selectedLevel, selectedCategory, isPlus));
 
   // canStart: Plus users need a level (always true now); free users need a category
   let canStart = $derived(
@@ -112,20 +108,17 @@
     questions.length > 0 ? Math.round((currentIndex / questions.length) * 100) : 0
   );
 
-  // Entries to quiz on — filtered from allEntries by picker selections so that
-  // changing the level picker always produces the correct word pool. Also
-  // excludes non-quizable entries (Phase 9: C-level entries with no
-  // `definition`) so the pool count/hint below reflects what a session can
-  // actually draw from, not a nominal total that includes entries the quiz
-  // will never select.
-  let quizEntries = $derived.by(() => {
-    let es = data.allEntries as import('$lib/types').VocabEntry[];
-
-    if (selectedLevel) es = es.filter((e) => e.level === selectedLevel);
-    if (selectedCategory) es = es.filter((e) => e.category === selectedCategory);
-
-    return es.filter(isQuizable);
-  });
+  // The session pool, fetched from POST /api/quiz-entries on Start (already gated by
+  // plan on the server, quizable entries only). $state.raw: it holds up to ~1,300 big
+  // objects that never change in place, so no deep proxy is needed.
+  let pool = $state.raw<VocabEntry[]>([]);
+  let starting = $state(false);
+  // Set when the fetch fails; shown next to the start button, cleared on each attempt.
+  let startError = $state(false);
+  // Fetched pools by level and category. The plan cannot change without a page load,
+  // so a restart reuses the result instead of asking the server again.
+  // A plain object, not a Map: nothing renders from it, so it needs no reactivity.
+  const payloadCache: Record<string, QuizPayload> = {};
 
   // Phase 1 (ai-docs/implementation/quiz-i18n-and-categories.md): quiz
   // translation language reuses the same `languageStore` flashcards already
@@ -137,7 +130,7 @@
   // Whether the current category pool has at least one entry with a
   // `definition` — mirrors VocabFlashcardPage's `hasDefinitions`, and gates
   // whether a B1 entry is quizzed monolingually (see isB1MonolingualEligible).
-  let categoryHasDefinitions = $derived(quizEntries.some((e) => !!e.definition));
+  let categoryHasDefinitions = $derived(pool.some((e) => !!e.definition));
 
   function entryIsMonolingual(entry: import('$lib/types').VocabEntry): boolean {
     return (
@@ -167,30 +160,57 @@
 
   // Quiz control
 
-  function startQuiz() {
-    const entries = quizEntries;
-    if (entries.length === 0) return;
-    // Read quiz limit from localStorage (set via Preferences). 'default' or
-    // missing → 10. Cap to available entries.
-    const raw = browser ? (localStorage.getItem('vocab-quiz-limit') ?? 'default') : 'default';
-    const quizCount = raw === 'default' ? 10 : Math.max(1, parseInt(raw, 10) || 10);
-    const session = buildQuizSession(
-      entries,
-      data.allEntries,
-      progressMap,
-      quizCount,
-      quizLanguage
-    );
-    // Never enter the questioning state with no `current` question.
-    if (session.length === 0) return;
-    questions = session;
-    currentIndex = 0;
-    correctCount = 0;
-    results = [];
-    selectedOption = null;
-    typedAnswer = '';
-    isCorrect = null;
-    quizState = 'questioning';
+  async function loadPayload(): Promise<QuizPayload> {
+    const key = `${selectedLevel}|${selectedCategory}`;
+    const cached = payloadCache[key];
+    if (cached) return cached;
+    const res = await fetch('/api/quiz-entries', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ level: selectedLevel, category: selectedCategory || undefined })
+    });
+    if (!res.ok) throw new Error(`quiz-entries responded ${res.status}`);
+    const payload = (await res.json()) as QuizPayload;
+    payloadCache[key] = payload;
+    return payload;
+  }
+
+  async function startQuiz() {
+    if (starting) return;
+    starting = true;
+    startError = false;
+    try {
+      const { entries, distractors } = await loadPayload();
+      if (entries.length === 0) return;
+      // Read quiz limit from localStorage (set via Preferences). 'default' or
+      // missing → 10. Cap to available entries.
+      const raw = browser ? (localStorage.getItem('vocab-quiz-limit') ?? 'default') : 'default';
+      const quizCount = raw === 'default' ? 10 : Math.max(1, parseInt(raw, 10) || 10);
+      const session = buildQuizSession(
+        entries,
+        [...entries, ...distractors],
+        progressMap,
+        quizCount,
+        quizLanguage
+      );
+      // Never enter the questioning state with no `current` question.
+      if (session.length === 0) return;
+      pool = entries;
+      questions = session;
+      currentIndex = 0;
+      correctCount = 0;
+      results = [];
+      selectedOption = null;
+      typedAnswer = '';
+      isCorrect = null;
+      quizState = 'questioning';
+    } catch (err) {
+      // Stay on the picker; the button works again.
+      console.error('Could not load quiz entries', err);
+      startError = true;
+    } finally {
+      starting = false;
+    }
   }
 
   async function submitAnswer(userAnswer: string | number) {
@@ -276,6 +296,13 @@
   // Keyboard handling
 
   function handleKeyDown(e: KeyboardEvent) {
+    // The answer input handles Enter itself and calls preventDefault(). Without this
+    // guard, the same Enter reaches this window handler after submitAnswer() has
+    // already switched to 'revealing' (saving progress to localStorage resolves within
+    // the same event dispatch), and it would skip the feedback straight to the next
+    // question.
+    if (e.defaultPrevented) return;
+
     const target = e.target as HTMLElement | null;
     const inInput = target?.tagName === 'INPUT' || target?.tagName === 'TEXTAREA';
 
@@ -472,10 +499,10 @@
 
       <p class="mb-6 text-sm text-gray-600 dark:text-gray-300">
         {m.quiz_pool_hint({
-          count: quizEntries.length,
+          count: quizPoolCount,
           session: Math.min(
             browser ? parseInt(localStorage.getItem('vocab-quiz-limit') ?? '10') || 10 : 10,
-            quizEntries.length
+            quizPoolCount
           )
         })}
       </p>
@@ -483,11 +510,20 @@
       <button
         type="button"
         onclick={startQuiz}
-        disabled={quizEntries.length === 0 || !canStart}
+        disabled={quizPoolCount === 0 || !canStart || starting}
         class="rounded-lg bg-indigo-600 px-8 py-3 text-sm font-semibold text-white hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 focus:outline-none disabled:cursor-not-allowed disabled:opacity-40 dark:bg-indigo-500 dark:hover:bg-indigo-600"
       >
-        {m.quiz_start()}
+        {starting ? m.stats_loading() : m.quiz_start()}
       </button>
+      {#if startError}
+        <p
+          role="alert"
+          data-testid="quiz-start-error"
+          class="mt-3 text-sm text-red-700 dark:text-red-400"
+        >
+          {m.quiz_start_load_error()}
+        </p>
+      {/if}
     </div>
   {:else if quizState === 'questioning' && current}
     <!-- Page heading -->
@@ -920,12 +956,17 @@
         <button
           type="button"
           onclick={startQuiz}
-          disabled={quizEntries.length === 0 || !canStart}
+          disabled={quizPoolCount === 0 || !canStart || starting}
           class="rounded-lg bg-indigo-600 px-6 py-2.5 text-sm font-semibold text-white hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 focus:outline-none disabled:cursor-not-allowed disabled:opacity-40 dark:bg-indigo-500 dark:hover:bg-indigo-600"
         >
           {m.quiz_restart()}
         </button>
       </div>
+      {#if startError}
+        <p role="alert" class="mt-3 text-sm text-red-700 dark:text-red-400">
+          {m.quiz_start_load_error()}
+        </p>
+      {/if}
       <p class="mt-4 text-xs text-gray-700 dark:text-gray-300">
         {m.quiz_restart_hint()}
       </p>
