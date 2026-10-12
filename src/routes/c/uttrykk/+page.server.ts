@@ -1,7 +1,12 @@
-import { redirect } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import type { VocabEntry } from '$lib/types';
 import type { MetaProps } from 'runes-meta-tags';
+import {
+  recordContentUsage,
+  shouldBlock,
+  secondsUntilUtcMidnight
+} from '$lib/server/content-usage';
 
 // Phase 9 (ai-docs/implementation/uttrykk-category.md): a virtual, read-only
 // "study all" deck over every uttrykk-c.json entry, regardless of category.
@@ -16,7 +21,7 @@ import type { MetaProps } from 'runes-meta-tags';
 const uttrykkCLoader = () =>
   import('$lib/data/uttrykk-c.json') as unknown as Promise<{ default: VocabEntry[] }>;
 
-export const load: PageServerLoad = async ({ locals }) => {
+export const load: PageServerLoad = async ({ locals, setHeaders }) => {
   const isPlus = locals.plan === 'plus';
 
   // Same Plus lock as every other C category (every C category outside
@@ -31,6 +36,23 @@ export const load: PageServerLoad = async ({ locals }) => {
 
   const uttrykkC = await uttrykkCLoader();
   const entries = uttrykkC.default;
+
+  // Plus calls are counted (content-scraping-hardening.md, Phase 1); log-only for now.
+  // Free and guest callers were redirected above, so they cost no write. A page load
+  // has no JSON body to return, so a blocked call is a 429 error page.
+  const usage = await recordContentUsage({
+    userId: locals.user?.id,
+    plan: locals.plan,
+    endpoint: 'c-uttrykk',
+    entries: entries.length
+  });
+  if (shouldBlock(usage)) {
+    setHeaders({
+      'Cache-Control': 'private, no-store',
+      'Retry-After': String(secondsUntilUtcMidnight())
+    });
+    error(429, 'Too many requests today. Please try again tomorrow.');
+  }
 
   // No dedicated OG image exists for this virtual route (scripts/generate-og.mjs
   // only pre-renders one PNG per real CATEGORIES_BY_LEVEL slug) — reuse the

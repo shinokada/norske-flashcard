@@ -19,6 +19,11 @@
 import type { RequestHandler } from './$types';
 import { selectQuizEntries } from '$lib/quiz-gate';
 import { isQuizLevel, loadQuizSources } from '$lib/server/quiz-sources';
+import {
+  recordContentUsage,
+  shouldBlock,
+  rateLimitedResponse
+} from '$lib/server/content-usage';
 
 const MAX_CATEGORY_LENGTH = 100;
 
@@ -49,7 +54,16 @@ export const POST: RequestHandler = async ({ request, locals }) => {
   }
 
   const sources = await loadQuizSources([level]);
-  return Response.json(selectQuizEntries(sources, level, category || undefined, isPlus), {
-    headers: NO_STORE
+  const result = selectQuizEntries(sources, level, category || undefined, isPlus);
+
+  // Plus calls are counted (content-scraping-hardening.md, Phase 1); log-only for now.
+  const usage = await recordContentUsage({
+    userId: locals.user?.id,
+    plan: locals.plan,
+    endpoint: 'quiz-entries',
+    entries: result.entries.length + result.distractors.length
   });
+  if (shouldBlock(usage)) return rateLimitedResponse();
+
+  return Response.json(result, { headers: NO_STORE });
 };

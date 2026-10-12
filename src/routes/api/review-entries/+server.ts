@@ -33,6 +33,11 @@ import type { RequestHandler } from './$types';
 import type { VocabEntry, CEFRLevel } from '$lib/types';
 import { resolveEntry } from '$lib/content-lookup';
 import { isPlusOnlyEntry } from '$lib/access';
+import {
+  recordContentUsage,
+  shouldBlock,
+  rateLimitedResponse
+} from '$lib/server/content-usage';
 
 interface ReviewEntriesRequest {
   ids: string[];
@@ -177,6 +182,15 @@ export const POST: RequestHandler = async ({ request, locals }) => {
       }
     }
   }
+
+  // Plus calls are counted (content-scraping-hardening.md, Phase 1); log-only for now.
+  const usage = await recordContentUsage({
+    userId: locals.user?.id,
+    plan: locals.plan,
+    endpoint: 'review-entries',
+    entries: resolved.length
+  });
+  if (shouldBlock(usage)) return rateLimitedResponse();
 
   return Response.json({ entries: resolved });
 };

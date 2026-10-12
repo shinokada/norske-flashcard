@@ -19,6 +19,11 @@ import type { RequestHandler } from './$types';
 import type { CEFRLevel, GrammarQuestion } from '$lib/types';
 import { grammarLevelLoaders } from '$lib/grammar/level-loader';
 import { isFreeGrammarTopic } from '$lib/access';
+import {
+  recordContentUsage,
+  shouldBlock,
+  rateLimitedResponse
+} from '$lib/server/content-usage';
 
 interface ReviewGrammarEntryRequest {
   id: string;
@@ -72,6 +77,15 @@ export const POST: RequestHandler = async ({ request, locals }) => {
       resolved.push(q);
     }
   }
+
+  // Plus calls are counted (content-scraping-hardening.md, Phase 1); log-only for now.
+  const usage = await recordContentUsage({
+    userId: locals.user?.id,
+    plan: locals.plan,
+    endpoint: 'review-grammar-entries',
+    entries: resolved.length
+  });
+  if (shouldBlock(usage)) return rateLimitedResponse();
 
   return Response.json({ entries: resolved });
 };
