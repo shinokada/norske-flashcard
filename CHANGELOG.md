@@ -1,5 +1,15 @@
 # norske-flashcard
 
+## 2.100.0
+
+### Minor Changes
+
+- - **New Features**
+    - Norskprøven practice pages now load securely, with Tests 2 and 3 restricted to Plus subscribers. Test 1 remains available to guests.
+    - Added consistent access checks across reading, writing, and oral practice for A2 and B1 levels.
+  - **Bug Fixes**
+    - Restricted practice content is no longer included in guest-facing page responses, and practice pages are not stored in shared caches.
+
 ## 2.99.2
 
 ### Patch Changes
