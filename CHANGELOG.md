@@ -1,5 +1,14 @@
 # norske-flashcard
 
+## 2.103.0
+
+### Minor Changes
+
+- - **New Features**
+    - Added previous- and next-level navigation on learning pages, with links displayed beside the page introduction and below the content.
+    - Navigation labels and accessible link text are available in English, German, Spanish, Norwegian, and Ukrainian.
+    - Level names are displayed consistently in navigation and page introductions.
+
 ## 2.102.0
 
 ### Minor Changes
