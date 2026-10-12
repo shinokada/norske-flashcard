@@ -8,7 +8,7 @@
 
 <div class="mx-auto max-w-3xl px-4 py-10 text-left">
   <h1 class="mb-2">Privacy Policy</h1>
-  <p class="mb-8 text-gray-600 dark:text-gray-300">Last updated: 10 October 2026</p>
+  <p class="mb-8 text-gray-600 dark:text-gray-300">Last updated: 12 October 2026</p>
 
   <div class="space-y-4 text-base text-gray-700 dark:text-gray-300">
     <p>
@@ -46,6 +46,8 @@
       <li>
         <strong>Technical and usage data.</strong> Basic information such as your IP address, browser
         and pages visited, used for security, abuse prevention and understanding how the site is used.
+        For Plus accounts, we also keep daily counts of how many study entries your account requests,
+        linked to your account, to detect automated copying of the course.
       </li>
     </ul>
 
@@ -53,7 +55,10 @@
     <ul class="list-disc space-y-1 pl-6">
       <li>To provide your account, login and the learning features you ask for (contract).</li>
       <li>To process payments and keep your Plus access correct (contract, legal obligation).</li>
-      <li>To keep the service secure and prevent abuse such as bots (legitimate interest).</li>
+      <li>
+        To keep the service secure and prevent abuse such as bots or bulk copying of content
+        (legitimate interest).
+      </li>
       <li>
         To improve the site through usage statistics (legitimate interest or consent, where
         required).
