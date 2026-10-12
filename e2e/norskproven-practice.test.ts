@@ -512,6 +512,45 @@ test.describe('Oral practice', () => {
 });
 
 // ===========================================================================
+// Server gate — guests must not receive Plus test content in the data response
+// (ai-docs/implementation/norskproven-server-gating.md)
+// ===========================================================================
+
+test.describe('Server gate — guest data requests', () => {
+  const PROBES = [
+    { level: 'a2', test: 2, probe: 'Lars har fått en ny nabo' },
+    { level: 'b1', test: 3, probe: 'Stadig flere nordmenn er bekymret for klimaendringene' }
+  ];
+
+  for (const { level, test: n, probe } of PROBES) {
+    for (const section of ['reading', 'writing', 'oral']) {
+      test(`${section} ${level} test ${n}: __data.json has no test content for a guest`, async ({
+        request
+      }) => {
+        const res = await request.get(`/norskproven/${n}/${section}/${level}/__data.json`);
+        const body = await res.text();
+        expect(body).not.toContain(probe);
+        expect(body).not.toContain('correctId');
+        expect(body).not.toContain('modelAnswer');
+        expect(body).toContain('/plus?ref=practice-test-lock');
+      });
+    }
+  }
+
+  test('reading a2 test 1: __data.json still carries the free test for a guest', async ({
+    request
+  }) => {
+    const res = await request.get('/norskproven/1/reading/a2/__data.json');
+    expect(await res.text()).toContain('Legekontoret');
+  });
+
+  test('data response is not cacheable', async ({ request }) => {
+    const res = await request.get('/norskproven/1/reading/a2/__data.json');
+    expect(res.headers()['cache-control']).toContain('no-store');
+  });
+});
+
+// ===========================================================================
 // /plus page — table row and feature card
 // ===========================================================================
 

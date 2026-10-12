@@ -1,6 +1,5 @@
 <script lang="ts">
-  import { onDestroy, onMount } from 'svelte';
-  import { page } from '$app/state';
+  import { onDestroy } from 'svelte';
   import * as m from '$lib/paraglide/messages.js';
   import type { OralPrompt } from '$lib/types';
 
@@ -97,11 +96,8 @@
   }
 
   // ── Plus gate ──────────────────────────────────────────────────────────
-  onMount(() => {
-    if (page.data.plan !== 'plus' && data.test !== '1') {
-      window.location.replace('/plus?ref=practice-test-lock');
-    }
-  });
+  // lives in the server load (+page.server.ts): Test 1 is free, Tests 2+ require Plus,
+  // and this page only ever receives a test the visitor may open.
 
   onDestroy(() => {
     if (timerInterval) clearInterval(timerInterval);

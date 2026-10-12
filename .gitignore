@@ -52,4 +52,6 @@ cefr/
 grammar-sample/
 norskprove/
 oral/
+# ...but the Norskprøven oral practice route is real source code, not a draft.
+!src/routes/norskproven/*/oral/
 vocab/
