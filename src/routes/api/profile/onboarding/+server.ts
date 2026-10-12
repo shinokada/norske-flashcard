@@ -3,19 +3,20 @@
  *
  * Accepts partial updates from the onboarding slides
  * (`OnboardingSlides.svelte`) and the post-snooze nudge fields on
- * `/my-profile` (`OnboardingFieldsSection.svelte`). Each slide/section PATCHes
- * only the field(s) it owns — any combination of the keys below may be sent
- * in a single request, including none (a no-op).
+ * `/my-profile`. Each slide/section PATCHes only the field(s) it owns — any
+ * combination of the keys below may be sent in a single request, including
+ * none (a no-op).
  *
  * Body (JSON), all keys optional:
  *   - display_name:         string | null  (trimmed, max 40 chars)
- *   - native_language:      string | null  (ISO 639-1 code)
- *   - other_languages:      string[]       (ISO 639-1 codes)
+ *   - flashcard_language:   'english' | 'spanish' | 'ukrainian' | 'german'
  *   - current_level:         'A1' | 'A2' | 'B1' | 'B2' | 'C' | null
- *   - study_goals:          string[]       (subset of vocab/grammar/speaking/listening/writing, max 3)
- *   - country:              string | null  (ISO 3166-1 alpha-2 code)
  *   - onboarding_done:      boolean
  *   - onboarding_snoozed_at: string | null (ISO timestamp)
+ *   - daily_reminder_enabled: boolean      (stored as email_reminder)
+ *
+ * The country is not set here: the root layout load records it from the
+ * Cloudflare header (see ai-docs/implementation/profile-country.md).
  *
  * Response: { ok: true } | { message: string } (4xx/5xx)
  * Auth: requires a valid session cookie (locals.user).
@@ -23,7 +24,6 @@
 import { json, error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
-const VALID_GOALS = ['vocab', 'grammar', 'speaking', 'listening', 'writing'];
 const VALID_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C'];
 const VALID_FLASHCARD_LANGUAGES = new Set(['english', 'spanish', 'ukrainian', 'german']);
 // ---------------------------------------------------------------------------
@@ -40,119 +40,6 @@ function sanitizeText(val: string): string {
       .trim()
   );
 }
-
-// Allowlists mirror the LANGUAGES / COUNTRIES arrays in OnboardingSlides.svelte.
-// Kept here (rather than imported) so the API stays self-contained and can
-// validate requests that bypass the UI entirely.
-
-const VALID_LANG_CODES = new Set([
-  'sq',
-  'am',
-  'ar',
-  'zh',
-  'da',
-  'nl',
-  'en',
-  'fi',
-  'fr',
-  'de',
-  'el',
-  'hi',
-  'id',
-  'it',
-  'ja',
-  'kk',
-  'ko',
-  'ku',
-  'lv',
-  'lt',
-  'ms',
-  'ne',
-  'nb',
-  'fa',
-  'pl',
-  'pt',
-  'ro',
-  'ru',
-  'si',
-  'so',
-  'es',
-  'sv',
-  'sw',
-  'tl',
-  'ta',
-  'th',
-  'ti',
-  'tr',
-  'uk',
-  'ur',
-  'vi'
-]);
-
-const VALID_COUNTRY_CODES = new Set([
-  'AF',
-  'AL',
-  'DZ',
-  'AR',
-  'AU',
-  'AT',
-  'BD',
-  'BE',
-  'BR',
-  'CA',
-  'CL',
-  'CN',
-  'CO',
-  'HR',
-  'CZ',
-  'DK',
-  'EG',
-  'ER',
-  'ET',
-  'FI',
-  'FR',
-  'DE',
-  'GH',
-  'GR',
-  'HU',
-  'IN',
-  'ID',
-  'IQ',
-  'IR',
-  'IE',
-  'IT',
-  'JP',
-  'KE',
-  'KR',
-  'LT',
-  'LV',
-  'MX',
-  'MA',
-  'NL',
-  'NZ',
-  'NG',
-  'NO',
-  'PK',
-  'PH',
-  'PL',
-  'PT',
-  'RO',
-  'RU',
-  'SA',
-  'SO',
-  'ZA',
-  'ES',
-  'LK',
-  'SE',
-  'CH',
-  'SY',
-  'TH',
-  'TR',
-  'UA',
-  'GB',
-  'US',
-  'VN'
-]);
 
 export const PATCH: RequestHandler = async ({ request, locals }) => {
   if (!locals.user) error(401, { message: 'Unauthorized' });
@@ -188,50 +75,10 @@ export const PATCH: RequestHandler = async ({ request, locals }) => {
     update.flashcard_language = lang || 'english';
   }
 
-  if ('native_language' in body) {
-    const lang = body.native_language as string | null;
-    if (!lang) {
-      update.native_language = null;
-    } else if (VALID_LANG_CODES.has(lang)) {
-      // Known ISO 639-1 code — accept as-is
-      update.native_language = lang;
-    } else {
-      // Free-text "Other" path — sanitize and cap length
-      const cleaned = sanitizeText(lang);
-      if (cleaned.length > 60) error(422, { message: 'Language name too long.' });
-      update.native_language = cleaned || null;
-    }
-  }
-
-  if ('other_languages' in body) {
-    const langs = body.other_languages;
-    if (!Array.isArray(langs)) error(422, { message: 'other_languages must be an array.' });
-    // Only accept known ISO codes — no free-text in the multi-select
-    update.other_languages = (langs as unknown[]).filter(
-      (l): l is string => typeof l === 'string' && VALID_LANG_CODES.has(l)
-    );
-  }
-
   if ('current_level' in body) {
     const level = body.current_level as string | null;
     if (level && !VALID_LEVELS.includes(level)) error(422, { message: 'Invalid level.' });
     update.current_level = level || null;
-  }
-
-  if ('study_goals' in body) {
-    const goals = body.study_goals;
-    if (!Array.isArray(goals)) error(422, { message: 'study_goals must be an array.' });
-    const filtered = (goals as unknown[]).filter(
-      (g): g is string => typeof g === 'string' && VALID_GOALS.includes(g)
-    );
-    if (filtered.length > 3) error(422, { message: 'Maximum 3 study goals.' });
-    update.study_goals = filtered;
-  }
-
-  if ('country' in body) {
-    const c = body.country as string | null;
-    if (c && !VALID_COUNTRY_CODES.has(c)) error(422, { message: 'Invalid country.' });
-    update.country = c || null;
   }
 
   if ('onboarding_done' in body) {

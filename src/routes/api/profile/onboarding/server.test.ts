@@ -110,15 +110,6 @@ describe('PATCH /api/profile/onboarding', () => {
     expect(mockUpsert).not.toHaveBeenCalled();
   });
 
-  it('throws 422 when other_languages is not an array', async () => {
-    await expect(
-      PATCH({ request: makeRequest({ other_languages: 'en' }), locals: makeLocals() } as never)
-    ).rejects.toMatchObject({
-      status: 422,
-      body: { message: expect.stringMatching(/other_languages/i) }
-    });
-  });
-
   it('throws 422 for an invalid current_level', async () => {
     await expect(
       PATCH({ request: makeRequest({ current_level: 'Z9' }), locals: makeLocals() } as never)
@@ -150,27 +141,6 @@ describe('PATCH /api/profile/onboarding', () => {
     expect(payload.flashcard_language).toBe('german');
   });
 
-  it('throws 422 when study_goals is not an array', async () => {
-    await expect(
-      PATCH({ request: makeRequest({ study_goals: 'vocab' }), locals: makeLocals() } as never)
-    ).rejects.toMatchObject({
-      status: 422,
-      body: { message: expect.stringMatching(/study_goals/i) }
-    });
-  });
-
-  it('throws 422 when more than 3 valid study goals are provided', async () => {
-    await expect(
-      PATCH({
-        request: makeRequest({ study_goals: ['vocab', 'grammar', 'speaking', 'listening'] }),
-        locals: makeLocals()
-      } as never)
-    ).rejects.toMatchObject({
-      status: 422,
-      body: { message: expect.stringMatching(/maximum 3/i) }
-    });
-  });
-
   it('throws 422 when onboarding_snoozed_at is not a string or null', async () => {
     await expect(
       PATCH({
@@ -190,6 +160,20 @@ describe('PATCH /api/profile/onboarding', () => {
     expect(res.status).toBe(200);
     const body = await res.json();
     expect(body.ok).toBe(true);
+    expect(mockUpsert).not.toHaveBeenCalled();
+  });
+
+  it('ignores country and the removed language/goal fields', async () => {
+    const res = await PATCH({
+      request: makeRequest({
+        country: 'NO',
+        native_language: 'ja',
+        other_languages: ['en'],
+        study_goals: ['vocab']
+      }),
+      locals: makeLocals()
+    } as never);
+    expect(res.status).toBe(200);
     expect(mockUpsert).not.toHaveBeenCalled();
   });
 
@@ -218,33 +202,6 @@ describe('PATCH /api/profile/onboarding', () => {
     expect(payload.display_name).toBeNull();
   });
 
-  it('normalizes an empty native_language to null', async () => {
-    await PATCH({
-      request: makeRequest({ native_language: '' }),
-      locals: makeLocals()
-    } as never);
-    const [payload] = mockUpsert.mock.calls[0];
-    expect(payload.native_language).toBeNull();
-  });
-
-  it('keeps a valid native_language', async () => {
-    await PATCH({
-      request: makeRequest({ native_language: 'ja' }),
-      locals: makeLocals()
-    } as never);
-    const [payload] = mockUpsert.mock.calls[0];
-    expect(payload.native_language).toBe('ja');
-  });
-
-  it('filters non-string entries out of other_languages', async () => {
-    await PATCH({
-      request: makeRequest({ other_languages: ['en', 42, 'ja', null] }),
-      locals: makeLocals()
-    } as never);
-    const [payload] = mockUpsert.mock.calls[0];
-    expect(payload.other_languages).toEqual(['en', 'ja']);
-  });
-
   it('normalizes an empty current_level to null', async () => {
     await PATCH({ request: makeRequest({ current_level: '' }), locals: makeLocals() } as never);
     const [payload] = mockUpsert.mock.calls[0];
@@ -255,24 +212,6 @@ describe('PATCH /api/profile/onboarding', () => {
     await PATCH({ request: makeRequest({ current_level: 'B2' }), locals: makeLocals() } as never);
     const [payload] = mockUpsert.mock.calls[0];
     expect(payload.current_level).toBe('B2');
-  });
-
-  it('filters out unrecognized study goals', async () => {
-    await PATCH({
-      request: makeRequest({ study_goals: ['vocab', 'unknown', 'grammar'] }),
-      locals: makeLocals()
-    } as never);
-    const [payload] = mockUpsert.mock.calls[0];
-    expect(payload.study_goals).toEqual(['vocab', 'grammar']);
-  });
-
-  it('accepts exactly 3 valid study goals', async () => {
-    await PATCH({
-      request: makeRequest({ study_goals: ['vocab', 'grammar', 'writing'] }),
-      locals: makeLocals()
-    } as never);
-    const [payload] = mockUpsert.mock.calls[0];
-    expect(payload.study_goals).toEqual(['vocab', 'grammar', 'writing']);
   });
 
   it('coerces onboarding_done to a boolean', async () => {

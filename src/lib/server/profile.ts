@@ -20,6 +20,7 @@ export interface Profile {
   quiz_limit: number | null; // null = default (10)
   show_example: boolean; // show example translation below the card by default
   fsrs_retention: number | null; // FSRS request_retention preset: 0.8/0.9/0.95, null = default (0.9)
+  country: string | null; // ISO 3166-1 alpha-2 from cf-ipcountry; set once by the root layout load, never by the UI
   // Onboarding fields
   study_goals: string[] | null; // ['vocab','grammar','speaking','listening','writing']
   onboarding_done: boolean;

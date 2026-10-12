@@ -49,6 +49,11 @@
         For Plus accounts, we also keep daily counts of how many study entries your account requests,
         linked to your account, to detect automated copying of the course.
       </li>
+      <li>
+        <strong>Country.</strong> When you use the site signed in, we work out your country from your
+        connection and store only the two-letter country code on your profile, not your IP address. We
+        keep the first one we see and do not update it.
+      </li>
     </ul>
 
     <h2 class="mt-8">Why we use it</h2>
@@ -62,6 +67,10 @@
       <li>
         To improve the site through usage statistics (legitimate interest or consent, where
         required).
+      </li>
+      <li>
+        To understand in which countries our users are, for example to decide which payment methods
+        to offer (legitimate interest).
       </li>
       <li>
         To send reminders and welcome emails (legitimate interest or consent, where required).

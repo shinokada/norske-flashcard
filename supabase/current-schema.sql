@@ -69,6 +69,7 @@ CREATE TABLE public.profiles (
   onboarding_snoozed_at timestamp with time zone,
   flashcard_language text NOT NULL DEFAULT 'english'::text CHECK (flashcard_language = ANY (ARRAY['english'::text, 'spanish'::text, 'ukrainian'::text, 'german'::text])),
   fsrs_retention numeric CHECK (fsrs_retention IS NULL OR (fsrs_retention = ANY (ARRAY[0.80, 0.90, 0.95]))),
+  country text CHECK (country IS NULL OR country ~ '^[A-Z]{2}$'::text),
   CONSTRAINT profiles_pkey PRIMARY KEY (id),
   CONSTRAINT profiles_id_fkey FOREIGN KEY (id) REFERENCES auth.users(id)
 );
@@ -139,6 +140,16 @@ CREATE TABLE public.email_log (
   sent_at timestamp with time zone NOT NULL DEFAULT now(),
   CONSTRAINT email_log_pkey PRIMARY KEY (id),
   CONSTRAINT email_log_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id)
+);
+CREATE TABLE public.content_usage (
+  user_id uuid NOT NULL,
+  day date NOT NULL,
+  endpoint text NOT NULL,
+  requests integer NOT NULL DEFAULT 0,
+  entries integer NOT NULL DEFAULT 0,
+  updated_at timestamp with time zone NOT NULL DEFAULT now(),
+  CONSTRAINT content_usage_pkey PRIMARY KEY (user_id, day, endpoint),
+  CONSTRAINT content_usage_user_id_fkey FOREIGN KEY (user_id) REFERENCES auth.users(id)
 );
 
 -- NOTE: Functions are not exported by Supabase's schema dump tool.
