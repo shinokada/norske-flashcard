@@ -1,6 +1,4 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import { page } from '$app/state';
   import * as m from '$lib/paraglide/messages.js';
   import type { ReadingPassage, ReadingOption } from '$lib/types';
 
@@ -129,12 +127,8 @@
     }
   }
 
-  // ── Plus gate (Test 1 is free; Tests 2+ require Plus) ───────────────────────
-  onMount(() => {
-    if (page.data.plan !== 'plus' && data.test !== '1') {
-      window.location.replace('/plus?ref=practice-test-lock');
-    }
-  });
+  // The Plus gate (Test 1 is free; Tests 2+ require Plus) lives in the server load
+  // (+page.server.ts): this page only ever receives a test the visitor may open.
 </script>
 
 <svelte:head>
