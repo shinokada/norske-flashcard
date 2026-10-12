@@ -16,6 +16,7 @@ const CACHE_EXCLUDED_PREFIXES = [
   '/api/', // dynamic JSON endpoints
   '/auth/', // login, callback, sync
   '/learn/', // hub pages show auth-sensitive UI (avatar, Plus badges)
+  '/daily/', // login- and Plus-gated lessons; guests get a redirect that must not be shared
   '/plus/success', // redirects anonymous visitors to login and polls the plan
   '/grammar/', // auth-gated
   '/quiz', // auth-gated
