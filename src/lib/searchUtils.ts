@@ -1,7 +1,8 @@
 /**
  * searchUtils.ts
  *
- * Search algorithm for the pre-built SearchEntry index.
+ * Search algorithm for the in-memory SearchEntry index (built on the server, see
+ * src/lib/server/search-index.ts).
  * Three-pass scoring — no external library needed at ~10,000 entries.
  *
  * Pass 1 — exact match on lemma or translation            score: 10

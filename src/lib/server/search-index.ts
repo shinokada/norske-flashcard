@@ -112,8 +112,8 @@ async function loadAll(): Promise<SearchEntry[]> {
     }
   }
   // Reject instead of returning a partial index: getSearchIndex does not cache a
-  // rejection, so the next request retries, and the endpoint answers 500 rather
-  // than 200 with missing results.
+  // rejection, so the next request retries, and the endpoint answers 503 rather
+  // than 200 with missing results (503 'unavailable', see the endpoint).
   if (failed.length > 0) {
     throw new Error(`[search-index] failed to load: ${failed.join(', ')}`);
   }
