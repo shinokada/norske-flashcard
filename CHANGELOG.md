@@ -1,5 +1,12 @@
 # norske-flashcard
 
+## 2.99.2
+
+### Patch Changes
+
+- - **Chores**
+    - Added a development-time check to flag certain direct content imports from client-accessible code. This helps keep vocabulary and phrase content access consistent with the approved access paths. Server-side code and tests are not affected. No end-user functionality or interface changes are included in this update.
+
 ## 2.99.1
 
 ### Patch Changes
