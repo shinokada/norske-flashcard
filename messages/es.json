@@ -960,5 +960,7 @@
   "grammar_progress_empty_title": "Aún no has practicado gramática",
   "grammar_progress_empty_body": "Practica un tema y tu progreso aparecerá aquí.",
   "grammar_practice_load_error": "No se pudieron cargar las preguntas de práctica. Inténtalo de nuevo.",
-  "quiz_start_load_error": "No se pudieron cargar las preguntas del quiz. Inténtalo de nuevo."
+  "quiz_start_load_error": "No se pudieron cargar las preguntas del quiz. Inténtalo de nuevo.",
+  "level_nav_go_to": "Ir a {level} ({name})",
+  "level_nav_label": "Navegación de niveles"
 }
