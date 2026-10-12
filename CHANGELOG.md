@@ -1,5 +1,14 @@
 # norske-flashcard
 
+## 2.102.0
+
+### Minor Changes
+
+- - **New Features**
+    - For signed-in users, the app now records a two-letter country code derived from their connection when available. The first recorded value is retained and is not changed later.
+  - **Documentation**
+    - The privacy policy now explains how country information is derived and stored, and notes that understanding users’ countries is a legitimate-interest purpose.
+
 ## 2.101.0
 
 ### Minor Changes
