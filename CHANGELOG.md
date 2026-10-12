@@ -1,5 +1,16 @@
 # norske-flashcard
 
+## 2.101.0
+
+### Minor Changes
+
+- v2.101.0
+
+  - Count Plus content requests per account in log-only mode (migration 030)
+  - Cover quiz-entries, review-entries, review-grammar-entries,
+    grammar-questions and /c/uttrykk
+  - Privacy policy: mention per-account request counters
+
 ## 2.100.1
 
 ### Patch Changes
