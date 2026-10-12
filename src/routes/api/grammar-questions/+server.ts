@@ -18,6 +18,11 @@ import type { RequestHandler } from './$types';
 import type { CEFRLevel, GrammarQuestion } from '$lib/types';
 import { grammarLevelLoaders } from '$lib/grammar/level-loader';
 import { questionsForPlan } from '$lib/grammar/gated-questions';
+import {
+  recordContentUsage,
+  shouldBlock,
+  rateLimitedResponse
+} from '$lib/server/content-usage';
 
 // A chapter has a handful of topics; this only guards against abuse.
 const MAX_TOPICS = 100;
@@ -58,5 +63,16 @@ export const POST: RequestHandler = async ({ request, locals }) => {
     .flatMap((m) => m.default)
     .filter((q) => topicSet.has(q.topic));
 
-  return Response.json({ questions: questionsForPlan(inChapter, isPlus) }, { headers: NO_STORE });
+  const questions = questionsForPlan(inChapter, isPlus);
+
+  // Plus calls are counted (content-scraping-hardening.md, Phase 1); log-only for now.
+  const usage = await recordContentUsage({
+    userId: locals.user?.id,
+    plan: locals.plan,
+    endpoint: 'grammar-questions',
+    entries: questions.length
+  });
+  if (shouldBlock(usage)) return rateLimitedResponse();
+
+  return Response.json({ questions }, { headers: NO_STORE });
 };
