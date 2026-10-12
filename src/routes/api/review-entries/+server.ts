@@ -33,11 +33,7 @@ import type { RequestHandler } from './$types';
 import type { VocabEntry, CEFRLevel } from '$lib/types';
 import { resolveEntry } from '$lib/content-lookup';
 import { isPlusOnlyEntry } from '$lib/access';
-import {
-  recordContentUsage,
-  shouldBlock,
-  rateLimitedResponse
-} from '$lib/server/content-usage';
+import { recordContentUsage, shouldBlock, rateLimitedResponse } from '$lib/server/content-usage';
 
 interface ReviewEntriesRequest {
   ids: string[];

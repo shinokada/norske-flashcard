@@ -19,11 +19,7 @@
 import type { RequestHandler } from './$types';
 import { selectQuizEntries } from '$lib/quiz-gate';
 import { isQuizLevel, loadQuizSources } from '$lib/server/quiz-sources';
-import {
-  recordContentUsage,
-  shouldBlock,
-  rateLimitedResponse
-} from '$lib/server/content-usage';
+import { recordContentUsage, shouldBlock, rateLimitedResponse } from '$lib/server/content-usage';
 
 const MAX_CATEGORY_LENGTH = 100;
 

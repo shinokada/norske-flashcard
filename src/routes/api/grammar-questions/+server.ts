@@ -18,11 +18,7 @@ import type { RequestHandler } from './$types';
 import type { CEFRLevel, GrammarQuestion } from '$lib/types';
 import { grammarLevelLoaders } from '$lib/grammar/level-loader';
 import { questionsForPlan } from '$lib/grammar/gated-questions';
-import {
-  recordContentUsage,
-  shouldBlock,
-  rateLimitedResponse
-} from '$lib/server/content-usage';
+import { recordContentUsage, shouldBlock, rateLimitedResponse } from '$lib/server/content-usage';
 
 // A chapter has a handful of topics; this only guards against abuse.
 const MAX_TOPICS = 100;

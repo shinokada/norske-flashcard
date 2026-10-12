@@ -46,10 +46,21 @@ describe('isOverLimit', () => {
   });
 
   it('is true when any one of the four counters goes over', () => {
-    expect(isOverLimit('quiz-entries', { ...quiet, endpointRequests: limit.requestsPerDay + 1 })).toBe(true);
-    expect(isOverLimit('quiz-entries', { ...quiet, endpointEntries: limit.entriesPerDay + 1 })).toBe(true);
-    expect(isOverLimit('quiz-entries', { ...quiet, totalRequests: TOTAL_CONTENT_LIMIT.requestsPerDay + 1 })).toBe(true);
-    expect(isOverLimit('quiz-entries', { ...quiet, totalEntries: TOTAL_CONTENT_LIMIT.entriesPerDay + 1 })).toBe(true);
+    expect(
+      isOverLimit('quiz-entries', { ...quiet, endpointRequests: limit.requestsPerDay + 1 })
+    ).toBe(true);
+    expect(
+      isOverLimit('quiz-entries', { ...quiet, endpointEntries: limit.entriesPerDay + 1 })
+    ).toBe(true);
+    expect(
+      isOverLimit('quiz-entries', {
+        ...quiet,
+        totalRequests: TOTAL_CONTENT_LIMIT.requestsPerDay + 1
+      })
+    ).toBe(true);
+    expect(
+      isOverLimit('quiz-entries', { ...quiet, totalEntries: TOTAL_CONTENT_LIMIT.entriesPerDay + 1 })
+    ).toBe(true);
   });
 
   it('uses the limit of the endpoint asked about', () => {
@@ -71,21 +82,41 @@ describe('recordContentUsage', () => {
 
   it('does not touch the database for free callers', async () => {
     const rpc = okRpc();
-    const r = await recordContentUsage({ userId: 'u1', plan: 'free', endpoint: 'quiz-entries', entries: 10 }, rpc);
+    const r = await recordContentUsage(
+      { userId: 'u1', plan: 'free', endpoint: 'quiz-entries', entries: 10 },
+      rpc
+    );
     expect(r).toEqual({ counted: false, over: false });
     expect(rpc).not.toHaveBeenCalled();
   });
 
   it('does not touch the database for guests (no user, no plan)', async () => {
     const rpc = okRpc();
-    expect((await recordContentUsage({ userId: undefined, plan: undefined, endpoint: 'quiz-entries', entries: 10 }, rpc)).counted).toBe(false);
-    expect((await recordContentUsage({ userId: null, plan: 'plus', endpoint: 'quiz-entries', entries: 10 }, rpc)).counted).toBe(false);
+    expect(
+      (
+        await recordContentUsage(
+          { userId: undefined, plan: undefined, endpoint: 'quiz-entries', entries: 10 },
+          rpc
+        )
+      ).counted
+    ).toBe(false);
+    expect(
+      (
+        await recordContentUsage(
+          { userId: null, plan: 'plus', endpoint: 'quiz-entries', entries: 10 },
+          rpc
+        )
+      ).counted
+    ).toBe(false);
     expect(rpc).not.toHaveBeenCalled();
   });
 
   it('counts a Plus call and returns the totals', async () => {
     const rpc = okRpc();
-    const r = await recordContentUsage({ userId: 'u1', plan: 'plus', endpoint: 'review-entries', entries: 42 }, rpc);
+    const r = await recordContentUsage(
+      { userId: 'u1', plan: 'plus', endpoint: 'review-entries', entries: 42 },
+      rpc
+    );
     expect(rpc).toHaveBeenCalledWith('u1', 'review-entries', 42);
     expect(r).toEqual({ counted: true, over: false, usage: quiet });
     expect(warn).not.toHaveBeenCalled();
@@ -93,15 +124,30 @@ describe('recordContentUsage', () => {
 
   it('sanitises the entry count (negative, fractional, NaN)', async () => {
     const rpc = okRpc();
-    await recordContentUsage({ userId: 'u1', plan: 'plus', endpoint: 'quiz-entries', entries: -5 }, rpc);
-    await recordContentUsage({ userId: 'u1', plan: 'plus', endpoint: 'quiz-entries', entries: 7.9 }, rpc);
-    await recordContentUsage({ userId: 'u1', plan: 'plus', endpoint: 'quiz-entries', entries: Number.NaN }, rpc);
+    await recordContentUsage(
+      { userId: 'u1', plan: 'plus', endpoint: 'quiz-entries', entries: -5 },
+      rpc
+    );
+    await recordContentUsage(
+      { userId: 'u1', plan: 'plus', endpoint: 'quiz-entries', entries: 7.9 },
+      rpc
+    );
+    await recordContentUsage(
+      { userId: 'u1', plan: 'plus', endpoint: 'quiz-entries', entries: Number.NaN },
+      rpc
+    );
     expect(rpc.mock.calls.map((c) => c[2])).toEqual([0, 7, 0]);
   });
 
   it('flags and logs an account that is over a limit, but still counts', async () => {
-    const rpc = okRpc({ ...quiet, endpointRequests: CONTENT_LIMITS['quiz-entries'].requestsPerDay + 1 });
-    const r = await recordContentUsage({ userId: 'u1', plan: 'plus', endpoint: 'quiz-entries', entries: 10 }, rpc);
+    const rpc = okRpc({
+      ...quiet,
+      endpointRequests: CONTENT_LIMITS['quiz-entries'].requestsPerDay + 1
+    });
+    const r = await recordContentUsage(
+      { userId: 'u1', plan: 'plus', endpoint: 'quiz-entries', entries: 10 },
+      rpc
+    );
     expect(r.counted).toBe(true);
     expect(r.over).toBe(true);
     expect(warn).toHaveBeenCalledOnce();
@@ -111,7 +157,10 @@ describe('recordContentUsage', () => {
     const rpc = vi.fn<RecordRpc>(async () => {
       throw new Error('connection refused');
     });
-    const r = await recordContentUsage({ userId: 'u1', plan: 'plus', endpoint: 'quiz-entries', entries: 10 }, rpc);
+    const r = await recordContentUsage(
+      { userId: 'u1', plan: 'plus', endpoint: 'quiz-entries', entries: 10 },
+      rpc
+    );
     expect(r).toEqual({ counted: false, over: false });
     expect(error).toHaveBeenCalledOnce();
   });
