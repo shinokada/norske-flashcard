@@ -54,6 +54,33 @@ export default ts.config(
     }
   },
   {
+    // Client-reachable code must not import the vocab/uttrykk content files: Vite bundles
+    // every import into the chunk, which once shipped ~8 MB of Plus content to every
+    // visitor. Use the ids-only $lib/content-index (or fetch entries from the gated
+    // server API). See ai-docs/implementation/stats-content-gating.md. Static imports
+    // only: a dynamic import() is not caught by this rule.
+    files: ['src/**/*.{ts,js,svelte}'],
+    rules: {
+      'no-restricted-imports': [
+        'error',
+        {
+          patterns: [
+            {
+              group: ['**/data/vocab-*', '**/data/uttrykk-*'],
+              message:
+                'Do not import vocab/uttrykk content in client-reachable code (it ships to every visitor). Use $lib/content-index, or fetch entries from the gated server API.'
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    // Server-only code and tests may import the content files.
+    files: ['src/**/+server.ts', 'src/**/*.server.ts', 'src/lib/server/**', 'src/**/*.test.ts'],
+    rules: { 'no-restricted-imports': 'off' }
+  },
+  {
     files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
     ignores: ['eslint.config.js', 'svelte.config.js'],
 
