@@ -1,5 +1,14 @@
 # norske-flashcard
 
+## 2.100.1
+
+### Patch Changes
+
+- - **Bug Fixes**
+    - Approved lessons are available only to Plus subscribers with an active subscription or a subscription that has not yet expired.
+    - Daily pages are no longer served from the public edge cache.
+    - When search data cannot be loaded, the search service reports that it is temporarily unavailable, and later requests can retry.
+
 ## 2.100.0
 
 ### Minor Changes
