@@ -5,9 +5,28 @@
   import { isFreeUttrykkTheme } from '$lib/uttrykk-gating';
   import { learnHubExpanded } from '$lib/stores/learnHubExpanded.svelte';
   import type { UttrykkThemeLevel } from '$lib/config';
+  import { adjacentLevels } from '$lib/level-nav';
   import * as m from '$lib/paraglide/messages';
 
   let { data } = $props();
+
+  // Translated level name for the hero badge and the prev/next aria-labels.
+  function levelName(slug: string): string {
+    switch (slug) {
+      case 'a1':
+        return m.level_hub_beginner();
+      case 'a2':
+        return m.level_hub_elementary();
+      case 'b1':
+        return m.level_hub_intermediate();
+      case 'b2':
+        return m.level_hub_upper_intermediate();
+      default:
+        return m.level_hub_mastery();
+    }
+  }
+
+  const adjacent = $derived(adjacentLevels(data.level));
 
   let isPlus = $derived(page.data.plan === 'plus');
 
@@ -31,16 +50,6 @@
       heading: 'text-indigo-700 dark:text-indigo-400',
       badge: 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/30 dark:text-indigo-300',
       accent: 'text-indigo-700 dark:text-indigo-400'
-    },
-    c1: {
-      heading: 'text-purple-700 dark:text-purple-400',
-      badge: 'bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300',
-      accent: 'text-purple-700 dark:text-purple-400'
-    },
-    c2: {
-      heading: 'text-pink-700 dark:text-pink-400',
-      badge: 'bg-pink-100 text-pink-800 dark:bg-pink-900/30 dark:text-pink-300',
-      accent: 'text-pink-700 dark:text-pink-400'
     },
     c: {
       heading: 'text-purple-700 dark:text-purple-400',
@@ -152,28 +161,58 @@
   {@html '<scr' + 'ipt type="application/ld+json">' + schemaJson + '</scr' + 'ipt>'}
 </svelte:head>
 
+<!-- Previous / next level link (ai-docs/implementation/level-navigation.md). Visible text is
+     only the level code; the aria-label carries the full meaning. -->
+{#snippet levelLink(slug: string, dir: 'prev' | 'next', variant: 'hero' | 'bottom')}
+  {@const code = slug.toUpperCase()}
+  <a
+    href="/learn/{slug}"
+    aria-label={m.level_nav_go_to({ level: code, name: levelName(slug) })}
+    class="inline-flex min-h-11 min-w-11 items-center justify-center gap-1 text-sm font-medium transition hover:underline {colors.accent}
+      {variant === 'bottom'
+      ? 'rounded-full border border-gray-200 bg-white px-4 py-2 opacity-90 hover:border-indigo-300 hover:opacity-100 dark:border-gray-700 dark:bg-indigo-950/60'
+      : 'rounded-lg px-2 opacity-80 hover:opacity-100'}"
+  >
+    {#if dir === 'prev'}
+      <span aria-hidden="true">{variant === 'bottom' ? '←' : '‹'}</span>
+    {/if}
+    <span aria-hidden="true" class={variant === 'hero' ? 'hidden min-[360px]:inline' : ''}
+      >{code}</span
+    >
+    {#if dir === 'next'}
+      <span aria-hidden="true">{variant === 'bottom' ? '→' : '›'}</span>
+    {/if}
+  </a>
+{/snippet}
+
 <!-- ── Section 1 — Level hero ──────────────────────────────────────────── -->
 <div
   class="mb-10 border-b border-gray-200 bg-gray-50 px-4 py-10 text-center dark:border-gray-700 dark:bg-gray-800/50"
 >
   <div class="mx-auto max-w-3xl">
-    <div class="flex flex-wrap items-baseline justify-center gap-3">
-      <h1 class="mb-0 leading-none {colors.heading}" style="letter-spacing:0.04em">
-        {data.levelUpper}
-      </h1>
-      <span class="font-norse rounded-full px-3 py-1 text-xl font-semibold {colors.badge}">
-        {data.level === 'a1'
-          ? m.level_hub_beginner()
-          : data.level === 'a2'
-            ? m.level_hub_elementary()
-            : data.level === 'b1'
-              ? m.level_hub_intermediate()
-              : data.level === 'b2'
-                ? m.level_hub_upper_intermediate()
-                : data.level === 'c1'
-                  ? m.level_hub_advanced()
-                  : m.level_hub_mastery()}
-      </span>
+    <!-- Fixed-width outer columns keep the title centred even when only one arrow exists.
+         The middle column may shrink and wrap (B2's badge is long on a 320px screen). -->
+    <div
+      class="grid grid-cols-[2.75rem_1fr_2.75rem] items-center gap-2 min-[360px]:grid-cols-[4.5rem_1fr_4.5rem]"
+    >
+      <div class="justify-self-start">
+        {#if adjacent.prev}
+          {@render levelLink(adjacent.prev, 'prev', 'hero')}
+        {/if}
+      </div>
+      <div class="flex min-w-0 flex-wrap items-baseline justify-center gap-3">
+        <h1 class="mb-0 leading-none {colors.heading}" style="letter-spacing:0.04em">
+          {data.levelUpper}
+        </h1>
+        <span class="font-norse rounded-full px-3 py-1 text-xl font-semibold {colors.badge}">
+          {levelName(data.level)}
+        </span>
+      </div>
+      <div class="justify-self-end">
+        {#if adjacent.next}
+          {@render levelLink(adjacent.next, 'next', 'hero')}
+        {/if}
+      </div>
     </div>
     {#if data.levelStats}
       <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">{entryLabel(data.levelStats)}</p>
@@ -493,4 +532,18 @@
       </div>
     </section>
   {/if}
+
+  <!-- ── Previous / next level (outside the blog block so every level keeps them) ── -->
+  <nav class="flex items-center justify-between gap-4" aria-label={m.level_nav_label()}>
+    <div>
+      {#if adjacent.prev}
+        {@render levelLink(adjacent.prev, 'prev', 'bottom')}
+      {/if}
+    </div>
+    <div>
+      {#if adjacent.next}
+        {@render levelLink(adjacent.next, 'next', 'bottom')}
+      {/if}
+    </div>
+  </nav>
 </div>

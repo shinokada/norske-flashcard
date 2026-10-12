@@ -4,6 +4,13 @@
 
 import type { CEFRLevel } from '$lib/types';
 
+/**
+ * The level hub slugs in learning order (A1 → C). Used for previous/next links on
+ * /learn/[level] — see ai-docs/implementation/level-navigation.md.
+ */
+export const LEVEL_ORDER = ['a1', 'a2', 'b1', 'b2', 'c'] as const;
+export type LevelSlug = (typeof LEVEL_ORDER)[number];
+
 export const CATEGORIES_BY_LEVEL = {
   A1: [
     'greetings',
