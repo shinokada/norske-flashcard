@@ -20,11 +20,7 @@ import { env as privateEnv } from '$env/dynamic/private';
 import { env as publicEnv } from '$env/dynamic/public';
 
 export type ContentEndpoint =
-  | 'quiz-entries'
-  | 'review-entries'
-  | 'review-grammar-entries'
-  | 'grammar-questions'
-  | 'c-uttrykk';
+  'quiz-entries' | 'review-entries' | 'review-grammar-entries' | 'grammar-questions' | 'c-uttrykk';
 
 export interface ContentLimit {
   requestsPerDay: number;

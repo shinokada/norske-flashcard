@@ -19,11 +19,7 @@ import type { RequestHandler } from './$types';
 import type { CEFRLevel, GrammarQuestion } from '$lib/types';
 import { grammarLevelLoaders } from '$lib/grammar/level-loader';
 import { isFreeGrammarTopic } from '$lib/access';
-import {
-  recordContentUsage,
-  shouldBlock,
-  rateLimitedResponse
-} from '$lib/server/content-usage';
+import { recordContentUsage, shouldBlock, rateLimitedResponse } from '$lib/server/content-usage';
 
 interface ReviewGrammarEntryRequest {
   id: string;
