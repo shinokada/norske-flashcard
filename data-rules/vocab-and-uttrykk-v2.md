@@ -54,13 +54,13 @@ The display form shown to learners.
 
 Always the canonical form (lemma) of the lexical item — no gender markers, no `å` prefix, no inflection. This applies whether the lexical item is one word or several (e.g. a multi-word verb or preposition still has a lemma). Used for FSRS lookup and deduplication.
 
-| `part`                                                                            | Format                      | Example              |
-| --------------------------------------------------------------------------------- | --------------------------- | -------------------- |
-| `noun`                                                                            | bare noun, no gender        | `hus`                |
-| `verb`                                                                            | infinitive without `å`      | `få`                 |
-| `adjective`                                                                       | base form (same as `norsk`) | `glad`               |
-| `adverb` / `conjunction` / `preposition` / `pronoun` / `numeral` / `interjection` | same as `norsk`             | `fordi`              |
-| `phrase`                                                                          | same as `norsk`             | `det er om å gjøre`  |
+| `part`                                                                            | Format                      | Example             |
+| --------------------------------------------------------------------------------- | --------------------------- | ------------------- |
+| `noun`                                                                            | bare noun, no gender        | `hus`               |
+| `verb`                                                                            | infinitive without `å`      | `få`                |
+| `adjective`                                                                       | base form (same as `norsk`) | `glad`              |
+| `adverb` / `conjunction` / `preposition` / `pronoun` / `numeral` / `interjection` | same as `norsk`             | `fordi`             |
+| `phrase`                                                                          | same as `norsk`             | `det er om å gjøre` |
 
 ### Plural-form noun cards
 
@@ -139,13 +139,13 @@ Vocab and uttrykk ids are drawn from the same counter and are otherwise indistin
 
 Coverage on 2026-10-13 (entries with a non-empty `definition`):
 
-| File   | Vocab          | Uttrykk       |
-| ------ | -------------- | ------------- |
-| A1     | 647 / 647      | 6 / 106       |
-| A2     | 1163 / 1163    | 15 / 151      |
-| B1     | 2057 / 2254    | 37 / 182      |
-| B2     | 1884 / 1963    | 308 / 432     |
-| C      | 2437 / 2437    | 666 / 666     |
+| File | Vocab       | Uttrykk   |
+| ---- | ----------- | --------- |
+| A1   | 647 / 647   | 6 / 106   |
+| A2   | 1163 / 1163 | 15 / 151  |
+| B1   | 2057 / 2254 | 37 / 182  |
+| B2   | 1884 / 1963 | 308 / 432 |
+| C    | 2437 / 2437 | 666 / 666 |
 
 Vocab entries are expected to carry a definition; the B1 and B2 vocab gaps are a data backlog, not a rule exception. Uttrykk entries are not required to have one, except `uttrykk-c`, where all have it.
 
@@ -390,11 +390,11 @@ Same as vocab: `norsk` is the display form, `lemma` is the canonical/dictionary 
 
 **Verb-initial uttrykk: `å` in `norsk` is optional; `lemma` is always bare.** Either display form is accepted:
 
-| `norsk` (either form is fine)                 | `lemma` (always bare, no `å`) |
-| --------------------------------------------- | ----------------------------- |
-| `ha is i magen` / `å ha is i magen`           | `ha is i magen`               |
-| `slå seg til ro` / `å slå seg til ro`         | `slå seg til ro`              |
-| `holde hodet over vann` / `å holde hodet over vann` | `holde hodet over vann`          |
+| `norsk` (either form is fine)                       | `lemma` (always bare, no `å`) |
+| --------------------------------------------------- | ----------------------------- |
+| `ha is i magen` / `å ha is i magen`                 | `ha is i magen`               |
+| `slå seg til ro` / `å slå seg til ro`               | `slå seg til ro`              |
+| `holde hodet over vann` / `å holde hodet over vann` | `holde hodet over vann`       |
 
 Prefer the bare form for idioms cited the way a dictionary would (`ha is i magen`); the `å` form is fine for entries that read naturally as an infinitive phrase (`å ta buss`). Don't normalise existing entries in either direction just for consistency. But never leave `å` in `lemma`: it is used for dedup and FSRS lookup and must match how vocab lemmas are written. When comparing an uttrykk entry against vocab (duplicate checks), ignore a leading `å` on both sides.
 

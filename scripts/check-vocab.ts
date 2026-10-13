@@ -375,7 +375,9 @@ for (const level of LEVELS) {
 
     // kind belongs to uttrykk only; it must be removed when an entry moves to vocab
     if (entry.kind !== undefined) {
-      errs.push(`vocab entry has a "kind" field (${JSON.stringify(entry.kind)}) — only uttrykk entries use it`);
+      errs.push(
+        `vocab entry has a "kind" field (${JSON.stringify(entry.kind)}) — only uttrykk entries use it`
+      );
     }
 
     senseGroupPool.push({ entry, filename, checked: true, index: i });

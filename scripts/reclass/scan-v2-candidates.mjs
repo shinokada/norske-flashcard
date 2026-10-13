@@ -88,7 +88,11 @@ const TIME_RE = new RegExp(
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 const words = (s) => s.trim().split(/\s+/).filter(Boolean);
-const bare = (s) => (s || '').trim().replace(/^å\s+/i, '').replace(/[.?!]+$/, '');
+const bare = (s) =>
+  (s || '')
+    .trim()
+    .replace(/^å\s+/i, '')
+    .replace(/[.?!]+$/, '');
 
 function isSentenceLike(raw) {
   const s = (raw || '').trim();

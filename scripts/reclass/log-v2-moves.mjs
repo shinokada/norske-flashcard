@@ -106,11 +106,7 @@ function checkNorskLemma(vocab) {
   const errs = [];
   const { norsk, lemma, part } = vocab;
   if (part === 'noun') {
-    if (
-      !GENDER_PATTERN.test(norsk) &&
-      !PLURAL_PATTERN.test(norsk) &&
-      !UBOYELIG_PATTERN.test(norsk)
-    )
+    if (!GENDER_PATTERN.test(norsk) && !PLURAL_PATTERN.test(norsk) && !UBOYELIG_PATTERN.test(norsk))
       errs.push(`noun norsk "${norsk}" needs a gender, (pl.)/(b.pl.) or (ubøy.) marker`);
     if (
       lemma &&
@@ -158,7 +154,9 @@ const vocabList = loadJSON(vocabPath);
 const allEntries = collectAllEntries(); // id -> { file, norsk, lemma }, every vocab/uttrykk file
 const validCategories = loadValidCategories(level);
 if (!validCategories) {
-  console.warn(`WARN: could not read the ${level.toUpperCase()} category list from config.ts; category check skipped.`);
+  console.warn(
+    `WARN: could not read the ${level.toUpperCase()} category list from config.ts; category check skipped.`
+  );
 }
 const already = new Set(
   loadActiveDecisions(level)
@@ -202,7 +200,9 @@ for (const m of spec.moves ?? []) {
     continue;
   }
   if (validCategories && !validCategories.has(m.category)) {
-    errors.push(`${m.id}: category "${m.category}" is not in CATEGORIES_BY_LEVEL for ${level.toUpperCase()}`);
+    errors.push(
+      `${m.id}: category "${m.category}" is not in CATEGORIES_BY_LEVEL for ${level.toUpperCase()}`
+    );
     continue;
   }
   if (!src.level || String(src.level).toLowerCase() !== level) {
@@ -231,13 +231,20 @@ for (const m of spec.moves ?? []) {
   }
   if (vocab.norsk) entryErrors.push(...checkNorskLemma(vocab));
   // v2 rule, lemma table: for every part except noun and verb the lemma is the same as norsk.
-  if (vocab.norsk && vocab.lemma && m.part !== 'noun' && m.part !== 'verb' && vocab.lemma !== vocab.norsk)
+  if (
+    vocab.norsk &&
+    vocab.lemma &&
+    m.part !== 'noun' &&
+    m.part !== 'verb' &&
+    vocab.lemma !== vocab.norsk
+  )
     entryErrors.push(`lemma "${vocab.lemma}" must equal norsk "${vocab.norsk}" for part ${m.part}`);
   // check-vocab.ts: a translation needs its example_<lang>, and vice versa (warning there, error here).
   for (const lang of KNOWN_LANGUAGES) {
     const hasT = vocab[lang] != null && vocab[lang] !== '';
     const hasE = vocab[`example_${lang}`] != null && vocab[`example_${lang}`] !== '';
-    if (hasT !== hasE) entryErrors.push(`"${lang}" and "example_${lang}" must both be present or both absent`);
+    if (hasT !== hasE)
+      entryErrors.push(`"${lang}" and "example_${lang}" must both be present or both absent`);
   }
   entryErrors.push(...checkDefinition(m.definition, m.part, vocab.example));
   if (vocabList.some((e) => e.id === src.id))
@@ -335,7 +342,9 @@ for (const l of lines) appendDecision(level, l);
 // Read back from disk (every line must still parse) and confirm the count.
 const after = loadDecisions(level).length;
 if (after !== before + lines.length) {
-  console.error(`VERIFICATION FAILED: expected ${before + lines.length} decisions, found ${after}.`);
+  console.error(
+    `VERIFICATION FAILED: expected ${before + lines.length} decisions, found ${after}.`
+  );
   process.exit(1);
 }
 console.log(
