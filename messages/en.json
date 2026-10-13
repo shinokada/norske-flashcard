@@ -97,6 +97,7 @@
   "flashcard_show": "Show",
   "flashcard_hide": "Hide",
   "flashcard_hint_touch": "Tap to flip · Swipe to navigate",
+  "flashcard_click_to_flip": "Click to flip",
   "flashcard_hint_desktop_prefix": "Space/Enter/↑↓ to flip · ← → to navigate · R to restart · E to toggle translation · / to pronounce word · . to pronounce",
   "flashcard_hint_example_phrase": "example phrase",
   "flashcard_hint_word": "word",

@@ -77,6 +77,7 @@
   const LS_CARD_TYPE = 'vocab-flashcard-card-type';
   const LS_SHOW_EXAMPLE = 'vocab-flashcard-show-example';
   const LS_DECK_MODE = 'vocab-flashcard-deck-mode';
+  const LS_HAS_FLIPPED = 'vocab-flashcard-has-flipped';
 
   function getInitialMode(): Mode {
     if (!browser) return 'noreng';
@@ -138,9 +139,12 @@
   // localStorage fallback — read synchronously at init (browser only), kept reactive for storage events
   let localSessionLimit = $state<number | null>(browser ? getSessionLimit(localStorage) : 20);
 
-  // touch
-  let isTouch = $state(false);
+  // touch swipe
   let touchStartX = 0;
+
+  // Has this device flipped a card before? Starts true so SSR / returning users get no
+  // wiggle; onMount reads the real value. Drives the one-time wiggle + softened hint.
+  let hasFlipped = $state(true);
 
   // Whether any entry in the current category has a definition — gates the defnor cycle
   let hasDefinitions = $derived(entries.some((e) => !!e.definition));
@@ -175,7 +179,11 @@
   let sessionLimit = $derived(resolveSessionLimit(profileSessionLimit, localSessionLimit));
 
   onMount(() => {
-    isTouch = window.matchMedia('(pointer: coarse)').matches;
+    try {
+      hasFlipped = localStorage.getItem(LS_HAS_FLIPPED) === 'true';
+    } catch {
+      // storage blocked — treat as already flipped (no wiggle)
+    }
 
     // Plus users: load progress from Supabase (single source of truth).
     // Guest/free users: load from localStorage (async — may fetch the
@@ -379,7 +387,17 @@
     }
   }
 
-  const toggleBack = () => (showCardBack = !showCardBack);
+  function toggleBack() {
+    showCardBack = !showCardBack;
+    if (!hasFlipped) {
+      hasFlipped = true;
+      try {
+        localStorage.setItem(LS_HAS_FLIPPED, 'true');
+      } catch {
+        // storage blocked — wiggle may replay next visit, harmless
+      }
+    }
+  }
 
   let current = $derived(deck[currentIndex]);
 
@@ -832,20 +850,18 @@
 
   <!-- 2-D: undo button removed from here; rendered near rating buttons to avoid layout shift -->
 
-  <!-- Hint bar with counter on the right -->
+  <!-- Hint bar with counter on the right. On touch devices the hint text is hidden (CSS, no JS
+       reflow) because the card itself now says "Tap to flip · Swipe to navigate"; the bar
+       shrinks to just the counter. -->
   <div
-    class="mt-3 flex w-full max-w-lg items-center justify-between rounded-md bg-gray-100 px-3 py-1 dark:bg-gray-800"
+    class="mt-3 flex w-full max-w-lg items-center justify-between gap-3 rounded-md bg-gray-100 px-3 py-1 dark:bg-gray-800 pointer-coarse:w-auto"
   >
-    <p class="text-base text-gray-500 dark:text-gray-400">
-      {#if isTouch}
-        {m.flashcard_hint_touch()}
-      {:else}
-        {m.flashcard_hint_desktop_prefix()}
-        {cardType === 'word' ? m.flashcard_hint_example_phrase() : m.flashcard_hint_word()}
-      {/if}
+    <p class="text-base text-gray-500 dark:text-gray-400 pointer-coarse:hidden">
+      {m.flashcard_hint_desktop_prefix()}
+      {cardType === 'word' ? m.flashcard_hint_example_phrase() : m.flashcard_hint_word()}
     </p>
     <span
-      class="ml-3 shrink-0 text-base font-medium text-gray-500 dark:text-gray-400"
+      class="shrink-0 text-base font-medium text-gray-500 dark:text-gray-400"
       aria-label="Card {deck.length === 0
         ? 0
         : completed
@@ -857,7 +873,14 @@
   </div>
 
   <!-- Flashcard -->
-  <div class="flip-box mt-2 min-h-96 w-full bg-transparent md:w-1/2">
+  <div
+    class="flip-box relative mt-2 min-h-96 w-full bg-transparent md:w-1/2"
+    class:wiggle={!hasFlipped &&
+      currentIndex === 0 &&
+      !showCardBack &&
+      !completed &&
+      deck.length > 0}
+  >
     {#if deck.length === 0 && mode !== 'defnor'}
       <div
         class="flex min-h-96 flex-col items-center justify-center gap-4 rounded-xl bg-gray-100 dark:bg-gray-800"
@@ -957,8 +980,47 @@
           back={current?.back}
           {showCardBack}
           frontTag={currentFrontTag}
+          hint={m.flashcard_click_to_flip()}
+          hintTouch={m.flashcard_hint_touch()}
+          hintDimmed={hasFlipped}
+          edgeInset
         />
       </div>
+      <!-- Edge chevrons: hint that swiping navigates. Touch-only via CSS (pointer-coarse), and
+           siblings of .flip-box-inner so they don't rotate with the card. Left is hidden on the
+           first card; right stays on the last card (a swipe there completes the deck). -->
+      {#if currentIndex > 0}
+        <span
+          aria-hidden="true"
+          class="pointer-events-none absolute inset-y-0 left-1 z-10 hidden items-center text-white/70 pointer-coarse:flex"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="h-7 w-7"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+          </svg>
+        </span>
+      {/if}
+      <span
+        aria-hidden="true"
+        class="pointer-events-none absolute inset-y-0 right-1 z-10 hidden items-center text-white/70 pointer-coarse:flex"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          class="h-7 w-7"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+        </svg>
+      </span>
       <!-- aria-live region: announces card content to screen readers on flip/advance -->
       <div aria-live="polite" class="sr-only">
         {showCardBack
@@ -1247,5 +1309,31 @@
   }
   .flip-it {
     transform: rotateY(180deg);
+  }
+
+  /* One-time attention wiggle on the first card until the user flips once.
+     On the outer wrapper: .flip-box-inner already uses transform for the flip. */
+  @keyframes flip-wiggle {
+    0%,
+    100% {
+      transform: none;
+    }
+    20% {
+      transform: translateX(-4px) rotate(-1.5deg);
+    }
+    40% {
+      transform: translateX(4px) rotate(1.5deg);
+    }
+    60% {
+      transform: translateX(-3px) rotate(-1deg);
+    }
+    80% {
+      transform: translateX(3px) rotate(1deg);
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .flip-box.wiggle {
+      animation: flip-wiggle 0.6s ease-in-out 0.8s 1;
+    }
   }
 </style>

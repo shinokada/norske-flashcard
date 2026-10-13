@@ -97,6 +97,7 @@
   "flashcard_show": "Показати",
   "flashcard_hide": "Приховати",
   "flashcard_hint_touch": "Торкніться, щоб перевернути · Проведіть пальцем для навігації",
+  "flashcard_click_to_flip": "Натисніть, щоб перевернути",
   "flashcard_hint_desktop_prefix": "Пробіл/Enter/↑↓ — перевернути · ← → — навігація · R — перезапустити · E — показати/приховати переклад · / — вимовити слово · . — вимовити",
   "flashcard_hint_example_phrase": "приклад фрази",
   "flashcard_hint_word": "слово",
