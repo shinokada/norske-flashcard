@@ -852,20 +852,18 @@
 
   <!-- 2-D: undo button removed from here; rendered near rating buttons to avoid layout shift -->
 
-  <!-- Hint bar with counter on the right -->
+  <!-- Hint bar with counter on the right. On touch devices the hint text is hidden (CSS, no JS
+       reflow) because the card itself now says "Tap to flip · Swipe to navigate"; the bar
+       shrinks to just the counter. -->
   <div
-    class="mt-3 flex w-full max-w-lg items-center justify-between rounded-md bg-gray-100 px-3 py-1 dark:bg-gray-800"
+    class="mt-3 flex w-full max-w-lg items-center justify-between gap-3 rounded-md bg-gray-100 px-3 py-1 pointer-coarse:w-auto dark:bg-gray-800"
   >
-    <p class="text-base text-gray-500 dark:text-gray-400">
-      {#if isTouch}
-        {m.flashcard_hint_touch()}
-      {:else}
-        {m.flashcard_hint_desktop_prefix()}
-        {cardType === 'word' ? m.flashcard_hint_example_phrase() : m.flashcard_hint_word()}
-      {/if}
+    <p class="text-base text-gray-500 pointer-coarse:hidden dark:text-gray-400">
+      {m.flashcard_hint_desktop_prefix()}
+      {cardType === 'word' ? m.flashcard_hint_example_phrase() : m.flashcard_hint_word()}
     </p>
     <span
-      class="ml-3 shrink-0 text-base font-medium text-gray-500 dark:text-gray-400"
+      class="shrink-0 text-base font-medium text-gray-500 dark:text-gray-400"
       aria-label="Card {deck.length === 0
         ? 0
         : completed

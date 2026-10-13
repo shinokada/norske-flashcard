@@ -22,9 +22,10 @@
   const frontDivCls =
     'absolute inset-0 bg-custom-red text-white flex flex-col justify-center items-center';
   const pClass = 'text-3xl sm:text-5xl p-4 break-words [overflow-wrap:anywhere]';
-  // Reserve room for the hint so long text never runs under it. On touch the hint is longer
-  // ("Tap to flip · Swipe to navigate") and can wrap to two lines, so reserve more there.
-  let frontCls = $derived(twMerge(frontDivCls, hint && 'pb-10 pointer-coarse:pb-16'));
+  // Reserve SYMMETRIC vertical room for the hint so the text stays visually centered on the
+  // card and long text never runs under the label. On touch the hint is longer
+  // ("Tap to flip · Swipe to navigate") and can wrap to two lines (48px + bottom-2 8px = 56px).
+  let frontCls = $derived(twMerge(frontDivCls, hint && 'py-10 pointer-coarse:py-14'));
   // On touch devices keep text clear of the edge chevrons (CSS media query, no JS, no reflow).
   let frontPCls = $derived(twMerge(pClass, edgeInset && 'pointer-coarse:px-9', pFront));
   let backPCls = $derived(twMerge(pClass, edgeInset && 'pointer-coarse:px-9', pBack));
@@ -49,7 +50,7 @@
     {#if hint}
       <span
         aria-hidden="true"
-        class="pointer-events-none absolute inset-x-0 bottom-4 flex items-center justify-center gap-1.5 px-10 text-center text-base {hintDimmed
+        class="pointer-events-none absolute inset-x-0 bottom-4 flex items-center justify-center gap-1.5 px-10 text-center text-base pointer-coarse:bottom-2 {hintDimmed
           ? 'text-white/80'
           : 'text-white'}"
       >
