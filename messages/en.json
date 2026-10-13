@@ -1,5 +1,7 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
+  "guide_faq_uttrykk_q": "What is an uttrykk?",
+  "guide_faq_uttrykk_a": "An uttrykk (Norwegian for \"expression\") is a fixed phrase you learn as a whole, not word by word. There are three kinds: idioms, whose meaning isn't in the words (ha is i magen means to stay calm); ordtak, or proverbs (Morgenstund har gull i munn); and everyday formulas such as greetings, polite phrases and set sentences (god morgen, vær så snill). Single words, and fixed phrases that work like one word (i går, ved siden av), count as vocabulary instead.",
   "stats_study_all_due": "Study all due ({count})",
   "teaser_heading": "Unlock {category} with Norskeord Plus",
   "teaser_benefit": "Unlock all {count} cards, with audio and examples.",
