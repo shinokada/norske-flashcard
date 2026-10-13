@@ -77,6 +77,7 @@
   const LS_CARD_TYPE = 'vocab-flashcard-card-type';
   const LS_SHOW_EXAMPLE = 'vocab-flashcard-show-example';
   const LS_DECK_MODE = 'vocab-flashcard-deck-mode';
+  const LS_HAS_FLIPPED = 'vocab-flashcard-has-flipped';
 
   function getInitialMode(): Mode {
     if (!browser) return 'noreng';
@@ -142,6 +143,10 @@
   let isTouch = $state(false);
   let touchStartX = 0;
 
+  // Has this device flipped a card before? Starts true so SSR / returning users get no
+  // wiggle; onMount reads the real value. Drives the one-time wiggle + softened hint.
+  let hasFlipped = $state(true);
+
   // Whether any entry in the current category has a definition — gates the defnor cycle
   let hasDefinitions = $derived(entries.some((e) => !!e.definition));
 
@@ -176,6 +181,11 @@
 
   onMount(() => {
     isTouch = window.matchMedia('(pointer: coarse)').matches;
+    try {
+      hasFlipped = localStorage.getItem(LS_HAS_FLIPPED) === 'true';
+    } catch {
+      // storage blocked — treat as already flipped (no wiggle)
+    }
 
     // Plus users: load progress from Supabase (single source of truth).
     // Guest/free users: load from localStorage (async — may fetch the
@@ -379,7 +389,17 @@
     }
   }
 
-  const toggleBack = () => (showCardBack = !showCardBack);
+  function toggleBack() {
+    showCardBack = !showCardBack;
+    if (!hasFlipped) {
+      hasFlipped = true;
+      try {
+        localStorage.setItem(LS_HAS_FLIPPED, 'true');
+      } catch {
+        // storage blocked — wiggle may replay next visit, harmless
+      }
+    }
+  }
 
   let current = $derived(deck[currentIndex]);
 
@@ -857,7 +877,14 @@
   </div>
 
   <!-- Flashcard -->
-  <div class="flip-box mt-2 min-h-96 w-full bg-transparent md:w-1/2">
+  <div
+    class="flip-box mt-2 min-h-96 w-full bg-transparent md:w-1/2"
+    class:wiggle={!hasFlipped &&
+      currentIndex === 0 &&
+      !showCardBack &&
+      !completed &&
+      deck.length > 0}
+  >
     {#if deck.length === 0 && mode !== 'defnor'}
       <div
         class="flex min-h-96 flex-col items-center justify-center gap-4 rounded-xl bg-gray-100 dark:bg-gray-800"
@@ -957,6 +984,8 @@
           back={current?.back}
           {showCardBack}
           frontTag={currentFrontTag}
+          hint={isTouch ? m.flashcard_tap_to_flip() : m.flashcard_click_to_flip()}
+          hintDimmed={hasFlipped}
         />
       </div>
       <!-- aria-live region: announces card content to screen readers on flip/advance -->
@@ -1247,5 +1276,31 @@
   }
   .flip-it {
     transform: rotateY(180deg);
+  }
+
+  /* One-time attention wiggle on the first card until the user flips once.
+     On the outer wrapper: .flip-box-inner already uses transform for the flip. */
+  @keyframes flip-wiggle {
+    0%,
+    100% {
+      transform: none;
+    }
+    20% {
+      transform: translateX(-4px) rotate(-1.5deg);
+    }
+    40% {
+      transform: translateX(4px) rotate(1.5deg);
+    }
+    60% {
+      transform: translateX(-3px) rotate(-1deg);
+    }
+    80% {
+      transform: translateX(3px) rotate(1deg);
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .flip-box.wiggle {
+      animation: flip-wiggle 0.6s ease-in-out 0.8s 1;
+    }
   }
 </style>

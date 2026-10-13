@@ -97,6 +97,8 @@
   "flashcard_show": "Anzeigen",
   "flashcard_hide": "Ausblenden",
   "flashcard_hint_touch": "Tippen zum Umdrehen · Wischen zum Navigieren",
+  "flashcard_tap_to_flip": "Tippen zum Umdrehen",
+  "flashcard_click_to_flip": "Klicken zum Umdrehen",
   "flashcard_hint_desktop_prefix": "Leertaste/Enter/↑↓ zum Umdrehen · ← → zum Navigieren · R zum Neustart · E zum Ein-/Ausblenden der Übersetzung · / zum Aussprechen des Wortes · . zum Aussprechen",
   "flashcard_hint_example_phrase": "Beispielsatz",
   "flashcard_hint_word": "Wort",
