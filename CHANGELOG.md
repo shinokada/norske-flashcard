@@ -1,5 +1,14 @@
 # norske-flashcard
 
+## 2.104.0
+
+### Minor Changes
+
+- - **New Features**
+    - Flashcards display a localized flip hint in English, German, Spanish, Norwegian, and Ukrainian, with guidance tailored to touch or non-touch devices.
+    - The first card wiggles once for devices that have not flipped a card before; the animation respects reduced-motion settings.
+    - Touch layouts show swipe-direction chevrons, with the left chevron hidden on the first card.
+
 ## 2.103.0
 
 ### Minor Changes
