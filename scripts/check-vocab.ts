@@ -32,6 +32,8 @@
  *      a group with some senses but missing/duplicate ones is an error; a legacy group
  *      with none is a warning (an error in --draft mode, where it is a new entry).
  *      Only the vocab files being checked are grouped (+ production as context in --draft).
+ *  12. kind field — uttrykk only (data-rules/vocab-and-uttrykk-v2.md): a vocab entry must
+ *      not have one. Catches a leftover `kind` after an uttrykk → vocab move.
  *
  * NOTE: "numeral" appears in vocab-a1.json (numbers category) but is not in
  * types.ts PartOfSpeech. It is treated as a warning, not an error, so you can
@@ -369,6 +371,11 @@ for (const level of LEVELS) {
       const s = checkSense(entry);
       errs.push(...s.errors);
       warns.push(...s.warnings);
+    }
+
+    // kind belongs to uttrykk only; it must be removed when an entry moves to vocab
+    if (entry.kind !== undefined) {
+      errs.push(`vocab entry has a "kind" field (${JSON.stringify(entry.kind)}) — only uttrykk entries use it`);
     }
 
     senseGroupPool.push({ entry, filename, checked: true, index: i });

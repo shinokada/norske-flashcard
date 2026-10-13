@@ -152,7 +152,7 @@ function mergeOne(level, kind) {
 
   // 4. Lemma collisions with production — warning only. A draft entry whose `sense`
   //    is non-empty and different from the production entry's `sense` is a deliberate
-  //    split sense (see data-rules/vocab-and-uttrykk.md), not a possible duplicate.
+  //    split sense (see data-rules/vocab-and-uttrykk-v2.md), not a possible duplicate.
   const prodByLemmaAll = new Map(); // lowercased lemma -> all production entries
   for (const e of prodEntries) {
     const key = (e.lemma ?? '').toLowerCase();

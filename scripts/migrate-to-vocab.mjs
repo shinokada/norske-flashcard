@@ -18,7 +18,7 @@
  *   - Sets category → suggested_category, part → "verb"
  *   - Reformats norsk to the vocab verb convention: prefixes "å " if not
  *     already present (uttrykk stores bare infinitives; vocab verbs need
- *     the å-marker — see data-rules/vocab-and-uttrykk.md)
+ *     the å-marker — see data-rules/vocab-and-uttrykk-v2.md)
  *   - lemma is left as-is (already bare infinitive, matches vocab's lemma rule)
  *   - All other fields (english, translations, example*) copied as-is
  *   - Writes a .bak backup of each modified file before touching it

@@ -19,7 +19,7 @@
  *   5. part         — uttrykk entries should be "phrase"
  *   6. norsk field  — must be present and non-empty
  *   7. lemma field  — must be present and non-empty; must be bare (no leading "å "), unlike
- *                     norsk, which may carry it (data-rules/vocab-and-uttrykk.md)
+ *                     norsk, which may carry it (data-rules/vocab-and-uttrykk-v2.md)
  *   8. Required fields (norsk, english, example, example_english, level, category, part)
  *   9. Language consistency — for each translation language present (ukrainian, spanish,
  *      german, romanian, …), the matching example_{lang} field must also be present and
@@ -27,6 +27,9 @@
  *  10. Translation coverage — warns if an entry is missing a language that other entries
  *      in the same file have (so newly added languages get flagged automatically).
  *  11. Preview cross-check — entries in preview should also exist in full file (by norsk)
+ *  12. kind field — optional; when present it must be "idiom", "ordtak" or "formula"
+ *      (data-rules/vocab-and-uttrykk-v2.md). Missing is allowed: existing entries are
+ *      backfilled separately, see ai-docs/implementation/vocab-uttrykk-v2-rollout.md Phase 0c.
  *
  * Usage:
  *   npx tsx scripts/check-uttrykk.ts            # check all uttrykk files
@@ -71,6 +74,7 @@ const REQUIRED_FIELDS = [
 ];
 const VALID_CATEGORIES = new Set(['uttrykk', 'uttrykk-preview']); // preview files only
 const SLUG_PATTERN = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+const VALID_KINDS = new Set(['idiom', 'ordtak', 'formula']);
 
 // C-level uttrykk entries carry a real C category slug instead of the
 // generic "uttrykk" placeholder (see ai-docs/implementation/uttrykk-category.md
@@ -218,6 +222,13 @@ function checkFile(filename, level, expectedCategory, isPreview, globalIds, file
       warns.push(`part is "${entry.part}" — uttrykk entries are typically "phrase"`);
     }
 
+    // kind — optional; when present it must be one of the three v2 kinds
+    if (entry.kind !== undefined && !VALID_KINDS.has(entry.kind)) {
+      errs.push(
+        `kind ${JSON.stringify(entry.kind)} must be one of: ${[...VALID_KINDS].join(', ')}`
+      );
+    }
+
     // theme — retired by the 2026-09-26 unification (VocabEntry.theme was removed from
     // types.ts; the value now lives in `category`). A stray `theme` key is leftover data.
     if (entry.theme != null) {
@@ -225,7 +236,7 @@ function checkFile(filename, level, expectedCategory, isPreview, globalIds, file
     }
 
     // lemma — must be bare (no leading "å "); unlike norsk, which may
-    // carry it or not (data-rules/vocab-and-uttrykk.md, amended 2026-09-20;
+    // carry it or not (data-rules/vocab-and-uttrykk-v2.md, amended 2026-09-20;
     // see ai-docs/implementation/reclassification-follow-up.md §7)
     if (!entry.lemma || entry.lemma === '') {
       warns.push(`lemma field is missing or empty`);

@@ -16,6 +16,9 @@ export type PartOfSpeech =
   | 'interjection'
   | 'phrase';
 
+/** The three kinds of uttrykk entry (data-rules/vocab-and-uttrykk-v2.md, `kind` field). */
+export type UttrykkKind = 'idiom' | 'ordtak' | 'formula';
+
 export type Category = (typeof CATEGORIES_BY_LEVEL)[CEFRLevel][number];
 
 export type FSRSRating = 'again' | 'hard' | 'good' | 'easy';
@@ -40,7 +43,7 @@ export interface VocabEntry {
    *  e.g. "til strikking" vs "til fiske". Required on every entry in such a group.
    *  Trimmed, lowercase, no parentheses, 1-3 words (~25 chars max). Shown on flashcard
    *  fronts, the quiz reveal card and the summary (not in quiz prompts, where it
-   *  could give the answer away). See data-rules/vocab-and-uttrykk.md (sense field). */
+   *  could give the answer away). See data-rules/vocab-and-uttrykk-v2.md (sense field). */
   sense?: string;
   english: string;
   spanish?: string;
@@ -57,8 +60,12 @@ export interface VocabEntry {
   part: PartOfSpeech;
   // theme removed — A1–B2 uttrykk now uses `category` directly, matching
   // vocab and C-level uttrykk (ai-docs/implementation/uttrykk-theme-category-unification.md)
-  note?: string; // free-text usage note (distinct from `definition` — see data-rules/vocab-and-uttrykk.md)
+  note?: string; // free-text usage note (distinct from `definition` — see data-rules/vocab-and-uttrykk-v2.md)
   verb_type?: string; // conjugation class for verbs: 'v1' | 'v2' | 'v3' | 'ureg' or a comma-separated combination, e.g. 'v1, v2'
+  /** Uttrykk entries only: idiom, ordtak (proverb) or formula (communicative chunk).
+   *  Optional while existing entries are backfilled; required for entries added or moved
+   *  into uttrykk. Never set on vocab entries. See data-rules/vocab-and-uttrykk-v2.md. */
+  kind?: UttrykkKind;
 }
 
 type TitleType = {

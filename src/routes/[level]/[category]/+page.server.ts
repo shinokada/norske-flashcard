@@ -46,7 +46,7 @@ const uttrykkLoaders: Record<string, () => Promise<{ default: VocabEntry[] }>> =
 // Unlike A1–B2, C has no separate "uttrykk" route/gate — these are merged
 // in at read time alongside the matching vocab-c category below, rather
 // than being folded into vocab-c.json itself (that would misclassify
-// idioms as vocab lemmas — see data-rules/vocab-and-uttrykk.md).
+// idioms as vocab lemmas — see data-rules/vocab-and-uttrykk-v2.md).
 const uttrykkCLoader = () =>
   import('$lib/data/uttrykk-c.json') as unknown as Promise<{ default: VocabEntry[] }>;
 

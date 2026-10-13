@@ -2,12 +2,19 @@
 /**
  * normalise-norsk-field.mjs
  *
- * Normalises the `norsk` field in vocab-*.json files to the agreed format:
+ * Normalises the `norsk` field in vocab-*.json files to the agreed format
+ * (data-rules/vocab-and-uttrykk-v2.md):
  *
  *   noun       → "<lemma> (en)", "<lemma> (et)", or "<lemma> (en/ei)"  e.g. "hus (et)", "bil (en)", "ferje (en/ei)"
+ *                Plural and indeclinable cards are left untouched: "bøker (pl.)", "bøkene (b.pl.)", "fjor (ubøy.)"
  *   verb       → "å <lemma>"                         e.g. "å få", "å henge"
  *   adjective  → <lemma> as-is                       e.g. "glad"
  *   other      → <lemma> as-is (no change)
+ *
+ * NOTE: legacy round-1 API tooling, not used in the v2 rollout
+ * (ai-docs/implementation/vocab-uttrykk-v2-rollout.md). There, gender and
+ * format for moved entries are set by hand in the chat batches, per the
+ * per-entry move checklist. If you do run this script, run it with --dry-run first.
  *
  * For nouns the script CANNOT know the gender without a dictionary, so it uses
  * the Claude API to look up the correct article (en/et) for each noun that
@@ -90,17 +97,20 @@ function sleep(ms) {
 
 /**
  * True if norsk already matches the expected format for the given part.
- * Mirrors the rules in data-rules/vocab-and-uttrykk.md:
+ * Mirrors the rules in data-rules/vocab-and-uttrykk-v2.md:
  *   noun        → "<word> (en)", "<word> (et)", or "<word> (en/ei)"
  *                 (en/ei) is valid Bokmål for feminine nouns that accept both
  *                 the common and feminine article, e.g. "ferje (en/ei)".
+ *                 Also valid: plural cards "<plural> (pl.)" / "<plural> (b.pl.)"
+ *                 and indeclinable "<word> (ubøy.)". For these the lemma is the
+ *                 singular or bare form, so they must never be rebuilt from it.
  *   verb        → "å <lemma>"
  *   all others  → identical to lemma (adjective, adverb, conjunction,
  *                 preposition, pronoun, numeral, interjection, phrase)
  */
 function isNormalised(norsk, lemma, part) {
   if (part === 'verb') return norsk === `å ${lemma}`;
-  if (part === 'noun') return /^.+\s+\((en|et|en\/ei|ei)\)$/.test(norsk);
+  if (part === 'noun') return /^.+\s+\((en|et|en\/ei|ei|pl\.|b\.pl\.|ubøy\.)\)$/.test(norsk);
   // Every other part: norsk should equal lemma exactly
   return norsk === lemma;
 }
@@ -201,6 +211,13 @@ async function processFile(filename) {
   for (const entry of data) {
     const { id, norsk, lemma, part } = entry;
     if (!lemma || !part) continue; // skip malformed entries
+
+    // Plural and indeclinable noun cards: norsk is built from the plural/bare
+    // form, not from lemma (the singular), so never rebuild it, even with --force.
+    if (part === 'noun' && /\s\((pl\.|b\.pl\.|ubøy\.)\)$/.test(norsk)) {
+      alreadyOk.push(id);
+      continue;
+    }
 
     if (isNormalised(norsk, lemma, part) && !FORCE) {
       alreadyOk.push(id);

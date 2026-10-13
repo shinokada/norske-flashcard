@@ -8,8 +8,15 @@
  * *structurally shaped* like a verb-headed phrase (reflexive verb, particle
  * verb), and uses the Claude API to decide whether each one actually
  * functions as a single conjugatable verb lemma (→ belongs in vocab) or is
- * a genuine fixed idiom with no single grammatical head (→ stays in
- * uttrykk), per the rule in data-rules/vocab-and-uttrykk.md.
+ * a figurative idiom, ordtak or communicative formula (→ stays in
+ * uttrykk), per the rules in data-rules/vocab-and-uttrykk-v2.md.
+ *
+ * NOTE: round-1 API tooling. The v2 rollout reviews candidates in chat
+ * batches of about 50 (no API), and the v2 candidate scan is
+ * scripts/reclass/scan-v2-candidates.mjs (Phase 3 of
+ * ai-docs/implementation/vocab-uttrykk-v2-rollout.md). This script only
+ * covers verb-shaped entries; its prompt mirrors the v2 rules and does not
+ * read the rules file, so update both together.
  *
  * Outputs:
  *   scripts/output/uttrykk-verb-classification.json   (machine-readable)
@@ -302,15 +309,20 @@ function collectCandidateEntries() {
 
 function systemPromptForLevel(level) {
   const categories = VOCAB_CATEGORIES_BY_LEVEL[level] ?? [];
-  return `You are a Norwegian language pedagogy expert helping classify expressions, per the rule in data-rules/vocab-and-uttrykk.md.
+  return `You are a Norwegian language pedagogy expert helping classify expressions, per the rules in data-rules/vocab-and-uttrykk-v2.md.
 
-Each entry currently lives in an uttrykk-xx.json file (category: "uttrykk", part: "phrase"). All of them are structurally shaped like a reflexive or particle verb phrase (contain "seg", or a verb followed by a directional particle like "av", "på", "opp", "ut").
+Each entry currently lives in an uttrykk-xx.json file (usually part: "phrase"). All of them are structurally shaped like a reflexive or particle verb phrase (contain "seg", or a verb followed by a directional particle like "av", "på", "opp", "ut").
 
-The question is NOT "is the meaning compositional?" — it's "does this function as a single conjugatable verb lemma that a learner inflects (bøyer) and uses productively in ordinary sentences, the same way they would any other verb?"
+Apply the v2 decision rule in order:
+1. Is it a figurative idiom (non-literal meaning tied to a situation) or an ordtak? Then it stays in uttrykk, even if it starts with a conjugating verb.
+2. Dictionary-headword test: would Bokmålsordboka/NAOB list it as a verb (or sub-headword with a word class) that a learner conjugates and uses productively? Then it belongs in vocab. This includes reflexive verbs, particle verbs, ordinary verb + fixed preposition collocations ("sørge for", "ta hensyn til") and literal verb + fixed complement frames ("være i stand til", "bli kvitt").
+3. Is it a communicative formula (greeting, politeness, discourse marker)? Then it stays in uttrykk.
+
+The question is NOT "is the meaning compositional?"; it is whether the entry works as a dictionary verb headword.
 
 Classify each entry as exactly one of:
-- "move_to_vocab": A genuine reflexive or particle verb — a dictionary would list it as a distinct verb lemma with its own conjugation (present/past/perfect), even though it's written as more than one word. Examples: "kle på seg", "føle seg", "slå av", "snakke med", "ta seg tid", "gi opp". These belong in vocab-xx.json as part: "verb".
-- "stays_uttrykk": A fixed idiom or formulaic chunk that happens to contain "seg" or a particle-like word, but is not itself a conjugatable verb lemma a learner would look up — e.g. it's frozen in one form, functions as a discourse marker, or the "verb" reading is not the actual sense being taught. Examples: "slå seg til ro" (idiom, not a simple verb), "ta vare på" (fixed expression, "vare" is not a particle here).
+- "move_to_vocab": A reflexive verb, particle verb, verb + fixed preposition collocation or literal verb + fixed complement frame that a dictionary would list as a verb with its own conjugation (present/past/perfect), even though it's written as more than one word. Examples: "kle på seg", "føle seg", "slå av", "snakke med", "ta seg tid", "gi opp", "ta vare på", "være i stand til". These belong in vocab-xx.json as part: "verb". Note: legacy verb collocations such as "ta vare på" and "ha lyst til" are only flagged here; the rollout leaves them in uttrykk until touched (Decision 2 in the rules doc).
+- "stays_uttrykk": A figurative idiom, ordtak or communicative formula that happens to contain "seg" or a particle-like word, but is not a verb headword a learner would look up — e.g. the meaning is figurative ("slå seg til ro", "ha is i magen"), it is frozen in one form, or it works as a discourse marker.
 - "borderline": Cases where reasonable people could disagree, or where you'd want to check a Norwegian dictionary (NAOB/Bokmålsordboka) before deciding.
 
 For "move_to_vocab" entries, also suggest:
