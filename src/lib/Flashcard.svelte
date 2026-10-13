@@ -11,18 +11,23 @@
     hint?: string;
     /** Soften the hint once the user has flipped a card before. */
     hintDimmed?: boolean;
+    /** Reserve horizontal room for the edge chevrons on touch devices (CSS-only: pointer-coarse). */
+    edgeInset?: boolean;
   }
 
   import { twMerge } from 'tailwind-merge';
-  let { front, back, showCardBack, pFront, pBack, frontTag, hint, hintDimmed }: Props = $props();
+  let { front, back, showCardBack, pFront, pBack, frontTag, hint, hintDimmed, edgeInset }: Props =
+    $props();
 
   const frontDivCls =
     'absolute inset-0 bg-custom-red text-white flex flex-col justify-center items-center';
   const pClass = 'text-3xl sm:text-5xl p-4 break-words [overflow-wrap:anywhere]';
-  // Reserve room for the hint so long text never runs under it.
-  let frontCls = $derived(twMerge(frontDivCls, hint && 'pb-10'));
-  let frontPCls = $derived(twMerge(pClass, pFront));
-  let backPCls = $derived(twMerge(pClass, pBack));
+  // Reserve room for the hint so long text never runs under it. On touch the hint is longer
+  // ("Tap to flip · Swipe to navigate") and can wrap to two lines, so reserve more there.
+  let frontCls = $derived(twMerge(frontDivCls, hint && 'pb-10 pointer-coarse:pb-16'));
+  // On touch devices keep text clear of the edge chevrons (CSS media query, no JS, no reflow).
+  let frontPCls = $derived(twMerge(pClass, edgeInset && 'pointer-coarse:px-9', pFront));
+  let backPCls = $derived(twMerge(pClass, edgeInset && 'pointer-coarse:px-9', pBack));
 
   function limitCharacters(content: string | undefined, limit: number) {
     if (content === undefined) {
@@ -44,7 +49,7 @@
     {#if hint}
       <span
         aria-hidden="true"
-        class="pointer-events-none absolute inset-x-0 bottom-4 flex items-center justify-center gap-1.5 text-base {hintDimmed
+        class="pointer-events-none absolute inset-x-0 bottom-4 flex items-center justify-center gap-1.5 px-10 text-center text-base {hintDimmed
           ? 'text-white/80'
           : 'text-white'}"
       >
@@ -54,7 +59,7 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="h-5 w-5"
+          class="h-5 w-5 shrink-0"
           aria-hidden="true"
         >
           <path

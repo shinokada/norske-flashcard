@@ -878,7 +878,7 @@
 
   <!-- Flashcard -->
   <div
-    class="flip-box mt-2 min-h-96 w-full bg-transparent md:w-1/2"
+    class="flip-box relative mt-2 min-h-96 w-full bg-transparent md:w-1/2"
     class:wiggle={!hasFlipped &&
       currentIndex === 0 &&
       !showCardBack &&
@@ -984,10 +984,46 @@
           back={current?.back}
           {showCardBack}
           frontTag={currentFrontTag}
-          hint={isTouch ? m.flashcard_tap_to_flip() : m.flashcard_click_to_flip()}
+          hint={isTouch ? m.flashcard_hint_touch() : m.flashcard_click_to_flip()}
           hintDimmed={hasFlipped}
+          edgeInset
         />
       </div>
+      <!-- Edge chevrons: hint that swiping navigates. Touch-only via CSS (pointer-coarse), and
+           siblings of .flip-box-inner so they don't rotate with the card. Left is hidden on the
+           first card; right stays on the last card (a swipe there completes the deck). -->
+      {#if currentIndex > 0}
+        <span
+          aria-hidden="true"
+          class="pointer-events-none absolute inset-y-0 left-1 z-10 hidden items-center text-white/70 pointer-coarse:flex"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="h-7 w-7"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+          </svg>
+        </span>
+      {/if}
+      <span
+        aria-hidden="true"
+        class="pointer-events-none absolute inset-y-0 right-1 z-10 hidden items-center text-white/70 pointer-coarse:flex"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          class="h-7 w-7"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+        </svg>
+      </span>
       <!-- aria-live region: announces card content to screen readers on flip/advance -->
       <div aria-live="polite" class="sr-only">
         {showCardBack
