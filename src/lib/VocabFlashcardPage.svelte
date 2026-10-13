@@ -139,8 +139,7 @@
   // localStorage fallback — read synchronously at init (browser only), kept reactive for storage events
   let localSessionLimit = $state<number | null>(browser ? getSessionLimit(localStorage) : 20);
 
-  // touch
-  let isTouch = $state(false);
+  // touch swipe
   let touchStartX = 0;
 
   // Has this device flipped a card before? Starts true so SSR / returning users get no
@@ -180,7 +179,6 @@
   let sessionLimit = $derived(resolveSessionLimit(profileSessionLimit, localSessionLimit));
 
   onMount(() => {
-    isTouch = window.matchMedia('(pointer: coarse)').matches;
     try {
       hasFlipped = localStorage.getItem(LS_HAS_FLIPPED) === 'true';
     } catch {
@@ -856,9 +854,9 @@
        reflow) because the card itself now says "Tap to flip · Swipe to navigate"; the bar
        shrinks to just the counter. -->
   <div
-    class="mt-3 flex w-full max-w-lg items-center justify-between gap-3 rounded-md bg-gray-100 px-3 py-1 pointer-coarse:w-auto dark:bg-gray-800"
+    class="mt-3 flex w-full max-w-lg items-center justify-between gap-3 rounded-md bg-gray-100 px-3 py-1 dark:bg-gray-800 pointer-coarse:w-auto"
   >
-    <p class="text-base text-gray-500 pointer-coarse:hidden dark:text-gray-400">
+    <p class="text-base text-gray-500 dark:text-gray-400 pointer-coarse:hidden">
       {m.flashcard_hint_desktop_prefix()}
       {cardType === 'word' ? m.flashcard_hint_example_phrase() : m.flashcard_hint_word()}
     </p>
@@ -982,7 +980,8 @@
           back={current?.back}
           {showCardBack}
           frontTag={currentFrontTag}
-          hint={isTouch ? m.flashcard_hint_touch() : m.flashcard_click_to_flip()}
+          hint={m.flashcard_click_to_flip()}
+          hintTouch={m.flashcard_hint_touch()}
           hintDimmed={hasFlipped}
           edgeInset
         />

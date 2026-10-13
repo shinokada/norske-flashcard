@@ -7,8 +7,10 @@
     pBack?: string;
     /** Small gloss shown under the front text (e.g. a vocab `sense`). */
     frontTag?: string;
-    /** Small "Tap/Click to flip" label at the bottom of the front face (decorative; aria-hidden). */
+    /** Small "Click to flip" label at the bottom of the front face (decorative; aria-hidden). */
     hint?: string;
+    /** Label for touch devices. When set, both strings render and CSS (pointer-coarse) picks one. */
+    hintTouch?: string;
     /** Soften the hint once the user has flipped a card before. */
     hintDimmed?: boolean;
     /** Reserve horizontal room for the edge chevrons on touch devices (CSS-only: pointer-coarse). */
@@ -16,8 +18,18 @@
   }
 
   import { twMerge } from 'tailwind-merge';
-  let { front, back, showCardBack, pFront, pBack, frontTag, hint, hintDimmed, edgeInset }: Props =
-    $props();
+  let {
+    front,
+    back,
+    showCardBack,
+    pFront,
+    pBack,
+    frontTag,
+    hint,
+    hintTouch,
+    hintDimmed,
+    edgeInset
+  }: Props = $props();
 
   const frontDivCls =
     'absolute inset-0 bg-custom-red text-white flex flex-col justify-center items-center';
@@ -69,7 +81,11 @@
             d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"
           />
         </svg>
-        {hint}
+        <!-- Both labels are in the HTML; CSS picks one, so the first paint is already correct. -->
+        <span class={hintTouch ? 'pointer-coarse:hidden' : ''}>{hint}</span>
+        {#if hintTouch}
+          <span class="hidden pointer-coarse:inline">{hintTouch}</span>
+        {/if}
       </span>
     {/if}
   </div>
