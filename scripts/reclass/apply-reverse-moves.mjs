@@ -48,6 +48,11 @@ const toDeleteOnly = []; // decisions where the uttrykk entry already exists (st
 let alreadyApplied = 0;
 const addedText = new Map(); // normalised text of entries accepted in this run -> norsk
 
+// Fields log-v2-moves.mjs rewrites when it builds the uttrykk entry (norsk is checked separately)...
+const REWRITTEN = new Set(['id', 'norsk', 'lemma', 'part', 'kind', 'category', 'definition']);
+// ...and fields it removes on purpose.
+const DROPPED = new Set(['verb_type', 'sense', 'kind', 'theme']);
+
 for (const d of decisions) {
   const id = d.source?.id;
   const e = d.uttrykk;
@@ -72,17 +77,22 @@ for (const d of decisions) {
     errors.push(`${id}: vocab norsk is now "${inVocab.norsk}", decision says "${d.source.norsk}"`);
     continue;
   }
-  // Every field copied unchanged into d.uttrykk must still match the live vocab entry. Otherwise an
-  // edit made after logging (a fixed example, a corrected translation) would be overwritten by the
-  // stale copy in the decision and then deleted from vocab. Fields the logger rewrites or drops
-  // (id, norsk, lemma, part, kind, category, definition) are excluded; norsk is checked above.
-  const REWRITTEN = new Set(['id', 'norsk', 'lemma', 'part', 'kind', 'category', 'definition']);
-  const changedKey = Object.keys(e).find(
-    (key) => !REWRITTEN.has(key) && JSON.stringify(inVocab[key]) !== JSON.stringify(e[key])
+  // Every field copied unchanged into d.uttrykk must still match the live vocab entry, in both
+  // directions: a changed value, a field added to vocab after logging, or a field removed from vocab
+  // would otherwise be overwritten by the stale copy in the decision and then deleted from vocab.
+  // Excluded: fields the logger rewrites (REWRITTEN; norsk is checked above) and fields it drops on
+  // purpose when it builds the uttrykk entry (DROPPED).
+  const changedKey = [...new Set([...Object.keys(e), ...Object.keys(inVocab)])].find(
+    (key) =>
+      !REWRITTEN.has(key) &&
+      !DROPPED.has(key) &&
+      JSON.stringify(inVocab[key]) !== JSON.stringify(e[key])
   );
   if (changedKey) {
+    const how =
+      changedKey in e ? (changedKey in inVocab ? 'changed' : 'was removed') : 'was added';
     errors.push(
-      `${id} "${d.source.norsk}": vocab "${changedKey}" changed since the decision was logged (re-log the move)`
+      `${id} "${d.source.norsk}": vocab "${changedKey}" ${how} since the decision was logged (re-log the move)`
     );
     continue;
   }
