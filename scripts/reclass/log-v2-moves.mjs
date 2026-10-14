@@ -19,8 +19,18 @@
 //   definition format, no same-norsk entry already in the destination, no duplicate id in the batch).
 //   Apply with apply-deletions.mjs, THEN apply-additions.mjs (additions refuses an entry whose
 //   id or text still exists in uttrykk).
+// reverse_moves: vocab -> uttrykk (the apply scripts only do uttrykk -> vocab, so these are applied
+//   by apply-reverse-moves.mjs). Each: { "id", "kind": "idiom|ordtak|formula", "definition", "reason",
+//   optional "category", "norsk", "lemma" }. The decision's `uttrykk` object is the full entry built
+//   from the live vocab entry (same id, so progress keeps resolving) with part "phrase", `kind` set,
+//   `definition` replaced (format "Brukes ..."), a bare `lemma`, and `verb_type`/`sense` removed.
+//   `category` defaults to the vocab entry's category; for A1-B2 give one already used in uttrykk-<level>.
 // stays: reviewed, no change (type no_action), kept as audit trail so the entry is not re-reviewed.
 //   `from` is "uttrykk" or "vocab" (which file the entry lives in).
+//
+// Destination collisions: two entries accepted in the same batch (moves and reverse_moves together)
+//   may not end up with the same normalised norsk or lemma; the batch is rejected before anything is
+//   logged (the live-data checks alone cannot see a collision between two moves in the same batch).
 //
 // Idempotent: an entry that already has an active phase "v2" decision is skipped.
 import {
@@ -65,6 +75,8 @@ const PARTS = new Set([
   'interjection',
   'phrase'
 ]);
+
+const KINDS = new Set(['idiom', 'ordtak', 'formula']);
 
 // Translation languages, same list as scripts/check-vocab.ts (KNOWN_LANGUAGES).
 const KNOWN_LANGUAGES = [
@@ -170,9 +182,22 @@ const lines = [];
 
 // An id may appear once in the whole batch (as a move or a stay), otherwise both would be logged.
 const seen = new Set();
-for (const e of [...(spec.moves ?? []), ...(spec.stays ?? [])]) {
+for (const e of [...(spec.moves ?? []), ...(spec.reverse_moves ?? []), ...(spec.stays ?? [])]) {
   if (seen.has(e.id)) errors.push(`${e.id}: appears more than once in the batch file`);
   seen.add(e.id);
+}
+
+// Normalised destination text (norsk and lemma, a-insensitive) -> id of the move already accepted in
+// this batch. Two different ids that end up with the same text would both pass the live-data checks.
+const destSeen = new Map();
+function destCollisions(entry, ownId) {
+  const keys = [
+    ...new Set([entry.norsk, entry.lemma].filter(Boolean).map((t) => normTextIgnoreA(t)))
+  ];
+  const errs = keys
+    .filter((k) => destSeen.has(k) && destSeen.get(k) !== ownId)
+    .map((k) => `same destination text as ${destSeen.get(k)} in this batch ("${k}")`);
+  return { keys, errs };
 }
 
 for (const m of spec.moves ?? []) {
@@ -271,10 +296,13 @@ for (const m of spec.moves ?? []) {
       break;
     }
   }
+  const dest = destCollisions(vocab, m.id);
+  entryErrors.push(...dest.errs);
   if (entryErrors.length) {
     errors.push(...entryErrors.map((e) => `${m.id} "${src.norsk}": ${e}`));
     continue;
   }
+  for (const k of dest.keys) destSeen.set(k, m.id);
   lines.push({
     level,
     batch,
@@ -283,6 +311,114 @@ for (const m of spec.moves ?? []) {
     bucket: 'v2_move_to_vocab',
     source: { norsk: src.norsk, id: src.id },
     vocab,
+    reason: m.reason
+  });
+}
+
+// vocab -> uttrykk. Categories: C checks CATEGORIES_BY_LEVEL.C; A1-B2 uttrykk use their own slug set,
+// so there the category must already be in use in uttrykk-<level>.json.
+const uttrykkCategories = new Set(uttrykkList.map((e) => e.category).filter(Boolean));
+for (const m of spec.reverse_moves ?? []) {
+  const src = vocabList.find((e) => e.id === m.id);
+  if (already.has(m.id)) {
+    console.log(`skip ${m.id}: already has a v2 decision`);
+    continue;
+  }
+  if (!src) {
+    errors.push(`${m.id}: not found in vocab-${level}.json`);
+    continue;
+  }
+  if (!m.kind || !m.definition || !m.reason) {
+    errors.push(`${m.id}: reverse move needs kind, definition and reason`);
+    continue;
+  }
+  if (!KINDS.has(m.kind)) {
+    errors.push(`${m.id}: kind "${m.kind}" must be idiom, ordtak or formula`);
+    continue;
+  }
+  const category = m.category ?? src.category;
+  if (!category || category === 'uttrykk') {
+    errors.push(`${m.id}: needs a real category slug ("uttrykk" is retired)`);
+    continue;
+  }
+  const categoryOk =
+    level === 'c'
+      ? !validCategories || validCategories.has(category)
+      : uttrykkCategories.has(category);
+  if (!categoryOk) {
+    errors.push(
+      `${m.id}: category "${category}" is not valid for uttrykk-${level} (${level === 'c' ? 'CATEGORIES_BY_LEVEL.C' : 'not used in uttrykk-' + level + '.json yet'})`
+    );
+    continue;
+  }
+  if (!src.level || String(src.level).toLowerCase() !== level) {
+    errors.push(`${m.id}: source level "${src.level}" does not match batch level "${level}"`);
+    continue;
+  }
+  const lemma = String(m.lemma ?? src.lemma ?? '').replace(/^å\s+/, '');
+  // Build the uttrykk entry: same fields and order, definition just before level, kind after part.
+  const uttrykk = {};
+  for (const [k, v] of Object.entries(src)) {
+    if (k === 'verb_type' || k === 'sense' || k === 'kind' || k === 'theme' || k === 'definition')
+      continue;
+    if (k === 'level') uttrykk.definition = m.definition;
+    uttrykk[k] =
+      k === 'category'
+        ? category
+        : k === 'part'
+          ? 'phrase'
+          : k === 'norsk' && m.norsk
+            ? m.norsk
+            : k === 'lemma'
+              ? lemma
+              : v;
+    if (k === 'part') uttrykk.kind = m.kind;
+  }
+  const entryErrors = [];
+  for (const f of ['norsk', 'english', 'example', 'example_english']) {
+    if (!uttrykk[f]) entryErrors.push(`source is missing required field "${f}"`);
+  }
+  if (!lemma) entryErrors.push('lemma is missing');
+  for (const lang of KNOWN_LANGUAGES) {
+    const hasT = uttrykk[lang] != null && uttrykk[lang] !== '';
+    const hasE = uttrykk[`example_${lang}`] != null && uttrykk[`example_${lang}`] !== '';
+    if (hasT !== hasE)
+      entryErrors.push(`"${lang}" and "example_${lang}" must both be present or both absent`);
+  }
+  entryErrors.push(...checkDefinition(m.definition, 'phrase', uttrykk.example));
+  if (typeof m.definition === 'string' && !/^Brukes\s/.test(m.definition))
+    entryErrors.push(
+      'uttrykk definition must start with "Brukes ..." (when the expression is used)'
+    );
+  if (uttrykkList.some((e) => e.id === src.id))
+    entryErrors.push(`id already exists in uttrykk-${level}.json`);
+  // Same normalised text anywhere else (every vocab/uttrykk file). The source entry (same id) is expected.
+  for (const [id, e] of allEntries) {
+    if (id === src.id) continue;
+    if (
+      normTextIgnoreA(e.norsk) === normTextIgnoreA(uttrykk.norsk) ||
+      (lemma && normTextIgnoreA(e.lemma) === normTextIgnoreA(lemma))
+    ) {
+      entryErrors.push(`${e.file} already has "${e.norsk}" (${id}); resolve before moving`);
+      break;
+    }
+  }
+  const dest = destCollisions(uttrykk, m.id);
+  entryErrors.push(...dest.errs);
+  if (entryErrors.length) {
+    errors.push(...entryErrors.map((e) => `${m.id} "${src.norsk}": ${e}`));
+    continue;
+  }
+  for (const k of dest.keys) destSeen.set(k, m.id);
+  lines.push({
+    level,
+    batch,
+    phase: 'v2',
+    type: 'reverse_move',
+    bucket: 'v2_reverse_to_uttrykk',
+    source: { norsk: src.norsk, id: src.id },
+    from: 'vocab',
+    uttrykk,
     reason: m.reason
   });
 }
@@ -323,7 +459,7 @@ console.log(
 );
 for (const l of lines) {
   console.log(
-    `  ${l.type.padEnd(9)} ${l.source.id}  ${l.source.norsk}${l.vocab ? `  -> ${l.vocab.part}/${l.vocab.category}` : ''}`
+    `  ${l.type.padEnd(12)} ${l.source.id}  ${l.source.norsk}${l.vocab ? `  -> vocab ${l.vocab.part}/${l.vocab.category}` : ''}${l.uttrykk ? `  -> uttrykk ${l.uttrykk.kind}/${l.uttrykk.category}` : ''}`
   );
 }
 if (!write) {
@@ -347,6 +483,9 @@ if (after !== before + lines.length) {
   );
   process.exit(1);
 }
+const steps = [];
+if (lines.some((l) => l.type === 'move')) steps.push('apply-deletions, then apply-additions');
+if (lines.some((l) => l.type === 'reverse_move')) steps.push('apply-reverse-moves');
 console.log(
-  `Appended ${lines.length} line(s) (${before} -> ${after}, verified by re-reading). Next: apply-deletions, then apply-additions (dry run each first), then status.mjs.`
+  `Appended ${lines.length} line(s) (${before} -> ${after}, verified by re-reading). Next: ${steps.length ? steps.join(', and ') + ' (dry run each first), then ' : ''}status.mjs.`
 );
