@@ -99,7 +99,7 @@ const UBOYELIG_PATTERN = /\s*\(ubøy\.\)$/i;
 const VERB_PREFIX = /^å\s/;
 
 // Valid vocab categories for the level, read from src/lib/config.ts (CATEGORIES_BY_LEVEL).
-// Returns null when the block can't be parsed; the category check is then skipped with a warning.
+// Returns null when the block can't be parsed; the caller then refuses a batch that has moves.
 function loadValidCategories(lvl) {
   const src = fs.readFileSync(path.resolve(__dirname, '../../src/lib/config.ts'), 'utf8');
   const start = src.indexOf('export const CATEGORIES_BY_LEVEL');
@@ -165,9 +165,19 @@ const uttrykkList = loadJSON(uttrykkPath);
 const vocabList = loadJSON(vocabPath);
 const allEntries = collectAllEntries(); // id -> { file, norsk, lemma }, every vocab/uttrykk file
 const validCategories = loadValidCategories(level);
+// Fail closed: a batch with moves or reverse_moves needs the category list (an unreadable list used to
+// mean every category passed, and apply-reverse-moves.mjs does not re-validate). A stays-only batch
+// logs no category, so it can still run.
 if (!validCategories) {
+  if ((spec.moves?.length ?? 0) + (spec.reverse_moves?.length ?? 0) > 0) {
+    console.error(
+      `Could not read the ${level.toUpperCase()} category list (CATEGORIES_BY_LEVEL) from config.ts; ` +
+        'refusing to log a batch that has moves. Nothing was written.'
+    );
+    process.exit(1);
+  }
   console.warn(
-    `WARN: could not read the ${level.toUpperCase()} category list from config.ts; category check skipped.`
+    `WARN: could not read the ${level.toUpperCase()} category list from config.ts; stays-only batch, so no category is checked.`
   );
 }
 const already = new Set(
@@ -355,7 +365,9 @@ for (const m of spec.reverse_moves ?? []) {
     errors.push(`${m.id}: source level "${src.level}" does not match batch level "${level}"`);
     continue;
   }
-  const lemma = String(m.lemma ?? src.lemma ?? '').replace(/^å\s+/, '');
+  const lemma = String(m.lemma ?? src.lemma ?? '')
+    .trim()
+    .replace(/^å\s+/i, '');
   // Build the uttrykk entry: same fields and order, definition just before level, kind after part.
   const uttrykk = {};
   for (const [k, v] of Object.entries(src)) {

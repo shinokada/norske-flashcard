@@ -72,6 +72,20 @@ for (const d of decisions) {
     errors.push(`${id}: vocab norsk is now "${inVocab.norsk}", decision says "${d.source.norsk}"`);
     continue;
   }
+  // Every field copied unchanged into d.uttrykk must still match the live vocab entry. Otherwise an
+  // edit made after logging (a fixed example, a corrected translation) would be overwritten by the
+  // stale copy in the decision and then deleted from vocab. Fields the logger rewrites or drops
+  // (id, norsk, lemma, part, kind, category, definition) are excluded; norsk is checked above.
+  const REWRITTEN = new Set(['id', 'norsk', 'lemma', 'part', 'kind', 'category', 'definition']);
+  const changedKey = Object.keys(e).find(
+    (key) => !REWRITTEN.has(key) && JSON.stringify(inVocab[key]) !== JSON.stringify(e[key])
+  );
+  if (changedKey) {
+    errors.push(
+      `${id} "${d.source.norsk}": vocab "${changedKey}" changed since the decision was logged (re-log the move)`
+    );
+    continue;
+  }
   if (inUttrykk) {
     if (canon(inUttrykk) !== canon(e)) {
       errors.push(`${id} "${e.norsk}": already in uttrykk-${level} but differs from the decision`);

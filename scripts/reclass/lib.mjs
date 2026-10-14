@@ -20,10 +20,19 @@ export function loadJSON(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 
-// Existing files are pretty-printed with 2-space indent, no trailing
-// newline is standard here so we match that; adjust if a file differs.
+// Existing files are pretty-printed with 2-space indent and end with a newline.
+// Written atomically: the complete JSON goes to a temp file in the same directory, then
+// renameSync replaces the target, so an interrupted run can never leave a truncated file.
+// A failed write removes its temp file and leaves the target untouched.
 export function saveJSON(filePath, data) {
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + '\n', 'utf8');
+  const tmp = `${filePath}.tmp-${process.pid}`;
+  try {
+    fs.writeFileSync(tmp, JSON.stringify(data, null, 2) + '\n', 'utf8');
+    fs.renameSync(tmp, filePath);
+  } catch (err) {
+    fs.rmSync(tmp, { force: true });
+    throw err;
+  }
 }
 
 export function loadDecisions(level) {
