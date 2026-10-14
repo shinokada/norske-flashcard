@@ -23,13 +23,17 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '../src/lib/data');
 
-// Copied verbatim from src/lib/uttrykk-gating.ts — keep in sync if that
-// file's values ever change.
+// Copied from src/lib/uttrykk-gating.ts — keep in sync if that file's
+// values ever change. Updated 2026-10-14: under the free-tier simplification
+// (ai-docs/implementation/free-tier-simplification.md) every level is empty;
+// A1 is open in full through isFreeUttrykkTheme(), and A2–B2 uttrykk is
+// Plus-only. The earlier copy (A2/B1/B2 themes) was stale and reported free
+// entries that the app does not treat as free.
 const FREE_UTTRYKK_THEMES = {
   A1: [],
-  A2: ['idioms', 'opinion-formulas'],
-  B1: ['discourse-markers', 'opinion-formulas', 'personal-growth'],
-  B2: ['discourse-markers', 'work-career']
+  A2: [],
+  B1: [],
+  B2: []
 };
 
 function isFreeUttrykkTheme(level, theme) {
