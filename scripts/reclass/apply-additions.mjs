@@ -55,6 +55,10 @@ const decisions = loadActiveDecisions(level).filter(
 const allEntries = collectAllEntries();
 const toAdd = [];
 const conflicts = [];
+// Normalised norsk/lemma of the additions accepted so far in THIS run. Two decisions (possibly from
+// different batches) can carry the same destination text under different ids; the checks against the
+// files on disk cannot see that, so refuse the later one here.
+const addedText = new Map();
 
 for (const d of decisions) {
   if (findEntry(vocabList, d.vocab)) continue; // already applied
@@ -71,6 +75,18 @@ for (const d of decisions) {
     conflicts.push({ decision: d, dupElsewhere });
     continue;
   }
+  const keys = [
+    ...new Set([d.vocab.norsk, d.vocab.lemma].filter(Boolean).map((t) => normTextIgnoreA(t)))
+  ];
+  const dupInRun = keys.find((k) => addedText.has(k));
+  if (dupInRun !== undefined) {
+    conflicts.push({
+      decision: d,
+      dupElsewhere: { file: `another addition in this run ("${addedText.get(dupInRun)}")` }
+    });
+    continue;
+  }
+  for (const k of keys) addedText.set(k, d.vocab.norsk);
   toAdd.push(d);
 }
 

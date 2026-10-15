@@ -1,5 +1,7 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
+  "guide_faq_uttrykk_q": "Was ist ein Uttrykk?",
+  "guide_faq_uttrykk_a": "Ein Uttrykk (norwegisch für „Ausdruck“) ist eine feste Wendung, die man als Ganzes lernt und nicht Wort für Wort. Es gibt drei Arten: Idiome, deren Bedeutung nicht in den einzelnen Wörtern steckt (ha is i magen heißt ruhig bleiben); Ordtak, also Sprichwörter (Morgenstund har gull i munn); und Alltagsformeln wie Grüße, höfliche Wendungen und feste Sätze (god morgen, vær så snill). Einzelwörter und feste Wendungen, die wie ein Wort funktionieren (i går, ved siden av), zählen stattdessen zum Vokabular.",
   "stats_study_all_due": "Alle fälligen lernen ({count})",
   "teaser_heading": "Schalte {category} mit Norskeord Plus frei",
   "teaser_benefit": "Schalte alle {count} Karten frei, mit Audio und Beispielen.",

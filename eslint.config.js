@@ -11,7 +11,7 @@ const gitignorePath = fileURLToPath(new URL('./.gitignore', import.meta.url));
 // Progress is keyed by vocabKey(entry) (the entry id), never by `norsk`: sibling senses
 // share a `norsk`, so a `norsk` key merges their cards. See
 // ai-docs/implementation/vocab-multiple-senses.md (Phase 4) and
-// data-rules/vocab-and-uttrykk.md. A deliberate, non-progress use (e.g. grouping for
+// data-rules/vocab-and-uttrykk-v2.md. A deliberate, non-progress use (e.g. grouping for
 // display) can opt out with a line-level disable and a reason.
 const NORSK_KEY_SELECTORS = [
   {

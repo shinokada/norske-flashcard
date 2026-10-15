@@ -17,7 +17,7 @@
  *
  * 2. Migrates 27 "general" entries that are genuinely productive
  *    verb+preposition collocations (fail the uttrykk decision rule in
- *    data-rules/vocab-and-uttrykk.md — they function as ordinary verb
+ *    data-rules/vocab-and-uttrykk-v2.md — they function as ordinary verb
  *    lemmas, not fixed chunks) out of uttrykk-b1.json and into
  *    vocab-b1.json as part: "verb", following the same conventions as
  *    migrate-to-vocab.mjs (å-prefix norsk, lemma unchanged, new

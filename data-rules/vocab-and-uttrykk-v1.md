@@ -1,3 +1,5 @@
+> Superseded by vocab-and-uttrykk-v2.md (adopted 2026-10-13). Kept for history.
+
 # Vocab vs Uttrykk
 
 ## vocab-xx.json entry rules

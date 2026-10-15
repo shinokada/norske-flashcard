@@ -8,7 +8,7 @@
  * each entry's `norsk` field, extracts the trailing/embedded dictionary
  * markers (gender, verb conjugation class, adj./adv./prep.) into proper
  * fields — `part`, `verb_type`, and a reformatted `norsk`/`lemma` — following
- * the conventions in data-rules/vocab-and-uttrykk.md.
+ * the conventions in data-rules/vocab-and-uttrykk-v2.md.
  *
  * Also renames `explanation` → `definition` (matches VocabEntry) and keeps
  * the existing `note` field as-is (it already matches the new `note`
@@ -28,7 +28,7 @@
  * marker on a noun buried inside a multi-word phrase doesn't necessarily
  * mean the whole phrase belongs in vocab as `part: "noun"`; it's exactly
  * the "i sin fulle tyngde" pattern the vocab-vs-uttrykk decision rule in
- * data-rules/vocab-and-uttrykk.md is designed to catch in Phase 4. The
+ * data-rules/vocab-and-uttrykk-v2.md is designed to catch in Phase 4. The
  * entry IS still auto-processed (part/verb_type/norsk are filled in), the
  * flag is just a "double check this one" note for the Phase 3/4 pass.
  *

@@ -43,7 +43,7 @@ def normalize_norsk(s):
 def has_distinct_senses(level_entry_pairs):
     """True when every entry in the group has a non-empty `sense` and no two
     senses are equal (case-insensitive). Such a group is a set of deliberately
-    split senses (see data-rules/vocab-and-uttrykk.md), not a duplicate."""
+    split senses (see data-rules/vocab-and-uttrykk-v2.md), not a duplicate."""
     senses = [((entry.get('sense') or '').strip().lower()) for _, entry in level_entry_pairs]
     return all(senses) and len(set(senses)) == len(senses)
 

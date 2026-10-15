@@ -5,7 +5,7 @@
 //
 // This does NOT touch vocab-c.json and does NOT change `part` (stays
 // "phrase") — these entries remain classified as uttrykk, per
-// data-rules/vocab-and-uttrykk.md. The category is only used so uttrykk-c
+// data-rules/vocab-and-uttrykk-v2.md. The category is only used so uttrykk-c
 // entries can be browsed/merged alongside their matching vocab-c category
 // at read time (see the c/{category} loader change in
 // src/routes/[level]/[category]/+page.server.ts).

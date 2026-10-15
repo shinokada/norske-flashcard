@@ -6,7 +6,7 @@ completed: null
 
 # Vocab vs Uttrykk (v2)
 
-> **Status: DRAFT, not yet in force.** `vocab-and-uttrykk.md` (v1) stays the rule until this doc is adopted. Adoption (renaming, repointing references, script review, data moves) is the checklist at the end: "Adoption checklist". Decisions still open are listed in "Open decisions".
+> **Status: in force since 2026-10-13.** This doc replaces `vocab-and-uttrykk-v1.md` (the former `vocab-and-uttrykk.md`). The adoption steps are in `ai-docs/implementation/vocab-uttrykk-v2-rollout.md`; the decisions made on 2026-10-13 are recorded in "Decisions".
 
 v2 is a **full replacement** of v1: the field rules are carried over unchanged, and the classification rules (vocab vs uttrykk) are revised.
 
@@ -24,7 +24,7 @@ v2 is a **full replacement** of v1: the field rules are carried over unchanged, 
 
 Also changed in v2 (fields):
 
-- **`definition` scope.** The field now exists on every vocab level (A1–C), on `uttrykk-c`, and on part of `uttrykk-a1` to `-b2`. A source uttrykk entry that has none needs a definition written when it moves to vocab (see the `definition` field section).
+- **`definition` scope.** The field is the norm in vocab at every level (A1–C) and in `uttrykk-c`, but most uttrykk entries at A1–B1 have none. An uttrykk entry without a valid definition needs one written when it moves to vocab (see the `definition` field section for coverage and the moving rule).
 - **`phrase` examples.** The `phrase` rows in the `norsk` and `lemma` tables no longer use `biologisk mangfold`, which is a `noun` (v1 contradicted itself here).
 - **Verb-initial uttrykk examples.** `bli oppfordret til` (a literal passive frame, not an idiom) is replaced by the idiom `holde hodet over vann`.
 
@@ -54,13 +54,13 @@ The display form shown to learners.
 
 Always the canonical form (lemma) of the lexical item — no gender markers, no `å` prefix, no inflection. This applies whether the lexical item is one word or several (e.g. a multi-word verb or preposition still has a lemma). Used for FSRS lookup and deduplication.
 
-| `part`                                                                            | Format                      | Example              |
-| --------------------------------------------------------------------------------- | --------------------------- | -------------------- |
-| `noun`                                                                            | bare noun, no gender        | `hus`                |
-| `verb`                                                                            | infinitive without `å`      | `få`                 |
-| `adjective`                                                                       | base form (same as `norsk`) | `glad`               |
-| `adverb` / `conjunction` / `preposition` / `pronoun` / `numeral` / `interjection` | same as `norsk`             | `fordi`              |
-| `phrase`                                                                          | same as `norsk`             | `det er om å gjøre`  |
+| `part`                                                                            | Format                      | Example             |
+| --------------------------------------------------------------------------------- | --------------------------- | ------------------- |
+| `noun`                                                                            | bare noun, no gender        | `hus`               |
+| `verb`                                                                            | infinitive without `å`      | `få`                |
+| `adjective`                                                                       | base form (same as `norsk`) | `glad`              |
+| `adverb` / `conjunction` / `preposition` / `pronoun` / `numeral` / `interjection` | same as `norsk`             | `fordi`             |
+| `phrase`                                                                          | same as `norsk`             | `det er om å gjøre` |
 
 ### Plural-form noun cards
 
@@ -135,7 +135,19 @@ Vocab and uttrykk ids are drawn from the same counter and are otherwise indistin
 
 **Checks:** `pnpm check:ids` verifies that every production vocab and uttrykk entry has a well-formed `w-NNNNNN` id and that no id is used twice, including between vocab and uttrykk (`check-vocab.ts` and `check-uttrykk.ts` each only see their own files). `pnpm check:data` runs all three checkers with `--strict`.
 
-### `definition` field (every vocab level; uttrykk-c; some uttrykk A1–B2)
+### `definition` field (vocab at every level; uttrykk-c; partly uttrykk A1–B2)
+
+Coverage on 2026-10-13 (entries with a non-empty `definition`):
+
+| File | Vocab       | Uttrykk   |
+| ---- | ----------- | --------- |
+| A1   | 647 / 647   | 6 / 106   |
+| A2   | 1163 / 1163 | 15 / 151  |
+| B1   | 2057 / 2254 | 37 / 182  |
+| B2   | 1884 / 1963 | 308 / 432 |
+| C    | 2437 / 2437 | 666 / 666 |
+
+Vocab entries are expected to carry a definition; the B1 and B2 vocab gaps are a data backlog, not a rule exception. Uttrykk entries are not required to have one, except `uttrykk-c`, where all have it.
 
 A monolingual Norwegian, dictionary-style definition of the sense shown in `english`.
 
@@ -146,12 +158,15 @@ A monolingual Norwegian, dictionary-style definition of the sense shown in `engl
 - Verbs start with `Å` + infinitive (`Å etterligne noens oppførsel.`); nouns with an article (`En ...`, `Et ...`); adverbs and adjectives with a paraphrase (`Ikke i det hele tatt.`, `Dagen før i dag.`); prepositions and conjunctions with when or why they are used (`Brukes for å vise ...`); expressions with when they are used (`Brukes når ...`).
 - **Collocation entries** (a fixed multi-word vocab entry, see below) are defined as a whole, not via their head word alone — e.g. `å gjøre en dårlig figur` gets "Å gjøre et dårlig inntrykk på andre," not a definition of `figur`. Verb collocations still use `Å` + infinitive.
 - Must not share more than half its words with `example`.
-- **Moving an entry between files means checking its definition.** Vocab entries carry a definition at every level, but uttrykk entries at A1–B1 mostly have none (and `uttrykk-b2` only some). So an entry moving **uttrykk → vocab** usually needs a definition written; an entry moving **vocab → uttrykk** keeps the one it has. A source `definition` field is also often not a real definition: an example sentence pasted in by mistake, a bare synonym, or text that starts with the quoted headword (`'Vi ses' er en ...`). Rewrite it to this format rather than carrying it over.
+- **Moving an entry between files means checking its definition.**
+  - **uttrykk → vocab:** the entry must end up with a valid definition in this format. Uttrykk A1–B1 mostly have none, so one usually has to be written; if the entry already has one (more common at B2 and C), check it and keep it only if it passes. A source `definition` is often not a real definition: an example sentence pasted in by mistake, a bare synonym, or text that starts with the quoted headword (`'Vi ses' er en ...`). Rewrite it rather than carrying it over.
+  - **vocab → uttrykk:** keep the existing definition; if it is missing or invalid, write one (ordtak: `Brukes når ...`).
+  - Definitions are written in review batches of about 50 entries in the chat session (no API calls) and recorded with the move decision, so the batch the user approves is the batch that is applied.
 - Supplementary usage information goes in `note`, not here.
 
 ### `note` field (optional)
 
-Free-text usage note — supplementary context that doesn't belong in `definition`. `definition` is a monolingual Norwegian dictionary-style definition (B1+); `note` is looser: register/slang flags, related word-family members, a usage caveat, or a secondary sense. Written in whichever language is clearest (usually Norwegian, since it's typically sourced from Norwegian teaching material).
+Free-text usage note — supplementary context that doesn't belong in `definition`. `definition` is a monolingual Norwegian dictionary-style definition (see above); `note` is looser: register/slang flags, related word-family members, a usage caveat, or a secondary sense. Written in whichever language is clearest (usually Norwegian, since it's typically sourced from Norwegian teaching material).
 
 Example:
 
@@ -185,7 +200,7 @@ A short Norwegian gloss that tells apart **separate entries for different senses
 "sense": "til strikking"
 ```
 
-Why a separate field: a noun's `norsk` must end in a gender / `(pl.)` / `(ubøy.)` marker, so a gloss like `bank (finansinstitusjon)` is not allowed there. `definition` exists only at B1+ and is Norwegian; `note` is free text that isn't shown on every card.
+Why a separate field: a noun's `norsk` must end in a gender / `(pl.)` / `(ubøy.)` marker, so a gloss like `bank (finansinstitusjon)` is not allowed there. `definition` is a single monolingual sentence about one sense and is not the place for a disambiguating gloss; `note` is free text that isn't shown on every card.
 
 **When to split:** when knowing one meaning does not imply the other (homonyms, clearly different senses, a different part of speech or conjugation class, a different CEFR level). Don't split minor nuances. Each sense may live in a different level file and category.
 
@@ -208,8 +223,9 @@ SNL defines _uttrykk_ as a word or group of words with a collective meaning (a v
 > 1. **Idiom** — a figurative expression whose meaning cannot be derived from its words (`ha is i magen`).
 > 2. **Ordtak** (proverb) — a fixed saying, usually a full sentence, stating a general truth or piece of advice (`Morgenstund har gull i munn`).
 > 3. **Formula** — a fixed chunk with a **communicative job**: greeting, politeness, conversational fragment, or discourse marker. Not figurative, but it has no word class and is not recombined (`god morgen`, `vær så snill`, `det vil si`).
+>    Model sentences and dialogue pairs, mainly at A1–A2 (`Hvor bor du? Jeg bor i Norge.`), are formulas too: learners memorise them whole for a communicative job (introducing yourself, asking where someone lives). They stay in uttrykk with `part: phrase`, and a `definition` is not required. "Dialogue" is a shape, not a fourth kind.
 
-Idioms, ordtak and formulas all live in the same file family. They are not split into separate files (see "Open decisions" for an optional `kind` label).
+Idioms, ordtak and formulas all live in the same file family. They are not split into separate files; the optional `kind` field tells them apart (see "`kind` field" below and "Decisions").
 
 ### The boundary: lexical unit-hood
 
@@ -287,7 +303,7 @@ få lov til å
 
 This only applies when the complementizer is more than the bare infinitive marker `å` — i.e. a fixed element like `til å` that carries real idiomatic/grammaticalized weight (future sense, desire, permission, etc.), not ordinary infinitive-complement syntax. Plain verb + `å` + infinitive (`begynne å`, `prøve å`, `ønske å`, `håpe å`) is fully productive grammar — almost any verb can take a bare infinitival complement this way — so it doesn't qualify as a vocab lemma on its own; require evidence the _whole sequence_ is lexicalized (a fixed dictionary-citable unit), not just that the pattern is swappable.
 
-`ha lyst til` (with or without `å` + infinitive) is a vocab verb collocation: the meaning follows from the words and the verb conjugates. v1 treated the bare `ha lyst til` as an uttrykk fragment; v2 drops that distinction. Existing uttrykk entries are not bulk-moved (see the amendment above and the adoption checklist).
+`ha lyst til` (with or without `å` + infinitive) is a vocab verb collocation: the meaning follows from the words and the verb conjugates. v1 treated the bare `ha lyst til` as an uttrykk fragment; v2 drops that distinction. Existing uttrykk entries of this kind stay where they are until touched (Decisions, item 2).
 
 ### Uttrykk (`uttrykk-xx.json`)
 
@@ -299,6 +315,7 @@ This includes:
 - ordtak / proverbs
 - greetings and politeness formulas
 - conversational formulas and sentence fragments
+- model sentences and dialogue pairs (mainly A1–A2; about 54 of the 106 A1 entries on 2026-10-13)
 - discourse markers
 
 Examples:
@@ -357,17 +374,27 @@ Ordtak are written as the whole saying in citation form. They are sentences, so 
 
 Uttrykk therefore holds three kinds of entry: **idioms**, **ordtak** and **communicative formulas** (greetings, politeness, conversational fragments, discourse markers).
 
+### `kind` field (uttrykk entries only)
+
+`"kind": "idiom" | "ordtak" | "formula"`, using the three kinds from the terminology section. Model sentences and dialogue pairs are `formula`.
+
+- **Optional in the schema** (`src/lib/types.ts`, `check-uttrykk.ts`), so existing entries stay valid.
+- **Required for entries added to uttrykk, or moved into uttrykk, from the day this doc is adopted.**
+- **Existing entries** (1,537 on 2026-10-13, 1,491 after the v2 rollout, 1,410 of them without a `kind` on 2026-10-14) are backfilled in a separate task, in batches of about 50 in the chat session. The backfill does not block the other moves.
+- **Never on vocab entries.** Remove `kind` when an entry moves uttrykk → vocab.
+- Implementation steps are in `ai-docs/implementation/uttrykk-kind-field.md`.
+
 ### `norsk` / `lemma` fields
 
 Same as vocab: `norsk` is the display form, `lemma` is the canonical/dictionary form used for dedup. For uttrykk, both fields are normally identical — the whole fixed chunk, in its citation form — except for the optional `å` described below.
 
 **Verb-initial uttrykk: `å` in `norsk` is optional; `lemma` is always bare.** Either display form is accepted:
 
-| `norsk` (either form is fine)                 | `lemma` (always bare, no `å`) |
-| --------------------------------------------- | ----------------------------- |
-| `ha is i magen` / `å ha is i magen`           | `ha is i magen`               |
-| `slå seg til ro` / `å slå seg til ro`         | `slå seg til ro`              |
-| `holde hodet over vann` / `å holde hodet over vann` | `holde hodet over vann`          |
+| `norsk` (either form is fine)                       | `lemma` (always bare, no `å`) |
+| --------------------------------------------------- | ----------------------------- |
+| `ha is i magen` / `å ha is i magen`                 | `ha is i magen`               |
+| `slå seg til ro` / `å slå seg til ro`               | `slå seg til ro`              |
+| `holde hodet over vann` / `å holde hodet over vann` | `holde hodet over vann`       |
 
 Prefer the bare form for idioms cited the way a dictionary would (`ha is i magen`); the `å` form is fine for entries that read naturally as an infinitive phrase (`å ta buss`). Don't normalise existing entries in either direction just for consistency. But never leave `å` in `lemma`: it is used for dedup and FSRS lookup and must match how vocab lemmas are written. When comparing an uttrykk entry against vocab (duplicate checks), ignore a leading `å` on both sides.
 
@@ -379,16 +406,34 @@ When deciding between vocab and uttrykk, ask, in order:
 
 1. **Is this a figurative idiom or an ordtak** — non-literal meaning tied to a situation, or a proverb? → **uttrykk**, even if it starts with a conjugating verb.
 2. **Dictionary-headword test: does it have a word class of its own?** (noun, verb, adjective, adverb — including time and manner expressions — preposition, conjunction, pronoun, numeral, interjection; including literal verb + fixed complement frames) → **vocab**.
-3. **Is it primarily a communicative formula** — a greeting, politeness formula, conversational fragment or discourse marker that works across the conversation rather than inside the clause? → **uttrykk**.
-4. **None of the above** — e.g. a productive copula + adjective, or plain grammar → no standalone card (see below).
+3. **Is it primarily a communicative formula** — a greeting, politeness formula, conversational fragment, model sentence or dialogue pair, or discourse marker that works across the conversation rather than inside the clause? → **uttrykk**.
+4. **None of the above** — e.g. the bare productive `bli`/`være` + adjective pattern, or plain grammar → no standalone card (see below). A natural collocation built on it can still be a vocab verb (see below).
 
 This is easier to apply consistently than asking whether the meaning is compositional. It resolves the recurring edge cases (reflexive/particle verbs, multi-word prepositions and conjunctions, time expressions) in favor of `vocab`, while keeping genuine idioms, ordtak and communicative formulas in `uttrykk`.
 
-### Neither vocab nor uttrykk: productive copula + adjective
+### Productive copula + adjective: no card for the bare pattern, collocations allowed
 
-`bli`/`være` + a predicative adjective (`bli forelsket`, `bli sulten`, `være glad`) is fully productive Norwegian grammar, not a fixed lexical unit — any adjective can fill the slot. Don't create a standalone card for the combination; make sure the adjective itself has a vocab entry and let `bli`/`være` stand as their own verb entries.
+`bli`/`være` + a freely swappable predicative adjective (`bli sulten`, `være glad`) is productive Norwegian grammar, not a fixed lexical unit: any adjective can fill the slot. Don't create a standalone card for the bare pattern; make sure the adjective itself has a vocab entry and let `bli`/`være` stand as their own verb entries.
 
-Exception: if the combination has drifted to a non-compositional idiomatic meaning beyond "become/be + adjective," it may warrant its own `uttrykk` entry.
+**Collocation allowed (amended 2026-10-14):** a natural, conventional combination that learners say as a whole (`bli forelsket`, `bli gravid`, `være gift`, `bli kjent med`) may be added as a **vocab verb collocation** (`part: verb`, own example, own `definition`), even when the adjective has its own vocab entry. This follows "Collocation entries coexist with their head word" below: the adjective's entry and the collocation are not duplicates. Use it when the combination is the natural way to say the thing; don't add one for every adjective. A combination that has drifted to a non-compositional idiomatic meaning beyond "become/be + adjective" goes to `uttrykk` as an `idiom` instead.
+
+This reverses the earlier "no standalone card" rule for such combinations. Entries deleted under it (for example `er gift` and `er skilt` in `uttrykk-a1`, deleted 2026-10-14) can be re-added as `å være gift` and `å være skilt` if wanted.
+
+### Time and place expressions with a slot: vocab adverbs (amended 2026-10-14)
+
+A fixed time or place expression whose number or noun can be swapped (`i to år`, `om tre dager`, `midt på vinteren`, `for – siden`, `på norskkurs`) is a **vocab adverb** by the headword test above ("adverb — including time and manner expressions"). One card per frame, with its own example that shows the preposition (`i` for duration, `om` for a point ahead). This reverses the rollout's A1/A2 stays that called such frames productive grammar with no card. A stay of that kind is superseded (a `superseded_by` field on its old `v2_stay` line), then logged as a move.
+
+An entry that fits none of idiom, ordtak or formula is not left in uttrykk without a `kind`: rewrite it into the formula it carries (`jul og nyttår` → `God jul og godt nyttår!`), move it to vocab, or delete it.
+
+### Category when an entry moves to vocab: use the example (amended 2026-10-15)
+
+A vocab `category` must be one of the target level's categories (`CATEGORIES_BY_LEVEL` in `src/lib/config.ts`). Many uttrykk entries carry a category that is not a vocab category at that level (`general`, `feelings` at A2, `time-expressions`, `opinion-formulas`, `idioms`, `discourse-markers`, which are uttrykk themes), so a move always picks a new one. Choose in this order:
+
+1. **The `norsk` itself.** If its subject fits one of the level's categories, use it (`å vaske klær` → `house-chores`, `å gå på ski` → `sports`).
+2. **The `example` field, when the `norsk` gives no topic.** Take the subject the example sentence is about, not the headword's grammar. `å ha dårlig smak` has no topic of its own, but its example is about furniture, so `home`. `ikke så mye` is about sugar in its example, so `cooking`. `kan hende` is about arriving late, so `time`.
+3. **The closest level category** if the example gives no better hint either (`å bli lei seg` → `social-life` at A2, which has no `feelings`). Don't use a category from another level, and don't invent one to fit a single entry.
+
+Record in the move's `reason` when the category came from the example or is a stretch, so the user can override it when approving the batch. This does not change the headword test or the `part`; it only picks the `category` field.
 
 ### Collocation entries coexist with their head word (not duplicates)
 
@@ -417,8 +462,10 @@ the reduced canonical `lemma`; anything multi-word keeps `lemma` = `norsk`
 elsewhere.
 
 **What's still a real duplicate, worth deleting:** two entries with the
-_identical_ `norsk`/`lemma` text (a copy-paste accident), not two different
-phrasings or a phrase vs. its head word. `find_dupes.py`'s cross-file/
+_identical_ `norsk`/`lemma` text (a copy-paste accident), or a spelling
+variant of the same phrase (`rett fram` / `rett frem`), not two different
+phrasings or a phrase vs. its head word. A twin at another level counts as a
+duplicate too (keep one; see `scripts/reclass/README.md`, "Resolving a conflict"). `find_dupes.py`'s cross-file/
 within-file duplicate sections catch exact-text repeats; its "normalized
 duplicates" section will keep surfacing head-word/collocation pairs like
 `tåle` vs `tåle kulde` — that's expected noise under this policy, not
@@ -426,46 +473,16 @@ something to action.
 
 Identical `norsk` text is **not** a duplicate when every entry in the group has a distinct, non-empty `sense` (see the `sense` field section): those are deliberately split senses. `find_dupes.py` skips such groups, `merge-to-production.mjs` doesn't warn about a lemma collision between entries with different senses, and `check-vocab.ts` enforces the `sense` rule instead.
 
-## Open decisions
+## Decisions
 
-Resolve these before adoption; they change what v2 says.
+Recorded 2026-10-13; they apply once this doc is adopted.
 
-1. **Optional `kind` field on uttrykk entries** (`idiom` | `ordtak` | `formula`)? It would need no id changes and would allow filtering later, but it is a schema change (`src/lib/types.ts`, checkers, data). Default if not decided: no field; the three kinds are documentation only.
-2. **Legacy entries:** `ta vare på`, `ha lyst til` and the time/preposition/conjunction entries currently in uttrykk. Move them in one reviewed batch, or leave them until touched (the v1 amendment's "no bulk reclassification" stance)?
-3. **Borderline time phrases** such as `for en stund siden`: decide per entry using the working test, or list the approved ones here.
+1. **`kind` field on uttrykk entries: yes** (`idiom` | `ordtak` | `formula`). Optional in the schema, required for entries added or moved into uttrykk from adoption; backfill of existing entries is a separate task (see the `kind` field section).
+2. **Legacy entries:**
+   - **Verb collocations** (`ta vare på`, `ha lyst til`) stay in uttrykk until touched, which keeps the v1 amendment's "no bulk reclassification" stance for them.
+   - **Clear-cut cases** (time expressions such as `i går`, multi-word prepositions and conjunctions such as `i lys av` and `forutsatt at`, fixed adverbial chunks) move in one small reviewed batch, because leaving them would contradict this doc's main rule and invite cross-type duplicates. The candidate scan decides the size: if it finds only a few dozen, do it as one batch; if it finds hundreds, revisit this decision.
+3. **Borderline time phrases** such as `for en stund siden`: decide per entry using the working test, and record each decision in `scripts/reclass/decisions/<level>.jsonl`.
 
-## Adoption checklist
+## Adoption
 
-Do these in order when v2 is approved. Renaming is a single step in the middle, not the first thing done: until step 1, everything still points at v1, which stays valid.
-
-### A. Rename and repoint
-
-1. **Rename v1:** `git mv data-rules/vocab-and-uttrykk.md data-rules/vocab-and-uttrykk-v1.md`. Add a first line to it: `> Superseded by vocab-and-uttrykk-v2.md (adopted YYYY-MM-DD). Kept for history.`
-2. **Update v2's header:** remove the DRAFT status line and add the adoption date.
-3. **Repoint live references to `vocab-and-uttrykk-v2.md`** (found by `grep -rn "vocab-and-uttrykk" --exclude-dir=node_modules --exclude-dir=.git .`, output saved in `scripts/outputs/vocab-and-uttrykk.txt`):
-   - Source: `src/lib/types.ts` (2 places), `src/routes/[level]/[category]/+page.server.ts`, `eslint.config.js`.
-   - Script comments: `check-uttrykk.ts`, `normalise-norsk-field.mjs`, `find_dupes.py`, `merge-to-production.mjs`, `migrate-to-vocab.mjs`, `apply-uttrykk-c-triage.mjs`, `clean-i-samme-baat-vocab.mjs`, `migrate-general-uttrykk-to-vocab.mjs`.
-   - Instructions: `ai-docs/instructions/work-flow.md`, `ai-docs/instructions/image-converter-b1.md`, `ai-docs/instructions/image-converter-c.md`.
-   - Related doc: `data-rules/recommendation.md` (first line says its changes apply to `vocab-and-uttrykk.md`).
-   - Active projects (optional): `draft/b2/pa-niva/implementation/b2-vocab-uttrykk-pa-niva-arbeidsbok.md` and the `draft/c/**/implementation/` docs that name the rules file.
-4. **Leave historical references alone.** `scripts/reclass/decisions/*.jsonl`, the dated logs and workflow docs in `ai-docs/implementation/` (`id-new-format.md`, `vocab-multiple-senses.md`, `vocab-uttrykk-reclassification-workflow-*.md`, `determiner-reclassification.md`, `fix-vocab-uttrykk.md` and similar), `draft/**` validation reports and source lists. They describe what was true under v1. `.svelte-kit/**` is generated; do not edit it.
-
-### B. Rule logic that is not just a path
-
-Renaming does not change the rules embedded in code and prompts. Review and update these for the v2 decisions (time expressions, multi-word prepositions and conjunctions, narrower formula bucket, `ha lyst til`):
-
-5. LLM prompts that carry the vocab/uttrykk rule: `scripts/classify-uttrykk-verbs.mjs` (prompt near line 305), `scripts/classify-vocab-phrases.mjs` (prompt near line 91), `scripts/find-cross-type-duplicates.mjs` (prompt near line 187). Check whether each reads the rules file or only names the path in its text.
-6. `scripts/normalise-norsk-field.mjs` (its header says it mirrors the doc's rules) and `scripts/check-uttrykk.ts` / `scripts/check-vocab.ts` (confirm they do not enforce a classification that v2 changes).
-
-### C. Data
-
-7. **Find existing entries that v2 reclassifies:** in `uttrykk-*.json`, entries such as `i går`, `i morgen`, `i lys av`, `med utgangspunkt i`, `forutsatt at`, other time expressions and fixed prepositional/adverbial chunks (and `ta vare på` / `ha lyst til`, depending on open decision 2). Write a read-only script that lists candidates; do not edit data by hand.
-8. **Move reviewed entries from uttrykk to vocab.** The `id` stays the same (ids are independent of type), so progress rows stay valid. Per the moving rules: set `part` to the right word class, reformat `norsk`/`lemma` for that `part`, and re-check `definition` (write a real one if the source field is an example sentence).
-9. **Check for twins:** run `scripts/find-cross-type-duplicates.mjs` after the moves, and `find_dupes.py` for vocab-side collisions.
-10. **Run the checks:** `pnpm check:ids` and `pnpm check:data`.
-11. **Log the work** as a new follow-up item in `ai-docs/implementation/reclassification-follow-up.md`, with the decisions in `scripts/reclass/decisions/`.
-
-### D. Verify
-
-12. Re-run the grep from step 3. Expected result: the remaining hits are only the historical references from step 4 and `vocab-and-uttrykk-v1.md` itself.
-13. Add a changeset if the data changes ship (`pnpm ch`).
+The steps for adopting this doc (rename v1, repoint references, update rule logic in scripts and prompts, move entries, verify) are in `ai-docs/implementation/vocab-uttrykk-v2-rollout.md`. That plan holds the status, counts and decisions log; this doc holds only the rules.

@@ -1,5 +1,7 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
+  "guide_faq_uttrykk_q": "Що таке uttrykk?",
+  "guide_faq_uttrykk_a": "Uttrykk (норв. «вираз») — це стале словосполучення, яке вивчають цілком, а не слово за словом. Є три види: ідіоми, значення яких не випливає з окремих слів (ha is i magen означає зберігати спокій); ordtak, тобто прислів’я (Morgenstund har gull i munn); і щоденні формули, як-от вітання, ввічливі звороти та готові речення (god morgen, vær så snill). Окремі слова та сталі звороти, що працюють як одне слово (i går, ved siden av), натомість належать до лексики.",
   "stats_study_all_due": "Вивчити всі до повторення ({count})",
   "teaser_heading": "Відкрийте {category} з Norskeord Plus",
   "teaser_benefit": "Відкрийте всі {count} карток з аудіо та прикладами.",

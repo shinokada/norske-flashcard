@@ -1,5 +1,7 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
+  "guide_faq_uttrykk_q": "Hva er et uttrykk?",
+  "guide_faq_uttrykk_a": "Et uttrykk er en fast frase som du lærer som en helhet, ikke ord for ord. Det finnes tre typer: idiomer, der betydningen ikke ligger i ordene (ha is i magen betyr å holde seg rolig); ordtak (Morgenstund har gull i munn); og hverdagsformler som hilsener, høflige fraser og faste setninger (god morgen, vær så snill). Enkeltord og faste fraser som fungerer som ett ord (i går, ved siden av) regnes som vokabular i stedet.",
   "stats_study_all_due": "Repeter alle forfalte ({count})",
   "teaser_heading": "Lås opp {category} med Norskeord Plus",
   "teaser_benefit": "Lås opp alle {count} kortene, med lyd og eksempler.",

@@ -1,5 +1,7 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
+  "guide_faq_uttrykk_q": "¿Qué es un uttrykk?",
+  "guide_faq_uttrykk_a": "Un uttrykk (en noruego, «expresión») es una frase fija que se aprende como un todo, no palabra por palabra. Hay tres tipos: modismos, cuyo significado no está en las palabras (ha is i magen significa mantener la calma); ordtak, o refranes (Morgenstund har gull i munn); y fórmulas cotidianas como saludos, frases de cortesía y oraciones fijas (god morgen, vær så snill). Las palabras sueltas y las frases fijas que funcionan como una sola palabra (i går, ved siden av) cuentan en cambio como vocabulario.",
   "stats_study_all_due": "Estudiar todo lo pendiente ({count})",
   "teaser_heading": "Desbloquea {category} con Norskeord Plus",
   "teaser_benefit": "Desbloquea las {count} tarjetas, con audio y ejemplos.",

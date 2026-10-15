@@ -1,4 +1,4 @@
-The followings are recommendations or changes that can be applied to vocab-and-uttrykk.md.
+The followings are recommendations or changes that can be applied to vocab-and-uttrykk-v2.md.
 
 ## Recommendation 1
 
