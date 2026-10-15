@@ -398,6 +398,8 @@ Same as vocab: `norsk` is the display form, `lemma` is the canonical/dictionary 
 
 Prefer the bare form for idioms cited the way a dictionary would (`ha is i magen`); the `å` form is fine for entries that read naturally as an infinitive phrase (`å ta buss`). Don't normalise existing entries in either direction just for consistency. But never leave `å` in `lemma`: it is used for dedup and FSRS lookup and must match how vocab lemmas are written. When comparing an uttrykk entry against vocab (duplicate checks), ignore a leading `å` on both sides.
 
+**Idioms with interchangeable words: one form, variants in `note`.** When a dictionary lists one idiom with swappable alternatives (`bestemme/vite/fortelle/si hvor skapet skal stå`), cite a single form in `norsk` and `lemma` (the most common one, or the first listed if unsure) and put the others in `note` (`Også: vite, fortelle, si hvor skapet skal stå.`). Never put slashes in `norsk` or `lemma`. A variant gets its own entry only if it differs in meaning or register.
+
 > Amended 2026-09-20 (carried over from v1): an earlier version required the bare form (no `å`) in uttrykk `norsk`. A scan showed `å` in 749 of 1,780 uttrykk entries (`uttrykk-c` 585/916, `-b2` 73/418, `-b1` 63/183, `-a2` 23/156, `-a1` 5/107), so the requirement was dropped in favour of accepting both. `lemma` stays strict. Existing uttrykk entries whose `lemma` still carries `å` (e.g. `w-007966`) are a known cleanup item, see `ai-docs/implementation/reclassification-follow-up.md` §7.
 
 ### Decision rule
