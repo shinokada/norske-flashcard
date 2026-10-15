@@ -1,5 +1,13 @@
 # norske-flashcard
 
+## 2.106.0
+
+### Minor Changes
+
+- - **Content Updates**
+    - Revised Norwegian vocabulary classifications, moving selected time, manner, place, reasoning, and collocational expressions into vocabulary while retaining selected phrases and formulas in the expressions section.
+    - Removed duplicate entries across proficiency levels and selected non-lexical entries. Updated some headwords, grammatical details, categories, and definitions.
+
 ## 2.105.0
 
 ### Minor Changes
