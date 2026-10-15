@@ -380,9 +380,9 @@ Uttrykk therefore holds three kinds of entry: **idioms**, **ordtak** and **commu
 
 - **Optional in the schema** (`src/lib/types.ts`, `check-uttrykk.ts`), so existing entries stay valid.
 - **Required for entries added to uttrykk, or moved into uttrykk, from the day this doc is adopted.**
-- **Existing entries** (1,537 on 2026-10-13) are backfilled in a separate task, in batches of about 50 in the chat session. The backfill does not block the other moves.
+- **Existing entries** (1,537 on 2026-10-13, 1,491 after the v2 rollout, 1,410 of them without a `kind` on 2026-10-14) are backfilled in a separate task, in batches of about 50 in the chat session. The backfill does not block the other moves.
 - **Never on vocab entries.** Remove `kind` when an entry moves uttrykk → vocab.
-- Implementation steps are in `ai-docs/implementation/uttrykk-kind-field.md` (to be written).
+- Implementation steps are in `ai-docs/implementation/uttrykk-kind-field.md`.
 
 ### `norsk` / `lemma` fields
 
@@ -407,15 +407,33 @@ When deciding between vocab and uttrykk, ask, in order:
 1. **Is this a figurative idiom or an ordtak** — non-literal meaning tied to a situation, or a proverb? → **uttrykk**, even if it starts with a conjugating verb.
 2. **Dictionary-headword test: does it have a word class of its own?** (noun, verb, adjective, adverb — including time and manner expressions — preposition, conjunction, pronoun, numeral, interjection; including literal verb + fixed complement frames) → **vocab**.
 3. **Is it primarily a communicative formula** — a greeting, politeness formula, conversational fragment, model sentence or dialogue pair, or discourse marker that works across the conversation rather than inside the clause? → **uttrykk**.
-4. **None of the above** — e.g. a productive copula + adjective, or plain grammar → no standalone card (see below).
+4. **None of the above** — e.g. the bare productive `bli`/`være` + adjective pattern, or plain grammar → no standalone card (see below). A natural collocation built on it can still be a vocab verb (see below).
 
 This is easier to apply consistently than asking whether the meaning is compositional. It resolves the recurring edge cases (reflexive/particle verbs, multi-word prepositions and conjunctions, time expressions) in favor of `vocab`, while keeping genuine idioms, ordtak and communicative formulas in `uttrykk`.
 
-### Neither vocab nor uttrykk: productive copula + adjective
+### Productive copula + adjective: no card for the bare pattern, collocations allowed
 
-`bli`/`være` + a predicative adjective (`bli forelsket`, `bli sulten`, `være glad`) is fully productive Norwegian grammar, not a fixed lexical unit — any adjective can fill the slot. Don't create a standalone card for the combination; make sure the adjective itself has a vocab entry and let `bli`/`være` stand as their own verb entries.
+`bli`/`være` + a freely swappable predicative adjective (`bli sulten`, `være glad`) is productive Norwegian grammar, not a fixed lexical unit: any adjective can fill the slot. Don't create a standalone card for the bare pattern; make sure the adjective itself has a vocab entry and let `bli`/`være` stand as their own verb entries.
 
-Exception: if the combination has drifted to a non-compositional idiomatic meaning beyond "become/be + adjective," it may warrant its own `uttrykk` entry.
+**Collocation allowed (amended 2026-10-14):** a natural, conventional combination that learners say as a whole (`bli forelsket`, `bli gravid`, `være gift`, `bli kjent med`) may be added as a **vocab verb collocation** (`part: verb`, own example, own `definition`), even when the adjective has its own vocab entry. This follows "Collocation entries coexist with their head word" below: the adjective's entry and the collocation are not duplicates. Use it when the combination is the natural way to say the thing; don't add one for every adjective. A combination that has drifted to a non-compositional idiomatic meaning beyond "become/be + adjective" goes to `uttrykk` as an `idiom` instead.
+
+This reverses the earlier "no standalone card" rule for such combinations. Entries deleted under it (for example `er gift` and `er skilt` in `uttrykk-a1`, deleted 2026-10-14) can be re-added as `å være gift` and `å være skilt` if wanted.
+
+### Time and place expressions with a slot: vocab adverbs (amended 2026-10-14)
+
+A fixed time or place expression whose number or noun can be swapped (`i to år`, `om tre dager`, `midt på vinteren`, `for – siden`, `på norskkurs`) is a **vocab adverb** by the headword test above ("adverb — including time and manner expressions"). One card per frame, with its own example that shows the preposition (`i` for duration, `om` for a point ahead). This reverses the rollout's A1/A2 stays that called such frames productive grammar with no card. A stay of that kind is superseded (a `superseded_by` field on its old `v2_stay` line), then logged as a move.
+
+An entry that fits none of idiom, ordtak or formula is not left in uttrykk without a `kind`: rewrite it into the formula it carries (`jul og nyttår` → `God jul og godt nyttår!`), move it to vocab, or delete it.
+
+### Category when an entry moves to vocab: use the example (amended 2026-10-15)
+
+A vocab `category` must be one of the target level's categories (`CATEGORIES_BY_LEVEL` in `src/lib/config.ts`). Many uttrykk entries carry a category that is not a vocab category at that level (`general`, `feelings` at A2, `time-expressions`, `opinion-formulas`, `idioms`, `discourse-markers`, which are uttrykk themes), so a move always picks a new one. Choose in this order:
+
+1. **The `norsk` itself.** If its subject fits one of the level's categories, use it (`å vaske klær` → `house-chores`, `å gå på ski` → `sports`).
+2. **The `example` field, when the `norsk` gives no topic.** Take the subject the example sentence is about, not the headword's grammar. `å ha dårlig smak` has no topic of its own, but its example is about furniture, so `home`. `ikke så mye` is about sugar in its example, so `cooking`. `kan hende` is about arriving late, so `time`.
+3. **The closest level category** if the example gives no better hint either (`å bli lei seg` → `social-life` at A2, which has no `feelings`). Don't use a category from another level, and don't invent one to fit a single entry.
+
+Record in the move's `reason` when the category came from the example or is a stretch, so the user can override it when approving the batch. This does not change the headword test or the `part`; it only picks the `category` field.
 
 ### Collocation entries coexist with their head word (not duplicates)
 
@@ -444,8 +462,10 @@ the reduced canonical `lemma`; anything multi-word keeps `lemma` = `norsk`
 elsewhere.
 
 **What's still a real duplicate, worth deleting:** two entries with the
-_identical_ `norsk`/`lemma` text (a copy-paste accident), not two different
-phrasings or a phrase vs. its head word. `find_dupes.py`'s cross-file/
+_identical_ `norsk`/`lemma` text (a copy-paste accident), or a spelling
+variant of the same phrase (`rett fram` / `rett frem`), not two different
+phrasings or a phrase vs. its head word. A twin at another level counts as a
+duplicate too (keep one; see `scripts/reclass/README.md`, "Resolving a conflict"). `find_dupes.py`'s cross-file/
 within-file duplicate sections catch exact-text repeats; its "normalized
 duplicates" section will keep surfacing head-word/collocation pairs like
 `tåle` vs `tåle kulde` — that's expected noise under this policy, not
