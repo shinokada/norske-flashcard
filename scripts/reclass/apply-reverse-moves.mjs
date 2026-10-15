@@ -89,8 +89,7 @@ for (const d of decisions) {
       JSON.stringify(inVocab[key]) !== JSON.stringify(e[key])
   );
   if (changedKey) {
-    const how =
-      changedKey in e ? (changedKey in inVocab ? 'changed' : 'was removed') : 'was added';
+    const how = changedKey in e ? (changedKey in inVocab ? 'changed' : 'was removed') : 'was added';
     errors.push(
       `${id} "${d.source.norsk}": vocab "${changedKey}" ${how} since the decision was logged (re-log the move)`
     );
