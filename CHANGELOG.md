@@ -1,5 +1,18 @@
 # norske-flashcard
 
+## 2.105.0
+
+### Minor Changes
+
+- - **New Features**
+    - Added a multilingual FAQ explaining _uttrykk_ (expressions), including idioms, proverbs, and everyday formulas, and how they differ from vocabulary.
+  - **Content Updates**
+    - Updated the vocabulary and expression guidelines with clearer classification rules and definition expectations.
+    - Reclassified selected time expressions, adverbials, and multi-word entries as vocabulary; other entries remain in their existing category where appropriate.
+    - Clarified expression types and their labels, and added labels to selected expressions.
+  - **Validation**
+    - Added checks for valid expression labels and to prevent labels on vocabulary entries.
+
 ## 2.104.0
 
 ### Minor Changes
