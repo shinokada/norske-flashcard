@@ -1,5 +1,15 @@
 # norske-flashcard
 
+## 2.107.0
+
+### Minor Changes
+
+- - **Documentation**
+    - Clarified how to record idioms with interchangeable words, including how to choose the main form, where to list alternatives, and when a variant warrants a separate entry.
+  - **Content Updates**
+    - Reclassified collocations and fixed expressions as vocabulary, with updated forms, definitions, translations, examples, and other details.
+    - Revised several phrase classifications and removed duplicate entries across B1 and B2 content, making the vocabulary lists more consistent.
+
 ## 2.106.0
 
 ### Minor Changes
