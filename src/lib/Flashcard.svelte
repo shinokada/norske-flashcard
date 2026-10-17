@@ -33,14 +33,29 @@
 
   const frontDivCls =
     'absolute inset-0 bg-custom-red text-white flex flex-col justify-center items-center';
-  const pClass = 'text-3xl sm:text-5xl p-4 break-words [overflow-wrap:anywhere]';
+  const pBase = 'p-4 break-words [overflow-wrap:anywhere]';
+  // Step the font size down as the text gets longer, so it stays inside the fixed-height card and
+  // clear of the hint (a 130+ character definition at text-5xl overflowed the card). Length is
+  // plain text: the HTML tags that {@html} allows don't count. Keep the class names literal so
+  // Tailwind can see them.
+  function sizeClass(content: string | undefined) {
+    const len = (content ?? '').replace(/<[^>]*>/g, '').length;
+    if (len <= 40) return 'text-3xl sm:text-5xl';
+    if (len <= 80) return 'text-2xl sm:text-4xl';
+    if (len <= 130) return 'text-xl sm:text-3xl';
+    return 'text-lg sm:text-2xl';
+  }
   // Reserve SYMMETRIC vertical room for the hint so the text stays visually centered on the
   // card and long text never runs under the label. On touch the hint is longer
   // ("Tap to flip · Swipe to navigate") and can wrap to two lines (48px + bottom-2 8px = 56px).
   let frontCls = $derived(twMerge(frontDivCls, hint && 'py-10 pointer-coarse:py-14'));
   // On touch devices keep text clear of the edge chevrons (CSS media query, no JS, no reflow).
-  let frontPCls = $derived(twMerge(pClass, edgeInset && 'pointer-coarse:px-9', pFront));
-  let backPCls = $derived(twMerge(pClass, edgeInset && 'pointer-coarse:px-9', pBack));
+  let frontPCls = $derived(
+    twMerge(pBase, sizeClass(front), edgeInset && 'pointer-coarse:px-9', pFront)
+  );
+  let backPCls = $derived(
+    twMerge(pBase, sizeClass(back), edgeInset && 'pointer-coarse:px-9', pBack)
+  );
 
   function limitCharacters(content: string | undefined, limit: number) {
     if (content === undefined) {

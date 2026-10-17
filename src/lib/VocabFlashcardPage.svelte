@@ -1296,11 +1296,23 @@
     width: 100%;
     height: 384px;
     text-align: center;
-    transition: transform 0.4s;
+    transition:
+      transform 0.4s,
+      box-shadow 0.2s;
     transform-style: preserve-3d;
     cursor: pointer;
     user-select: none;
     touch-action: pan-y;
+  }
+  /* Desktop-only hover affordance: a light ring plus a soft shadow. box-shadow rather than
+     transform (the flip owns transform), and behind (hover: hover) so touch devices don't keep
+     a stuck hover style after a tap. */
+  @media (hover: hover) {
+    .flip-box-inner:hover {
+      box-shadow:
+        0 0 0 2px rgb(255 255 255 / 0.35),
+        0 8px 24px rgb(0 0 0 / 0.4);
+    }
   }
   @media (prefers-reduced-motion: reduce) {
     .flip-box-inner {

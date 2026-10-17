@@ -60,6 +60,33 @@ test('free user sees no upsell banner when no cards are due', async ({ page }) =
   await expect(page.getByText('Smart review is a Plus feature')).not.toBeVisible();
 });
 
+// Flip hint (ai-docs/implementation/flashcard-flip-hint-follow-up.md, Phase 4). Both labels are in
+// the HTML and CSS (pointer-coarse) picks one, so the visible one depends on the input device.
+// The default project has no touch, so it sees the desktop label.
+test('front of a flashcard shows "Click to flip" on a desktop pointer', async ({ page }) => {
+  await page.goto('/a1/greetings');
+  await expect(page.getByRole('button', { name: /flashcard showing question/i })).toBeVisible({
+    timeout: 10000
+  });
+  await expect(page.getByText('Click to flip', { exact: true })).toBeVisible();
+  await expect(page.getByText('Tap to flip · Swipe to navigate', { exact: true })).toBeHidden();
+});
+
+// Depends on Playwright's `hasTouch` making Chromium report `(pointer: coarse)`. If this fails
+// on the label while the desktop test passes, check that first before suspecting the CSS.
+test.describe('touch device', () => {
+  test.use({ hasTouch: true });
+
+  test('front of a flashcard shows the tap label instead', async ({ page }) => {
+    await page.goto('/a1/greetings');
+    await expect(page.getByRole('button', { name: /flashcard showing question/i })).toBeVisible({
+      timeout: 10000
+    });
+    await expect(page.getByText('Tap to flip · Swipe to navigate', { exact: true })).toBeVisible();
+    await expect(page.getByText('Click to flip', { exact: true })).toBeHidden();
+  });
+});
+
 test('B1 travel flashcard page loads', async ({ page }) => {
   await page.goto('/b1/travel');
   await expect(page.getByText(/studying:\s*travel/i)).toBeVisible();
