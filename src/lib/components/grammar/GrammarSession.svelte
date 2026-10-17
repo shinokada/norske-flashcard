@@ -215,6 +215,7 @@
   {#if sessionState === 'questioning'}
     <div
       bind:this={questionBox}
+      data-grammar-question
       role="group"
       tabindex="-1"
       aria-label={m.grammar_question_count({ current: currentIndex + 1, total: questions.length })}
