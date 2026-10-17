@@ -378,9 +378,9 @@ Uttrykk therefore holds three kinds of entry: **idioms**, **ordtak** and **commu
 
 `"kind": "idiom" | "ordtak" | "formula"`, using the three kinds from the terminology section. Model sentences and dialogue pairs are `formula`.
 
-- **Optional in the schema** (`src/lib/types.ts`, `check-uttrykk.ts`), so existing entries stay valid.
-- **Required for entries added to uttrykk, or moved into uttrykk, from the day this doc is adopted.**
-- **Existing entries** (1,537 on 2026-10-13, 1,491 after the v2 rollout, 1,410 of them without a `kind` on 2026-10-14) are backfilled in a separate task, in batches of about 50 in the chat session. The backfill does not block the other moves.
+- **Required on every uttrykk entry** (`check-uttrykk.ts` reports a missing `kind` as an error since 2026-10-17). `src/lib/types.ts` still types it as optional (`kind?`), because vocab entries share the same interface.
+- **Required for entries added to uttrykk, or moved into uttrykk.**
+- **Existing entries** were backfilled in batches of about 50 in the chat session (A1–C, finished 2026-10-17: every uttrykk entry has a `kind`; see `ai-docs/implementation/uttrykk-kind-field.md`).
 - **Never on vocab entries.** Remove `kind` when an entry moves uttrykk → vocab.
 - Implementation steps are in `ai-docs/implementation/uttrykk-kind-field.md`.
 
@@ -479,7 +479,7 @@ Identical `norsk` text is **not** a duplicate when every entry in the group has 
 
 Recorded 2026-10-13; they apply once this doc is adopted.
 
-1. **`kind` field on uttrykk entries: yes** (`idiom` | `ordtak` | `formula`). Optional in the schema, required for entries added or moved into uttrykk from adoption; backfill of existing entries is a separate task (see the `kind` field section).
+1. **`kind` field on uttrykk entries: yes** (`idiom` | `ordtak` | `formula`). Required on every uttrykk entry since the backfill finished on 2026-10-17 (`check-uttrykk.ts` errors on a missing `kind`); see the `kind` field section.
 2. **Legacy entries:**
    - **Verb collocations** (`ta vare på`, `ha lyst til`) stay in uttrykk until touched, which keeps the v1 amendment's "no bulk reclassification" stance for them.
    - **Clear-cut cases** (time expressions such as `i går`, multi-word prepositions and conjunctions such as `i lys av` and `forutsatt at`, fixed adverbial chunks) move in one small reviewed batch, because leaving them would contradict this doc's main rule and invite cross-type duplicates. The candidate scan decides the size: if it finds only a few dozen, do it as one batch; if it finds hundreds, revisit this decision.

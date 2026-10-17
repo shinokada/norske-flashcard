@@ -27,9 +27,9 @@
  *  10. Translation coverage — warns if an entry is missing a language that other entries
  *      in the same file have (so newly added languages get flagged automatically).
  *  11. Preview cross-check — entries in preview should also exist in full file (by norsk)
- *  12. kind field — optional; when present it must be "idiom", "ordtak" or "formula"
- *      (data-rules/vocab-and-uttrykk-v2.md). Missing is allowed: existing entries are
- *      backfilled separately, see ai-docs/implementation/vocab-uttrykk-v2-rollout.md Phase 0c.
+ *  12. kind field — required on every entry (since 2026-10-17, when the C backfill finished) and
+ *      must be "idiom", "ordtak" or "formula" (data-rules/vocab-and-uttrykk-v2.md). A missing
+ *      kind is an error; see ai-docs/implementation/uttrykk-kind-field.md Phase 3.
  *
  * Usage:
  *   npx tsx scripts/check-uttrykk.ts            # check all uttrykk files
@@ -222,8 +222,10 @@ function checkFile(filename, level, expectedCategory, isPreview, globalIds, file
       warns.push(`part is "${entry.part}" — uttrykk entries are typically "phrase"`);
     }
 
-    // kind — optional; when present it must be one of the three v2 kinds
-    if (entry.kind !== undefined && !VALID_KINDS.has(entry.kind)) {
+    // kind — required (uttrykk-kind-field.md Phase 3); must be one of the three v2 kinds
+    if (entry.kind === undefined || entry.kind === null || entry.kind === '') {
+      errs.push(`kind is missing — must be one of: ${[...VALID_KINDS].join(', ')}`);
+    } else if (!VALID_KINDS.has(entry.kind)) {
       errs.push(
         `kind ${JSON.stringify(entry.kind)} must be one of: ${[...VALID_KINDS].join(', ')}`
       );

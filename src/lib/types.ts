@@ -63,8 +63,9 @@ export interface VocabEntry {
   note?: string; // free-text usage note (distinct from `definition` — see data-rules/vocab-and-uttrykk-v2.md)
   verb_type?: string; // conjugation class for verbs: 'v1' | 'v2' | 'v3' | 'ureg' or a comma-separated combination, e.g. 'v1, v2'
   /** Uttrykk entries only: idiom, ordtak (proverb) or formula (communicative chunk).
-   *  Optional while existing entries are backfilled; required for entries added or moved
-   *  into uttrykk. Never set on vocab entries. See data-rules/vocab-and-uttrykk-v2.md. */
+   *  Required on every uttrykk entry (check-uttrykk.ts errors on a missing kind since 2026-10-17);
+   *  optional in this shared type because vocab entries use it too. Never set on vocab entries.
+   *  See data-rules/vocab-and-uttrykk-v2.md. */
   kind?: UttrykkKind;
 }
 
