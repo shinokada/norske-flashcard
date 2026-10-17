@@ -1,5 +1,16 @@
 # norske-flashcard
 
+## 2.108.0
+
+### Minor Changes
+
+- - **Content Updates**
+    - Updated selected vocabulary entries with revised forms, parts of speech, definitions, and metadata.
+    - Removed duplicate entries and entries that do not represent lexicalized material.
+    - Linked earlier decisions to the later decisions that supersede them.
+  - **Validation**
+    - Missing `kind` values on expressions are now reported as errors; allowed values are `idiom`, `ordtak`, and `formula`.
+
 ## 2.107.0
 
 ### Minor Changes
