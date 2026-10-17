@@ -1,5 +1,16 @@
 # norske-flashcard
 
+## 2.109.0
+
+### Minor Changes
+
+- - **New Features**
+    - Flashcards now show a "Click to flip" label on desktop and "Tap to flip · Swipe to navigate" on touch devices, in all five languages. The label softens once you have flipped a card, and the first card wiggles once for new users.
+    - On touch devices, faint edge chevrons show that swiping moves to the previous or next card.
+    - On desktop, the card gets a light ring and shadow on hover.
+  - **Improvements**
+    - Long definitions and phrases now use a smaller font, so they stay inside the card and clear of the label.
+
 ## 2.108.0
 
 ### Minor Changes
