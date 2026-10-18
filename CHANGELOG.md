@@ -1,5 +1,18 @@
 # norske-flashcard
 
+## 2.110.0
+
+### Minor Changes
+
+- - **New Features**
+    - Grammar questions can be answered with keyboard shortcuts, with hints showing available keys.
+  - **Bug Fixes**
+    - Prevented repeat submissions while a grammar answer is being processed.
+  - **Content Updates**
+    - Reclassified some vocabulary and expressions.
+  - **Removed**
+    - Removed FAQ information about Norwegian lesson emails, including how to enable them.
+
 ## 2.109.0
 
 ### Minor Changes
