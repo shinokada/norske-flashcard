@@ -954,5 +954,6 @@
   "grammar_practice_load_error": "Die Übungsfragen konnten nicht geladen werden. Bitte versuche es erneut.",
   "quiz_start_load_error": "Die Quizfragen konnten nicht geladen werden. Bitte versuche es erneut.",
   "level_nav_go_to": "Zu {level} ({name})",
-  "level_nav_label": "Niveaunavigation"
+  "level_nav_label": "Niveaunavigation",
+  "grammar_save_failed": "Dein Fortschritt konnte nicht gespeichert werden. Du kannst weiter üben, er geht aber möglicherweise verloren, wenn du die Seite neu lädst."
 }

@@ -954,5 +954,6 @@
   "grammar_practice_load_error": "Kunne ikke laste øvingsspørsmålene. Prøv igjen.",
   "quiz_start_load_error": "Kunne ikke laste quizspørsmålene. Prøv igjen.",
   "level_nav_go_to": "Gå til {level} ({name})",
-  "level_nav_label": "Nivånavigasjon"
+  "level_nav_label": "Nivånavigasjon",
+  "grammar_save_failed": "Fremgangen din kunne ikke lagres. Du kan fortsette å øve, men den kan gå tapt hvis du laster siden på nytt."
 }

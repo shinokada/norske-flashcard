@@ -954,5 +954,6 @@
   "grammar_practice_load_error": "Couldn't load the practice questions. Please try again.",
   "quiz_start_load_error": "Couldn't load the quiz questions. Please try again.",
   "level_nav_go_to": "Go to {level} ({name})",
-  "level_nav_label": "Level navigation"
+  "level_nav_label": "Level navigation",
+  "grammar_save_failed": "Your progress couldn't be saved. You can keep practising, but it may be lost if you reload."
 }

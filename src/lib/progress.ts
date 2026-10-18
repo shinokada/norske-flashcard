@@ -655,9 +655,20 @@ export function getDueGrammarItems(
 }
 
 /**
+ * Result of saveGrammarProgress: the updated in-memory map (always updated, so the
+ * session keeps working) plus whether the write to persistent storage succeeded.
+ */
+export interface GrammarSaveResult {
+  progress: Record<string, CardProgress>;
+  /** false when the Supabase upsert or the localStorage write failed. */
+  saved: boolean;
+}
+
+/**
  * Computes the next FSRS state for a grammar question and persists it.
  * Plus users (userId present) write to grammar_progress; guest/free users
- * write to localStorage. Returns the updated map keyed by question.id.
+ * write to localStorage. Returns the updated map keyed by question.id and
+ * whether persistence succeeded (the map is updated either way).
  */
 export async function saveGrammarProgress(
   question: GrammarQuestion,
@@ -665,7 +676,7 @@ export async function saveGrammarProgress(
   progressMap: Record<string, CardProgress>,
   userId?: string | null,
   retention?: number | null
-): Promise<Record<string, CardProgress>> {
+): Promise<GrammarSaveResult> {
   const now = new Date();
   const existing = progressMap[question.id] ?? null;
   const card = existing ? existing.fsrs : createEmptyCard(now);
@@ -686,6 +697,7 @@ export async function saveGrammarProgress(
   if (userId) {
     // Plus: grammar_progress table only — no localStorage
     void recordStudyDay(userId);
+    let saved = true;
     try {
       const { error } = await supabase
         .from('grammar_progress')
@@ -693,21 +705,27 @@ export async function saveGrammarProgress(
           { user_id: userId, ...toGrammarRow(question, updated) },
           { onConflict: 'user_id,question_id' }
         );
-      if (error) console.error('saveGrammarProgress: upsert failed', error);
+      if (error) {
+        saved = false;
+        console.error('saveGrammarProgress: upsert failed', error);
+      }
     } catch (error) {
       // In-memory map is still correct for this session
+      saved = false;
       console.error('saveGrammarProgress: upsert threw', error);
     }
-    return { ...progressMap, [question.id]: updated };
+    return { progress: { ...progressMap, [question.id]: updated }, saved };
   } else {
     // Guest / free: localStorage only
+    let saved = true;
     try {
       localStorage.setItem(GRAMMAR_LS_PREFIX + question.id, JSON.stringify(updated));
     } catch (error) {
       // Quota or private mode: keep the session working with the in-memory map
+      saved = false;
       console.error('saveGrammarProgress: localStorage write failed', error);
     }
-    return { ...progressMap, [question.id]: updated };
+    return { progress: { ...progressMap, [question.id]: updated }, saved };
   }
 }
 

@@ -3,12 +3,14 @@ import { createEmptyCard, Rating } from 'ts-fsrs';
 import {
   loadProgressMap,
   saveProgress,
+  saveGrammarProgress,
   countDueToday,
   previewIntervals,
   getFsrs,
-  LS_PREFIX
+  LS_PREFIX,
+  GRAMMAR_LS_PREFIX
 } from './progress';
-import type { VocabEntry } from '$lib/types';
+import type { VocabEntry, GrammarQuestion } from '$lib/types';
 
 // ── localStorage mock ─────────────────────────────────────────────────────────
 
@@ -171,6 +173,48 @@ describe('saveProgress', () => {
     for (const rating of ['again', 'hard', 'good', 'easy'] as const) {
       await expect(saveProgress(entry, rating, {})).resolves.not.toThrow();
     }
+  });
+});
+
+// ── saveGrammarProgress ───────────────────────────────────────────────────────
+
+describe('saveGrammarProgress', () => {
+  // Only id, topic and cefr are read by saveGrammarProgress.
+  const question = {
+    id: 'g-test-001',
+    topic: 'word-order',
+    cefr: 'A1'
+  } as unknown as GrammarQuestion;
+
+  it('reports saved: true and persists to localStorage on success', async () => {
+    const { progress, saved } = await saveGrammarProgress(question, 'good', {});
+    expect(saved).toBe(true);
+    expect(progress[question.id].seenCount).toBe(1);
+    expect(localStorage.getItem(GRAMMAR_LS_PREFIX + question.id)).not.toBeNull();
+  });
+
+  it('reports saved: false but keeps the in-memory progress when localStorage throws', async () => {
+    const errorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+    vi.stubGlobal('localStorage', {
+      ...localStorage,
+      setItem: () => {
+        throw new DOMException('quota exceeded', 'QuotaExceededError');
+      }
+    });
+
+    const { progress, saved } = await saveGrammarProgress(question, 'good', {});
+
+    expect(saved).toBe(false);
+    expect(progress[question.id]).toBeDefined();
+    expect(progress[question.id].seenCount).toBe(1);
+    errorSpy.mockRestore();
+  });
+
+  it('does not mutate the original progressMap', async () => {
+    const original = {};
+    const { progress } = await saveGrammarProgress(question, 'good', original);
+    expect(original).toEqual({});
+    expect(progress[question.id]).toBeDefined();
   });
 });
 
