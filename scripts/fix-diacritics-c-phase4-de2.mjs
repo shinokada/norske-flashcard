@@ -32,26 +32,62 @@ const WRITE = process.argv.includes('--write');
 
 const MAP = {
   // words the dictionary accepted, or plain umlaut losses
-  spurte: 'spürte', ware: 'wäre', gelahmt: 'gelähmt', Luge: 'Lüge', Lugen: 'Lügen',
-  Tranen: 'Tränen', Kalte: 'Kälte', Hohe: 'Höhe', Starke: 'Stärke', qualkten: 'quälten',
+  spurte: 'spürte',
+  ware: 'wäre',
+  gelahmt: 'gelähmt',
+  Luge: 'Lüge',
+  Lugen: 'Lügen',
+  Tranen: 'Tränen',
+  Kalte: 'Kälte',
+  Hohe: 'Höhe',
+  Starke: 'Stärke',
+  qualkten: 'quälten',
   // compounds and rare words
-  Angelgluck: 'Angelglück', Eroffnungszeile: 'Eröffnungszeile', Fingerknochel: 'Fingerknöchel',
-  Fruhgeborene: 'Frühgeborene', Hefegeback: 'Hefegebäck', hinuberwandern: 'hinüberwandern',
-  naherkam: 'näherkam', Pflegekraften: 'Pflegekräften', pflichterfullend: 'pflichterfüllend',
-  Purzelbaume: 'Purzelbäume', Quantenverschrankung: 'Quantenverschränkung',
-  Ruckwartsgang: 'Rückwärtsgang', Schlusselperson: 'Schlüsselperson',
-  sudnorwegischen: 'südnorwegischen', taubgefuhlt: 'taubgefühlt', uberhandnehmen: 'überhandnehmen',
-  vorwartskampfen: 'vorwärtskämpfen', vorwartsschlagen: 'vorwärtsschlagen',
-  vorzukampfen: 'vorzukämpfen', durchkampfen: 'durchkämpfen', Volksmarchen: 'Volksmärchen',
-  Mopkopfe: 'Mopköpfe', Himmelsgewolbe: 'Himmelsgewölbe', Eisenstuhle: 'Eisenstühle',
-  Grasbushel: 'Grasbüschel', Grasbundel: 'Grasbündel', Unterflache: 'Unterfläche',
-  Prufungsdatum: 'Prüfungsdatum', uberweltigend: 'überwältigend', gefraessig: 'gefräßig',
-  groessten: 'größten', Fleischbaellchen: 'Fleischbällchen',
+  Angelgluck: 'Angelglück',
+  Eroffnungszeile: 'Eröffnungszeile',
+  Fingerknochel: 'Fingerknöchel',
+  Fruhgeborene: 'Frühgeborene',
+  Hefegeback: 'Hefegebäck',
+  hinuberwandern: 'hinüberwandern',
+  naherkam: 'näherkam',
+  Pflegekraften: 'Pflegekräften',
+  pflichterfullend: 'pflichterfüllend',
+  Purzelbaume: 'Purzelbäume',
+  Quantenverschrankung: 'Quantenverschränkung',
+  Ruckwartsgang: 'Rückwärtsgang',
+  Schlusselperson: 'Schlüsselperson',
+  sudnorwegischen: 'südnorwegischen',
+  taubgefuhlt: 'taubgefühlt',
+  uberhandnehmen: 'überhandnehmen',
+  vorwartskampfen: 'vorwärtskämpfen',
+  vorwartsschlagen: 'vorwärtsschlagen',
+  vorzukampfen: 'vorzukämpfen',
+  durchkampfen: 'durchkämpfen',
+  Volksmarchen: 'Volksmärchen',
+  Mopkopfe: 'Mopköpfe',
+  Himmelsgewolbe: 'Himmelsgewölbe',
+  Eisenstuhle: 'Eisenstühle',
+  Grasbushel: 'Grasbüschel',
+  Grasbundel: 'Grasbündel',
+  Unterflache: 'Unterfläche',
+  Prufungsdatum: 'Prüfungsdatum',
+  uberweltigend: 'überwältigend',
+  gefraessig: 'gefräßig',
+  groessten: 'größten',
+  Fleischbaellchen: 'Fleischbällchen',
   // typos
-  bestatigste: 'bestätigte', wurdenvoll: 'würdevoll', gruSte: 'grüßte', fruih: 'früh',
-  prasgen: 'prägen', puntklich: 'pünktlich', Strase: 'Straße', Glasssplitter: 'Glassplitter',
-  aufegen: 'aufregen', schlangte: 'schlängelte', angestauerter: 'angestauter',
-  Schlussellochs: 'Schlüsselloch',
+  bestatigste: 'bestätigte',
+  wurdenvoll: 'würdevoll',
+  gruSte: 'grüßte',
+  fruih: 'früh',
+  prasgen: 'prägen',
+  puntklich: 'pünktlich',
+  Strase: 'Straße',
+  Glasssplitter: 'Glassplitter',
+  aufegen: 'aufregen',
+  schlangte: 'schlängelte',
+  angestauerter: 'angestauter',
+  Schlussellochs: 'Schlüsselloch'
 };
 
 const OVERRIDES = [
@@ -74,7 +110,7 @@ const OVERRIDES = [
   ['w-006178', 'german', 'qualen', 'quälen', 'qualen; peinigen'],
   ['w-009344', 'german', 'halt', 'hält', 'Eis halt das'],
   ['w-005977', 'example_german', 'Stuck', 'Stücke', 'in Stuck'],
-  ['w-006179', 'example_german', 'Fallen', 'Fällen', 'in vielen Fallen'],
+  ['w-006179', 'example_german', 'Fallen', 'Fällen', 'in vielen Fallen']
 ];
 
 const WORD = /[A-Za-zÄÖÜäöüß]+/g;
@@ -88,15 +124,20 @@ function applyOverride(entry, field, ov, n) {
   const s = entry[field];
   const at = s.indexOf(snippet);
   if (at < 0 || s.indexOf(snippet, at + 1) >= 0) {
-    problems.push(`#${n} ${ov[0]} ${field}: snippet "${snippet}" found ${at < 0 ? 0 : 'more than 1'} time(s)`);
+    problems.push(
+      `#${n} ${ov[0]} ${field}: snippet "${snippet}" found ${at < 0 ? 0 : 'more than 1'} time(s)`
+    );
     return s;
   }
   const hits = [];
   for (const m of s.matchAll(WORD)) {
-    if (m[0] === from && m.index >= at && m.index + from.length <= at + snippet.length) hits.push(m.index);
+    if (m[0] === from && m.index >= at && m.index + from.length <= at + snippet.length)
+      hits.push(m.index);
   }
   if (hits.length !== 1) {
-    problems.push(`#${n} ${ov[0]} ${field}: "${from}" matched ${hits.length} time(s) in snippet "${snippet}"`);
+    problems.push(
+      `#${n} ${ov[0]} ${field}: "${from}" matched ${hits.length} time(s) in snippet "${snippet}"`
+    );
     return s;
   }
   ovDone.add(n);
@@ -109,7 +150,7 @@ for (const rel of FILES) {
   const raw = readFileSync(path, 'utf8');
   const data = JSON.parse(raw);
   const list = Array.isArray(data) ? data : Object.values(data).find(Array.isArray);
-  const indent = raw.match(/^[\[{]\n( +)/)?.[1].length ?? 2;
+  const indent = raw.match(/^[[{]\n( +)/)?.[1].length ?? 2;
   const tail = raw.endsWith('\n') ? '\n' : '';
   if (JSON.stringify(data, null, indent) + tail !== raw) {
     console.error(`❌ ${rel}: round-trip changes the file formatting, aborting (nothing written).`);
@@ -140,17 +181,23 @@ for (const rel of FILES) {
   loaded.push({ path, data, indent, tail });
 }
 OVERRIDES.forEach((ov, n) => {
-  if (!ovDone.has(n) && !problems.some((p) => p.startsWith(`#${n} `))) problems.push(`#${n} ${ov[0]} ${ov[1]}: entry or field not found`);
+  if (!ovDone.has(n) && !problems.some((p) => p.startsWith(`#${n} `)))
+    problems.push(`#${n} ${ov[0]} ${ov[1]}: entry or field not found`);
 });
 const unused = Object.keys(MAP).filter((k) => !used.has(k));
-console.log(`total: ${total} field(s), ${[...used.values()].reduce((a, b) => a + b, 0)} MAP token(s) + ${ovDone.size}/${OVERRIDES.length} override(s)`);
+console.log(
+  `total: ${total} field(s), ${[...used.values()].reduce((a, b) => a + b, 0)} MAP token(s) + ${ovDone.size}/${OVERRIDES.length} override(s)`
+);
 if (unused.length) console.log(`MAP keys never matched (${unused.length}): ${unused.join(', ')}`);
 if (problems.length) {
-  console.error(`❌ ${problems.length} override problem(s), nothing written:\n  ${problems.join('\n  ')}`);
+  console.error(
+    `❌ ${problems.length} override problem(s), nothing written:\n  ${problems.join('\n  ')}`
+  );
   process.exit(1);
 }
 if (WRITE) {
-  for (const { path, data, indent, tail } of loaded) writeFileSync(path, JSON.stringify(data, null, indent) + tail);
+  for (const { path, data, indent, tail } of loaded)
+    writeFileSync(path, JSON.stringify(data, null, indent) + tail);
   console.log('✅ written');
 } else {
   console.log('dry run only, nothing written (add --write)');
