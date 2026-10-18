@@ -619,8 +619,6 @@
   "guide_faq_reminder_a": "A browser push notification sent once a day to remind you to study. To enable it, go to Profile → Notifications → Daily study reminder. Your browser will ask for permission the first time.",
   "guide_faq_no_reminder_q": "I enabled the reminder but nothing arrives. Why?",
   "guide_faq_no_reminder_a": "Check that your browser is allowed to send notifications in your OS settings (System Settings → Notifications). On iPhone, notifications only work if you have added Norskeord to your home screen first (Share → Add to Home Screen).",
-  "guide_faq_emails_q": "What are Norwegian lesson emails?",
-  "guide_faq_emails_a": "Biweekly emails with a short Norwegian text, a vocabulary list, and exercises — matched to your level. Available to Plus members. Enable it under Profile → Notifications.",
   "guide_faq_sync_q": "My progress isn't showing on my other device.",
   "guide_faq_sync_a": "Progress syncs across devices for Plus members. Free accounts store progress on the current device only.",
   "guide_faq_sync_cta": "Upgrade to Plus →",

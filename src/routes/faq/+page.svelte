@@ -29,11 +29,6 @@
     },
     {
       id: 5,
-      question: m.guide_faq_emails_q(),
-      answer: m.guide_faq_emails_a()
-    },
-    {
-      id: 6,
       question: m.guide_faq_sync_q(),
       answer: m.guide_faq_sync_a(),
       cta: {
@@ -42,33 +37,33 @@
       }
     },
     {
-      id: 7,
+      id: 6,
       question: m.guide_faq_offline_q(),
       answer: m.guide_faq_offline_a()
     },
     {
-      id: 8,
+      id: 7,
       question: m.guide_faq_prefs_q(),
       answer: m.guide_faq_prefs_a()
     },
     {
-      id: 9,
+      id: 8,
       question: m.guide_faq_intensity_q(),
       answer: m.guide_faq_intensity_a()
     },
     {
-      id: 10,
+      id: 9,
       question: m.guide_faq_download_q(),
       answer: m.guide_faq_download_a(),
       badge: m.faq_badge_plus()
     },
     {
-      id: 11,
+      id: 10,
       question: m.guide_faq_uttrykk_q(),
       answer: m.guide_faq_uttrykk_a()
     },
     {
-      id: 12,
+      id: 11,
       question: m.guide_faq_contact_q(),
       answer: m.guide_faq_contact_a(),
       cta: {

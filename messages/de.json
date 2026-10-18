@@ -619,8 +619,6 @@
   "guide_faq_reminder_a": "Eine Browser-Push-Benachrichtigung, die einmal täglich gesendet wird, um dich ans Lernen zu erinnern. Um sie zu aktivieren, gehe zu Profil → Benachrichtigungen → Tägliche Lernerinnerung. Dein Browser fragt beim ersten Mal nach der Erlaubnis.",
   "guide_faq_no_reminder_q": "Ich habe die Erinnerung aktiviert, aber es kommt nichts an. Warum?",
   "guide_faq_no_reminder_a": "Überprüfe, ob dein Browser in den Systemeinstellungen Benachrichtigungen senden darf (Systemeinstellungen → Benachrichtigungen). Auf dem iPhone funktionieren Benachrichtigungen nur, wenn du Norskeord zuerst zum Home-Bildschirm hinzugefügt hast (Teilen → Zum Home-Bildschirm).",
-  "guide_faq_emails_q": "Was sind norwegische Lektions-E-Mails?",
-  "guide_faq_emails_a": "Zweiwöchentliche E-Mails mit einem kurzen norwegischen Text, einer Vokabelliste und Übungen – passend zu deinem Niveau. Für Plus-Mitglieder verfügbar. Aktivieren unter Profil → Benachrichtigungen.",
   "guide_faq_sync_q": "Mein Fortschritt wird auf meinem anderen Gerät nicht angezeigt.",
   "guide_faq_sync_a": "Für Plus-Mitglieder wird der Fortschritt geräteübergreifend synchronisiert. Kostenlose Konten speichern den Fortschritt nur auf dem aktuellen Gerät.",
   "guide_faq_sync_cta": "Auf Plus upgraden →",
