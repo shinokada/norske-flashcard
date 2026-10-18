@@ -86,6 +86,8 @@
   let results = $state<GrammarResult[]>([]);
   let isCorrect = $state<boolean | null>(null);
   let userAnswer = $state('');
+  // Set once any save fails in this session; cleared on restart. Progress stays in memory.
+  let saveFailed = $state(false);
 
   let isPlus = $derived(page.data.plan === 'plus');
   let userId = $derived(isPlus ? (page.data.user?.id ?? null) : null);
@@ -115,6 +117,7 @@
     results = [];
     isCorrect = null;
     userAnswer = '';
+    saveFailed = false;
     phase = questions.length > 0 ? 'questioning' : 'empty';
   }
 
@@ -164,7 +167,15 @@
     isCorrect = correct;
     if (correct) correctCount++;
     results = [...results, { question: current, correct, userAnswer }];
-    progressMap = await saveGrammarProgress(current, rating, progressMap, userId, fsrsRetention);
+    const saveResult = await saveGrammarProgress(
+      current,
+      rating,
+      progressMap,
+      userId,
+      fsrsRetention
+    );
+    progressMap = saveResult.progress;
+    if (!saveResult.saved) saveFailed = true;
     phase = 'revealing';
   }
 
@@ -236,6 +247,15 @@
         ></div>
       </div>
     </div>
+
+    {#if saveFailed}
+      <p
+        role="status"
+        class="mb-4 rounded-lg border border-amber-300 bg-amber-50 px-3 py-2 text-sm text-amber-900 dark:border-amber-700 dark:bg-amber-950/40 dark:text-amber-200"
+      >
+        {m.grammar_save_failed()}
+      </p>
+    {/if}
 
     {#if phase === 'questioning'}
       <div

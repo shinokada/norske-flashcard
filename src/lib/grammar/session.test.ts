@@ -359,7 +359,7 @@ describe('topicLevels', () => {
 describe('saveGrammarProgress + loadGrammarProgressMap', () => {
   it('persists and rehydrates a grammar question keyed by id', async () => {
     const q = makeQuestion();
-    const map = await saveGrammarProgress(q, 'good', {}, null);
+    const { progress: map } = await saveGrammarProgress(q, 'good', {}, null);
     expect(map[q.id].seenCount).toBe(1);
     expect(localStorage.getItem(GRAMMAR_LS_PREFIX + q.id)).not.toBeNull();
 
@@ -370,8 +370,8 @@ describe('saveGrammarProgress + loadGrammarProgressMap', () => {
 
   it('increments seenCount across ratings', async () => {
     const q = makeQuestion();
-    let map = await saveGrammarProgress(q, 'good', {}, null);
-    map = await saveGrammarProgress(q, 'again', map, null);
+    let { progress: map } = await saveGrammarProgress(q, 'good', {}, null);
+    ({ progress: map } = await saveGrammarProgress(q, 'again', map, null));
     expect(map[q.id].seenCount).toBe(2);
   });
 

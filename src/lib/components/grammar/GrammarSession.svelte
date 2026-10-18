@@ -54,6 +54,8 @@
   let userAnswer = $state('');
   let questionBox = $state<HTMLElement | null>(null);
   let summaryBox = $state<HTMLElement | null>(null);
+  // Set once any save fails in this session; cleared on restart. Progress stays in memory.
+  let saveFailed = $state(false);
 
   // FSRS review-intensity preset from layout server (0.8/0.9/0.95, or null for
   // default Standard). Only meaningful when userId is set (Plus users).
@@ -87,6 +89,7 @@
     results = [];
     isCorrect = null;
     userAnswer = '';
+    saveFailed = false;
     sessionState = questions.length > 0 ? 'questioning' : 'summary';
   }
 
@@ -108,15 +111,32 @@
     focusOptionQuestion();
   }
 
+  // Plain flag, not $state: no UI depends on it. Blocks a second A/B/C key or click
+  // while a Plus save is pending (sessionState stays 'questioning' until it finishes).
+  let submitting = false;
+
   async function submit(answer: string) {
-    if (!current || sessionState !== 'questioning') return;
-    const { correct, rating } = gradeGrammarAnswer(answer, current);
-    userAnswer = answer.trim();
-    isCorrect = correct;
-    if (correct) correctCount++;
-    results = [...results, { question: current, correct, userAnswer }];
-    progressMap = await saveGrammarProgress(current, rating, progressMap, userId, fsrsRetention);
-    sessionState = 'revealing';
+    if (!current || sessionState !== 'questioning' || submitting) return;
+    submitting = true;
+    try {
+      const { correct, rating } = gradeGrammarAnswer(answer, current);
+      userAnswer = answer.trim();
+      isCorrect = correct;
+      if (correct) correctCount++;
+      results = [...results, { question: current, correct, userAnswer }];
+      const saveResult = await saveGrammarProgress(
+        current,
+        rating,
+        progressMap,
+        userId,
+        fsrsRetention
+      );
+      progressMap = saveResult.progress;
+      if (!saveResult.saved) saveFailed = true;
+      sessionState = 'revealing';
+    } finally {
+      submitting = false;
+    }
   }
 
   async function next() {
@@ -212,9 +232,19 @@
     </div>
   </div>
 
+  {#if saveFailed}
+    <p
+      role="status"
+      class="mb-4 rounded-lg border border-amber-300 bg-amber-50 px-3 py-2 text-sm text-amber-900 dark:border-amber-700 dark:bg-amber-950/40 dark:text-amber-200"
+    >
+      {m.grammar_save_failed()}
+    </p>
+  {/if}
+
   {#if sessionState === 'questioning'}
     <div
       bind:this={questionBox}
+      data-grammar-question
       role="group"
       tabindex="-1"
       aria-label={m.grammar_question_count({ current: currentIndex + 1, total: questions.length })}

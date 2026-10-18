@@ -616,8 +616,6 @@
   "guide_faq_reminder_a": "Una notificación push del navegador que se envía una vez al día para recordarte que estudies. Para activarla, ve a Perfil → Notificaciones → Recordatorio diario de estudio. Tu navegador pedirá permiso la primera vez.",
   "guide_faq_no_reminder_q": "Activé el recordatorio pero no llega nada. ¿Por qué?",
   "guide_faq_no_reminder_a": "Comprueba que tu navegador tenga permiso para enviar notificaciones en los ajustes del sistema operativo (Configuración del sistema → Notificaciones). En iPhone, las notificaciones solo funcionan si primero has añadido Norskeord a tu pantalla de inicio (Compartir → Añadir a pantalla de inicio).",
-  "guide_faq_emails_q": "¿Qué son los correos de lecciones de noruego?",
-  "guide_faq_emails_a": "Correos quincenales con un texto corto en noruego, una lista de vocabulario y ejercicios — adaptados a tu nivel. Disponibles para miembros Plus. Actívalos en Perfil → Notificaciones.",
   "guide_faq_sync_q": "Mi progreso no aparece en mi otro dispositivo.",
   "guide_faq_sync_a": "El progreso se sincroniza entre dispositivos para los miembros Plus. Las cuentas gratuitas solo guardan el progreso en el dispositivo actual.",
   "guide_faq_sync_cta": "Pasarse a Plus →",
@@ -956,5 +954,6 @@
   "grammar_practice_load_error": "No se pudieron cargar las preguntas de práctica. Inténtalo de nuevo.",
   "quiz_start_load_error": "No se pudieron cargar las preguntas del quiz. Inténtalo de nuevo.",
   "level_nav_go_to": "Ir a {level} ({name})",
-  "level_nav_label": "Navegación de niveles"
+  "level_nav_label": "Navegación de niveles",
+  "grammar_save_failed": "No se pudo guardar tu progreso. Puedes seguir practicando, pero podría perderse si recargas la página."
 }

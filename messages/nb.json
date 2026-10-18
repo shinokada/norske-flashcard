@@ -619,8 +619,6 @@
   "guide_faq_reminder_a": "En nettleserpush-varsel sendt én gang om dagen for å minne deg på å studere. For å aktivere den, gå til Profil → Varsler → Daglig studiepåminnelse. Nettleseren din vil be om tillatelse første gang.",
   "guide_faq_no_reminder_q": "Jeg aktiverte påminnelsen, men ingenting kommer. Hvorfor?",
   "guide_faq_no_reminder_a": "Sjekk at nettleseren din har tillatelse til å sende varsler i OS-innstillingene (Systeminnstillinger → Varsler). På iPhone fungerer varsler bare hvis du har lagt til Norskeord på hjemskjermen først (Del → Legg til på hjemskjerm).",
-  "guide_faq_emails_q": "Hva er norske leksjonse-poster?",
-  "guide_faq_emails_a": "E-poster annenhver uke med en kort norsk tekst, en ordliste og øvelser – tilpasset ditt nivå. Tilgjengelig for Plus-medlemmer. Aktiver det under Profil → Varsler.",
   "guide_faq_sync_q": "Fremgangen min vises ikke på den andre enheten.",
   "guide_faq_sync_a": "Fremgang synkroniseres på tvers av enheter for Plus-medlemmer. Gratiskontoer lagrer fremgang kun på gjeldende enhet.",
   "guide_faq_sync_cta": "Oppgrader til Plus →",
@@ -956,5 +954,6 @@
   "grammar_practice_load_error": "Kunne ikke laste øvingsspørsmålene. Prøv igjen.",
   "quiz_start_load_error": "Kunne ikke laste quizspørsmålene. Prøv igjen.",
   "level_nav_go_to": "Gå til {level} ({name})",
-  "level_nav_label": "Nivånavigasjon"
+  "level_nav_label": "Nivånavigasjon",
+  "grammar_save_failed": "Fremgangen din kunne ikke lagres. Du kan fortsette å øve, men den kan gå tapt hvis du laster siden på nytt."
 }
