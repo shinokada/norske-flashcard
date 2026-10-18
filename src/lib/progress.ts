@@ -687,19 +687,26 @@ export async function saveGrammarProgress(
     // Plus: grammar_progress table only — no localStorage
     void recordStudyDay(userId);
     try {
-      await supabase
+      const { error } = await supabase
         .from('grammar_progress')
         .upsert(
           { user_id: userId, ...toGrammarRow(question, updated) },
           { onConflict: 'user_id,question_id' }
         );
-    } catch {
-      // Silent failure — in-memory map is still correct for this session
+      if (error) console.error('saveGrammarProgress: upsert failed', error);
+    } catch (error) {
+      // In-memory map is still correct for this session
+      console.error('saveGrammarProgress: upsert threw', error);
     }
     return { ...progressMap, [question.id]: updated };
   } else {
     // Guest / free: localStorage only
-    localStorage.setItem(GRAMMAR_LS_PREFIX + question.id, JSON.stringify(updated));
+    try {
+      localStorage.setItem(GRAMMAR_LS_PREFIX + question.id, JSON.stringify(updated));
+    } catch (error) {
+      // Quota or private mode: keep the session working with the in-memory map
+      console.error('saveGrammarProgress: localStorage write failed', error);
+    }
     return { ...progressMap, [question.id]: updated };
   }
 }
