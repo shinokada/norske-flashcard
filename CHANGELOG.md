@@ -1,5 +1,11 @@
 # norske-flashcard
 
+## 2.111.1
+
+### Patch Changes
+
+- chore: bump data submodule
+
 ## 2.111.0
 
 ### Minor Changes
