@@ -1,5 +1,11 @@
 # norske-flashcard
 
+## 2.111.0
+
+### Minor Changes
+
+- feat: add 83 uttrykk
+
 ## 2.110.0
 
 ### Minor Changes
