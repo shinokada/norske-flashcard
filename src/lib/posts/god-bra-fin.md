@@ -1,9 +1,9 @@
 ---
-title: 'God vs bra vs fin — Hvilket «god» mener du?'
-description: 'Norsk har flere ord som oversetter «god» — og feil valg høres rart ut. god handler om kvalitet, bra er generelt, fin betyr hyggelig eller pen, og flink betyr dyktig.'
-slug: god-bra-fin
+title: 'God vs Bra vs Grei — Når «bra» blir til «greit»'
+description: 'God og bra er omtrent like sterke, men bøyes ulikt og passer til ulike ting. Grei betyr akseptabelt, eller sympatisk om en person.'
+slug: god-bra-grei
 cefr: A2
-publishedAt: 2026-05-27
+publishedAt: 2026-05-30
 updatedAt: 2026-10-22
 tags: [adjectives, vocabulary]
 decks:
@@ -15,128 +15,132 @@ decks:
     label: A1 Adjectives
 ---
 
-> **Kort sagt:** Engelsk bruker "good" om nesten alt. På norsk må du velge: _god_ (kvalitet/smak), _bra_ (generelt positivt), _fin_ (pen/hyggelig), _flink_ (dyktig).
-
-## God — kvalitet, smak og varme
-
-**God** brukes om ting med **høy kvalitet**, god smak, eller varme og snille mennesker.
-
-**1. Kaken er god.**
-→ Det naturlige ordet for smak og matkvalitet.
-
-**2. Hun er et godt menneske.**
-→ Varm og snill — god beskriver karakter.
-
-**3. Vi hadde en god samtale.**
-→ Meningsfull og dyp — ikke bare hyggelig.
+> **Kort sagt:** **God** og **bra** er begge positive og omtrent like sterke. Forskjellen er at **god** bøyes (_godt, gode_) og at **bra** ikke gjør det. **Grei** er et trinn ned: akseptabelt, men ikke noe mer.
 
 ---
 
-## Bra — det allsidige hverdagsordet
+## Skalaen
 
-**Bra** er det vanligste og mest allsidige ordet. Bruk det når du er i tvil.
+> **fantastisk → god / bra → grei → dårlig**
+
+**God** og **bra** står på samme trinn. Det er **grei** som er lunken.
+
+---
+
+## God — bøyes og passer til mat og karakter
+
+**God** bøyes etter det den beskriver: _en god bok, et godt hus, gode venner_.
+
+**1. Dette er en god bok.**
+→ Høy kvalitet.
+
+**2. Hun er en god venn.**
+→ Lojal og varm.
+
+**3. Maten smaker godt.**
+→ Om mat og smak bruker du **god/godt**.
+
+---
+
+## Bra — bøyes ikke
+
+**Bra** har bare én form. Det passer til hverdagen: helse, resultater og om noe fungerer.
 
 **1. Filmen var bra.**
-→ Man likte den — bra passer for generelle inntrykk.
+→ Du likte den.
 
-**2. Det er en bra idé.**
-→ Praktisk og fornuftig.
+**2. Det går bra.**
+→ Alt er i orden.
 
-**3. Jeg har det bra.**
-→ Det vanlige «I'm fine» på norsk.
-
----
-
-## Fin — pen, hyggelig og behagelig
-
-**Fin** handler om **utseende**, **stemning** eller noe **hyggelig**.
-
-**1. Du har en fin jakke.**
-→ Ser bra ut — fin handler om utseende.
-
-**2. Vi hadde en fin dag.**
-→ Hyggelig og god stemning.
-
-**3. Det var fint gjort av deg.**
-→ Fin brukt som kompliment.
+**3. Bra jobbet!**
+→ Ros for en innsats.
 
 ---
 
-## Flink — dyktig og kapabel
+## Grei — ok, ikke mer
 
-**Flink** handler om **ferdigheter og innsats** — ikke kvalitet i seg selv.
+**Grei** betyr akseptabelt: ikke dårlig, men heller ikke imponerende. Til intetkjønn bruker du **greit**.
 
-**1. Hun er flink i matte.**
-→ Dyktig og presterer godt.
+**1. Filmen var grei.**
+→ Den kunne ses, men var ikke noe spesielt.
 
-**2. Du er veldig flink til å snakke norsk.**
-→ Et vanlig kompliment til språklærere.
+**2. Maten var grei.**
+→ Ikke dårlig, ikke imponerende.
 
-**3. Barna var flinke og ryddet opp.**
-→ Snille og hjelpsomme — flink brukes ofte om barn som gjør det de skal.
-
-_Hun er god i norsk_ og _hun er flink i norsk_ er begge riktige. **Flink** peker mer mot innsats og ferdighet, **god** mer mot nivået.
+**3. Han er en grei fyr.**
+→ Om personer er **grei** positivt: hyggelig, rettferdig, uproblematisk.
 
 ---
 
-## Sammenligningstabell
+## Sammenligning
 
-| Norsk     | Betydning                   | Typisk bruk                |
-| --------- | --------------------------- | -------------------------- |
-| **god**   | god (kvalitet, smak, moral) | mat · person · samtale     |
-| **bra**   | god (generelt, hverdagslig) | film · idé · «det går bra» |
-| **fin**   | pen, hyggelig, behagelig    | vær · jakke · dag          |
-| **flink** | dyktig, kapabel, flittig    | i matte · til å snakke     |
+|          | Bøyning              | Passer til                 | Eksempel                 |
+| -------- | -------------------- | -------------------------- | ------------------------ |
+| **god**  | god · godt · gode    | kvalitet · mat · karakter  | en god bok · godt brød   |
+| **bra**  | bøyes ikke           | helse · resultat · hverdag | det går bra · bra jobbet |
+| **grei** | grei · greit · greie | akseptabelt · snill person | greit nok · en grei fyr  |
 
 ---
 
-## Vanlig feil: god vær
+## Vanlige feil
 
-❌ Det er god vær i dag.
-⭕ Det er **godt** vær i dag. / Det er **fint** vær i dag.
+❌ Middagen var grei, takk for maten.
+⭕ Middagen var **god**, takk for maten.
 
-_**Vær** er et intetkjønnsord (et vær), så adjektivet bøyes til **godt**. **Fint vær** er like vanlig._
+_Å si «grei» om maten du får høres lunkent ut._
+
+❌ Det er god for meg.
+⭕ Det er **greit** for meg.
+
+_Å si at noe passer deg heter **greit**. Og **det** krever intetkjønn, så **god** går heller ikke: det heter **godt**._
+
+---
+
+## Greit som bekreftelse
+
+**Greit** brukes alene som svar, og betyr da «ok» eller «forstått»:
+
+- Kan vi møtes klokka seks? — **Greit.**
+- Husk å ta med passet. — **Greit, det gjør jeg.**
 
 ---
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Jeg har det \______.»**
-a) bra
-b) flink
+**1. Velg riktig svar: «Kan vi møtes klokka seks?» — «______.»**
+a) Grei
+b) Greit
 
-**Svar:** a) bra — det vanlige svaret på «Hvordan har du det?»
+**Svar:** b) Greit — du sier ok, i intetkjønn.
 
-**2. Velg riktig ord: «Det er ______ vær i dag.»**
+**2. Velg riktig ord: «Filmen var ikke dårlig, men heller ikke noe spesielt. Den var ______.»**
+a) fantastisk
+b) grei
+
+**Svar:** b) grei — akseptabelt, ikke mer.
+
+**3. Velg riktig form: «Suppen er ______.»**
 a) god
 b) godt
 
-**Svar:** b) godt — **vær** er et intetkjønnsord. (**Fint vær** er også riktig.)
-
-**3. Velg riktig ord: «Hun er ______ i matte, for hun øver hver dag.»**
-a) fin
-b) flink
-
-**Svar:** b) flink — fremhever ferdighet og innsats.
+**Svar:** a) god — **suppen** er et en-ord.
 
 ---
 
 ## Vanlige uttrykk
 
-**Med god:** god mat · god natt · god tur · godt jobbet
+**Med god:** god natt · god tur · godt jobbet · god idé
 
-**Med bra:** det går bra · jeg har det bra · bra gjort · en bra film
+**Med bra:** det går bra · jeg har det bra · bra gjort
 
-**Med fin:** fint vær · fin dag · så fint! · det var fint av deg
-
-**Med flink:** flink i norsk · flink til å lytte · veldig flink
+**Med grei:** det er greit · en grei fyr · grei nok
 
 ---
 
 ## Relaterte ord
 
-hyggelig · deilig · nydelig · herlig · fantastisk
+ok · akseptabel · fin · flink · dårlig
 
 ---
 
-_→ Lurer du på forskjellen mellom **god**, **bra** og **grei**? Les del 2: [God vs Bra vs Grei](/blog/god-bra-grei)_
+_→ Vil du se hva «god» betyr i praksis kontra **fin** og **flink**? Les del 1: [God vs Bra vs Fin](/blog/god-bra-fin)_

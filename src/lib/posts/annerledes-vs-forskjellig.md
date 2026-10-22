@@ -1,6 +1,6 @@
 ---
-title: 'Annerledes vs Forskjellig — to måter å si «ikke lik»'
-description: 'Annerledes betyr på en annen måte enn vanlig eller forventet, og brukes ofte alene. Forskjellig betyr ikke lik, og brukes typisk når man sammenligner to eller flere ting.'
+title: 'Annerledes vs Forskjellig — to måter å si «different»'
+description: 'Annerledes betyr «på en annen måte» og bøyes aldri. Forskjellig er et adjektiv som bøyes (forskjellige) og betyr «ulik» eller «flere ulike».'
 slug: annerledes-vs-forskjellig
 cefr: A2
 publishedAt: 2026-12-25
@@ -15,122 +15,88 @@ decks:
     label: A1 Adjectives
 ---
 
-> **Kort sagt:** **Annerledes** betyr «på en annen måte» enn vanlig eller forventet. **Forskjellig** betyr «ikke lik», og brukes typisk når man sammenligner to eller flere ting.
-
-## Kort forklaring
-
-**Annerledes** og **forskjellig** ligger nær hverandre i betydning, men brukes ulikt:
-
-- **annerledes** → på en annen måte enn normalt eller forventet, ofte om én ting alene
-- **forskjellig** → ikke lik, brukes typisk om to eller flere ting som sammenlignes
-
----
+> **Kort sagt:** **Annerledes** = «på en annen måte» eller «uvanlig», og det bøyes ikke. **Forskjellig** = «ikke lik» eller «ulike», og det bøyes i flertall: **forskjellige**.
 
 ## Annerledes — på en annen måte
 
-**Annerledes** brukes når noe ikke er som det vanligvis er, eller ikke er som forventet.
+**1. Denne gangen gjorde jeg det annerledes.**
+→ På en annen måte enn vanlig.
 
-**1. Hun er annerledes enn søsteren sin.**
+**2. Hun er annerledes enn søsteren sin.**
+→ Ikke som søsteren, for eksempel i væremåte.
 
-**2. Denne gangen gjorde jeg det annerledes.**
+**3. Det var en annerledes opplevelse.**
+→ Uvanlig, ikke som andre opplevelser.
 
-**3. Oslo er annerledes enn Tokyo.**
-
-**4. Det var en annerledes opplevelse.**
-
-**Annerledes** kan stå alene, uten å sammenligne to konkrete ting direkte:
-
-**5. Jeg vil prøve noe annerledes.**
+**4. Jeg vil prøve noe annerledes.**
+→ Det kan stå alene, uten at noe sammenlignes.
 
 ---
 
 ## Forskjellig — ikke lik
 
-**Forskjellig** brukes når man sammenligner to eller flere ting som ikke er like.
-
 **1. De to bilene er forskjellige.**
 
 **2. Vi har forskjellige meninger.**
 
-**3. Norge og Japan er forskjellige på mange måter.**
-
-**Forskjellig** kan også bety «ulike typer av»:
+**3. Norge er forskjellig fra Japan.**
+→ Etter **forskjellig** kommer **fra**. Etter **annerledes** kommer **enn**.
 
 **4. Hun leser forskjellige bøker.**
-→ Flere ulike typer bøker, ikke bare én.
-
----
-
-## Den viktige forskjellen: alene vs. sammenlignet
-
-**Annerledes** beskriver ofte **måten** noe gjøres eller er på — det kan stå alene, uten å nevne hva det sammenlignes med.
-
-**Forskjellig** beskriver at **to eller flere ting** ikke er like — det peker som regel mot en sammenligning.
-
-> Jeg vil gjøre noe **annerledes**.
-> → På en annen måte enn vanlig.
-
-> De to metodene er **forskjellige**.
-> → Metode én og metode to er ikke like.
+→ Flere ulike bøker. Det betyr «various», ikke bare «not the same».
 
 ---
 
 ## Sammenligningstabell
 
-| Ord             | Betydning                    | Typisk bruk                              |
-| --------------- | ---------------------------- | ---------------------------------------- |
-| **annerledes**  | på en annen måte enn normalt | om én ting, eller en måte å gjøre noe på |
-| **forskjellig** | ikke lik                     | om to eller flere ting som sammenlignes  |
+| Ord             | Betydning                 | Bøyning                    | Følges av |
+| --------------- | ------------------------- | -------------------------- | --------- |
+| **annerledes**  | på en annen måte, uvanlig | bøyes ikke                 | **enn**   |
+| **forskjellig** | ikke lik, flere ulike     | flertall: **forskjellige** | **fra**   |
+
+I mange setninger passer begge: _De to søstrene er annerledes / forskjellige._ Men når du mener «på en annen måte», velger du **annerledes**, og når du mener «flere ulike», velger du **forskjellige**.
 
 ---
 
 ## Vanlige feil
 
-❌ Kan vi gjøre det forskjellig?
-⭕ Kan vi gjøre det **annerledes**?
+❌ Hun leser annerledes bøker.
+⭕ Hun leser **forskjellige** bøker.
 
-_Når betydningen er «på en annen måte», bruk annerledes, ikke forskjellig._
+_**Annerledes bøker** betyr «uvanlige bøker». For «various» trenger du **forskjellige**._
 
-❌ De to bilene er annerledes.
-⭕ De to bilene er **forskjellige**.
+❌ Norge er forskjellig enn Japan.
+⭕ Norge er forskjellig **fra** Japan. / Norge er annerledes **enn** Japan.
 
-_Når man sammenligner to konkrete ting direkte, passer forskjellig bedre._
+_Preposisjonen følger ordet: **fra** etter forskjellig, **enn** etter annerledes._
 
 ---
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Jeg vil gjøre det ______ denne gangen.»**
+**1. Velg riktig ord: «Jeg vil gjøre det \______ denne gangen.»**
 a) annerledes
 b) forskjellig
 
-**Svar:** a) annerledes — beskriver en annen måte å gjøre noe på.
+**Svar:** a) annerledes — en annen måte å gjøre noe på.
 
-**2. Velg riktig ord: «De to søstrene er veldig \______.»**
+**2. Velg riktig ord: «Hun leser \______ bøker.»**
 a) annerledes
 b) forskjellige
 
-**Svar:** b) forskjellige — to personer sammenlignes direkte.
+**Svar:** b) forskjellige — flere ulike bøker.
 
-**3. Velg riktig ord: «Hun har alltid vært litt ______ enn de andre i klassen.»**
+**3. Velg riktig ord: «Norge er \______ fra Japan.»**
 a) annerledes
 b) forskjellig
 
-**Svar:** a) annerledes — hun skiller seg ut fra det som er vanlig eller forventet.
-
----
-
-## Husk dette
-
-- **annerledes** → på en annen måte enn normalt, kan stå alene
-- **forskjellig** → ikke lik, brukes typisk ved sammenligning av to eller flere ting
-- Begge kan oversettes med «different», men de peker mot ulike ting i norsk grammatikk
+**Svar:** b) forskjellig — det er **forskjellig fra**, mens annerledes får **enn**.
 
 ---
 
 ## Vanlige uttrykk
 
-gjøre noe annerledes · tenke annerledes · være forskjellig fra · ha forskjellige meninger · forskjellige typer
+gjøre noe annerledes · tenke annerledes · annerledes enn · forskjellig fra · ha forskjellige meninger · forskjellige typer
 
 ---
 

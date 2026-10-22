@@ -1,6 +1,6 @@
 ---
 title: 'Det er lov — det er tillatt / det er greit'
-description: '«Det er lov» betyr at noe er tillatt eller greit. Det samme ordet «lov» betyr dessuten «regel» eller «lovgivning» — sammenhengen avgjør hvilken betydning som gjelder.'
+description: '«Det er lov å …» betyr at noe er tillatt eller greit. Substantivet «en lov» betyr «a law». Lær også «få lov til å» og forskjellen på lov og lovlig.'
 slug: det-er-lov
 cefr: A2
 publishedAt: 2026-09-04
@@ -15,135 +15,121 @@ decks:
     label: A2 Phrases
 ---
 
-> **Kort sagt:** **Det er lov å …** means "it is allowed to …" or "it is okay to …". The word **lov** looks like "law," but in this expression it means permission — not legislation.
-
-## Kort forklaring
-
-**Lov** har to forskjellige betydninger på norsk, og sammenhengen avgjør hvilken det er:
-
-- **det er lov** → tillatt / greit (tillatelse)
-- **en lov** → en lov (lovgivning)
-
----
+> **Kort sagt:** **Det er lov å …** = «det er tillatt / greit å …». **Lov** ligner på «law», men i dette uttrykket betyr det tillatelse. Som substantiv (**en lov**) betyr det «a law».
 
 ## Det er lov å + infinitiv
 
-Grunnstrukturen er enkel:
-
-**det er lov å + verb (infinitiv)**
-→ det er tillatt å … / det er greit å …
+**det er lov å + verb**
+→ det er tillatt / greit å …
 
 **1. Det er lov å drømme.**
-→ Brukes ofte på en litt poetisk eller oppmuntrende måte — «å drømme er lov».
+→ Ofte oppmuntrende eller litt poetisk.
 
-**2. Det er lov å feile.**
-→ Et betryggende uttrykk, vanlig i hverdagslig tale.
+**2. Det er lov å være lei seg.**
+→ «It is okay to feel sad.» Et betryggende uttrykk.
 
-**3. Er det lov å spørre?**
-→ En høflig måte å sjekke på før man spør om noe som kan være følsomt.
+**3. Er det lov å ta bilder her?**
+→ Et vanlig spørsmål om reglene på et sted.
 
 **4. Det er ikke lov å røyke her.**
-→ Nektingsformen — **ikke lov** betyr ikke tillatt.
+→ Nektingsform: **ikke lov** = ikke tillatt.
 
 ---
 
-## Lov = tillatt (tillatelse)
+## Få lov til å — å bli gitt tillatelse
 
-I disse setningene betyr **lov** omtrent det samme som **tillatt** eller **greit**:
+**Det er lov å** sier at noe er tillatt generelt. **Få lov til å** handler om at noen gir deg tillatelse.
 
-- **Det er lov å være lei seg.**
-  _It is okay to feel sad._
+**1. Får jeg lov til å låne pennen din?**
 
-- **Er det lov å ta bilder her?**
-  _Is it allowed to take photos here?_
+**2. Barna fikk ikke lov til å se på TV.**
 
-- **Det er lov å si nei.**
-  _It is okay to say no._
+**3. Får jeg lov?**
+→ Kort form i dagligtale.
+
+Legg merke til **til**: **det er lov å**, men **få lov til å**.
 
 ---
 
 ## Lov = en lov (lovgivning)
 
-Samme ord, helt annen betydning — her er **lov** et substantiv:
+Her er **lov** et substantiv:
 
 - **Stortinget vedtar lover.**
-  _The Norwegian parliament passes laws._
-
-- **Norges lover må følges.**
-  _Norway's laws must be followed._
+  _The Parliament passes laws._
 
 - **Loven sier at …**
   _The law states that …_
 
-Her snakker vi om juridiske regler, ikke tillatelse.
+**Lovlig** betyr «legal» (etter loven), og **ulovlig** betyr «illegal». **Det er lov** betyr «allowed» etter vanlige regler eller høflighet.
+
+- _Er det lovlig å selge alkohol uten bevilling?_ → et juridisk spørsmål
+- _Er det lov å ta bilder her?_ → et hverdagslig spørsmål om reglene på stedet
 
 ---
 
 ## Sammenligningstabell
 
-| Uttrykk              | Betydning          | Type ord             |
-| -------------------- | ------------------ | -------------------- |
-| **det er lov å …**   | det er tillatt å … | uttrykk (tillatelse) |
-| **ikke lov**         | ikke tillatt       | uttrykk (negasjon)   |
-| **en lov / loven**   | en lov / loven     | substantiv           |
-| **lover** (flertall) | lover              | substantiv           |
+| Uttrykk                 | Betydning               | Eksempel                               |
+| ----------------------- | ----------------------- | -------------------------------------- |
+| **det er lov å …**      | det er tillatt å …      | Det er lov å parkere her.              |
+| **det er ikke lov å …** | det er ikke tillatt å … | Det er ikke lov å røyke her.           |
+| **få lov til å …**      | bli gitt tillatelse     | Får jeg lov til å gå nå?               |
+| **en lov / loven**      | a law                   | Loven sier at …                        |
+| **ulovlig**             | illegal                 | Det er ulovlig å kjøre uten førerkort. |
 
 ---
 
 ## Vanlige feil
 
-❌ Det er lov å røyke ikke her.
-⭕ Det er **ikke** lov å røyke her.
+❌ Det er lov røyke her.
+⭕ Det er lov **å** røyke her.
 
-_**Ikke** kommer før **lov** i uttrykket — «ikke lov» er den faste nektingsformen._
+_Infinitivsmerket **å** må være med._
 
-❌ Det er lovlig å spørre.
-⭕ Det er lov å spørre. _(mer naturlig i hverdagslig tale)_
+❌ Det er lov til å røyke her.
+⭕ Det er lov å røyke her. / Du får lov **til å** røyke her.
 
-_**Lovlig** er mer formelt. **Det er lov** er det hverdagslige uttrykket for «det er greit»._
+_**Til** hører til **få lov til å**, ikke til **det er lov å**._
+
+❌ Er det lovlig å ta bilder her?
+⭕ Er det **lov** å ta bilder her?
+
+_**Lovlig** høres ut som et juridisk spørsmål. For vanlige regler sier man **lov**._
 
 ---
 
 ## Norskprøven — eksempelspørsmål
 
 **1. Velg riktig setning:**
-a) Det er lov å røyke ikke her.
-b) Det er ikke lov å røyke her.
+a) Det er lov røyke her.
+b) Det er lov å røyke her.
 
-**Svar:** b) — **ikke** kommer før **lov** i den faste nektingsformen.
+**Svar:** b) — infinitivsmerket **å** må være med.
 
 **2. Velg riktig ord: «Stortinget vedtar \______.»**
 a) lov
 b) lover
 
-**Svar:** b) lover — her er **lov** et substantiv i flertall (lovgivning), ikke uttrykket for tillatelse.
+**Svar:** b) lover — her er **lov** et substantiv i flertall.
 
-**3. Hvilken setning betyr «Is it okay to ask?»**
-a) Er det lov å spørre?
-b) Er det en lov å spørre?
+**3. Velg riktig ord: «Mamma, ______ jeg lov til å gå ut?»**
+a) er
+b) får
 
-**Svar:** a) — uten **en** betyr **lov** her tillatelse, ikke lovgivning.
-
----
-
-## Husk dette
-
-- **det er lov å + infinitiv** = det er tillatt / greit å …
-- **det er ikke lov å + infinitiv** = det er ikke tillatt å …
-- **en lov** (substantiv) = en lov — helt annen betydning
-- **lov** i uttrykk = tillatelse, ikke juss
+**Svar:** b) får — du spør om tillatelse fra noen: **få lov til å**.
 
 ---
 
 ## Vanlige uttrykk
 
-det er lov · det er ikke lov · er det lov? · det er lov å prøve · det er lov å håpe
+det er lov · det er ikke lov · er det lov? · det er lov å prøve · det er lov å håpe · får jeg lov? · få lov til å
 
 ---
 
 ## Relaterte ord
 
-tillatt · lovlig · forbudt · greit · lov og orden · regel
+tillatt · lovlig · ulovlig · forbudt · greit · regel
 
 ---
 

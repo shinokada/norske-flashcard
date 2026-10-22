@@ -1,6 +1,6 @@
 ---
-title: 'Synes synd på vs være lei for — to måter å vise medfølelse på'
-description: 'Synes synd på noen betyr å føle med personen selv. Være lei for noe betyr å være trist eller beklage det som skjedde. Lær forskjellen med eksempler og unngå vanlige feil.'
+title: 'Synes synd på vs være lei for vs det er synd — tre måter å vise medfølelse på'
+description: 'Synes synd på retter medfølelsen mot en person. Være lei for og det er synd retter seg mot en hendelse. Lær forskjellen, og unngå å blande dem med lei av.'
 slug: lei-vs-synd
 cefr: B1
 publishedAt: 2027-01-29
@@ -15,84 +15,74 @@ decks:
     label: A2 Everyday Words
 ---
 
-> **Kort sagt:** **Synes synd på noen** retter medfølelsen mot **personen**. **Være lei for noe** retter tristheten mot **det som skjedde**. Begge kan minne om engelsk "sorry" eller "feel sorry for", men de brukes forskjellig på norsk.
-
-## Kort forklaring
-
-To vanlige uttrykk brukes ofte om hverandre av innlærere, men har ulikt fokus:
-
-- **synes synd på noen** → du føler med **personen**
-- **være lei for noe** → du er trist over eller beklager **hendelsen**
-
----
+> **Kort sagt:** **Synes synd på noen** retter medfølelsen mot **personen**. **Være lei for noe** og **det er synd at …** retter seg mot **det som skjedde**. Pass på **lei av**, som betyr noe helt annet («fed up with»).
 
 ## Synes synd på noen — fokus på personen
 
-**Synes synd på** brukes når noen har det vanskelig, og du føler medfølelse med **dem**.
-
 **1. Jeg synes synd på henne.**
-→ Fokus er på henne og situasjonen hennes.
+→ Medfølelsen gjelder henne og situasjonen hennes.
 
 **2. Jeg synes synd på ham fordi han mistet jobben.**
-→ Medfølelsen retter seg mot personen som rammes.
+→ Personen som rammes.
 
 **3. Ikke synes synd på meg!**
-→ En vanlig avvisning når noen viser medlidenhet man ikke ønsker.
+→ En vanlig avvisning når man ikke vil ha medlidenhet.
 
-**Merk:** Dette **synd** har ingenting med den religiøse betydningen å gjøre, som i **å begå en synd**.
+Her betyr **synd** «pity», ikke «sin» (som i **å begå en synd**).
 
 ---
 
 ## Være lei for noe — fokus på hendelsen
 
-**Være lei for** brukes når du er trist over, eller beklager, en situasjon eller handling.
-
 **1. Jeg er lei for at hun mistet jobben.**
-→ Fokus er på det som skjedde, ikke bare på personen.
+→ Trist over det som skjedde.
 
 **2. Jeg er lei for det.**
 → En generell beklagelse.
 
 **3. Jeg er lei for at jeg kom for sent.**
-→ Brukes til å beklage egen handling.
+→ Beklager egen handling.
 
-**4. Jeg er lei for at jeg såret deg.**
-→ **Lei for** fungerer også som en unnskyldning.
+**4. Jeg er lei for din skyld.**
+→ Et fast uttrykk om medfølelse med en person.
 
 ---
 
-## Direkte sammenligning
+## Det er synd at … — «what a pity»
 
-> **Hun mistet jobben.**
+**1. Det er synd at hun mistet jobben.**
+→ Medfølelse uten å si «jeg».
 
-**Jeg synes synd på henne.**
-→ Medfølelsen gjelder **henne**.
+**2. Det er synd at du ikke kan komme.**
+→ Skuffelse, ikke bare medfølelse.
 
-**Jeg er lei for at hun mistet jobben.**
-→ Tristheten gjelder **det som skjedde**.
+**3. Det er synd på henne.**
+→ Hun fortjener medfølelse. Dette er samme tanke som **jeg synes synd på henne**.
 
 ---
 
 ## Sammenligningstabell
 
-| Uttrykk                | Fokus                  | Typisk bruk                              |
-| ---------------------- | ---------------------- | ---------------------------------------- |
-| **synes synd på noen** | personen               | noen har det vanskelig                   |
-| **være lei for noe**   | situasjonen/handlingen | beklagelse, unnskyldning, trist hendelse |
+| Uttrykk                | Fokus                     | Eksempel                            |
+| ---------------------- | ------------------------- | ----------------------------------- |
+| **synes synd på noen** | personen                  | Jeg synes synd på ham.              |
+| **være lei for noe**   | hendelsen, beklagelse     | Jeg er lei for at jeg kom for sent. |
+| **det er synd at …**   | hendelsen, «what a pity»  | Det er synd at du ikke kan komme.   |
+| **være lei av noe**    | ikke medfølelse: «fed up» | Jeg er lei av å vente.              |
 
 ---
 
 ## Vanlige feil
 
-❌ Jeg er lei for henne.
-⭕ Jeg **synes synd på** henne.
-
-_Lei for tar en hendelse (ofte med at-setning), ikke en person direkte._
-
 ❌ Jeg synes synd på at hun mistet jobben.
-⭕ Jeg **er lei for** at hun mistet jobben.
+⭕ Jeg **er lei for** at hun mistet jobben. / **Det er synd** at hun mistet jobben.
 
-_Synes synd på tar en person, ikke en at-setning._
+_**Synes synd på** tar en person, ikke en at-setning._
+
+❌ Jeg er lei for å vente.
+⭕ Jeg er lei **av** å vente.
+
+_**Lei av** betyr «fed up with». **Lei for** brukes om å beklage eller være trist._
 
 ---
 
@@ -111,31 +101,22 @@ b) er lei for
 **Svar:** b) er lei for — brukes til å beklage en egen handling.
 
 **3. Velg riktig setning:**
-a) Jeg synes synd på at hun flyttet.
-b) Jeg er lei for at hun flyttet.
+a) Det er synd at du ikke kan komme på festen.
+b) Jeg synes synd på at du ikke kan komme på festen.
 
-**Svar:** b) — **synes synd på** kan ikke følges av en at-setning.
-
----
-
-## Husk dette
-
-- **synes synd på noen** → medfølelse med personen
-- **være lei for noe** → tristhet eller beklagelse over hendelsen
-- **lei for** kan også brukes som unnskyldning
-- **synd** her har ingenting med **synd** i religiøs forstand å gjøre
+**Svar:** a) — **synes synd på** kan ikke følges av en at-setning.
 
 ---
 
 ## Vanlige uttrykk
 
-synes synd på · ikke synes synd på meg · være lei for det · lei for at
+synes synd på · ikke synes synd på meg · være lei for det · lei for at · lei for din skyld · det er synd at · lei av
 
 ---
 
 ## Relaterte ord
 
-medfølelse · trist · beklage · unnskyld · stakkars
+medfølelse · trist · beklage · unnskyld · stakkars · synd
 
 ---
 
