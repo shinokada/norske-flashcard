@@ -1,10 +1,10 @@
 ---
 title: 'Holde på å — holde på med å gjøre noe eller være i ferd med det'
-description: '«Holde på å» brukes når du er midt i noe eller er i ferd med å gjøre det. «Holde på med» er forskjellig — det betyr å være opptatt med noe over tid.'
+description: '«Holde på å» brukes når du er midt i noe eller er i ferd med å gjøre det. I fortid betyr det ofte «nesten». «Holde på med» betyr å være opptatt med noe.'
 slug: holde-pa-a
 cefr: B1
 publishedAt: 2026-10-02
-updatedAt: 2026-09-12
+updatedAt: 2026-10-22
 tags: [verbs, vocabulary, phrasal-verbs, expressions]
 decks:
   - level: b1
@@ -15,123 +15,120 @@ decks:
     label: A2 Verbs
 ---
 
-> **Kort sagt:** **Holde på å + verb** betyr å være i ferd med noe eller på kanten av det — "nesten" eller "midt i." **Holde på med + substantiv** betyr å være opptatt med eller jobbe med noe. De to konstruksjonene ligner på hverandre, men betyr ulike ting.
+> **Kort sagt:** **Holde på å + verb** betyr «være i ferd med å» eller «være nær ved å». I fortid betyr **holdt på å** ofte «nesten». **Holde på med + substantiv** betyr å være opptatt med noe.
 
-## Kort forklaring
-
-**Holde på å** er et svært vanlig norsk uttrykk. Det brukes på to litt ulike måter:
-
-- **er i ferd med å** — du er midt i en handling som pågår akkurat nå
-- **er nær ved å** — du er på kanten av noe, noe er nær ved å skje
-
----
-
-## Holde på å + verb — i ferd med / nær ved å
+## Holde på å + verb
 
 Grunnstrukturen er:
 
 > **holde på å + infinitiv**
 
-**1. Han holder på å miste kontrollen.**
-→ Han har ikke mistet kontrollen ennå — men han er svært nær.
+**1. Jeg holder på å lage mat.**
+→ Du er midt i handlingen.
 
 **2. Jeg holder på å sovne.**
-→ Søvnen er nær — det skjer akkurat nå.
+→ Du er nær ved å sovne.
 
-**3. Hun holder på å le seg i hjel.**
-→ En vanlig overdrivelse — hun ler ukontrollert.
-
-**4. Vi holder på å gå tom for melk.**
-→ Prosessen er i gang — nesten borte.
-
-**5. Det holder på å bli mørkt.**
+**3. Det holder på å bli mørkt.**
 → Forandringen skjer gradvis akkurat nå.
 
----
-
-## To nyanser av holde på å
-
-Uttrykket dekker to situasjoner som i norsk glir over i hverandre:
-
-| Situasjon                 | Eksempel                          | Engelsk                         |
-| ------------------------- | --------------------------------- | ------------------------------- |
-| Handling pågår akkurat nå | Jeg holder på å lage mat.         | I'm (in the middle of) cooking. |
-| På kanten av noe          | Han holder på å miste kontrollen. | He's about to lose control.     |
-
-Kontekst og verb avgjør hvilken nyanse som gjelder.
+**4. Vi holder på å gå tom for melk.**
+→ Melken er nesten borte.
 
 ---
 
-## Holde på med + substantiv — opptatt med noe
+## Holdt på å — i fortid
 
-Uten **å + verb** endrer uttrykket seg. **Holde på med** brukes når noen er opptatt med eller jobber med noe:
+I fortid avhenger betydningen av hva slags handling det er:
 
-> **holde på med + substantiv**
+**Jeg holdt på å falle.**
+→ Du falt **nesten**. Det skjedde ikke.
+
+**Jeg holdt på å lage mat da han ringte.**
+→ Du var **midt i** å lage mat.
+
+---
+
+## Holde på med + substantiv
+
+**Holde på med** brukes om en aktivitet eller et prosjekt som tar tid:
 
 **1. Hva holder du på med?**
-→ Den vanligste hverdagslige bruken — man spør hva noen holder på med.
+→ Den vanligste hverdagsfrasen.
 
 **2. Han holder på med norsken sin.**
-→ En pågående aktivitet eller et prosjekt.
 
 **3. Barna holder på med leksene.**
-→ De er opptatt med det akkurat nå.
+
+Du kan også si **holde på med å + verb**: _Han holder på med å skrive en bok._ Da ligger vekten på aktiviteten.
 
 ---
 
-## Direkte sammenligning
+## Sammenligning
 
-| Struktur                      | Betydning                        | Eksempel                       |
-| ----------------------------- | -------------------------------- | ------------------------------ |
-| **holde på å + verb**         | være i ferd med / nær ved å skje | Jeg holder på å sovne.         |
-| **holde på med + substantiv** | være opptatt med / jobbe med noe | Han holder på med norsken sin. |
-
----
-
-## Sammenligningstabell
-
-| Uttrykk                  | Engelsk                            | Typisk bruk                    |
-| ------------------------ | ---------------------------------- | ------------------------------ |
-| holde på **å** sove      | be about to sleep / falling asleep | pågående handling / nær grense |
-| holde på **med** søvn    | — (uvanlig)                        | —                              |
-| holde på **med** leksene | be busy doing homework             | opptatt med et konkret arbeid  |
-| holde på **å** miste     | be about to lose                   | nær ved å skje                 |
+| Struktur                      | Betydning              | Eksempel                       |
+| ----------------------------- | ---------------------- | ------------------------------ |
+| **holde på å + verb**         | i ferd med / nær ved å | Jeg holder på å sovne.         |
+| **holdt på å + verb**         | nesten / midt i        | Jeg holdt på å falle.          |
+| **holde på med + substantiv** | opptatt med            | Han holder på med norsken sin. |
 
 ---
 
 ## Vanlige feil
 
-❌ Han holder på med å miste kontrollen.
+❌ Han holder på miste kontrollen.
 ⭕ Han holder på **å** miste kontrollen.
 
-_**Holde på å** tar direkte infinitiv — ikke «med å». «Med» brukes bare med substantiver._
+_Etter **holde på** kommer **å** før verbet._
 
-❌ Hva holder du på å gjøre med?
-⭕ Hva holder du på **med**? / Hva holder du på **å gjøre**?
+❌ Jeg holder på å reise i morgen.
+⭕ Jeg **skal** reise i morgen.
 
-_Bland ikke de to konstruksjonene — velg én._
+_**Holde på å** brukes ikke om planer. Det beskriver noe som skjer nå eller er nær ved å skje._
+
+---
+
+## Norskprøven — eksempelspørsmål
+
+**1. Velg riktig uttrykk: «Jeg ______ sovne på sofaen.»**
+a) holder på å
+b) holder på med
+
+**Svar:** a) holder på å — verb følger, og du er nær ved å sovne.
+
+**2. Velg riktig uttrykk: «Hva holder du ______?»**
+a) på med
+b) på å
+
+**Svar:** a) på med — spørsmålet «hva» etterspør en aktivitet.
+
+**3. «Jeg holdt på å falle på isen.» Hva skjedde?**
+a) Jeg falt
+b) Jeg falt nesten
+
+**Svar:** b) — **holdt på å** med en plutselig hendelse betyr «nesten».
 
 ---
 
 ## Husk dette
 
-- **holde på å + verb** → pågår nå / nær ved å skje — "be about to" / "in the process of"
-- **holde på med + substantiv** → opptatt med noe — "be busy with" / "working on"
-- Ikke bland **å** og **med å** — de er to ulike konstruksjoner
-- «Hva holder du på med?» er en av de mest naturlige dagligdagse frasene på norsk
+- **holde på å + verb** → i ferd med / nær ved å skje
+- **holdt på å** → ofte «nesten» (Jeg holdt på å falle)
+- **holde på med + substantiv** → opptatt med noe
+- **Hva holder du på med?** er en av de mest naturlige hverdagsfrasene
 
 ---
 
 ## Vanlige uttrykk
 
-holder på å sovne · holder på å le seg i hjel · holder på å gå tom for · hva holder du på med? · holder på med prosjektet
+holder på å sovne · holder på å le seg i hjel · holder på å gå tom for · holdt på å falle · hva holder du på med? · holde på med prosjektet
 
 ---
 
 ## Relaterte ord
 
-være i ferd med å · nær ved å · holde på · drive med · være opptatt med
+være i ferd med å · nær ved å · skulle til å · drive med · være opptatt med
 
 ---
 
-_→ Vil du lære forskjellen mellom å begynne og å starte? Les: [Begynne vs Starte](/blog/begynne-vs-starte)_
+_→ Vil du lære hvordan **skulle til å** også betyr «was about to»? Les: [Skulle](/blog/skulle)_

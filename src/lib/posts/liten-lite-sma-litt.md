@@ -1,10 +1,10 @@
 ---
 title: 'Liten, Lite, Små og Litt — Fire ord, én rot'
-description: 'Liten bøyes etter kjønn og tall: liten, lite, små. Litt er noe helt annet — det uttrykker mengde eller grad, ikke størrelse på et substantiv.'
+description: 'Liten bøyes etter kjønn og tall: liten, lite, små. Litt og lite kan også uttrykke mengde: litt tid betyr noe tid, lite tid betyr for lite.'
 slug: liten-lite-sma-litt
 cefr: A1
 publishedAt: 2026-12-02
-updatedAt: 2026-09-12
+updatedAt: 2026-12-02
 tags: [adjectives, grammar, vocabulary]
 decks:
   - level: a1
@@ -15,121 +15,54 @@ decks:
     label: A2 Descriptive Adjectives
 ---
 
-> **Kort sagt:** **Liten** bøyes etter substantivets kjønn og tall: **liten** (en/ei-ord), **lite** (et-ord), **små** (flertall). **Litt** er et helt annet ord — det uttrykker mengde eller grad, ikke størrelse.
+> **Kort sagt:** **Liten** beskriver størrelse og bøyes etter substantivet: **liten** (en/ei-ord), **lite** (et-ord), **små** (flertall). **Litt** og **lite** kan også uttrykke mengde: **litt tid** = noe tid, **lite tid** = for lite tid.
 
-## Kort forklaring
-
-**Liten** er et adjektiv som beskriver størrelse, og det bøyes etter substantivet det står til:
-
-- **liten** → entall, en- eller ei-ord
-- **lite** → entall, et-ord
-- **små** → flertall, uansett kjønn
-
-_Denne artikkelen bruker **liten** også for ei-ord (moderat bokmål). Bokmålsordboka godtar også **lita** som hunkjønnsform (f.eks. «ei lita bok») — begge former er korrekte i bokmål._
-
-**Litt** ser lignende ut, men er et helt annet ord. Det beskriver **en mengde** eller **en grad** — ikke størrelsen på en ting.
-
----
-
-## Liten, lite, små — bøying etter kjønn og tall
-
-**1. en liten bil**
-→ En-ord, entall.
-
-**2. ei liten bok**
-→ Ei-ord, entall — samme form som en-ord.
-
-**3. et lite hus**
-→ Et-ord, entall.
-
-**4. små biler**
-→ Flertall — samme form uansett kjønn.
-
-**5. små hus**
-→ Flertall av et-ord — fortsatt **små**, ikke «lite hus».
-
----
-
-## Sammenligningstabell — liten, lite, små
-
-| Entall           | Flertall      |
-| ---------------- | ------------- |
-| en **liten** bil | **små** biler |
-| ei **liten** bok | **små** bøker |
-| et **lite** hus  | **små** hus   |
-| et **lite** barn | **små** barn  |
-
-**Kort huskeregel:**
+## Liten, lite, små — størrelse
 
 > **en/ei → liten**
 > **et → lite**
 > **flertall → små**
 
+**1. en liten bil** · **ei liten bok** · **et lite hus**
+**2. små biler** · **små hus**
+
+_Bokmål godtar også **lita** for ei-ord («ei lita bok»). Artikkelen bruker **liten**._
+
 ---
 
-## Litt — mengde eller grad, ikke størrelse
+## Litt og lite — mengde
 
-**Litt** brukes om **en liten mengde** av noe, eller for å dempe et adjektiv eller adverb.
+**Litt** brukes om en passe mengde, eller for å dempe et adjektiv:
 
 **1. Jeg vil ha litt kaffe.**
-→ En liten mengde kaffe.
-
 **2. Jeg er litt trøtt.**
-→ Dempet grad — ikke helt trøtt, men litt.
-
 **3. Vent litt!**
-→ En kort stund.
 
-**4. Det regner litt.**
-→ Litt beskriver graden av regn, ikke en ting.
+**Lite** betyr «ikke så mye», og er ofte negativt:
 
----
+> Jeg har **litt** tid. → Noe tid, kanskje nok.
+> Jeg har **lite** tid. → For lite tid.
 
-## Liten vs litt — ikke forveksle dem
-
-**Liten** beskriver **størrelsen på et substantiv**. **Litt** beskriver **en mengde eller grad**.
-
-> Jeg har en **liten** bil.
-> → Bilen er liten i størrelse.
-
-> Jeg har **litt** bensin.
-> → En liten mengde bensin.
-
-> Bilen er **litt** liten.
-> → Her står begge ordene sammen: **litt** demper adjektivet **liten** — bilen er noe i overkant liten, ikke enormt liten.
+For ting du kan telle, bruker du **få**: _Jeg har få venner._
 
 ---
 
-## Sammenligningstabell — liten vs litt
+## Liten vs litt
 
-| Ord                    | Betydning         | Brukes med                      | Eksempel                             |
-| ---------------------- | ----------------- | ------------------------------- | ------------------------------------ |
-| **liten / lite / små** | størrelse         | substantiv                      | en liten bil, et lite hus, små biler |
-| **litt**               | mengde eller grad | stoff, mengde, adjektiv, adverb | litt vann, litt trøtt, litt sakte    |
+**Liten** beskriver størrelsen på en ting. **Litt** beskriver mengde eller grad.
+
+> Jeg har en **liten** bil. → Bilen er liten.
+> Jeg har **litt** bensin. → En liten mengde.
+> Bilen er **litt** liten. → **Litt** demper **liten**: noe liten, kanskje litt for liten.
 
 ---
 
 ## Vanlige feil
 
-❌ et liten hus
-⭕ et **lite** hus
-
-_Et-ord krever lite, ikke liten._
-
-❌ en lite bil
-⭕ en **liten** bil
-
-_En-ord krever liten, ikke lite._
-
-❌ lite biler
-⭕ **små** biler
-
-_Flertall bruker alltid små, uansett kjønn._
-
-✅ Jeg vil ha **en liten** kaffe. _(en liten servering — kaffe brukt som telleord/porsjon, med ubestemt artikkel)_
-✅ Jeg vil ha **litt** kaffe. _(en mengde kaffe, uten artikkel)_
-
-_Begge er riktige, men betyr ikke helt det samme: en liten kaffe bestiller en bestemt, liten servering, mens litt kaffe handler om mengden — f.eks. «bare litt, takk»._
+❌ et liten hus → ⭕ et **lite** hus
+❌ en lite bil → ⭕ en **liten** bil
+❌ lite biler → ⭕ **små** biler
+❌ Jeg er liten trøtt. → ⭕ Jeg er **litt** trøtt.
 
 ---
 
@@ -147,34 +80,31 @@ b) små
 
 **Svar:** b) små — flertall, uansett kjønn.
 
-**3. Velg riktig ord: «Jeg vil ha ______ vann, takk.»**
-a) liten
+**3. Velg riktig ord: «Jeg har ______ tid, så jeg må skynde meg.»**
+a) lite
 b) litt
 
-**Svar:** b) litt — spør om en mengde, ikke en størrelse.
+**Svar:** a) lite — du har ikke nok tid.
 
 ---
 
 ## Husk dette
 
-- **liten** → en/ei-ord i entall
-- **lite** → et-ord i entall
-- **små** → flertall, uansett kjønn
-- **litt** → mengde eller grad — ikke størrelsen på et substantiv
+- **liten / lite / små** → størrelse, bøyd etter substantivet
+- **litt** → en passe mengde eller dempet grad
+- **lite** → ikke så mye (lite tid). Med ting du kan telle: **få**
 
 ---
 
 ## Vanlige uttrykk
 
-**Med liten/lite/små:** en liten by · et lite problem · små forskjeller · i det små
-
-**Med litt:** litt kaffe · litt trøtt · vent litt · litt etter litt
+en liten by · et lite problem · små forskjeller · litt kaffe · litt trøtt · vent litt · litt etter litt _(gradvis)_ · i det små _(i liten skala)_
 
 ---
 
 ## Relaterte ord
 
-stor · mengde · grad · bitte liten · noe
+stor · mengde · grad · få · mye · noe
 
 ---
 

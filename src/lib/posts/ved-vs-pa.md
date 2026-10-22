@@ -15,45 +15,59 @@ decks:
     label: A2 Shopping
 ---
 
-> **Kort sagt:** **Ved** betyr «ved siden av» eller «i nærheten av» — en posisjon nær noe. **På** beskriver en overflate, eller et sted/en aktivitet man er en del av. **Fisken ligger på disken**, men du kjøper den **ved ferskvaredisken**.
+> **Kort sagt:** **Ved** betyr «ved siden av» eller «i nærheten av». **På** brukes om en overflate, eller om et sted eller en aktivitet man er en del av. **Fisken ligger på disken**, men du kjøper den **ved ferskvaredisken**.
 
 ## Kort forklaring
 
-Både **ved** og **på** kan brukes om steder, men de har ulikt fokus:
+- **ved** → nær noe, ved siden av
+- **på** → oppå en overflate, eller på et sted/en aktivitet
 
-- **ved** → ved siden av / i nærheten av — en posisjon nær noe
-- **på** → på en overflate, eller på et sted/en aktivitet
+Samme ord kan stå sammen med begge, men betydningen endres:
+
+**Boken ligger på bordet.**
+→ Oppå bordet.
+
+**Hun sitter ved bordet.**
+→ Ved bordet, ikke oppå det.
+
+**Fisken ligger på disken.**
+→ Fisken er plassert oppå disken.
+
+**Du kjøper fisk ved ferskvaredisken.**
+→ Du står ved disken når du handler.
 
 ---
 
-## Ved — ved siden av eller i nærheten av
-
-**Ved** plasserer noe **nær** et annet punkt, uten å si at det er akkurat der.
+## Ved — nær noe
 
 **1. Jeg venter ved bussholdeplassen.**
-→ Jeg er i nærheten av holdeplassen, ikke nødvendigvis akkurat på den.
+→ I nærheten av holdeplassen.
 
 **2. Hun står ved døren.**
 → Rett ved siden av døren.
 
 **3. Det er ofte kø ved kassen.**
-→ Køen dannes i nærheten av kassen.
+→ Køen står i nærheten av kassen.
 
-**4. Du kan kjøpe fersk fisk ved ferskvaredisken.**
-→ Betyr at du kan kjøpe fisken **der borte, i det området** — ved eller i nærheten av disken.
+**4. Vi bor ved sjøen.**
+→ Nær sjøen.
+
+**5. Han studerer ved universitetet.**
+→ **Ved** brukes også om store institusjoner, særlig universiteter og høyskoler.
+
+_Merk: **på bussholdeplassen** er også helt vanlig. **Ved** legger bare vekt på nærhet._
 
 ---
 
-## På — en overflate eller et sted/en aktivitet
+## På — overflate, sted eller aktivitet
 
-**På** kan bety at noe befinner seg **oppå en overflate**:
+**Overflate:**
 
 **1. Boken ligger på bordet.**
 
-**2. Fisken ligger på disken.**
-→ Her er fisken fysisk plassert oppå disken — en overflate.
+**2. Jeg legger varene på disken før jeg betaler.**
 
-**På** brukes også om **steder og aktiviteter** man er en del av:
+**Sted og aktivitet:**
 
 **3. Jeg er på jobb.**
 
@@ -61,63 +75,19 @@ Både **ved** og **på** kan brukes om steder, men de har ulikt fokus:
 
 **5. Vi er på museet.**
 
----
-
-## Fisken ligger på disken, men du kjøper den ved disken
-
-Dette paret viser forskjellen tydelig:
-
-> **Fisken ligger på disken.**
-> → Fisken er fysisk plassert oppå disken — en overflate.
-
-<!-- -->
-
-> **Du kjøper fisk ved ferskvaredisken.**
-> → Du befinner deg i nærheten av/ved disken når du handler.
-
-Begge setningene handler om samme disk, men **på** beskriver overflaten, mens **ved** beskriver hvor du selv står eller venter.
-
----
-
-## Flere eksempler fra hverdagen
-
-**1. Jeg møtte en venn ved inngangen til kjøpesenteret.**
-→ Nær inngangen.
-
-**2. Mange mennesker sto og ventet ved bussholdeplassen.**
-→ I nærheten av holdeplassen.
-
-**3. Jeg legger varene på disken før jeg betaler.**
-→ Oppå disken — en overflate.
-
-**4. Vi diskuterte problemet på møtet.**
-→ Møtet som aktivitet/arrangement.
-
-**5. Hun jobber på et sykehjem og trives godt der.**
-→ Arbeidsplass som sted.
-
----
-
-## Sammenligningstabell
-
-| Ord     | Fokus                           | Eksempel                                |
-| ------- | ------------------------------- | --------------------------------------- |
-| **ved** | nær / ved siden av              | Hun står ved døren.                     |
-| **på**  | overflate, eller sted/aktivitet | Boken ligger på bordet. Jeg er på jobb. |
+**6. Vi diskuterte problemet på møtet.**
 
 ---
 
 ## Vanlige feil
 
-❌ Jeg venter på bussholdeplassen når jeg egentlig mener rett utenfor den.
-⭕ Jeg venter **ved** bussholdeplassen.
+❌ Boken ligger ved bordet. _(når du mener oppå bordet)_
+⭕ Boken ligger **på** bordet.
 
-_**På** bussholdeplassen betyr at du befinner deg akkurat der selve holdeplassen er. **Ved** beskriver at du er et sted i nærheten av den, ikke nødvendigvis nøyaktig der._
+❌ Jeg er ved jobb.
+⭕ Jeg er **på** jobb.
 
-❌ Fisken ligger ved disken. _(når du mener at den er fysisk plassert oppå den)_
-⭕ Fisken ligger **på** disken.
-
-_Når noe befinner seg på en overflate, bruker du **på**, ikke **ved**._
+_Med jobb, skole og mange andre steder bruker du fast **på**._
 
 ---
 
@@ -127,33 +97,33 @@ _Når noe befinner seg på en overflate, bruker du **på**, ikke **ved**._
 a) ved
 b) på
 
-**Svar:** a) ved — hun er ved siden av døren, ikke oppå den.
+**Svar:** a) ved — hun står ved siden av døren, ikke oppå den.
 
 **2. Velg riktig preposisjon: «Boken ligger ______ bordet.»**
 a) ved
 b) på
 
-**Svar:** b) på — boken befinner seg på en overflate.
+**Svar:** b) på — boken ligger oppå en overflate.
 
-**3. Velg riktig preposisjon: «Det er ofte kø ______ kassen i butikken.»**
+**3. Velg riktig preposisjon: «Jeg er ______ jobb.»**
 a) ved
 b) på
 
-**Svar:** a) ved — køen dannes i nærheten av kassen.
+**Svar:** b) på — jobb er et sted/en aktivitet, og da bruker du **på**.
 
 ---
 
 ## Husk dette
 
-- **ved** → ved siden av / i nærheten av — en posisjon nær noe
-- **på** → på en overflate, eller på et sted/en aktivitet
-- Samme sted kan ta begge deler, avhengig av om du mener overflaten (**på**) eller nærheten (**ved**)
+- **ved** = nær noe / ved siden av
+- **på** = oppå en overflate, eller på et sted/en aktivitet
+- Samme sted kan ta begge deler: **på** disken (overflaten), **ved** disken (nærheten)
 
 ---
 
 ## Vanlige uttrykk
 
-ved bussholdeplassen · ved døren · ved kassen · ved siden av · på bordet · på disken · på jobb · på skolen · på museet
+ved bussholdeplassen · ved døren · ved kassen · ved sjøen · ved siden av · på bordet · på disken · på jobb · på skolen · på museet
 
 ---
 

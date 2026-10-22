@@ -42,24 +42,31 @@ Disse ordene sier noe om **hvor ofte**, **hvor sannsynlig** eller **hvordan vi s
 
 ---
 
-## Substantiv + vis: «X for X»
+## Substantiv + vis: fordeling
 
-Disse ordene beskriver **hvordan noe fordeles eller skjer**: to og to, trinn for trinn.
+Disse ordene beskriver **hvordan noe fordeles**: to og to, punkt for punkt.
 
 - **parvis** → to og to
 - **enkeltvis** → én om gangen
 - **gruppevis** → gruppe for gruppe
 - **punktvis** → punkt for punkt
-- **trinnvis** → trinn for trinn
-- **gradvis** → litt etter litt
 
 **1. Elevene jobbet parvis med oppgaven.**
 
 **2. Vi gjennomgår planen punktvis.**
 
-**3. Endringen innføres trinnvis.**
+---
 
-**4. Prisene har økt gradvis.**
+## Substantiv + vis: utvikling og rekkefølge
+
+Disse ordene beskriver **hvordan noe skjer over tid**: trinn for trinn eller litt etter litt.
+
+- **trinnvis** → trinn for trinn
+- **gradvis** → litt etter litt
+
+**1. Endringen innføres trinnvis.**
+
+**2. Prisene har økt gradvis.**
 
 ---
 
@@ -111,11 +118,12 @@ _**Alternativvis** er ikke en naturlig norsk form._
 
 ## Sammenligningstabell
 
-| Gruppe               | Mønster          | Eksempler                        |
-| -------------------- | ---------------- | -------------------------------- |
-| Holdning / hyppighet | adjektiv + vis   | vanligvis, heldigvis, tydeligvis |
-| Fordeling (X for X)  | substantiv + vis | parvis, trinnvis, gradvis        |
-| Grad / andel         | substantiv + vis | delvis, forholdsvis, prosentvis  |
+| Gruppe                 | Mønster          | Eksempler                        |
+| ---------------------- | ---------------- | -------------------------------- |
+| Holdning / hyppighet   | adjektiv + vis   | vanligvis, heldigvis, tydeligvis |
+| Fordeling              | substantiv + vis | parvis, enkeltvis, punktvis      |
+| Utvikling / rekkefølge | substantiv + vis | trinnvis, gradvis                |
+| Grad / andel           | substantiv + vis | delvis, forholdsvis, prosentvis  |
 
 ---
 
@@ -153,4 +161,6 @@ dessverre · muligens · selvfølgelig · for eksempel · trolig
 
 ---
 
-_→ Vil du lære forskjellen mellom **trolig**, **sannsynligvis** og **sikkert**? Les: [Trolig vs Sannsynligvis vs Sikkert](/blog/trolig-vs-sannsynligvis-vs-sikkert)_
+_→ Vil du lære forskjellen mellom **trolig**, **sannsynligvis** og **sikkert**? Les: [Trolig vs Sannsynligvis vs Sikkert](/blog/trolig-vs-sannsynligvis-vs-sikker)_
+
+---

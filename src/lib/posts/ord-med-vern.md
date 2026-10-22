@@ -67,7 +67,9 @@ decks:
 
 ## Vern vs beskyttelse
 
-Disse sammensetningene bruker **-vern**. Former som _barnebeskyttelse_ eller _personbeskyttelse_ høres unaturlige ut, og _miljøbeskyttelse_ finnes, men er ikke det vanlige ordet.
+Disse sammensetningene bruker **-vern**. *Barnebeskyttelse* finnes, men er mindre vanlig enn **barnevern**, og *miljøbeskyttelse* finnes, men er ikke det vanlige ordet.
+
+Vær særlig oppmerksom på **personvern**. Når du mener privatliv og personopplysninger, heter det **personvern**. *Personbeskyttelse* finnes også, men brukes om fysisk beskyttelse av personer, for eksempel i sikkerhetsarbeid.
 
 Som frittstående ord er **vern** og **beskyttelse** ikke alltid utskiftbare. **Vern** peker mot **organisert, juridisk eller systematisk** beskyttelse, mens **beskyttelse** er mer generelt og brukes også om konkrete, fysiske situasjoner:
 
@@ -83,6 +85,8 @@ Også **brannbeskyttelse** finnes, men det brukes mest om fysisk beskyttelse (fo
 ❌ Norge har strenge lover om personbeskyttelse.
 ⭕ Norge har strenge lover om **personvern**.
 
+_Når du mener privatliv og personopplysninger, bruker du **personvern**._
+
 ---
 
 ## Norskprøven — eksempelspørsmål
@@ -91,7 +95,7 @@ Også **brannbeskyttelse** finnes, men det brukes mest om fysisk beskyttelse (fo
 a) personvern
 b) personbeskyttelse
 
-**Svar:** a) personvern — det etablerte ordet i lovspråk og dagligtale.
+**Svar:** a) personvern — det etablerte ordet for privatliv og personopplysninger.
 
 **2. Hvilket ord betyr «tiltak for å hindre spredning av sykdom»?**
 a) smittevern
@@ -114,3 +118,5 @@ beskyttelse · sikre · forsvare · bevare · ivareta
 ---
 
 _→ Vil du lære flere norske ordfamilier bygget på et felles grunnord? Les: [Kjenne-familien — erkjenne, anerkjenne, gjenkjenne, vedkjenne seg](/blog/kjenne-ord)_
+
+---

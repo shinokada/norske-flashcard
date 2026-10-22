@@ -1,6 +1,6 @@
 ---
 title: 'Norsken min — Derfor får norsk bestemt artikkel'
-description: '«Norsken» er bestemt form av «norsk» brukt som substantiv. Når du snakker om ditt eget eller andres norsk, legger man til -en, og det samme mønsteret gjelder for alle språk.'
+description: '«Norsken» er bestemt form av «norsk» brukt som substantiv. Når du snakker om ditt eget eller andres norsk, legger man til -en, og det samme mønsteret gjelder for andre språk.'
 slug: norsken
 cefr: A2
 publishedAt: 2026-10-21
@@ -15,7 +15,7 @@ decks:
     label: A1 Nouns
 ---
 
-> **Kort sagt:** **Norsken** er bestemt form av **norsk** brukt som substantiv. Når du sier «norsken min» eller «norsken hennes», legger du til **-en** — akkurat som for andre hankjønnsord. Det samme gjelder alle språknavn: _engelsken_, _fransken_, _japansken_.
+> **Kort sagt:** **Norsken** er bestemt form av **norsk** brukt som substantiv. Når du sier «norsken min» eller «norsken hennes», legger du til **-en**. Språknavn er oftest hankjønn og følger samme mønster: _engelsken_, _fransken_, _japansken_.
 
 ## Ubestemt vs bestemt form
 
@@ -39,7 +39,7 @@ decks:
 
 ## Hvorfor -en?
 
-Språknavn er hankjønnsord, og bestemt form av hankjønnsord får endelsen **-en**:
+Språknavn kan være hankjønn eller intetkjønn. **Norsk** kan for eksempel være både *en norsk* og *et norsk* (*et godt norsk*). I uttrykk som *norsken min* bruker vi hankjønnsformen, og bestemt form av hankjønnsord får endelsen **-en**:
 
 | Substantiv | Ubestemt | Bestemt |
 | ---------- | -------- | ------- |
@@ -47,11 +47,13 @@ Språknavn er hankjønnsord, og bestemt form av hankjønnsord får endelsen **-e
 | en gutt    | gutt     | gutten  |
 | en norsk   | norsk    | norsken |
 
-Man sier sjelden _en norsk_ alene om språket, men **norsken** følger det samme mønsteret.
+**Norsken** følger altså samme mønster som *bilen* og *gutten*.
 
 ---
 
-## Samme mønster for alle språk
+## Samme mønster for andre språk
+
+De fleste språknavn fungerer på samme måte:
 
 | Språk   | Bestemt form | Eksempel                           |
 | ------- | ------------ | ---------------------------------- |
@@ -97,7 +99,7 @@ b) norsken
 a) Fransken hennes er flytende.
 b) Fransk hennes er flytende.
 
-**Svar:** a) — samme mønster for alle språknavn.
+**Svar:** a) — språknavn følger samme mønster i hankjønn.
 
 ---
 

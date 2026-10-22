@@ -115,7 +115,7 @@ b) være sikker på
 a) forsikret seg om
 b) var sikker på
 
-**Svar:** a) forsikret seg om — en aktiv sjekk. (Hvis han hadde vært sikker, hadde han ikke gått tilbake.)
+**Svar:** a) forsikret seg om — han sjekket aktivt. **Være sikker på** beskriver bare hva han tror eller vet, ikke at han gjør noe.
 
 **3. Hvilket uttrykk betyr at du selv tar ansvar for at noe skjer?**
 a) sørge for
@@ -138,3 +138,5 @@ ansvar · trygg · sikkerhet · sikre · kontrollere · bekrefte
 ---
 
 _→ Vil du lære om de to betydningene av **sikkert**? Les: [Sikkert — sikkert eller sannsynligvis?](/blog/sikkert)_
+
+---

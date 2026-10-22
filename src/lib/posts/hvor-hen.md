@@ -1,10 +1,10 @@
 ---
 title: 'Hvor hen — Hvor skal du?'
-description: '«Hen» gir en retningsnyanse til «hvor» og er vanlig i muntlig norsk. Det er valgfritt, men høres naturlig ut når du spør hvor noen er på vei.'
+description: '«Hen» etter «hvor» er et valgfritt, muntlig ord i norsk: «Hvor skal du hen?» betyr det samme som «Hvor skal du?» men høres mer naturlig ut i samtale.'
 slug: hvor-hen
 cefr: B1
 publishedAt: 2026-09-23
-updatedAt: 2026-09-12
+updatedAt: 2026-10-22
 tags: [vocabulary, expressions, phrases, adverbs]
 decks:
   - level: b1
@@ -15,35 +15,35 @@ decks:
     label: A2 Phrases
 ---
 
-> **Kort sagt:** **Hen** legges til etter **hvor** i muntlig norsk for å tilføye en retnings- eller plasseringsnuanse — «where to» eller «where at». Det er valgfritt og mest uformelt, men svært vanlig og naturlig i dagligtale.
+> **Kort sagt:** **Hen** legges til **hvor** i muntlig norsk: **Hvor skal du hen?** Det er valgfritt og uformelt, men svært vanlig. Setningen betyr det samme uten **hen**.
 
 ## Kort forklaring
 
-**Hen** er et lite ord som ofte dukker opp etter **hvor** i norsk dagligtale. Det tilføyer en svak følelse av retning eller plassering — noe lignende engelsk "where to" eller "where at."
+**Hen** er et lite ord som ofte kommer sist i spørsmål med **hvor**. Opprinnelig peker det mot retning, så **Hvor skal du hen?** ligner på engelsk _where to_. I dagligtale brukes det også om plassering: **Hvor er du hen?** ligner på _where are you at_.
 
-Det er ikke grammatisk nødvendig, og setningen betyr det samme uten det. Men i muntlig norsk høres det naturlig og idiomatisk ut.
+Det er ikke grammatisk nødvendig, og setningen betyr det samme uten. Men i muntlig norsk høres det naturlig ut.
+
+_Merk: **hen** er også et kjønnsnøytralt pronomen («Hen sa at …»). Det er et annet ord enn **hen** i **hvor … hen**._
 
 ---
 
 ## Eksempler
 
 **1. Hvor skal du hen?**
-→ Den vanligste bruken — man spør hvor noen er på vei. Svært naturlig i muntlig norsk.
+→ Den vanligste bruken. Du spør hvor noen er på vei.
 
 **2. Hvor er du hen?**
-→ Man spør om hvor noen befinner seg, ofte over telefon eller tekstmelding.
+→ Du spør hvor noen befinner seg, ofte over telefon eller i en melding.
 
-**3. Hun vet ikke hvor jeg er hen.**
-→ Her opptrer **hen** i et indirekte spørsmål — like valgfritt og like naturlig.
-
-**4. Hvor skal dere hen i sommer?**
+**3. Hvor skal dere hen i sommer?**
 → Vanlig i uformell samtale.
+
+**4. Jeg skal ut nå. — Hvor hen?**
+→ **Hvor hen?** fungerer også som et kort spørsmål helt alene.
 
 ---
 
 ## Med og uten hen — samme betydning
-
-**Hen** endrer ikke meningen — den tilføyer bare en muntlig, lett retningsbetont nyanse:
 
 | Med hen                           | Uten hen                  |
 | --------------------------------- | ------------------------- |
@@ -51,13 +51,13 @@ Det er ikke grammatisk nødvendig, og setningen betyr det samme uten det. Men i 
 | Hvor er du **hen**?               | Hvor er du?               |
 | Hun vet ikke hvor jeg er **hen**. | Hun vet ikke hvor jeg er. |
 
-Begge varianter er korrekte. Med **hen** høres mer idiomatisk og naturlig ut i tale; uten **hen** er litt mer nøytralt.
+Begge variantene er riktige. Med **hen** høres setningen mer muntlig ut, og uten **hen** er den mer nøytral.
 
 ---
 
 ## Direkte og indirekte spørsmål
 
-**Hen** brukes i begge typer:
+**Hen** brukes i begge typer, og plasseres til slutt i setningen.
 
 **Direkte spørsmål:**
 
@@ -72,78 +72,74 @@ Begge varianter er korrekte. Med **hen** høres mer idiomatisk og naturlig ut i 
 > Han spurte hvor vi skulle hen.
 > _He asked where we were going._
 
+Du kan også høre **hvor hen** sammen i begynnelsen av et spørsmål (**Hvor hen skal du?**), men **Hvor skal du hen?** er mest vanlig.
+
 ---
 
 ## Register og stil
 
 **Hen** etter **hvor** er:
 
-- vanlig i **muntlig norsk** — uformelt og idiomatisk
-- sjeldnere i **formell skrift** — der dropper man det gjerne
+- vanlig i **muntlig norsk**
 - naturlig i **tekstmeldinger og dagligtale**
+- sjeldnere i **formell skrift**, der droppes det gjerne
 
-Du vil høre det ofte, men du vil sjelden se det i formelle tekster eller nyhetsartikler.
-
----
-
-## Sammenligningstabell
-
-| Uttrykk               | Engelsk                   | Register          |
-| --------------------- | ------------------------- | ----------------- |
-| Hvor skal du **hen**? | Where are you going (to)? | muntlig, naturlig |
-| Hvor skal du?         | Where are you going?      | nøytralt          |
-| Hvor er du **hen**?   | Where are you (at)?       | muntlig, naturlig |
-| Hvor er du?           | Where are you?            | nøytralt          |
+Du hører det ofte, men ser det sjelden i nyhetsartikler eller offisielle tekster.
 
 ---
 
 ## Vanlige feil
 
-**Hvor hen skal du?** og **Hvor skal du hen?**
+❌ Når skal du hen?
+⭕ **Når** skal du reise?
 
-_Begge er brukt. **Hvor hen** rett etter hverandre er mer formelt/litterært (nær det gamle **hvorhen** = "whither"), mens **hen** til slutt i setningen er den vanligste, mest muntlige plasseringen i dag._
+❌ Hvem skal du hen?
+⭕ **Hvem** skal du besøke?
 
-❌ Jeg vet ikke hen hvor hun er.
-⭕ Jeg vet ikke hvor hun er **hen**.
+_**Hen** hører bare sammen med **hvor**._
 
-_I indirekte spørsmål kommer **hen** til slutt, etter verbet._
+❌ Hvor skal du dit?
+⭕ Hvor skal du **hen**? / Skal du **dit**?
+
+_**Hen** og **dit** peker begge mot retning. Du bruker bare ett av dem._
 
 ---
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Hvilken plassering er vanligst i uformell tale?**
-a) Hvor hen skal du?
-b) Hvor skal du hen?
-
-**Svar:** b) — den vanligste plasseringen i muntlig norsk i dag. **Hvor hen skal du?** er også korrekt, men mer formelt/litterært.
-
-**2. Er «hen» obligatorisk i «Hvor skal du (hen)?»?**
+**1. Er «hen» obligatorisk i «Hvor skal du (hen)?»?**
 a) Ja, setningen er ugrammatisk uten det
 b) Nei, det er valgfritt
 
 **Svar:** b) — setningen betyr det samme uten **hen**, men høres mer muntlig ut med det.
 
-**3. Velg riktig setning i et indirekte spørsmål:**
-a) Jeg vet ikke hen hvor hun er.
-b) Jeg vet ikke hvor hun er hen.
+**2. Velg riktig setning:**
+a) Hvor skal du hen?
+b) Når skal du hen?
 
-**Svar:** b) — **hen** kommer til slutt, etter verbet.
+**Svar:** a) — **hen** hører bare sammen med **hvor**.
+
+**3. Hvor kommer «hen» i «Jeg vet ikke hvor hun er ______»?**
+a) foran «hvor»
+b) til slutt i setningen
+
+**Svar:** b) — **hen** kommer til slutt: «Jeg vet ikke hvor hun er hen.»
 
 ---
 
 ## Husk dette
 
-- **hen** etter **hvor** tilføyer en lett retnings- eller plasseringsnuanse
-- Det er valgfritt — setningen betyr det samme uten
-- Typisk for **muntlig og uformelt norsk**
-- Vanligst etter verbet i muntlig norsk i dag; rett etter **hvor** («hvor hen …») forekommer også, men er mer formelt/litterært
+- **hen** etter **hvor** er valgfritt og muntlig
+- Setningen betyr det samme uten **hen**
+- **Hen** kommer vanligvis til slutt: Hvor skal du hen?
+- **Hvor hen?** kan stå alene som et kort spørsmål
+- **Hen** brukes bare med **hvor**, ikke med når, hvem eller hvorfor
 
 ---
 
 ## Vanlige uttrykk
 
-Hvor skal du hen? · Hvor er du hen? · Jeg vet ikke hvor de er hen · Hvor skal vi hen nå?
+Hvor skal du hen? · Hvor er du hen? · Hvor hen? · Jeg vet ikke hvor de er hen · Hvor skal vi hen nå?
 
 ---
 
