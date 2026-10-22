@@ -39,7 +39,7 @@ decks:
 
 ## Hvorfor -en?
 
-Språknavn kan være hankjønn eller intetkjønn. **Norsk** kan for eksempel være både *en norsk* og *et norsk* (*et godt norsk*). I uttrykk som *norsken min* bruker vi hankjønnsformen, og bestemt form av hankjønnsord får endelsen **-en**:
+Språknavn kan være hankjønn eller intetkjønn. **Norsk** kan for eksempel være både _en norsk_ og _et norsk_ (_et godt norsk_). I uttrykk som _norsken min_ bruker vi hankjønnsformen, og bestemt form av hankjønnsord får endelsen **-en**:
 
 | Substantiv | Ubestemt | Bestemt |
 | ---------- | -------- | ------- |
@@ -47,7 +47,7 @@ Språknavn kan være hankjønn eller intetkjønn. **Norsk** kan for eksempel væ
 | en gutt    | gutt     | gutten  |
 | en norsk   | norsk    | norsken |
 
-**Norsken** følger altså samme mønster som *bilen* og *gutten*.
+**Norsken** følger altså samme mønster som _bilen_ og _gutten_.
 
 ---
 
@@ -89,7 +89,7 @@ b) Norsken min blir bedre.
 
 **Svar:** b) — eieordet etter substantivet krever bestemt form.
 
-**2. Velg riktig ord: «Jeg lærer ______.» (generelt, uten eieord)**
+**2. Velg riktig ord: «Jeg lærer \______.» (generelt, uten eieord)**
 a) norsk
 b) norsken
 

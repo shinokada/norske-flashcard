@@ -109,7 +109,7 @@ _**Opptatt med** betyr at du holder på med noe akkurat nå._
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Beklager, jeg kan ikke snakke nå. Jeg er ______.»**
+**1. Velg riktig ord: «Beklager, jeg kan ikke snakke nå. Jeg er \______.»**
 a) opptatt
 b) travelt
 

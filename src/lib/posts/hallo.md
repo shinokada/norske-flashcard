@@ -95,7 +95,7 @@ b) Ha det!
 
 **Svar:** a) Hallo? — den klassiske telefonåpningen. («Ha det» sier du når du avslutter.)
 
-**3. Velg riktig ord: «______? Hører du meg?» (noen er uoppmerksom)**
+**3. Velg riktig ord: «\______? Hører du meg?» (noen er uoppmerksom)**
 a) Hei
 b) Hallo
 

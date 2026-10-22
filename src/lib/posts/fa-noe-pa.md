@@ -78,7 +78,7 @@ Plasseringen av **ikke** avhenger av om objektet er et substantiv eller et prono
 
 ## Samme mønster med andre partikler
 
-**Få** kombineres med mange partikler: **få av** (*Jeg får ikke støvlene av*), **få til** (*Jeg får det ikke til*), **få tak i** (*Jeg får ikke tak i henne*), **få i gang** (*Jeg fikk ikke bilen i gang*).
+**Få** kombineres med mange partikler: **få av** (_Jeg får ikke støvlene av_), **få til** (_Jeg får det ikke til_), **få tak i** (_Jeg får ikke tak i henne_), **få i gang** (_Jeg fikk ikke bilen i gang_).
 
 ---
 

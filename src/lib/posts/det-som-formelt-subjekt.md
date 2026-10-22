@@ -5,14 +5,14 @@ slug: det-som-formelt-subjekt
 cefr: B1
 publishedAt: 2026-06-25
 updatedAt: 2026-09-12
-tags: [grammar, sentence-structure, word-order]
+tags: [grammar]
 ---
 
 > **Kort sagt:** Når du introduserer noe nytt eller ubestemt, kan norsk sette **det** først og flytte det egentlige subjektet etter verbet: **Det kom en katt.** Dette kalles en **presenteringssetning**.
 
 ## Kort forklaring
 
-**Det** er her et formelt subjekt, altså en plassholder. Det egentlige subjektet (*the real subject*) kommer etter verbet.
+**Det** er her et formelt subjekt, altså en plassholder. Det egentlige subjektet (_the real subject_) kommer etter verbet.
 
 Hvorfor trengs **det**? I en norsk hovedsetning står verbet på plass nummer to. Når subjektet flyttes etter verbet, må noe annet fylle plassen foran verbet. Det er **det**.
 
@@ -30,7 +30,7 @@ Hvorfor trengs **det**? I en norsk hovedsetning står verbet på plass nummer to
 | ------- | --------------------------------- |
 | **Det** | formelt subjekt (plassholder)     |
 | kom     | verbal                            |
-| en katt | egentlig subjekt (*real subject*) |
+| en katt | egentlig subjekt (_real subject_) |
 
 Begge setningene er riktige. Presenteringssetningen er vanligst når vi forteller om noe nytt eller uventet.
 
@@ -84,7 +84,7 @@ _Lytteren vet allerede hvem «mannen» er, så subjektet trenger ikke å present
 ❌ Står en mann utenfor.
 ⭕ **Det** står en mann utenfor.
 
-_Du kan ikke droppe **det**. Norske setninger må ha et subjekt foran verbet._
+_Du kan ikke droppe **det** her. I presenteringssetningen står **det** foran verbet og fyller plassen som formelt subjekt._
 
 ---
 

@@ -149,14 +149,14 @@ Når du introduserer noe spesifikt og nytt i samtalen:
 
 | Situasjon                             | Artikkel? | Eksempel                       |
 | ------------------------------------- | --------- | ------------------------------ |
-| Yrke etter «er»                       | ❌ Nei     | Hun er lærer.                  |
-| Yrke + adjektiv                       | ✅ Ja      | Hun er en god lærer.           |
-| Nasjonalitet etter «er»               | ❌ Nei     | Han er nordmann.               |
-| Rolle/funksjon («er», «som»)          | ❌ Nei     | Han ble valgt som president.   |
-| Ikke-tellelige stoffer (fast uttrykk) | ❌ Nei     | kaffe med melk · brød med smør |
-| Fast verb + substantiv                | ❌ Nei     | spille gitar · gå på tur       |
-| Nytt, spesifikt substantiv            | ✅ Ja      | Det er en bil utenfor.         |
-| Emfase eller kontrast                 | ✅ Ja      | Han er en sann leder.          |
+| Yrke etter «er»                       | ❌ Nei    | Hun er lærer.                  |
+| Yrke + adjektiv                       | ✅ Ja     | Hun er en god lærer.           |
+| Nasjonalitet etter «er»               | ❌ Nei    | Han er nordmann.               |
+| Rolle/funksjon («er», «som»)          | ❌ Nei    | Han ble valgt som president.   |
+| Ikke-tellelige stoffer (fast uttrykk) | ❌ Nei    | kaffe med melk · brød med smør |
+| Fast verb + substantiv                | ❌ Nei    | spille gitar · gå på tur       |
+| Nytt, spesifikt substantiv            | ✅ Ja     | Det er en bil utenfor.         |
+| Emfase eller kontrast                 | ✅ Ja     | Han er en sann leder.          |
 
 ---
 

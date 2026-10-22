@@ -99,7 +99,7 @@ I noen faste uttrykk betyr **fort** «lett» eller «lett hendt», ikke bare has
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Vi ses ______!» (betyr «see you soon»)**
+**1. Velg riktig ord: «Vi ses \______!» (betyr «see you soon»)**
 a) snart
 b) fort
 

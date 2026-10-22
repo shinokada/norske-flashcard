@@ -96,7 +96,7 @@ b) holder på med
 
 **Svar:** a) holder på å — verb følger, og du er nær ved å sovne.
 
-**2. Velg riktig uttrykk: «Hva holder du ______?»**
+**2. Velg riktig uttrykk: «Hva holder du \______?»**
 a) på med
 b) på å
 

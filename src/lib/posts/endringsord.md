@@ -31,7 +31,7 @@ decks:
 → Et vanlig, praktisk bruk.
 
 **3. Hun endret mening.**
-→ Synspunktet er annerledes. **Endre seg** brukes også om personer: *Han har endret seg.*
+→ Synspunktet er annerledes. **Endre seg** brukes også om personer: _Han har endret seg._
 
 ---
 
@@ -52,7 +52,7 @@ decks:
 
 ## Erstatte — gammelt blir nytt
 
-**Erstatte** betyr å ta noe bort og sette noe **annet** i stedet. Mønsteret er **erstatte A med B**, eller *B erstatter A*.
+**Erstatte** betyr å ta noe bort og sette noe **annet** i stedet. Mønsteret er **erstatte A med B**, eller _B erstatter A_.
 
 **1. Vi må erstatte den gamle bilen.**
 → Den gamle bilen forsvinner, en ny kommer i stedet.

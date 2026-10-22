@@ -29,7 +29,7 @@ decks:
 | **takk for i kveld** | thanks for this evening | etter et middagsselskap eller kveldshendelse |
 | **takk for nå**      | thanks for now          | uformelt, litt mer hverdagslig               |
 
-**Takk for sist** er ikke en avskjed. Du sier det når du *møter* noen igjen etter en tidligere anledning: _Takk for sist!_ = "Thanks for last time."
+**Takk for sist** er ikke en avskjed. Du sier det når du _møter_ noen igjen etter en tidligere anledning: _Takk for sist!_ = "Thanks for last time."
 
 ---
 

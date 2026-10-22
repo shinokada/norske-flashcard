@@ -56,10 +56,10 @@ decks:
 |                       | **lei seg**             | **trist**                 |
 | --------------------- | ----------------------- | ------------------------- |
 | Betydning             | opprørt / såret / trist | trist / dyster / bedrøvet |
-| Om personer           | ✅                       | ✅                         |
-| Om historier / filmer | ❌                       | ✅ — _en trist film_       |
-| Om vær / steder       | ❌                       | ✅ — _trist vær_           |
-| Betyr «sorry»         | ✅ — _Jeg er lei meg._   | ❌                         |
+| Om personer           | ✅                      | ✅                        |
+| Om historier / filmer | ❌                      | ✅ — _en trist film_      |
+| Om vær / steder       | ❌                      | ✅ — _trist vær_          |
+| Betyr «sorry»         | ✅ — _Jeg er lei meg._  | ❌                        |
 
 Om personer overlapper ordene ofte. **Han så lei seg ut** antyder at noe har skjedd, mens **han så trist ut** beskriver hvordan han virker. Forskjellen er en tendens, ikke en regel.
 

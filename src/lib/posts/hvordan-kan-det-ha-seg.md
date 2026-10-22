@@ -21,7 +21,7 @@ decks:
 
 **«Hvordan kan det ha seg?»** bruker du når noe er uventet, og du vil ha en forklaring.
 
-**Ha seg** er et fast uttrykk uten direkte engelsk ekvivalent. Tenk på det som «be the case»: *how can it be the case?* Ordet **seg** endres aldri, uansett hvem det gjelder.
+**Ha seg** er et fast uttrykk uten direkte engelsk ekvivalent. Tenk på det som «be the case»: _how can it be the case?_ Ordet **seg** endres aldri, uansett hvem det gjelder.
 
 ---
 
@@ -72,10 +72,10 @@ I hverdagsspråk sier mange bare **Hvordan det?** eller **Hvorfor det?**.
 
 ## Faste former med «ha seg»
 
-**Hvordan har det seg at …?** — *How come …?*
+**Hvordan har det seg at …?** — _How come …?_
 Hvordan har det seg at han alltid kommer for sent?
 
-**Det har seg slik at …** — *The thing is that …*
+**Det har seg slik at …** — _The thing is that …_
 Det har seg slik at jeg må jobbe i morgen.
 
 ---

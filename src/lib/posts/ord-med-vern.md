@@ -67,9 +67,9 @@ decks:
 
 ## Vern vs beskyttelse
 
-Disse sammensetningene bruker **-vern**. *Barnebeskyttelse* finnes, men er mindre vanlig enn **barnevern**, og *miljøbeskyttelse* finnes, men er ikke det vanlige ordet.
+Disse sammensetningene bruker **-vern**. _Barnebeskyttelse_ finnes, men er mindre vanlig enn **barnevern**, og _miljøbeskyttelse_ finnes, men er ikke det vanlige ordet.
 
-Vær særlig oppmerksom på **personvern**. Når du mener privatliv og personopplysninger, heter det **personvern**. *Personbeskyttelse* finnes også, men brukes om fysisk beskyttelse av personer, for eksempel i sikkerhetsarbeid.
+Vær særlig oppmerksom på **personvern**. Når du mener privatliv og personopplysninger, heter det **personvern**. _Personbeskyttelse_ finnes også, men brukes om fysisk beskyttelse av personer, for eksempel i sikkerhetsarbeid.
 
 Som frittstående ord er **vern** og **beskyttelse** ikke alltid utskiftbare. **Vern** peker mot **organisert, juridisk eller systematisk** beskyttelse, mens **beskyttelse** er mer generelt og brukes også om konkrete, fysiske situasjoner:
 
@@ -103,7 +103,7 @@ b) strålevern
 
 **Svar:** a) smittevern.
 
-**3. Velg riktig ord: «Pantet må tinglyses for å få ______.»**
+**3. Velg riktig ord: «Pantet må tinglyses for å få \______.»**
 a) rettsvern
 b) naturvern
 

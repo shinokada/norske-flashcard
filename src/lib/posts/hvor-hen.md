@@ -96,7 +96,7 @@ Du hører det ofte, men ser det sjelden i nyhetsartikler eller offisielle tekste
 ❌ Hvem skal du hen?
 ⭕ **Hvem** skal du besøke?
 
-_**Hen** hører bare sammen med **hvor**._
+_I dette spørsmålsmønsteret hører **hen** sammen med **hvor**._
 
 ❌ Hvor skal du dit?
 ⭕ Hvor skal du **hen**? / Skal du **dit**?
@@ -117,9 +117,9 @@ b) Nei, det er valgfritt
 a) Hvor skal du hen?
 b) Når skal du hen?
 
-**Svar:** a) — **hen** hører bare sammen med **hvor**.
+**Svar:** a) — i dette spørsmålsmønsteret hører **hen** sammen med **hvor**.
 
-**3. Hvor kommer «hen» i «Jeg vet ikke hvor hun er ______»?**
+**3. Hvor kommer «hen» i «Jeg vet ikke hvor hun er \______»?**
 a) foran «hvor»
 b) til slutt i setningen
 
@@ -133,7 +133,7 @@ b) til slutt i setningen
 - Setningen betyr det samme uten **hen**
 - **Hen** kommer vanligvis til slutt: Hvor skal du hen?
 - **Hvor hen?** kan stå alene som et kort spørsmål
-- **Hen** brukes bare med **hvor**, ikke med når, hvem eller hvorfor
+- I dette spørsmålsmønsteret brukes **hen** med **hvor**, ikke med når, hvem eller hvorfor
 
 ---
 

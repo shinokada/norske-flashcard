@@ -101,7 +101,7 @@ _**Vær** er et intetkjønnsord (et vær), så adjektivet bøyes til **godt**. *
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Jeg har det ______.»**
+**1. Velg riktig ord: «Jeg har det \______.»**
 a) bra
 b) flink
 

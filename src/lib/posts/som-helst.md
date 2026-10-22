@@ -95,7 +95,7 @@ _**Bøker** er flertall, så det heter **hvilke**._
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig uttrykk: «Du kan ringe meg ______, jeg svarer alltid.»**
+**1. Velg riktig uttrykk: «Du kan ringe meg \______, jeg svarer alltid.»**
 a) når som helst
 b) hver gang
 

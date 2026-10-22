@@ -15,7 +15,7 @@ decks:
     label: A1 Adjectives
 ---
 
-> **Kort sagt:** Både **sakte** og **langsomt** betyr «slowly». **Sakte** er det hverdagslige ordet i samtale, mens **langsomt** høres noe mer skriftlig og beskrivende ut. Foran et substantiv foretrekker man adjektivet **langsom** (*en langsom prosess*). Velg **sakte** når du er i tvil i samtale.
+> **Kort sagt:** Både **sakte** og **langsomt** betyr «slowly». **Sakte** er det hverdagslige ordet i samtale, mens **langsomt** høres noe mer skriftlig og beskrivende ut. Foran et substantiv foretrekker man adjektivet **langsom** (_en langsom prosess_). Velg **sakte** når du er i tvil i samtale.
 
 ---
 
@@ -62,7 +62,7 @@ Komparativ: **Kan du snakke litt saktere?** er veldig vanlig i tale.
 | **langsomt** | adverb (beskriver handling) | bilen kjører langsomt |
 | **sakte**    | først og fremst adverb      | toget går sakte       |
 
-Foran et substantiv foretrekker man vanligvis **langsom/langsomt**: *en langsom prosess*. **Sakte** kan også stå foran substantiver, særlig i faste forbindelser som *sakte fart* og *sakte skritt*, men *en langsom prosess* er det naturlige valget.
+Foran et substantiv foretrekker man vanligvis **langsom/langsomt**: _en langsom prosess_. **Sakte** kan også stå foran substantiver, særlig i faste forbindelser som _sakte fart_ og _sakte skritt_, men _en langsom prosess_ er det naturlige valget.
 
 ---
 
@@ -86,8 +86,8 @@ Komparativ: **saktere** og **langsommere** er begge naturlige. **Mer langsomt** 
 | Betydning        | slowly               | slowly                               |
 | Tone             | hverdagslig, muntlig | noe skriftlig, beskrivende           |
 | Vanligst i       | samtale, dagligtale  | skrift, litteratur, formelle tekster |
-| Foran substantiv | bruk heller langsom  | ✅ en langsom prosess                 |
-| Som adverb       | ✅ han går sakte      | ✅ han gikk langsomt                  |
+| Foran substantiv | bruk heller langsom  | ✅ en langsom prosess                |
+| Som adverb       | ✅ han går sakte     | ✅ han gikk langsomt                 |
 | Komparativ       | saktere              | langsommere                          |
 | Superlativ       | saktest              | langsomst                            |
 
@@ -104,7 +104,7 @@ _Etter «er» trenger du et adjektiv som passer til substantivet (**en bil** →
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Kan du snakke ______, vær så snill?»**
+**1. Velg riktig ord: «Kan du snakke \______, vær så snill?»**
 a) sakte
 b) langsom
 
@@ -114,7 +114,7 @@ b) langsom
 a) langsom
 b) langsomt
 
-**Svar:** a) langsom — **prosess** er et en-ord. **Langsomt** er intetkjønnsformen (*et langsomt arbeid*) og adverbet.
+**Svar:** a) langsom — **prosess** er et en-ord. **Langsomt** er intetkjønnsformen (_et langsomt arbeid_) og adverbet.
 
 ---
 

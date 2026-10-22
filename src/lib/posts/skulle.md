@@ -1,6 +1,6 @@
 ---
 title: 'Skulle — var ment å, skulle til å og hvis det skulle'
-description: '«Skulle» er fortidsformen av «skal»: «was going to» eller «was supposed to». Det betyr ikke «should» (det er «burde»). Lær også «skulle til å» og «hvis det skulle».'
+description: '«Skulle» er fortidsformen av «skal»: «was going to» eller «was supposed to». For råd i nåtid bruker du vanligvis «burde». Lær også «skulle til å» og «hvis det skulle».'
 slug: skulle
 cefr: B1
 publishedAt: 2026-08-14
@@ -15,7 +15,7 @@ decks:
     label: A2 Verbs
 ---
 
-> **Kort sagt:** **Skulle** er fortidsformen av **skal**. Det betyr «was going to» eller «was supposed to» — en plan, avtale eller beskjed sett fra fortiden. Det betyr ikke «should». Det heter **burde**.
+> **Kort sagt:** **Skulle** er fortidsformen av **skal**: «was going to» eller «was supposed to» — en plan, avtale eller beskjed sett fra fortiden. For råd i nåtid bruker du vanligvis **burde**.
 
 ## Skulle = was going to / was supposed to
 
@@ -108,7 +108,7 @@ b) burde
 - **skulle** = fortidsformen av **skal**: was going to / was supposed to
 - **skulle til å** = was about to
 - **hvis det skulle …** = if it were to …
-- **should** heter **burde**, og **should have** heter **skulle ha** + partisipp
+- råd i nåtid (*should*) uttrykkes vanligvis med **burde**, og **should have** heter **skulle ha** + partisipp
 
 ---
 

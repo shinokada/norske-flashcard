@@ -62,15 +62,15 @@ Sterkere enn **sliten**: ingen energi igjen. Bokstavelig talt «worn out».
 **3. Skoene er utslitte.**
 → Brukes også om gjenstander som er oppbrukt.
 
-**Obs:** om gjenstander som bare er synlig brukt, sier man **slitt**: *en slitt jakke*, *slitte sko*. **Utslitt** betyr at de er helt oppbrukt.
+**Obs:** om gjenstander som bare er synlig brukt, sier man **slitt**: _en slitt jakke_, _slitte sko_. **Utslitt** betyr at de er helt oppbrukt.
 
 ---
 
 ## To beslektede ord: utmattet og lei
 
-**Utmattet** er mer formelt og brukes i medisinske eller alvorlige sammenhenger: *Hun var fysisk og psykisk utmattet.* I hverdagssamtaler sier man oftere **sliten** eller **utslitt**.
+**Utmattet** er mer formelt og brukes i medisinske eller alvorlige sammenhenger: _Hun var fysisk og psykisk utmattet._ I hverdagssamtaler sier man oftere **sliten** eller **utslitt**.
 
-**Lei** handler ikke om fysisk tretthet, men om å ha fått nok: *Jeg er lei av vinteren. Hun er lei av å vente.* Tenk «fed up», ikke «exhausted».
+**Lei** handler ikke om fysisk tretthet, men om å ha fått nok: _Jeg er lei av vinteren. Hun er lei av å vente._ Tenk «fed up», ikke «exhausted».
 
 ---
 
@@ -88,7 +88,7 @@ Sterkere enn **sliten**: ingen energi igjen. Bokstavelig talt «worn out».
 
 ## Vanlige kombinasjoner
 
-**Trøtt og sliten** brukes ofte sammen: *Jeg er trøtt og sliten etter reisen.* De to ordene forsterker hverandre.
+**Trøtt og sliten** brukes ofte sammen: _Jeg er trøtt og sliten etter reisen._ De to ordene forsterker hverandre.
 
 Vanlige forsterkere i tale:
 
