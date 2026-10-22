@@ -1,5 +1,14 @@
 # norske-flashcard
 
+## 2.112.0
+
+### Minor Changes
+
+- - **New Features**
+    - feat: add 202 uttrykk and 105 vocab
+    - Expanded Norwegian learning content with 202 expressions and 105 vocabulary items.
+    - This minor update adds new material for learners to explore and practice, alongside the existing content. The additions cover both complete expressions and individual vocabulary items, providing more learning material across these two content types.
+
 ## 2.111.1
 
 ### Patch Changes
