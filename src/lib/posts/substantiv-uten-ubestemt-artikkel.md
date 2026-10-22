@@ -6,7 +6,7 @@ cefr: [B1, B2]
 type: guide
 publishedAt: 2026-11-04
 updatedAt: 2026-11-04
-tags: [grammar, nouns, articles]
+tags: [grammar, nouns]
 ---
 
 > **Kort sagt:** Dropp den ubestemte artikkelen etter **er** ved yrker, nasjonaliteter og roller. Behold den når det legges til et adjektiv, når substantivet er spesifikt, eller når du vil understreke noe.

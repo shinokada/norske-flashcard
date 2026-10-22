@@ -5,7 +5,7 @@ slug: sorge-vs-sikker-vs-forsikre
 cefr: B1
 publishedAt: 2027-02-03
 updatedAt: 2027-02-03
-tags: [verbs, expressions, vocabulary]
+tags: [verbs, expressions]
 decks:
   - level: b1
     category: personal-growth
@@ -15,19 +15,9 @@ decks:
     label: B1 Everyday Words
 ---
 
-> **Kort sagt:** **Sørge for** betyr å ta ansvar for at noe skjer. **Være sikker på** betyr å ha visshet om at noe er sant. **Forsikre seg om** betyr å sjekke noe for å bli sikker. Alle tre kan minne om engelsk «make sure», men de brukes forskjellig på norsk.
+> **Kort sagt:** **Sørge for** betyr å ta ansvar for at noe skjer. **Være sikker på** betyr å ha visshet om at noe er sant. **Forsikre seg om** betyr å sjekke noe for å bli sikker. Alle tre kan oversettes med engelsk «make sure», men de brukes forskjellig på norsk.
 
-## Kort forklaring
-
-Tre uttrykk brukes ofte om hverandre av innlærere, men har ulikt fokus:
-
-- **sørge for** → du **tar ansvar** for at noe blir gjort
-- **være sikker på** → du **vet eller tror** at noe er sant
-- **forsikre seg om** → du **sjekker** noe for å bli sikker
-
----
-
-## Sørge for — fokus på handling og ansvar
+## Sørge for — handling og ansvar
 
 **Sørge for** brukes når du tar ansvar for at noe blir gjort eller skjer.
 
@@ -42,7 +32,7 @@ Tre uttrykk brukes ofte om hverandre av innlærere, men har ulikt fokus:
 
 ---
 
-## Være sikker på — fokus på visshet
+## Være sikker på — visshet
 
 **Være sikker på** brukes når du har visshet eller tillit til at noe er sant eller riktig.
 
@@ -52,14 +42,14 @@ Tre uttrykk brukes ofte om hverandre av innlærere, men har ulikt fokus:
 **2. Er du sikker på at dette er riktig?**
 → Et spørsmål om noens visshet.
 
-**3. Jeg vil være sikker på at alt er i orden.**
-→ Et ønske om trygghet, ikke en handling.
+**3. Jeg er helt sikker på at alt er i orden.**
+→ Du har full tillit til det, uten å gjøre noe.
 
 ---
 
-## Forsikre seg om — fokus på å sjekke
+## Forsikre seg om — å sjekke
 
-**Forsikre seg om** brukes når du kontrollerer eller sjekker noe for å bli sikker.
+**Forsikre seg om** brukes når du kontrollerer noe for å bli sikker.
 
 **1. Jeg må forsikre meg om at døren er låst.**
 → Du sjekker aktivt — kanskje du går og ser etter.
@@ -68,11 +58,13 @@ Tre uttrykk brukes ofte om hverandre av innlærere, men har ulikt fokus:
 → En aktiv kontroll, ikke bare en antagelse.
 
 **3. Jeg ringte ham for å forsikre meg om at han hadde det bra.**
-→ Sjekker via en handling for å bli trygg.
+→ Samtalen er selve sjekken.
+
+**Merk:** uten **seg** er betydningen en annen: **forsikre noen om noe** betyr «assure»: _Jeg forsikrer deg om at alt er i orden._
 
 ---
 
-## Direkte sammenligning — samme situasjon, tre uttrykk
+## Samme situasjon, tre uttrykk
 
 > **Døren skal være låst.**
 
@@ -87,6 +79,20 @@ Tre uttrykk brukes ofte om hverandre av innlærere, men har ulikt fokus:
 
 ---
 
+## Visshet eller ansvar?
+
+**Jeg er sikker på at døren blir låst.**
+→ Visshet: du tror eller vet at det skjer, uten at du nødvendigvis gjør det selv.
+
+**Jeg sørger for at døren blir låst.**
+→ Ansvar: du tar aktivt ansvar for resultatet.
+
+_Begge setninger er riktige. **Sørge for** kan også brukes om andre personer: «Jeg sørger for at han kommer.»_
+
+I formelt språk finnes også **sikre at**, som ligger nær **sørge for**: _Vi må sikre at alle får lik tilgang._
+
+---
+
 ## Sammenligningstabell
 
 | Uttrykk             | Fokus             | Typisk bruk               |
@@ -97,58 +103,37 @@ Tre uttrykk brukes ofte om hverandre av innlærere, men har ulikt fokus:
 
 ---
 
-## Visshet vs. ansvar — en presisering
-
-**Jeg er sikker på at døren blir låst.**
-→ Uttrykker visshet — du tror eller vet at det skjer, uten at du nødvendigvis er den som utfører handlingen.
-
-**Jeg sørger for at døren blir låst.**
-→ Uttrykker ansvar — du tar aktivt ansvar for resultatet.
-
-_Begge setninger er grammatisk riktige. Forskjellen ligger i betydningen: **være sikker på** handler om visshet, **sørge for** om å ta ansvar for et utfall — også når utfallet involverer en annen person, som i «jeg sørger for at han kommer»._
-
----
-
 ## Norskprøven — eksempelspørsmål
 
 **1. Velg riktig uttrykk: «Kan du ______ at alle får beskjed før møtet?»**
 a) sørge for
 b) være sikker på
 
-**Svar:** a) sørge for — handler om å ta ansvar for at noe blir gjort.
+**Svar:** a) sørge for — du tar ansvar for at det blir gjort.
 
-**2. Velg riktig uttrykk: «Jeg ______ at han hadde det bra, så jeg ringte ham.»**
-a) var sikker på
-b) forsikret meg om
+**2. Velg riktig uttrykk: «Han var usikker, så han gikk tilbake og ______ at komfyren var skrudd av.»**
+a) forsikret seg om
+b) var sikker på
 
-**Svar:** b) forsikret meg om — en aktiv sjekk, ikke bare en antagelse.
+**Svar:** a) forsikret seg om — en aktiv sjekk. (Hvis han hadde vært sikker, hadde han ikke gått tilbake.)
 
-**3. Velg riktig setning:**
-a) Jeg er sikker på at jeg låser døren.
-b) Jeg sørger for at døren blir låst.
+**3. Hvilket uttrykk betyr at du selv tar ansvar for at noe skjer?**
+a) sørge for
+b) være sikker på
 
-**Svar:** b) — sørge for passer når du selv tar ansvar for resultatet.
-
----
-
-## Husk dette
-
-- **sørge for** → ta ansvar for at noe skjer
-- **være sikker på** → vite eller tro at noe er sant
-- **forsikre seg om** → sjekke noe aktivt for å bli sikker
-- Alle tre kan minne om engelsk «make sure», men brukes forskjellig
+**Svar:** a) sørge for.
 
 ---
 
 ## Vanlige uttrykk
 
-sørge for at · sørge for noe · være sikker på at · helt sikker på · forsikre seg om at · forsikre seg om noe
+sørge for at · sørge for noe · være sikker på at · helt sikker på · forsikre seg om at · forsikre noen om noe
 
 ---
 
 ## Relaterte ord
 
-ansvar · trygg · sikkerhet · kontrollere · bekrefte
+ansvar · trygg · sikkerhet · sikre · kontrollere · bekrefte
 
 ---
 

@@ -6,7 +6,7 @@ cefr: [A2, B1]
 type: guide
 publishedAt: 2026-10-30
 updatedAt: 2026-10-30
-tags: [grammar, prepositions]
+tags: [grammar]
 ---
 
 > **Kort sagt:** **i** = innenfor en tidsperiode (i dag, i sommer, i tre år). **på** = spesifikke eller gjentakende tidspunkter (på mandag, på kvelden). **om** = fremtidig «om X tid» (om to dager, om en time).
@@ -87,7 +87,7 @@ Dette er faste uttrykk — bruk alltid **i**, aldri **på**.
 
 → Tenk på **om** som «etter at X tid har gått fra nå».
 
-**Merk:** **Om** brukes også for vane i årstider: **om sommeren**, **om vinteren** (_in the summer / in the winter, generally_). **Om morgenen** og **om kvelden** er også mulig og betyr det samme som **på morgenen** og **på kvelden**.
+**Merk:** **Om** brukes også for vane i årstider: **om sommeren**, **om vinteren** (_in the summer / in the winter, generally_). **Om morgenen** og **om kvelden** er også vanlige, særlig om noe som skjer generelt eller gjentatte ganger. Formene overlapper mye, men er ikke alltid utskiftbare: **på morgenen** er for eksempel naturlig når du peker på en bestemt morgen (_på morgenen etter festen_).
 
 ---
 

@@ -5,7 +5,7 @@ slug: sakte-vs-langsomt
 cefr: A2
 publishedAt: 2026-05-21
 updatedAt: 2026-10-22
-tags: [adverbs, adjectives, vocabulary]
+tags: [adverbs, vocabulary]
 decks:
   - level: a2
     category: descriptive-adjectives
@@ -15,7 +15,7 @@ decks:
     label: A1 Adjectives
 ---
 
-> **Kort sagt:** Både **sakte** og **langsomt** betyr «slowly». **Sakte** er det hverdagslige ordet i samtale, mens **langsomt** høres noe mer skriftlig og beskrivende ut. Foran et substantiv bruker du adjektivet **langsom** (*en langsom prosess*). Velg **sakte** når du er i tvil i samtale.
+> **Kort sagt:** Både **sakte** og **langsomt** betyr «slowly». **Sakte** er det hverdagslige ordet i samtale, mens **langsomt** høres noe mer skriftlig og beskrivende ut. Foran et substantiv foretrekker man adjektivet **langsom** (*en langsom prosess*). Velg **sakte** når du er i tvil i samtale.
 
 ---
 
@@ -62,7 +62,7 @@ Komparativ: **Kan du snakke litt saktere?** er veldig vanlig i tale.
 | **langsomt** | adverb (beskriver handling) | bilen kjører langsomt |
 | **sakte**    | først og fremst adverb      | toget går sakte       |
 
-Foran et substantiv bruker man vanligvis **langsom/langsomt**: *en langsom prosess*, ikke «en sakte prosess».
+Foran et substantiv foretrekker man vanligvis **langsom/langsomt**: *en langsom prosess*. **Sakte** kan også stå foran substantiver, særlig i faste forbindelser som *sakte fart* og *sakte skritt*, men *en langsom prosess* er det naturlige valget.
 
 ---
 

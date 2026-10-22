@@ -4,7 +4,7 @@ description: 'Norsk har flere ord som oversetter «god» — og feil valg høres
 slug: god-bra-fin
 cefr: A2
 publishedAt: 2026-05-27
-updatedAt: 2026-09-12
+updatedAt: 2026-10-22
 tags: [adjectives, vocabulary]
 decks:
   - level: a2
@@ -17,58 +17,39 @@ decks:
 
 > **Kort sagt:** Engelsk bruker "good" om nesten alt. På norsk må du velge: _god_ (kvalitet/smak), _bra_ (generelt positivt), _fin_ (pen/hyggelig), _flink_ (dyktig).
 
-## Kort forklaring
-
-På engelsk kan man si "good" om nesten alt. På norsk må man velge — og feil valg høres rart ut.
-
-De fire vanligste ordene er:
-
-- **god** → høy kvalitet, god smak, snill person
-- **bra** → generelt positivt, det mest allsidige
-- **fin** → pent, hyggelig, behagelig
-- **flink** → dyktig, god til noe
-
----
-
 ## God — kvalitet, smak og varme
 
-**God** brukes om ting med **høy kvalitet**, god smak, eller varme/snille mennesker.
+**God** brukes om ting med **høy kvalitet**, god smak, eller varme og snille mennesker.
 
 **1. Kaken er god.**
-→ God er det naturlige ordet for smak og matkvalitet.
+→ Det naturlige ordet for smak og matkvalitet.
 
 **2. Hun er et godt menneske.**
-→ Varm og snill — god beskriver moralsk karakter.
+→ Varm og snill — god beskriver karakter.
 
-**3. Hun er god i norsk.**
-→ Sterk evne i et fag.
-
-**4. Vi hadde en god samtale.**
+**3. Vi hadde en god samtale.**
 → Meningsfull og dyp — ikke bare hyggelig.
 
 ---
 
 ## Bra — det allsidige hverdagsordet
 
-**Bra** er det mest allsidige og vanligste ordet. Bruk det når du er i tvil.
+**Bra** er det vanligste og mest allsidige ordet. Bruk det når du er i tvil.
 
 **1. Filmen var bra.**
-→ Man likte den — bra er det naturlige valget for generelle inntrykk.
+→ Man likte den — bra passer for generelle inntrykk.
 
-**2. Det går bra.**
-→ Standard svar på «Hvordan går det?»
-
-**3. Det er en bra idé.**
+**2. Det er en bra idé.**
 → Praktisk og fornuftig.
 
-**4. Jeg har det bra.**
+**3. Jeg har det bra.**
 → Det vanlige «I'm fine» på norsk.
 
 ---
 
 ## Fin — pen, hyggelig og behagelig
 
-**Fin** handler om **utseende**, **atmosfære**, eller noe **hyggelig og pent**.
+**Fin** handler om **utseende**, **stemning** eller noe **hyggelig**.
 
 **1. Du har en fin jakke.**
 → Ser bra ut — fin handler om utseende.
@@ -76,11 +57,8 @@ De fire vanligste ordene er:
 **2. Vi hadde en fin dag.**
 → Hyggelig og god stemning.
 
-**3. Det er fint vær i dag.**
-→ Et vanlig uttrykk for godt vær — man kan også si «Det er godt vær i dag».
-
-**4. Det var fint gjort av deg.**
-→ Et høflig og varmt uttrykk — fin brukt som kompliment.
+**3. Det var fint gjort av deg.**
+→ Fin brukt som kompliment.
 
 ---
 
@@ -95,13 +73,9 @@ De fire vanligste ordene er:
 → Et vanlig kompliment til språklærere.
 
 **3. Barna var flinke og ryddet opp.**
-→ Veltilpasset og gjorde en innsats.
+→ Snille og hjelpsomme — flink brukes ofte om barn som gjør det de skal.
 
-**Forskjell — god vs flink:**
-
-- **god i norsk** → har sterke norskferdigheter
-- **flink i norsk** → dyktig og hardt arbeidende i norsk
-  _(Flink peker mer mot innsats og evne; god mot resultatet.)_
+_Hun er god i norsk_ og _hun er flink i norsk_ er begge riktige. **Flink** peker mer mot innsats og ferdighet, **god** mer mot nivået.
 
 ---
 
@@ -116,57 +90,40 @@ De fire vanligste ordene er:
 
 ---
 
-## Nyanser å være obs på
-
-Disse ordene overlapper ofte, og det er sjelden direkte feil å bytte dem — men noen valg høres mer naturlig ut enn andre:
-
-**Filmen var god. / Filmen var bra.**
-_Begge er mulige. **God** antyder gjerne at filmen var kunstnerisk sterk; **bra** er det mer nøytrale, hverdagslige valget for et generelt godt inntrykk._
+## Vanlig feil: god vær
 
 ❌ Det er god vær i dag.
 ⭕ Det er **godt** vær i dag. / Det er **fint** vær i dag.
 
-_**Vær** er et intetkjønnsord (et vær), så adjektivet bøyes til **godt** — ikke **god**. Både **godt vær** og **fint vær** er vanlige og naturlige uttrykk._
-
-**Hun er god til å snakke norsk. / Hun er flink til å snakke norsk.**
-_Begge er riktige. **Flink** fremhever innsats og ferdighet; **god** legger mer vekt på selve resultatet eller nivået._
+_**Vær** er et intetkjønnsord (et vær), så adjektivet bøyes til **godt**. **Fint vær** er like vanlig._
 
 ---
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Hvilket ord er mest naturlig i en uformell samtale om en film du så i går?**
-a) god
-b) bra
+**1. Velg riktig ord: «Jeg har det ______.»**
+a) bra
+b) flink
 
-**Svar:** b) bra — det mest naturlige valget i uformell tale; **god** er også mulig, men antyder gjerne at filmen var kunstnerisk sterk.
+**Svar:** a) bra — det vanlige svaret på «Hvordan har du det?»
 
 **2. Velg riktig ord: «Det er ______ vær i dag.»**
 a) god
 b) godt
 
-**Svar:** b) godt — **vær** er et intetkjønnsord, så adjektivet bøyes til **godt**. (**Fint vær** er også korrekt og like vanlig.)
+**Svar:** b) godt — **vær** er et intetkjønnsord. (**Fint vær** er også riktig.)
 
-**3. Hvilket ord fremhever mest at hun har jobbet hardt og gjort fremgang?**
-a) god
+**3. Velg riktig ord: «Hun er ______ i matte, for hun øver hver dag.»**
+a) fin
 b) flink
 
-**Svar:** b) flink — **flink** peker mot innsats og ferdighet; **god** er også mulig, men legger mer vekt på selve resultatet.
-
----
-
-## Husk dette
-
-- **god** → kvalitet, smak, varme — «genuinely good»
-- **bra** → generelt positivt — bruk dette når du er usikker
-- **fin** → pent, hyggelig, behagelig
-- **flink** → dyktig og innsatsvillig
+**Svar:** b) flink — fremhever ferdighet og innsats.
 
 ---
 
 ## Vanlige uttrykk
 
-**Med god:** god mat · god natt · god tur · god idé · godt jobbet
+**Med god:** god mat · god natt · god tur · godt jobbet
 
 **Med bra:** det går bra · jeg har det bra · bra gjort · en bra film
 

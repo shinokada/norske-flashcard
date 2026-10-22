@@ -6,7 +6,7 @@ cefr: [A1, A2, B1, B2]
 type: guide
 publishedAt: 2026-07-15
 updatedAt: 2026-10-22
-tags: [study-tips, culture]
+tags: [study-tips, pronunciation]
 ---
 
 Norwegian listening is one of the hardest skills to develop — not because the language is inherently difficult, but because Norwegians use their local dialects everywhere, including on national television and radio. The gap between textbook Norwegian and real spoken Norwegian can feel enormous.

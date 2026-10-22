@@ -1,10 +1,10 @@
 ---
 title: 'Norsken min — Derfor får norsk bestemt artikkel'
-description: '"Norsken" er bestemt form av "norsk" brukt som substantiv. Når du snakker om ditt eget eller andres norsk, legger man til -en – og det samme mønsteret gjelder for alle språk.'
+description: '«Norsken» er bestemt form av «norsk» brukt som substantiv. Når du snakker om ditt eget eller andres norsk, legger man til -en, og det samme mønsteret gjelder for alle språk.'
 slug: norsken
 cefr: A2
 publishedAt: 2026-10-21
-updatedAt: 2026-09-12
+updatedAt: 2026-10-22
 tags: [grammar, vocabulary, nouns]
 decks:
   - level: a2
@@ -15,13 +15,7 @@ decks:
     label: A1 Nouns
 ---
 
-> **Kort sagt:** **Norsken** er bestemt form av **norsk** brukt som substantiv. Når du sier «norsken min» eller «norsken hennes», legger du til **-en** — akkurat som for alle andre hankjønnsord. Det samme mønsteret gjelder alle språknavn: _engelsken_, _fransken_, _japansken_.
-
-## Kort forklaring
-
-**Norsk** kan brukes på flere måter — som adjektiv, som språknavn, eller om en person. Når det brukes som substantiv om selve språket og eieordet kommer **etter** substantivet (som _norsken min_, _norsken hennes_), brukes **bestemt form**: **norsken**.
-
----
+> **Kort sagt:** **Norsken** er bestemt form av **norsk** brukt som substantiv. Når du sier «norsken min» eller «norsken hennes», legger du til **-en** — akkurat som for andre hankjønnsord. Det samme gjelder alle språknavn: _engelsken_, _fransken_, _japansken_.
 
 ## Ubestemt vs bestemt form
 
@@ -30,30 +24,22 @@ decks:
 | Ubestemt | norsk   | Jeg lærer **norsk**.        |
 | Bestemt  | norsken | **Norsken** min blir bedre. |
 
-**Ubestemt form** brukes når du snakker om språket generelt — ingen spesifikk tilknytning:
+**Ubestemt form** brukes når du snakker om språket generelt:
 
-> Jeg lærer **norsk**.
-> _I am learning Norwegian._
+> Jeg lærer **norsk**. → _I am learning Norwegian._
+> Hun snakker **norsk** hjemme. → _She speaks Norwegian at home._
 
-> Hun snakker **norsk** hjemme.
-> _She speaks Norwegian at home._
+**Bestemt form** brukes når språket er knyttet til en bestemt person, oftest med et eieord etter substantivet:
 
-**Bestemt form** brukes når språket er knyttet til en bestemt person — oftest med et eieord:
-
-> **Norsken** min blir bedre.
-> _My Norwegian is getting better._
-
-> **Norsken** hennes er veldig god.
-> _Her Norwegian is very good._
-
-> Han er stolt av **norsken** sin.
-> _He is proud of his Norwegian._
+> **Norsken** min blir bedre. → _My Norwegian is getting better._
+> **Norsken** hennes er veldig god. → _Her Norwegian is very good._
+> Han er stolt av **norsken** sin. → _He is proud of his Norwegian._
 
 ---
 
 ## Hvorfor -en?
 
-**Norsk** brukt som substantiv (= språket) er et hankjønnsord — grammatisk sett _en norsk_. Bestemt form av hankjønnsord får endelsen **-en**:
+Språknavn er hankjønnsord, og bestemt form av hankjønnsord får endelsen **-en**:
 
 | Substantiv | Ubestemt | Bestemt |
 | ---------- | -------- | ------- |
@@ -61,13 +47,11 @@ decks:
 | en gutt    | gutt     | gutten  |
 | en norsk   | norsk    | norsken |
 
-Selv om man sjelden sier _en norsk_ alene om språket, følger **norsken** det samme mønsteret.
+Man sier sjelden _en norsk_ alene om språket, men **norsken** følger det samme mønsteret.
 
 ---
 
 ## Samme mønster for alle språk
-
-Dette gjelder alle språknavn på norsk. Når du snakker om noen sin ferdighet i et språk, bruker du bestemt form:
 
 | Språk   | Bestemt form | Eksempel                           |
 | ------- | ------------ | ---------------------------------- |
@@ -77,26 +61,7 @@ Dette gjelder alle språknavn på norsk. Når du snakker om noen sin ferdighet i
 | spansk  | spansken     | Han jobber med **spansken** sin.   |
 | arabisk | arabisken    | **Arabisken** deres imponerte oss. |
 
----
-
-## Tre bruksmåter for «norsk»
-
-**Norsk** kan være tre forskjellige ordklasser:
-
-**1. Substantiv — språket**
-
-> Jeg lærer **norsk**. → _I am learning Norwegian._
-> **Norsken** min er ikke perfekt. → _My Norwegian isn't perfect._
-
-**2. Adjektiv — noe som er norsk**
-
-> en **norsk** bok → _a Norwegian book_
-> **norsk** kultur → _Norwegian culture_
-
-**3. Substantiv — en person (mindre vanlig)**
-
-> en **nordmann** / ei **norsk** kvinne → _a Norwegian (person)_
-> I dagligtale sier man heller _nordmann_ eller _norsk person_.
+_Norsk som adjektiv bøyes ikke slik: **en norsk bok**, **norsk kultur**._
 
 ---
 
@@ -105,12 +70,12 @@ Dette gjelder alle språknavn på norsk. Når du snakker om noen sin ferdighet i
 ❌ Norsk min blir bedre.
 ⭕ **Norsken** min blir bedre.
 
-_Når eieordet kommer **etter** substantivet (norsken min), må substantivet stå i bestemt form. Med eieordet **foran** substantivet (min norsk) er ubestemt form standard — begge rekkefølger finnes, men **norsken min** er den vanligste._
+_Når eieordet kommer etter substantivet, må substantivet stå i bestemt form. Eieordet kan også stå foran (**min norsk**), og da brukes ubestemt form, men **norsken min** er den vanligste varianten._
 
 ❌ Min norsken er ikke bra.
 ⭕ **Norsken** min er ikke så god.
 
-_Eieordet kommer etter substantivet i bestemt form: **norsken min**, ikke **min norsken**._
+_Bestemt form og eieord foran substantivet kan ikke kombineres._
 
 ---
 
@@ -120,29 +85,19 @@ _Eieordet kommer etter substantivet i bestemt form: **norsken min**, ikke **min 
 a) Norsk min blir bedre.
 b) Norsken min blir bedre.
 
-**Svar:** b) — når eieordet står etter substantivet (norsken min), kreves bestemt form.
+**Svar:** b) — eieordet etter substantivet krever bestemt form.
 
-**2. Velg riktig setning: «Jeg lærer \______.» (generelt, uten eieord)**
+**2. Velg riktig ord: «Jeg lærer ______.» (generelt, uten eieord)**
 a) norsk
 b) norsken
 
-**Svar:** a) norsk — ubestemt form når du ikke knytter det til en bestemt person.
+**Svar:** a) norsk — ubestemt form når du snakker om språket generelt.
 
-**3. Hvilket ord følger samme mønster som «norsken»?**
-a) engelsken
-b) engelsk mann
+**3. Velg riktig setning:**
+a) Fransken hennes er flytende.
+b) Fransk hennes er flytende.
 
-**Svar:** a) engelsken — samme bøyingsmønster for alle språknavn.
-
----
-
-## Husk dette
-
-- **norsk** (ubestemt) → språket generelt: _Jeg lærer norsk._
-- **norsken** (bestemt) → noen sin norsk: _Norsken min blir bedre._
-- Bestemt form kreves når eieordet står **etter** substantivet (norsken min); med eieordet foran (min norsk) er ubestemt form standard
-- Endelsen **-en** følger vanlig hankjønnsbøying
-- Samme mønster gjelder alle språknavn: _engelsken_, _fransken_, _japansken_
+**Svar:** a) — samme mønster for alle språknavn.
 
 ---
 

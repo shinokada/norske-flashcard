@@ -5,7 +5,7 @@ slug: setningsadverb
 cefr: B1
 publishedAt: 2026-08-19
 updatedAt: 2026-10-22
-tags: [grammar, word-order, sentence-structure]
+tags: [grammar]
 decks:
   - level: b1
     category: grammar
@@ -140,7 +140,7 @@ _I en leddsetning må **ikke** stå foran det finitte verbet._
 
 _**Aldri** flyttes foran **har** i leddsetningen._
 
-**Merk:** Dette er regelen i skriftlig standardnorsk. I muntlig norsk kan du av og til høre hovedsetningsordstilling også etter «at» (_Han sa at han kommer ikke_), men det regnes ikke som standard, og på Norskprøven bør du bruke leddsetningsordstilling.
+**Merk:** Leddsetningsordstilling er hovedregelen. I enkelte «at»-setninger, særlig etter taleverb og særlig i muntlig norsk, kan hovedsetningsordstilling også forekomme (_Han sa at han kommer ikke_). På Norskprøven bør du bruke leddsetningsordstilling.
 
 ---
 

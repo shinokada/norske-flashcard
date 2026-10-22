@@ -108,7 +108,7 @@ _**Lei** brukes ikke om fysisk utmattelse. Bruk **sliten** eller **trøtt**._
 ❌ Skoene er trøtte.
 ⭕ Skoene er **slitte** (synlig brukt) eller **utslitte** (oppbrukt).
 
-_**Trøtt** brukes bare om levende vesener._
+_I betydningen «søvnig» eller «sliten» brukes **trøtt** normalt om levende vesener. Om gjenstander bruker man **slitt** eller **utslitt**._
 
 ---
 

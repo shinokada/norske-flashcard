@@ -1,11 +1,11 @@
 ---
 title: 'Opptatt vs Travel/Travelt — to måter å beskrive en hektisk hverdag'
-description: 'Opptatt beskriver at en person ikke er tilgjengelig. Travel beskriver en hektisk periode eller aktivitet, og travelt er nøytrumsformen som brukes i faste uttrykk som «ha det travelt».'
+description: 'Opptatt betyr at du ikke er tilgjengelig, eller at du er opptatt av noe. Travel beskriver en hektisk dag, periode eller person, og travelt brukes i uttrykk som «ha travelt» og «ha det travelt».'
 slug: opptatt-vs-travelt
 cefr: A2
 publishedAt: 2026-12-11
-updatedAt: 2026-09-12
-tags: [adjectives, vocabulary, comparison]
+updatedAt: 2026-12-11
+tags: [adjectives, vocabulary]
 decks:
   - level: a2
     category: everyday-words
@@ -15,139 +15,129 @@ decks:
     label: A1 Adjectives
 ---
 
-> **Kort sagt:** **Opptatt** beskriver at en person ikke er tilgjengelig. **Travel** beskriver at en person, periode eller aktivitet er full av gjøremål. **Travelt** er nøytrumsformen av travel, og brukes i faste uttrykk som **ha det travelt**.
+> **Kort sagt:** **Opptatt** betyr at du ikke er tilgjengelig akkurat nå. **Travel** beskriver en person, dag eller periode full av gjøremål. **Travelt** er nøytrumsformen, og står i uttrykk som **ha travelt** og **ha det travelt**.
 
-## Kort forklaring
+## Opptatt — ikke tilgjengelig
 
-Norsk har to nærliggende ord for en hektisk hverdag, men de brukes forskjellig:
+**Opptatt** betyr at du har noe å gjøre og ikke kan snakke eller møtes nå.
 
-- **opptatt** → personen selv er ikke tilgjengelig eller ledig
-- **travel** → en person, periode eller aktivitet er full av gjøremål
-- **travelt** → nøytrumsformen av travel, brukt predikativt og i faste uttrykk
+**1. Er du opptatt i dag?**
+
+**2. Beklager, jeg kan ikke snakke — jeg er opptatt.**
+
+**3. Hun er opptatt med å lage middag.**
+→ **Opptatt med** + å-infinitiv eller substantiv: du holder på med noe.
+
+**4. Linjen er opptatt.**
+→ Også om ting som er i bruk: telefonlinjer, rom, toaletter.
+
+### Opptatt av — «interessert i»
+
+**Opptatt av** har en annen betydning: noe er viktig for deg, eller du tenker mye på det.
+
+**5. Hun er veldig opptatt av miljøet.**
+→ Miljøet er viktig for henne.
+
+**6. Han er opptatt av fotball.**
+→ Han er svært interessert i fotball.
 
 ---
 
-## Opptatt — personen er ikke tilgjengelig
+## Travel — mye å gjøre
 
-**Opptatt** beskriver at du har noe å gjøre, eller at du ikke kan snakke eller møtes akkurat nå.
-
-**1. Jeg er opptatt i dag.**
-
-**2. Er du opptatt nå?**
-
-**3. Beklager, jeg kan ikke snakke — jeg er opptatt.**
-
-**4. Hun er opptatt med å lage middag.**
-
----
-
-## Travel — en person med mye å gjøre, eller en hektisk periode
-
-**Travel** beskriver at noen har mye å gjøre — det kan gjelde en person direkte, eller en periode full av gjøremål.
+**Travel** beskriver en person, dag eller periode full av gjøremål. Det bøyes som et vanlig adjektiv.
 
 **1. Jeg har en travel dag i dag.**
 
 **2. Det var en travel uke.**
 
-**3. Hun har en travel hverdag.**
+**3. Hun har en travel hverdag med jobb og barn.**
 
 **4. Direktøren er som vanlig travel.**
-→ Beskriver personen selv — hun/han har mye å gjøre.
 
-Travel bøyes som et vanlig adjektiv: **en travel dag**, **et travelt liv**, **travle dager**, og kan også brukes om en person: **hun er travel**.
+Bøyning: **en travel dag** · **et travelt liv** · **travle dager**
 
 ---
 
-## Travelt — nøytrumsform og faste uttrykk
+## Travelt — ha travelt og det er travelt
 
-**Travelt** er rett og slett nøytrumsformen av travel (til et-ord, eller predikativt om forhold). Det dukker oftest opp i to sammenhenger:
+**Travelt** er nøytrumsformen av travel. Du møter det i to sammenhenger:
 
 **1. Det er travelt på jobben.**
-→ Travelt står predikativt til «det», som er nøytrum.
+→ «Det» er nøytrum, derfor **travelt**.
 
-**2. Jeg har det travelt.**
-→ Et fast uttrykk som betyr at du har dårlig tid eller mye å gjøre — ikke det samme som å være opptatt.
+**2. Jeg har travelt. / Jeg har det travelt.**
+→ Begge er vanlige. Du har dårlig tid eller mye å rekke.
 
 ---
 
-## Opptatt vs ha det travelt
-
-Disse to blandes ofte sammen, men peker på forskjellige ting:
+## Opptatt vs ha travelt
 
 > Jeg er **opptatt**.
-> → Du er ikke tilgjengelig — fokus på tilgjengelighet.
+> → Du er ikke tilgjengelig.
 
-> Jeg har **det travelt**.
-> → Du har dårlig tid eller mye å rekke — fokus på tempo og mengde gjøremål.
+> Jeg har **travelt**.
+> → Du har dårlig tid eller mye å rekke.
 
-Du kan være opptatt uten å ha det travelt (rolig, men uten ledig tid), og du kan ha det travelt uten nødvendigvis å være utilgjengelig for andre.
+Du kan være opptatt uten å ha travelt (du jobber rolig, men har ikke tid til noe annet), og du kan ha travelt uten å være utilgjengelig.
 
 ---
 
 ## Sammenligningstabell
 
-| Ord         | Beskriver                   | Brukes om                  | Eksempel                               |
-| ----------- | --------------------------- | -------------------------- | -------------------------------------- |
-| **opptatt** | ikke tilgjengelig           | personer                   | Jeg er opptatt.                        |
-| **travel**  | full av gjøremål            | personer, dager, perioder  | Jeg er travel. / en travel dag         |
-| **travelt** | nøytrumsform / fast uttrykk | forhold, uttrykk med «det» | Det er travelt. / Jeg har det travelt. |
+| Ord         | Beskriver                         | Eksempel                          |
+| ----------- | --------------------------------- | --------------------------------- |
+| **opptatt** | ikke tilgjengelig · opptatt av    | Jeg er opptatt. / opptatt av mat  |
+| **travel**  | full av gjøremål (en-ord, person) | en travel dag · Hun er travel.    |
+| **travelt** | nøytrum · ha (det) travelt        | Det er travelt. / Jeg har travelt |
 
 ---
 
 ## Vanlige feil
 
 ❌ Jeg er travelt.
-⭕ Jeg er **opptatt**. / Jeg har **det travelt**.
+⭕ Jeg er **travel**. / Jeg har **travelt**. / Jeg er **opptatt**.
 
-_Travelt brukes ikke direkte om en person med «jeg er» — bruk opptatt for utilgjengelighet, eller det faste uttrykket ha det travelt for tidspress._
+_Etter «er» står adjektivet **travel** (om en person). **Travelt** hører til «det er» og «ha travelt»._
 
-❌ Jeg har travelt i dag.
-⭕ Jeg har **det travelt** i dag.
+❌ Han er opptatt med fotball. _(når du mener at han er veldig interessert)_
+⭕ Han er **opptatt av** fotball.
 
-_«Det» er en fast del av uttrykket ha det travelt — det kan ikke utelates._
+_**Opptatt med** betyr at du holder på med noe akkurat nå._
 
 ---
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Beklager, jeg kan ikke snakke nå. Jeg er \______.»**
+**1. Velg riktig ord: «Beklager, jeg kan ikke snakke nå. Jeg er ______.»**
 a) opptatt
 b) travelt
 
-**Svar:** a) opptatt — beskriver at personen ikke er tilgjengelig.
+**Svar:** a) opptatt — du er ikke tilgjengelig.
 
 **2. Velg riktig ord: «Det er ______ på jobben denne uken.»**
 a) opptatt
 b) travelt
 
-**Svar:** b) travelt — beskriver at en periode eller situasjon er hektisk.
+**Svar:** b) travelt — «det er» + nøytrumsform.
 
-**3. Velg riktig setning:**
-a) Jeg har det travelt i dag.
-b) Jeg er travelt i dag.
-
-**Svar:** a) — travelt brukes i uttrykket ha det travelt, ikke direkte etter «jeg er».
-
-**4. Velg riktig ord: «Hun har en ______ hverdag med jobb og barn.»**
+**3. Velg riktig ord: «Hun har en ______ hverdag med jobb og barn.»**
 a) travel
 b) travelt
 
-**Svar:** a) travel — beskriver hverdagen (en-ord), ikke nøytrumsform.
+**Svar:** a) travel — hverdag er et en-ord.
 
----
+**4. Velg riktig ord: «Han er veldig ______ av politikk.»**
+a) opptatt
+b) travel
 
-## Husk dette
-
-- **opptatt** → personen er ikke tilgjengelig
-- **travel** → en periode eller aktivitet er full av gjøremål
-- **travelt** → nøytrumsform, brukt i faste uttrykk som ha det travelt
-- **ha det travelt** ≠ **være opptatt** — tidspress versus utilgjengelighet
+**Svar:** a) opptatt — **opptatt av** betyr «interessert i».
 
 ---
 
 ## Vanlige uttrykk
 
-være opptatt · opptatt med noe · en travel dag · en travel uke · det er travelt · ha det travelt
+være opptatt · opptatt med å … · opptatt av noe · en travel dag · en travel uke · det er travelt · ha travelt · ha det travelt
 
 ---
 

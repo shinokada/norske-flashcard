@@ -5,7 +5,7 @@ slug: trolig-vs-sannsynligvis-vs-sikkert
 cefr: B1
 publishedAt: 2026-09-25
 updatedAt: 2026-10-22
-tags: [adverbs, vocabulary, expressions]
+tags: [adverbs, vocabulary]
 decks:
   - level: b1
     category: everyday-words
@@ -104,7 +104,7 @@ _Ikke stable to adverb med ulik styrke: **trolig** sier «sannsynlig», **kanskj
 
 ## Husk dette
 
-**Usikker?** **Sannsynligvis** passer alltid.
+**Usikker?** **Sannsynligvis** passer når du mener at noe er sannsynlig. Mener du bare at det er mulig, bruk **kanskje** eller **muligens**.
 
 **Sannsynlighetsskala:** kanskje → trolig / sannsynligvis → sikkert → helt sikkert / definitivt
 

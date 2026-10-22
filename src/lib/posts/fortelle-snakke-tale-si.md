@@ -128,10 +128,10 @@ Velg riktig verb: **snakke / fortelle / tale / si**
 6. Bestefar likte å \_\_\_ om krigen.
 7. Hun \_\_\_ ikke noe da hun hørte nyheten.
 8. Det er lettere \_\_\_ enn gjort.
-9. Statsministeren holdt en \_\_\_.
+9. Tallene \_\_\_ for seg selv.
 10. Kan vi \_\_\_ om dette i morgen?
 
-**Svar:** 1. si · 2. snakker · 3. sa · 4. talte · 5. snakket · 6. fortelle · 7. sa · 8. sagt · 9. tale · 10. snakke
+**Svar:** 1. si · 2. snakker · 3. sa · 4. talte · 5. snakket · 6. fortelle · 7. sa · 8. sagt · 9. taler · 10. snakke
 
 ---
 

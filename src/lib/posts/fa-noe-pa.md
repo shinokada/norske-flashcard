@@ -5,7 +5,7 @@ slug: fa-noe-pa
 cefr: A2
 publishedAt: 2026-10-09
 updatedAt: 2026-10-22
-tags: [verbs, vocabulary, phrases]
+tags: [verbs, expressions]
 decks:
   - level: a2
     category: clothing
