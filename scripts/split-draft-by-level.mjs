@@ -10,7 +10,7 @@
 // to <sourceDir>. Examples:
 //   node scripts/split-draft-by-level.mjs draft/uttrykk/høy-på-pæra uttrykk-hoy-pa-paara-1.json vocab-hoy-pa-paara-1.json
 //   node scripts/split-draft-by-level.mjs draft/uttrykk/midt-i-blinken uttrykk-midt-i-blinken-1.json vocab-midt-i-blinken-1.json
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -58,6 +58,11 @@ if (clash.length) {
 }
 
 for (const p of plan) {
-  writeFileSync(p.target, JSON.stringify(p.list, null, '\t') + '\n', 'utf8');
+  mkdirSync(dirname(p.target), { recursive: true });
+  // 'wx' = exclusive create: fails if the file appeared since the check above
+  writeFileSync(p.target, JSON.stringify(p.list, null, '\t') + '\n', {
+    encoding: 'utf8',
+    flag: 'wx'
+  });
   console.log(`${p.kind} ${p.level}: ${p.list.length} -> ${p.target}`);
 }
