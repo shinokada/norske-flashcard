@@ -5,7 +5,7 @@ slug: endringsord
 cefr: [B1, B2]
 type: guide
 publishedAt: 2026-12-04
-updatedAt: 2026-09-12
+updatedAt: 2026-12-04
 tags: [verbs, vocabulary, comparison]
 decks:
   - level: b2
@@ -18,36 +18,26 @@ decks:
 
 > **Kort sagt:** **Endre** = gjøre noe annerledes. **Forandre** = en større, ofte mer synlig endring. **Erstatte** = sette noe nytt i stedet for noe gammelt. **Justere** = en liten tilpasning. **Tilpasse** = gjøre noe passende for en situasjon.
 
-## Kort forklaring
-
-Norsk har flere ord for å beskrive en endring, og de dekker forskjellige nyanser:
-
-- **endre** → gjøre noe annerledes, konkret og praktisk
-- **forandre** → en større eller mer tydelig endring, ofte om liv, mennesker eller samfunn
-- **erstatte** → sette noe nytt i stedet for noe gammelt
-- **justere** → en liten, presis tilpasning
-- **tilpasse** → gjøre noe passende for en situasjon eller person
-
-_(Ordene **bytte** og **skifte** hører også til denne familien, men de har sin egen nyanse — se [Bytte vs Skifte](/blog/bytte-vs-skifte) for en dypere sammenligning.)_
-
 ---
 
 ## Endre — gjøre noe annerledes
 
-**Endre** brukes om en konkret, praktisk endring. Du har fortsatt samme ting, men informasjonen eller innholdet er forandret.
+**Endre** brukes om en konkret, praktisk endring. Du har fortsatt samme ting, men innholdet er annerledes.
 
 **1. Jeg vil endre planen.**
 → Planen blir annerledes, men det er fortsatt den samme planen.
 
 **2. Kan du endre passordet ditt?**
+→ Et vanlig, praktisk bruk.
 
 **3. Hun endret mening.**
+→ Synspunktet er annerledes. **Endre seg** brukes også om personer: _Han har endret seg._
 
 ---
 
 ## Forandre — en større endring
 
-**Forandre** ligner på endre, men brukes ofte om en **større eller mer omfattende** endring — gjerne om personer, liv eller samfunn.
+**Forandre** ligner på **endre**, men brukes ofte om en **større eller mer omfattende** endring, gjerne om personer, liv eller samfunn.
 
 **1. Livet hennes har forandret seg.**
 → En dyp, personlig endring.
@@ -55,36 +45,40 @@ _(Ordene **bytte** og **skifte** hører også til denne familien, men de har sin
 **2. Internett har forandret samfunnet.**
 → En stor samfunnsendring, ikke en liten justering.
 
-**Forandre seg** er et fast, refleksivt uttrykk:
-
-> Jeg har forandret meg mye siden jeg var ung.
+**3. Jeg har forandret meg mye siden jeg var ung.**
+→ **Forandre seg** er det vanlige uttrykket om personlig utvikling.
 
 ---
 
 ## Erstatte — gammelt blir nytt
 
-**Erstatte** betyr å ta noe bort og sette noe **helt annet** i stedet.
+**Erstatte** betyr å ta noe bort og sette noe **annet** i stedet. Mønsteret er **erstatte A med B**, eller _B erstatter A_.
 
 **1. Vi må erstatte den gamle bilen.**
 → Den gamle bilen forsvinner, en ny kommer i stedet.
 
 **2. Hun erstattet sukker med honning.**
+→ Honning tar sukkerets plass.
 
 **3. Den nye læreren erstatter den gamle læreren.**
+→ Én person tar over etter en annen.
 
-Erstatte ligger nær **bytte**, men legger mer vekt på at det gamle **ikke lenger skal brukes**.
+**Erstatte** ligger nær **bytte**, men legger mer vekt på at det gamle ikke lenger skal brukes.
 
 ---
 
 ## Justere — en liten tilpasning
 
-**Justere** betyr å gjøre en **liten** endring for at noe skal bli riktig eller passe bedre. Ingen stor forandring — bare en finjustering.
+**Justere** betyr å gjøre en **liten** endring for at noe skal bli riktig eller passe bedre. Det er en finjustering, ikke en stor forandring.
 
 **1. Jeg må justere stolen.**
+→ Den skal bare stå litt annerledes.
 
 **2. Kan du justere temperaturen?**
+→ En liten endring på en innstilling.
 
 **3. Vi må justere planen litt.**
+→ Små endringer, ikke en ny plan.
 
 ---
 
@@ -92,80 +86,57 @@ Erstatte ligger nær **bytte**, men legger mer vekt på at det gamle **ikke leng
 
 **Tilpasse** betyr å gjøre noe slik at det **passer** til en bestemt situasjon eller person.
 
-**1. Vi må tilpasse planen til situasjonen.**
+**1. Kurset er tilpasset nybegynnere.**
+→ Gjort passende for en bestemt gruppe.
 
-**2. Kurset er tilpasset nybegynnere.**
+**2. Hun tilpasset undervisningen til elevene.**
+→ Undervisningen ble endret for å passe dem.
 
-**3. Hun tilpasset undervisningen til elevene.**
+**3. Hun har tilpasset seg det nye landet.**
+→ **Tilpasse seg** = å venne seg til nye forhold («adapt»).
 
 ---
 
 ## Sammenligningstabell
 
-| Ord          | Hovedidé                          | Størrelse på endringen  |
-| ------------ | --------------------------------- | ----------------------- |
-| **endre**    | gjøre noe annerledes              | liten til middels       |
-| **forandre** | en synlig, ofte personlig endring | middels til stor        |
-| **erstatte** | gammelt → helt nytt               | avhenger av gjenstanden |
-| **justere**  | en presis finjustering            | liten                   |
-| **tilpasse** | gjøre noe passende                | liten til middels       |
+| Ord          | Hovedidé                          | Typisk bruk                      |
+| ------------ | --------------------------------- | -------------------------------- |
+| **endre**    | gjøre noe annerledes              | endre planen, endre passordet    |
+| **forandre** | en synlig, ofte personlig endring | forandre seg, forandre samfunnet |
+| **erstatte** | gammelt → nytt                    | erstatte bilen, erstatte sukker  |
+| **justere**  | en presis finjustering            | justere stolen, justere planen   |
+| **tilpasse** | gjøre noe passende                | tilpasset nybegynnere            |
 
 ---
 
-## Vanlige feil
+## Pass på nyansene
 
-❌ Jeg vil bytte planen.
-⭕ Jeg vil **endre** planen.
+**Endre eller bytte?**
+**Jeg vil endre planen.** → du beholder planen, men gjør den annerledes.
+**Jeg vil bytte plan.** → du går over til en helt annen plan. Begge er riktige, men de betyr ikke det samme.
 
-_Planen blir ikke erstattet med en helt annen plan — den blir bare justert. Bruk endre._
+**Endre eller erstatte?**
+**Vi må endre rutinene.** → rutinene blir annerledes.
+**Vi må erstatte rutinene med nye.** → de gamle rutinene forsvinner.
 
-✅ Vi må endre den gamle bilen. _(vi endrer noe ved den — den er fortsatt den samme bilen)_
-✅ Vi må erstatte den gamle bilen med en ny. _(den gamle bilen forsvinner helt)_
-
-_Begge er riktige, men betyr ikke det samme: endre = gjøre noe med bilen, erstatte = bytte den helt ut._
-
-✅ Denne opplevelsen endret livet mitt.
-✅ Denne opplevelsen forandret livet mitt.
-
-_Begge er grammatisk riktige. Forandret er likevel vanligere her, siden det er en stor, personlig endring — men endret er ikke feil._
+**Endre eller forandre?**
+**Denne opplevelsen endret livet mitt.** og **Denne opplevelsen forandret livet mitt.** er begge riktige. **Forandre** høres ofte mer naturlig ut for en stor, personlig endring, men **endre** er ikke feil.
 
 ---
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Jeg vil ______ passordet mitt.»**
-a) endre
+**1. Velg riktig ord: «Kan du ______ stolen litt? Den er for lav.»**
+a) justere
 b) erstatte
 
-**Svar:** a) endre — informasjonen blir forandret, ikke byttet ut med noe helt annet.
+**Svar:** a) justere — en liten endring, ikke en ny stol.
 
 **2. Velg riktig ord: «Vi må ______ den gamle datamaskinen med en ny.»**
 a) justere
 b) erstatte
 
-**Svar:** b) erstatte — den gamle datamaskinen forsvinner helt.
-
-**3. Velg riktig ord: «Kurset er ______ nybegynnere.»**
-a) tilpasset
-b) forandret
-
-**Svar:** a) tilpasset — gjort passende for en bestemt gruppe.
-
----
-
-## Husk dette
-
-- **endre** → gjøre noe annerledes, konkret og praktisk
-- **forandre** → en større, ofte personlig eller samfunnsmessig endring
-- **erstatte** → gammelt forsvinner, noe nytt kommer i stedet
-- **justere** → en liten, presis tilpasning
-- **tilpasse** → gjøre noe passende for en situasjon eller person
-
----
-
-## Vanlige uttrykk
-
-endre mening · forandre seg · erstatte noe med noe annet · justere innstillingene · tilpasse seg situasjonen
+**Svar:** b) erstatte — den gamle datamaskinen forsvinner, og en ny tar plassen.
 
 ---
 

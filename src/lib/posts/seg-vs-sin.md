@@ -1,10 +1,10 @@
 ---
-title: 'Seg vs Sin — refleksivt pronomen og refleksivt eiendomsord'
-description: 'Seg er et refleksivt pronomen som viser tilbake til subjektet: han vasker seg. Sin/si/sitt/sine er refleksive eiendomsord som viser at subjektet eier det som nevnes: han vasker bilen sin.'
+title: 'Seg vs Sin — refleksivt pronomen og eiendomsord'
+description: 'Seg viser tilbake til subjektet: han vasker seg. Sin/si/sitt/sine viser at subjektet eier noe: han vasker bilen sin.'
 slug: seg-vs-sin
 cefr: B1
 publishedAt: 2026-12-30
-updatedAt: 2026-09-12
+updatedAt: 2026-12-30
 tags: [grammar, pronouns, vocabulary]
 decks:
   - level: b1
@@ -15,20 +15,13 @@ decks:
     label: A2 Grammar
 ---
 
-> **Kort sagt:** **Seg** er et refleksivt pronomen — det viser at subjektet gjør noe med seg selv. **Sin/si/sitt/sine** er refleksive eiendomsord — de viser at subjektet eier det som nevnes.
-
-## Kort forklaring
-
-**Seg** og **sin** viser begge tilbake til subjektet i setningen (han, hun, de), men har forskjellige funksjoner:
-
-- **seg** → refleksivt pronomen, betyr «seg selv»
-- **sin/si/sitt/sine** → refleksivt eiendomsord, betyr «sin egen»
+> **Kort sagt:** **Seg** viser tilbake til subjektet (_seg selv_). **Sin/si/sitt/sine** viser at subjektet eier det som nevnes (_sin egen_). Begge gjelder bare 3. person.
 
 ---
 
 ## Seg — seg selv
 
-**Seg** brukes når personen som utfører handlingen, også er den handlingen rammer.
+**Seg** brukes når den som gjør noe, også er den som rammes av det.
 
 **1. Han vasker seg.**
 → Han vasker seg selv.
@@ -37,13 +30,18 @@ decks:
 
 **3. De skader seg.**
 
-Mønsteret er det samme uansett kjønn eller tall: **han → seg**, **hun → seg**, **de → seg**.
+Sammenlign med **ham/henne/dem**, som peker på en annen person:
+
+**Per ser seg i speilet.** → Per ser seg selv.
+**Per ser ham.** → Per ser en annen mann.
+
+I 1. og 2. person bruker du **meg, deg, oss**: _jeg vasker meg, du vasker deg, vi vasker oss_.
 
 ---
 
 ## Sin — subjektets egen eiendom
 
-**Sin** brukes når subjektet **eier** det som nevnes i setningen. Ordet bøyes etter kjønn og tall på det som eies, ikke etter eieren.
+**Sin** brukes når subjektet eier det som nevnes. Ordet bøyes etter det som eies, ikke etter eieren.
 
 **1. Han vasker bilen sin.**
 → Han vasker sin egen bil.
@@ -54,54 +52,40 @@ Mønsteret er det samme uansett kjønn eller tall: **han → seg**, **hun → se
 **3. De selger huset sitt.**
 → De selger sitt eget hus.
 
----
+| Det som eies | Form     | Eksempel     |
+| ------------ | -------- | ------------ |
+| en-ord       | **sin**  | bilen sin    |
+| ei-ord       | **si**   | boka si      |
+| et-ord       | **sitt** | huset sitt   |
+| flertall     | **sine** | vennene sine |
 
-## Bøyning av sin
-
-| Kjønn/tall på det som eies | Form     | Eksempel     |
-| -------------------------- | -------- | ------------ |
-| en-ord                     | **sin**  | bilen sin    |
-| ei-ord                     | **si**   | boka si      |
-| et-ord                     | **sitt** | huset sitt   |
-| flertall                   | **sine** | vennene sine |
+Formen er den samme enten eieren er én eller flere: _Hun vasker bilene sine. De vasker bilene sine._
 
 ---
 
-## Viktig: sin brukes bare når eieren er subjektet
+## Sin eller hans/hennes/deres?
 
-Dette er det som forvirrer flest — sammenlign disse to setningene:
+**Han besøker moren sin.** → Hans egen mor. Eieren er subjektet.
 
-**1. Han besøker moren sin.**
-→ Han besøker sin egen mor. Eieren (han) er subjektet i setningen.
+**Han besøker moren hans.** → En annen manns mor. Eieren er en annen enn subjektet.
 
-**2. Han besøker moren hans.**
-→ Han besøker en annen manns mor. «Hans» peker mot en person nevnt et annet sted, ikke subjektet.
-
-Regelen er enkel: **sin** kan bare brukes når eieren og subjektet er én og samme person.
-
----
-
-## Sammenligningstabell
-
-| Uttrykk               | Funksjon               | Eksempel                |
-| --------------------- | ---------------------- | ----------------------- |
-| **seg**               | refleksivt pronomen    | Han vasker seg.         |
-| **sin/si/sitt/sine**  | refleksivt eiendomsord | Han vasker bilen sin.   |
-| **hans/hennes/deres** | vanlig eiendomsord     | Han besøker moren hans. |
+Regelen: **sin** brukes bare når eieren og subjektet er samme person. Ellers bruker du **hans, hennes, deres**.
 
 ---
 
 ## Vanlige feil
 
-❌ Han besøker moren hans, sin egen mor.
-⭕ Han besøker **moren sin**.
+❌ Han vasker bilen hans.
+⭕ Han vasker bilen **sin**.
 
-_Når moren tilhører subjektet i setningen, bruk sin, ikke hans._
+_Når bilen er hans egen, bruker du **sin**. Med **hans** tror lytteren at det er en annen manns bil._
 
-❌ Han vasker naboens bil sin.
-⭕ Han vasker **naboens bil**.
+❌ Han sier at moren sin er syk.
+⭕ Han sier at moren **hans** er syk.
 
-_Sin kan ikke brukes når eieren (naboen) ikke er subjektet i setningen. Her er «han» subjektet, men bilen tilhører naboen — da droppes sin helt._
+_**Sin** kan ikke stå i selve subjektet. Her er «moren ... er syk» subjektet i leddsetningen, så du må bruke **hans**._
+
+I talemål hører du også «han vasker **naboen sin** bil». Da viser **sin** til naboen, ikke til han som vasker.
 
 ---
 
@@ -111,28 +95,25 @@ _Sin kan ikke brukes når eieren (naboen) ikke er subjektet i setningen. Her er 
 a) seg
 b) sin
 
-**Svar:** a) seg — refleksivt pronomen, hun gjør noe med seg selv.
+**Svar:** a) seg — hun kjemmer seg selv.
 
 **2. Velg riktig ord: «Han elsker jobben \______.»**
 a) sin
 b) hans
 
-**Svar:** a) sin — jobben tilhører han, som også er subjektet i setningen.
+**Svar:** a) sin — jobben er hans egen, og han er subjektet.
 
-**3. Ole er syk. Per besøker søsteren \______, som bor i Bergen.**
+**3. Velg riktig ord: «Per ser ______ i speilet.»**
+a) seg
+b) ham
+
+**Svar:** a) seg — Per ser seg selv. **Ham** ville vært en annen mann.
+
+**4. Ole er syk. Per besøker søsteren \______.**
 a) hans
 b) sin
 
-**Svar:** a) hans — her viser «hans» tilbake til Ole (ikke subjektet Per), så søsteren er Oles egen søster. Hvis søsteren i stedet var Pers egen, skulle setningen vært «Per besøker søsteren sin».
-
----
-
-## Husk dette
-
-- **seg** → refleksivt pronomen, betyr «seg selv»
-- **sin/si/sitt/sine** → refleksivt eiendomsord, bøyes etter det som eies
-- **sin** brukes bare når eieren er subjektet i setningen
-- **hans/hennes/deres** brukes når eieren er en annen person enn subjektet
+**Svar:** a) hans — det er Oles søster. Med **sin** ville det vært Pers egen søster.
 
 ---
 
@@ -144,8 +125,4 @@ vaske seg · sette seg · skade seg · bilen sin · moren sin · huset sitt
 
 ## Relaterte ord
 
-selv · egen · hans · hennes · deres
-
----
-
-_→ Vil du lære hvorfor norske setninger ofte begynner med «det»? Les: ["Det" som formelt subjekt](/blog/det-som-formelt-subjekt)_
+selv · egen · min · din · hans · hennes · deres

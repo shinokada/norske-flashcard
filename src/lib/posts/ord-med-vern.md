@@ -1,11 +1,11 @@
 ---
 title: 'Ord med -vern — sammensetninger for beskyttelse og sikring'
-description: '-vern er et produktivt norsk sammensetningsledd som betyr beskyttelse eller sikring. Miljøvern, personvern, barnevern og smittevern er blant de vanligste. Lær mønsteret og forskjellen fra beskyttelse.'
+description: '-vern er et vanlig norsk sammensetningsledd som betyr beskyttelse eller sikring. Miljøvern, personvern, barnevern og smittevern er blant de vanligste. Lær mønsteret og forskjellen fra beskyttelse.'
 slug: ord-med-vern
 cefr: [B1, B2]
 type: guide
 publishedAt: 2027-01-13
-updatedAt: 2026-09-12
+updatedAt: 2027-01-13
 tags: [nouns, vocabulary, word-formation]
 decks:
   - level: b1
@@ -19,19 +19,7 @@ decks:
     label: B2 Medicine
 ---
 
-> **Kort sagt:** **-vern** er et produktivt sammensetningsledd som betyr «beskyttelse» eller «sikring». Mønsteret er **[det som beskyttes] + vern**, som i **miljøvern**, **personvern** og **barnevern**.
-
-## Kort forklaring
-
-**-vern** er et svært produktivt norsk sammensetningsledd. Det legges til et substantiv for å beskrive beskyttelse eller sikring av nettopp det ordet:
-
-> **[det som beskyttes] + vern**
-
-**miljø + vern → miljøvern**
-**person + vern → personvern**
-**barn + vern → barnevern**
-
----
+> **Kort sagt:** **-vern** betyr «beskyttelse» eller «sikring». Mønsteret er **[det som beskyttes] + vern**: **miljø + vern → miljøvern**, **person + vern → personvern**, **barn + vern → barnevern**. De fleste ordene er faste, etablerte sammensetninger som må læres.
 
 ## Samfunn og enkeltpersoner
 
@@ -40,7 +28,7 @@ decks:
 - **barnevern** → offentlige tjenester som beskytter barn.
   **Barnevernet** grep inn i saken.
 - **forbrukervern** → beskyttelse av forbrukernes rettigheter.
-  **Forbrukervernet** er strengere i EU enn i mange andre land.
+  Nye regler skal styrke **forbrukervernet** ved netthandel.
 
 ---
 
@@ -51,7 +39,7 @@ decks:
 - **naturvern** → bevaring av naturområder, dyr og planter.
   **Naturvern** handler om å ta vare på leveområdene deres.
 - **dyrevern** → beskyttelse av dyr mot mishandling og lidelse.
-  **Dyrevelferdsloven** har regler som skal beskytte dyr mot mishandling og lidelse.
+  Hun er aktiv i en organisasjon for **dyrevern**.
 - **jordvern** → bevaring av dyrket mark til matproduksjon.
   **Jordvern** er viktig for å sikre matproduksjonen i fremtiden.
 
@@ -60,11 +48,11 @@ decks:
 ## Sikkerhet og helse
 
 - **brannvern** → forebygging og beskyttelse mot brann.
-  Skolen har jevnlige **brannvern**øvelser.
+  Bygget har et godt **brannvern**.
 - **smittevern** → tiltak for å hindre spredning av sykdom.
-  **Smittevern**tiltakene ble strengere under pandemien.
+  Skolen innførte nye **smittevernstiltak** _(med bindebokstaven -s)_.
 - **strålevern** → beskyttelse mot skadelig stråling.
-  **Strålevernet** overvåker radioaktivitet i Norge.
+  **Strålevern** handler om å beskytte mennesker mot stråling.
 
 ---
 
@@ -79,38 +67,25 @@ decks:
 
 ## Vern vs beskyttelse
 
-I sammensetninger foretrekker norsk nesten alltid **-vern**, ikke **-beskyttelse**:
+Disse sammensetningene bruker **-vern**. _Barnebeskyttelse_ finnes, men er mindre vanlig enn **barnevern**, og _miljøbeskyttelse_ finnes, men er ikke det vanlige ordet.
 
-- **miljøvern** — ikke _miljøbeskyttelse_
-- **personvern** — ikke _personbeskyttelse_
-- **barnevern** — ikke _barnebeskyttelse_
+Vær særlig oppmerksom på **personvern**. Når du mener privatliv og personopplysninger, heter det **personvern**. _Personbeskyttelse_ finnes også, men brukes om fysisk beskyttelse av personer, for eksempel i sikkerhetsarbeid.
 
-Men **vern** og **beskyttelse** er ikke alltid utskiftbare som frittstående ord. **Vern** har ofte en sterkere følelse av **organisert, juridisk eller systematisk** beskyttelse, mens **beskyttelse** er mer generelt og kan brukes om hva som helst, også konkrete, fysiske situasjoner.
+Som frittstående ord er **vern** og **beskyttelse** ikke alltid utskiftbare. **Vern** peker mot **organisert, juridisk eller systematisk** beskyttelse, mens **beskyttelse** er mer generelt og brukes også om konkrete, fysiske situasjoner:
 
 > Paraplyen ga meg **beskyttelse** mot regnet. _(konkret, fysisk)_
 > Loven gir arbeidstakere **vern** mot usaklig oppsigelse. _(juridisk, systematisk)_
 
----
-
-## Sammenligningstabell
-
-| Sammensetning     | Betydning                               |
-| ----------------- | --------------------------------------- |
-| **miljøvern**     | beskyttelse av naturen og miljøet       |
-| **personvern**    | beskyttelse av personopplysninger       |
-| **barnevern**     | offentlig beskyttelse av barn           |
-| **forbrukervern** | beskyttelse av forbrukernes rettigheter |
-| **brannvern**     | forebygging og beskyttelse mot brann    |
-| **smittevern**    | tiltak mot spredning av sykdom          |
+Også **brannbeskyttelse** finnes, men det brukes mest om fysisk beskyttelse (for eksempel materialer). **Brannvern** er forebygging og sikkerhet generelt.
 
 ---
 
-## Vanlige feil
+## Vanlig feil
 
 ❌ Norge har strenge lover om personbeskyttelse.
 ⭕ Norge har strenge lover om **personvern**.
 
-_I sammensetninger med et beskyttet objekt foretrekker norsk **-vern** fremfor **-beskyttelse**._
+_Når du mener privatliv og personopplysninger, bruker du **personvern**._
 
 ---
 
@@ -120,27 +95,19 @@ _I sammensetninger med et beskyttet objekt foretrekker norsk **-vern** fremfor *
 a) personvern
 b) personbeskyttelse
 
-**Svar:** a) personvern — den vanlige sammensetningen i lovspråk og dagligtale.
+**Svar:** a) personvern — det etablerte ordet for privatliv og personopplysninger.
 
-**2. Velg riktig ord: «Skolen har jevnlige \______øvelser.»**
-a) brannvern
-b) brannbeskyttelse
+**2. Hvilket ord betyr «tiltak for å hindre spredning av sykdom»?**
+a) smittevern
+b) strålevern
 
-**Svar:** a) brannvern — det etablerte sammensatte ordet.
+**Svar:** a) smittevern.
 
-**3. Velg riktig setning:**
-a) Barnevernet grep inn i saken.
-b) Barnebeskyttelsen grep inn i saken.
+**3. Velg riktig ord: «Pantet må tinglyses for å få \______.»**
+a) rettsvern
+b) naturvern
 
-**Svar:** a) — **barnevern** er det korrekte, etablerte ordet.
-
----
-
-## Husk dette
-
-- **-vern** betyr «beskyttelse» eller «sikring»: **[det som beskyttes] + vern**
-- I sammensetninger foretrekker norsk nesten alltid **-vern** fremfor **-beskyttelse**
-- **vern** har ofte en sterkere følelse av organisert eller juridisk beskyttelse enn **beskyttelse** alene
+**Svar:** a) rettsvern — beskyttelse gitt av loven.
 
 ---
 
@@ -151,3 +118,5 @@ beskyttelse · sikre · forsvare · bevare · ivareta
 ---
 
 _→ Vil du lære flere norske ordfamilier bygget på et felles grunnord? Les: [Kjenne-familien — erkjenne, anerkjenne, gjenkjenne, vedkjenne seg](/blog/kjenne-ord)_
+
+---

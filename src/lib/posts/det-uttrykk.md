@@ -173,6 +173,6 @@ norskprøven-uttrykk · muntlig norsk · setningsadverbial · det som formelt su
 
 _→ Vil du forstå hvorfor norske setninger ofte begynner med **det**? Les: ["Det" som formelt subjekt](/blog/det-som-formelt-subjekt)_
 
-_→ Vil du lære forskjellen mellom å fortelle, snakke, tale og si? Les: [Fortelle vs Snakke vs Tale vs Si](/blog/fortelle-snakke-tale-si)_
+<!-- TODO: re-add link to [Fortelle vs Snakke vs Tale vs Si](/blog/fortelle-snakke-tale-si) once that post publishes (currently scheduled 2026-10-28) -->
 
 _→ Vil du lære flere norske idiomer? Les: [Norske uttrykk: beina på jorda, lange ører og jernhånd](/blog/norske-uttrykk)_

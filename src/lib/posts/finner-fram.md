@@ -120,4 +120,4 @@ ta fram · hente fram · legge bort · pakke ut · forberede
 
 _→ Lurer du på forskjellen mellom **fram** og **frem**? Les: [Fram vs Frem](/blog/fram-frem)_
 
-_→ Vil du lære forskjellen mellom å bringe og ta med seg noe? Les: [Bringe vs Ta med seg](/blog/bringe-vs-ta-med-seg)_
+<!-- TODO: re-add link to [Bringe vs Ta med seg](/blog/bringe-vs-ta-med-seg) once that post publishes (currently scheduled 2026-11-11) -->

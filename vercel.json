@@ -3,7 +3,13 @@
   "buildCommand": "bash scripts/setup-submodule.sh && pnpm check:data && pnpm build",
   "redirects": [
     { "source": "/nb", "destination": "/", "permanent": true },
-    { "source": "/nb/:path*", "destination": "/:path*", "permanent": true }
+    { "source": "/nb/:path*", "destination": "/:path*", "permanent": true },
+    { "source": "/blog/fa", "destination": "/blog/fa-tak-i", "permanent": true },
+    {
+      "source": "/blog/how-to-improve-listening",
+      "destination": "/blog/slik-laerer-du-norsk-lytting",
+      "permanent": true
+    }
   ],
   "crons": [
     {

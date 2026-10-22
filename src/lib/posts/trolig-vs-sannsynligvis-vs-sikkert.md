@@ -4,8 +4,8 @@ description: '"Trolig", "sannsynligvis" og "sikkert" uttrykker alle sannsynlighe
 slug: trolig-vs-sannsynligvis-vs-sikkert
 cefr: B1
 publishedAt: 2026-09-25
-updatedAt: 2026-09-12
-tags: [adverbs, vocabulary, expressions]
+updatedAt: 2026-10-22
+tags: [adverbs, vocabulary]
 decks:
   - level: b1
     category: everyday-words
@@ -15,21 +15,13 @@ decks:
     label: B1 Expressing Opinions
 ---
 
-> **Kort sagt:** **Trolig**, **sannsynligvis** og **sikkert** betyr alle «probably» — men de har ulik tone. **Trolig** høres faktabasert og litt formelt ut. **Sannsynligvis** er den nøytrale standarden. **Sikkert** er selvsikkert og hverdagslig, og kan også bety «certainly» avhengig av kontekst.
-
-## Kort forklaring
-
-Norsk har flere ord for «probably», og valget påvirker tone og register:
-
-- **trolig** → sannsynlig, basert på fakta eller bevis — litt formelt
-- **sannsynligvis** → nøytral og generell — det mest «vanlige» ordet
-- **sikkert** → en personlig, konfidenspregnet gjetning — hverdagslig
+> **Kort sagt:** **Trolig**, **sannsynligvis** og **sikkert** betyr alle «probably» — men tonen er ulik. **Trolig** er faktabasert og litt formelt. **Sannsynligvis** er den nøytrale standarden. **Sikkert** er selvsikkert og hverdagslig.
 
 ---
 
 ## Trolig — faktabasert og litt formelt
 
-**Trolig** brukes når noe virker sannsynlig ut fra fakta, omstendigheter eller bevis. Det høres mer nøkternt og litt formelt ut — typisk i nyheter og skriftlig norsk.
+**Trolig** brukes når noe virker sannsynlig ut fra fakta eller omstendigheter. Det er typisk i nyheter og skriftlig norsk.
 
 **1. Han kommer trolig i morgen.**
 → Et rolig, begrunnet anslag — ikke særlig personlig.
@@ -38,57 +30,39 @@ Norsk har flere ord for «probably», og valget påvirker tone og register:
 → Vanlig i værmeldinger og nyhetsspråk.
 
 **3. Årsaken var trolig teknisk feil.**
-→ Et klassisk nyhetsregister — **trolig** passer godt her.
-
-**4. Hun er trolig hjemme nå.**
-→ Nøytralt og litt distansert — basert på hva som virker sannsynlig.
+→ Klassisk nyhetsregister.
 
 ---
 
 ## Sannsynligvis — nøytral og generell
 
-**Sannsynligvis** er det mest nøytrale ordet for «probably». Det er hverken spesielt formelt eller uformelt, og passer i de fleste situasjoner.
+**Sannsynligvis** er det mest nøytrale ordet for «probably». Det er verken spesielt formelt eller uformelt, og passer i de fleste situasjoner.
 
 **1. Det blir sannsynligvis regn i kveld.**
-→ Ren sannsynlighet — ingen særlig følelsesmessig farging.
+→ Ren sannsynlighet, uten farging.
 
 **2. Han er sannsynligvis hjemme nå.**
 → Rett frem og nøytralt.
 
 **3. Møtet er sannsynligvis ferdig klokka fire.**
-→ En vanlig, hverdagslig bruk — verken for formelt eller for uformelt.
+→ Vanlig, hverdagslig bruk.
 
 ---
 
 ## Sikkert — selvsikkert og hverdagslig
 
-**Sikkert** er mer personlig og hverdagslig. Det uttrykker ikke bare sannsynlighet, men en viss **sikkerhet i gjetningen** — «jeg er ganske sikker på dette.»
+**Sikkert** er personlig og muntlig. Det uttrykker en gjetning du er trygg på: «jeg er ganske sikker på dette».
 
 **1. Han er sikkert hjemme nå.**
 → En selvsikker gjetning basert på personlig forventning.
 
 **2. Det går sikkert bra.**
-→ Beroligende tone — sikkert tilfører varme og selvtillit.
+→ Beroligende tone.
 
 **3. Hun har sikkert glemt det.**
 → En typisk hverdagslig kommentar.
 
-**4. Det er sikkert dyrt.**
-→ En uformell, selvsikker antakelse.
-
----
-
-## Sikkert kan også bety «definitivt»
-
-Pass på: **sikkert** har to betydninger avhengig av kontekst:
-
-| Konstruksjon               | Betydning          | Eksempel                      |
-| -------------------------- | ------------------ | ----------------------------- |
-| **[subjekt] er sikkert …** | probably           | Han er sikkert hjemme.        |
-| **det er sikkert at …**    | it is certain that | Det er sikkert at hun kommer. |
-| **helt sikkert**           | definitely         | Ja, helt sikkert.             |
-
-→ Les mer: [Sikkert — Certain or Probably?](/blog/sikkert)
+**Obs:** **sikkert** kan også bety «definitivt», for eksempel i **helt sikkert** og **det er sikkert at hun kommer**. Les mer: [Sikkert — Certain or Probably?](/blog/sikkert)
 
 ---
 
@@ -105,75 +79,34 @@ Tenk deg at en venn er forsinket:
 - **Han kommer sikkert snart.**
   → En selvsikker, personlig gjetning. («Jeg er ganske sikker på at han kommer snart.»)
 
-Alle tre er riktige — men de sier litt forskjellige ting om hvor personlig og sikker taleren er.
+Alle tre er riktige, men de sier noe ulikt om hvor personlig og trygg taleren er.
 
 ---
 
 ## Sammenligningstabell
 
-| Ord               | Grunnbetydning      | Sikkerhetsnivå   | Tone                      |
-| ----------------- | ------------------- | ---------------- | ------------------------- |
-| **trolig**        | probably / likely   | middels          | nøktern, litt formell     |
-| **sannsynligvis** | probably            | middels–høy      | nøytral, standard         |
-| **sikkert**       | probably / I'm sure | høy (subjektivt) | konfidenspregnet, muntlig |
+| Ord               | Grunnbetydning      | Tone                  | Typisk bruk           |
+| ----------------- | ------------------- | --------------------- | --------------------- |
+| **trolig**        | probably / likely   | nøktern, litt formell | nyheter, værmelding   |
+| **sannsynligvis** | probably            | nøytral, standard     | alle situasjoner      |
+| **sikkert**       | probably / I'm sure | personlig, muntlig    | samtale, hverdagsprat |
 
 ---
 
-## Vanlige feil
+## Vanlig feil
 
 ❌ Han kommer trolig kanskje.
 ⭕ Han kommer **trolig**. / Han kommer **kanskje**.
 
-_Ikke kombiner to sannsynlighetsadverb i samme setning — velg ett._
-
-❌ Det er trolig at han kanskje kommer.
-⭕ Han kommer **trolig**. / Det er **trolig** at han kommer.
-
-_**Trolig** fungerer best som et enkelt adverb — ikke i kombinasjon med «kanskje»._
+_Ikke stable to adverb med ulik styrke: **trolig** sier «sannsynlig», **kanskje** sier «usikkert», og de motsier hverandre. Partikler som **nok** kan derimot kombineres fint: «Det blir nok sannsynligvis regn.»_
 
 ---
 
 ## Husk dette
 
-- **trolig** → sannsynlig ut fra fakta — nøkternt og litt formelt
-- **sannsynligvis** → nøytral standard for «probably»
-- **sikkert** → personlig og konfidenspregnet — vanligst i tale
-- **sikkert** kan også bety «definitivt» — kontekst avgjør
-- Usikker? **Sannsynligvis** passer alltid
+**Usikker?** **Sannsynligvis** passer når du mener at noe er sannsynlig. Mener du bare at det er mulig, bruk **kanskje** eller **muligens**.
 
----
-
-## Norskprøven — eksempelspørsmål
-
-**1. Hvilket ord passer best i denne sammenhengen: «Det blir ______ regn i kveld.» (værmelding, nøktern og faktabasert)**
-a) trolig
-b) sikkert
-
-**Svar:** a) trolig — passer best i nyhets-/værmeldingsregister. **Sikkert** er ikke feil i seg selv, men høres for personlig/selvsikkert ut i en formell værmelding.
-
-**2. Hvilket ord passer best her: «Han kommer ______ snart.» (personlig, selvsikker gjetning)**
-a) sannsynligvis
-b) sikkert
-
-**Svar:** b) sikkert — fanger best den selvsikre, personlige tonen. **Sannsynligvis** er også mulig, men høres mer nøytralt og mindre personlig ut.
-
-**3. Hvilket ord er det mest nøytrale, standardvalget?**
-a) sannsynligvis
-b) trolig
-
-**Svar:** a) sannsynligvis.
-
----
-
-## Sannsynlighetsskala
-
-kanskje → trolig / sannsynligvis → sikkert → helt sikkert / definitivt
-
----
-
-## Vanlige uttrykk
-
-det blir trolig · sannsynligvis ikke · det går sikkert bra · helt sikkert · trolig riktig · sannsynligvis ferdig
+**Sannsynlighetsskala:** kanskje → trolig / sannsynligvis → sikkert → helt sikkert / definitivt
 
 ---
 

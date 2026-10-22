@@ -1,10 +1,10 @@
 ---
 title: 'Trøtt vs Sliten vs Utslitt — Nyanser av å være trett'
-description: 'Trøtt betyr søvnig, sliten betyr utmattet, og utslitt betyr helt tom for krefter. Norsk har flere ord for ulike grader av tretthet — og de kan ikke brukes om hverandre.'
+description: 'Trøtt betyr søvnig, sliten betyr tappet for krefter etter innsats, og utslitt betyr helt tom. Ordene overlapper ofte i hverdagsspråk, men de sier ulike ting.'
 slug: trott-sliten-utslitt
 cefr: A2
 publishedAt: 2026-07-29
-updatedAt: 2026-09-12
+updatedAt: 2026-10-22
 tags: [adjectives, vocabulary]
 decks:
   - level: a2
@@ -15,26 +15,16 @@ decks:
     label: A1 Adjectives
 ---
 
-> **Kort sagt:** **Trøtt** = søvnig / trett. **Sliten** = utslitt av innsats. **Utslitt** = fullstendig tømt. **Lei** = lei av noe. De er ikke utbyttbare.
-
-## Kort forklaring
-
-Norsk har flere ord for "tired," og de brukes i forskjellige situasjoner:
-
-- **trøtt** → søvnig / generelt trett
-- **sliten** → utslitt / utmattet av innsats eller stress
-- **utslitt** → fullstendig tømt — ingen energi igjen
-- **utmattet** → utmattet — formelt eller medisinsk
-- **lei** → lei av noe — ikke fysisk trett
+> **Kort sagt:** **Trøtt** = søvnig. **Sliten** = tappet for krefter etter innsats. **Utslitt** = helt tom. Ordene overlapper ofte i hverdagsspråk, men de sier ulike ting.
 
 ---
 
-## Trøtt — søvnig / trett
+## Trøtt — søvnig
 
-Det mest vanlige og nøytrale ordet. Brukes om generell tretthet eller søvntrang.
+Det vanligste og mest nøytrale ordet. Brukes om søvnbehov og generell tretthet.
 
 **1. Jeg er trøtt.**
-→ Den mest grunnleggende måten å si at du er trett på.
+→ Den enkleste måten å si at du er trett på.
 
 **2. Jeg er så trøtt i dag.**
 → Kan bety søvnig, lite energi, eller begge deler.
@@ -44,143 +34,97 @@ Det mest vanlige og nøytrale ordet. Brukes om generell tretthet eller søvntran
 
 ---
 
-## Sliten — utslitt / utmattet
+## Sliten — tappet for krefter
 
-Sterkere enn **trøtt**. Brukes om utmattelse etter anstrengelse — fysisk eller mentalt.
+Brukes om utmattelse etter anstrengelse, fysisk eller mentalt.
 
 **1. Jeg er helt sliten etter jobb.**
 → Tømt av innsats, stress eller en lang dag.
 
 **2. Hun ser sliten ut.**
-→ Synlig utmattelse — ikke bare søvnig.
+→ Synlig utmattelse, ikke bare søvnighet.
 
 **3. Jeg er sliten, men ikke trøtt ennå.**
-→ Den viktige forskjellen: **sliten** handler om innsats, **trøtt** handler om søvnbehov. Man kan være det ene uten det andre.
-
-**Sliten** kan også beskrive gjenstander som er synlig brukt, uten å være ødelagt — f.eks. **en sliten jakke**. Det er en mildere grad enn **utslitt** (se under).
+→ **Sliten** handler om innsats, **trøtt** om søvnbehov. Man kan være det ene uten det andre.
 
 ---
 
-## Utslitt — fullstendig utmattet
+## Utslitt — helt tom for krefter
 
-Enda sterkere enn **sliten**. Bokstavelig talt "worn out" — ikke noe energi igjen. Brukes også om gjenstander.
+Sterkere enn **sliten**: ingen energi igjen. Bokstavelig talt «worn out».
 
 **1. Jeg er helt utslitt.**
-→ Ingenting igjen — sterkere og mer dramatisk enn **sliten**.
+→ Mer dramatisk enn **sliten**.
 
-**2. Skoene er utslitte.**
-→ Brukes også om gjenstander som er brukt til de er ferdig.
+**2. Hun var utslitt etter maratonløpet.**
+→ Utmattet etter ekstrem innsats.
 
----
+**3. Skoene er utslitte.**
+→ Brukes også om gjenstander som er oppbrukt.
 
-## Utmattet — utmattet / fatigued
-
-Mer formelt eller litterært enn **sliten**. Vanlig i medisinske, emosjonelle, eller alvorlige sammenhenger.
-
-**1. Hun var fysisk og psykisk utmattet.**
-→ Alvorlig, vedvarende utmattelse — mer klinisk enn hverdagslig.
-
-**2. Pasienten følte seg utmattet.**
-→ Medisinsk register.
-
-Mindre vanlig i uformell tale — **sliten** eller **utslitt** er mer naturlig i hverdagssamtaler.
+**Obs:** om gjenstander som bare er synlig brukt, sier man **slitt**: _en slitt jakke_, _slitte sko_. **Utslitt** betyr at de er helt oppbrukt.
 
 ---
 
-## Lei — lei av / fed up
+## To beslektede ord: utmattet og lei
 
-Ikke fysisk tretthet. **Lei** brukes om emosjonell utmattelse — å være lei av noe betyr å ha fått nok av det.
+**Utmattet** er mer formelt og brukes i medisinske eller alvorlige sammenhenger: _Hun var fysisk og psykisk utmattet._ I hverdagssamtaler sier man oftere **sliten** eller **utslitt**.
 
-**1. Jeg er lei av vinteren.**
-→ Emosjonelt — ikke en fysisk følelse.
-
-**2. Hun er lei av å vente.**
-→ Nærmere "fed up" eller "sick of" enn "exhausted."
+**Lei** handler ikke om fysisk tretthet, men om å ha fått nok: _Jeg er lei av vinteren. Hun er lei av å vente._ Tenk «fed up», ikke «exhausted».
 
 ---
 
 ## Sammenligningstabell
 
-| Ord          | Betydning          | Styrke       | Typisk kontekst                |
-| ------------ | ------------------ | ------------ | ------------------------------ |
-| **trøtt**    | søvnig / trett     | mild         | trenger søvn, lite energi      |
-| **sliten**   | utslitt / utmattet | medium       | etter innsats eller stress     |
-| **utslitt**  | fullstendig tømt   | sterk        | ingen energi igjen             |
-| **utmattet** | utmattet           | formal/sterk | medisinsk, alvorlig utmattelse |
-| **lei**      | lei av / fed up    | emosjonell   | lei av noe                     |
+| Ord          | Betydning            | Typisk kontekst                 |
+| ------------ | -------------------- | ------------------------------- |
+| **trøtt**    | søvnig / trett       | trenger søvn                    |
+| **sliten**   | tappet for krefter   | etter innsats eller stress      |
+| **utslitt**  | helt tom for krefter | ekstrem innsats, oppbrukte ting |
+| **utmattet** | utmattet (formell)   | medisinsk, alvorlig utmattelse  |
+| **lei**      | lei av / fed up      | lei av noe (emosjonelt)         |
 
 ---
 
 ## Vanlige kombinasjoner
 
-**Trøtt og sliten** brukes ofte sammen i norsk:
+**Trøtt og sliten** brukes ofte sammen: _Jeg er trøtt og sliten etter reisen._ De to ordene forsterker hverandre.
 
-**Jeg er trøtt og sliten etter reisen.**
-→ Svært naturlig i hverdagslig tale — de to ordene forsterker hverandre.
+Vanlige forsterkere i tale:
 
-**Intensifiers** (veldig vanlig i tale):
-
-- **Jeg er dønn sliten.** → Jeg er dødstrett.
-- **Jeg er kjempesliten.** → Jeg er kjempetrøtt / veldig sliten.
-- **Jeg er steintrøtt.** → Jeg er steintrøtt / dødstrett.
+- **dønn sliten** → veldig sliten
+- **kjempesliten** → helt utkjørt
+- **steintrøtt** → så søvnig at du nesten ikke holder deg våken
 
 ---
 
 ## Vanlige feil
 
-❌ Jeg er lei etter jobben.
-⭕ Jeg er sliten etter jobben.
+❌ Jeg er lei etter en lang dag.
+⭕ Jeg er **sliten** etter en lang dag.
 
-_**Lei** brukes ikke om fysisk utmattelse — bruk **sliten** eller **trøtt** i stedet._
+_**Lei** brukes ikke om fysisk utmattelse. Bruk **sliten** eller **trøtt**._
 
 ❌ Skoene er trøtte.
-⭕ Skoene er **slitne** (synlig brukt) eller **utslitte** (helt ødelagt/oppbrukt), avhengig av hvor ille det er.
+⭕ Skoene er **slitte** (synlig brukt) eller **utslitte** (oppbrukt).
 
-_**Trøtt** kan ikke brukes om gjenstander — bare om levende vesener. **Sliten** beskriver noe synlig brukt, mens **utslitt** betyr fullstendig ødelagt eller oppbrukt._
+_I betydningen «søvnig» eller «sliten» brukes **trøtt** normalt om levende vesener. Om gjenstander bruker man **slitt** eller **utslitt**._
 
 ---
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Barna gjesper og er \______, det er tid for å legge seg.»**
-a) trøtte
-b) slitne
-
-**Svar:** a) trøtte — gjesping er et tegn på søvnighet, ikke nødvendigvis utmattelse etter innsats.
-
-**2. Velg riktig ord: «Skoene har hull og kan ikke repareres — de er \______.»**
-a) slitne
+**Velg riktig ord: «Skoene har hull og kan ikke repareres — de er \______.»**
+a) slitte
 b) utslitte
 
-**Svar:** b) utslitte — helt ødelagt/oppbrukt, ikke bare synlig brukt (som **slitne**).
-
-**3. Velg riktig ord: «Jeg er ______ av vinteren.»**
-a) sliten
-b) lei
-
-**Svar:** b) lei — emosjonell utmattelse, ikke fysisk tretthet.
-
----
-
-## Husk dette
-
-- **trøtt** → søvnig / generelt trett
-- **sliten** → utslitt av innsats eller stress; kan også beskrive synlig brukte gjenstander (uten å være ødelagt)
-- **utslitt** → fullstendig tømt — for gjenstander betyr det helt ødelagt/oppbrukt
-- **utmattet** → utmattet — formelt eller medisinsk
-- **lei** → lei av noe — emosjonelt, ikke fysisk
-
----
-
-## Vanlige uttrykk
-
-trøtt og sliten · helt utslitt · dønn sliten · kjempesliten · steintrøtt · lei av noe · se sliten ut
+**Svar:** b) utslitte — helt oppbrukt, ikke bare synlig brukt (som **slitte**).
 
 ---
 
 ## Relaterte ord
 
-søvnig · utmattet · erschöpft · energiløs · avslapning · hvile · sove
+søvnig · energiløs · avslapning · hvile · sove
 
 ---
 

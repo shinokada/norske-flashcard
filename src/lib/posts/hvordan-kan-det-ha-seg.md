@@ -15,26 +15,13 @@ decks:
     label: B1 Phrases
 ---
 
-> **Kort sagt:** **Hvordan kan det ha seg?** betyr "How is that possible?" eller "How can that be?" — et naturlig uttrykk for overraskelse eller nysgjerrighet. Uttrykket **ha seg** er idiomatisk og kan ikke oversettes bokstavelig.
+> **Kort sagt:** **Hvordan kan det ha seg?** betyr "How can that be?" eller "How come?" — et uttrykk for overraskelse eller nysgjerrighet. **Ha seg** er idiomatisk og kan ikke oversettes ord for ord.
 
 ## Kort forklaring
 
-**«Hvordan kan det ha seg?»** brukes når noe er uventet og du ønsker en forklaring. Det er en naturlig og veldig norsk måte å uttrykke forundring på.
+**«Hvordan kan det ha seg?»** bruker du når noe er uventet, og du vil ha en forklaring.
 
-Bokstavelig oversettelse fungerer ikke: **ha seg** er et fast uttrykk uten direkte engelsk ekvivalent. Tenk på det som «how can it be the case?»
-
----
-
-## Ordforklaring
-
-| Ord     | Betydning                           |
-| ------- | ----------------------------------- |
-| hvordan | how                                 |
-| kan     | can                                 |
-| det     | it                                  |
-| ha seg  | _(idiomatisk)_ be the case / happen |
-
-Hele uttrykket betyr omtrent: **«Hvordan kan dette være tilfellet?»**
+**Ha seg** er et fast uttrykk uten direkte engelsk ekvivalent. Tenk på det som «be the case»: _how can it be the case?_ Ordet **seg** endres aldri, uansett hvem det gjelder.
 
 ---
 
@@ -42,17 +29,17 @@ Hele uttrykket betyr omtrent: **«Hvordan kan dette være tilfellet?»**
 
 **1. Han besto ikke eksamen.**
 — **Hvordan kan det ha seg?**
-_How is that possible? / How can that be?_
+_How can that be?_
 → Overraskelse over et uventet utfall.
 
 **2. Det er mye billigere her.**
 — **Hvordan kan det ha seg?**
-_How can that be?_
+_How come?_
 → Nysgjerrighet over en uventet forskjell.
 
 **3. Hun var ikke på jobb i dag.**
 — **Hvordan kan det ha seg?**
-_How is that? / What happened?_
+_How come? / What happened?_
 → Mild forvirring og et ønske om forklaring.
 
 **4. Han snakker flytende norsk etter bare tre måneder.**
@@ -64,73 +51,68 @@ _How is that even possible?_
 
 ## Tone og bruk
 
-Uttrykket er **ikke aggressivt** eller anklagende — det uttrykker ren nysgjerrighet eller forundring.
+Uttrykket er ikke anklagende. Det viser nysgjerrighet eller forundring. Det er litt mer reflektert enn et enkelt «Hva?» eller «Virkelig?», men fungerer både i samtale og i skrift.
 
-Det passer godt i:
-
-- hverdagssamtaler
-- journalistiske spørsmål
-- situasjoner der noe er uventet eller overraskende
-
-Det er mer **formelt og reflektert** enn et enkelt «Hva?» eller «Virkelig?», men likevel naturlig i muntlig norsk.
+I hverdagsspråk sier mange bare **Hvordan det?** eller **Hvorfor det?**.
 
 ---
 
 ## Alternativer
 
-| Uttrykk                     | Tone / Bruk                                 |
-| --------------------------- | ------------------------------------------- |
-| **Hvordan kan det ha seg?** | naturlig, noe formell nysgjerrighet         |
-| **Hvordan er det mulig?**   | litt mer direkte — "How is that possible?"  |
-| **Hvorfor skjedde det?**    | spør etter årsaken — "Why did that happen?" |
-| **Hva skjedde?**            | mer direkte — "What happened?"              |
-| **Er det mulig?**           | utbropsform — "Is that even possible?"      |
+| Uttrykk                     | Tone / bruk                             |
+| --------------------------- | --------------------------------------- |
+| **Hvordan kan det ha seg?** | undring, litt reflektert                |
+| **Hvordan er det mulig?**   | direkte — "How is that possible?"       |
+| **Hvordan det?**            | kort og muntlig — "How come?"           |
+| **Hvorfor det?**            | kort og muntlig — "Why's that?"         |
+| **Er det mulig?**           | utbrudd — "Is that even possible?"      |
+| **Hva skjedde?**            | spør etter hendelsen — "What happened?" |
 
 ---
 
-## Sammenligningstabell
+## Faste former med «ha seg»
 
-| Uttrykk                     | Fokus                    | Register                 |
-| --------------------------- | ------------------------ | ------------------------ |
-| **Hvordan kan det ha seg?** | undring / forklaring     | hverdagslig–lett formell |
-| **Hvordan er det mulig?**   | umulighet / overraskelse | hverdagslig              |
-| **Hva skjedde?**            | faktisk hendelse         | hverdagslig              |
+**Hvordan har det seg at …?** — _How come …?_
+Hvordan har det seg at han alltid kommer for sent?
+
+**Det har seg slik at …** — _The thing is that …_
+Det har seg slik at jeg må jobbe i morgen.
 
 ---
 
 ## Vanlige feil
 
-❌ Hvordan kan det seg ha?
+❌ Hvordan kan det ha meg?
 ⭕ Hvordan kan det **ha seg**?
 
-_Ha seg er et fast uttrykk — rekkefølgen er alltid **ha seg**, ikke omvendt._
+_**Seg** er fast. Det endres ikke til meg, deg eller oss._
 
-❌ Hvordan kan det vært?
-⭕ Hvordan kan det **ha seg**? / Hvordan **kan det være**?
+❌ Hvordan har det seg? _(når du mener «How are you?»)_
+⭕ Hvordan **har du det**?
 
-_**Ha seg** er ikke et perfektum — det er et infinitivsuttrykk. Ikke bland det med «ha vært»._
+_Ikke bland uttrykket med den vanlige hilsenen «Hvordan har du det?»._
 
 ---
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig setning:**
-a) Hvordan kan det seg ha?
-b) Hvordan kan det ha seg?
+**1. Hva betyr «Hvordan kan det ha seg?»**
+a) How are you?
+b) How can that be?
 
-**Svar:** b) — rekkefølgen er alltid **ha seg**.
+**Svar:** b) — uttrykket brukes når noe er uventet.
 
-**2. Hvilken tone har uttrykket «Hvordan kan det ha seg?»?**
-a) Aggressiv/anklagende
-b) Nysgjerrig/undrende
+**2. Hvilken tone har uttrykket?**
+a) Anklagende
+b) Nysgjerrig
 
-**Svar:** b) — uttrykker ren nysgjerrighet, ikke anklage.
+**Svar:** b) — det uttrykker nysgjerrighet, ikke anklage.
 
-**3. Hvilket ord er idiomatisk og ikke kan oversettes bokstavelig?**
-a) hvordan
-b) ha seg
+**3. Velg riktig setning:**
+a) Hvordan kan det ha seg?
+b) Hvordan kan det ha deg?
 
-**Svar:** b) ha seg — et fast uttrykk uten direkte engelsk ekvivalent.
+**Svar:** a) — **seg** er fast i uttrykket.
 
 ---
 
@@ -139,13 +121,12 @@ b) ha seg
 - **Hvordan kan det ha seg?** = hvordan er det mulig? / hvordan kan det være?
 - **Ha seg** er idiomatisk — ikke oversett det ord for ord
 - Uttrykket viser nysgjerrighet eller forundring, aldri aggresjon
-- Vanlig i hverdagslig og lett formell norsk
 
 ---
 
 ## Vanlige uttrykk
 
-Hvordan kan det ha seg? · Hvordan er det mulig? · Det kan ikke stemme · Er det virkelig sant? · Virkelig?
+Hvordan kan det ha seg? · Hvordan har det seg at …? · Det har seg slik at … · Hvordan er det mulig? · Hvordan det? · Er det virkelig sant?
 
 ---
 

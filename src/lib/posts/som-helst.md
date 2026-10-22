@@ -1,11 +1,11 @@
 ---
 title: 'Som helst — hva, hvem, hvor, når som helst'
-description: 'Som helst legges til spørreord som hva, hvem, hvor og når for å si at det ikke spiller noen rolle hvilket alternativ som velges. En liten, svært nyttig gruppe faste uttrykk.'
+description: 'Som helst legges til spørreord som hva, hvem, hvor og når for å si at det ikke spiller noen rolle hvilket alternativ som velges. Det brukes også etter noe og noen for å forsterke: ikke noe som helst.'
 slug: som-helst
 cefr: B1
 publishedAt: 2026-12-23
-updatedAt: 2026-09-12
-tags: [vocabulary, expressions, phrases]
+updatedAt: 2026-12-23
+tags: [vocabulary, expressions]
 decks:
   - level: b1
     category: phrases
@@ -15,22 +15,15 @@ decks:
     label: A2 Everyday Words
 ---
 
-> **Kort sagt:** **Som helst** legges til etter spørreord som **hva**, **hvem**, **hvor**, **når** og **hvordan** for å si at valget er likegyldig — det spiller ingen rolle hvilket alternativ som gjelder.
+> **Kort sagt:** **Som helst** legges til etter spørreord (**hva**, **hvem**, **hvor**, **når**, **hvordan**) for å si at det spiller ingen rolle hvilket alternativ som gjelder. Etter **noe** og **noen** forsterker det: **ikke noe som helst** = «overhodet ingenting».
 
-## Kort forklaring
-
-**Som helst** følger et fast mønster sammen med spørreord:
+## Spørreord + som helst
 
 - **hva som helst** → det spiller ingen rolle hva
 - **hvem som helst** → det spiller ingen rolle hvem
 - **hvor som helst** → det spiller ingen rolle hvor
 - **når som helst** → det spiller ingen rolle når
 - **hvordan som helst** → det spiller ingen rolle hvordan
-- **hvilken/hvilket/hvilke som helst** → det spiller ingen rolle hvilken (bøyd etter substantivet)
-
----
-
-## Eksempler
 
 **1. Du kan spørre om hva som helst.**
 
@@ -38,15 +31,15 @@ decks:
 
 **3. Du kan sitte hvor som helst.**
 
-**4. Du kan ringe meg når som helst.**
+**4. Ring meg når som helst.**
 
 **5. Du kan gjøre det hvordan som helst.**
 
 ---
 
-## Hvilken som helst — bøyd etter substantivet
+## Hvilken som helst — bøyes etter substantivet
 
-**Hvilken**, **hvilket** og **hvilke** bøyes etter kjønn og tall på substantivet som følger, akkurat som andre bestemmerord.
+**Hvilken**, **hvilket** og **hvilke** retter seg etter substantivet, som andre bestemmerord.
 
 **1. Du kan velge hvilken som helst dag.**
 → En-ord.
@@ -59,67 +52,44 @@ decks:
 
 ---
 
-## Beslektede uttrykk uten «som helst»
+## Noe / noen som helst — forsterkning
 
-Noen nærliggende betydninger uttrykkes med andre ord, ikke med som helst:
+I nektende setninger og spørsmål forsterker **som helst** etter **noe** og **noen**. Betydningen er «overhodet» eller «i det hele tatt».
 
-- **overalt** → alle steder, uten unntak
-- **et sted** → et ubestemt, men avgrenset sted
-- **hver gang** → hver eneste anledning
-- **en gang** → på et ubestemt tidspunkt i framtiden
+**1. Jeg vet ikke noe som helst om det.**
+→ Jeg vet absolutt ingenting.
 
-**1. Det er snø overalt.**
-→ Ikke «snø hvor som helst» — overalt betyr alle steder samtidig.
+**2. Det er ikke noe problem som helst.**
+→ Her kommer **som helst** etter substantivet.
 
-**2. Hun bor et sted i Oslo.**
-→ Et konkret, men ukjent sted — ikke likegyldig som hvor som helst.
-
-**3. Hun smiler hver gang hun ser ham.**
-→ Ved enhver anledning, ikke valgfritt som når som helst.
-
-**4. Vi kan møtes en gang neste uke.**
-→ Et ubestemt tidspunkt i framtiden — ikke likegyldig slik «når som helst» antyder.
+**3. Har du noen som helst idé om hva vi skal gjøre?**
+→ Spørsmål: har du i det hele tatt en idé?
 
 ---
 
-## Som helst vs overalt/hver gang
+## Som helst vs overalt
 
-Den viktigste forskjellen er **likegyldighet vs universalitet**:
+**Som helst** betyr fritt valg. **Overalt** betyr alle steder samtidig.
 
 > Du kan sitte **hvor som helst**.
-> → Valget er ditt — alle steder er like gyldige.
+> → Valget er ditt.
 
 > Det er snø **overalt**.
-> → Ikke et valg — snøen finnes faktisk alle steder.
-
----
-
-## Sammenligningstabell
-
-| Uttrykk            | Betydning             | Type          |
-| ------------------ | --------------------- | ------------- |
-| **hva som helst**  | uansett hva           | likegyldighet |
-| **hvem som helst** | uansett hvem          | likegyldighet |
-| **hvor som helst** | uansett hvor          | likegyldighet |
-| **når som helst**  | uansett når           | likegyldighet |
-| **overalt**        | alle steder           | universalitet |
-| **hver gang**      | ved enhver anledning  | universalitet |
-| **et sted**        | et ubestemt sted      | ubestemthet   |
-| **en gang**        | et ubestemt tidspunkt | ubestemthet   |
+> → Ikke et valg — snøen ligger faktisk alle steder.
 
 ---
 
 ## Vanlige feil
 
-❌ Du kan dra overalt du vil.
-⭕ Du kan dra **hvor som helst** du vil.
+Mindre naturlig: Du kan sitte overalt.
+Mer naturlig: Du kan sitte **hvor som helst**.
 
-_Overalt beskriver alle steder samtidig, ikke et fritt valg mellom steder — bruk hvor som helst når valget er opp til personen._
+_Hvis du mener «der du vil», trenger du **hvor som helst**. **Overalt** betyr alle steder på en gang._
 
 ❌ Velg hvilken som helst bøker.
 ⭕ Velg **hvilke** som helst bøker.
 
-_Hvilken/hvilket/hvilke må bøyes etter substantivet — bøker er flertall, så det heter hvilke._
+_**Bøker** er flertall, så det heter **hvilke**._
 
 ---
 
@@ -129,40 +99,31 @@ _Hvilken/hvilket/hvilke må bøyes etter substantivet — bøker er flertall, s�
 a) når som helst
 b) hver gang
 
-**Svar:** a) når som helst — valget av tidspunkt er fritt.
+**Svar:** a) når som helst — du velger tidspunktet fritt.
 
-**2. Velg riktig form: «Du kan velge ______ språk du vil lære.»**
+**2. Velg riktig form: «Du kan velge ______ språk.»**
 a) hvilket som helst
 b) hvilken som helst
 
-**Svar:** a) hvilket som helst — språk er et et-ord.
+**Svar:** a) hvilket som helst — **språk** er et et-ord.
 
-**3. Velg riktig ord: «Det lå bøker ______ i rommet.»**
-a) overalt
-b) hvor som helst
+**3. Velg riktig uttrykk: «Jeg vet ikke ______ om det.»**
+a) noe som helst
+b) hva som helst
 
-**Svar:** a) overalt — beskriver at bøkene faktisk fantes alle steder, ikke et fritt valg.
-
----
-
-## Husk dette
-
-- **som helst** legges til spørreord for å uttrykke likegyldighet i valget
-- **hvilken/hvilket/hvilke som helst** bøyes etter substantivet
-- **overalt**, **hver gang**, **et sted** og **en gang** uttrykker noe annet — universalitet eller ubestemthet, ikke fritt valg
-- Skille mellom disse gruppene gjør talen mer presis
+**Svar:** a) noe som helst — forsterker nektelsen: «ingenting i det hele tatt».
 
 ---
 
 ## Vanlige uttrykk
 
-hva som helst · hvem som helst · hvor som helst · når som helst · hvilken som helst · overalt · hver gang · et sted
+hva som helst · hvem som helst · hvor som helst · når som helst · hvordan som helst · hvilken som helst · ikke noe som helst · ikke noe problem som helst · noen som helst
 
 ---
 
 ## Relaterte ord
 
-uansett · likegyldig · valgfritt · alle · enhver
+uansett · likegyldig · valgfritt · overalt · overhodet
 
 ---
 

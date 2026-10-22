@@ -4,8 +4,8 @@ description: 'Setningsadverb som «ikke», «aldri» og «kanskje» står etter 
 slug: setningsadverb
 cefr: B1
 publishedAt: 2026-08-19
-updatedAt: 2026-09-13
-tags: [grammar, word-order, sentence-structure]
+updatedAt: 2026-10-22
+tags: [grammar]
 decks:
   - level: b1
     category: grammar
@@ -19,16 +19,9 @@ decks:
 
 ## Kort forklaring
 
-Et **setningsadverb** er et adverb som modifiserer hele setningen — ikke bare ett verb eller adjektiv. Typiske setningsadverb er:
+Et **setningsadverb** er et adverb som modifiserer hele setningen — ikke bare ett verb eller adjektiv. Typiske eksempler:
 
-- **ikke** (not)
-- **aldri** (never)
-- **alltid** (always)
-- **kanskje** (perhaps)
-- **ofte** (often)
-- **heldigvis** (fortunately)
-- **dessverre** (unfortunately)
-- **faktisk** (actually)
+**ikke** (not) · **aldri** (never) · **alltid** (always) · **kanskje** (perhaps) · **ofte** (often) · **heldigvis** (fortunately) · **dessverre** (unfortunately) · **faktisk** (actually)
 
 Disse ordene oppfører seg forskjellig i hovedsetninger og leddsetninger.
 
@@ -56,23 +49,12 @@ Disse ordene oppfører seg forskjellig i hovedsetninger og leddsetninger.
 
 ---
 
-## Eksempler — negasjon (ikke)
+## Eksempler
 
 **Ikke** er det vanligste setningsadverbet og følger mønsteret konsekvent.
 
-**Hovedsetning:**
-
-> Han er ikke hjemme.
-> _He is not home._
-
-**Leddsetning:**
-
-> … fordi han ikke er hjemme.
-> _… because he is not home._
-
----
-
-## Eksempler — frekvens (aldri, alltid, ofte)
+> Han er ikke hjemme. → … fordi han ikke er hjemme.
+> _He is not home. → … because he is not home._
 
 **Aldri:**
 
@@ -84,26 +66,6 @@ Disse ordene oppfører seg forskjellig i hovedsetninger og leddsetninger.
 
 → Legg merke til: **aldri** flyttes foran **har** (det finitte verbet) i leddsetningen.
 
-**Alltid:**
-
-> Hun **er alltid** i godt humør.
-> _She is always in a good mood._
-
-> Jeg merker at hun **alltid er** i godt humør.
-> _I notice that she is always in a good mood._
-
-**Ofte:**
-
-> Han **kommer ofte** for sent.
-> _He often arrives late._
-
-> … fordi han **ofte kommer** for sent.
-> _… because he often arrives late._
-
----
-
-## Eksempler — sannsynlighet (kanskje, sikkert, antakelig)
-
 **Kanskje:**
 
 > Hun **kommer kanskje** i morgen.
@@ -111,34 +73,6 @@ Disse ordene oppfører seg forskjellig i hovedsetninger og leddsetninger.
 
 > Jeg tror at hun **kanskje kommer** i morgen.
 > _I think she will perhaps come tomorrow._
-
-**Sikkert:**
-
-> Han **er sikkert** hjemme.
-> _He is probably home._
-
-> Jeg regner med at han **sikkert er** hjemme.
-> _I expect he is probably home._
-
----
-
-## Eksempler — holdning (heldigvis, dessverre, faktisk)
-
-**Faktisk:**
-
-> Han **er faktisk** flink.
-> _He is actually good._
-
-> Jeg ser at han **faktisk er** flink.
-> _I can see that he is actually good._
-
-**Heldigvis / Dessverre:**
-
-> Det **gikk heldigvis** bra.
-> _Fortunately it went well._
-
-> Jeg er glad for at det **heldigvis gikk** bra.
-> _I'm glad that it fortunately went well._
 
 ---
 
@@ -165,26 +99,16 @@ Et annet eksempel:
 
 ## Sammenligningstabell
 
-| Adverb        | Hovedsetning                  | Leddsetning                        |
-| ------------- | ----------------------------- | ---------------------------------- |
-| **ikke**      | Han **er ikke** hjemme.       | fordi han **ikke er** hjemme       |
-| **aldri**     | Han **har aldri** gjort det.  | at han **aldri har** gjort det     |
-| **alltid**    | Hun **er alltid** glad.       | at hun **alltid er** glad          |
-| **kanskje**   | Hun **kommer kanskje**.       | at hun **kanskje kommer**          |
-| **ofte**      | Han **kommer ofte** for sent. | fordi han **ofte kommer** for sent |
-| **heldigvis** | Det **gikk heldigvis** bra.   | at det **heldigvis gikk** bra      |
-| **faktisk**   | Han **er faktisk** flink.     | at han **faktisk er** flink        |
-
----
-
-## Huskeregelen — leddsetningsregel
-
-> I leddsetninger kommer setningsadverbet **før** det finitte verbet.
-
-Hovedsetning: **Subjekt + finitt verb + adverb**
-Leddsetning: **Subjekt + adverb + finitt verb**
-
-Dette kalles **leddsetningsregelen** og gjelder konsekvent for alle setningsadverb.
+| Adverb                      | Hovedsetning                  | Leddsetning                        |
+| --------------------------- | ----------------------------- | ---------------------------------- |
+| **ikke** (not)              | Han **er ikke** hjemme.       | fordi han **ikke er** hjemme       |
+| **aldri** (never)           | Han **har aldri** gjort det.  | at han **aldri har** gjort det     |
+| **alltid** (always)         | Hun **er alltid** glad.       | at hun **alltid er** glad          |
+| **kanskje** (perhaps)       | Hun **kommer kanskje**.       | at hun **kanskje kommer**          |
+| **ofte** (often)            | Han **kommer ofte** for sent. | fordi han **ofte kommer** for sent |
+| **sikkert** (probably)      | Han **er sikkert** hjemme.    | at han **sikkert er** hjemme       |
+| **heldigvis** (fortunately) | Det **gikk heldigvis** bra.   | at det **heldigvis gikk** bra      |
+| **faktisk** (actually)      | Han **er faktisk** flink.     | at han **faktisk er** flink        |
 
 ---
 
@@ -200,7 +124,7 @@ I en leddsetning skjer ikke denne typen inversjon. Subjektet står alltid foran 
 > **Jeg vet at jeg ikke kommer i dag.**
 > (subjekt + adverb + verb)
 
-Dette viser at **V2-regelen** (ordstilling i hovedsetninger) og **leddsetningsregelen** (adverbplassering i leddsetninger) er to forskjellige regler som gjelder samtidig.
+**V2-regelen** (ordstilling i hovedsetninger) og **leddsetningsregelen** (adverbplassering i leddsetninger) er to forskjellige regler som gjelder samtidig.
 
 ---
 
@@ -216,42 +140,15 @@ _I en leddsetning må **ikke** stå foran det finitte verbet._
 
 _**Aldri** flyttes foran **har** i leddsetningen._
 
----
-
-## Norskprøven — eksempelspørsmål
-
-**1. Velg riktig setning:**
-a) fordi han er ikke hjemme
-b) fordi han ikke er hjemme
-
-**Svar:** b) — **ikke** kommer før verbet i leddsetninger.
-
-**2. Velg riktig setning:**
-a) Jeg vet at han har aldri vært der.
-b) Jeg vet at han aldri har vært der.
-
-**Svar:** b) — **aldri** flyttes foran **har** i leddsetningen.
-
-**3. Hvor står et setningsadverb i en hovedsetning?**
-a) Før verbet
-b) Etter verbet
-
-**Svar:** b) Etter verbet.
+**Merk:** Leddsetningsordstilling er hovedregelen. I enkelte «at»-setninger, særlig etter taleverb og særlig i muntlig norsk, kan hovedsetningsordstilling også forekomme (_Han sa at han kommer ikke_). På Norskprøven bør du bruke leddsetningsordstilling.
 
 ---
 
 ## Husk dette
 
-- **Setningsadverb** = ikke, aldri, alltid, kanskje, ofte, heldigvis, dessverre, faktisk …
 - **Hovedsetning:** verb + adverb → _Han er **ikke** hjemme._
 - **Leddsetning:** adverb + verb → _fordi han **ikke er** hjemme_
-- Regelen er konsekvent — lær den med eksempler, ikke bare som en formel
-
----
-
-## Vanlige innledninger til leddsetninger
-
-at · fordi · siden · når · hvis · selv om · etter at · før · mens
+- Det er det **finitte verbet** som styrer plasseringen, også når verbalet har flere deler
 
 ---
 
@@ -260,5 +157,7 @@ at · fordi · siden · når · hvis · selv om · etter at · før · mens
 V2-regelen · ikke-plassering · leddsetninger · setningsbygning
 
 ---
+
+_→ Vil du lære hvilke ord som innleder leddsetninger? Les: [Subjunksjoner](/blog/subjunksjoner)_
 
 _→ Vil du lære mer om norsk ordstilling? Les: [V2-regelen](/blog/v2-regelen)_

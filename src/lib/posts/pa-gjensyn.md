@@ -1,147 +1,105 @@
 ---
 title: 'På gjensyn — å si farvel på norsk'
-description: '«På gjensyn» betyr at man håper å se noen igjen, og er en høflig og litt formell avskjedshilsen. Her ser du hvordan det skiller seg fra «ha det», «vi sees» og andre norske avskjeder.'
+description: '«På gjensyn» betyr at man håper å se noen igjen, og er en høflig og litt formell avskjedshilsen. Her ser du hvordan det skiller seg fra «ha det», «vi ses» og andre norske avskjeder.'
 slug: pa-gjensyn
 cefr: A1
 publishedAt: 2026-10-23
-updatedAt: 2026-09-12
-tags: [greetings, vocabulary, speaking, register, phrases]
+updatedAt: 2026-10-23
+tags: [expressions, vocabulary]
 decks:
   - level: a1
     category: greetings
     label: A1 Greetings
 ---
 
-> **Kort sagt:** **På gjensyn** betyr «see you again» — høflig, varmt og litt formelt. Det er vanlig etter timer, møter og avtaler. For uformelle hverdagslige avskjeder er **ha det** eller **vi sees** mer naturlig.
-
-## Kort forklaring
-
-**På gjensyn** er en avskjedshilsen som betyr omtrent «see you again» eller «farewell.» Det er høflig og litt mer formelt enn **ha det**, men langt fra gammeldags — du hører det ofte i klasserom, på arbeidsplassen, og i servicebransjen.
-
----
-
-## Typiske situasjoner
-
-**På gjensyn** passer godt etter:
-
-- en norskktime eller undervisningstime
-- et møte eller en jobbsamtale
-- et besøk hos lege, frisør, eller annen tjenesteleverandør
-- et mer formelt selskap eller arrangement
-
-Et klassisk eksempel:
-
-> — Takk for i dag!
-> — Takk selv. **På gjensyn!**
-
----
+> **Kort sagt:** **På gjensyn** betyr «see you again» — en høflig og litt formell avskjedshilsen. I hverdagen sier de fleste heller **ha det**, **ha det bra** eller **vi ses**.
 
 ## Takk for i dag + på gjensyn
 
-De to uttrykkene brukes veldig ofte sammen som en naturlig avslutning:
+**På gjensyn** passer etter timer, møter og besøk hos lege, frisør eller andre tjenester. Det kombineres ofte med **takk for i dag**:
 
-> **Takk for i dag. På gjensyn.**
-> _Thanks for today. See you again._
+> — **Takk for i dag.**
+> — Takk selv. **På gjensyn!**
 
-**Takk for i dag** kan varieres etter tid på dagen:
+**Takk for i dag** kan varieres etter tidspunkt:
 
-| Uttrykk              | Engelsk                 | Når                                             |
-| -------------------- | ----------------------- | ----------------------------------------------- |
-| **takk for i dag**   | thanks for today        | dagtid — det vanligste                          |
-| **takk for i kveld** | thanks for this evening | etter et middagsselskap eller kveldshendelse    |
-| **takk for nå**      | thanks for now          | uformelt, litt mer hverdagslig                  |
-| **takk for sist**    | nice to see you again   | første gang du ser noen etter et tidligere møte |
+| Uttrykk              | Engelsk                 | Når                                          |
+| -------------------- | ----------------------- | -------------------------------------------- |
+| **takk for i dag**   | thanks for today        | dagtid — det vanligste                       |
+| **takk for i kveld** | thanks for this evening | etter et middagsselskap eller kveldshendelse |
+| **takk for nå**      | thanks for now          | uformelt, litt mer hverdagslig               |
+
+**Takk for sist** er ikke en avskjed. Du sier det når du _møter_ noen igjen etter en tidligere anledning: _Takk for sist!_ = "Thanks for last time."
 
 ---
 
 ## Avskjedshilsener — fra uformelt til formelt
 
-| Hilsen         | Engelsk                  | Register                         |
-| -------------- | ------------------------ | -------------------------------- |
-| **ha det**     | bye / take care          | hverdagslig, alltid trygt        |
-| **ha det bra** | take care / all the best | litt varmere enn bare _ha det_   |
-| **vi sees**    | see you                  | uformelt, blant kjente           |
-| **snakkes**    | talk later               | uformelt, særlig om telefon/chat |
-| **på gjensyn** | see you again / goodbye  | høflig, lett formelt             |
-| **adjø**       | farewell                 | formelt eller gammeldags         |
-| **god natt**   | good night               | bare når noen faktisk skal sove  |
+| Hilsen         | Engelsk                  | Register                                  |
+| -------------- | ------------------------ | ----------------------------------------- |
+| **snakkes**    | talk later               | uformelt, særlig om telefon/chat          |
+| **vi ses**     | see you                  | uformelt, blant kjente                    |
+| **ha det**     | bye / take care          | hverdagslig, alltid trygt                 |
+| **ha det bra** | take care / all the best | litt varmere enn bare _ha det_            |
+| **på gjensyn** | see you again / goodbye  | høflig, litt formelt                      |
+| **adjø**       | farewell                 | formelt, litt høytidelig eller gammeldags |
+| **god natt**   | good night               | når noen skal legge seg                   |
 
 ---
 
-## Når er på gjensyn riktig — og når er det for formelt?
+## Når passer på gjensyn?
 
-**På gjensyn** passer godt i:
+**Passer godt:** formelle situasjoner og service — etter et møte, en jobbsamtale eller et besøk hos legen — når du vil høres høflig ut.
 
-- klasserommet («takk for i dag, på gjensyn!»)
-- profesjonelle møter
-- servicebransjen (lege, frisør, butikk)
-- når du vil høres høflig og litt mer tilstedeværende enn «ha det»
-
-Det kan høres litt stivt i:
-
-- uformelle situasjoner blant venner
-- tekstmeldinger og chat
-- når du nettopp skal se personen igjen om fem minutter
-
-I de fleste hverdagssituasjoner er **ha det** eller **vi sees** det mest naturlige valget.
+**Kan høres stivt:** blant venner, i tekstmeldinger og chat, og når du skal se personen igjen om fem minutter. Der er **ha det**, **vi ses** eller **snakkes** mer naturlig.
 
 ---
 
 ## Vanlige feil
 
-❌ På gjensyn! (sendt som SMS til en venn)
-⭕ **Ha det!** / **Vi sees!** / **Snakkes!**
+Mindre naturlig: På gjensyn! _(sendt som SMS til en venn)_
+Mer naturlig: **Ha det!** / **Vi ses!** / **Snakkes!**
 
-_**På gjensyn** er for formelt for tekstmeldinger til venner — bruk noe av de mer uformelle alternativene._
+_**På gjensyn** er for formelt for en tekstmelding til en venn._
 
-❌ God natt! (sagt klokken 20 når noen bare drar hjem)
-⭕ **Ha det bra!** / **På gjensyn!**
+Mindre naturlig: God natt! _(sagt midt på dagen eller tidlig på kvelden når noen bare drar hjem)_
+Mer naturlig: **Ha det bra!** / **På gjensyn!**
 
-_**God natt** brukes bare når noen faktisk skal legge seg — ikke som en vanlig avskjedshilsen om kvelden._
+_**God natt** passer når noen skal legge seg._
 
 ---
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig avskjed etter en jobbsamtale:**
-a) Vi sees!
+**1. Hva passer best etter en jobbsamtale?**
+a) Snakkes!
 b) På gjensyn!
 
 **Svar:** b) På gjensyn! — høflig og passer i formelle situasjoner.
 
-**2. Velg riktig avskjed i en SMS til en venn:**
+**2. Hva passer best i en SMS til en venn?**
 a) På gjensyn!
 b) Ha det!
 
-**Svar:** b) Ha det! — på gjensyn er for formelt for tekstmeldinger.
+**Svar:** b) Ha det! — **på gjensyn** er for formelt for tekstmeldinger til venner.
 
-**3. Hva sier man vanligvis rett etter en norsktime?**
+**3. Hva er en høflig avslutning på et møte?**
 a) Takk for i dag. På gjensyn.
 b) Takk for sist.
 
-**Svar:** a) — en vanlig, naturlig avslutning etter en time.
-
----
-
-## Husk dette
-
-- **på gjensyn** = «see you again» — høflig og lett formelt
-- Naturlig etter timer, møter og i servicebransjen
-- Kombineres gjerne med **takk for i dag** som avslutning
-- For venner og hverdagslige situasjoner: **ha det** eller **vi sees**
-- **God natt** brukes bare når noen skal sove
+**Svar:** a) — **takk for sist** sier du når du møter noen igjen, ikke når du går.
 
 ---
 
 ## Vanlige uttrykk
 
-takk for i dag · på gjensyn · ha det bra · vi sees · snakkes · takk for i kveld · takk for sist
+takk for i dag · på gjensyn · ha det bra · vi ses · snakkes · takk for i kveld
 
 ---
 
 ## Relaterte ord
 
-hilse · avskjed · farvel · adjø · hei · hallo · vi ses
+hilse · avskjed · farvel · adjø · hei · hallo
 
 ---
 

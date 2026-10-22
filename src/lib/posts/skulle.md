@@ -1,6 +1,6 @@
 ---
-title: 'Skulle — skulle til å / skulle (fortid)'
-description: '«Skulle» betyr ikke alltid det samme som «burde». I fortid uttrykker det en plan, en intensjon eller noe som var ment å skje.'
+title: 'Skulle — var ment å, skulle til å og hvis det skulle'
+description: '«Skulle» er fortidsformen av «skal»: «was going to» eller «was supposed to». For råd i nåtid bruker du vanligvis «burde». Lær også «skulle til å» og «hvis det skulle».'
 slug: skulle
 cefr: B1
 publishedAt: 2026-08-14
@@ -15,91 +15,69 @@ decks:
     label: A2 Verbs
 ---
 
-> **Kort sagt:** **Skulle** i en fortidskontekst betyr "was going to" eller "was supposed to" — en plan eller intensjon sett fra fortiden. Det betyr ikke alltid "should."
-
-## Kort forklaring
-
-**Skulle** er et modalt hjelpeverb med flere betydninger. Den viktigste — og mest forvirrende for innlærere — er bruken om **planer og intensjoner sett fra fortiden**.
-
----
+> **Kort sagt:** **Skulle** er fortidsformen av **skal**: «was going to» eller «was supposed to» — en plan, avtale eller beskjed sett fra fortiden. For råd i nåtid bruker du vanligvis **burde**.
 
 ## Skulle = was going to / was supposed to
 
-Denne bruken oppstår når vi ser fremover fra et tidspunkt i fortiden. Det handlet om en plan, intensjon, eller noe som var ment å skje.
+**Skulle** peker fremover fra et tidspunkt i fortiden. Setningen sier ikke om planen ble gjennomført.
 
 **1. Så skulle han reise tilbake til Norge.**
-→ Sett fra et tidligere tidspunkt — dette var planen fremover.
+→ Hjemreisen var det neste planlagte steget.
 
 **2. Jeg skulle møte henne klokka fem.**
-→ En plan eller avtale — om den ble gjennomført eller ikke, sies det ingenting om.
+→ En avtale.
 
 **3. Vi skulle kjøpe hus, men ombestemte oss.**
-→ Planen ble oppgitt — **skulle** markerer den opprinnelige intensjonen.
+→ Planen ble oppgitt.
 
-**4. Toget skulle gå klokka åtte.**
-→ En planlagt hendelse — noe som var forventet i henhold til en plan.
-
----
-
-## Tidslinje
-
-Denne bruken av **skulle** plasserer en plan eller intensjon mellom to tidspunkter:
-
-```
-fortid ──── [skulle] ──── planlagt handling
-              ↑
-         sett fra her
-```
-
-> Han var i utlandet. **Så skulle han reise tilbake til Norge.**
-
-Taleren ser fremover fra et tidligere tidspunkt — hjemreisen var det neste planlagte steget.
+**4. Han skulle levere rapporten innen fredag.**
+→ En beskjed: _he was to hand in the report_.
 
 ---
 
-## De fire betydningene av skulle
+## Skulle til å — was about to
 
-**Skulle** har fire distinkte bruksområder:
+**Skulle til å + infinitiv** betyr «akkurat i ferd med å». Ofte skjer det noe annet i mellomtiden.
 
-**1. Plan / intensjon — was going to** ✅ (beskrevet ovenfor)
+**1. Jeg skulle til å ringe deg da telefonen ringte.**
 
-> Han skulle reise hjem.
-> _He was going to travel home._
+**2. Vi skulle til å gå da det begynte å regne.**
 
-**2. Forpliktelse / burde — should**
-
-> Du skulle ringe moren din.
-> _You should call your mother._
-
-**3. Hypotetisk / if … were to**
-
-> Hvis det skulle regne, blir vi hjemme.
-> _If it were to rain, we'll stay home._
-
-**4. Ordre / instruksjon — was told to / was to**
-
-> Han skulle levere rapporten innen fredag.
-> _He was to hand in the report by Friday._
+_Lignende: **Jeg holdt på å falle** betyr «jeg falt nesten». Se [Holde på å](/blog/holde-pa-a)._
 
 ---
 
-## Sammenligningstabell
+## Hvis det skulle …
 
-| Betydning              | Eksempel                     | Engelsk                       |
-| ---------------------- | ---------------------------- | ----------------------------- |
-| plan / was going to    | Han skulle reise hjem.       | He was going to travel home.  |
-| burde / should         | Du skulle ringe moren din.   | You should call your mother.  |
-| hypotetisk / if … were | Hvis det skulle skje …       | If it were to happen …        |
-| ordre / was to         | Han skulle levere rapporten. | He was to hand in the report. |
+**Hvis det skulle regne, blir vi hjemme.**
+→ _If it were to rain._ Noe som er mulig, men ikke særlig sannsynlig.
+
+---
+
+## Skulle vs burde
+
+> **Du skulle ringe moren din.**
+> → Du var ment å ringe henne. Kanskje gjorde du det ikke.
+
+> **Du burde ringe moren din.**
+> → Et råd nå: _you should call your mother._
+
+> **Du skulle ha ringt moren din.**
+> → _You should have called your mother._
 
 ---
 
 ## Vanlige feil
 
-❌ Han skulle reise hjem, betyr at han burde gjøre det.
-⭕ Konteksten avgjør. **Skulle** + fortidskontekst = was going to. **Skulle** + nåtidskontekst = should.
+❌ Du skulle ringe moren din. _(når du gir et råd nå)_
+⭕ Du **burde** ringe moren din.
 
-_Tempus og konteksten i den omkringliggende setningen er det tydeligste signalet på hvilken betydning som er ment._
+_**Skulle** forteller om en plan eller beskjed i fortiden. Råd gir du med **burde**._
+
+❌ Han skulle å reise hjem.
+⭕ Han skulle reise hjem.
+
+_Etter **skulle** kommer infinitiv uten **å**. Bare i **skulle til å** står **å**._
 
 ---
 
@@ -109,43 +87,41 @@ _Tempus og konteksten i den omkringliggende setningen er det tydeligste signalet
 a) He should travel home
 b) He was going to travel home
 
-**Svar:** b) — «men flyet ble kansellert» viser at dette var en plan sett fra fortiden, ikke en nåværende forpliktelse.
+**Svar:** b) — «men flyet ble kansellert» viser at dette var en plan i fortiden.
 
-**2. Velg riktig tolkning: «Du skulle ringe moren din — hun venter fortsatt.»**
-a) You should call your mother
-b) You were going to call your mother
+**2. Velg riktig svar: «Jeg skulle ______ ringe deg da du ringte.»**
+a) til å
+b) å
 
-**Svar:** a) — «hun venter fortsatt» peker mot en nåværende forpliktelse («should»), ikke en avsluttet plan i fortiden.
+**Svar:** a) til å — **skulle til å** betyr «was about to».
 
-**3. Hvilken betydning har **skulle** i «Hvis det skulle regne …»?**
-a) Hypotetisk (if it were to)
-b) Ordre (was told to)
+**3. Velg riktig ord når du gir et råd nå: «Du ______ ringe moren din.»**
+a) skulle
+b) burde
 
-**Svar:** a) Hypotetisk.
+**Svar:** b) burde — **skulle** forteller om en plan i fortiden, ikke om et råd.
 
 ---
 
 ## Husk dette
 
-- **Skulle** i fortidskontekst = was going to / was supposed to — en plan sett fra fortiden
-- **Skulle** i nåtidskontekst = should — en forpliktelse eller anbefaling
-- Hypotetisk **skulle**: _hvis det skulle …_ = if it were to …
-- Konteksten avgjør alltid hvilken betydning det er
+- **skulle** = fortidsformen av **skal**: was going to / was supposed to
+- **skulle til å** = was about to
+- **hvis det skulle …** = if it were to …
+- råd i nåtid (_should_) uttrykkes vanligvis med **burde**, og **should have** heter **skulle ha** + partisipp
 
 ---
 
 ## Vanlige uttrykk
 
-skulle til å · skulle egentlig · var ment å · burde · hadde tenkt å
+skulle egentlig · skulle til å · hvis det skulle · skulle ha ringt · det skulle bare mangle
 
 ---
 
 ## Relaterte ord
 
-ville · måtte · burde · kunne · få til · ha tenkt å
+skal · ville · burde · måtte · holde på å
 
 ---
 
 _→ Vil du lære mer om V2-regelen og norsk setningsbygning? Les: [V2-regelen](/blog/v2-regelen)_
-
-_→ Vil du lære et annet uregelrett bøyningsmønster? Les: [Legge-verb — planlegge, pålegge, nedlegge](/blog/legge-la-lagt)_

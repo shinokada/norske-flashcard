@@ -109,4 +109,4 @@ endre · forandre · erstatte · veksle · overgå
 
 ---
 
-_→ Vil du lære forskjellen mellom å begynne og å starte? Les: [Begynne vs Starte](/blog/begynne-vs-starte)_
+<!-- TODO: re-add link to [Begynne vs Starte](/blog/begynne-vs-starte) once that post publishes (currently scheduled 2026-11-06) -->

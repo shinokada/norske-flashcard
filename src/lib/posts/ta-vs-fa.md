@@ -1,11 +1,11 @@
 ---
 title: 'Ta vs Få — Ta førerkort eller få førerkort?'
-description: 'Ta brukes om selve handlingen eller prosessen, som i ta eksamen. Få fokuserer på resultatet, som i få gode karakterer. Lær forskjellen med eksempler fra førerkort, eksamen og jobb.'
+description: 'Ta brukes når du selv gjennomfører noe, som i ta eksamen. Få brukes når noe kommer til deg, som i få en gave. Lær forskjellen med førerkort, eksamen og jobb.'
 slug: ta-vs-fa
 cefr: [A1, A2]
 type: guide
 publishedAt: 2027-01-08
-updatedAt: 2026-09-12
+updatedAt: 2027-01-08
 tags: [verbs, vocabulary]
 decks:
   - level: a1
@@ -13,89 +13,65 @@ decks:
     label: A1 Verbs
 ---
 
-> **Kort sagt:** **Ta** brukes om selve handlingen eller prosessen — som i **ta eksamen**. **Få** fokuserer på resultatet — det du ender opp med, som i **få gode karakterer**.
-
-## Kort forklaring
-
-**Ta** og **få** kan begge brukes om å skaffe seg noe, men de har ulikt fokus:
-
-- **ta** → handlingen eller prosessen du selv gjennomfører
-- **få** → resultatet du ender opp med
+> **Kort sagt:** **Ta** brukes når du selv gjør eller gjennomfører noe: **ta eksamen**, **ta bussen**, **ta en beslutning**. **Få** brukes når du ender opp med noe, eller noe kommer til deg: **få en gave**, **få en jobb**.
 
 ---
 
-## Ta — handlingen eller prosessen
-
-**Ta** brukes ofte når du selv gjør noe eller gjennomfører en aktivitet.
+## Ta — du gjør noe selv
 
 1. Jeg **tar** bussen.
+
 2. Jeg **tar** en eksamen.
+
 3. Hun **tok** førerkortet da hun var 18 år.
+
 4. Jeg skal **ta** førerkortet neste år.
 
-I **«Hun tok førerkortet»** betyr **tok** omtrent «gjennomførte det som var nødvendig for å få førerkortet». Det er et fast og vanlig uttrykk: **ta førerkort**.
+I **«Hun tok førerkortet»** betyr **tok** at hun gjennomførte det som skulle til for å få førerkortet. **Ta førerkort** er et fast uttrykk.
 
-**Merk:** På norsk skriver man **førerkort**, ikke _førekort_.
+På bokmål skriver vi **førerkort** (nynorsk: _førekort_).
 
 ---
 
-## Få — resultatet
-
-**Få** fokuserer mer på resultatet — at du ender opp med noe.
+## Få — du ender opp med noe
 
 1. Hun **fikk** førerkort da hun var 18 år.
+
 2. Jeg **fikk** en gave.
+
 3. Han **fikk** en jobb.
+
 4. Jeg **fikk** lov til å gå hjem.
 
 ---
 
-## Sammenlign: ta førerkortet vs. få førerkortet
+## Ta førerkort vs. få førerkort
 
-| Norsk                     | Fokus                                      |
-| ------------------------- | ------------------------------------------ |
-| Hun **tok** førerkortet.  | Hun gjennomførte prosessen / oppkjøringen. |
-| Hun **fikk** førerkortet. | Hun fikk førerkortet som resultat.         |
+| Norsk                     | Fokus                                       |
+| ------------------------- | ------------------------------------------- |
+| Hun **tok** førerkortet.  | Hun gjennomførte prosessen og oppkjøringen. |
+| Hun **fikk** førerkortet. | Resultatet: hun har nå førerkort.           |
 
-Du kan derfor si begge:
+Begge setningene er riktige, men fokuset er ulikt:
 
-> **Hun tok førerkortet da hun var 18 år.**
-> = Hun tok førerprøven og fikk førerkort.
+> **Hun tok førerkortet da hun var 18 år.** → Hun tok førerprøven og fikk førerkort.
+> **Hun fikk førerkortet da hun var 18 år.** → Resultatet var at hun fikk førerkort.
 
-<!-- -->
-
-> **Hun fikk førerkortet da hun var 18 år.**
-> = Resultatet var at hun fikk førerkort.
+Ett eksempel med begge verbene: **Jeg tok eksamen i juni, og jeg fikk gode karakterer.**
+→ _tok_ = jeg gjennomførte eksamen
+→ _fikk_ = resultatet jeg mottok
 
 ---
 
 ## Faste uttrykk med ta
 
-I mange faste uttrykk betyr **ta** ikke bokstavelig «å ta tak i noe» — det er del av en fast kombinasjon:
+Mange uttrykk om å gjennomføre eller bestemme noe bruker **ta**:
 
 - **ta eksamen**
 - **ta en prøve**
 - **ta en utdanning**
 - **ta førerkort**
 - **ta en beslutning**
-
-**Huskeregel:**
-
-> **ta** → aktiviteten/prosessen
-> **få** → resultatet
-
-For eksempel: **Jeg tok eksamen i juni, og jeg fikk gode karakterer.**
-→ _tok_ = gjennomførte eksamen
-→ _fikk_ = resultatet jeg mottok
-
----
-
-## Sammenligningstabell
-
-| Ord    | Fokus                | Eksempel                  |
-| ------ | -------------------- | ------------------------- |
-| **ta** | handlingen/prosessen | Jeg tok eksamen i juni.   |
-| **få** | resultatet           | Jeg fikk gode karakterer. |
 
 ---
 
@@ -104,12 +80,12 @@ For eksempel: **Jeg tok eksamen i juni, og jeg fikk gode karakterer.**
 ❌ Jeg fikk en beslutning.
 ⭕ Jeg **tok** en beslutning.
 
-_«Ta en beslutning» er et fast uttrykk — **få** brukes ikke her._
+_«Ta en beslutning» er et fast uttrykk. Du gjør selv beslutningen._
 
-❌ Jeg tok gode karakterer.
-⭕ Jeg **fikk** gode karakterer.
+❌ Jeg tok en gave fra bestemor.
+⭕ Jeg **fikk** en gave fra bestemor.
 
-_Karakterer er et resultat du mottar — bruk **få**, ikke **ta**._
+_Når noe kommer til deg, bruker du **få**._
 
 ---
 
@@ -121,25 +97,17 @@ b) få
 
 **Svar:** a) ta — **ta eksamen** er det faste uttrykket for å gjennomføre en eksamen.
 
-**2. Velg riktig ord: «Han ______ en jobb i fjor.»**
+**2. Velg riktig ord: «Jeg ______ en e-post fra sjefen i går.»**
 a) tok
 b) fikk
 
-**Svar:** b) fikk — fokus på resultatet, at han endte opp med en jobb.
+**Svar:** b) fikk — e-posten kom til deg.
 
-**3. Velg riktig setning:**
-a) Jeg fikk en beslutning.
-b) Jeg tok en beslutning.
+**3. Velg riktig uttrykk: «Hun ______ førerkort i fjor — nå kjører hun selv.»**
+a) tok
+b) hadde
 
-**Svar:** b) — **ta en beslutning** er det faste uttrykket; **få** fungerer ikke her.
-
----
-
-## Husk dette
-
-- **ta** → aktiviteten eller prosessen du selv gjennomfører
-- **få** → resultatet du ender opp med
-- Faste uttrykk med **ta**: ta eksamen, ta førerkort, ta en beslutning, ta en utdanning
+**Svar:** a) tok — hun gjennomførte kjøreopplæringen og prøven.
 
 ---
 
@@ -155,6 +123,6 @@ skaffe · oppnå · motta · gjennomføre · bestå
 
 ---
 
-_→ Vil du lære flere uttrykk med **få**? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa)_
+_→ Vil du lære flere uttrykk med **få**? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa-tak-i)_
 
-_→ Vil du lære forskjellen mellom å bringe og ta med seg noe? Les: [Bringe vs Ta med seg](/blog/bringe-vs-ta-med-seg)_
+_→ Vil du se forskjellen mellom å bringe og ta med seg noe? Les: [Bringe vs Ta med seg](/blog/bringe-vs-ta-med-seg)_

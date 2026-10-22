@@ -1,10 +1,10 @@
 ---
 title: 'I vs På — steder og arrangementer'
-description: '«På festen», «på skolen» og «på museet» beskriver et arrangement eller en aktivitet. «I rommet» og «i huset» beskriver et fysisk område. Lær når du skal bruke hver preposisjon.'
+description: 'På festen, på skolen og på Island, men i rommet, i Oslo og i Norge. Lær hovedregelen for i og på, og hvilke steder du må lære som faste uttrykk.'
 slug: i-vs-pa
 cefr: A2
 publishedAt: 2026-12-09
-updatedAt: 2026-09-12
+updatedAt: 2026-12-09
 tags: [grammar, prepositions, vocabulary]
 decks:
   - level: a1
@@ -15,111 +15,57 @@ decks:
     label: A2 Social Life
 ---
 
-> **Kort sagt:** **På** brukes om arrangementer og aktiviteter — på festen, på skolen, på møtet — og også om konkrete institusjoner eller steder man besøker, som på museet eller på biblioteket. **I** brukes om et fysisk område eller rom — i rommet, i huset, i parken. Noen steder, som museet, kan ta begge deler, avhengig av om du snakker om besøket/stedet eller selve bygningen.
+> **Kort sagt:** **På** brukes om arrangementer (på festen), institusjoner (på skolen, på jobb), åpne plasser (på torget) og øyer (på Island). **I** brukes om avgrensede rom (i rommet, i bilen), byer og land (i Oslo, i Norge). Noen steder er faste uttrykk som du må lære.
 
-## Kort forklaring
-
-Norsk skiller mellom **på** og **i** når man snakker om hvor noe skjer:
-
-- **på** + arrangement/aktivitet → på festen, på konserten, på møtet
-- **i** + fysisk sted/område → i rommet, i huset, i parken
-
-Noen steder, som skoler og institusjoner, kan ta begge preposisjonene — men med litt forskjellig fokus.
-
----
-
-## På — arrangementer og aktiviteter
-
-Vi bruker vanligvis **på** når vi snakker om at noen er til stede på et arrangement eller en aktivitet.
+## På — arrangement, institusjon, åpen plass, øy
 
 **1. Det var mange folk på festen i går.**
-→ Festen er en aktivitet man deltar på.
 
-**2. Hun er på konserten.**
+**2. Barna er på skolen.**
 
-**3. Vi har et møte på kontoret.**
+**3. Vi møtes på torget.**
 
-**4. Jeg er på kurset hele dagen.**
+**4. De bor på Island.**
 
 ---
 
-## I — det fysiske området
-
-**I** brukes når vi snakker om selve rommet eller området — ikke en aktivitet.
+## I — rom, byer og land
 
 **1. Det var mange folk i rommet.**
 
-**2. Det var mange folk i huset.**
+**2. Vi satt i bilen.**
 
-**3. Det var mange folk i parken.**
+**3. Jeg bor i Oslo.**
+
+**4. Hun jobber i Norge.**
 
 **Huskeregel:**
 
-> **på + arrangement/aktivitet** → på festen, på konserten, på møtet
-> **i + fysisk sted/område** → i rommet, i huset, i parken
+> **på** → arrangement, institusjon, åpen plass, øy
+> **i** → avgrenset rom, by, land
+
+_Rom i hjemmet er faste uttrykk: **i** stua, men **på** kjøkkenet og **på** badet._
 
 ---
 
 ## Museet — både på og i
 
-Noen steder, som institusjoner, kan ta begge preposisjonene, avhengig av hva du beskriver.
-
-**På museet — vanligst**
-
-**På** brukes når du snakker om å **besøke eller oppholde deg** på et sted som en aktivitet.
-
-**1. Vi er på museet.**
-
-**2. Barna er på skolen.**
-
-**3. Hun er på biblioteket.**
-
-**4. Barn må være med en voksen på museet.**
-→ Barn som besøker museet, må være sammen med en voksen.
-
-**I museet — også mulig**
-
-**I museet** fokuserer mer på **det fysiske området inne i bygningen**.
-
-**1. Det er mange gamle malerier i museet.**
-→ Bildene befinner seg fysisk inne i bygningen.
-
-**2. Det finnes en kafé i museet.**
-→ Kafeen er en del av selve bygningen.
-
-**3. Det finnes en kafé på museet.**
-→ Også helt naturlig — her tenker man på museet som sted/institusjon, ikke på bygningen spesifikt.
-
-**Sammenlign:**
-
-> Jeg møtte henne **på museet**.
-> → Hun var der på besøk.
-
-> Det finnes en kafé **i museet** / **på museet**.
-> → Begge er riktige. I understreker at kafeen er fysisk inne i bygningen, mens på fokuserer på museet som sted.
-
----
-
-## Sammenligningstabell
-
-| Preposisjon | Fokus                         | Eksempel                        |
-| ----------- | ----------------------------- | ------------------------------- |
-| **på**      | arrangement, besøk, aktivitet | på festen, på skolen, på museet |
-| **i**       | fysisk område eller rom       | i rommet, i huset, i museet     |
+> Vi var **på museet** i går. → Besøk, museet som sted.
+> Det henger mange malerier **i museet**. → Selve bygningen.
 
 ---
 
 ## Vanlige feil
 
+❌ Jeg bor på Oslo.
+⭕ Jeg bor **i** Oslo.
+
+_Byer og land bruker i._
+
 ❌ Det var mange folk i festen.
 ⭕ Det var mange folk **på** festen.
 
-_Fest er en aktivitet, ikke et fysisk rom — bruk på._
-
-❌ Vi møttes i konserten.
-⭕ Vi møttes **på** konserten.
-
-_Konsert er et arrangement — bruk på._
+_Fest er et arrangement, ikke et rom._
 
 ---
 
@@ -131,38 +77,41 @@ b) på
 
 **Svar:** b) på — fest er et arrangement.
 
-**2. Velg riktig preposisjon: «Det var mange folk ______ rommet.»**
+**2. Velg riktig preposisjon: «Jeg bor ______ Oslo.»**
 a) i
 b) på
 
-**Svar:** a) i — rommet er et fysisk område.
+**Svar:** a) i — byer bruker i.
 
-**3. Velg riktig preposisjon: «Det finnes en kafé ______ museet.»**
+**3. Velg riktig preposisjon: «Vi bodde ______ Island i to år.»**
 a) i
 b) på
 
-**Svar:** a) og b) er begge riktige. I museet legger vekt på at kafeen fysisk befinner seg inne i bygningen; på museet fokuserer på museet som sted/institusjon.
+**Svar:** b) på — øyer bruker på.
 
 ---
 
 ## Husk dette
 
-- **på** → arrangement eller aktivitet: på festen, på skolen, på museet
-- **i** → fysisk område eller rom: i rommet, i huset, i museet
-- Noen steder, som museet, kan ta begge deler — det avhenger av om du snakker om besøket eller bygningen
+- **på** → arrangement, institusjon, åpen plass, øy
+- **i** → avgrenset rom, by, land
+- Rom i hjemmet må læres: i stua, på kjøkkenet, på badet
+- Noen steder kan ta begge: på museet / i museet
 
 ---
 
 ## Vanlige uttrykk
 
-på festen · på konserten · på møtet · på kurset · på museet · i rommet · i huset · i parken
+på festen · på skolen · på jobb · på torget · på Island · i rommet · i bilen · i Oslo · i Norge
 
 ---
 
 ## Relaterte ord
 
-sted · arrangement · besøke · institusjon · bygning
+sted · arrangement · institusjon · by · land
 
 ---
+
+<!-- TODO: re-add link to [Ved vs På — nær noe eller på en overflate](/blog/ved-vs-pa) once that post publishes (currently scheduled 2027-01-20) -->
 
 _→ Vil du lære hvordan **i, for** og **på** brukes med tid i stedet for sted? Les: [I, For og På — tidsuttrykk på norsk](/blog/i-for-pa-tid)_

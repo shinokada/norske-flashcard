@@ -1,11 +1,11 @@
 ---
 title: 'Ord på -vis — vanligvis, gradvis, henholdsvis og flere'
-description: '-vis er en produktiv endelse som danner setningsadverb (vanligvis, heldigvis), fordelingsord (parvis, trinnvis) og gradsord (delvis, forholdsvis). Lær mønstrene og noen unaturlige former å unngå.'
+description: '-vis er en produktiv endelse som danner adverb av adjektiv (vanligvis, heldigvis) og av substantiv (parvis, trinnvis, delvis). Lær mønstrene, henholdsvis, og noen unaturlige former å unngå.'
 slug: visord
 cefr: [A2, B1, B2]
 type: guide
 publishedAt: 2027-01-15
-updatedAt: 2026-09-12
+updatedAt: 2027-01-15
 tags: [adverbs, vocabulary, word-formation]
 decks:
   - level: a2
@@ -19,23 +19,18 @@ decks:
     label: B2 Discourse Markers
 ---
 
-> **Kort sagt:** **-vis** er en produktiv endelse som danner tre hovedgrupper av ord: setningsadverb som **vanligvis** og **heldigvis**, fordelingsord som **parvis** og **trinnvis**, og gradsord som **delvis** og **forholdsvis**.
+> **Kort sagt:** **-vis** danner adverb på to måter: **adjektiv + vis** (vanligvis, heldigvis) og **substantiv + vis** (parvis, trinnvis, delvis). I tillegg er **henholdsvis** et viktig skriftlig ord.
 
-## Kort forklaring
+## Adjektiv + vis: holdning, sannsynlighet og hyppighet
 
-**-vis** er en produktiv norsk endelse med flere beslektede betydninger: «på en bestemt måte», «gradvis», eller «med hensyn til». Suffikset dukker opp i tre hovedgrupper av ord.
+Disse ordene sier noe om **hvor ofte**, **hvor sannsynlig** eller **hvordan vi stiller oss** til noe.
 
----
-
-## Setningsadverb: vanligvis, heldigvis, tydeligvis
-
-Denne gruppen uttrykker **holdning eller sannsynlighet** og dannes av **adjektiv + vis**.
-
-- **vanligvis** → det som skjer til vanlig
-- **heldigvis** → uttrykker glede over et heldig utfall
-- **naturligvis** → «selvfølgelig»
-- **tydeligvis** → basert på det som er synlig eller opplagt
-- **sannsynligvis** → uttrykker sannsynlighet
+- **vanligvis** → til vanlig
+- **heldigvis** → et heldig utfall
+- **tydeligvis** → det er synlig eller opplagt
+- **sannsynligvis** → med stor sannsynlighet
+- **nødvendigvis** → ofte i «ikke nødvendigvis»
+- **tilfeldigvis** → ved en tilfeldighet
 
 **1. Jeg drikker vanligvis kaffe om morgenen.**
 
@@ -43,54 +38,65 @@ Denne gruppen uttrykker **holdning eller sannsynlighet** og dannes av **adjektiv
 
 **3. Hun er tydeligvis syk i dag.**
 
-**Sannsynligvis** har en egen, dypere sammenligning med **trolig** og **sikkert** — se lenken nederst i artikkelen.
+**4. Det er ikke nødvendigvis sant.**
 
 ---
 
-## Fordelingsord: parvis, enkeltvis, gruppevis, trinnvis
+## Substantiv + vis: fordeling
 
-Denne gruppen betyr **«X etter X»** eller **«i X»**, og dannes av **substantiv + vis**:
+Disse ordene beskriver **hvordan noe fordeles**: to og to, punkt for punkt.
 
-- **parvis** = par + vis → to og to
-- **enkeltvis** = enkelt + vis → én om gangen
-- **gruppevis** = gruppe + vis → gruppe for gruppe
-- **trinnvis** = trinn + vis → trinn for trinn
-- **punktvis** = punkt + vis → punkt for punkt
+- **parvis** → to og to
+- **enkeltvis** → én om gangen
+- **gruppevis** → gruppe for gruppe
+- **punktvis** → punkt for punkt
 
 **1. Elevene jobbet parvis med oppgaven.**
 
 **2. Vi gjennomgår planen punktvis.**
 
-**3. Endringen innføres trinnvis.**
+---
+
+## Substantiv + vis: utvikling og rekkefølge
+
+Disse ordene beskriver **hvordan noe skjer over tid**: trinn for trinn eller litt etter litt.
+
+- **trinnvis** → trinn for trinn
+- **gradvis** → litt etter litt
+
+**1. Endringen innføres trinnvis.**
+
+**2. Prisene har økt gradvis.**
 
 ---
 
-## Grad og forhold: delvis, gradvis, forholdsvis, prosentvis
+## Substantiv + vis: grad og andel
 
-Denne gruppen uttrykker **grad eller andel**, altså hvor mye av noe som gjelder:
+Disse ordene sier **hvor mye** av noe som gjelder.
 
 - **delvis** → bare en del, ikke helt
-- **gradvis** → litt etter litt
-- **forholdsvis** → relativt sett
+- **forholdsvis** → relativt sett _(med bindebokstav -s: forhold + s + vis)_
 - **prosentvis** → målt i prosent
 
 **1. Prosjektet er delvis ferdig.**
 
-**2. Prisene har økt gradvis.**
+**2. Dette er forholdsvis enkelt.**
 
-**3. Dette er forholdsvis enkelt.**
-
-**4. Lønningene har økt prosentvis mer enn prisene.**
+**3. Lønningene har økt prosentvis mer enn prisene.**
 
 ---
 
-## Henholdsvis — et spesielt viktig ord
+## Henholdsvis og eksempelvis — skriftlige ord
 
-**Henholdsvis** betyr «respectively» og brukes når du lister opp to eller flere ting sammen med to eller flere tilsvarende verdier, i samme rekkefølge:
+**Henholdsvis** betyr "respectively". Bruk det når to eller flere ting hører sammen med to eller flere verdier, i samme rekkefølge:
 
-> Norge og Sverige har **henholdsvis** 5,6 og 10,6 millioner innbyggere.
+> Anna og Ola er **henholdsvis** 25 og 30 år.
 
-Det er et vanlig ord i skriftlig og formell norsk, og verdt å øve spesielt på.
+→ Anna er 25, Ola er 30.
+
+**Eksempelvis** betyr «for eksempel», og brukes mest i formell tekst:
+
+> Flere land, **eksempelvis** Norge og Sverige, har gratis skolegang.
 
 ---
 
@@ -99,24 +105,25 @@ Det er et vanlig ord i skriftlig og formell norsk, og verdt å øve spesielt på
 ❌ Møtet er utsatt **midlertidigvis**.
 ⭕ Møtet er utsatt **midlertidig**.
 
-_**Midlertidig** fungerer allerede som adverb — **-vis**-formen brukes ikke i moderne norsk._
+_**Midlertidig** fungerer allerede som adverb._
 
 ❌ Vi kan gjøre det **alternativvis**.
 ⭕ Vi kan gjøre det **alternativt**.
 
-_**Alternativvis** er ikke en naturlig norsk form — bruk **alternativt**._
+_**Alternativvis** er ikke en naturlig norsk form._
 
-**Merk også:** ikke alle ord som ligner, er dannet med **-vis**. **Dessverre** og **visstnok** ser like ut, men følger ikke dette mønsteret — de må læres som egne ord.
+**Merk:** **dessverre** er det motsatte av **heldigvis**, men er ikke et -vis-ord. Det må læres som et eget ord.
 
 ---
 
 ## Sammenligningstabell
 
-| Gruppe                    | Mønster                   | Eksempler             |
-| ------------------------- | ------------------------- | --------------------- |
-| Setningsadverb (holdning) | adjektiv + vis            | heldigvis, tydeligvis |
-| Fordeling (X etter X)     | substantiv + vis          | parvis, trinnvis      |
-| Grad / forhold            | substantiv/adjektiv + vis | delvis, forholdsvis   |
+| Gruppe                 | Mønster          | Eksempler                        |
+| ---------------------- | ---------------- | -------------------------------- |
+| Holdning / hyppighet   | adjektiv + vis   | vanligvis, heldigvis, tydeligvis |
+| Fordeling              | substantiv + vis | parvis, enkeltvis, punktvis      |
+| Utvikling / rekkefølge | substantiv + vis | trinnvis, gradvis                |
+| Grad / andel           | substantiv + vis | delvis, forholdsvis, prosentvis  |
 
 ---
 
@@ -138,30 +145,22 @@ b) henholdsvis
 a) Møtet er utsatt midlertidigvis.
 b) Møtet er utsatt midlertidig.
 
-**Svar:** b) — **midlertidigvis** er ikke en naturlig form; **midlertidig** er korrekt.
-
----
-
-## Husk dette
-
-- **-vis** kan bety «på en bestemt måte», «gradvis» eller «med hensyn til», avhengig av gruppen
-- Setningsadverb: **vanligvis, heldigvis, tydeligvis, sannsynligvis** — uttrykker holdning eller sannsynlighet
-- Fordelingsord: **parvis, enkeltvis, gruppevis, trinnvis** — betyr «X etter X»
-- Ikke alle ord som ser ut som **-vis**-ord, er det: **dessverre** og **visstnok** følger ikke mønsteret
-- Noen former, som **midlertidigvis** og **alternativvis**, er unaturlige — bruk **midlertidig** og **alternativt** i stedet
+**Svar:** b) — **midlertidigvis** er ikke en naturlig form.
 
 ---
 
 ## Vanlige uttrykk
 
-vanligvis om morgenen · heldigvis for det · en gradvis endring · en trinnvis innføring · henholdsvis … og …
+vanligvis om morgenen · heldigvis for det · ikke nødvendigvis · en gradvis endring · en trinnvis innføring · henholdsvis … og …
 
 ---
 
 ## Relaterte ord
 
-måte · grad · andel · forhold · rekkefølge
+dessverre · muligens · selvfølgelig · for eksempel · trolig
 
 ---
 
 _→ Vil du lære forskjellen mellom **trolig**, **sannsynligvis** og **sikkert**? Les: [Trolig vs Sannsynligvis vs Sikkert](/blog/trolig-vs-sannsynligvis-vs-sikkert)_
+
+---

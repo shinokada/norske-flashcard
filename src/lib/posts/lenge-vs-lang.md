@@ -1,11 +1,11 @@
 ---
 title: 'Lenge vs lang — varighet eller lengde?'
-description: '«Lenge» beskriver hvor lenge en handling varer, mens «lang» beskriver et substantiv. De kan ikke brukes om hverandre — det ene brukes med verb, det andre med substantiv.'
+description: '«Lenge» beskriver hvor lenge noe varer (adverb), mens «lang» beskriver et substantiv (adjektiv). Avstand uttrykkes med «langt». De kan ikke brukes om hverandre.'
 slug: lenge-vs-lang
 cefr: A2
 publishedAt: 2026-08-07
-updatedAt: 2026-09-12
-tags: [adverbs, adjectives, vocabulary]
+updatedAt: 2026-10-22
+tags: [adverbs, adjectives]
 decks:
   - level: a2
     category: everyday-words
@@ -15,102 +15,57 @@ decks:
     label: A1 Adjectives
 ---
 
-> **Kort sagt:** **Lenge** = hvor lenge en handling varer (adverb — modifiserer et verb). **Lang** = hvor lang noe er (adjektiv — modifiserer et substantiv). De kan ikke byttes ut med hverandre.
+> **Kort sagt:** **Lenge** = hvor lenge noe varer (adverb, _for a long time_). **Lang** = hvor lang noe er (adjektiv, _long_). Avstand sier du med adverbet **langt**: **Det er langt til Oslo.**
 
-## Kort forklaring
+## Tre ord, tre jobber
 
-Norsk bruker to forskjellige ord der engelsk bruker "long":
+| Ord                      | Rolle             | Eksempel                                  |
+| ------------------------ | ----------------- | ----------------------------------------- |
+| **lenge**                | adverb (tid)      | Jeg ventet lenge.                         |
+| **langt**                | adverb (avstand)  | Det er langt til Oslo.                    |
+| **lang / langt / lange** | adjektiv (lengde) | en lang vei · et langt møte · lange dager |
 
-- **lenge** → adverb — modifiserer et verb; beskriver varighet
-- **lang / langt / lange** → adjektiv — modifiserer et substantiv; beskriver fysisk lengde eller en lang periode
-
----
-
-## Lenge — hvor lenge en handling varer
-
-**Lenge** er et adverb. Det beskriver verbet — altså selve handlingen. Det bøyes ikke.
-
-**1. Jeg ventet lenge.**
-→ **Lenge** modifiserer **ventet** — ventingen varte lenge.
-
-**2. Hun bodde der lenge.**
-→ **Lenge** modifiserer **bodde**.
-
-**3. Det varer lenge.**
-→ Varighet av en hendelse eller prosess.
-
-**4. Jeg har lært norsk lenge.**
-→ Pågående aktivitet med lang varighet. Sammenlign: _Jeg har lært norsk i to år_ = eksakt varighet.
+Rask test: kan du si _for a long time_? → **lenge**. Er det _long_ foran et substantiv? → **lang**.
 
 ---
 
-## Lang — hvor lang noe er
+## Lenge — varighet
 
-**Lang** er et adjektiv. Det beskriver et substantiv og bøyes etter kjønn og tall.
+**Lenge** beskriver verbet. Det bøyes ikke etter kjønn og tall.
 
-| Form      | Bruk              | Eksempel              |
-| --------- | ----------------- | --------------------- |
-| **lang**  | en-ord (singular) | en **lang** vei       |
-| **langt** | et-ord (singular) | et **langt** møte     |
-| **lange** | plural / definite | mange **lange** dager |
-
-**1. En lang vei.**
-→ Fysisk lengde — **lang** beskriver substantivet **vei** (en-ord).
-
-**2. Et langt møte.**
-→ **langt** fordi **møte** er et et-ord.
-
-**3. Mange lange ferier.**
-→ Flertallsform.
-
-**4. Det var en lang dag.**
-→ **Lang** beskriver substantivet — en dag som føltes tung eller varte lenge.
+**Jeg ventet lenge.**
+**Hun bodde der lenge.**
+**Jeg har lært norsk lenge.**
+→ Ubestemt varighet. Sammenlign: _Jeg har lært norsk i to år_ (eksakt).
 
 ---
 
-## Nøkkelforskjell
+## Lang — adjektiv
 
-- **lang → ting (substantiv)**
-- **lenge → handling (verb)**
+**Lang** beskriver et substantiv og bøyes etter kjønn og tall:
 
-**Det var en lang dag.** → beskriver _dagen_ (substantiv)
-**Jeg jobbet lenge.** → beskriver _jobbingen_ (verb)
+- **en lang vei** (en-ord)
+- **et langt møte** (et-ord)
+- **lange dager** (flertall) · **den lange veien** (bestemt form)
 
----
-
-## Sammenligningstabell
-
-| Ord       | Rolle    | Bøyes? | Eksempel           |
-| --------- | -------- | ------ | ------------------ |
-| **lenge** | adverb   | nei    | Jeg ventet lenge.  |
-| **lang**  | adjektiv | ja     | En lang vei.       |
-| **langt** | adjektiv | ja     | Et langt bord.     |
-| **lange** | adjektiv | ja     | Mange lange dager. |
+Det kan også stå etter verbet: **Veien er lang. Møtet var langt.**
 
 ---
 
-## Bonus — så lenge
-
-**Så lenge** har to betydninger avhengig av kontekst:
+## Så lenge
 
 **1. Jeg blir her så lenge du vil.**
-→ **Så lenge** = as long as — en betingelse.
+→ _as long as_
 
 **2. Jeg har ventet så lenge.**
-→ **Så lenge** = så lenge som — forsterket varighet.
+→ _so long_ (forsterket varighet)
 
 ---
 
-## Neste nivå — lenger og lengst
+## Lenger, lengre og lengst
 
-**Lenge** har komparativ og superlativ:
-
-- **lenge** → **lenger** → **lengst**
-- _I lived there longer. / She waited the longest._
-
-**Jeg bodde der lenger enn han.**
-
-**Hun ventet lengst.**
+- **lenge** → **lenger** → **lengst**: Jeg bodde der **lenger** enn han.
+- **lang** → **lengre** → **lengst**: en **lengre** vei
 
 ---
 
@@ -119,12 +74,17 @@ Norsk bruker to forskjellige ord der engelsk bruker "long":
 ❌ Jeg jobbet lang.
 ⭕ Jeg jobbet **lenge**.
 
-_**Lang** kan ikke modifisere et verb — bruk **lenge** for varighet._
+_**Lang** beskriver ikke et verb._
 
 ❌ En lenge vei.
 ⭕ En **lang** vei.
 
-_**Lenge** kan ikke modifisere et substantiv — bruk **lang**._
+_**Lenge** beskriver ikke et substantiv._
+
+❌ Det er lenge til Oslo. _(om avstand)_
+⭕ Det er **langt** til Oslo.
+
+_Om tid kan du si **Det er lenge til jul**._
 
 ---
 
@@ -142,31 +102,31 @@ b) lang
 
 **Svar:** b) lang — adjektiv, beskriver substantivet **dag**.
 
-**3. Velg riktig ord: «Hun bodde der ______ enn meg.»**
-a) lenger
-b) langere
+**3. Velg riktig ord: «Det er ______ til Oslo.»**
+a) lenge
+b) langt
 
-**Svar:** a) lenger — komparativ av **lenge**.
+**Svar:** b) langt — avstand.
 
 ---
 
 ## Husk dette
 
-- **lenge** → varighet av en handling — modifiserer verb, bøyes ikke
-- **lang / langt / lange** → lengde eller varighet ved en ting — modifiserer substantiv, bøyes etter kjønn og tall
-- Rask test: kan du erstatte ordet med "for a long time"? → **lenge**. Med "lengthy"? → **lang**
+- **lenge** → tid, bøyes ikke
+- **langt** → avstand (adverb)
+- **lang / langt / lange** → lengde ved et substantiv
 
 ---
 
 ## Vanlige uttrykk
 
-lenge siden · så lenge · ikke lenge · lenge til · en lang vei · et langt liv · lange dager · lenger · lengst
+lenge siden · så lenge · ikke lenge · lenge til · en lang vei · et langt liv · lange dager
 
 ---
 
 ## Relaterte ord
 
-lenger · lengst · kort · kortere · kortest · tid · varighet
+lenger · lengre · lengst · kort · kortere · tid · varighet
 
 ---
 

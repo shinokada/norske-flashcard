@@ -4,8 +4,8 @@ description: 'Kjenne ligger i bunnen av mange norske ord: erkjenne, anerkjenne, 
 slug: kjenne-ord
 cefr: C
 publishedAt: 2026-11-27
-updatedAt: 2026-09-12
-tags: [verbs, vocabulary, word-formation]
+updatedAt: 2026-11-27
+tags: [verbs, vocabulary]
 decks:
   - level: c
     category: character-temperament
@@ -15,94 +15,51 @@ decks:
     label: B2 Abstract Nouns
 ---
 
-> **Kort sagt:** Norsk har flere ord bygget på **kjenne** med prefikser som endrer betydningen presist: **erkjenne** (innrømme), **anerkjenne** (verdsette), **gjenkjenne** (kjenne igjen) og **vedkjenne seg** (innrømme at noe er ens eget).
+> **Kort sagt:** **Gjenkjenne** = kjenne igjen. **Erkjenne** = innrømme eller innse. **Anerkjenne** = verdsette eller godta. **Vedkjenne seg** = innrømme at noe er ens eget.
 
-## Kort forklaring
+## Betydninger
 
-Norsk har mange ord bygget på grunnverbet **kjenne**, særlig med prefikser og avledninger:
+| Ord               | Betydning                           | Eksempel                                 |
+| ----------------- | ----------------------------------- | ---------------------------------------- |
+| **kjenne**        | være kjent med, vite hvem/hva, føle | Jeg kjenner ham.                         |
+| **gjenkjenne**    | kjenne igjen, identifisere          | Jeg gjenkjente stemmen hennes.           |
+| **erkjenne**      | innrømme, innse                     | Han erkjente at han hadde gjort en feil. |
+| **anerkjenne**    | verdsette, godta, gi anerkjennelse  | Jeg anerkjenner innsatsen din.           |
+| **vedkjenne seg** | innrømme at noe er ens eget         | Han vedkjente seg ansvaret.              |
 
-- **kjenne** → grunnverbet: være kjent med, vite hvem/hva noe er, føle
-- **gjenkjenne** → kjenne igjen, identifisere
-- **erkjenne** → innrømme, godta, innse
-- **anerkjenne** → godta, verdsette, gi anerkjennelse
-- **vedkjenne seg** → innrømme at noe gjelder en selv
-
----
-
-## Eksempler
-
-**1. Jeg kjenner ham.**
-→ Grunnbetydningen — å ha et forhold til noen eller vite hvem/hva noe er.
-
-**2. Jeg gjenkjenner ham.**
-→ **Gjen-** legger til betydningen «på nytt» — jeg kjenner ham igjen når jeg ser ham.
-
-**3. Han erkjente at han hadde gjort en feil.**
-→ Han innrømmet eller godtok at noe var sant. Mer formelt enn **innrømme**.
-
-**4. Jeg anerkjenner innsatsen din.**
-→ Å verdsette eller gi noen anerkjennelse for noe.
-
-**5. Han vedkjente seg ansvaret.**
-→ Han innrømmet at ansvaret var hans eget.
+**Erkjenne** er mer formelt enn **innrømme**.
 
 ---
 
-## Nyanseforskjellen: erkjenne vs vedkjenne seg
+## Erkjenne vs vedkjenne seg
 
-Disse to blandes ofte sammen, men betyr ikke helt det samme:
+De to overlapper, men har ulikt fokus:
 
-- **erkjenne en feil** → innrømme eller godta at det finnes en feil
-- **vedkjenne seg en feil** → innrømme at feilen er ens egen
+- **erkjenne** → innrømme at noe er sant: **Hun erkjente problemet.**
+- **vedkjenne seg** → ta imot noe som ens eget (ansvar, fortid, mening): **Hun vil ikke vedkjenne seg feilen.**
 
-> Hun erkjente problemet.
-> → Hun innrømmet at problemet eksisterte.
-
-> Hun vil ikke vedkjenne seg feilen.
-> → Hun vil ikke innrømme at feilen er hennes.
+Når du snakker om egen feil eller eget ansvar, kan du bruke begge. **Vedkjenne seg** understreker at du tar det på deg.
 
 ---
 
 ## Kjenne vs vite
 
-Det er også nyttig å skille **kjenne** fra **vite**:
-
-- **kjenne** → å være kjent med, ha erfaring med, eller kunne gjenkjenne noe
-- **vite** → fakta og informasjon
-
-> Jeg kjenner Oslo.
-> → Jeg er kjent med Oslo.
-
-> Jeg vet hvor Oslo ligger.
-> → Jeg kjenner til denne faktiske opplysningen.
-
----
-
-## Sammenligningstabell
-
-| Ord               | Betydning                                  | Prefiks     |
-| ----------------- | ------------------------------------------ | ----------- |
-| **kjenne**        | være kjent med, vite hvem/hva noe er, føle | grunnverbet |
-| **gjenkjenne**    | kjenne igjen, identifisere                 | gjen-       |
-| **erkjenne**      | innrømme, godta, innse                     | er-         |
-| **anerkjenne**    | godta, verdsette                           | aner-       |
-| **vedkjenne seg** | innrømme at noe er ens eget                | ved-        |
-| **bekjent**       | en person man kjenner                      | beslektet   |
-| **ukjent**        | ikke kjent                                 | u-          |
+- **kjenne** → være kjent med personer og steder: **Jeg kjenner Oslo.**
+- **vite** → ha en opplysning: **Jeg vet hvor Oslo ligger.**
 
 ---
 
 ## Vanlige feil
 
-❌ Han erkjente ansvaret sitt.
-⭕ Han **vedkjente seg** ansvaret sitt.
-
-_Når ansvaret eller feilen tilhører personen selv, passer vedkjenne seg bedre enn erkjenne._
-
 ❌ Jeg gjenkjenner problemet — det finnes.
 ⭕ Jeg **erkjenner** problemet — det finnes.
 
-_Gjenkjenne handler om å identifisere noe kjent igjen, ikke om å innrømme noe._
+_**Gjenkjenne** handler om å kjenne noe igjen, ikke om å innrømme noe._
+
+❌ Læreren erkjente innsatsen min.
+⭕ Læreren **anerkjente** innsatsen min.
+
+_Å verdsette noe er **anerkjenne**. **Erkjenne** er å innrømme._
 
 ---
 
@@ -118,23 +75,21 @@ b) erkjente
 a) vedkjenne seg
 b) anerkjenne
 
-**Svar:** a) vedkjenne seg — å innrømme at noe er ens eget.
+**Svar:** a) vedkjenne seg — å ta noe på seg som sitt eget.
 
 **3. Velg riktig ord: «Jeg ______ stemmen hennes med en gang.»**
 a) gjenkjente
 b) anerkjente
 
-**Svar:** a) gjenkjente — å identifisere noe kjent fra før.
+**Svar:** a) gjenkjente — å kjenne igjen noe kjent fra før.
 
 ---
 
 ## Husk dette
 
-- **kjenne** → grunnbetydningen: være kjent med, vite, føle
-- **gjenkjenne** → identifisere noe kjent fra før
-- **erkjenne** → innrømme at noe generelt er sant
-- **anerkjenne** → verdsette eller gi anerkjennelse
-- **vedkjenne seg** → innrømme at noe er ens eget ansvar
+- Kjenner du det igjen? → **gjenkjenne**
+- Innrømmer du det? → **erkjenne** (**vedkjenne seg** hvis det er ditt eget)
+- Verdsetter du det? → **anerkjenne**
 
 ---
 

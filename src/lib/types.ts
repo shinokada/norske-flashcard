@@ -347,7 +347,8 @@ export interface GrammarQuestion {
   optionB?: string; // second candidate sentence
   explanation?: string; // shown on reveal: why the correct option is right
   // --- multiple-choice type ---
-  // Exactly 3 options (per ai-docs/implementation/c-grammar.md Phase 1.5). `answer`
+  // multiple-choice: 3 or 4 options (the UI labels them A–D); punctuation: exactly 3
+  // (per ai-docs/implementation/c-grammar.md Phase 1.5). `answer`
   // must equal one of these strings verbatim (grading matches on normalized text,
   // same as every other type) — there is no separate letter/index field.
   options?: string[];

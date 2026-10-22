@@ -1,10 +1,10 @@
 ---
 title: 'Vil vs Ønsker — to måter å uttrykke et ønske'
-description: 'Vil er det vanligste ordet for å si hva man har lyst til eller har tenkt å gjøre. Ønsker uttrykker det samme, men på en høfligere eller mer formell måte, og krever å foran infinitiv.'
+description: 'Vil er det vanlige og direkte. Ønsker er mer formelt og krever å foran infinitiv. I hverdagen bruker du vil gjerne når du vil være høflig.'
 slug: onsker-vs-vil
 cefr: A2
 publishedAt: 2026-12-16
-updatedAt: 2026-09-12
+updatedAt: 2026-12-16
 tags: [verbs, modal-verbs, vocabulary]
 decks:
   - level: a2
@@ -15,20 +15,13 @@ decks:
     label: B1 Politeness
 ---
 
-> **Kort sagt:** **Vil** er det vanligste og mest direkte ordet for å si hva du har lyst til eller har tenkt å gjøre. **Ønsker** uttrykker det samme, men høfligere eller mer formelt, og tar alltid **å** foran infinitiv.
-
-## Kort forklaring
-
-Både **vil** og **ønsker** brukes når man snakker om noe man har lyst til, men de skiller seg i register og grammatikk:
-
-- **vil** → det naturlige, direkte valget i dagligtale
-- **ønsker** → høfligere eller mer formelt, brukes ofte i skriftlig eller formell sammenheng
+> **Kort sagt:** **Vil** er det vanlige og direkte, og tar infinitiv uten **å**. **Ønsker** er mer formelt og tar **å**. I hverdagen er **vil gjerne** den vanlige høflige formen.
 
 ---
 
-## Vil — det direkte og vanlige valget
+## Vil — direkte og vanlig
 
-**Vil** brukes rett foran infinitiv, uten **å**, og er det mest naturlige valget i dagligtale.
+**Vil** står rett foran infinitiv, uten **å**.
 
 **1. Jeg vil spise.**
 
@@ -44,9 +37,9 @@ Både **vil** og **ønsker** brukes når man snakker om noe man har lyst til, me
 
 ---
 
-## Ønsker — høflig og formelt
+## Ønsker — formelt
 
-**Ønsker** uttrykker et ønske på en mer bevisst eller høflig måte. I motsetning til **vil** krever det **å** foran infinitiv.
+**Ønsker** brukes i mer formelle sammenhenger, for eksempel i skriftlig språk og i service. Det krever **å** foran infinitiv.
 
 **1. Jeg ønsker å lære norsk.**
 
@@ -54,36 +47,42 @@ Både **vil** og **ønsker** brukes når man snakker om noe man har lyst til, me
 
 **3. Jeg ønsker deg en god dag.**
 
-Legg merke til grammatikken:
-
 > Jeg vil lære norsk. ✅
 > Jeg ønsker å lære norsk. ✅
 > Jeg vil å lære norsk. ❌
 
-**Vil** tar altså infinitiv direkte, mens **ønsker** krever **å + infinitiv**.
+---
+
+## Vil gjerne — høflig i hverdagen
+
+Vil du være høflig, sier du vanligvis **vil gjerne**, ikke **ønsker**.
+
+**1. Jeg vil gjerne ha en kaffe.**
+→ Den vanlige måten å bestille på.
+
+**2. Vil du ha kaffe eller te?**
+→ Et vanlig, vennlig tilbud.
 
 ---
 
-## Vil kan også uttrykke mer enn et ønske
+## Ønske seg — si hva du håper å få
 
-**Vil** dekker et bredere felt enn **ønsker**. Avhengig av sammenhengen kan det uttrykke et ønske, en intensjon, eller noe man bestemmer seg for å gjøre.
+**Ønske seg** brukes om noe du håper å få, for eksempel til bursdag eller jul.
 
-> Jeg vil hjelpe deg.
-> → Kan bety at du har lyst til å hjelpe, eller at du bestemmer deg for å gjøre det.
+**1. Hva ønsker du deg til bursdagen?**
 
-> Jeg ønsker å hjelpe deg.
-> → Peker først og fremst mot selve ønsket om å hjelpe.
+**2. Jeg ønsker meg en sykkel.**
 
 ---
 
-## Sammenligningstabell
+## Sammenligning
 
-| Setning                        | Register        | Grammatikk             |
-| ------------------------------ | --------------- | ---------------------- |
-| **Jeg vil ha kaffe.**          | direkte, vanlig | vil + infinitiv        |
-| **Jeg ønsker kaffe.**          | litt mer høflig | ønsker + substantiv    |
-| **Jeg vil kjøpe en bil.**      | vanlig          | vil + infinitiv        |
-| **Jeg ønsker å kjøpe en bil.** | mer formelt     | ønsker + å + infinitiv |
+| Setning                       | Register            | Grammatikk               |
+| ----------------------------- | ------------------- | ------------------------ |
+| **Jeg vil lære norsk.**       | direkte, vanlig     | vil + infinitiv          |
+| **Jeg vil gjerne ha kaffe.**  | høflig, hverdagslig | vil gjerne + verb/objekt |
+| **Jeg ønsker å lære norsk.**  | formelt             | ønsker + å + infinitiv   |
+| **Jeg ønsker meg en sykkel.** | vanlig              | ønske seg + noe          |
 
 ---
 
@@ -115,26 +114,18 @@ b) ønsker å
 
 **Svar:** b) ønsker å — ønsker krever å foran infinitiv.
 
-**3. Velg riktig setning i en høflig, formell sammenheng:**
-a) Vil du ha kaffe eller te?
-b) Ønsker du kaffe eller te?
+**3. Du bestiller på en kafé. Hvilken setning er mest naturlig og høflig?**
+a) Jeg vil gjerne ha en kaffe.
+b) Jeg vil ha en kaffe.
+c) Jeg ønsker å ha en kaffe.
 
-**Svar:** b) Ønsker du kaffe eller te? — mer høflig og formelt enn vil i denne sammenhengen, men «Vil du ha kaffe eller te?» er også helt akseptabelt i dagligtale.
-
----
-
-## Husk dette
-
-- **vil** → direkte og vanlig, tar infinitiv uten å
-- **ønsker** → høfligere eller mer formelt, krever å foran infinitiv
-- **vil** kan også uttrykke intensjon, ikke bare et ønske
-- I dagligtale er **vil** som regel det naturlige valget
+**Svar:** a) — **vil gjerne** er den vanlige høflige formen. **Jeg vil ha** høres direkte ut, og **jeg ønsker å ha** høres stivt ut.
 
 ---
 
 ## Vanlige uttrykk
 
-jeg vil gjerne · jeg ønsker deg · vil helst · ønsker lykke til · ønsker velkommen
+jeg vil gjerne · vil helst · ønske seg noe · ønske noen lykke til · ønske velkommen
 
 ---
 
@@ -144,4 +135,4 @@ ha lyst til · gjerne · håpe · lengte etter · skal
 
 ---
 
-_→ Vil du lære de fire betydningene av det modale hjelpeverbet **skulle**? Les: [Skulle — skulle til å / skulle (fortid)](/blog/skulle)_
+_→ Vil du lære de ulike betydningene av **skulle**? Les: [Skulle — skulle til å / skulle (fortid)](/blog/skulle)_

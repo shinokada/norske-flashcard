@@ -4,8 +4,8 @@ description: '"Få noe på" betyr å klare å få noe på seg — ofte klær ell
 slug: fa-noe-pa
 cefr: A2
 publishedAt: 2026-10-09
-updatedAt: 2026-09-12
-tags: [verbs, vocabulary, phrasal-verbs]
+updatedAt: 2026-10-22
+tags: [verbs, expressions]
 decks:
   - level: a2
     category: clothing
@@ -15,16 +15,7 @@ decks:
     label: A2 Everyday Verbs
 ---
 
-> **Kort sagt:** **Få noe på** betyr å klare å få noe på seg — vanligvis et klesplagg eller et tilbehør. Det ligger en viss anstrengelse i uttrykket. Den negative formen **får det ikke på** («can't get it on») er særlig vanlig og naturlig i dagligtale.
-
-## Kort forklaring
-
-**Få noe på** brukes når du prøver å ta på deg noe — og enten lykkes eller ikke lykkes. Det handler ikke bare om å ta på seg noe, men om å _klare_ å gjøre det.
-
-Sammenlignet med **ta på seg**, som er nøytralt og hverdagslig, antyder **få på** at det krever litt innsats:
-
-- **ta på seg jakken** → put the jacket on _(neutral, no difficulty implied)_
-- **få jakken på** → manage to get the jacket on _(effort or difficulty implied)_
+> **Kort sagt:** **Få noe på** betyr å klare å få noe på seg, vanligvis et klesplagg eller et tilbehør. Det ligger en viss anstrengelse i uttrykket. Den negative formen **får det ikke på** («can't get it on») er svært vanlig i dagligtale.
 
 ---
 
@@ -32,40 +23,24 @@ Sammenlignet med **ta på seg**, som er nøytralt og hverdagslig, antyder **få 
 
 > **få + objekt + på**
 
-Objektet (klesplagget eller tingen) plasseres mellom **få** og **på**:
+Objektet plasseres mellom **få** og **på**:
 
 - få **jakken** på
 - få **skoene** på
-- få **ringen** på
-- få **den** på _(pronomenet erstatter objektet)_
+- få **den** på _(pronomen)_
 
 ---
 
-## Eksempler — positiv form
+## Eksempler
 
 **1. Jeg får jakken på.**
-→ Den passer — kanskje med litt anstrengelse.
+→ Den passer, kanskje med litt anstrengelse.
 
 **2. Jeg fikk endelig skoene på.**
 → **Endelig** gir en følelse av lettelse etter litt strev.
 
-**3. Hun fikk ringen på etter litt strev.**
-→ Anstrengelsen er gjort eksplisitt her, men **få på** antyder den allerede.
-
----
-
-## Eksempler — negativ form
-
-Den negative formen er enda vanligere — og veldig naturlig i dagligtale:
-
-**1. Jeg får den ikke på.**
-→ Den vanligste bruken — uansett hva «den» er, vil det ikke gå på.
-
-**2. Jeg får ikke jakken på.**
-→ For liten, for stiv, eller motvillig av en annen grunn.
-
-**3. Jeg fikk ikke skoene på.**
-→ Fortid — forsøket mislyktes.
+**3. Jeg får den ikke på.**
+→ Forsøket mislykkes — uansett hva «den» er.
 
 **4. Ringen sitter fast — jeg får den ikke på.**
 → En typisk og naturlig situasjon.
@@ -74,15 +49,14 @@ Den negative formen er enda vanligere — og veldig naturlig i dagligtale:
 
 ## Ordstilling — objekt og «ikke»
 
-Legg merke til at **ikke** og **på** kan plasseres på to måter:
+Plasseringen av **ikke** avhenger av om objektet er et substantiv eller et pronomen:
 
-| Setning                         | Kommentar                                   |
-| ------------------------------- | ------------------------------------------- |
-| Jeg får **jakken** ikke **på**. | Standard — «ikke» mellom objekt og partikel |
-| Jeg får **ikke jakken på**.     | Også riktig — «ikke» foran hele uttrykket   |
-| Jeg får **den** ikke **på**.    | Med pronomen — den vanligste formen i tale  |
+| Objekt     | Plassering av «ikke»      | Eksempel                    |
+| ---------- | ------------------------- | --------------------------- |
+| substantiv | **ikke** før objektet     | Jeg får **ikke jakken** på. |
+| pronomen   | **ikke** etter pronomenet | Jeg får **den ikke** på.    |
 
-I praksis er **«Jeg får den ikke på»** den mest naturlige formen i dagligtale.
+«Jeg får jakken ikke på» er mulig, men høres uvanlig ut. I dagligtale er **«Jeg får den ikke på»** den mest naturlige formen.
 
 ---
 
@@ -94,43 +68,26 @@ I praksis er **«Jeg får den ikke på»** den mest naturlige formen i dagligtal
 | **få jakken på**     | manage to get the jacket on | innsats eller vanskelighet    |
 | **få den ikke på**   | can't get it on             | mislykket forsøk              |
 
-**Eksempel:**
-
 > Jeg **tok på meg** jakken og gikk.
-> _I put on the jacket and left._ → ingen vanskelighet, bare en vanlig handling.
+> _I put on the jacket and left._ → en vanlig handling, ingen vanskelighet.
 
 > Jakken var for liten — jeg **fikk den ikke på**.
 > _The jacket was too small — I couldn't get it on._ → anstrengelse antydet.
 
 ---
 
-## Lignende uttrykk med få
+## Samme mønster med andre partikler
 
-**Få på** er ett av mange uttrykk der **få** kombineres med en partikel:
-
-| Uttrykk       | Betydning              | Eksempel                    |
-| ------------- | ---------------------- | --------------------------- |
-| **få på**     | manage to put on       | Jeg får ikke skoene på.     |
-| **få av**     | manage to take off     | Jeg får ikke støvlene av.   |
-| **få til**    | manage / succeed in    | Jeg får det ikke til.       |
-| **få tak i**  | reach / get hold of    | Jeg får ikke tak i henne.   |
-| **få i gang** | get started / activate | Jeg fikk ikke bilen i gang. |
-
-→ Les mer: [Få + partikel](/blog/fa)
+**Få** kombineres med mange partikler: **få av** (_Jeg får ikke støvlene av_), **få til** (_Jeg får det ikke til_), **få tak i** (_Jeg får ikke tak i henne_), **få i gang** (_Jeg fikk ikke bilen i gang_).
 
 ---
 
-## Vanlige feil
+## Vanlig feil
 
-❌ Jeg kan ikke få den på meg.
-⭕ Jeg **får den ikke på**. / Jeg **klarer ikke å få den på**.
+Mindre idiomatisk: Jeg kan ikke få den på meg.
+Mer naturlig: Jeg **får den ikke på**. / Jeg **klarer ikke å få den på**.
 
-_«Får den ikke på» er den naturlige norske formen — ikke «kan ikke få den på meg»._
-
-❌ Jeg får på den ikke.
-⭕ Jeg får **den** ikke **på**.
-
-_Pronomenet kommer rett etter **får**, og **på** til slutt._
+_Den første setningen er grammatisk, men «får den ikke på» er den vanlige norske formen._
 
 ---
 
@@ -138,15 +95,15 @@ _Pronomenet kommer rett etter **får**, og **på** til slutt._
 
 **1. Velg riktig setning: «Jakken var for liten — jeg \______.»**
 a) fikk den ikke på
-b) tok den ikke på
+b) tok den ikke på meg
 
-**Svar:** a) fikk den ikke på — uttrykker at forsøket mislyktes.
+**Svar:** a) fikk den ikke på — forsøket mislyktes. **Tok den ikke på meg** betyr at du valgte å ikke ta den på.
 
-**2. Velg riktig setning: «Jeg ______ jakken og gikk.» (ingen vanskelighet)**
-a) fikk på
-b) tok på meg
+**2. Velg riktig setning: «Jeg ______ og gikk.» (ingen vanskelighet)**
+a) fikk jakken på
+b) tok på meg jakken
 
-**Svar:** b) tok på meg — nøytral handling uten anstrengelse.
+**Svar:** b) tok på meg jakken — nøytral handling uten anstrengelse.
 
 **3. Hvor plasseres pronomenet i «jeg får den ikke på»?**
 a) Mellom **får** og **ikke**
@@ -156,25 +113,10 @@ b) Etter **ikke**
 
 ---
 
-## Husk dette
-
-- **få noe på** = å klare å få noe på seg (krever innsats)
-- **ta på seg** = å ta på seg noe (nøytralt, ingen vanskelighet)
-- **får den ikke på** = can't get it on _(vanligste bruk i dagligtale)_
-- Objektet (eller pronomenet) plasseres mellom **får** og **på**
-
----
-
-## Vanlige uttrykk
-
-jeg får den ikke på · jeg fikk den på · jeg får ikke skoene på · jeg fikk endelig jakken på · får du den av?
-
----
-
 ## Relaterte ord
 
 ta på seg · ta av seg · kle på seg · kle av seg · sitte fast · for liten · for trang
 
 ---
 
-_→ Vil du lære mer om **få** med andre partikler? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa)_
+_→ Vil du lære mer om **få** med andre partikler? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa-tak-i)_

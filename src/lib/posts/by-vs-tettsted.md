@@ -1,64 +1,50 @@
 ---
 title: 'By vs Tettsted — hva er egentlig forskjellen?'
-description: 'Tettsted er et statistisk begrep SSB bruker for tett bebyggelse, uavhengig av størrelse. By er i dag en status kommunestyret selv kan vedta, uten et fast innbyggerkrav. De to begrepene overlapper, men måles helt forskjellig.'
+description: 'Tettsted er SSBs statistiske begrep for tett bebyggelse, uavhengig av størrelse. By er en betegnelse kommunene selv kan vedta. De to overlapper, men er ikke det samme.'
 slug: by-vs-tettsted
 cefr: A2
 publishedAt: 2027-02-19
-updatedAt: 2026-09-13
-tags: [nouns, vocabulary, culture]
+updatedAt: 2027-02-19
+tags: [nouns, vocabulary]
 ---
 
-> **Kort sagt:** **Tettsted** er en statistisk avgrensning som SSB bruker for å måle tett bebyggelse, uansett hvor stort eller lite stedet er. **By** har ingen fast, offisiell definisjon lenger — det er en status kommunestyret selv kan velge å vedta.
-
-## Kort forklaring
-
-- **tettsted** → statistisk/geografisk begrep, brukt av SSB til å telle befolkning
-- **by** → hverdagslig og historisk begrep, i dag en status kommunen selv bestemmer
-
----
+> **Kort sagt:** **Tettsted** er en statistisk avgrensning fra SSB: minst 200 bosatte og tett bebyggelse. **By** er ikke en statistisk enhet, men en status kommunene selv kan vedta for et tettsted.
 
 ## Tettsted — en statistisk avgrensning
 
-**Tettsted** er ikke et begrep om hvor «bymessig» eller kjent et sted er. Det er en presis, statistisk avgrensning som SSB regner ut hvert år.
-
-Et sted registreres som tettsted når:
+**Tettsted** sier noe om hvordan bebyggelsen ligger, ikke om hvor «bymessig» eller kjent stedet er. SSB registrerer en hussamling som tettsted når:
 
 - det bor minst **200 personer** der
-- avstanden mellom husene normalt ikke overstiger **50 meter** (opptil 200 meter for arealkrevende bygg som boligblokker, kontorbygg og sykehus)
-- tilstøtende parker og industriområder regnes med i avgrensningen
+- avstanden mellom husene normalt ikke er over **50 meter** (opptil **200 meter** for arealkrevende bygg som boligblokker, industribygg, kontorbygg, skoler og sykehus)
 
-Fordi kravet bare handler om tetthet og folketall, kan et tettsted være både svært lite og svært stort. Norge har i underkant av 1000 tettsteder (997 ifølge SSB i 2024) — fra noen få hundre innbyggere til **Oslo**, som alene teller over en million.
+Tilgrensende parker, idrettsanlegg og industriområder regnes med.
 
-**Eksempel:**
+Det finnes ingen øvre grense. Norge har 997 tettsteder (2024), fra små steder med noen hundre innbyggere til **Oslo** med over en million.
 
 **Jeg bor i et lite tettsted utenfor Oslo.**
-→ Sier noe om hvordan bebyggelsen er organisert, ikke om stedets status eller størrelse.
+→ Sier noe om bebyggelsen, ikke om stedets status.
 
 ---
 
-## By — en status, ikke en fast definisjon
+## By — en status
 
-**By** har i dag ingen juridisk eller statistisk definisjon i Norge. Fram til 1990-tallet var bystatus noe staten tildelte enkelte kommuner, med egne rettigheter og plikter. I dag kan kommunestyret selv vedta at et sted skal kalles **by** — vanligvis forutsatt at stedet har et sentrum med handel og tjenester og relativt tett bebyggelse.
-
-**Eksempel:**
+Før 1992 ga staten formell bystatus til enkelte kommuner. Nå kan kommunene selv vedta bystatus for et tettsted. Statusen har ingen juridiske konsekvenser, og brukes mest til profilering.
 
 **Oslo er Norges største by.**
-→ Her brukes **by** i vanlig, dagligdags forstand.
+→ **By** i vanlig, dagligdags bruk.
+
+Ett stort tettsted kan inneholde flere steder med bystatus. **Sandvika** har bystatus, men ligger i tettstedet Oslo.
 
 ---
 
-## Hvorfor statistikken bare snakker om tettsteder
+## Hvorfor SSB bare oppgir tall for tettsteder
 
-Siden **by** ikke har noen fast geografisk avgrensning, kan SSB ikke oppgi innbyggertall for byer. Befolkningstall gis derfor bare for **tettsteder** og **kommuner**. I dagligtale brukes likevel **tettsted** og **by** ofte om hverandre når stedet er stort nok til å oppleves som bymessig.
+Siden **by** ikke har noen fast geografisk avgrensning, oppgir SSB befolkningstall for **tettsteder** og **kommuner**, ikke for byer. I dagligtale brukes **by** og **tettsted** likevel ofte om hverandre.
 
----
-
-## Sammenligningstabell
-
-| Begrep       | Type                  | Hvem avgjør                | Krav                                  | Brukes i statistikk |
-| ------------ | --------------------- | -------------------------- | ------------------------------------- | ------------------- |
-| **tettsted** | statistisk/geografisk | SSB, etter faste kriterier | minst 200 innbyggere, tett bebyggelse | ja                  |
-| **by**       | uformell status       | kommunestyret              | intet fast innbyggerkrav i dag        | nei                 |
+| Begrep       | Hvem avgjør                | Brukes i SSBs statistikk |
+| ------------ | -------------------------- | ------------------------ |
+| **tettsted** | SSB, etter faste kriterier | ja                       |
+| **by**       | kommunen selv              | nei                      |
 
 ---
 
@@ -67,12 +53,12 @@ Siden **by** ikke har noen fast geografisk avgrensning, kan SSB ikke oppgi innby
 ❌ Ifølge SSB bor det 50 000 mennesker i byen.
 ⭕ Ifølge SSB bor det 50 000 mennesker i **tettstedet**.
 
-_SSB oppgir befolkningstall for tettsteder, ikke for byer — by er ikke en statistisk enhet._
+_SSB oppgir tall for tettsteder, ikke for byer._
 
 ❌ Et tettsted er alltid et lite sted.
-⭕ Et tettsted kan være både lite og stort — selv **Oslo** er formelt et tettsted.
+⭕ Et tettsted kan være både lite og stort. Selv **Oslo** er et tettsted.
 
-_Tettsted handler om bebyggelsens tetthet, ikke om stedets faktiske størrelse._
+_Tettsted handler om tetthet, ikke størrelse._
 
 ---
 
@@ -82,28 +68,26 @@ _Tettsted handler om bebyggelsens tetthet, ikke om stedets faktiske størrelse._
 a) byer
 b) tettsteder
 
-**Svar:** b) tettsteder — SSB oppgir befolkningstall for tettsteder, ikke byer.
+**Svar:** b) tettsteder — SSB teller tettsteder, ikke byer.
 
-**2. Hva avgjør om et sted får kalle seg by i dag?**
-a) SSBs statistiske kriterier
-b) et vedtak i kommunestyret
+**2. Hvem avgjør i dag om et sted kalles by?**
+a) SSB
+b) kommunen selv
 
-**Svar:** b) et vedtak i kommunestyret.
+**Svar:** b) kommunen selv.
 
 **3. Velg riktig setning:**
 a) Et tettsted må alltid ha færre enn 5000 innbyggere.
 b) Et tettsted kan ha både noen hundre og over en million innbyggere.
 
-**Svar:** b) — tettstedbegrepet handler om tetthet, ikke et fast innbyggertak.
+**Svar:** b) — det finnes ingen øvre grense.
 
 ---
 
 ## Husk dette
 
-- **tettsted** → statistisk begrep, minst 200 innbyggere og tett bebyggelse
-- **by** → uformell status, vedtas i dag av kommunestyret selv
-- SSB oppgir befolkningstall for tettsteder og kommuner, ikke for byer
-- Et tettsted kan være både lite og svært stort — også hovedstaden er formelt et tettsted
+- **tettsted** = statistikk (SSB), **by** = status (kommunen)
+- Et tettsted kan være lite eller stort, og Oslo er begge deler: by og tettsted
 
 ---
 
