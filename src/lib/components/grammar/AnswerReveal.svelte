@@ -29,7 +29,7 @@
   let ruleTitle = $derived(rule ? rule.titleNb : '');
   let ruleText = $derived(rule ? rule.explanationNb : '');
 
-  const LETTERS = ['A', 'B', 'C'];
+  const LETTERS = ['A', 'B', 'C', 'D'];
   const BLANK = /_{2,}/;
   const same = (a: string, b: string) => a.trim() === b.trim();
 
@@ -109,6 +109,9 @@
     <p class="mb-1 text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-400">
       Spørsmålet
     </p>
+    {#if question.type === 'multiple-choice' && question.sentence}
+      <p class="mb-1 text-base font-medium text-gray-900 dark:text-white">{question.sentence}</p>
+    {/if}
     {#if question.prompt}
       <p class="text-sm text-gray-700 dark:text-gray-300">{question.prompt}</p>
     {/if}

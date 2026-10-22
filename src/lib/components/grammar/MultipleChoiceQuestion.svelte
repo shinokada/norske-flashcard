@@ -5,7 +5,7 @@
   let { question, onsubmit }: { question: GrammarQuestion; onsubmit: (answer: string) => void } =
     $props();
 
-  const LETTERS = ['A', 'B', 'C'];
+  const LETTERS = ['A', 'B', 'C', 'D'];
 
   // "A eller B" / "A, B eller C"
   let keyHint = $derived.by(() => {
@@ -30,7 +30,7 @@
     id="mc-{question.id}-instr"
     class="text-xs font-semibold tracking-wide text-gray-600 uppercase dark:text-gray-300"
   >
-    Hvilken omskriving betyr det samme?
+    Velg riktig svar
   </p>
   {#if keyHint}
     <p class="mt-1 hidden text-xs text-gray-500 dark:text-gray-400 [@media(hover:hover)]:block">
@@ -38,6 +38,12 @@
     </p>
   {/if}
 </div>
+
+{#if question.sentence}
+  <p id="mc-{question.id}-sentence" class="mb-2 text-lg font-medium text-gray-900 dark:text-white">
+    {question.sentence}
+  </p>
+{/if}
 
 {#if question.prompt}
   <p id="mc-{question.id}-prompt" class="mb-4 text-lg font-medium text-gray-900 dark:text-white">
@@ -47,7 +53,7 @@
 
 <div
   role="group"
-  aria-labelledby="mc-{question.id}-instr mc-{question.id}-prompt"
+  aria-labelledby="mc-{question.id}-instr mc-{question.id}-sentence mc-{question.id}-prompt"
   class="flex flex-col gap-3"
 >
   {#each question.options ?? [] as option, i (option)}
