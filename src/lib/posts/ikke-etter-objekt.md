@@ -1,10 +1,10 @@
 ---
-title: 'Ikke etter objekt — hvor «ikke» plasseres på norsk'
-description: 'I norske hovedsetninger kommer «ikke» etter objektet, ikke rett etter verbet. I leddsetninger plasseres det foran verbet – et mønster som er viktig for naturlig ordstilling.'
+title: 'Ikke etter pronomenobjekt — hvor «ikke» plasseres på norsk'
+description: 'I norske hovedsetninger kommer «ikke» etter et kort pronomenobjekt (Jeg liker deg ikke), men foran et substantivobjekt (Jeg liker ikke filmen). I leddsetninger plasseres det foran verbet.'
 slug: ikke-etter-objekt
 cefr: B1
 publishedAt: 2026-10-16
-updatedAt: 2026-09-12
+updatedAt: 2026-10-22
 tags: [grammar, word-order, sentence-structure]
 decks:
   - level: b1
@@ -15,15 +15,14 @@ decks:
     label: A2 Grammar
 ---
 
-> **Kort sagt:** I norske helsetninger kommer **ikke** etter verbet — men hvis setningen har et objekt, kommer **ikke** _etter_ objektet, ikke umiddelbart etter verbet. I leddsetninger flyttes **ikke** helt foran verbet.
+> **Kort sagt:** I norske helsetninger kommer **ikke** etter verbet. Er objektet et kort, trykksvakt **pronomen** (meg, deg, ham, henne, oss, dem), kommer **ikke** etter pronomenet: _Jeg liker deg ikke._ Er objektet et **substantiv**, kommer **ikke** foran det: _Jeg liker ikke filmen._ I leddsetninger flyttes **ikke** foran verbet.
 
 ## Kort forklaring
 
-Norske elever lærer tidlig at **ikke** kommer etter verbet i helsetninger. Det stemmer — men det er ikke hele bildet.
+Norske elever lærer tidlig at **ikke** kommer etter verbet i helsetninger. Det stemmer — men plasseringen avhenger av hva slags objekt setningen har:
 
-Når setningen har et **objekt**, kommer **ikke** etter objektet, ikke mellom verbet og objektet:
-
-> **Subjekt + verb + objekt + ikke**
+> Pronomenobjekt: **Subjekt + verb + pronomen + ikke**
+> Substantivobjekt: **Subjekt + verb + ikke + objekt**
 
 ---
 
@@ -31,19 +30,13 @@ Når setningen har et **objekt**, kommer **ikke** etter objektet, ikke mellom ve
 
 ### Uten objekt
 
-> Subjekt + verb + **ikke**
-
 > Han **sviktet ikke**.
 > _He didn't betray anyone._
 
 > Hun **kom ikke**.
 > _She didn't come._
 
----
-
-### Med objekt
-
-> Subjekt + verb + objekt + **ikke**
+### Med pronomenobjekt — ikke kommer etter pronomenet
 
 > Han sviktet **meg** **ikke**.
 > _He didn't betray me._
@@ -51,38 +44,38 @@ Når setningen har et **objekt**, kommer **ikke** etter objektet, ikke mellom ve
 > Jeg liker **deg** **ikke**.
 > _I don't like you._
 
-> Hun forstår **meg** **ikke**.
-> _She doesn't understand me._
+> Hun hørte **meg** **ikke**.
+> _She didn't hear me._
 
 > Vi kjenner **ham** **ikke**.
 > _We don't know him._
 
-Objektet skyver **ikke** lenger bak i setningen — men **ikke** er fortsatt etter verbet, bare ikke umiddelbart etter det.
+Pronomenet flyttes foran **ikke** (i grammatikkene kalles dette _object shift_). **Ikke** er fortsatt etter verbet, bare ikke umiddelbart etter det.
 
-Denne rekkefølgen (verb + pronomen + ikke) gjelder når pronomenet er tryksvakt/nøytralt. Hvis pronomenet i stedet er kontrastivt betont — «ikke MEG, men noen andre» — kan **ikke** også komme rett etter verbet: **Han sviktet ikke meg** (men broren min).
+### Med substantivobjekt — ikke kommer foran objektet
+
+> Jeg liker **ikke** filmen.
+> _I don't like the film._
+
+> Hun kjøpte **ikke** boka.
+> _She didn't buy the book._
+
+Et substantiv flyttes ikke: _Jeg liker filmen ikke_ høres unaturlig ut.
 
 ---
 
-## Hvorfor ser det rart ut?
+## Bare når verbet står i andreplass
 
-I setningen **«Han sviktet meg ikke»** kan det se ut som **ikke** er langt fra verbet. Men strukturen er logisk:
+Pronomenet flyttes bare når hovedverbet står i andreplass (V2). Med hjelpeverb står **ikke** foran pronomenet, i standard norsk:
 
-| Subjekt | Verb    | Objekt | Ikke |
-| ------- | ------- | ------ | ---- |
-| Han     | sviktet | meg    | ikke |
-| Jeg     | liker   | deg    | ikke |
-| Hun     | forstår | meg    | ikke |
-| Vi      | kjenner | ham    | ikke |
-
-**Ikke** er alltid til slutt i denne kjeden — etter objektet.
+❌ Jeg har deg ikke sett.
+⭕ Jeg har **ikke** sett deg.
 
 ---
 
 ## Helsetning vs leddsetning
 
-Her er den viktigste forskjellen i norsk ordstilling:
-
-**Helsetning** → **ikke** etter objekt:
+**Helsetning** → **ikke** etter pronomenobjektet:
 
 > Han sviktet meg **ikke**.
 > Jeg liker deg **ikke**.
@@ -98,61 +91,35 @@ Samme setningsinnhold, helt annen plassering av **ikke** — avhengig av om du e
 
 ---
 
-## Flere eksempler — helsetning
+## Når pronomenet er betont
 
-**Med pronomenobjekt:**
+Hvis pronomenet er kontrastivt betont — «ikke MEG, men noen andre» — kommer **ikke** foran pronomenet:
 
-> Jeg **kjenner ham ikke**.
-> _I don't know him._
+> Han sviktet **ikke** MEG (men broren min).
+> Jeg liker **ikke** DEG (men han).
 
-> Hun **hørte meg ikke**.
-> _She didn't hear me._
-
-> De **spurte oss ikke**.
-> _They didn't ask us._
-
-**Med substantivobjekt:**
-
-> Jeg **liker filmen ikke**. _(mulig, men uvanlig)_
-> ⭕ Jeg **liker ikke filmen**. _(mer naturlig med lengre objekt)_
-
-→ Med lengre eller mer komplekse objekter plasserer mange nordmenn **ikke** foran objektet. Med korte pronomenobjekter er **ikke** etter objektet det mest naturlige.
-
----
-
-## Tommelfingerregel: pronomen vs substantiv
-
-| Objektstype      | Vanligste plassering         | Eksempel                       |
-| ---------------- | ---------------------------- | ------------------------------ |
-| Kort pronomen    | verb + pronomen + **ikke**   | Jeg liker **deg ikke**.        |
-| Langt substantiv | verb + **ikke** + substantiv | Jeg liker **ikke** den filmen. |
-
-Begge er grammatisk korrekte — men de korte pronomenene trekker **ikke** mot slutten av setningen, mens lengre objekter gjerne presser **ikke** fremover.
+Uten spesiell vekt er rekkefølgen **verb + pronomen + ikke**.
 
 ---
 
 ## Sammenligningstabell
 
-| Setningstype             | Mønster              | Eksempel                          |
-| ------------------------ | -------------------- | --------------------------------- |
-| Helsetning (uten objekt) | S + V + **ikke**     | Han kom **ikke**.                 |
-| Helsetning (med objekt)  | S + V + O + **ikke** | Han sviktet meg **ikke**.         |
-| Leddsetning              | S + **ikke** + V     | … fordi han **ikke** kom.         |
-| Leddsetning (med objekt) | S + **ikke** + V + O | … fordi han **ikke** sviktet meg. |
+| Setningstype                  | Mønster                       | Eksempel                          |
+| ----------------------------- | ----------------------------- | --------------------------------- |
+| Helsetning (uten objekt)      | S + V + **ikke**              | Han kom **ikke**.                 |
+| Helsetning (pronomenobjekt)   | S + V + pronomen + **ikke**   | Han sviktet meg **ikke**.         |
+| Helsetning (substantivobjekt) | S + V + **ikke** + objekt     | Jeg liker **ikke** filmen.        |
+| Helsetning (hjelpeverb)       | S + hjelpeverb + **ikke** + V | Jeg har **ikke** sett deg.        |
+| Leddsetning                   | S + **ikke** + V (+ objekt)   | … fordi han **ikke** sviktet meg. |
 
 ---
 
 ## Vanlige feil
 
-➖ Han sviktet ikke meg. _(riktig kun med kontrastivt trykk på **meg** — «ikke MEG, men noen andre»)_
-✅ Han sviktet **meg** ikke. _(nøytral, vanligste form)_
+❌ Jeg liker filmen ikke.
+⭕ Jeg liker **ikke** filmen.
 
-_Med et nøytralt/trykksvakt pronomenobjekt er rekkefølgen verb + pronomen + ikke. Rekkefølgen verb + ikke + pronomen er også mulig, men da tolkes pronomenet som kontrastivt betont._
-
-➖ Jeg liker ikke deg. _(riktig kun med kontrastivt trykk på **deg**)_
-✅ Jeg liker **deg** ikke. _(nøytral, mest naturlig med pronomen)_
-
-_Igjen: pronomen kommer før **ikke**._
+_Substantivobjekter flyttes ikke foran **ikke**. Det gjelder bare korte pronomen._
 
 ❌ fordi han sviktet meg ikke
 ⭕ fordi han **ikke** sviktet meg
@@ -161,34 +128,11 @@ _I leddsetninger kommer **ikke** alltid foran det finitte verbet._
 
 ---
 
-## Norskprøven — eksempelspørsmål
-
-**1. Velg riktig, nøytral setning (uten spesiell vekt på noen av ordene):**
-a) Han sviktet ikke meg.
-b) Han sviktet meg ikke.
-
-**Svar:** b) — nøytral rekkefølge med pronomenobjekt er verb + pronomen + **ikke**. (a) er også mulig, men da med trykk på **meg** — «not me [specifically]».
-
-**2. Velg riktig setning i en leddsetning:**
-a) … fordi han sviktet meg ikke
-b) … fordi han ikke sviktet meg
-
-**Svar:** b) — i leddsetninger kommer **ikke** før verbet.
-
-**3. Hvilken objektstype trekker **ikke** lengst mot slutten av setningen?**
-a) Korte pronomen
-b) Lange substantiv
-
-**Svar:** a) Korte pronomen.
-
----
-
 ## Husk dette
 
-- Helsetning: **verb + objekt + ikke** _(spesielt med pronomenobjekter)_
-- Leddsetning: **ikke + verb** _(alltid)_
-- Med lange substantivobjekter er **ikke** + objekt også naturlig i helsetninger
-- Korte pronomen (**meg**, **deg**, **ham**, **henne**, **oss**, **dem**) trekker **ikke** mot slutten
+- Pronomenobjekt i helsetning: **verb + pronomen + ikke** — _Jeg liker deg ikke._
+- Substantivobjekt i helsetning: **verb + ikke + objekt** — _Jeg liker ikke filmen._
+- Leddsetning: **ikke + verb** — alltid
 
 ---
 
