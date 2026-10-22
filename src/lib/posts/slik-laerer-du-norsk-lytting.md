@@ -95,7 +95,7 @@ Spoken Norwegian often reduces and merges words, so what you hear can differ fro
 
 _→ Looking for more study tips? Read: [Slik bruker du Norskeord best](/blog/slik-bruker-du-norskeord)_
 
-_→ Skal du opp til muntlig norskprøve? Les: [Å beskrive nordmenn på norskprøven](/blog/om-nordmenn-i-muntlig)_
+<!-- TODO: re-add link to [Å beskrive nordmenn på norskprøven](/blog/om-nordmenn-i-muntlig) once that post publishes (currently scheduled 2027-01-01) -->
 
 <!-- TODO: verify before adding back (removed because I could not confirm them):
 Podcasts: Norske tilstander (NRK Radio), Misjonen, Forklart (Aftenposten), Hele Historien (NRK Radio)

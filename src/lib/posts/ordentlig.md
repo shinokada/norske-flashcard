@@ -34,7 +34,7 @@ Her står **ordentlig** foran et substantiv og beskriver kvalitet eller pålitel
 
 ## Ordentlig som adverb — properly / thoroughly / really
 
-Her sier **ordentlig** noe om et verb eller forsterker et adjektiv.
+Her sier **ordentlig** noe om et verb eller forsterker et adjektiv eller et annet adverb.
 
 **1. Gjør leksene ordentlig!**
 → Riktig og grundig, ikke sjusket.
@@ -46,7 +46,7 @@ Her sier **ordentlig** noe om et verb eller forsterker et adjektiv.
 → Full hvile, ikke bare litt.
 
 **4. Jeg sov ordentlig godt i natt.**
-→ Her forsterker det adjektivet **godt**: «really well».
+→ **Godt** er her et adverb som sier hvordan du sov, og **ordentlig** forsterker det: «really well».
 
 ---
 
@@ -70,10 +70,10 @@ I dagligtale kan de ofte byttes ut: _Jeg er ordentlig trøtt_ = _Jeg er skikkeli
 
 ## Vanlige feil
 
-❌ Dette er en ordentlig dag. (ment som «an ordinary day»)
-⭕ Dette er en **vanlig** dag.
+Mindre naturlig: Dette er en ordentlig dag. (ment som «an ordinary day»)
+Mer naturlig: Dette er en **vanlig** dag.
 
-_**Ordentlig** betyr ikke «ordinary». Det betyr «proper»._
+_**Vanlig** er det naturlige ordet her. **Ordentlig** kan i noen sammenhenger bety «ordinær», men de fleste vil lese **en ordentlig dag** som «a proper day»._
 
 ---
 

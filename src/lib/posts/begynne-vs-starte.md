@@ -52,11 +52,11 @@ Begge verbene brukes, men med objekt er **starte** vanligst:
 
 | Bruk                             | begynne | starte |
 | -------------------------------- | :-----: | :----: |
-| Aktivitet tar til (**å** + inf.) |    ✅    |        |
-| Studier og jobb                  |    ✅    |        |
-| Møte, film, kurs                 |    ✅    |   ✅    |
-| Bil, motor, datamaskin           |         |   ✅    |
-| Opprette firma eller prosjekt    |         |   ✅    |
+| Aktivitet tar til (**å** + inf.) |   ✅    |        |
+| Studier og jobb                  |   ✅    |        |
+| Møte, film, kurs                 |   ✅    |   ✅   |
+| Bil, motor, datamaskin           |         |   ✅   |
+| Opprette firma eller prosjekt    |         |   ✅   |
 
 ---
 
@@ -125,4 +125,4 @@ sette i gang · opprette · igangsette · avslutte · fullføre
 
 _→ Vil du lære om å være midt i en handling? Les: [Holde på å](/blog/holde-pa-a)_
 
-_→ Vil du lære når du trenger «til» foran å-infinitiv, som i «ha tid til å»? Les: [Til å + infinitiv](/blog/til-a-infinitiv)_
+<!-- TODO: re-add link to [Til å + infinitiv](/blog/til-a-infinitiv) once that post publishes (currently scheduled 2027-02-10) -->

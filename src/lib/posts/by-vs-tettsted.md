@@ -64,7 +64,7 @@ _Tettsted handler om tetthet, ikke størrelse._
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Ifølge SSB har landet nesten 1000 ______.»**
+**1. Velg riktig ord: «Ifølge SSB har landet nesten 1000 \______.»**
 a) byer
 b) tettsteder
 

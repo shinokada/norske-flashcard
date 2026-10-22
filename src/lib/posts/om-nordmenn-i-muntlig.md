@@ -121,4 +121,4 @@ friluftsliv · dugnad · likhet · reservert · uformell
 
 ---
 
-_→ Vil du lære flere tips til å bli bedre i norsk, inkludert til norskprøven? Les: [Slik blir du bedre til å lytte på norsk](/blog/how-to-improve-listening)_
+_→ Vil du lære flere tips til å bli bedre i norsk, inkludert til norskprøven? Les: [Slik blir du bedre til å lytte på norsk](/blog/slik-laerer-du-norsk-lytting)_

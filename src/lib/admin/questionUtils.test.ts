@@ -224,12 +224,23 @@ describe('validateQuestion — minimal-pair type', () => {
 });
 
 describe('validateQuestion — multiple-choice type', () => {
-  it('passes with exactly 3 options where answer matches one of them', () => {
+  it('passes with 3 options where answer matches one of them', () => {
     const errors = validateQuestion(
       makeQuestion({
         type: 'multiple-choice',
         options: ['Hun nøler.', 'Hun frøs.', 'Hun gledet seg.'],
         answer: 'Hun nøler.'
+      })
+    );
+    expect(errors).toEqual([]);
+  });
+
+  it('passes with 4 options where answer matches one of them', () => {
+    const errors = validateQuestion(
+      makeQuestion({
+        type: 'multiple-choice',
+        options: ['Hun nøler.', 'Hun frøs.', 'Hun gledet seg.', 'Hun lo.'],
+        answer: 'Hun lo.'
       })
     );
     expect(errors).toEqual([]);
@@ -241,20 +252,16 @@ describe('validateQuestion — multiple-choice type', () => {
       options: ['Hun nøler.', 'Hun frøs.'],
       answer: 'Hun nøler.'
     });
-    expect(validateQuestion(q)).toContain(
-      'options must have exactly 3 entries for multiple-choice'
-    );
+    expect(validateQuestion(q)).toContain('options must have 3 or 4 entries for multiple-choice');
   });
 
-  it('flags more than 3 options', () => {
+  it('flags more than 4 options', () => {
     const q = makeQuestion({
       type: 'multiple-choice',
-      options: ['a', 'b', 'c', 'd'],
+      options: ['a', 'b', 'c', 'd', 'e'],
       answer: 'a'
     });
-    expect(validateQuestion(q)).toContain(
-      'options must have exactly 3 entries for multiple-choice'
-    );
+    expect(validateQuestion(q)).toContain('options must have 3 or 4 entries for multiple-choice');
   });
 
   it('flags missing options', () => {
@@ -262,7 +269,7 @@ describe('validateQuestion — multiple-choice type', () => {
     const partial = { ...q } as Partial<GrammarQuestion>;
     delete partial.options;
     expect(validateQuestion(partial)).toContain(
-      'options must have exactly 3 entries for multiple-choice'
+      'options must have 3 or 4 entries for multiple-choice'
     );
   });
 

@@ -94,4 +94,4 @@ b) I går kjøpte ikke han brød.
 - I påstandssetninger står verbet på **plass 2**
 - Noe annet enn subjektet først → subjekt og verb bytter plass (**inversjon**)
 - **Ikke** står etter verbet, og etter subjektet når det er et pronomen
-- Reglen gjelder ikke spørsmål uten spørreord (**Spiser du frokost?**) og imperativ (**Spis frokost!**), der
+- Regelen gjelder ikke spørsmål uten spørreord (**Spiser du frokost?**) og imperativ (**Spis frokost!**). Der står verbet først.

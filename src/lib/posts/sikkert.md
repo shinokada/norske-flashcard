@@ -112,6 +112,6 @@ sannsynligvis · kanskje · trolig · helt sikkert · garantert · muligens
 
 ---
 
-_→ Vil du lære forskjellen mellom **sørge for**, **være sikker på** og **forsikre seg om**? Les: [Sørge for vs være sikker på vs forsikre seg om](/blog/sorge-vs-sikker-vs-forsikre)_
+<!-- TODO: re-add link to [Sørge for vs være sikker på vs forsikre seg om](/blog/sorge-vs-sikker-vs-forsikre) once that post publishes (currently scheduled 2027-02-03) -->
 
 _→ Vil du lære forskjellen mellom **trolig**, **sannsynligvis** og **sikkert**? Les: [Trolig vs Sannsynligvis vs Sikkert](/blog/trolig-vs-sannsynligvis-vs-sikkert)_

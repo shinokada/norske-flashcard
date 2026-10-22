@@ -90,7 +90,7 @@ _Om tid kan du si **Det er lenge til jul**._
 
 ## Norskprøven — eksempelspørsmål
 
-**1. Velg riktig ord: «Jeg ventet ______.»**
+**1. Velg riktig ord: «Jeg ventet \______.»**
 a) lenge
 b) lang
 

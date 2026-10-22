@@ -117,6 +117,6 @@ ond · fæl · grusom · ubehagelig · svak · utilstrekkelig
 
 ---
 
-_→ Vil du lære forskjellen mellom **oppføre seg**, **opptre** og **arte seg**? Les: [Oppføre seg vs opptre vs arte seg](/blog/oppfore-vs-opptre)_
+<!-- TODO: re-add link to [Oppføre seg vs opptre vs arte seg](/blog/oppfore-vs-opptre) once that post publishes (currently scheduled 2027-02-05) -->
 
 _→ Vil du lære forskjellen mellom **lei seg** og **trist**? Les: [Lei seg vs trist](/blog/lei-seg-vs-trist)_

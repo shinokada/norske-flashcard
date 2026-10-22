@@ -108,7 +108,7 @@ b) burde
 - **skulle** = fortidsformen av **skal**: was going to / was supposed to
 - **skulle til å** = was about to
 - **hvis det skulle …** = if it were to …
-- råd i nåtid (*should*) uttrykkes vanligvis med **burde**, og **should have** heter **skulle ha** + partisipp
+- råd i nåtid (_should_) uttrykkes vanligvis med **burde**, og **should have** heter **skulle ha** + partisipp
 
 ---
 

@@ -100,7 +100,7 @@ mestre · håndtere · få til · rekke · evne
 
 ---
 
-_→ Vil du lære mer om **få** med ulike partikler? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa)_
+_→ Vil du lære mer om **få** med ulike partikler? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa-tak-i)_
 
 _→ Vil du lære uttrykket **gi deg**? Les: [Gi deg — Slutt med det / La det være](/blog/gi-deg)_
 

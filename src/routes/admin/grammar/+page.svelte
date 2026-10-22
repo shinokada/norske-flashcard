@@ -717,7 +717,8 @@
         {#if fieldVisible(modal.question.type, 'options')}
           <div class="col-span-2 text-sm">
             <span class="block font-medium dark:text-gray-200"
-              >Options (exactly 3 — answer must match one exactly)</span
+              >Options ({modal.question.type === 'punctuation' ? 'exactly 3' : '3 or 4'} — answer must
+              match one exactly)</span
             >
             <div class="mt-1 flex flex-wrap gap-1">
               {#each modal.question.options ?? [] as option, i (i)}

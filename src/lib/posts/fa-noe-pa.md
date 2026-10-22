@@ -119,4 +119,4 @@ ta på seg · ta av seg · kle på seg · kle av seg · sitte fast · for liten 
 
 ---
 
-_→ Vil du lære mer om **få** med andre partikler? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa)_
+_→ Vil du lære mer om **få** med andre partikler? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa-tak-i)_

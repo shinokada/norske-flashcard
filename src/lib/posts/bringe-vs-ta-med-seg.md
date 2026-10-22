@@ -58,11 +58,11 @@ tags: [verbs, comparison, vocabulary]
 
 | Bruk                         | ta med seg | bringe |
 | ---------------------------- | :--------: | :----: |
-| Hverdagslig tale             |     ✅      |        |
-| Du frakter noe selv          |     ✅      |   ✅    |
-| Budtjeneste / tredjepart     |            |   ✅    |
-| Skriftlig / formelt register |            |   ✅    |
-| Føre til / forårsake noe     |            |   ✅    |
+| Hverdagslig tale             |     ✅     |        |
+| Du frakter noe selv          |     ✅     |   ✅   |
+| Budtjeneste / tredjepart     |            |   ✅   |
+| Skriftlig / formelt register |            |   ✅   |
+| Føre til / forårsake noe     |            |   ✅   |
 
 Usikker i dagligtale? Velg **ta med seg**.
 
@@ -116,4 +116,4 @@ hente · frakte · levere · føre til · forårsake · medføre
 
 ---
 
-_→ Vil du se hva forskjellen er mellom **ta** og **få**? Les: [Ta vs Få](/blog/ta-vs-fa)_
+<!-- TODO: re-add link to [Ta vs Få](/blog/ta-vs-fa) once that post publishes (currently scheduled 2027-01-08) -->

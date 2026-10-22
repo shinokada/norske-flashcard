@@ -112,6 +112,6 @@ sted · arrangement · institusjon · by · land
 
 ---
 
-_→ Vil du lære forskjellen mellom **ved** og **på**? Les: [Ved vs På — nær noe eller på en overflate](/blog/ved-vs-pa)_
+<!-- TODO: re-add link to [Ved vs På — nær noe eller på en overflate](/blog/ved-vs-pa) once that post publishes (currently scheduled 2027-01-20) -->
 
 _→ Vil du lære hvordan **i, for** og **på** brukes med tid i stedet for sted? Les: [I, For og På — tidsuttrykk på norsk](/blog/i-for-pa-tid)_

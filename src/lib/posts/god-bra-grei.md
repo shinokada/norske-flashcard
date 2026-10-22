@@ -1,10 +1,10 @@
 ---
 title: 'God vs Bra vs Grei — Når «bra» blir til «greit»'
-description: 'god er genuint bra, bra er solid positivt, og grei er rett og slett godkjent – akseptabelt, men ikke noe mer.'
+description: 'God og bra er omtrent like sterke, men bøyes ulikt og passer til ulike ting. Grei betyr akseptabelt, eller sympatisk om en person.'
 slug: god-bra-grei
 cefr: A2
 publishedAt: 2026-05-30
-updatedAt: 2026-09-12
+updatedAt: 2026-10-22
 tags: [adjectives, vocabulary]
 decks:
   - level: a2
@@ -15,138 +15,115 @@ decks:
     label: A1 Adjectives
 ---
 
-> **Kort sagt:** _God_, _bra_, og _grei_ danner en skala fra sterkt til nøytralt. Å forstå forskjellen gjør at du unngår å kalle noe middelmådig når du egentlig mente det var flott.
-
-## Kort forklaring
-
-**God**, **bra** og **grei** overlapper litt — men tonen er ganske forskjellig.
-
-- **god** → genuint bra, høy kvalitet
-- **bra** → solid og positivt, den trygge midtveien
-- **grei** → ok, akseptabelt — ikke noe spesielt
+> **Kort sagt:** **God** og **bra** er begge positive og omtrent like sterke. Forskjellen er at **god** bøyes (_godt, gode_) og at **bra** ikke gjør det. **Grei** er et trinn ned: akseptabelt, men ikke noe mer.
 
 ---
 
 ## Skalaen
 
-> **fantastisk → veldig god → god → bra → grei → dårlig**
+> **fantastisk → god / bra → grei → dårlig**
 
-Jo lenger til høyre du går, jo mer lunken blir inntrykket.
+**God** og **bra** står på samme trinn. Det er **grei** som er lunken.
 
 ---
 
-## God — genuint bra
+## God — bøyes og passer til mat og karakter
 
-**God** uttrykker at noe er **virkelig bra**, enten i kvalitet, smak, eller karakter.
+**God** bøyes etter det den beskriver: _en god bok, et godt hus, gode venner_.
 
 **1. Dette er en god bok.**
-→ Ekte kvalitet — du mener det.
+→ Høy kvalitet.
 
 **2. Hun er en god venn.**
-→ Lojal, varm, ekte.
+→ Lojal og varm.
 
-**3. Vi hadde en god samtale.**
-→ Meningsfull, ikke bare hyggelig.
+**3. Maten smaker godt.**
+→ Om mat og smak bruker du **god/godt**.
 
 ---
 
-## Bra — solid og positivt
+## Bra — bøyes ikke
 
-**Bra** er det mest allsidige alternativet. Det er positivt, men ikke like sterkt som **god** i mange sammenhenger.
+**Bra** har bare én form. Det passer til hverdagen: helse, resultater og om noe fungerer.
 
 **1. Filmen var bra.**
-→ Du likte den. En enkel, positiv reaksjon.
+→ Du likte den.
 
 **2. Det går bra.**
-→ Standard og betryggende — brukes hele tiden.
+→ Alt er i orden.
 
-**3. Det er en bra løsning.**
-→ Praktisk, fornuftig, fungerer godt.
+**3. Bra jobbet!**
+→ Ros for en innsats.
 
 ---
 
-## Grei — ok, akseptabelt, greit nok
+## Grei — ok, ikke mer
 
-**Grei** betyr at noe er **akseptabelt** — ikke dårlig, men ikke spesielt bra heller.
+**Grei** betyr akseptabelt: ikke dårlig, men heller ikke imponerende. Til intetkjønn bruker du **greit**.
 
 **1. Filmen var grei.**
-→ Grei nok, kan ses — men ikke noe å skrive hjem om.
+→ Den kunne ses, men var ikke noe spesielt.
 
 **2. Maten var grei.**
-→ Ikke dårlig, men heller ikke imponerende.
+→ Ikke dårlig, ikke imponerende.
 
-**3. Det er greit for meg.**
-→ Aksept eller enighet — ingen innvendinger.
-
-**4. Han er en grei fyr.**
-→ Brukt om personer er **grei** faktisk ganske positivt: avslappet, likandes, ukomplisert.
+**3. Han er en grei fyr.**
+→ Om en person betyr **grei** noe positivt: hyggelig, rettferdig, uproblematisk.
 
 ---
 
-## Sammenligningstabell
+## Sammenligning
 
-|          | Styrke   | Tone                          | Eksempel           |
-| -------- | -------- | ----------------------------- | ------------------ |
-| **god**  | Sterk    | Genuint bra / høy kvalitet    | God bok · god venn |
-| **bra**  | Middels+ | Solid positivt · allsidig     | Bra film · bra idé |
-| **grei** | Nøytral  | Ok · akseptabelt · «ikke noe» | Grei film · greit  |
+|          | Bøyning              | Passer til                 | Eksempel                 |
+| -------- | -------------------- | -------------------------- | ------------------------ |
+| **god**  | god · godt · gode    | kvalitet · mat · karakter  | en god bok · godt brød   |
+| **bra**  | bøyes ikke           | helse · resultat · hverdag | det går bra · bra jobbet |
+| **grei** | grei · greit · greie | akseptabelt · snill person | greit nok · en grei fyr  |
 
 ---
 
 ## Vanlige feil
 
 ❌ Middagen var grei, takk for maten.
-⭕ Middagen var god / bra, takk for maten.
+⭕ Middagen var **god**, takk for maten.
 
-_Å si «grei» om maten til noen høres lunket ut. Bruk god eller bra for å vise ekte takknemlighet._
+_Å si «grei» om maten du får høres lunkent ut._
 
 ❌ Det er god for meg.
-⭕ Det er greit for meg.
+⭕ Det er **greit** for meg.
 
-_For å uttrykke aksept eller enighet er greit det naturlige ordet — ikke god._
-
----
-
-## Husk dette
-
-- **god** → genuint bra — kvalitet, smak, karakter
-- **bra** → solid og positivt — det trygge, hverdagslige valget
-- **grei** → akseptabelt — greit, ok, ikke noe spesielt
-- Om **personer** er grei positivt: avslappet, snill, ukomplisert
-- Om **ting** er grei nøytralt: ok, ikke imponerende
-
----
-
-## Norskprøven — eksempelspørsmål
-
-**1. Velg riktig ord: «Middagen var \______, takk for maten.»**
-a) grei
-b) god
-
-**Svar:** b) god — å si grei om maten høres lunket ut.
-
-**2. Velg riktig ord: «Det er ______ for meg.» (jeg samtykker)**
-a) god
-b) greit
-
-**Svar:** b) greit — uttrykker aksept eller enighet.
-
-**3. Hvilket ord står nederst på skalaen fra sterkt til nøytralt positivt?**
-a) grei
-b) god
-
-**Svar:** a) grei — akseptabelt, ikke noe spesielt.
+_Å si at noe passer deg heter **greit**. Og **det** krever intetkjønn, så **god** går heller ikke: det heter **godt**._
 
 ---
 
 ## Greit som bekreftelse
 
-**Greit** brukes også alene for å si «ok» eller «forstått»:
+**Greit** brukes alene som svar, og betyr da «ok» eller «forstått»:
 
 - Kan vi møtes klokka seks? — **Greit.**
 - Husk å ta med passet. — **Greit, det gjør jeg.**
 
-Her betyr det ikke «good» — det betyr bare «understood / fine / agreed».
+---
+
+## Norskprøven — eksempelspørsmål
+
+**1. Velg riktig svar: «Kan vi møtes klokka seks?» — «\______.»**
+a) Grei
+b) Greit
+
+**Svar:** b) Greit — du sier ok, i intetkjønn.
+
+**2. Velg riktig ord: «Filmen var ikke dårlig, men heller ikke noe spesielt. Den var \______.»**
+a) fantastisk
+b) grei
+
+**Svar:** b) grei — akseptabelt, ikke mer.
+
+**3. Velg riktig form: «Suppen er \______.»**
+a) god
+b) godt
+
+**Svar:** a) god — **suppen** er et en-ord.
 
 ---
 
@@ -162,8 +139,8 @@ Her betyr det ikke «good» — det betyr bare «understood / fine / agreed».
 
 ## Relaterte ord
 
-ok · akseptabel · anstendig · passende · tilfredsstillende
+ok · akseptabel · fin · flink · dårlig
 
 ---
 
-_→ Ser du på hva «god» betyr i praksis kontra **fin** og **flink**? Les del 1: [God vs Bra vs Fin](/blog/god-bra-fin)_
+_→ Vil du se hva «god» betyr i praksis kontra **fin** og **flink**? Les del 1: [God vs Bra vs Fin](/blog/god-bra-fin)_

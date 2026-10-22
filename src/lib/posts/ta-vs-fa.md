@@ -19,13 +19,13 @@ decks:
 
 ## Ta — du gjør noe selv
 
-**1. Jeg **tar** bussen.**
+1. Jeg **tar** bussen.
 
-**2. Jeg **tar** en eksamen.**
+2. Jeg **tar** en eksamen.
 
-**3. Hun **tok** førerkortet da hun var 18 år.**
+3. Hun **tok** førerkortet da hun var 18 år.
 
-**4. Jeg skal **ta** førerkortet neste år.**
+4. Jeg skal **ta** førerkortet neste år.
 
 I **«Hun tok førerkortet»** betyr **tok** at hun gjennomførte det som skulle til for å få førerkortet. **Ta førerkort** er et fast uttrykk.
 
@@ -35,13 +35,13 @@ På bokmål skriver vi **førerkort** (nynorsk: _førekort_).
 
 ## Få — du ender opp med noe
 
-**1. Hun **fikk** førerkort da hun var 18 år.**
+1. Hun **fikk** førerkort da hun var 18 år.
 
-**2. Jeg **fikk** en gave.**
+2. Jeg **fikk** en gave.
 
-**3. Han **fikk** en jobb.**
+3. Han **fikk** en jobb.
 
-**4. Jeg **fikk** lov til å gå hjem.**
+4. Jeg **fikk** lov til å gå hjem.
 
 ---
 
@@ -123,6 +123,6 @@ skaffe · oppnå · motta · gjennomføre · bestå
 
 ---
 
-_→ Vil du lære flere uttrykk med **få**? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa)_
+_→ Vil du lære flere uttrykk med **få**? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa-tak-i)_
 
 _→ Vil du se forskjellen mellom å bringe og ta med seg noe? Les: [Bringe vs Ta med seg](/blog/bringe-vs-ta-med-seg)_

@@ -108,4 +108,4 @@ nedfor · deprimert · ulykkelig · bekymret · tung · sorgfull
 
 ---
 
-_→ Vil du lære forskjellen mellom **synes synd på** og **være lei for**? Les: [Synes synd på vs være lei for](/blog/lei-vs-synd)_
+<!-- TODO: re-add link to [Synes synd på vs være lei for](/blog/lei-vs-synd) once that post publishes (currently scheduled 2027-01-29) -->

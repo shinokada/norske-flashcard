@@ -118,7 +118,7 @@ b) få i gang
 
 **Svar:** b) få i gang — å starte noe som ikke er i gang.
 
-**3. Velg riktig uttrykk: «Leksene er for vanskelige. Jeg ______.»**
+**3. Velg riktig uttrykk: «Leksene er for vanskelige. Jeg \______.»**
 a) får det ikke til
 b) får ikke tak i det
 

@@ -115,4 +115,4 @@ språk · morsmål · målspråk · flytende · morsmålsnivå · hankjønn · b
 
 ---
 
-_→ Vil du lære om substantiv uten ubestemt artikkel? Les: [Substantiv uten ubestemt artikkel](/blog/substantiv-uten-ubestemt-artikkel)_
+<!-- TODO: re-add link to [Substantiv uten ubestemt artikkel](/blog/substantiv-uten-ubestemt-artikkel) once that post publishes (currently scheduled 2026-11-04) -->

@@ -109,4 +109,4 @@ nærme seg · gå fram til · gå bort fra · se bort fra · falle bort
 
 ---
 
-_→ Vil du lære flere verb med partikler? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa)_
+_→ Vil du lære flere verb med partikler? Les: [Få + partikel — tak i, til, på, i gang](/blog/fa-tak-i)_
