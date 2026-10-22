@@ -1,5 +1,17 @@
 # norske-flashcard
 
+## 2.113.0
+
+### Minor Changes
+
+- - **New Features**
+    - Multiple-choice grammar questions now support three or four answers, with choices labeled A–D. Questions with a sentence display it alongside the prompt.
+    - Updated blog links redirect readers to the current article addresses.
+
+  - **Documentation**
+    - Refreshed Norwegian grammar and vocabulary guides with revised explanations, examples, comparisons, and practice questions across topics including word order, prepositions, and commonly confused expressions.
+    - Updated listening recommendations for learners at different levels.
+
 ## 2.112.0
 
 ### Minor Changes
