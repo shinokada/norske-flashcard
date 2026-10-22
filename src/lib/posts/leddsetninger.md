@@ -15,11 +15,7 @@ decks:
     label: A2 Grammar
 ---
 
-> **Kort sagt:** En **leddsetning** kan ikke stå alene som en setning — den spiller en rolle inne i en større en. Det tydeligste signalet på norsk er ordstillingen: **ikke** og andre setningsadverb flyttes foran verbet i en leddsetning.
-
-## Kort forklaring
-
-En **leddsetning** er en klausul som ikke kan stå alene som en fullstendig setning. Den er avhengig av en **helsetning** og spiller en bestemt grammatisk rolle — som objekt, årsak, betingelse, beskrivelse, eller indirekte spørsmål.
+> **Kort sagt:** En **leddsetning** kan ikke stå alene som en setning. Den er avhengig av en **helsetning** og fyller en rolle i den, for eksempel som objekt, årsak, betingelse, beskrivelse eller indirekte spørsmål. Det tydeligste signalet på norsk er ordstillingen: **ikke** og andre setningsadverb flyttes foran verbet i en leddsetning.
 
 ---
 
@@ -37,23 +33,13 @@ En **leddsetning** er en klausul som ikke kan stå alene som en fullstendig setn
 > at det regner
 > hvis jeg er trøtt
 
-Disse føles ufullstendige — man venter automatisk på mer.
+Disse føles ufullstendige — man venter automatisk på mer. Det er den enkleste testen: kjenner du behov for «mer», er du i en leddsetning.
 
 Med helsetning:
 
 > Jeg går hjem **fordi han kommer**.
 > Jeg vet **at det regner**.
 > **Hvis jeg er trøtt**, legger jeg meg.
-
----
-
-## Den enkleste testen: kan det stå alene?
-
-> Han kommer ikke. ✓ Fullstendig setning → helsetning
-
-> fordi han ikke kommer ✗ Ufullstendig → leddsetning
-
-Så snart du kjenner behovet for «mer», er du i en leddsetning.
 
 ---
 
@@ -176,54 +162,6 @@ Disse ordene innleder ofte en leddsetning:
 | Indirekte spørsmål | hvorfor · hva · hvem · hvor · hvordan · når |
 
 → Les mer: [Subjunksjoner](/blog/subjunksjoner)
-
----
-
-## Praktisk sjekkliste
-
-Når du leser norsk og støter på en klausul, spør deg:
-
-1. **Kan den stå alene som en fullstendig setning?**
-   → Ja: helsetning. Nei: leddsetning.
-
-2. **Har den subjekt + ikke + verb (i stedet for subjekt + verb + ikke)?**
-   → Sterkt signal på leddsetning.
-
-3. **Er den innledet av et av ordene i tabellen over?**
-   → Sannsynligvis en leddsetning.
-
----
-
-## Norskprøven — eksempelspørsmål
-
-**1. Velg riktig setning:**
-a) Jeg vet at han er ikke hjemme.
-b) Jeg vet at han ikke er hjemme.
-
-**Svar:** b) — i leddsetninger kommer **ikke** før det finitte verbet.
-
-**2. Hvilken av disse kan stå alene som en fullstendig setning?**
-a) fordi han kommer
-b) han kommer
-
-**Svar:** b) han kommer — dette er en helsetning.
-
-**3. Velg riktig ordstilling i et indirekte spørsmål:**
-a) Jeg vet ikke hvorfor han ikke kommer.
-b) Jeg vet ikke hvorfor kommer han ikke.
-
-**Svar:** a) — leddsetningens ordstilling: subjekt + ikke + verb.
-
----
-
-## Sammenligningstabell
-
-| Kjennetegn             | Helsetning              | Leddsetning                  |
-| ---------------------- | ----------------------- | ---------------------------- |
-| Kan stå alene          | ✅                      | ❌                           |
-| Plassering av **ikke** | etter verbet            | før verbet                   |
-| Typisk innleder        | —                       | at, fordi, hvis, når, som …  |
-| Eksempel               | Han **er ikke** hjemme. | fordi han **ikke er** hjemme |
 
 ---
 
