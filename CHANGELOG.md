@@ -1,5 +1,16 @@
 # norske-flashcard
 
+## 2.114.0
+
+### Minor Changes
+
+- - **New Features**
+    - Add 133 animal idioms
+    - Grammar exercises now respond to single-key shortcuts when the page itself is focused, as well as when focus is in the question area.
+
+  - **Improvements**
+    - Shortcuts remain ignored when focus is on another control, helping prevent unintended actions while using those controls.
+
 ## 2.113.0
 
 ### Minor Changes
