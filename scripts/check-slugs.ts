@@ -169,7 +169,9 @@ if (existsSync(vercelPath)) {
   for (const { source, destination } of vercel.redirects ?? []) {
     const m = destination.match(/^\/blog\/([a-z0-9-]+)\/?$/);
     if (m && !bySlug.has(m[1])) {
-      errors.push(`vercel.json: redirect ${source} -> ${destination}, but no post has slug "${m[1]}"`);
+      errors.push(
+        `vercel.json: redirect ${source} -> ${destination}, but no post has slug "${m[1]}"`
+      );
     }
   }
 }

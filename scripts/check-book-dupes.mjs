@@ -55,8 +55,21 @@ const GENDER = /\s*\((en|et|ei|en\/ei|en\/et|en\/men)\)\s*$/i;
 const PLURAL = /\s*\((b\.)?pl\.\)\s*$/i;
 const UBOY = /\s*\(ubøy\.\)\s*$/i;
 const CORE_DROP = new Set([
-  'å', 'være', 'bli', 'alt', 'helt',
-  'seg', 'meg', 'deg', 'oss', 'dere', 'dem', 'ham', 'henne', 'noen', 'noe',
+  'å',
+  'være',
+  'bli',
+  'alt',
+  'helt',
+  'seg',
+  'meg',
+  'deg',
+  'oss',
+  'dere',
+  'dem',
+  'ham',
+  'henne',
+  'noen',
+  'noe'
 ]);
 
 function tidy(s) {
@@ -69,7 +82,9 @@ function tidy(s) {
 }
 
 export function baseClean(raw) {
-  let s = String(raw ?? '').toLowerCase().replace(/[«»"“”„]/gu, ' ');
+  let s = String(raw ?? '')
+    .toLowerCase()
+    .replace(/[«»"“”„]/gu, ' ');
   s = s.replace(/\s+/g, ' ').trim();
   s = s.replace(GENDER, '').replace(PLURAL, '').replace(UBOY, '');
   return s;
@@ -120,7 +135,7 @@ function makeVariants(pairs) {
         label,
         tokens,
         tokSet: new Set(tokens),
-        core: coreTokens.join(' '),
+        core: coreTokens.join(' ')
       });
     }
   }
@@ -166,8 +181,13 @@ function matchPair(f, p) {
     if (shared) {
       const j = shared / (f.tokSet.size + p.tokSet.size - shared);
       if (j >= 0.75) reasons.push(`token overlap ${j.toFixed(2)}`);
-      const [s, l] = f.tokens.length <= p.tokens.length ? [f.tokens, p.tokens] : [p.tokens, f.tokens];
-      if (containsSeq(l, s) && (s.length >= 3 || (s.length / l.length >= 0.6 && s.join(' ').length >= 7))) reasons.push('one contains the other');
+      const [s, l] =
+        f.tokens.length <= p.tokens.length ? [f.tokens, p.tokens] : [p.tokens, f.tokens];
+      if (
+        containsSeq(l, s) &&
+        (s.length >= 3 || (s.length / l.length >= 0.6 && s.join(' ').length >= 7))
+      )
+        reasons.push('one contains the other');
     }
   }
   if (Math.min(f.text.length, p.text.length) >= 8) {
@@ -199,7 +219,10 @@ function entryRecord(file, i, e) {
     norsk: e.norsk || '',
     lemma: e.lemma || '',
     sense: (e.sense || '').trim().toLowerCase(),
-    variants: makeVariants([['norsk', e.norsk], ['lemma', e.lemma]]),
+    variants: makeVariants([
+      ['norsk', e.norsk],
+      ['lemma', e.lemma]
+    ])
   };
 }
 
@@ -209,7 +232,10 @@ function loadProduction(dataDir) {
   for (const type of ['vocab', 'uttrykk']) {
     for (const lvl of LEVELS) {
       const file = path.join(dataDir, `${type}-${lvl}.json`);
-      if (!fs.existsSync(file)) { missing.push(file); continue; }
+      if (!fs.existsSync(file)) {
+        missing.push(file);
+        continue;
+      }
       readJson(file).forEach((e, i) => recs.push(entryRecord(file, i, e)));
     }
   }
@@ -235,8 +261,11 @@ function loadItems(file) {
         label: `${path.basename(abs)}:${i + 1}`,
         shown: e.norsk || e.lemma || '',
         sense: (e.sense || '').trim().toLowerCase(),
-        variants: makeVariants([['norsk', e.norsk], ['lemma', e.lemma]]),
-      })),
+        variants: makeVariants([
+          ['norsk', e.norsk],
+          ['lemma', e.lemma]
+        ])
+      }))
     };
   }
   if (data && Array.isArray(data.items)) {
@@ -248,8 +277,12 @@ function loadItems(file) {
         label: `#${it.n}`,
         shown: it.quiz || it.key || it.expl || '',
         sense: '',
-        variants: makeVariants([['quiz', it.quiz], ['key', it.key], ['expl', it.expl]]),
-      })),
+        variants: makeVariants([
+          ['quiz', it.quiz],
+          ['key', it.key],
+          ['expl', it.expl]
+        ])
+      }))
     };
   }
   throw new Error(`${file}: neither an inventory ({items}) nor an array of entries`);
@@ -270,11 +303,20 @@ function analyse(items, sources) {
           // deliberately split senses are not duplicates (find_dupes.py rule)
           if (m.cls === 'EXACT' && item.sense && rec.sense && item.sense !== rec.sense) continue;
           let slot = byProd.get(rec.uid);
-          if (!slot) { slot = { rec, best: m.cls, forms: new Map() }; byProd.set(rec.uid, slot); }
+          if (!slot) {
+            slot = { rec, best: m.cls, forms: new Map() };
+            byProd.set(rec.uid, slot);
+          }
           if (RANK[m.cls] > RANK[slot.best]) slot.best = m.cls;
           const prev = slot.forms.get(f.label);
           if (!prev || RANK[m.cls] > RANK[prev.cls]) {
-            slot.forms.set(f.label, { cls: m.cls, reason: m.reason, form: f.text, matched: p.text, via: p.label });
+            slot.forms.set(f.label, {
+              cls: m.cls,
+              reason: m.reason,
+              form: f.text,
+              matched: p.text,
+              via: p.label
+            });
           }
         }
       }
@@ -318,8 +360,10 @@ function buildReport(results, intra, ctx) {
   L.push(`# Duplicate report (${ctx.title})`);
   L.push('');
   L.push(`Generated ${new Date().toISOString().slice(0, 10)} by \`scripts/check-book-dupes.mjs\`.`);
-  L.push(`Items: ${results.length} from ${ctx.itemFiles.join(', ')}. `
-    + `Compared with ${ctx.prodCount} production entries and ${ctx.draftCount} draft entries (both \`norsk\` and \`lemma\`).`);
+  L.push(
+    `Items: ${results.length} from ${ctx.itemFiles.join(', ')}. ` +
+      `Compared with ${ctx.prodCount} production entries and ${ctx.draftCount} draft entries (both \`norsk\` and \`lemma\`).`
+  );
   if (ctx.missing.length) L.push(`Missing production files: ${ctx.missing.join(', ')}.`);
   L.push('');
   L.push('| Class | Items | Action |');
@@ -330,16 +374,23 @@ function buildReport(results, intra, ctx) {
   L.push(`| INTRA groups | ${intra.length} | owner decides |`);
   L.push(`| CLEAN | ${count('CLEAN')} | no match |`);
   L.push('');
-  L.push('An item is reported with its highest class. EXACT beats NEAR beats HEAD. '
-    + 'The reverse HEAD case (a one-word production entry inside a longer item) is not reported.');
+  L.push(
+    'An item is reported with its highest class. EXACT beats NEAR beats HEAD. ' +
+      'The reverse HEAD case (a one-word production entry inside a longer item) is not reported.'
+  );
   L.push('');
 
   const section = (cls, title, head, row, cap) => {
     const rs = results.filter((r) => r.cls === cls);
     L.push(`## ${title} (${rs.length})`);
     L.push('');
-    if (!rs.length) { L.push('None.'); L.push(''); return; }
-    L.push(head[0]); L.push(head[1]);
+    if (!rs.length) {
+      L.push('None.');
+      L.push('');
+      return;
+    }
+    L.push(head[0]);
+    L.push(head[1]);
     for (const r of rs) {
       const ms = r.matches.filter((m) => m.best === cls);
       ms.slice(0, cap).forEach((m, i) => L.push(row(r, m, i)));
@@ -348,24 +399,49 @@ function buildReport(results, intra, ctx) {
     L.push('');
   };
 
-  section('EXACT', 'EXACT (skip)',
-    ['| Item | Heading | Production | ID | File | Forms |', '| --- | --- | --- | --- | --- | --- |'],
-    (r, m) => `| ${r.item.label} | ${esc(r.item.shown)} | ${esc(m.rec.norsk)} | ${m.rec.id || '(draft)'} | ${m.rec.src} | ${esc(formSummary(m))} |`, 5);
-  section('NEAR', 'NEAR (owner decides)',
-    ['| Item | Heading | Production | ID | File | Why | Forms |', '| --- | --- | --- | --- | --- | --- | --- |'],
+  section(
+    'EXACT',
+    'EXACT (skip)',
+    [
+      '| Item | Heading | Production | ID | File | Forms |',
+      '| --- | --- | --- | --- | --- | --- |'
+    ],
+    (r, m) =>
+      `| ${r.item.label} | ${esc(r.item.shown)} | ${esc(m.rec.norsk)} | ${m.rec.id || '(draft)'} | ${m.rec.src} | ${esc(formSummary(m))} |`,
+    5
+  );
+  section(
+    'NEAR',
+    'NEAR (owner decides)',
+    [
+      '| Item | Heading | Production | ID | File | Why | Forms |',
+      '| --- | --- | --- | --- | --- | --- | --- |'
+    ],
     (r, m) => {
       const f = [...m.forms.values()].find((x) => x.cls === 'NEAR');
       return `| ${r.item.label} | ${esc(r.item.shown)} | ${esc(m.rec.norsk)} | ${m.rec.id || '(draft)'} | ${m.rec.src} | ${esc(f?.reason)} | ${esc(formSummary(m))} |`;
-    }, 8);
-  section('HEAD', 'HEAD (not duplicates, information)',
-    ['| Item | Heading | Production phrases containing it | ID | File | |', '| --- | --- | --- | --- | --- | --- |'],
-    (r, m) => `| ${r.item.label} | ${esc(r.item.shown)} | ${esc(m.rec.norsk)} | ${m.rec.id || '(draft)'} | ${m.rec.src} | |`, 4);
+    },
+    8
+  );
+  section(
+    'HEAD',
+    'HEAD (not duplicates, information)',
+    [
+      '| Item | Heading | Production phrases containing it | ID | File | |',
+      '| --- | --- | --- | --- | --- | --- |'
+    ],
+    (r, m) =>
+      `| ${r.item.label} | ${esc(r.item.shown)} | ${esc(m.rec.norsk)} | ${m.rec.id || '(draft)'} | ${m.rec.src} | |`,
+    4
+  );
 
   L.push(`## INTRA (${intra.length})`);
   L.push('');
   if (!intra.length) L.push('None.');
   for (const g of intra) {
-    L.push(`- ${g.items.map((i) => `${i.label} \`${i.shown}\``).join(' and ')} normalise to: ${g.texts.map((t) => `\`${t}\``).join(', ')}`);
+    L.push(
+      `- ${g.items.map((i) => `${i.label} \`${i.shown}\``).join(' and ')} normalise to: ${g.texts.map((t) => `\`${t}\``).join(', ')}`
+    );
   }
   L.push('');
   const clean = results.filter((r) => r.cls === 'CLEAN').map((r) => r.item.label);
@@ -380,24 +456,50 @@ function buildReport(results, intra, ctx) {
 
 function validate(dataDir) {
   let fail = 0;
-  const ok = (cond, msg) => { console.log(`${cond ? 'PASS' : 'FAIL'}  ${msg}`); if (!cond) fail++; };
+  const ok = (cond, msg) => {
+    console.log(`${cond ? 'PASS' : 'FAIL'}  ${msg}`);
+    if (!cond) fail++;
+  };
 
   // normalisation
-  ok(forms('«Å VÆRE FULL SOM EN ALKE»')[0] === 'være full som en alke', 'guillemets, capitals and å are removed');
+  ok(
+    forms('«Å VÆRE FULL SOM EN ALKE»')[0] === 'være full som en alke',
+    'guillemets, capitals and å are removed'
+  );
   ok(forms('Din gjøk!').includes('din gjøk'), 'final ! is removed');
-  ok(forms('Ingen vet hvor haren hopper....').includes('ingen vet hvor haren hopper'), 'trailing dots are removed');
-  ok(forms('Å smake /lukte pyton').includes('smake pyton') && forms('Å smake /lukte pyton').includes('lukte pyton'), 'a /b variants are split');
-  ok(forms('Å være dau/død som ei sild').includes('være død som ei sild'), 'dau/død variants are split');
-  ok(forms('ta (alt) for god fisk').includes('ta for god fisk') && forms('ta (alt) for god fisk').includes('ta alt for god fisk'), 'optional (parts) with and without');
+  ok(
+    forms('Ingen vet hvor haren hopper....').includes('ingen vet hvor haren hopper'),
+    'trailing dots are removed'
+  );
+  ok(
+    forms('Å smake /lukte pyton').includes('smake pyton') &&
+      forms('Å smake /lukte pyton').includes('lukte pyton'),
+    'a /b variants are split'
+  );
+  ok(
+    forms('Å være dau/død som ei sild').includes('være død som ei sild'),
+    'dau/død variants are split'
+  );
+  ok(
+    forms('ta (alt) for god fisk').includes('ta for god fisk') &&
+      forms('ta (alt) for god fisk').includes('ta alt for god fisk'),
+    'optional (parts) with and without'
+  );
   ok(forms('elv (en/ei)')[0] === 'elv', 'gender marker is removed');
-  ok(forms('Å skyte gullfuglen')[0] !== forms('Å skyte gullfugl')[0], 'no stemming (gullfuglen stays distinct from gullfugl)');
+  ok(
+    forms('Å skyte gullfuglen')[0] !== forms('Å skyte gullfugl')[0],
+    'no stemming (gullfuglen stays distinct from gullfugl)'
+  );
 
   const { recs, missing } = loadProduction(dataDir);
   ok(missing.length === 0 && recs.length > 1000, `production loaded (${recs.length} entries)`);
 
   const mk = (label, heads) => ({
-    uid: `validate#${label}`, label, shown: heads[0][1], sense: '',
-    variants: makeVariants(heads),
+    uid: `validate#${label}`,
+    label,
+    shown: heads[0][1],
+    sense: '',
+    variants: makeVariants(heads)
   });
   const run = (item) => analyse([item], recs)[0];
 
@@ -405,11 +507,19 @@ function validate(dataDir) {
   const hkHit = hk.matches.find((m) => m.rec.id === 'w-008709');
   ok(!!hkHit, `"holde kjeft" finds w-008709 (class ${hkHit?.best ?? 'none'})`);
 
-  const f159 = run(mk('159', [['key', 'Å ta for god fisk'], ['expl', 'Å ta alt for god fisk']]));
+  const f159 = run(
+    mk('159', [
+      ['key', 'Å ta for god fisk'],
+      ['expl', 'Å ta alt for god fisk']
+    ])
+  );
   const hit = f159.matches.find((m) => m.rec.id === 'w-008587');
   ok(hit?.best === 'EXACT', `item 159 is EXACT against w-008587 (class ${hit?.best ?? 'none'})`);
   ok(hit?.forms.get('key')?.cls === 'EXACT', 'item 159 key form is EXACT');
-  ok(['NEAR', 'EXACT'].includes(hit?.forms.get('expl')?.cls), `item 159 explanation form is NEAR or better (${hit?.forms.get('expl')?.cls ?? 'none'})`);
+  ok(
+    ['NEAR', 'EXACT'].includes(hit?.forms.get('expl')?.cls),
+    `item 159 explanation form is NEAR or better (${hit?.forms.get('expl')?.cls ?? 'none'})`
+  );
 
   const neg = run(mk('neg', [['key', 'Å flomgurgle snurrepiperen']]));
   ok(neg.cls === 'CLEAN', 'an unrelated made-up phrase has no match');
@@ -421,7 +531,14 @@ function validate(dataDir) {
 // --------------------------------------------------------------------- main
 
 function parseArgs(argv) {
-  const o = { items: [], draft: [], dataDir: path.join(root, 'src', 'lib', 'data'), out: null, json: null, validate: false };
+  const o = {
+    items: [],
+    draft: [],
+    dataDir: path.join(root, 'src', 'lib', 'data'),
+    out: null,
+    json: null,
+    validate: false
+  };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--items') o.items.push(argv[++i]);
@@ -430,7 +547,10 @@ function parseArgs(argv) {
     else if (a === '--out') o.out = path.resolve(argv[++i]);
     else if (a === '--json') o.json = path.resolve(argv[++i]);
     else if (a === '--validate') o.validate = true;
-    else { console.error(`Unknown argument: ${a}`); process.exit(2); }
+    else {
+      console.error(`Unknown argument: ${a}`);
+      process.exit(2);
+    }
   }
   return o;
 }
@@ -439,7 +559,9 @@ function main() {
   const args = parseArgs(process.argv.slice(2));
   if (args.validate) process.exit(validate(args.dataDir));
   if (!args.items.length) {
-    console.error('Usage: node scripts/check-book-dupes.mjs --items FILE [--items FILE] [--draft FILE] [--out FILE] [--validate]');
+    console.error(
+      'Usage: node scripts/check-book-dupes.mjs --items FILE [--items FILE] [--draft FILE] [--out FILE] [--validate]'
+    );
     process.exit(2);
   }
   const loaded = args.items.map(loadItems);
@@ -447,8 +569,9 @@ function main() {
   const { recs: prod, missing } = loadProduction(args.dataDir);
   const drafts = args.draft.flatMap(loadDraft);
   // item files that are draft entry arrays are also comparison sources (Stage C: drafts vs each other)
-  const itemSources = loaded.filter((l) => l.kind === 'entries').flatMap((l) =>
-    readJson(l.file).map((e, i) => entryRecord(l.file, i, e)));
+  const itemSources = loaded
+    .filter((l) => l.kind === 'entries')
+    .flatMap((l) => readJson(l.file).map((e, i) => entryRecord(l.file, i, e)));
   const sources = [...prod, ...drafts, ...itemSources];
 
   const results = analyse(items, sources);
@@ -456,15 +579,17 @@ function main() {
 
   const first = loaded[0];
   const inventoryMode = first.kind === 'inventory';
-  const out = args.out
-    ?? (inventoryMode ? path.join(path.dirname(first.file), 'dupe-report.md')
+  const out =
+    args.out ??
+    (inventoryMode
+      ? path.join(path.dirname(first.file), 'dupe-report.md')
       : path.join(__dirname, 'outputs', 'book-dupes-report.md'));
   const report = buildReport(results, intra, {
     title: inventoryMode ? 'Stage A, inventory' : 'drafts',
     itemFiles: loaded.map((l) => path.relative(root, l.file)),
     prodCount: prod.length,
     draftCount: drafts.length + itemSources.length,
-    missing,
+    missing
   });
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, report);
@@ -474,13 +599,31 @@ function main() {
       item: r.item.label,
       heading: r.item.shown,
       class: r.cls,
-      matches: r.matches.map((m) => ({ class: m.best, id: m.rec.id, file: m.rec.src, norsk: m.rec.norsk, forms: Object.fromEntries(m.forms) })),
+      matches: r.matches.map((m) => ({
+        class: m.best,
+        id: m.rec.id,
+        file: m.rec.src,
+        norsk: m.rec.norsk,
+        forms: Object.fromEntries(m.forms)
+      }))
     }));
-    fs.writeFileSync(args.json, JSON.stringify({ results: json, intra: intra.map((g) => ({ items: g.items.map((i) => i.label), texts: g.texts })) }, null, 2));
+    fs.writeFileSync(
+      args.json,
+      JSON.stringify(
+        {
+          results: json,
+          intra: intra.map((g) => ({ items: g.items.map((i) => i.label), texts: g.texts }))
+        },
+        null,
+        2
+      )
+    );
   }
 
   const c = (k) => results.filter((r) => r.cls === k).length;
-  console.log(`Items ${results.length}: EXACT ${c('EXACT')}, NEAR ${c('NEAR')}, HEAD ${c('HEAD')}, CLEAN ${c('CLEAN')}, INTRA groups ${intra.length}`);
+  console.log(
+    `Items ${results.length}: EXACT ${c('EXACT')}, NEAR ${c('NEAR')}, HEAD ${c('HEAD')}, CLEAN ${c('CLEAN')}, INTRA groups ${intra.length}`
+  );
   console.log(`Report: ${out}`);
   // Stage C gate: unresolved matches mean a non-zero exit
   if (!inventoryMode && (c('EXACT') || c('NEAR') || intra.length)) process.exitCode = 1;
