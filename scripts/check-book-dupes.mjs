@@ -339,8 +339,14 @@ function findIntra(items) {
   const groups = new Map();
   for (const [text, m] of byText) {
     if (m.size < 2) continue;
-    const key = [...m.keys()].sort().join('|');
-    if (!groups.has(key)) groups.set(key, { items: [...m.values()], texts: [] });
+    const all = [...m.values()];
+    // same rule as analyse(): deliberately split senses are not duplicates
+    const kept = all.filter((a) =>
+      all.some((b) => b !== a && (!a.sense || !b.sense || a.sense === b.sense))
+    );
+    if (kept.length < 2) continue;
+    const key = kept.map((i) => i.uid).sort().join('|');
+    if (!groups.has(key)) groups.set(key, { items: kept, texts: [] });
     groups.get(key).texts.push(text);
   }
   return [...groups.values()];
@@ -539,13 +545,23 @@ function parseArgs(argv) {
     json: null,
     validate: false
   };
-  for (let i = 0; i < argv.length; i++) {
+  let i = 0;
+  // value of a value-taking option; a missing value (or another option) is an argument error
+  const next = (flag) => {
+    const v = argv[++i];
+    if (v === undefined || v.startsWith('--')) {
+      console.error(`Missing value for ${flag}`);
+      process.exit(2);
+    }
+    return v;
+  };
+  for (; i < argv.length; i++) {
     const a = argv[i];
-    if (a === '--items') o.items.push(argv[++i]);
-    else if (a === '--draft') o.draft.push(argv[++i]);
-    else if (a === '--data-dir') o.dataDir = path.resolve(argv[++i]);
-    else if (a === '--out') o.out = path.resolve(argv[++i]);
-    else if (a === '--json') o.json = path.resolve(argv[++i]);
+    if (a === '--items') o.items.push(next(a));
+    else if (a === '--draft') o.draft.push(next(a));
+    else if (a === '--data-dir') o.dataDir = path.resolve(next(a));
+    else if (a === '--out') o.out = path.resolve(next(a));
+    else if (a === '--json') o.json = path.resolve(next(a));
     else if (a === '--validate') o.validate = true;
     else {
       console.error(`Unknown argument: ${a}`);
@@ -625,6 +641,11 @@ function main() {
     `Items ${results.length}: EXACT ${c('EXACT')}, NEAR ${c('NEAR')}, HEAD ${c('HEAD')}, CLEAN ${c('CLEAN')}, INTRA groups ${intra.length}`
   );
   console.log(`Report: ${out}`);
+  // Missing production files mean the comparison is incomplete, in both modes
+  if (missing.length) {
+    console.error(`Missing production files (results are incomplete): ${missing.join(', ')}`);
+    process.exitCode = 1;
+  }
   // Stage C gate: unresolved matches mean a non-zero exit
   if (!inventoryMode && (c('EXACT') || c('NEAR') || intra.length)) process.exitCode = 1;
 }
